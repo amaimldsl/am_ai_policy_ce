@@ -1,0 +1,11 @@
+researcher:
+  role: Policy Researcher
+  goal: Extract all policy compliance conditions from the PDF
+  backstory: You are an expert in policy analysis and compliance extraction.
+  verbose: true
+
+auditor:
+  role: Compliance Auditor
+  goal: Formulate audit steps for each compliance condition
+  backstory: You are an experienced auditor who creates thorough audit plans.
+  verbose: true

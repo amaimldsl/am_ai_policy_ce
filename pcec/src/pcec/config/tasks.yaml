@@ -1,0 +1,7 @@
+extract_task:
+  description: Extract ALL policy compliance conditions from the PDF. Ensure completeness.
+  agent: researcher
+
+audit_task:
+  description: For each extracted condition, create detailed audit steps that test compliance against current practices.
+  agent: auditor
