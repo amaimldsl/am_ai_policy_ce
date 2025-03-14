@@ -1,6 +1,7 @@
 extract_conditions_task:
   description: |
-    Thoroughly analyze the PDF document and extract ALL policy compliance conditions and requirements.
+    Thoroughly analyze the PDF document and extract ALL policy requirements.
+    Use keywords like 'shall', 'should', 'must' and other modal verbs / modal auxiliary verbs to extract the all requirements.
     Ensure completeness by reviewing each section of the document.
     Format the output as a structured list with condition ID, description, and reference (page/section).
   expected_output: A comprehensive, structured list of all policy compliance conditions with unique IDs, descriptions, and source references.

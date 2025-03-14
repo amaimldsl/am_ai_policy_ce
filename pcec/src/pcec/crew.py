@@ -1,10 +1,33 @@
-from crewai import Agent, Task, Crew, Process, LLM
+from crewai import Agent, Task, Crew, Process
+from crewai import LLM
+import os
+from pathlib import Path
+from dotenv import load_dotenv
 
 # Import your custom tools here
 from tools.PDFTool import PDFTool
 
-# Use the same LLM as in the original code
-llm = LLM("ollama/deepseek-r1")
+# Load environment variables
+load_dotenv()
+
+# Create output directory if it doesn't exist
+output_dir = Path(__file__).parent / "output"
+output_dir.mkdir(exist_ok=True)
+
+# Get DeepSeek API credentials
+deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
+deepseek_api_base = os.getenv("DEEPSEEK_API_BASE")
+deepseek_model = os.getenv("DEEPSEEK_MODEL", "deepseek/deepseek-chat")
+
+# Initialize the DeepSeek LLM
+llm = LLM(
+    model=deepseek_model,
+    api_key=deepseek_api_key,
+    api_base=deepseek_api_base,
+    temperature=0.2,
+    max_tokens=4096,
+    streaming=True
+)
 
 # Define enhanced agents with more specific roles and goals
 policy_analyzer = Agent(
@@ -52,7 +75,7 @@ extract_conditions_task = Task(
     """,
     expected_output="A comprehensive, structured list of all policy compliance conditions with unique IDs, descriptions, and source references.",
     agent=policy_analyzer,
-    llm=llm,
+    output_file=str(output_dir / "1_policy_conditions_extraction.md")
 )
 
 identify_risks_task = Task(
@@ -63,8 +86,8 @@ identify_risks_task = Task(
     """,
     expected_output="A detailed risk register mapping risks to compliance conditions with assessment of likelihood and impact.",
     agent=risk_assessor,
-    llm=llm,
-    context=[extract_conditions_task]
+    context=[extract_conditions_task],
+    output_file=str(output_dir / "2_risk_assessment.md")
 )
 
 design_controls_task = Task(
@@ -75,8 +98,8 @@ design_controls_task = Task(
     """,
     expected_output="A comprehensive control framework with specific controls mapped to each identified risk.",
     agent=control_designer,
-    llm=llm,
-    context=[identify_risks_task]
+    context=[identify_risks_task],
+    output_file=str(output_dir / "3_control_framework.md")
 )
 
 develop_tests_task = Task(
@@ -87,8 +110,8 @@ develop_tests_task = Task(
     """,
     expected_output="A detailed audit program with specific test procedures for each control to verify compliance with policy requirements.",
     agent=audit_planner,
-    llm=llm,
-    context=[design_controls_task]
+    context=[design_controls_task],
+    output_file=str(output_dir / "4_audit_test_procedures.md")
 )
 
 generate_report_task = Task(
@@ -104,8 +127,8 @@ generate_report_task = Task(
     """,
     expected_output="A comprehensive compliance analysis report with all components and a traceability matrix.",
     agent=policy_analyzer,
-    llm=llm,
-    context=[extract_conditions_task, identify_risks_task, design_controls_task, develop_tests_task]
+    context=[extract_conditions_task, identify_risks_task, design_controls_task, develop_tests_task],
+    output_file=str(output_dir / "5_final_compliance_report.md")
 )
 
 # Create enhanced crew with sequential process
@@ -114,7 +137,6 @@ enhanced_crew = Crew(
     tasks=[extract_conditions_task, identify_risks_task, design_controls_task, develop_tests_task, generate_report_task],
     process=Process.sequential,
     verbose=True,
-    llm=llm,
 )
 
 # Make crew available for import
