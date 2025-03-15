@@ -2,6 +2,7 @@ import sys
 import time
 import traceback
 from pathlib import Path
+import os
 
 from crew import pcec
 
@@ -9,10 +10,31 @@ def main():
     """Main function to run the policy compliance analysis."""
     try:
         print("Starting Policy Compliance Analysis...")
+        
+        # Check if policy directory exists and has PDF files
+        base_dir = Path(__file__).parent
+        policy_dir = base_dir / "policy"
+        policy_dir.mkdir(exist_ok=True)
+        
+        pdf_files = list(policy_dir.glob("*.pdf"))
+        if not pdf_files:
+            print("⚠️ No PDF files found in the policy directory!")
+            print(f"Please place PDF files in: {policy_dir}")
+            return 1
+        
+        print(f"Found {len(pdf_files)} PDF files in policy directory:")
+        for pdf in pdf_files:
+            print(f"  - {pdf.name}")
+        
+        print(f"Using {pdf_files[0].name} for analysis...")
+        
+        # Create output directory if it doesn't exist
+        output_dir = base_dir / "output"
+        output_dir.mkdir(exist_ok=True)
+        
         start_time = time.time()
         
         # Run the crew - outputs will be automatically saved to the specified files
-        # Change 'run' to 'kickoff' as this is the correct method in CrewAI
         result = pcec.kickoff()
         
         end_time = time.time()

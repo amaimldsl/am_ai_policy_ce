@@ -1,17 +1,48 @@
 extract_conditions_task:
   description: |
-    Thoroughly analyze the PDF document and extract ALL policy requirements.
-    Use keywords like 'shall', 'should', 'must' and other modal verbs / modal auxiliary verbs to extract the all requirements.
-    Ensure completeness by reviewing each section of the document.
-    Format the output as a structured list with condition ID, description, and reference (page/section).
-  expected_output: A comprehensive, structured list of all policy compliance conditions with unique IDs, descriptions, and source references.
+    Thoroughly analyze the PDF document and extract ALL policy compliance conditions and requirements.
+    Focus on extracting requirements based on these indicators:
+    1. Modal verbs: 'shall', 'must', 'should', 'will', 'may not', 'required to', 'obligated to'
+    2. Imperative statements: 'ensure that', 'provide', 'maintain', 'establish'
+    3. Compliance language: 'comply with', 'in accordance with', 'adherence to'
+    4. Prohibition language: 'prohibited from', 'restricted from', 'not permitted to'
+    
+    Process the document in smaller chunks to avoid token limitations:
+    - Process one section at a time
+    - For each section, identify all compliance requirements
+    - Maintain consistent ID format across sections (e.g., REQ-001, REQ-002)
+    
+    Format each requirement as:
+    - ID: [Unique identifier]
+    - Requirement: [Full text of the requirement]
+    - Source: [Page/section reference]
+    - Type: [Mandatory/Recommended based on language]
+    - Modal Verb: [The key modal verb or phrase that indicates this is a requirement]
+  
+  expected_output: A comprehensive, structured list of all policy compliance conditions with unique IDs, descriptions, source references, and classification by type.
   agent: policy_analyzer
 
 identify_risks_task:
   description: |
     For each extracted compliance condition, identify and analyze potential risks of non-compliance.
-    Assess the likelihood and potential impact of each risk.
-    Format the output as a structured list with risk ID, related condition ID, risk description, likelihood, and impact.
+    Process the requirements in smaller batches (10-15 at a time) to manage token limitations.
+    
+    For each requirement:
+    1. Identify the primary risk of non-compliance
+    2. Identify any secondary risks
+    3. Assess likelihood (Low/Medium/High) based on complexity and clarity of the requirement
+    4. Assess impact (Low/Medium/High) based on potential consequences of non-compliance
+    5. Calculate risk score (1-9) based on likelihood and impact
+
+    Format each risk as:
+    - Risk ID: [RISK-xxx]
+    - Related Requirement ID: [REQ-xxx]
+    - Risk Description: [Clear description of what could go wrong]
+    - Likelihood: [Low/Medium/High]
+    - Impact: [Low/Medium/High]
+    - Risk Score: [Numerical score]
+    - Risk Level: [Low/Medium/High based on score]
+  
   expected_output: A detailed risk register mapping risks to compliance conditions with assessment of likelihood and impact.
   agent: risk_assessor
   context:
@@ -20,8 +51,24 @@ identify_risks_task:
 design_controls_task:
   description: |
     For each identified risk, design appropriate controls to mitigate the risk and ensure compliance.
-    Specify whether each control is preventive, detective, or corrective.
-    Format the output as a structured list with control ID, related risk ID, control description, control type, and implementation considerations.
+    Process the risks in smaller batches (10-15 at a time) to manage token limitations.
+    
+    For each risk:
+    1. Design at least one control for each risk type:
+       - Preventive: Controls that prevent non-compliance
+       - Detective: Controls that detect instances of non-compliance
+       - Corrective: Controls that address non-compliance when found
+    2. Ensure controls are specific, practical, and measurable
+    3. Indicate implementation priority (High/Medium/Low) based on risk level
+    
+    Format each control as:
+    - Control ID: [CTRL-xxx]
+    - Related Risk ID: [RISK-xxx]
+    - Control Description: [Detailed description of the control]
+    - Control Type: [Preventive/Detective/Corrective]
+    - Implementation Priority: [High/Medium/Low]
+    - Implementation Considerations: [Resources, limitations, dependencies]
+  
   expected_output: A comprehensive control framework with specific controls mapped to each identified risk.
   agent: control_designer
   context:
@@ -30,8 +77,24 @@ design_controls_task:
 develop_tests_task:
   description: |
     For each control, develop detailed test procedures to verify implementation and effectiveness.
-    Include specific steps, expected results, and evidence requirements for each test.
-    Format the output as a structured audit program with test ID, related control ID, test objective, detailed test steps, and evidence requirements.
+    Process the controls in smaller batches (10-15 at a time) to manage token limitations.
+    
+    For each control:
+    1. Develop a primary test procedure that directly verifies the control's effectiveness
+    2. Include specific, actionable test steps (not generic steps)
+    3. Specify the exact evidence to collect and review
+    4. Define clear expected results that indicate compliance
+    
+    Format each test procedure as:
+    - Test ID: [TEST-xxx]
+    - Related Control ID: [CTRL-xxx]
+    - Test Objective: [Clear statement of what the test aims to verify]
+    - Test Frequency: [How often the test should be performed]
+    - Prerequisites: [What must be in place before testing]
+    - Test Steps: [Numbered, detailed steps to perform]
+    - Expected Results: [Specific outcomes that indicate compliance]
+    - Evidence Requirements: [Exact documents or artifacts to collect]
+  
   expected_output: A detailed audit program with specific test procedures for each control to verify compliance with policy requirements.
   agent: audit_planner
   context:
@@ -39,14 +102,21 @@ develop_tests_task:
 
 generate_report_task:
   description: |
-    Compile all findings into a comprehensive report that includes:
+    Compile all findings into a comprehensive report, handling token limitations by:
+    1. Processing each section (conditions, risks, controls, tests) separately
+    2. Creating an executive summary that highlights key findings only
+    3. Including statistical summaries rather than full details where appropriate
+    
+    The report should include:
     1. Executive summary of the policy analysis
-    2. Complete listing of all compliance conditions
-    3. Risk assessment results
-    4. Control framework
-    5. Audit test procedures
+    2. Overview statistics (e.g., number of requirements by type, risk levels distribution)
+    3. Top 10 highest risk areas
+    4. Top 10 most critical controls
+    5. Complete listing of all compliance conditions (as an appendix/attachment)
     6. Traceability matrix showing relationships between conditions, risks, controls, and tests
+    
     Format the report in a professional, well-structured manner suitable for executive review.
+  
   expected_output: A comprehensive compliance analysis report with all components and a traceability matrix.
   agent: policy_analyzer
   context:
