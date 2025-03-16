@@ -1,166 +1,73 @@
-Here is the detailed risk register mapping risks to compliance conditions with assessment of likelihood, impact, and source references:
+### Risk Assessment Report for Consolidated Compliance Conditions
 
-### Risk Register:
+#### Condition ID: 120
+- **Risk Scenario**: Failure to embed stress tests in decision-making processes could lead to inadequate risk management and poor decision-making.
+- **Likelihood of Non-Compliance**: Medium
+- **Impact of Non-Compliance**: High
+- **Description**: If stress tests are not effectively integrated into the bank’s decision-making processes, the bank may fail to identify and mitigate key risks, leading to potential financial losses or regulatory penalties.
 
-1. **Risk ID: R1**
-   - **Related Condition ID: 1**
-   - **Risk Description:** Failure to mitigate Pillar 1 risks (credit, market, and operational risk) with adequate capital could lead to financial instability and regulatory penalties.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 1.
+#### Condition ID: 121
+- **Risk Scenario**: Inadequate documentation of risk mitigation decisions could result in regulatory scrutiny and potential fines.
+- **Likelihood of Non-Compliance**: Medium
+- **Impact of Non-Compliance**: Medium
+- **Description**: If the bank fails to document and justify decisions not to take action on risk mitigations, it may face challenges in demonstrating compliance during audits or regulatory reviews.
 
-2. **Risk ID: R2**
-   - **Related Condition ID: 2**
-   - **Risk Description:** Inadequate quantification of risks not covered by Pillar 1 capital could result in insufficient capital buffers, increasing vulnerability to financial shocks.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 1.
+#### Condition ID: 122
+- **Risk Scenario**: Ineffective reverse stress testing could lead to the bank being unprepared for severe adverse scenarios.
+- **Likelihood of Non-Compliance**: Medium
+- **Impact of Non-Compliance**: High
+- **Description**: If reverse stress tests are not conducted properly, the bank may not identify scenarios that could render its business model non-viable, leading to significant financial and reputational damage.
 
-3. **Risk ID: R3**
-   - **Related Condition ID: 3**
-   - **Risk Description:** Lack of a robust Internal Capital Adequacy Assessment Process (ICAAP) could lead to misalignment between capital levels and risk profile, resulting in regulatory non-compliance.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 2.
+#### Condition ID: 123
+- **Risk Scenario**: Lack of involvement from key stakeholders in reverse stress testing could result in incomplete or inaccurate assessments.
+- **Likelihood of Non-Compliance**: Medium
+- **Impact of Non-Compliance**: High
+- **Description**: Without the involvement of Senior Management, the Board, and subject matter experts, reverse stress tests may not accurately reflect the bank’s risk profile, leading to inadequate risk mitigation strategies.
 
-4. **Risk ID: R4**
-   - **Related Condition ID: 4**
-   - **Risk Description:** Failure of the Board of Directors to approve the ICAAP annually could result in governance gaps and regulatory scrutiny.
-   - **Likelihood:** Low
-   - **Impact:** Medium
-   - **Reference:** Document: document.pdf, Page 154, Section III. ICAAP Governance, Paragraph 15.
+#### Condition ID: 124
+- **Risk Scenario**: Failure to conduct annual reverse stress tests could result in the bank being unprepared for severe adverse events.
+- **Likelihood of Non-Compliance**: Low
+- **Impact of Non-Compliance**: High
+- **Description**: If the bank does not conduct reverse stress tests annually, it may miss critical vulnerabilities in its business model, leading to potential financial instability.
 
-5. **Risk ID: R5**
-   - **Related Condition ID: 5**
-   - **Risk Description:** Non-compliance with Central Bank Standards on Pillar 2 capital could lead to regulatory penalties and reputational damage.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 2.
+#### Condition ID: 125
+- **Risk Scenario**: Late submission of the ICAAP report could result in regulatory penalties and reputational damage.
+- **Likelihood of Non-Compliance**: Low
+- **Impact of Non-Compliance**: Medium
+- **Description**: If the ICAAP report is not submitted on time, the bank may face fines and increased scrutiny from regulators, potentially damaging its reputation.
 
-6. **Risk ID: R6**
-   - **Related Condition ID: 6**
-   - **Risk Description:** Failure to meet the adjusted Minimum Capital Adequacy ratio could result in regulatory intervention and financial instability.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 3.
+#### Condition ID: 126
+- **Risk Scenario**: Incorrect submission format of documents could lead to delays in regulatory review and potential penalties.
+- **Likelihood of Non-Compliance**: Low
+- **Impact of Non-Compliance**: Medium
+- **Description**: If documents are not submitted in the required format, the Central Bank may reject the submission, leading to delays and potential regulatory action.
 
-7. **Risk ID: R7**
-   - **Related Condition ID: 7**
-   - **Risk Description:** Inadequate adoption of the Pillar 1 plus approach could lead to insufficient capital coverage, increasing financial risk.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 155, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 17.
+#### Condition ID: 128
+- **Risk Scenario**: Lack of approval from Senior Management and the Board for the ICAAP report could result in regulatory non-compliance.
+- **Likelihood of Non-Compliance**: Low
+- **Impact of Non-Compliance**: High
+- **Description**: If the ICAAP report is not approved by the required authorities, the bank may face regulatory penalties and increased scrutiny.
 
-8. **Risk ID: R8**
-   - **Related Condition ID: 8**
-   - **Risk Description:** Lack of appropriate methods and procedures for ICAAP could result in inadequate capital coverage for material risks.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 155, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 18.
+#### Condition ID: 130
+- **Risk Scenario**: Failure to submit the Internal Audit report on time could result in regulatory penalties.
+- **Likelihood of Non-Compliance**: Low
+- **Impact of Non-Compliance**: Medium
+- **Description**: If the Internal Audit report is not submitted within the required timeframe, the bank may face fines and increased regulatory scrutiny.
 
-9. **Risk ID: R9**
-   - **Related Condition ID: 9**
-   - **Risk Description:** Inconsistent ICAAP effectiveness across levels could lead to regulatory non-compliance and financial instability.
-   - **Likelihood:** Medium
-   - **Impact:** High
-   - **Reference:** Document: document.pdf, Page 156, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 21.
+#### Condition ID: 131
+- **Risk Scenario**: Inadequate reviews of the risk management process could lead to undetected risks and regulatory non-compliance.
+- **Likelihood of Non-Compliance**: Medium
+- **Impact of Non-Compliance**: High
+- **Description**: If internal control functions do not regularly review the risk management process, the bank may fail to identify and mitigate key risks, leading to potential financial losses and regulatory penalties.
 
-10. **Risk ID: R10**
-    - **Related Condition ID: 10**
-    - **Risk Description:** Failure to evaluate the difference between ICAAP at bank and solo levels could result in misaligned capital adequacy assessments.
-    - **Likelihood:** Medium
-    - **Impact:** Medium
-    - **Reference:** Document: document.pdf, Page 156, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 23.
+#### Condition ID: 132
+- **Risk Scenario**: Inaccurate regulatory data submission could result in regulatory penalties and reputational damage.
+- **Likelihood of Non-Compliance**: Medium
+- **Impact of Non-Compliance**: High
+- **Description**: If the bank submits inaccurate or incomplete regulatory data, it may face fines, increased scrutiny, and reputational damage.
 
-11. **Risk ID: R11**
-    - **Related Condition ID: 11**
-    - **Risk Description:** Inadequate risk analysis for Real Estate exposures could lead to increased credit risk and regulatory penalties.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 164, Section E. Credit Concentration Risk, Paragraph 81.
-
-12. **Risk ID: R12**
-    - **Related Condition ID: 12**
-    - **Risk Description:** Lack of a defined risk appetite for Interest Rate Risk in the Banking Book (IRRBB) could result in financial losses and regulatory non-compliance.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 165, Section F. Interest Rate Risk in the Banking Book (IRRBB), Paragraph 84.
-
-13. **Risk ID: R13**
-    - **Related Condition ID: 13**
-    - **Risk Description:** Failure to compute the economic value of equity (EVE) at a granular level could lead to misestimation of interest rate risk exposure.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 165, Section F. Interest Rate Risk in the Banking Book (IRRBB), Paragraph 87.
-
-14. **Risk ID: R14**
-    - **Related Condition ID: 14**
-    - **Risk Description:** Non-application of interest rate shock scenarios could result in inadequate risk management and regulatory penalties.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 165, Section F. Interest Rate Risk in the Banking Book (IRRBB), Paragraph 88.
-
-15. **Risk ID: R15**
-    - **Related Condition ID: 15**
-    - **Risk Description:** Inadequate management of credit concentration risk could lead to increased financial instability and regulatory scrutiny.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 164, Section E. Credit Concentration Risk, Paragraph 81.
-
-16. **Risk ID: R16**
-    - **Related Condition ID: RC-1**
-    - **Risk Description:** Incorrect calculation of Replacement Cost (RC) could lead to misestimation of exposure and regulatory penalties.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 46.
-
-17. **Risk ID: R17**
-    - **Related Condition ID: RC-2**
-    - **Risk Description:** Misapplication of RC calculation rules could result in incorrect exposure assessments and financial losses.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 46.
-
-18. **Risk ID: R18**
-    - **Related Condition ID: PFE-1**
-    - **Risk Description:** Incorrect calculation of Potential Future Exposure (PFE) could lead to inadequate capital allocation and regulatory non-compliance.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 46.
-
-19. **Risk ID: R19**
-    - **Related Condition ID: EAD-1**
-    - **Risk Description:** Misestimation of Exposure at Default (EAD) could result in insufficient capital buffers and regulatory penalties.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 46.
-
-20. **Risk ID: R20**
-    - **Related Condition ID: Netting-1**
-    - **Risk Description:** Failure to establish a robust internal process for netting agreement validation could lead to regulatory scrutiny and financial losses.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 49.
-
-21. **Risk ID: R21**
-    - **Related Condition ID: Netting-2**
-    - **Risk Description:** Unapproved amendments to netting agreements could result in invalid netting sets and increased exposure.
-    - **Likelihood:** Low
-    - **Impact:** Medium
-    - **Reference:** Document: document.pdf, Page 49.
-
-22. **Risk ID: R22**
-    - **Related Condition ID: Netting-3**
-    - **Risk Description:** Invalid netting agreements could lead to incorrect exposure calculations and regulatory penalties.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 49.
-
-23. **Risk ID: R23**
-    - **Related Condition ID: Collateral-1**
-    - **Risk Description:** Misapplication of supervisory haircuts to collateral could result in incorrect exposure assessments and financial losses.
-    - **Likelihood:** Medium
-    - **Impact:** High
-    - **Reference:** Document: document.pdf, Page 49.
-
-24. **Risk ID
+#### Condition ID: 1
+- **Risk Scenario**: Lack of documented evidence of reports submitted to senior management and the board could result in regulatory non-compliance.
+- **Likelihood of Non-Compliance**: Low
+- **Impact of Non-Compliance**: Medium
+- **Description**: If the bank fails to document evidence of reports submitted to senior management and the board, it may face challenges

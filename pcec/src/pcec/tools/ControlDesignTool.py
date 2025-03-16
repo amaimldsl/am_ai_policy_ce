@@ -40,27 +40,74 @@ class ControlDesignTool(BaseTool):
         
         return f"Invalid action: {action}"
     
+    
+    #####################
     def _parse_risks(self, risks_text):
         """Parse the risks text into structured data"""
         parsed = []
         
-        # Simple regex-based parsing - adapt to your actual format
-        risk_pattern = re.compile(r'##\s*(R-\d+):\s*(C-\d+)\s*\n\*\*Description\*\*:\s*(.*?)\n\*\*Source\*\*:\s*(.*?)\n', re.DOTALL)
+        # Handle different potential input formats
+        # Format 1: "Condition ID: 120 - Description..."
+        condition_pattern = re.compile(r'Condition ID:\s*(\d+)\s*-\s*(.*?)(?:\n|$)', re.DOTALL)
+        risk_id_pattern = re.compile(r'##\s*(R-\d+):\s*(C-\d+)\s*\n', re.DOTALL)
         
-        for match in risk_pattern.finditer(risks_text):
-            risk_id = match.group(1)
-            condition_id = match.group(2)
-            description = match.group(3).strip()
-            reference = match.group(4).strip()
-            
+        # Try the new format first
+        condition_matches = list(condition_pattern.finditer(risks_text))
+        if condition_matches:
+            for match in condition_matches:
+                condition_id = match.group(1)
+                description = match.group(2).strip()
+                
+                parsed.append({
+                    "id": f"R-{condition_id}",  # Create risk ID based on condition ID
+                    "condition_id": f"C-{condition_id}",
+                    "description": description,
+                    "reference": "Risk Assessment Document"  # Default reference
+                })
+        else:
+            # Fall back to the original regex format
+            for match in risk_id_pattern.finditer(risks_text):
+                risk_id = match.group(1)
+                condition_id = match.group(2)
+                
+                # Look for description and source after the header
+                desc_match = re.search(rf'{re.escape(risk_id)}.*?\n\*\*Description\*\*:\s*(.*?)\n', risks_text, re.DOTALL)
+                source_match = re.search(rf'{re.escape(risk_id)}.*?\n\*\*Source\*\*:\s*(.*?)(?:\n|$)', risks_text, re.DOTALL)
+                
+                description = desc_match.group(1).strip() if desc_match else ""
+                reference = source_match.group(1).strip() if source_match else ""
+                
+                parsed.append({
+                    "id": risk_id,
+                    "condition_id": condition_id,
+                    "description": description,
+                    "reference": reference
+                })
+        
+        # If no matches found, create a basic entry from the whole text
+        if not parsed:
             parsed.append({
-                "id": risk_id,
-                "condition_id": condition_id,
-                "description": description,
-                "reference": reference
+                "id": "R-Unknown",
+                "condition_id": "C-Unknown",
+                "description": risks_text.strip(),
+                "reference": "Unknown"
             })
-            
+                
         return parsed
+
+
+
+
+
+
+    #####################
+    
+    
+    
+    
+    
+    
+    
     
     def _determine_control_type(self, risk_description):
         """Determine the most appropriate control type"""

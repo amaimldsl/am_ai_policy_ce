@@ -153,3 +153,124 @@ LiteLLM completion() model= deepseek-chat; provider = deepseek
 2025-03-16 18:38:02,794 - LiteLLM - INFO - 
 LiteLLM completion() model= deepseek-chat; provider = deepseek
 2025-03-16 18:38:03,449 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:38:58,148 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:38:58,169 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:38:58,655 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:39:16,752 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:39:16,762 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:39:17,172 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:39:42,525 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:39:42,533 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:39:42,969 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:40:57,375 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:40:57,384 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:40:58,058 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:41:53,014 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:41:53,033 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:41:53,632 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:42:50,242 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:42:50,261 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:42:50,887 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:43:55,253 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:43:55,274 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:43:55,670 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:44:15,404 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:44:15,412 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:44:15,892 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:44:32,724 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:44:32,731 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:44:33,150 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:45:14,801 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:45:14,808 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:45:15,222 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:45:28,960 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:45:28,967 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:45:29,431 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:45:41,847 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:45:41,854 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:45:42,322 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:46:01,348 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:46:01,355 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:46:01,986 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:47:06,680 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:47:06,686 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:47:07,350 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:47:28,700 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:47:28,707 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:47:29,299 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:47:45,718 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:47:45,724 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:47:46,311 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:48:03,826 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:48:03,832 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:48:04,526 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:48:17,700 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:48:17,707 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:48:18,304 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:48:38,125 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:48:38,132 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:48:38,731 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:49:33,213 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:49:33,220 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:49:33,822 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:49:50,601 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:49:50,608 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:49:51,188 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:50:05,517 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:50:05,524 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:50:06,184 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:50:20,901 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:50:20,908 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:50:21,530 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:50:42,182 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:50:42,189 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:50:42,869 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:51:01,923 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:51:01,928 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:51:02,566 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:51:22,507 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:51:22,514 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:51:23,113 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:55:02,470 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 18:55:02,932 - root - INFO - Testing PDF tool...
+2025-03-16 18:55:02,934 - root - INFO - Preprocessing documents...
+2025-03-16 18:55:15,704 - root - INFO - Checking available tools...
+2025-03-16 18:55:15,704 - root - INFO - ✓ PDFTool is available
+2025-03-16 18:55:15,704 - root - INFO - ✓ FileIOTool is available
+2025-03-16 18:55:15,704 - root - INFO - ✓ RiskAnalysisTool is available
+2025-03-16 18:55:15,704 - root - INFO - ✓ ControlDesignTool is available
+2025-03-16 18:55:15,704 - root - INFO - ✓ AuditPlanningTool is available
+2025-03-16 18:55:15,704 - root - INFO - Starting Policy Compliance Analysis...
+2025-03-16 18:55:15,720 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:55:16,464 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:55:25,016 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:55:25,067 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:55:25,477 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
