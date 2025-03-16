@@ -1,0 +1,528 @@
+[Document: document.pdf, Page 181]
+CBUAE Classification: Public
+use of, any third parties such as external consultants or suppliers. The bank
+should provide a high-level summary reports or reviews of the outsourced
+functions’ related policy documentation and processes.
+3.2 Models
+141. The ICAAP report is required to address models used to comply with regulatory and
+accounting requirements, and those used for internal capital management, including but not
+limited to models used for:
+(i) IFRS9 accounting requirements;
+(ii) The appropriate assessment of Pillar 1 risks for capital requirements under the
+Pillar 2;
+(iii) The appropriate assessment of Pillar 2 risks for capital requirements;
+(iv) Regulatory stress tests requirements;
+(v) Risk Management Regulations;
+(vi) Valuation adjustments; and
+(vii) Pricing models, capital allocation models, and budgeting models.
+3.3 Reverse Stress Testing
+142. In addition to normal stress testing, each bank is expected to conduct reverse stress
+tests and document the process and outcomes of the process in the ICAAP report.
+143. Banks are expected to apply a mix of qualitative analyses and quantitative analyses,
+which may vary in relation to the nature, scale, and complexity of the banks’ business activities
+and the risks associated with those activities. Accordingly, it may be acceptable for smaller
+and less complex banks to develop reverse stress tests that focus more on qualitative
+analyses, while larger and more banks that are complex should include more quantitative
+elements alongside the qualitative analyses. Appropriate scenarios differ based on each bank
+economic circumstances, business model and risk drivers.
+144. A bank may consider implementing the following steps, which are presented purely for
+illustrative purposes:
+(i) Define specific trigger points that could threaten the bank’s viability or
+solvency. Such trigger points may involve situations in which:
+ The bank’s capital or liquidity positions fall below the minimum regulatory
+requirements;
+ Specific indicators which, if hit, reflect a loss of confidence by the bank’s
+counterparties (e.g. access to wholesale funding markets denied) or by
+depositors (e.g. deposit run-off rates reach a significant level); or
+ The bank is unable to repay its debt obligations. Some of the indicators
+may render the banks unviable (e.g. due to illiquidity resulting from a
+substantial and rapid deposit run) before it becomes insolvent.
+(ii) Reverse-engineering the bank’s business model to the point that the trigger
+points are breached. In this way, it is possible to identify what adverse but
+plausible financial or non-financial events, either independently or combined,
+179
+
+[Document: document.pdf, Page 182]
+CBUAE Classification: Public
+cause the bank to reach those trigger points notwithstanding existing
+management actions. That is, for reverse stress testing purposes, the bank is to
+tweak the parameters of a stress scenario until the point at which current
+systems and controls (e.g. accepted risk limits, controls, exposures and
+collaterals, etc.) are not able to prevent the bank from hitting the trigger point(s).
+The bank should understand the parameters and conditions in the scenario that
+precipitate a failed reverse stress test to analyse its risks and weaknesses.
+Feasible remedial actions should be designed that could prevent the
+consequences of such a scenario. For example, the bank could amend its
+business strategy regarding a specific sector.
+3.4 Supplementary Content Required in an ICAAP Report
+145. The following supplementary topics should be documented in the ICAAP report.
+(a) Summary of outstanding findings and required management actions from
+pertinent assessments, examinations and audits (e.g. current outstanding
+actions emanating from internal audits, external audits, risk management
+assessments, capital management reviews, Central Bank examinations, and
+Pillar 3, etc.), including the status of official actions;
+(b) Key items which warrant immediate Central Bank attention, such as a projected
+shortfall in regulatory minimum capital amount; a breach in outlier status under
+IRRBB, and any other material risks;
+(c) A list of the major changes compared to the previous ICAAP report, e.g. changes
+in data, MIS, organisation, process, and methodology; and
+(d) Key actions resulting from ICAAP discussions with the Board of Directors, in the
+form of meeting minutes included as an Appendix. (Relevant evidence should
+be made available upon request).
+180
+
+[Document: document.pdf, Page 183]
+CBUAE Classification: Public
+Pillar 3
+181
+
+[Document: document.pdf, Page 184]
+CBUAE Classification: Public
+Pillar 3 – Market Disclosures
+I. Introduction
+1. Market discipline has long been recognized as a key objective of the Central Bank of the
+UAE. The provision of meaningful information about common key risk metrics to market
+participants is a fundamental principle of a sound banking system. It reduces information
+irregularity and helps promote comparability of banks’ risk profiles within UAE. Pillar 3 of the Basel
+framework aims to promote market discipline through regulatory disclosure requirements. These
+requirements enable market participants to access key information relating to a bank’s regulatory
+capital and risk exposures in order to increase transparency and confidence about a bank’s
+exposure to risk and the overall adequacy of its regulatory capital.
+2. The revised Pillar 3 disclosures in this guidance focus on regulatory measures defined in
+Pillar 1 of the Basel framework, which requires banks to adopt specified approaches for measuring
+credit, market and operational risks and their associated resulting risk-weighted assets (RWA) and
+capital requirements. In some instances, Pillar 3 also requires supplementary information to be
+disclosed to improve the understanding of underlying risks. Central Bank continues to believe that
+a common disclosure framework based around Pillar 1 is an effective means of informing the
+market and allowing market participants to take informed investment decisions. However, in the
+wake of the 2007–09 financial crisis, it became apparent that the existing Pillar 3 framework failed
+to promote the identification of a bank’s material risks and did not provide sufficient, and
+sufficiently comparable, information to enable market participants to assess a bank’s overall
+capital adequacy and to compare it with its peers. The revised Pillar 3 disclosure requirements in
+this guidance are based on an extensive review of Pillar 3 reports.
+3. A key goal of the revised Pillar 3 disclosures is to improve comparability and consistency
+of disclosures. However, it is recognized that a balance needs to be struck between the use of
+mandatory templates that promote consistency of reporting and comparability across banks, and
+the need to allow senior management sufficient flexibility to provide commentary on a bank’s
+specific risk profile. For this reason, the revised disclosure regime introduces a “hierarchy” of
+disclosures; prescriptive fixed form templates which are used for quantitative information that is
+considered essential for the analysis of a bank’s regulatory capital requirements, and templates
+with a more flexible format are proposed for information which is considered meaningful to the
+UAE market but not central to the analysis of a bank’s regulatory capital adequacy. In addition,
+senior management may accompany the disclosure requirements in each template with a
+qualitative commentary that explains a bank’s particular circumstance and risk profile.
+II. Disclosure of Pillar 3 information
+A. Scope and implementation of the revised Pillar 3 framework
+Scope of application
+4. The revised disclosure requirements presented in this guidance supersede the existing
+Pillar 3 disclosure requirements issued in 2009. These revised requirements are an integral part
+of the Basel framework and they complement other disclosure requirements issued separately by
+Central Bank, which are uploaded on Central Bank's website/online portal for banks to download.
+182
+
+[Document: document.pdf, Page 185]
+CBUAE Classification: Public
+Pillar 3 applies to all banks in the UAE at the top consolidated level for local banks and all
+branches of foreign banks. Banks having a banking subsidiary will be required to be consolidated
+at Group level as one Pillar 3 report as well as at subsidiary solo level as a separate Pillar 3 report
+Banks offering Islamic financial services should comply with these disclosure requirements.
+These requirements are applicable to their activities that are in line with Islamic Sharia rules and
+principals, which are neither interest-based lending nor borrowing but are parallel to the activities
+described in these Guidance and Explanatory Notes
+Implementation date
+5. The Pillar 3 tables and disclosures will be effective from the beginning of 2019 for the
+previous year's figures and every year going forward. Banks need to report in each table as per
+the requirements for that table set out in the Appendix since few tables are required to be reported
+every quarter or semi-annually or annually.
+Reporting
+6. Banks should publish their Pillar 3 report in a stand-alone document on the bank’s UAE-
+specific website that provides a readily accessible source of prudential measures for users. The
+Pillar 3 report may be appended to form a discrete section of a bank’s financial reporting, but the
+full report will be needed to be disclosed separately in the Pillar 3 tables as well.
+7. Signposting of disclosure requirements is permitted in certain circumstances, as set out
+in paragraphs 21–23 below. Banks should also make available on their websites a 5-year
+archive of Pillar 3 reports (i.e. quarterly, semi-annual or annual) relating to prior reporting
+periods (past 5 years’ data)
+Frequency and timing of disclosures
+8. The reporting frequencies for each disclosure requirement are set out in the schedule in
+paragraph 27 below. The frequencies vary between quarterly, semi-annual and annual reporting
+depending upon the nature of the specific disclosure requirement. If a bank publishes interim
+financial statements, then the bank should publish the quarterly Pillar 3 report, three (3) weeks
+after the interim financial statements are published. For banks who do not have an interim financial
+statement, the Pillar 3 quarterly report needs to be published 6 weeks from quarter end.
+9. A bank’s Pillar 3 report should be published with its financial report for the corresponding
+period as mandated in paragraph 8 above. If a Pillar 3 disclosure is required to be published for
+a period when a bank does not produce any financial report, the disclosure requirement should
+be published as soon as possible. However, the time lag should not exceed that allowed to the
+bank for its regular financial reporting period-ends (e.g. if a bank reports only annually and its
+annual financial statements are made available six weeks after the end of the annual reporting
+period-end, interim Pillar 3 disclosures on a quarterly and/or semi-annual basis should be
+available within six weeks after the end of the relevant quarter or semester).
+Assurance of Pillar 3 data
+10. The information provided by banks under Pillar 3 should be subject, at a minimum, to the
+same level of internal review and internal control processes as the information provided by banks
+for their financial reporting (i.e. the level of assurance should be the same as for information
+provided within the management discussion and analysis part of the financial report).
+ The Pillar 3 Disclosures and reports have to be reviewed by internal audit of all bank for all
+Pillar 3 reports.
+183
+
+[Document: document.pdf, Page 186]
+CBUAE Classification: Public
+ All local banks and large foreign banks will need to have the annual Pillar 3 reports externally
+audited every two (2) years and smaller foreign banks (as defined in paragraph 27) will need
+to have the annual Pillar 3 reports externally audited every four (4) years.
+11. Banks should also have a formal board-approved disclosure policy for Pillar 3 information
+that sets out the internal controls and procedures for disclosure of such information. The key
+elements of this policy should be described in the year-end Pillar 3 report. The board of directors
+and senior management are responsible for establishing and maintaining an effective internal
+control structure over the disclosure of financial information, including Pillar 3 disclosures. They
+should also ensure that appropriate review of the disclosures takes place. One or more senior
+officers of a bank, ideally at board level or equivalent, should attest in writing that Pillar 3
+disclosures have been prepared in accordance with the board-agreed internal control processes.
+For larger banks, Board member attestation will be expected.
+Proprietary and confidential information
+12. The Central Bank believes that the disclosure requirements set out below strike an
+appropriate balance between the need for meaningful disclosure and the protection of proprietary
+and confidential information. In exceptional cases, disclosure of certain items required by Pillar 3
+may reveal the position of a bank or contravene its legal obligations by making public information
+that is proprietary or confidential in nature. In such cases, a bank would need to approach the
+Central Bank first and obtain approval for non-disclosure of such information they deem to be
+confidential. The Central Bank will review the information and provide approval if the bank does
+not need to disclose those specific items, but should disclose more general information about the
+subject matter of the requirement instead. The bank should also explain to Central Bank the
+specific items of information that cannot be disclosed and the reasons for this.
+B. Guiding principles for banks’ Pillar 3 disclosures
+13. The Central Bank has agreed upon five guiding principles for banks’ Pillar 3 disclosures.
+Pillar 3 complements the minimum risk-based capital requirements and other quantitative
+requirements (Pillar 1) and the supervisory review process (Pillar 2) and aims to promote market
+discipline by providing meaningful regulatory information to investors and other interested parties
+on a consistent and comparable basis. The guiding principles aim to provide a firm foundation for
+achieving transparent, high-quality Pillar 3 risk disclosures that will enable users to better
+understand and compare a bank’s business and its risks.
+14. The principles are as follows:
+Principle 1: Disclosures should be clear
+Disclosures should be presented in a form that is understandable to key stakeholders (i.e.
+investors, analysts, financial customers and others) and communicated through an accessible
+medium. Important messages should be highlighted and easy to find. Complex issues should be
+explained in simple language with important terms defined. Related risk information should be
+presented together.
+Principle 2: Disclosures should be comprehensive
+Disclosures should describe a bank’s main activities and all significant risks, supported by relevant
+underlying data and information. Significant changes in risk exposures between reporting periods
+should be described, together with the appropriate response by management.
+Disclosures should provide sufficient information in both qualitative and quantitative terms on a
+bank’s processes and procedures for identifying, measuring and managing those risks. The level
+of detail of such disclosure should be proportionate to a bank’s complexity.
+184
+
+[Document: document.pdf, Page 187]
+CBUAE Classification: Public
+Approaches to disclosure should be sufficiently flexible to reflect how senior management and the
+board of directors internally assess and manage risks and strategy, helping users to better
+understand a bank’s risk tolerance/appetite.
+Principle 3: Disclosures should be meaningful to users
+Disclosures should highlight a bank’s most significant current and emerging risks and how those
+risks are managed, including information that is likely to receive market attention. Where
+meaningful, linkages should be provided to line items on the balance sheet or the income
+statement. Disclosures that do not add value to users’ understanding or do not communicate
+useful information should be avoided. Furthermore, information, which is no longer meaningful or
+relevant to users, should be removed.
+Principle 4: Disclosures should be consistent over time
+Disclosures should be consistent over time to enable key stakeholders to identify trends in a
+bank’s risk profile across all significant aspects of its business. Additions, deletions and other
+important changes in disclosures from previous reports, including those arising from a bank’s
+specific, regulatory or market developments, should be highlighted and explained.
+Principle 5: Disclosures should be comparable across banks
+The level of detail and the format of presentation of disclosures should enable key stakeholders
+to perform meaningful comparisons of business activities, prudential metrics, risks and risk
+management between banks and across jurisdictions.
+C. Presentation of the disclosure requirements
+Templates and tables
+15. The disclosure requirements are presented either in the form of templates or of tables.
+Templates should be completed with quantitative data in accordance with the definitions provided.
+Tables generally relate to qualitative requirements, but quantitative information is also required in
+some instances. Banks may choose the format they prefer when presenting the information
+requested in tables.
+16. In line with Principle 3 above, the information provided in the templates and tables should
+be meaningful to users. The disclosure requirements in this guidance that necessitate an
+assessment from banks are specifically identified. When preparing these individual tables and
+templates, banks will need to consider carefully how widely the disclosure requirement should
+apply. If a bank considers that the information requested in a template or table would not be
+meaningful to users, for example because the exposures and RWA amounts are deemed
+immaterial, it may choose not to disclose part or all of the information requested. In such
+circumstances, however, the bank will be required to explain in a narrative commentary why it
+considers such information not to be meaningful to users. It should describe the portfolios
+excluded from the disclosure requirement and the aggregate total RWAs those portfolios
+represent.
+Templates with a fixed format
+17. Where the format of a template is described as fixed, banks should complete the fields in
+accordance with the instructions given.
+18. If a row/column is not considered to be relevant to a bank’s activities the bank may delete
+the specific row/column from the template, but the numbering of the subsequent rows and
+columns should not be altered. Banks may add extra rows and extra columns to fixed format
+templates if they wish to provide additional detail to a disclosure requirement by adding sub-rows
+185
+
+[Document: document.pdf, Page 188]
+CBUAE Classification: Public
+or columns, but the numbering of prescribed rows and columns in the template should not be
+altered.
+Templates/tables with a flexible format
+19. Where the format of a template is described as flexible, banks may present the required
+information either in the format provided in this guidance or in one that better suits the bank. The
+format for the presentation of qualitative information in tables is not prescribed.
+20. However, where a customized presentation of the information is used, the bank should
+provide information comparable with that required in the disclosure requirement (i.e. at a similar
+level of granularity as if the template/table were completed as presented in this document).
+Signposting
+21. Banks may disclose in a document separate from their Pillar 3 report (e.g. in a bank’s
+annual report or through published regulatory reporting) the templates/tables with a flexible
+format, and the fixed format templates where the criteria in paragraph 22 are met. In such
+circumstances, the specific Pillar 3 table(s) may form a section in a bank’s financial reporting, but
+the full table will be needed to be disclosed in the Pillar 3 tables separately as well.
+22. The disclosure requirements for templates with a fixed format can be disclosed by banks
+in a separate document other than the Pillar 3 report provided all of the following criteria are met:
+• the information contained in the signposted document is equivalent in terms of presentation and
+content to that required in the fixed template and allows users to make meaningful comparisons
+with information provided by banks disclosing the fixed format templates;
+• the information contained in the signposted document is based on the same scope of
+consolidation as the one used in the disclosure requirement;
+• the disclosure in the signposted document is mandatory.
+Banks should note that although signposting may be allowed in the annual report, the bank would
+still need to disclose this table separately in the Pillar 3 Disclosure along with all other tables
+mentioned in paragraph 27 below.
+23. Banks can only make use of signposting to another document if the level of assurance on
+the reliability of data in the separate document are equivalent to, or greater than, the internal
+assurance level required for the Pillar 3 report (see sections on reporting and assurance of Pillar
+3 data above).
+Qualitative narrative to accompany the disclosure requirements
+24. Banks are expected to supplement the quantitative information provided in both fixed and
+flexible templates with a narrative commentary to explain at least any significant changes between
+reporting periods and any other issues that management considers to be of interest to market
+participants. The form taken by this additional narrative is at the bank’s discretion.
+25. Disclosure of additional quantitative and qualitative information will provide market
+participants with a broader picture of a bank´s risk position and promote market discipline.
+26. Additional voluntary risk disclosures allow banks to present information relevant to their
+business model that may not be adequately captured by the standardised requirements.
+Additional quantitative information that banks choose to disclose should provide sufficient
+meaningful information to enable market participants to understand and analyze any figures
+provided. It should also be accompanied by a qualitative discussion. Any additional disclosure
+should comply with the five guiding principles set out in paragraph 14 above.
+186
+
+[Document: document.pdf, Page 189]
+CBUAE Classification: Public
+D. Format and reporting frequency of each disclosure requirement
+27. The schedule below presents a summary of the disclosure requirements, whether they are required in a fixed or flexible format.
+It also lists the publishing frequency associated with each template and table. Please also note that the below tables will be available
+as an Excel file on the Central Bank alert portal on the Central Bank's website for download.
+Please note: It is mandatory for all local banks to report all tables as per below schedule. It is also mandatory for branches of foreign
+banks with RWA of more than AED 5 billion to report all tables as per below schedule.
+Branches of foreign banks with RWA of less than AED 5 billion should report the below tables highlighted in Yellow and BOLD only
+as mandatory.
+Disclosure
+Topic
+Table Information Overview Format Frequency
+KM1 Key metrics (at consolidated group level) Fixed Quarterly
+Overview of risk
+OVA Bank risk management approach Flexible Annual
+management and RWA
+OV1 Overview of RWA Fixed Quarterly
+Differences between accounting and regulatory scopes of
+consolidation and mapping of financial statement categories
+Linkages between financial LI1 with regulatory risk categories Flexible Annual
+statements and regulatory Main sources of differences between regulatory exposure
+exposures LI2 amounts and carrying values in financial statements Flexible Annual
+Explanations of differences between accounting and regulatory
+LIA exposure amounts Flexible Annual
+Prudential valuation
+adjustments PV1 Prudent valuation adjustments Fixed Annual
+CC1 Composition of regulatory capital Fixed Semi-annual
+Composition of capital CC2 Reconciliation of regulatory capital to balance sheet Flexible Semi-annual
+CCA Main features of regulatory capital instruments Fixed Semi-annual
+Geographical distribution of credit exposures used in the
+Macroprudential CCyB1 countercyclical buffer Flexible Semi-annual
+Supervisory measures Summary comparison of accounting assets vs leverage ratio
+LR1 exposure measure (January 2014 standards) Fixed Quarterly
+Leverage ratio common disclosure template (January 2014
+Leverage ratio
+LR2 standards) Fixed Quarterly
+187
+
+[Document: document.pdf, Page 190]
+CBUAE Classification: Public
+LIQA Liquidity risk management Flexible Annual
+LIQ1 Liquidity Coverage Ratio Fixed Quarterly
+Liquidity LIQ2 Net Stable Funding Ratio Fixed Semi-annual
+CRA General qualitative information about credit risk Flexible Annual
+CR1 Credit quality of assets Fixed Semi-annual
+CR2 Changes in the stock of defaulted loans and debt securities Fixed Semi-annual
+CRB Additional disclosure related to credit quality of assets Flexible Annual
+CRC Qualitative information on the mitigation of credit risk Flexible Annual
+CR3 Credit risk mitigation techniques – overview Fixed Semi-annual
+Qualitative disclosures on banks' use of external credit ratings
+Credit risk CRD under the standardised approach for credit risk Flexible Annual
+Standardised approach - credit risk exposure and CRM
+CR4 effects Fixed Semi-annual
+Standardised approach - exposures by asset classes and
+CR5 risk weights Fixed Semi-annual
+CCRA Qualitative disclosure related to CCR Flexible Annual
+CCR1 Analysis of CCR by approach Fixed Semi-annual
+CCR2 Credit valuation adjustment capital charge Fixed Semi-annual
+Standardised approach - CCR exposures by regulatory portfolio
+CCR3 and risk weights Fixed Semi-annual
+Counterparty credit risk
+(CCR)
+CCR5 Composition of collateral for CCR exposure Flexible Semi-annual
+CCR6 Credit derivatives exposures Flexible Semi-annual
+CCR8 Exposures to central counterparties Fixed Semi-annual
+SECA Qualitative disclosures related to securitisation exposures Flexible Annual
+SEC1 Securitisation exposures in the banking book Flexible Semi-annual
+SEC2 Securitisation exposures in the trading book Flexible Semi-annual
+Securitisation Securitisation exposures in the banking book and associated
+regulatory capital requirements - bank acting as originator or as
+SEC3 sponsor Fixed Semi-annual
+188
+
+[Document: document.pdf, Page 191]
+CBUAE Classification: Public
+Securitisation exposures in the trading book and associated
+SEC4 capital requirements - bank acting as investor Fixed Semi-annual
+General qualitative disclosure requirements related to market
+MRA risk Flexible Annual
+Market risk MR1 Market risk under the standardised approach Fixed Semi-annual
+IRRBBA IRRBB risk management objectives and policies Flexible Annual
+Interest rate risk in the IRRBB1 Quantitative information on IRRBB Fixed Annual
+banking book (IRRBB) OR1 Qualitative disclosures on operational risk Flexible Annual
+Operational risk REMA Remuneration policy Flexible Annual
+REM1 Remuneration awarded during the financial year Flexible Annual
+REM2 Special payments Flexible Annual
+Remuneration Policy
+REM3 Deferred remuneration Flexible Annual
+189
+
+[Document: document.pdf, Page 192]
+CBUAE Classification: Public
+III. Frequently Asked Questions (FAQ)
+Question 1: One or more senior officers of a bank, ideally at board level or equivalent,
+should attest in writing that Pillar 3 disclosures have been prepared in accordance
+with the board-agreed internal control processes. For banks of foreign branches, is
+Country Manager or CFO at Head office attestation sufficient?
+For local banks and large foreign banks, Board member attestation will be expected. For
+smaller foreign bank branches, Country Manager/GM will be sufficient
+Question 2: There are requirements on the Pillar III disclosure that is dependent on
+the BASEL returns (BRF 95), in relation to this, the submission that mentions 6 weeks
+after the end of the relevant quarter starts from the BASEL quarter reporting deadline
+or actual quarter end?
+Pillar 3 disclosure submission will be 6 weeks after the quarter end date. For example,
+December quarter submission will be 6 weeks from December 31st and not 6 weeks from
+January 31st. Since the BRF95 should mandatorily be submitted by banks within 4 weeks
+from quarter end, the bank still has additional 2 weeks to complete the Pillar 3 disclosures
+based on BRF95.
+Question 3: Pillar 3 applies to all banks in the UAE at the top consolidated level for
+local banks... Please clarify in case of subsidiary of a bank, whether revised pillar 3
+disclosures will be required to be prepared at consolidated Group level or stand-alone
+level?
+Bank subsidiaries will be consolidated at stand-alone subsidiary level and the group bank
+will be consolidated at the stand-alone of the group bank only without the bank’s subsidiary
+data.
+Question 4: Pillar 3 disclosures can be presented in a separate report; however, Can
+it be signposted to the audited financial statements?
+Signposting is allowed if the bank chooses to use the same template in their audited financial
+statements but a separate reporting template needs to be prepared as per Pillar 3 templates
+which is mandatory and cannot be omitted from the Pillar 3 tables.
+Question 5: If any section/ table of Template is not applicable to the Bank (i.e. DSIBs,
+Securitisation), shall the Bank exclude this section/ table completely irrespective of
+type of table.
+Yes, banks can exclude the tables/templates not pertaining to the bank, for example DSIB
+and Securitisation
+Question 6: Banks should also have a formal board-approved disclosure policy for
+Pillar 3 information that sets out the internal controls and procedures for disclosure
+of such information. Should this formal Disclosure policy still be submitted to Central
+Bank along with ICAAP or it shall only be published / disclosed as mentioned?
+The formal disclosure policy should not be submitted but should be available on request by
+Central Bank of UAE.
+Question 7: Will it be sufficient to publish Basel 3 disclosures on its investor relations
+page on the bank’s website without any physical printouts?
+Banks should publish their Pillar 3 report in a stand-alone document on the bank’s UAE-
+specific website. This can be anywhere on the website but it needs to be clearly visible and
+easily available for all stakeholders. Banks which do not have a UAE-Specific website should
+create a website specific to UAE so that all stakeholders can have access to the Pillar 3
+disclosures of the bank.
+Question 8: For REM1 template, is Central Bank expecting the Bank to report overseas
+earnings or only the locally paid compensation? Are deferrals awarded in the current
+190
+
+[Document: document.pdf, Page 193]
+CBUAE Classification: Public
+year only to be reported? If an employee has a deferral which has a tranche of a prior
+year paid out after they have left the Branch, is it expected that this would be reported
+or not? If a prior year tranches awarded is reported should this be reported if the
+individual is no longer an employee of the Branch?
+All contract earnings of all employees need to be reported even if the employee is earning
+compensation in UAE and outside UAE. The full contractual award needs to be mentioned
+and not only the physical payout
+Question 9: Is the End of Service Benefit (EOSB) i.e. severance payment for a normal
+leaver to be reported depending upon the definition of “other material risk taker” OR
+are banks also required to report any additional payment such as a redundancy type
+payment? Should a transfer of Senior Management personnel or Other Material Risk-
+takers to other branch of the Bank be considered as severance for reporting purpose?
+All payments regardless of the type of payment based on the contract needs to be reported
+Question 10: For branches of foreign banks where the Head Office reports to the home
+regulator, there are pre-fixed formats prepared and submitted at a frequency as
+stipulated by home regulator. Can the branch of foreign banks provide such reports
+in UAE which are submitted to the home regulator as a part of UAE Pillar 3
+Disclosures?
+Reports sent between Head Office and UAE needs to be separated and only the Pillar 3
+disclosures as per this Guidance needs to be reported for UAE branches in the mandatory
+formats published here.
+Question 11: What does “Fully loaded” ECL accounting model mean and what is the
+difference between total capital and fully loaded capital?
+"Fully Loaded" means bank’s regulatory capital compared with a situation where the
+transitional arrangement had not been applied
+Question 12: For branches of foreign banks, would Central Bank allow for a transition
+period if the threshold for partial disclosure is reached? (i.e. if RWA exceed AED 5
+billion)
+Transition will be granted on a case by case basis
+Question 13: Currently CCyB buffer is 0% in UAE. In this case, what do banks need to
+report in CCyB template?
+Currently CCyB is not applicable in UAE but if banks in UAE have branches in other countries
+this needs to be reported if CCyB is being reported as per that foreign country’s regulations.
+Banks, hence, need to calculate and fill the CCyB1 as explained in the Capital Supply
+standards.
+Question 14: In Sheet CR5, for "Unrated" Category, should we include the Post CRM
+and CCF amounts in their respective Risk Weight categories or should we club it
+under "Others"?
+Yes, it can be placed in “Others” along with any other ratings.
+Question 15: In Sheet OV1, is the minimum requirements simply 10.5% of the RWA.
+Pillar 1 capital requirements at the reporting date will normally be RWA*10.5% but may differ
+if a floor is applicable or adjustments (such as scaling factors).
+Question 16: CCR8 requires Bank to report Exposures to Non QCCPs (excluding initial
+margin and default fund contribution) arising of (i) OTC derivatives, (ii) Exchange-
+traded derivatives, (iii) Securities financing transactions & (iv) Netting sets where
+cross-product netting has been approved. Does this mean the Exposures computed
+under SA-CCR which are eligible under Netting Jurisdiction to be disclosed under
+(iv)?
+Currently, UAE has no netting jurisdiction but such exposures reported will be taken into
+191
+
+[Document: document.pdf, Page 194]
+CBUAE Classification: Public
+consideration on a case-by-case basis.
+Question 17: LIQA, Liquidity exposures and funding needs at the level of individual
+legal entities, foreign branches and subsidiaries, taking into account legal, regulatory
+and operational limitations on the transferability of capital. Are insurance or non-bank
+subsidiaries to be included?
+All entities that are consolidated by the bank must be included.
+Question 18: LIQA, Balance sheet and off-balance sheet items broken down into
+maturity buckets and the resultant liquidity gaps. Is there any format for reporting the
+liquidity gap report?
+As per BRF 9 reported by the bank. The bank may add a section for Off Balance sheet as
+required
+192
+
+[Document: document.pdf, Page 195]
+CBUAE Classification: Public
+Leverage Ratio
+193

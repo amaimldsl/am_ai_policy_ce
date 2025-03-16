@@ -1,0 +1,589 @@
+[Document: document.pdf, Page 136]
+CBUAE Classification: Public
+VI. Examples
+A. Basic Indicator Approach
+The Basic Indicator Approach (BIA) is a simple approach for calculating the capital charge for
+operational risk. It can be used by banks that are not internationally active, as well as by banks
+that are internationally active but may not as yet have risk management systems in place for using
+the more advanced approaches for measuring operational risk. Below is an example of ABC bank
+and how the Operational risk capital charge is calculated on Basic Indicator Approach
+1- Calculating gross income through the table shows part of the income statement of
+ABC bank for 2003.
+Income statement of ABC bank for 2003
+Operating income
+Interest income 150
+Interest expenses 110
+Provisions made 20
+Net interest income after provisions 20
+Fees and commissions received 80
+Fees and commissions paid 50
+including fees paid for outsourcing 12
+Other income
+From disposal of subsidiaries 10
+From disposal of available for sale 8
+Investments 0
+Net non-interest income 48
+Total operating income 68
+The net interest income to be used in gross income for calculating the operational risk capital
+charge after provisions. Normally banks reduce this amount to arrive at the operating income,
+however, in the calculation of capital charge for operational risk, net interest income is gross of
+provisions.
+In this example, net interest income is interest income minus interest expenses.
+150 – 110 = 40
+While for calculating net non-interest income for calculating operational risk capital charge, in this
+example:
+Net non-interest income is fees and commissions received (80) minus fees and commissions
+paid, adjusted for outsourcing fees paid (50 – 12 = 38). Therefore, the amount will be 42.
+2- Calculating operational risk capital charge under BIA
+The following table shows how to calculate the operational risk capital charge under the BIA.
+134
+
+[Document: document.pdf, Page 137]
+CBUAE Classification: Public
+Year Gross income of the bank
+2002 120
+2003 20
+2004 250
+Total positive GI for 3 years 390 (120+20+250)
+Three year average of positive Gross 130 (390/3)
+Income
+Alpha 15%
+Operational risk capital requirement under 19.5 ((390*15%)/3 or 130*15%
+BIA
+3- Treatment of Negative Gross Income
+Below is the calculation of the operational risk capital charge when the bank has negative gross
+income for a year.
+Amount
+Gross income year 1 -120
+Gross income year 2 20
+Gross income year 3 250
+Total of positive gross income 270
+Number of years with positive gross income 2
+Average of positive annual gross income for 135 (270/2)
+the last three years
+Alpha 15%
+Operational risk capital requirement 20.25 (135*15%)
+Since negative gross income leads to exclusion of data points for that year from both the
+numerator and the denominator of the BIA operational risk formula, it could at times result in some
+distortions. For example, a bank that has negative gross income for one of three years might end
+up with a higher operational risk capital charge than if it were to have positive gross income for
+that year, even if it was a small amount. To ensure that such distortions do not occur, the
+supervisor should review and consider appropriate actions under Pillar 2.
+B. Standardised Approach
+1- Below is small example indicated which to include and exclude in the gross income:
+Included Excluded
+Provisions Profits/losses from sale of securities
+Operating expenses Extraordinary/ irregular items
+Gross income for each business line should:
+- Be gross of any provisions (for example, for unpaid interest).
+- Be gross of operating expenses, including fees paid to outsourcing service providers.
+- Exclude realised profits/losses from the sale of securities in the banking book.
+- Exclude extraordinary or irregular items as well as income derived from insurance claims.
+135
+
+[Document: document.pdf, Page 138]
+CBUAE Classification: Public
+2- The following table shows how to calculate the capital charge for operational risk using
+the Standardised Approach:
+Business line Beta Gross income Capital requirement
+factor
+Year 1 Year 2 Year 3 Year 1 Year Year 3 Average
+2*
+Corporate 18% 250 300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail banking 12% 500 200 -300 60 24 -36
+Commercial 15% 400 300 400 60 45 60
+banking
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 1,825 1,130 625
+Income
+Aggregate 272.25 180.9 113.55 189***
+Capital
+Requirement**
+*Gross Income x Beta factor
+**Sum of eight capital charges for the year – remember within a year negative capital charges can offset
+positive charges among business lines
+***Three-year average capital charge
+3- Another example to illustrate the negative Gross income:
+Business line Beta Gross income Capital requirement
+factor
+Year 1 Year 2 Year 3 Year 1 Year 2 Year 3 Average
+Corporate 18% 250 -300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail 12% 500 200 -300 60 24 -36
+banking
+Commercial 15% 400 -300 400 60 45 60
+banking
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+136
+
+[Document: document.pdf, Page 139]
+CBUAE Classification: Public
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 1,825 -70 625
+Income
+Aggregate 272.25 0* 113.55 129**
+Capital
+Requirement
+*Total capital charge against all business lines for year 2 is negative (-17.1), so the numerator for year 2 is
+set to zero
+**Capital charge averaged for three years, with the numerator for year 2 set to zero
+C. Alternative Standardised Approach
+The following table shows how to calculate the capital charge for operational risk using the
+Alternative Standardised Approach.
+Business line Beta Exposure Indicator* Capital requirement**
+factor
+Year 1 Year 2 Year 3 Year Year 2 Year 3 Average
+1
+Corporate 18% 250 300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail 12% 700*** 875*** 945*** 84 105 113.4
+banking
+Commercial 15% 875*** 910*** 980*** 131.2 136.5 147
+banking 5
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 2,500 2,415 2,450
+Income
+Aggregate 367.5 353.4# 349.9 356.95#
+Capital 5 #
+Requirement
+*Gross income/loans & advances x m
+**Exposure indicator (GI or LA x m) x β
+***Outstanding loans and advances x m (0.035)
+# Sum of eight capital charges for the year
+## Three year average capital charge
+137
+
+[Document: document.pdf, Page 140]
+CBUAE Classification: Public
+VII. Appendix
+Further Options under the ASA – Option 1
+Under the ASA Option 1, banks may aggregate retail and commercial banking using a common
+beta of 15%, instead of 12% and 15%, respectively, as prescribed under the Standardised
+Approach (SA). For the other six business lines, the relevant beta factors as prescribed under the
+SA are used. The exposure indicator remains the volume of loans and advances for commercial
+and retail banking and gross income for the other six business lines.
+Further Options under the ASA – Option 2
+Under Option 2, banks may maintain the SA beta factors of 12% and 15% for retail and
+commercial banking and aggregate the other six business lines with a beta factor of 18%. The
+volume of loans and advances is used as the exposure indicator for commercial and retail
+banking. Gross income is used for the other six business lines. Banks undertaking predominantly
+traditional banking activities, such as retail and commercial banking, and unable to segregate
+their gross income according to business lines may find it useful to adopt this option.
+Further Options under the ASA – Option 3
+Under Option 3, banks may aggregate retail and commercial banking with a beta factor of 15%
+and the other six business lines with a beta factor of 18%. The volume of loans and advances is
+used as the exposure indicator for retail banking and commercial banking. Gross income is used
+for the other six business lines.
+138
+
+[Document: document.pdf, Page 141]
+CBUAE Classification: Public
+X. External Credit Assessment Institutions
+I. Introduction and Scope
+1. Banks are required to use external ratings to determine risk weights for certain types of
+exposures. However, only external ratings provided by External Credit Assessment Institutions
+(ECAIs) that have been recognized as eligible for that purpose by the Central Bank may be used.
+This Guidance describes the specific requirements for the recognition of eligible ECAIs, together
+with certain other aspects of the use of ratings within the Central Bank’s capital adequacy
+framework. Note that additional requirements related to the use of ratings in capital requirements
+for securitisation are provided in the Central Bank’s Standards on Required Capital for
+Securitisation Exposures.
+2. The Guidance is based closely on requirements of the framework for capital adequacy
+developed by the Basel Committee on Banking Supervision (BCBS), specifically the requirements
+articulated by the BCBS in International Convergence of Capital Measurement and Capital
+Standards: A Revised Framework (comprehensive version June 2006), and the revisions from
+Basel III: A global regulatory framework for more resilient banks and banking systems, December
+2010 (rev June 2011).
+II. Eligibility Criteria
+3. ECAIs may be considered eligible for recognition if they meet the criteria articulated in this
+section. The Central Bank also takes into account the criteria and conditions provided in the
+IOSCO Code of Conduct Fundamentals for Credit Rating Agencies (IOSCO CRA Code) when
+determining ECAI eligibility.
+4. The Central Bank’s eligibility determination for each ECAI applies only with respect to the
+types of claims for which the eligibility criteria have been met by that ECAI.
+A. Objectivity
+5. ECAI’s should have a methodology for assigning credit ratings that is rigorous and
+systematic, and is subject to validation based on historical experience. Ratings assessments
+should be based on methodologies combining qualitative and quantitative approaches. Moreover,
+assessments must be subject to ongoing review and responsive to changes in financial condition.
+To establish that an ECAI fulfils this primary component of eligibility criteria, it must demonstrate
+that it meets the following minimum standards:
+(i) The ECAI has established rating definitions, criteria, and methodologies, and apply
+them consistently;
+(ii) The ECAI should have a robust procedure of rating assignment based on published
+information, market data, interviews with management, and/or other sources of
+information that provide a sound basis for purposes of assigning the ratings;
+(iii) When assigning risk ratings, the ECAI should take into account all major features of
+credit quality that are relevant under the ECAI’s applicable methodology, and should
+ensure that the ratings are assigned taking into account all risk factors of the rated
+entity or issue relevant under the ECAI’s applicable methodology;
+139
+
+[Document: document.pdf, Page 142]
+CBUAE Classification: Public
+(iv) The ECAI should demonstrate that rating methodologies are subject to quantitative
+back testing. For this purpose, the ECAI should calculate and publish default studies,
+recovery studies, rating transition matrices, or other analyses as relevant to the
+ECAI’s rating methodology. The analysis should reflect a definition of default that is
+consistent with international standards, subject to possible adjustments to take into
+account local practices or institutional or market conditions;
+(v) The rating methodology for each market segment, including rigorous back testing,
+must have been established for at least one year and preferably three years;
+(vi) All rating decisions should be made based on the ECAI’s established criteria and
+methodologies, subject to documented variations approved in accordance with the
+ECAI’s procedures;
+(vii) The ECAI should have a mechanism to review its procedures and methodologies to
+adapt them to a potentially changing environment; and
+(viii) The ECAI should maintain adequate systems and internal records to support its
+assigned ratings.
+B. Independence
+6. The ECAI should be free from any economic or external political pressures that may
+influence its credit ratings. In particular, an ECAI should not delay or refrain from taking a rating
+action based on its potential effect (economic, political or otherwise). The independence of an
+ECAI shall be assessed on the basis of the following five parameters:
+(i) Ownership: The ownership structure should not be such that it could jeopardize the
+objectivity of the rating process. For example, the owners should not hold 10 percent
+or more of the equity of any entity rated by the ECAI.
+(ii) Organizational Structure and Corporate Governance: The ECAI should
+demonstrate that its organizational structure minimizes the scope for external
+influences to influence the rating process inappropriately. The ECAI should have in
+place effective corporate governance that safeguards the independence of its credit
+ratings, promotes integrity, and ensures that internal disagreements over ratings are
+resolved in ways that do not compromise the overall effectiveness of the rating
+process.
+(iii) Financial Resources: The ECAI must demonstrate that its business is financially
+viable and is able to sustain any commercial pressure that might be exerted by
+external entities, including the entities being rated. The ECAI’s financial position
+should not depend significantly on the provision of other services to the rated entities.
+(iv) External Conflict of Interest: The credit rating process of the ECAI should have the
+ability to withstand external pressures. The ECAI should demonstrate that it is free
+from any type of external conflicts of interest, or that conflicts of interest are disclosed
+and managed.
+(v) Separation: An ECAI should separate its rating business operationally, legally, and
+if practicable, physically from its other business operations that may present a
+conflict of interest, such as advisory services.
+140
+
+[Document: document.pdf, Page 143]
+CBUAE Classification: Public
+C. International Access and Transparency
+7. The individual ratings, the key elements underlying the ratings, and whether the issuer
+participated in the rating process should be information that is publicly available on a non-selective
+basis.
+8. In order to promote transparency and enable stakeholders to make decisions about the
+appropriateness of its credit rating methods, an ECAI should disclose sufficient information (e.g.,
+rating definition, methods of arriving at the rating, rating process, time horizon of the rating, and
+the surveillance and review procedure) to facilitate such decisions. The ECAI’s general
+procedures, methodologies, and assumptions for arriving at ratings should be publicly available.
+D. Disclosure
+9. A rating should be disclosed as soon as practicably possible after issuance. When
+disclosing a rating, the information should be clearly worded, and should indicate the nature of
+the rating and relevant limitations, while providing appropriate warning to users of the potential
+danger of unduly relying on the rating to make investment or other decisions.
+10. To promote transparency and market discipline, an ECAI should demonstrate that it
+provides access to information that enables stakeholders to make decisions about the
+appropriateness of ratings for the intended use or uses. At a minimum, the ECAI is expected to
+make public the following information:
+ Code of conduct;
+ Definition of default;
+ The time horizons reflected in ratings;
+ Rating definitions;
+ Rating methods;
+ Actual default rates experienced in each rating category;
+ Rating transition matrices;
+ Whether particular ratings are solicited or unsolicited;
+ The date of last review and update of ratings;
+ The general nature of compensation arrangements with rated entities; and
+ Any actual or potential conflicts of interest.
+11. At a minimum, the following conflict-of-interest situations and their influence on the ECAI’s
+credit rating methodologies or credit rating actions must be disclosed:
+(i) The ECAI is being paid to issue a credit rating by a rated entity or by the obligor,
+originator, underwriter, or arranger of a rated obligation;
+(ii) The ECAI is being paid by subscribers with a financial interest that could be affected
+by a credit rating action of the ECAI;
+141
+
+[Document: document.pdf, Page 144]
+CBUAE Classification: Public
+(iii) The ECAI is being paid by rated entities, obligors, originators, underwriters,
+arrangers, or subscribers for services other than issuing credit ratings or providing
+access to the ECAI’s credit ratings;
+(iv) The ECAI is providing a preliminary indication or similar indication of credit quality to
+an entity, obligor, originator, underwriter, or arranger prior to being hired to determine
+the final credit rating for the entity, obligor, originator, underwriter, or arranger; and
+(v) The ECAI has a direct or indirect ownership interest in a rated entity or obligor, or a
+rated entity or obligor has a direct or indirect ownership interest in the ECAI.
+12. An ECAI should disclose the general nature of its compensation arrangements with rated
+entities, obligors, lead underwriters, or arrangers. When the ECAI receives compensation
+unrelated to its credit rating services from a party such as a rated entity, obligor, originator, lead
+underwriter, or arranger, the ECAI should disclose such compensation as a percentage of the
+total annual compensation received from that party in the relevant credit rating report or
+elsewhere, as appropriate. An ECAI should disclose in the relevant credit rating report or
+elsewhere, as appropriate, if it receives 10% or more of its annual revenue from a single party
+(e.g., a rated entity, obligor, originator, lead underwriter, arranger, or subscriber, or any of their
+affiliates).
+E. Resources
+13. ECAI should possess sufficient human and technical resources to produce high quality
+credit ratings. Evidence of resource sufficiency includes:
+(i) Technical expertise of the people should be sufficient to conduct the analysis to
+support the assignment of ratings, and to maintain contact with senior and
+operational levels within the entities that are rated. In particular, ECAIs should assign
+analysts with appropriate knowledge and experience to assess the creditworthiness
+of the type of entity or obligation being rated; and
+(ii) With respect to technical resources, an ECAI is expected to apply quantitative
+techniques and models that can appropriately process and analyze the quantities of
+data required to support the rating process.
+F. Credibility
+14. The ECAI must demonstrate that it enjoys credibility in the markets in which it operates.
+Such credibility is gauged on the basis of:
+(i) The extent to which it meets the resources requirements stated above;
+(ii) The extent to which independent parties (investors, insurers etc.) rely on the ECAI’s
+risk ratings; and
+(iii) The existence of internal procedures to prevent misuse of confidential information.
+142
+
+[Document: document.pdf, Page 145]
+CBUAE Classification: Public
+G. No Abuse of Unsolicited Ratings
+15. The Central Bank may request the ECAI to demonstrate that it has not used unsolicited
+ratings to put pressure on entities to obtain solicited ratings. If the Central Bank becomes aware
+of an ECAI using unsolicited ratings to put pressure on entities to obtain solicited ratings, the
+Central Bank may consider whether it is appropriate to revoke the recognition of the ECAI as
+eligible for capital adequacy purposes.
+H. Cooperation with the Supervisor
+16. Eligible ECAIs should notify the Central Bank of significant changes to methodologies,
+and should provide the Central Bank with sufficient access to external ratings and other relevant
+data to support initial and ongoing determination of eligibility.
+I. Code of Conduct and Regulation
+17. The ECAI must adopt and adhere to a code of conduct that is consistent with the IOSCO
+CRA Code. The ECAI must be subject to effective supervision on an ongoing basis by a
+competent regulatory authority that has adopted a regulatory regime consistent with the IOSCO
+CRA Code, and that incorporates a registration system for ECAIs.
+III. Recognition of ECAIs
+18. The Central Bank’s standards for capital adequacy include mappings that identify risk
+weights for various types of exposures using a scale that corresponds most closely to the rating
+system used by Standard & Poor’s. This is done for purposes of exposition and for consistency
+with the BCBS framework. However, banks should not interpret use of this scale as a Central
+Bank endorsement of any particular rating agency. Banks may select among all eligible rating
+agencies as appropriate for purposes of determining risk weights.
+19. On the basis of information assessed by the Central Bank, the following entities currently
+meet the criteria for eligible ECAIs described in this Guidance:
+(i) Standard & Poor’s Ratings Services;
+(ii) Moody’s Investors Service;
+(iii) Fitch Ratings; and
+(iv) Capital Intelligence.
+20. The Central Bank has concluded that banks can use the ratings of any of the above ECAIs.
+Banks should be aware that the Central Bank regularly reassesses the extent to which any ECAI
+meets the criteria stated in this Guidance. Banks must take steps to confirm that any ratings used
+in capital adequacy calculations are obtained from ECAIs that continue to be viewed as eligible
+by the Central Bank. Additional entities may be approved as eligible ECAIs in due course.
+21. Based on available information regarding the rating processes of these ECAIs, the Central
+Bank has established the correspondence shown in Table 1 between the long-term rating scales
+of the various ECAIs. However, if a bank determines that a different mapping is more appropriate,
+the bank should use that alternative mapping, provided the results are at least as conservative as
+using the mapping below.
+143
+
+[Document: document.pdf, Page 146]
+CBUAE Classification: Public
+Table 1: Long-Term Rating Correspondence
+S & P Fitch Moody’s Capital Intelligence
+AAA to AA‐ AAA to AA‐ Aaa to Aa3 AAA to AA-
+A+ to A‐ A+ to A‐ A1 to A3 A+ to A-
+BBB+ to BBB‐ BBB+ to BBB‐ Baa1 to Baa3 BBB+ to BBB-
+BB+ to BB‐ BB+ to BB‐ Ba1 to Ba3 BB+ to BB-
+B+ to B‐ B+ to B‐ B1 to B3 B+ to B-
+Below B- Below B- Below B3 Below B-
+Unrated Unrated Unrated Unrated
+22. For certain aspects of capital adequacy calculations, short‐term ratings are used. Based
+on available information regarding the rating processes of these ECAIs, the Central Bank has
+established the correspondence shown in Table 2 between the short-term rating scales of the
+eligible ECAIs. However, as with the long-term ratings, if a bank determines that a different
+mapping is more appropriate, the bank should use that alternative mapping, provided the results
+are at least as conservative as using the mapping below.
+Table 2: Short-Term Rating Correspondence
+S & P Fitch Moody’s Capital Intelligence
+A‐1+, A‐1 F1+, F1 P‐1 A1+, A1
+A‐2 F2 P‐2 A2
+A‐3 F3 P‐3 A3
+Below A‐3 Below F3 Not prime Below A3
+IV. Bank Use of Ratings
+A. Bank Use of ECAI Ratings
+23. For the purpose of applying ECAI ratings to derive risk‐weights for exposures, banks
+should apply the following process:
+(i) Identify an ECAI (the “nominated ECAI”) whose assigned ratings the bank intends
+to use to derive risk weights for some type of exposure that is subject to an external
+ratings‐based approach under Central Bank standards;
+(ii) Confirm that the nominated ECAIs can provide reasonable coverage of the bank’s
+exposures in terms of the types of counterparties and the geographical regions
+covered;
+(iii) Document the selection of the ECAI and the analysis demonstrating that the ratings
+of ECAI are appropriate for the specific use;
+(iv) Notify the Central Bank of the nominated ECAI and of the intended application of the
+ratings of that ECAI to the bank’s external ratings‐based calculations; and
+144
+
+[Document: document.pdf, Page 147]
+CBUAE Classification: Public
+(v) Use the ratings of the ECAI within external ratings‐based calculations consistently.
+24. Banks must use the chosen ECAIs and their ratings consistently for each type of claim for
+which the ECAI and its ratings are approved, and must seek the consent of the Central Bank on
+any subsequent changes to the application of those ratings. Banks may not “cherry‐pick” the
+ratings provided by different ECAIs, and must maintain records of which ECAIs they use for
+various purposes within capital adequacy calculations. Banks may not use unsolicited ratings that
+may be provided by any ECAI.
+25. When banks use external ratings to assign risk weight to securitisation exposures under
+the Central Bank’s Standards on Capital for Securitisation Exposures, additional operational
+requirements apply to the ratings and the ECAI that is the source of the ratings.
+B. Multiple Ratings
+26. If there is only one rating by a nominated ECAI for a particular claim, that rating should be
+used to determine the risk weight of the exposure.
+27. If there are two ratings by nominated ECAIs that map to different risk weights, the higher
+risk weight must be applied.
+28. If there are three or more ratings with different risk weights, the ratings corresponding to
+the two lowest risk weights should be referred to. If these give rise to the same risk weight, that
+risk weight should be applied. If different, the higher risk weight should be applied.
+C. Other Considerations in the Use of Ratings
+29. External ratings for one entity within a corporate group cannot be used to risk weight other
+entities within the same group.
+30. A bank must treat a relevant exposure or the person to whom the bank has a relevant
+exposure as “unrated” for risk weighting purposes if that exposure or that person does not have
+a rating assigned to it by the ECAI otherwise used by the bank.
+31. Where a bank is applying external ratings to an exposure that corresponds to a particular
+issue with an issue‐specific rating, the risk weight of the claim must be based on this issue-specific
+rating. In other cases, the following requirements apply:
+(i) In circumstances where the borrower has a specific rating for an issued debt claim,
+but the bank’s exposure does not relate to this particular rated claim, a high-quality
+credit rating (that is, one that maps to a risk weight lower than the risk weight that
+would apply to an unrated claim) on that specific issue may only be applied to the
+bank’s un‐assessed exposure if the exposure ranks pari passu with or senior to the
+rated issue in all respects. If not, the credit rating cannot be used, and the un‐
+assessed claim exposure should receive the risk weight for unrated claims.
+(ii) In circumstances where the borrower has an issuer rating, this rating typically applies
+to senior unsecured claims on that issuer. Consequently, only senior claims on that
+issuer will benefit from a high-quality issuer rating if one exists. Other un‐assessed
+claims of a highly assessed issuer will be treated as unrated. If either the issuer, or
+a particular issue from that issuer, has a low-quality rating (that is, one that would
+145
+
+[Document: document.pdf, Page 148]
+CBUAE Classification: Public
+map to a risk weight equal to or higher than would apply to an unrated exposure),
+then a bank with an unrated exposure to the same counterparty that ranks pari passu
+with or is subordinated to senior unsecured (in the case of an issuer rating) or to the
+specific issue (in the case of an issue-specific rating) should risk-weight that
+exposure using the low-quality rating.
+32. Where a bank intends to rely on an issuer or an issue-specific rating, the rating must take
+into account and reflect the entire amount of credit risk exposure a bank has with regard to all
+amounts owed to it.
+33. Where exposures are risk-weighted based on the rating of an equivalent exposure to that
+borrower, foreign currency ratings should be used for exposures in foreign currency. If there is a
+separate domestic currency rating, it should be used only to risk-weight exposures denominated
+in the domestic currency.
+34. In order to avoid double counting of credit enhancement factors, no supervisory
+recognition of credit risk mitigation techniques will be taken into account if the credit enhancement
+is already reflected in the rating of a specific issue.
+V. Ongoing Review
+35. The Central Bank determines on an ongoing basis whether an ECAI meets the criteria for
+recognition according to this Guidance. In this regard, the Central Bank conducts periodic reviews
+of each recognized ECAI. Any changes to the list of approved ECAIs or to the established
+correspondence between their ratings will be publicly disclosed by the Central Bank in a timely
+manner.
+VI. Requests for Recognition of ECAIs
+36. The Central Bank may consider additional ECAIs as eligible for use within capital
+adequacy standards. These additional ECAIs may be identified for consideration by the Central
+Bank, or may be identified by banks or by the ECAIs themselves. The Central Bank will evaluate
+potential additional ECAIs against the eligibility requirements in this Guidance, under procedures
+established by the Central Bank.
+37. Banks that identify potential additional ECAIs for consideration by the Central Bank must
+provide information about the ECAI that would allow an appropriate evaluation by the Central
+Bank according to this Guidance. The banks should identify the types of claims to which the ECAIs
+ratings might be applied, as well as the geographies covered, and explain the need for, or value
+of, recognizing the ECAI as eligible. Banks should provide a preliminary evaluation, subject to
+Central Bank review, of how the ECAI meets all of the eligibility criteria described above in this
+Guidance.
+38. ECAIs may also request recognition from the Central Bank. In such cases, the ECAI must
+provide detailed information that would allow a complete evaluation by the Central Bank under
+this Guidance. The ECAI should provide evidence, subject to Central Bank review, that the ECAI
+meets all of the eligibility criteria described above in this Guidance, including full compliance with
+the IOSCO CRA Code.
+146
+
+[Document: document.pdf, Page 149]
+CBUAE Classification: Public
+VII. Frequently Asked Questions
+Question 1: What is meant by “international standards” in connection with the definition
+of default?
+The most widely accepted international standards for assessing the capital adequacy of banks,
+i.e. the Basel framework, incorporate specific definitions of default for wholesale and retail credit.
+ECAI definitions of default should broadly reflect those definitions, although they need not
+precisely duplicate the Basel definitions.
+Question 2: Can definitions of default be adjusted to take into account local practices or
+institutional or market conditions?
+Yes, as the Guidance notes, certain adjustments for local conditions may be appropriate,
+particularly to account for default conditions that should be interpreted as demonstrating that a
+borrower is “unlikely to pay.” As the BCBS has noted in guidance to banks, some flexibility in the
+definition of default is appropriate to reflect the particular circumstances of each jurisdiction.
+Question 3: Must the quantitative back testing of ratings outcomes incorporate an analysis
+of recovery rates in all cases?
+No, the quantitative analysis conducted should be tailored as appropriate to demonstrate the
+performance of the actual rating methodology applied by the ECAI. Specifics of the analysis may
+differ depending on the methodology; for example, if the rating methodology solely reflects default
+probabilities rather than loss rates, then recovery studies may not be relevant.
+Question 4: Can unsolicited ratings be used for bank capital calculations?
+No, the Central Bank of the UAE has determined that unsolicited ratings do not provide an
+appropriate basis for capital calculations by banks in the UAE.
+Question 5: Does the recognition of certain rating agencies by the Central Bank imply an
+endorsement of those ECAIs?
+No, recognition reflects only a determination that an ECAI and its ratings meet the requirements
+to be used for regulatory capital calculations as articulated in Central Bank standards and
+regulations.
+Question 6: Does the requirement that rating methodologies be established for at least one
+year preclude new rating methodologies from being introduced?
+No, this requirement does not preclude the development and implementation of new rating
+methods by an ECAI. However, use of ratings for capital adequacy calculations (as opposed to
+other uses of ratings) requires a demonstration of the reliability of the ratings. Demonstration of
+reliability takes time; one year of experience is the minimum requirement, and longer periods of
+observation, perhaps operating in parallel with previous rating methodologies, are preferable.
+Question 7: Do ratings correspond to specific risk weights for capital, and if so where is
+that correspondence found?
+Yes, the purpose of recognition of ECAIs and the alignment of their ratings as specified in the
+Guidance is to facilitate the use of these ratings for risk-weight assignments in regulatory capital
+adequacy calculations. Please consult the relevant Standards (such as the Standards on Credit
+Risk) for risk weights corresponding to each rating category.
+147
+
+[Document: document.pdf, Page 150]
+CBUAE Classification: Public
+VIII. List of Abbreviations
+BCBS: Basel Committee on Banking Supervision
+ECAI: External Credit Assessment Institution
+IOSCO: International Organization of Securities Commissions
+148

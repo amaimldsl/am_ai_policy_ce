@@ -1,10 +1,12 @@
 extract_conditions_task:
   description: |
-    Thoroughly analyze the PDF document and extract ALL policy requirements.
-    Use keywords like 'shall', 'should', 'must' and other modal verbs / modal auxiliary verbs to extract the all requirements.
-    Ensure completeness by reviewing each section of the document.
-    Format the output as a structured list with condition ID, description, and reference (page/section).
-  expected_output: A comprehensive, structured list of all policy compliance conditions with unique IDs, descriptions, and source references.
+    Thoroughly analyze ALL PDF documents in the policy folder and extract ALL policy requirements.
+    Use the PDFTool with process_all=True to examine all PDF files.
+    Use keywords like 'shall', 'should', 'must', 'required', 'obligated' and other modal verbs / modal auxiliary verbs to extract ALL requirements.
+    Ensure COMPLETE coverage by reviewing EVERY section and EVERY page of EVERY document.
+    Format the output as a structured list with condition ID, description, and reference (document name, page/section).
+    Include the source document name in each reference.
+  expected_output: A comprehensive, structured list of all policy compliance conditions with unique IDs, descriptions, and source references including document names.
   agent: policy_analyzer
 
 identify_risks_task:
@@ -12,7 +14,8 @@ identify_risks_task:
     For each extracted compliance condition, identify and analyze potential risks of non-compliance.
     Assess the likelihood and potential impact of each risk.
     Format the output as a structured list with risk ID, related condition ID, risk description, likelihood, and impact.
-  expected_output: A detailed risk register mapping risks to compliance conditions with assessment of likelihood and impact.
+    Include references to the source document and page for each risk.
+  expected_output: A detailed risk register mapping risks to compliance conditions with assessment of likelihood and impact and source references.
   agent: risk_assessor
   context:
     - extract_conditions_task
@@ -22,7 +25,8 @@ design_controls_task:
     For each identified risk, design appropriate controls to mitigate the risk and ensure compliance.
     Specify whether each control is preventive, detective, or corrective.
     Format the output as a structured list with control ID, related risk ID, control description, control type, and implementation considerations.
-  expected_output: A comprehensive control framework with specific controls mapped to each identified risk.
+    Include references to the original policy condition's document source and page.
+  expected_output: A comprehensive control framework with specific controls mapped to each identified risk and traceability to source documents.
   agent: control_designer
   context:
     - identify_risks_task
@@ -32,7 +36,8 @@ develop_tests_task:
     For each control, develop detailed test procedures to verify implementation and effectiveness.
     Include specific steps, expected results, and evidence requirements for each test.
     Format the output as a structured audit program with test ID, related control ID, test objective, detailed test steps, and evidence requirements.
-  expected_output: A detailed audit program with specific test procedures for each control to verify compliance with policy requirements.
+    Maintain traceability to the original source documents by including references to document names and page numbers.
+  expected_output: A detailed audit program with specific test procedures for each control to verify compliance with policy requirements with source traceability.
   agent: audit_planner
   context:
     - design_controls_task
@@ -41,13 +46,14 @@ generate_report_task:
   description: |
     Compile all findings into a comprehensive report that includes:
     1. Executive summary of the policy analysis
-    2. Complete listing of all compliance conditions
+    2. Complete listing of all compliance conditions with document sources
     3. Risk assessment results
     4. Control framework
     5. Audit test procedures
-    6. Traceability matrix showing relationships between conditions, risks, controls, and tests
+    6. Traceability matrix showing relationships between conditions, risks, controls, and tests, including document sources
     Format the report in a professional, well-structured manner suitable for executive review.
-  expected_output: A comprehensive compliance analysis report with all components and a traceability matrix.
+    Ensure full traceability to source documents by including document names and page numbers in all references.
+  expected_output: A comprehensive compliance analysis report with all components and a traceability matrix that includes source document references.
   agent: policy_analyzer
   context:
     - extract_conditions_task

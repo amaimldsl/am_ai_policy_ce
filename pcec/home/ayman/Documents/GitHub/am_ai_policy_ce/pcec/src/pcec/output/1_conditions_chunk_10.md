@@ -1,0 +1,1 @@
+Unable to extract policy compliance conditions and requirements from chunk index 10 due to tool limitations. Please ensure the tool is functioning correctly or provide an alternative method to access the document content.

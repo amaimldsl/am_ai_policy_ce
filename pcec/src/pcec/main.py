@@ -4,10 +4,34 @@ import traceback
 from pathlib import Path
 
 from crew import pcec
+from pdftest import test_pdf_extraction
+import document_processor
 
 def main():
     """Main function to run the policy compliance analysis."""
     try:
+        print("Testing PDF tool...")
+        
+        test_pdf_extraction()
+        document_processor.preprocess_documents()
+        
+
+        # Debug check for context passing
+        def check_task_context():
+            for task in pcec.tasks:
+                print(f"Task: {task.description[:50]}...")
+                if task.context:
+                    print(f"  Has {len(task.context)} context items:")
+                    for ctx in task.context:
+                        print(f"  - Context: {ctx.description[:50]}...")
+                else:
+                    print("  No context items")
+            
+        # Add before pcec.kickoff()
+        check_task_context()
+
+
+
         print("Starting Policy Compliance Analysis...")
         start_time = time.time()
         

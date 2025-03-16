@@ -1,0 +1,617 @@
+[Document: document.pdf, Page 46]
+CBUAE Classification: Public
+net receiver of collateral). The second term is non-zero only when the bank is a net poster of
+collateral: it is equal to the current net posted collateral (if there is any) reduced by the un-
+margined current exposure of the counterparty to the bank aggregated across all netting sets
+within the margin agreement. Net collateral available to the bank should include both VM and
+NICA. Mathematically, RC for the entire margin agreement is:
+𝑅𝐶 = 𝑚𝑎𝑥(0 ; ∑ max(0;𝑉 )−max (0;𝐶 ))+𝑚𝑎𝑥(0 ; ∑ min(0;𝑉 )−min (0;𝐶 ))
+𝑀𝐴 𝑁𝑆 𝑀𝐴 𝑁𝑆 𝑀𝐴
+𝑁𝑆∈𝑀𝐴 𝑁𝑆∈𝑀𝐴
+where the summation NS ∈ MA is across the netting sets covered by the margin agreement
+(hence the notation), V is the current mark-to-market value of the netting set NS and C is the
+NS MA
+cash equivalent value of all currently available collateral under the margin agreement.
+39. An alternative description of this calculation is as follows:
+Step 1: Compute the net value, positive or negative, of each netting set. These calculated
+values correspond to the terms V in the expression above.
+NS
+Step 2: Sum the values of all netting sets with positive value, to get Total Positive Value
+(TPV). This corresponds to the term in the expression above:
+𝑇𝑃𝑉 = ∑ max (𝑉 ;0)
+𝑁𝑆
+𝑁𝑆∈𝑀𝐴
+Step 3: Sum the values of all of netting sets with negative value, to get Total Negative
+Value (TNV). This corresponds to the term in the expression above:
+𝑇𝑁𝑉 = ∑ min (𝑉 ;0)
+𝑁𝑆
+𝑁𝑆∈𝑀𝐴
+Step 4: Calculate the net current cash value of collateral, including NICA and VM. This
+corresponds to the term C in the expression above. If the bank is net holder of
+MA
+collateral, then C is positive; it is the net value held (NVH). If the bank is a net
+MA
+provider of collateral, then C is negative, and its absolute value is the net value
+MA
+provided (NVP). Note that either NVH>0 and NVP=0, or NVP>0 and NVH=0.
+One of the following cases then applies:
+Step 5a: If NVH>0 (so NVP=0), then RC = TPV – NVH, but with a minimum of zero
+– that is, RC cannot be negative.
+or
+Step 5b: If NVH=0 (so NVP>0), then RC = TPV + NVP – TNV, but with a minimum
+of TPV – that is, RC cannot be less than TPV.
+40. To calculate PFE when a single margin agreement applies to multiple netting sets, netting
+set level un-margined PFEs should be calculated and aggregated, i.e. PFE should be calculated
+as the sum of all the individual netting sets considered as if they were not subject to any form of
+margin agreement.
+44
+
+[Document: document.pdf, Page 47]
+CBUAE Classification: Public
+III. Summary of the EAD Calculation Process
+The following diagram provides a visual summary of the CCR calculation of EAD for derivatives,
+based on replacement cost and potential future exposure.
+1. Replacement Cost (RC) Calculation
+Calculate RC for all transactions, margined and un-margined
+2. Trade Classification
+Assign trades to netting set, and to asset classes based on primary risk
+factors
+3. Trade-level Adjusted Notional Calculation
+Calculate trade-level adjusted notional amount using asset class rules
+(with supervisory duration adjustment for interest rate and credit
+derivatives)
+4. Trade-level Effective Notional Calculation
+Adjust trade-level adjusted notional using Supervisory Delta and
+Maturity Factor
+5a. Credit, Equity, Commodity
+5b. Interest Rate and FX Derivatives
+Derivatives
+Aggregate effective notional with full
+Aggregate effective notional with full
+offset for trades in same maturity
+offset for trades in same entity (credit,
+category and currency (interest rate) and
+equity) or commodity type
+currency pair (FX)
+6a. Add-Ons 6b. Add-Ons
+Apply prescribed Supervisory Factors to
+Apply prescribed Supervisory Factors to
+effective notional amounts to calculate
+effective notional amounts to calculate
+add-on for each maturity category or
+add-on for each entity or commodity type
+currency pair
+7a. Hedging Set Assignment and Add- 7b. Hedging set Assignment and Add-
+Ons Ons
+One hedging set for credit, one for
+One hedging set for each currency
+equity, and one for each of four
+(interest rate) or currency pair (FX)
+commodity sub-classes
+Apply supervisory correlations to divide Aggregate maturity-category add-ons
+the add-on into systematic and according to rules in the standards to get
+idiosyncratic components in each hedging set add-on for interest rate
+hedging set derivatives
+45
+
+[Document: document.pdf, Page 48]
+CBUAE Classification: Public
+Aggregate to get hedging set add-on,
+Aggregate absolute value of currency-
+with full offset for systematic components
+pair add-ons to get hedging set add-on
+and no offset for idiosyncratic
+for FX derivatives
+components
+8. Asset-Class Add-On Calculation
+Simple summation of add-ons across hedging sets for each asset class
+9. Aggregate Add-On Calculation
+Simple summation of asset-class add-ons across asset classes
+10. Potential Future Exposure (PFE) Calculation
+Apply multiplier reflecting impact of any negative contract value or over-
+collateralization to aggregate add-on, possibly reducing PFE by up to
+95%
+11. Exposure at Default (EAD) Calculation
+Sum RC and PFE for the netting set, and multiply by 1.4. If the resulting
+EAD for margined trades exceeds EAD if un-margined, use the un-
+margined EAD.
+46
+
+[Document: document.pdf, Page 49]
+CBUAE Classification: Public
+IV. Frequently Asked Questions
+A. Netting
+Question A1: Does a bank need written approval for each netting agreement it has in place,
+or will the Central Bank provide a list of pre-approved jurisdictions or counterparties?
+The bank should establish an internal process that considers the factors identified in the
+Standards. That process should be subject to internal review and challenge per the Standards.
+The Central Bank will review the identification of netting sets as part of the supervisory process,
+and notify the bank of any determinations that netting is not appropriate. The Central Bank will
+not provide a list of pre-approved jurisdictions or counterparties.
+Question A2: Do amendments to existing netting agreements require approval from the
+Central Bank?
+Amendments that do not raise new questions about the validity of netting need not be raised to
+the Central Bank for consideration.
+Question A3: What if netting is not valid? Can netting sets still be used for the calculation?
+If the requirements of the Standards for recognition of netting are not satisfied, then each
+transaction is its own netting set – a netting set consisting of a single transaction – and many of
+the calculations are much simpler.
+Question A4: Is use of the standard ISDA agreement sufficient to apply netting?
+No, use of the standard ISDA agreement is not in itself sufficient to demonstrate that netting is
+valid and legally enforceable in the relevant jurisdictions under the requirements of the Standards.
+Question A5: Can we treat trades with a UAE counterparty (UAE Bank or Foreign Bank
+operating in the UAE) having a signed ISDA / CSA as a netting set even though the UAE is
+not a netting jurisdiction?
+No, as noted above, use of the standard ISDA agreement is not in itself sufficient to demonstrate
+that netting is valid and legally enforceable in the relevant jurisdictions under the requirements of
+the Standards, and is not a replacement for a determination regarding the legal enforceability of
+netting.
+Question A6: If there is no netting agreement of any sort in place, what would the treatment
+be for trades with negative mark to market? Will they be included or excluded from the
+exposure calculation?
+Trades with negative value have RC=0, but still have counterparty credit risk, which will be
+reflected in the calculation of the PFE component of exposure.
+B. Collateral
+Question B1: What haircuts should be applied to collateral for the calculations of exposure
+net of collateral?
+Banks should apply the standard supervisory haircuts from the capital framework.
+Question B2: If a counterparty places initial cash margin against a derivatives facility, but
+has no signed ISDA / CSA in place, can this cash margin be considered as collateral for
+Replacement Cost calculations?
+Yes, provided the arrangement allows the bank to retain the cash in the event of a default by the
+counterparty.
+Question B3: Can collateral received under a CSA be considered as part of the RC
+calculation in absence of a netting agreement?
+47
+
+[Document: document.pdf, Page 50]
+CBUAE Classification: Public
+Yes. Note that in the absence of netting, the netting set would consist of a single trade and any
+collateral corresponding to that trade.
+C. Classification of Trades
+Question C1: For a currency swap involving principal and interest exchange, since there
+is exchange rate risk in addition to interest rate risk, do we need to assign the notional to
+both the currency and interest rate classes?
+Yes, derivatives with exposure to more than one primary risk factor should be allocated to all
+relevant asset classes for the PFE calculation, so this transaction should be included in its full
+amount in both the Foreign Exchange hedging set and the Interest Rate hedging set.
+Question C2: In a cross-currency swap with principal exchange at the beginning and at the
+end, and with fixed-rate to fixed-rate interest exchange so that there is no interest rate risk,
+should this trade be included only in the foreign currency category?
+Yes, it should be treated as FX exposure.
+Question C3: Is there any prescribed PFE treatment for a derivative such as a weather
+derivative?
+Derivatives with "unusual" underlying such as weather or mortality are included in the "Other"
+hedging set within the Commodity asset class.
+Question C4: Can trades with gold as the underlying asset be treated as currency
+derivatives?
+No. Although gold often has been grouped with foreign exchange historically, for the CCR
+Standards it is to be treated as a metal within the commodity asset class.
+D. Supervisory Delta Adjustment
+Question D1: What is the Supervisory Delta for FX Swaps and FX Forwards?
+These are linear contracts, so the Supervisory Delta is either +1 (for long positions) or -1 (for short
+positions).
+Question D2: The Standards states that the Supervisory Delta for a short position (one that
+is not an option or CDO) should be -1. However, if netting is not permitted, should the
+Supervisory Delta be set to +1 for all the short (as well as the long) positions?
+In principle, the Supervisory Delta should be -1 if the position is short. However, in the case of a
+single-trade netting set, there is no possibility of offsetting, so the sign of the Supervisory Delta
+does not affect the calculation.
+Question D3: In the case of an option strategy such as a straddle or strangle involving
+more than one type of option (e.g. a long call and a long put), which Supervisory Delta
+should be used?
+In the case of positions that involve combinations of options, the position should be decomposed
+into its simpler option components, appropriate Supervisory Deltas determined for each
+component, and the weighted average Supervisory Delta applied to the position as a whole.
+Question D4: In the case of an option strategy involving multiple options with only one leg
+having a possibility of exercise, can we consider this structure as a "short" position if we
+are net receiver of the premium and a "long" position if we are net payer of premium?
+As noted above, in the case of positions that involve combinations of options, the position should
+be decomposed into its simpler option components, appropriate Supervisory Deltas determined
+for each component, and the weighted average Supervisory Delta applied to the position as a
+48
+
+[Document: document.pdf, Page 51]
+CBUAE Classification: Public
+whole. In this case, some of the Supervisory Deltas would be positive, and some would be
+negative. The sign of the overall Supervisory Delta would depend on the relative size of the
+positions, and the associated magnitude (in absolute value) of the deltas.
+Question D5: Should the same set of Supervisory Deltas be used in the case of path
+dependent options such as barrier options, or other complex options? For such products,
+the simple option delta formula may not be appropriate.
+Banks should apply the standardised formulas for the CCR calculations, including the Supervisory
+Delta adjustment for all options. Note that use of a single, simplified formula for the Supervisory
+Delta for options is a feature of the Standardised Approach. Like all standardised approaches, the
+SA-CCR involves numerous trade-offs between precision and simplicity. Many other aspects of
+the Standardised Approach use approximations, such as the assumption that a single correlation
+should be used for all commodity derivatives, or the use of a single volatility for all FX options.
+Banks should certainly use more analytically appropriate deltas for internal purposes such as
+valuation and risk management.
+E. Hedging Sets
+Question E1: Can different floating rates within the same base currency be included in
+single hedging set?
+Yes, for interest rate derivatives, all rates within one base currency should be included in a single
+hedging set.
+Question E2: Is it possible to determine a hedging set in the absence of a netting set?
+Yes, without a netting set, the hedging set would consist of a single transaction, and the add-on
+would be simply the effective notional amount of that one transaction.
+F. Maturity and Supervisory Duration
+Question F1: For Supervisory Duration, should S and E be based on original maturity or
+residual maturity?
+Calculation of S and E should be computed relative to the current date, not the date at which the
+trade was initiated; hence, they are most similar to residual maturity.
+Question F2: When calculating the remaining maturity in business days, should we follow
+the business calendar given in the master agreement, or the business calendar within the
+jurisdiction in which the bank is operating?
+The Basel Committee has provided guidance that the number of business days used for the
+purpose of determining the maturity factor must be calculated appropriately for each transaction,
+taking into account the market conventions of the relevant jurisdiction. The Central Bank follows
+this approach as well.
+Question F3: What is the maturity factor if the remaining maturity is greater than 250
+business days?
+In that case, the maturity factor for the CCR calculations is equal to 1.0.
+Question F4: What would be the maturity of a derivative with multiple exchanges of
+notional over a period of time?
+The maturity date is the date of the final exchange or payment under the contract.
+Question F5: What is the Maturity Factor for deals such as callable range accruals where
+the call date is less than 1 year, but the deal maturity is more than 1 year?
+Since the deal maturity is more than one year, the Maturity Factor would be equal to 1.0.
+49
+
+[Document: document.pdf, Page 52]
+CBUAE Classification: Public
+G. Other
+Question G1: For certain capital calculations in the past, exchange rate contracts with an
+original maturity of 14 calendar days or less were excluded from certain capital
+requirements. Is that applicable for the CCR Standards?
+No, all in-scope exchange rate contracts must be included, regardless of original or remaining
+maturity.
+Question G2: A single hedging set might include derivatives on underlying rates, prices,
+or entities that span different Basel categories (e.g. corporates, financials, sovereigns); do
+these need to be calculated separately in order to compute and report RWA in the format
+required by the reporting template?
+No, the risk-weight, and the category for reporting in the Central Bank’s template, depends on the
+nature of the counterparty, not the nature of the underlying reference asset. The counterparty for
+any netting set will fall into one and only one category for risk weighting and for reporting.
+Question G3: For a variable notional swap, how should the average notional be calculated?
+Use the time-weighted average notional in the CCR calculations.
+Question G4: Should the current spot rate be used to compute adjusted notional?
+Yes, the current spot rate should be used.
+Question G5: Bank ask in case of calculating discounted counterparty exposure is a
+double count and will inflate CVA Capital charge given SA-CCR EAD already factors in
+maturity adjustment while computing adjusted notional which is product of trade notional
+& supervisory duration?
+The use of the discount factor in the CVA capital charge does not result in double counting. While
+there is superficial similarity between the supervisory duration (SD) adjustment in SA-CCR and
+the discount factor (DF) in CVA, they are actually capturing different aspects of risk exposure.
+The use of SD in SA-CCR adjusts the notional amount of the derivatives to reflect its sensitivity
+to changes in interest rates, since longer-term derivatives are more sensitive to rate changes than
+are shorter-term derivatives. In contrast, the use of DF in the CVA calculation reflects the fact that
+a bank is exposed to CVA risk not only during the first year of a derivative contract, but over the
+life of the contract; the DF term recognizes the present value of the exposure over the life of the
+contract. Thus, these two factors, although they have similar functional forms and therefore
+appear somewhat similar, are not in fact duplicative.
+50
+
+[Document: document.pdf, Page 53]
+CBUAE Classification: Public
+V. Illustrations of EAD Calculations
+A. Illustration 1
+Consider a netting set with three interest rates derivatives: two fixed versus floating interest rate
+swaps and one purchased physically settled European swaption. The table below summarizes
+the relevant contractual terms of the three derivatives. All notional amounts and market values in
+the table are given in USD. We also know that this netting set is not subject to a margin agreement
+and there is no exchange of collateral (independent amount/initial margin) at inception.
+Trade # Nature Residual Base Notional Pay Receive Market value
+maturity currency (thousands) Leg (*) Leg (*) (thousands)
+1 Interest rate 10 years USD 10,000 Fixed Floating 30
+swap
+2 Interest rate 4 years USD 10,000 Floating Fixed -20
+swap
+3 European 1 into 10 years EUR 5,000 Floating Fixed 50
+swaption
+(*) For the swaption, the legs are those of the underlying swap.
+The EAD for un-margined netting sets is given by:
+EAD = 1.4 * (RC + PFE)
+1. Replacement Cost Calculation
+The replacement cost is calculated at the netting set level as a simple algebraic sum (floored at
+zero) of the derivatives’ market values at the reference date. Thus, using the market values
+indicated in the table (expressed in thousands):
+RC = max {V - C; 0} = max {30 - 20 + 50; 0} = 60
+Since V-C is positive (equal to V of 60,000), the value of the multiplier is 1, as explained in the
+Standards.
+2. Potential Future Exposure Calculation
+All the transactions in the netting set belong to the interest rate asset class. So the Add-on for
+interest rate class must be calculated as well as the multiplier since
+PFE = multiplier × Add-on
+agg
+For the calculation of the interest rate add-on, the three trades must be assigned to a hedging set
+(based on the currency) and to a maturity category (based on the end date of the transaction). In
+this example, the netting set is comprised of two hedging sets, since the trades refer to interest
+rates denominated in two different currencies (USD and EUR). Within hedging set “USD”, Trade
+1 falls into the third maturity category (>5 years) and Trade 2 falls into the second maturity
+category (1-5 years). Trade 3 falls into the third maturity category (>5 years) of hedging set “EUR”.
+51
+
+[Document: document.pdf, Page 54]
+CBUAE Classification: Public
+S and E represent the start date and end date, respectively, of the time period referenced by the
+interest rate transactions.
+Trade Hedging Time Notional S E
+# set bucket (thousands)
+1 USD 3 10,000 0 10
+2 USD 2 10,000 0 4
+3 EUR 3 5,000 1 11
+The following table illustrates the steps typically followed for the add-on calculation:
+Steps Activities
+1. Calculate Effective Notional Calculate supervisory duration
+Calculate trade-level adjusted notional as trade
+notional (in domestic currency) × supervisory
+duration
+Effective notional for each maturity category =
+Σ(trade-level adjusted notional × supervisory delta
+× maturity factor), with full offsetting for each of the
+three maturity categories, in each hedging set
+(that is, same currency)
+2. Apply Supervisory Factors Add-on for each maturity category in a hedging set
+(that is, same currency) = Effective Notional
+Amount for maturity category × interest rate
+supervisory factor
+3. Apply Supervisory Correlations Add-on for each hedging set = Σ(Add-ons for
+maturity categories), aggregating across maturity
+categories for a hedging set. One hedging set for
+each currency.
+4. Aggregate Simple summation of the add-ons for the different
+hedging sets
+Calculate Effective Notional Amount
+The adjusted notional of each trade is calculated by multiplying the notional amount by the
+calculated supervisory duration SD as defined in the Standards.
+d = Trade Notional × SD = Trade Notional × (exp(-0.05×S) – exp(-0.05 × E)) / 0.05
+Notional Time
+Trade Amount Bucket S E Supervisory Duration SD Adjusted Notional d
+Trade 1 10,000,000 3 0 10 7.869386806 78,693,868.06
+Trade 2 10,000,000 2 0 4 3.625384938 36,253,849.38
+Trade 3 5,000,000 3 1 11 7.485592282 37,427,961.41
+52
+
+[Document: document.pdf, Page 55]
+CBUAE Classification: Public
+Calculate Maturity Category Effective Notional
+A supervisory delta is assigned to each trade in accordance with the Standards. In particular:
+ Trade 1 is long in the primary risk factor (the reference floating rate) and is not an
+option so the supervisory delta is equal to 1.
+ Trade 2 is short in the primary risk factor and is not an option; thus, the supervisory
+delta is equal to -1.
+ Trade 3 is an option to enter into an interest rate swap that is short in the primary risk
+factor and therefore is treated as a purchased put option. As such, the supervisory
+delta is determined by applying the relevant formula using 50% as the supervisory
+option volatility and 1 (year) as the option exercise date. Assume that the underlying
+price (the appropriate forward swap rate) is 6% and the strike price (the swaption’s
+fixed rate) is 5%.
+The trade-level supervisory delta is therefore:
+Trade Delta Instrument Type
+Trade 1 1 linear, long (forward and swap)
+Trade 2 -1 linear, short (forward and swap)
+0.06
+ln( )+0.5∗(0.5)2∗1
+0.05
+−Φ(− ) = −0.27
+Trade 3 0.5∗√1 purchased put option
+The Maturity Factor MF is 1 for all the trades since they are un-margined and have remaining
+maturities in excess of one year.
+Based on the maturity categories, the Effective Notional D for the USE and EUR hedging sets at
+the level of the maturity categories are as shown in the table below:
+Maturity category-level Effective
+Time Adjusted Supervisory
+Hedging Set Maturity Factor Notional D
+Bucket Notional Delta
+3 78,693,868 1 1 78,693,868
+HS 1 (USD)
+2 36,253,849 -1 1 -36,253,849
+HS 2 (EUR) 3 37,427,961 -0.27 1 -10,105,550
+In particular:
+Hedging set USD, time bucket 3: D = 1 * 78,693,868 * 1 = 78,693,868
+Hedging set USD, time bucket 2: D = -1 * 36,253,849 * 1 = -36,253,849
+53
+
+[Document: document.pdf, Page 56]
+CBUAE Classification: Public
+Hedging set EUR, time bucket 3: D = -0.27 * 37,427,961 * 1 = -10,105,550
+Apply Supervisory Factor
+The add-on must be calculated for each hedging set.
+For the USD hedging set there is partial offset between the two USD trades:
+Effective notional(IR) [D22 + D32 + 1.4 x D2 x D3]1/2
+USD =
+= [(-36,253,849)2 + 78,693,8682 + 1.4 × (-36,253,849) × 78,693,868]1/2
+= 59,269,963
+For the Hedging set EUR there is only one trade (and one maturity category):
+Effective notional(IR) = 10,105,550
+EUR
+In summary:
+Maturity category-
+Hedging Hedging Set level
+Time Bucket level
+set Effective Notional D j,k Effective Notional D j,k (IR)
+HS 1 (USD) 3 78,693,868
+59,269,963
+(Partial offset)
+2 -36,253,849
+3 -10,105,550 10,105,549.58
+HS 2 (EUR)
+Aggregation of the calculated add-ons across different hedging sets:
+(No offset between hedging
+Effective Notional(IR) = 59,269,963 + 10,105,550 = 69,375,513
+sets)
+The asset class is interest rates; thus the applicable Supervisory factor is 0.50%. As a result:
+Add-on = SF × Effective Notional = 0.005 × 69,375,513 = 346,878
+Supervisory Correlation Parameters
+Correlation is not applicable to the interest rate asset class, and there is no other asset class in
+the netting set in this example.
+Add-on Aggregation
+For this netting set, the interest rate add-on is also the aggregate add-on because there are no
+trades assigned to other asset classes. Thus, the aggregate add-on = 346,878
+54
+
+[Document: document.pdf, Page 57]
+CBUAE Classification: Public
+Multiplier
+The multiplier is given by:
+multiplier = min { 1; Floor+(1-Floor) × exp [(V-C) /(2 ×(1-Floor)×Add-on )] }
+agg
+= min {1; 0.05 + 0.95 × exp [60,000 / (2 × 0.95 × 346,878]}
+=1
+Final Calculation of PFE
+In this case the multiplier is equal to one, so the PFE is the same as the aggregate Add-On:
+PFE = multiplier × Add-on = 1 × 346,878 = 346,878
+agg
+3. EAD Calculation
+The exposure EAD to be risk weighted for counterparty credit risk capital requirements purposes
+is therefore
+EAD = 1.4 * (RC + PFE) = 1.4 x (60,000 + 346,878) = 569,629
+B. Illustration 2
+Consider a netting set with three credit derivatives: one long single-name CDS written on Firm A
+(rated AA), one short single-name CDS written on Firm B (rated BBB), and one long CDS index
+(investment grade). All notional amounts and market values are denominated in USD. This netting
+set is not subject to a margin agreement and there is no exchange of collateral (independent
+amount/initial margin) at inception. The table below summarizes the relevant contractual terms of
+the three derivatives.
+Reference Rating Market value
+Trade entity / reference Residual Base Notional (thousands)
+Nature Position
+# index entity maturity currency (thousands)
+name
+Protection
+Single-
+1 Firm AA 3 years USD 10,000 Buyer 20
+name
+A
+CDS
+Protection
+Single-
+2 Firm BBB 6 years EUR 10,000 Seller -40
+name
+B
+CDS
+Protection
+Investment
+3 CDS CD 5 years USD 10,000 buyer 0
+grade
+index X.IG
+According to the Standards, the EAD for un-margined netting sets is given by:
+EAD = 1.4 * (RC + PFE)
+55
+
+[Document: document.pdf, Page 58]
+CBUAE Classification: Public
+1. Replacement Cost Calculation
+The replacement cost is calculated at the netting set level as a simple algebraic sum (floored at
+zero) of the derivatives’ market values at the reference date. Thus, using the market values
+indicated in the table (expressed in thousands):
+RC = max {V - C; 0} = max {20 - 40 + 0; 0} = 0
+Since V-C is negative (i.e. -20,000), the multiplier will be activated (i.e. it will be less than 1).
+Before calculating its value, the aggregate add-on needs to be determined.
+2. Potential Future Exposure Calculation
+The following table illustrates the steps typically followed for the add-on calculation:
+Steps Activities
+1. Calculate Effective Notional Calculate supervisory duration
+Calculate trade-level adjusted notional = trade
+notional (in domestic currency) × supervisory
+duration
+Calculate trade-level effective notional amount =
+trade-level adjusted notional × supervisory delta
+× maturity factor
+Calculate effective notional amount for each
+entity by summing the trade-level effective
+notional amounts for all trades referencing the
+same entity (either a single entity or an index)
+with full offsetting
+2. Apply Supervisory Factors Add-on for each entity in a hedging set = Entity-
+level Effective Notional Amount × Supervisory
+Factor, which depends on entity’s credit rating (or
+investment/speculative for index entities)
+3. Apply Supervisory Correlations Entity-level add-ons are divided into systematic
+and idiosyncratic components weighted by the
+correlation factor
+4. Aggregate Aggregation of entity-level add-ons with full
+offsetting in the systematic component and no
+offsetting in the idiosyncratic component
+Effective Notional Amount
+The adjusted notional of each trade is calculated by multiplying the notional amount with the
+calculated supervisory duration SD specified in the Standards.
+d= Trade Notional × SD = Trade Notional × {exp(-0.05×S) – exp(-0.05 × E)} / 0.05
+56
+
+[Document: document.pdf, Page 59]
+CBUAE Classification: Public
+Notional Supervisory Duration
+Trade S E Adjusted Notional d
+Amount SD
+Trade 1
+10,000,000 0 3 2.785840471 27,858,405
+Trade 2
+10,000,000 0 6 5.183635586 51,836,356
+Trade 3
+10,000,000 0 5 4.423984339 44,239,843
+The appropriate supervisory delta must be assigned to each trade: in particular, since Trade 1
+and Trade 3 are long in the primary risk factor (CDS spread), their delta is 1; in contrast, the
+supervisory delta for Trade 2 is -1.
+Trade Delta Instrument Type
+Trade 1 1 linear, long (forward and swap)
+Trade 2 -1 linear, short (forward and swap)
+Trade 3 1 linear, long (forward and swap)
+Thus, the entity-level effective notional is equal to the adjusted notional times the supervisory
+delta times the maturity factor (where the maturity factor is 1 for all three derivatives).
+Effective Notionalk = ∑𝒊 𝝐 di × 𝜹i × MFi
+Supervisory Entity Level
+Trade Adjusted Notional Maturity Factor
+Delta Effective Notional
+Trade 1 27,858,405 1 1 27,858,405
+Trade 2 51,836,356 -1 1 -51,836,356
+Trade 3 44,239,843 1 1 44,239,843
+Supervisory Factor
+The add-on must now be calculated for each entity. Note that all derivatives refer to different
+entities (single names/indices). A supervisory factor is assigned to each single-name entity based
+on the rating of the reference entity, as specified in Table 1 in the relevant Standards. This means
+assigning a supervisory factor of 0.38% for AA-rated firms (Trade 1) and 0.54% for BBB-rated
+firms (for Trade 2). For CDS indices (Trade 3), the supervisory factor is assigned according to
+whether the index is investment or speculative grade; in this example, its value is 0.38% since the
+index is investment grade.
+Asset Class Subclass 𝜌 SF
+Credit, Single Name AA 50% 0.38%
+Credit, Single Name BBB 50% 0.54%
+Credit, Index IG 80% 0.38%
+57
+
+[Document: document.pdf, Page 60]
+CBUAE Classification: Public
+Thus, the entity level add-ons are as follows:
+Add-on(Entity) = SF × Effective Notional
+Trade Effective Notional Supervisory factor SF Add-on (Entity)
+Trade 1 27,858,405 0.38% 105,862
+Trade 2 -51,836,356 0.54% -279,916
+Trade 3 44,239,843 0.38% 168,111
+Supervisory Correlation Parameters
+The add-on calculation separates the entity level add-ons into systematic and idiosyncratic
+components, which are combined through weighting by the correlation factor. The correlation
+parameter ρ is equal to 0.5 for the single-name entities (Trade 1-Firm A and Trade 2-Firm B) and
+0.8 for the index (Trade 3-CDX.IG) in accordance with the requirements of the Standards.
+(Credit) CR 2 CR 2 21/2
+Add-on = [ [ ∑k ρk × Add-on (Entityk) ] + ∑k (1- (ρk ) ) × (Add-on (Entityk)) ]
+Trade 𝜌 Add-on(Entity k) 𝜌 × Add-on(Entity k) (1 – 𝜌2) (1 – 𝜌2) × ( Add-on(Entity k))2
+Trade 1 50% 105,862 52,931 0.75 8,405,062,425
+Trade 2 50% -279,916 -139,958 0.75 58,764,860,350
+Trade 3 80% 168,111 134,489 0.36 10,174,120,000
+Systematic Component 47,462 Idiosyncratic Component 77,344,042,776
+Full offsetting No offsetting
+Add-on Aggregation
+For this netting set, the interest rate add-on is also the aggregate add-on because there are no
+trades assigned to other asset classes. Thus, the aggregate add-on = 346,878
+Aggregation of entity-level add-ons with full offsetting in the systematic component and no
+offsetting benefit in the idiosyncratic component.
+Systematic Component 47,462
+Idiosyncratic Component 77,344,042,776
+Thus,
+Add-on = [ (47,462)2 + 77,344,042,776 ]1/2 = 282,129
+Multiplier
+The multiplier is given by
+58
