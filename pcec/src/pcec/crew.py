@@ -185,7 +185,7 @@ class CrewBuilder:
                 api_key=deepseek_api_key,
                 api_base=deepseek_api_base,
                 temperature=0.2,
-                max_tokens=1024,
+                max_tokens=4096,
                 streaming=True,
                 custom_llm_provider="deepseek"
             )

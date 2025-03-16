@@ -1,6 +1,7 @@
-# tools/PDFTool.py - Fixed version
-from typing import Optional, List, Dict, Any
+# tools/PDFTool.py - Fully Fixed Version
+from typing import Optional, List, Dict, Any, Union
 from crewai.tools import BaseTool
+from pydantic import BaseModel, Field
 from pathlib import Path
 import os
 import re
@@ -8,19 +9,29 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+# Define a proper input schema with all fields optional
+class PDFToolSchema(BaseModel):
+    chunk_path: str = Field(default="")
+    chunk_index: Optional[int] = Field(default=None)
+    query: str = Field(default="")
+    process_all: bool = Field(default=False)
+
 class PDFTool(BaseTool):
     name: str = "PDF Extraction Tool"
     description: str = "Extracts text from preprocessed PDF chunks or searches within them."
+    args_schema: Optional[type[BaseModel]] = PDFToolSchema
 
     def _run(
         self, 
-        chunk_path: str = "",  # Default empty string instead of None
+        chunk_path: str = "",
         chunk_index: Optional[int] = None,
-        query: str = "",  # Default empty string instead of None
+        query: str = "",
         process_all: bool = False,
         **kwargs
     ) -> str:
         try:
+            logger.info(f"PDFTool running with: chunk_path={chunk_path}, chunk_index={chunk_index}, query={query}, process_all={process_all}")
+            
             # Find the preprocessed directory
             base_dir_candidates = [
                 Path(__file__).resolve().parent.parent,
@@ -42,7 +53,7 @@ class PDFTool(BaseTool):
                 
             # Process all chunks if requested
             if process_all:
-                return self._process_all_chunks(preprocessed_dir)
+                return self._process_all_chunks(preprocessed_dir, query)
             
             # List available chunks if no specific chunk is requested
             if (not chunk_path or chunk_path == "") and chunk_index is None:
@@ -89,7 +100,7 @@ class PDFTool(BaseTool):
             f"{i}: {chunk.name}" for i, chunk in enumerate(chunks)
         )
     
-    def _get_chunk_by_index(self, preprocessed_dir: Path, chunk_index: int) -> Path:
+    def _get_chunk_by_index(self, preprocessed_dir: Path, chunk_index: int) -> Union[Path, str]:
         """Get a chunk file by its index"""
         chunks = list(preprocessed_dir.glob("*.txt"))
         if not chunks:
@@ -128,7 +139,7 @@ class PDFTool(BaseTool):
         
         return f"Search results for '{query}':\n\n" + combined_results
     
-    def _process_all_chunks(self, preprocessed_dir: Path) -> str:
+    def _process_all_chunks(self, preprocessed_dir: Path, query: str = "") -> str:
         """Process all chunks and extract key requirements"""
         chunks = list(preprocessed_dir.glob("*.txt"))
         if not chunks:
@@ -144,6 +155,29 @@ class PDFTool(BaseTool):
         # Add chunk names to summary
         for i, chunk in enumerate(chunks):
             summary += f"{i}: {chunk.name}\n"
+        
+        # If a query is provided, perform a search across all chunks
+        if query:
+            results = []
+            for chunk in chunks:
+                try:
+                    text = self._read_chunk_with_limit(chunk)
+                    chunk_results = self.search_text(text, query)
+                    if chunk_results:
+                        results.append(f"From {chunk.name}:")
+                        results.extend(chunk_results)
+                        results.append("---\n")
+                except Exception as e:
+                    results.append(f"Error processing {chunk.name}: {str(e)}")
+            
+            if results:
+                combined_results = "\n".join(results)
+                MAX_TEXT_LENGTH = 15000
+                if len(combined_results) > MAX_TEXT_LENGTH:
+                    return f"Search results for '{query}' across multiple chunks (truncated to {MAX_TEXT_LENGTH} chars):\n\n" + combined_results[:MAX_TEXT_LENGTH]
+                return f"Search results for '{query}' across multiple chunks:\n\n" + combined_results
+            else:
+                return f"No matches found for query: '{query}' across the processed chunks."
         
         return summary
 
@@ -168,20 +202,33 @@ class PDFTool(BaseTool):
                 requirement_keywords = ['shall', 'must', 'should', 'required', 'obligated', 'necessary', 
                                         'mandatory', 'comply', 'compliance', 'adhere']
                 
-                for keyword in requirement_keywords:
-                    if keyword.lower() in query.lower() or query.lower() in keyword.lower():
-                        # Search for lines containing requirement keywords
-                        for i, line in enumerate(lines):
-                            for req_keyword in requirement_keywords:
-                                if req_keyword.lower() in line.lower():
-                                    start = max(0, i-1)
-                                    end = min(len(lines), i+2)
-                                    context = "\n".join(lines[start:end])
-                                    results.append(f"{context}\n---")
-                                    
-                                    # Limit to prevent overwhelming results
-                                    if len(results) >= 10:
-                                        return results
+                # Check if query contains multiple terms (like a regex pattern)
+                if '|' in query:
+                    # Split by | for multiple search terms
+                    search_terms = [term.strip() for term in query.split('|')]
+                    for i, line in enumerate(lines):
+                        line_lower = line.lower()
+                        if any(term.lower() in line_lower for term in search_terms):
+                            start = max(0, i-1)
+                            end = min(len(lines), i+2)
+                            context = "\n".join(lines[start:end])
+                            results.append(f"{context}\n---")
+                else:
+                    # Regular keyword search
+                    for keyword in requirement_keywords:
+                        if keyword.lower() in query.lower() or query.lower() in keyword.lower():
+                            # Search for lines containing requirement keywords
+                            for i, line in enumerate(lines):
+                                for req_keyword in requirement_keywords:
+                                    if req_keyword.lower() in line.lower():
+                                        start = max(0, i-1)
+                                        end = min(len(lines), i+2)
+                                        context = "\n".join(lines[start:end])
+                                        results.append(f"{context}\n---")
+                                        
+                                        # Limit to prevent overwhelming results
+                                        if len(results) >= 10:
+                                            return results
             except Exception as e:
                 logger.warning(f"Error in advanced search: {str(e)}")
                 # Fallback to simple substring search
