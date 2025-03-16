@@ -1,4 +1,4 @@
-# tools/PDFTool.py - Enhanced version
+# tools/PDFTool.py - Fixed version
 from typing import Optional, List, Dict, Any
 from crewai.tools import BaseTool
 from pathlib import Path
@@ -14,9 +14,9 @@ class PDFTool(BaseTool):
 
     def _run(
         self, 
-        chunk_path: Optional[str] = None,
+        chunk_path: str = "",  # Default empty string instead of None
         chunk_index: Optional[int] = None,
-        query: Optional[str] = None,
+        query: str = "",  # Default empty string instead of None
         process_all: bool = False,
         **kwargs
     ) -> str:
@@ -45,7 +45,7 @@ class PDFTool(BaseTool):
                 return self._process_all_chunks(preprocessed_dir)
             
             # List available chunks if no specific chunk is requested
-            if (chunk_path is None or chunk_path == "") and chunk_index is None:
+            if (not chunk_path or chunk_path == "") and chunk_index is None:
                 return self._list_available_chunks(preprocessed_dir)
             
             # Get chunk by index if specified
@@ -55,23 +55,25 @@ class PDFTool(BaseTool):
                     return chunk_path  # Error message
             
             # Handle chunk path
-            if isinstance(chunk_path, str):
+            if isinstance(chunk_path, str) and chunk_path:
                 chunk_path = Path(chunk_path)
                 if not chunk_path.is_absolute():
                     chunk_path = preprocessed_dir / chunk_path
             
-            # Read the chunk file
-            if not chunk_path.exists():
-                return f"Chunk file not found: {chunk_path}"
+                # Read the chunk file
+                if not chunk_path.exists():
+                    return f"Chunk file not found: {chunk_path}"
+                
+                # Read content with size limit check
+                text = self._read_chunk_with_limit(chunk_path)
+                
+                # Search if query is provided
+                if query:
+                    return self._search_in_text(text, query)
+                
+                return text
             
-            # Read content with size limit check
-            text = self._read_chunk_with_limit(chunk_path)
-            
-            # Search if query is provided
-            if query:
-                return self._search_in_text(text, query)
-            
-            return text
+            return "No chunk path or index specified."
             
         except Exception as e:
             logger.error(f"Error in PDFTool: {str(e)}", exc_info=True)

@@ -1,9 +1,8 @@
 extract_conditions_task:
   description: |
-    Thoroughly analyze ALL PDF documents in the policy folder and extract ALL policy requirements.
-    Use the PDFTool with process_all=True to examine all PDF files.
-    Use keywords like 'shall', 'should', 'must', 'required', 'obligated' and other modal verbs / modal auxiliary verbs to extract ALL requirements.
-    Ensure COMPLETE coverage by reviewing EVERY section and EVERY page of EVERY document.
+    Thoroughly analyze ALL preprocessed PDF chunks and extract ALL policy requirements.
+    Search for keywords like 'shall', 'should', 'must', 'required', 'obligated' and other modal verbs to extract ALL requirements.
+    Ensure COMPLETE coverage by reviewing EVERY document chunk.
     Format the output as a structured list with condition ID, description, and reference (document name, page/section).
     Include the source document name in each reference.
   expected_output: A comprehensive, structured list of all policy compliance conditions with unique IDs, descriptions, and source references including document names.
