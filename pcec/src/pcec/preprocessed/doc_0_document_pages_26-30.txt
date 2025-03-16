@@ -1,0 +1,203 @@
+
+UAE Sovereigns: The UAE Sovereign asset class consists of exposures to Federal
+Government and Emirates governments.
+Federal Government includes all the UAE Federal entities and Central Bank of the UAE
+(Central Bank). Banks have transition period of 7 years from the date of implementation for
+exposures to Federal Government that receive a 0% RW, if such exposures are denominated in
+AED or USD and funded in AED or USD. However, any claim on UAE Federal Government in
+foreign currency other than USD should be risk weighted according to the published credit risk
+rating of UAE Federal Government. In the absence of solicited rating for UAE Federal
+Government, unsolicited ratings are permissible for assigning risk weights for UAE Federal
+Government exposures.
+Emirates Governments’ exposures include exposures to the Ruler and the Crown Prince
+of each emirate acting in the capacity as ruler and crown prince, as well as exposures to the
+ministries, municipalities and other Emirates government departments. Banks have transition
+period of 7 years from the date of implementation for exposures to Emirates Governments that
+receive a 0% RW, if such exposures are denominated in AED or USD and funded in AED or USD.
+Any claim on Emirates governments in a foreign currency other than USD should be risk weighted
+according to the rating of the Emirate Government.
+GCC Sovereigns: If the regulators in GCC exercise their discretion to permit banks in
+their jurisdiction to allocate a lower risk weight to claims on that jurisdiction’s sovereign,
+24
+
+[Document: document.pdf, Page 27]
+CBUAE Classification: Public
+denominated in the domestic currency of that jurisdiction and funded in that currency, the same,
+lower risk weight may be allocated to such claims (e.g. 0% assigned to the Government of Saudi
+Arabia if the exposure is denominated and funded in SAR). This is limited only to GCC sovereign
+exposures and this lower risk weight may be extended to the risk weighting of collateral and
+guarantees (refer to section on credit risk mitigation).
+All other exposures to sovereigns should be risk weighted according to the sovereign
+rating even if the national supervisory authority adopts preferential risk weights.
+B. Claims on Public Sector Entities (PSEs)
+Non-Commercial PSEs
+Non-Commercial PSEs include administrative bodies responsible to the UAE Federal
+Government, to the Emirates Governments, or to local authorities and other non-commercial
+undertakings owned by the Federal governments, Emirates Governments or local authorities.
+These non-commercial PSEs do not have specific revenue- raising powers or specific institutional
+arrangements the effect of which is to reduce their risks of default. The risk of non-commercial
+PSE exposures is not equivalent to the risk of sovereign exposures and hence the treatment of
+claims on sovereigns cannot be applied to non-commercial PSE. However, in exceptional cases,
+a Non-Commercial PSE may receive the same treatment as its sovereign, if the entity has proven
+formal arrangements in place to the effect that there is no distinction between the risk of the entity
+and the risk of its sovereign. The Central Bank's GRE List would reflect this accordingly.
+If the UAE borrower satisfies the criteria in paragraph 13, the risk weight shall be the same
+as that for claims on banks. However, the preferential treatment for short-term claims on banks
+may not be applied. In particular, unrated non-commercial PSE qualify for 50% risk weight. The
+criteria are based on the principle that non-commercial PSEs qualify for lower risk weights
+because they have significantly lower risk than a commercial company does. In addition, banks
+are specifically required to ensure compliance with other aspects of the banking regulations when
+lending to these entities, for example, but not limited to, the Central Bank large exposure
+regulations.
+The alternative criteria listed are to be applied in determining whether an entity qualifies
+for treatment as a non-commercial PSE. The Central Bank provides a list (so-called GRE List) to
+all the banks in the UAE which includes non-commercial PSEs.
+i. Direct government (Federal or Emirate) ownership >50% directly or through a qualifying
+PSE that itself is majority owned by government.
+ii. An entity whose complete activities are functions of a government.
+iii. Its services are of public benefit including when services are sold directly to the public
+(e.g. electricity and water). The service provided should be of substantial public benefit
+and the entity should have a monopolistic nature and there should be a significant
+likelihood that the government would not let the entity go bankrupt.
+iv. Not listed on any stock exchange.
+v. Provides internal services to parent or sister companies only, and the parent company is
+itself a non-commercial PSE.
+vi. The function of the company is of a non-commercial nature and does not operate in a
+competitive market.
+25
+
+[Document: document.pdf, Page 28]
+CBUAE Classification: Public
+vii. Does not operate overseas.
+In the case of a UAE sovereign guarantee given to a non-commercial PSE, with the Central
+Bank approval, the guarantee may be treated as eligible credit risk mitigation (CRM) to reduce
+the exposure provided the bank ensures compliance with the entire minimum regulatory
+requirements and operational requirements stated in the credit risk standard.
+Government Related Entities (GRE)
+These are commercial undertakings that are fully owned or more than 50% in ownership
+by Federal governments, or by Emirates governments. As these entities function as a corporate
+in the competitive markets even though the government is the major shareholder, Central Bank
+requires such exposures to be classified under GRE and get the same treatment of claims on
+corporate with the appropriate risk weights based on the credit rating of the entity.
+All banks must comply with the latest version of the GRE list for classification and risk
+weighting of entities. Banks that have information that would lead to the addition (or removal) of
+an entity to (or from) the GRE list must submit such information to the Central Bank. All banks
+must comply with the GRE list unless any addition or removal of entities is reflected in the GRE
+list.
+Banks Internal audit/compliance department should perform regular reviews to ensure
+the PSE and GRE classification complies with the Central Bank GRE list.
+C. Claims on multilateral development banks (MDBs)
+Exposures to MDBs shall in general be treated similar to claim on banks, but without using
+the preferential treatment for short term claims. However, highly rated MDBs, which meet certain
+criteria specified below, are eligible for a preferential 0% risk weight.
+i. Very high quality long-term issuer ratings, i.e. a majority of an MDB's external
+assessments must be AAA;
+ii. Shareholder structure is comprised of a significant proportion of sovereigns with long-
+term issuer credit assessments of AA- or better, or the majority of the MDB's fund-
+raising is in the form of paid-in equity/capital and there is little or no leverage;
+iii. Strong shareholder support demonstrated by the amount of paid-in capital contributed
+by the shareholders; the amount of further capital the MDBs have the right to call, if
+required, to repay their liabilities; and continued capital contributions and new pledges
+from sovereign shareholders;
+iv. Adequate level of capital and liquidity (a case-by-case approach is necessary in order
+to assess whether each MDB's capital and liquidity are adequate), and
+v. Strict statutory lending requirements and conservative financial policies, which would
+include among other conditions a structured approval process, internal
+creditworthiness and risk concentration limits (per country, sector, and individual
+exposure and credit category), large exposures approval by the board or a committee
+of the board, fixed repayment schedules, effective monitoring of use of proceeds,
+status review process, and rigorous assessment of risk and provisioning to loan loss
+reserve.
+26
+
+[Document: document.pdf, Page 29]
+CBUAE Classification: Public
+MDBs currently eligible for 0% risk weight are the World Bank Group comprised of the
+International Bank for Reconstruction and Development, the International Finance Corporation,
+the Multilateral Investment Guarantee Agency and the International Development Association,
+the Asian Development Bank, the African Development Bank, the European Bank for
+Reconstruction and Development, the Inter-American Development Bank, the European
+Investment Bank, the European Investment Fund, the Nordic Investment Bank, the Caribbean
+Development Bank, the Islamic Development Bank, the Council of Europe Development Bank,
+the International Finance Facility for Immunisation and the Asian Infrastructure Investment Bank.
+The list of MDBs is by the Basel Committee on Banking Supervision (BCBS) and can be found
+on the website www.bis.org. All banks are required to refer to and comply with the BCBS list.
+Whilst the BCBS evaluates the eligibility of the entities on a case-by-case basis, the Central Bank
+has no role in the assessment and decision of entities being eligible for 0% risk weight.
+D. Claims on Banks
+The types of claims that fall under this asset class are claims not limited to those due from
+banks, nostro accounts, certificates of deposit (CD) issued by banks, and repurchase agreements
+(repos). A risk weight of 50% (long term) and 20% (short term) is applied to claims on unrated
+banks. However, this treatment is subject to the provision that no claim on an unrated bank may
+receive a risk weight lower than that applied to claims on its sovereign of incorporation.
+Exposure to intra-group of the bank have to be risk weighted according to the external
+rating of the counterparty entity (e.g. exposures to the head office shall receive the risk weight
+according to the rating of the head office).
+E. Claims on Securities Firms
+In addition to providing loans to other banks in the interbank market, banks provide loans to
+securities firms. The securities firms use these loans to fund the purchase of securities. Exposures
+to these securities firms shall be treated as claims on banks if these firms are subject to prudential
+standards and a level of supervision that is equivalent to those applicable to banks. Such
+supervision must include at least both capital and liquidity requirements. Exposures to all other
+securities firms that are not treated as claims on banks will be treated as exposures to corporates.
+F. Claims on Corporates
+For the purposes of calculating capital requirements, exposures to corporates include, but
+are not limited to, exposures (loans, bonds, receivables, etc.) to incorporated entities,
+associations, partnerships, proprietorships, trusts, funds and other entities with similar
+characteristics, except those which qualify for one of the other exposure classes. The corporate
+exposure class does not include exposures to individuals.
+Claims on corporates may be risk- weighted based on the entity’s external credit rating
+assessment. The Central Bank may increase the standard risk weight for unrated claims where it
+judges that a higher risk weight is warranted by the overall default experience. As part of the
+supervisory review process, the Central Bank may also consider whether the credit quality of
+corporate claims held by banks warrants a risk weight higher than 100%.
+G. Claims included in the Regulatory Retail Portfolios
+To qualify for a 75% risk weight in the regulatory retail portfolio, claims must meet the four
+27
+
+[Document: document.pdf, Page 30]
+CBUAE Classification: Public
+criteria stated in the Credit Risk Standard (orientation criterion, product criterion, granularity
+criterion and value criterion). All other retail claims should be risk weighted at 100%. For
+granularity criterion and value criterion, the aggregated exposure means gross amount (i.e. not
+taking any credit risk mitigation into account) of all forms of retail exposures, excluding residential
+real estate exposures. In case of off-balance sheet items, the gross amount will be calculated
+after applying credit conversion factors. In addition, “to one counterparty” means one or several
+entities that may be considered as a single beneficiary (e.g. in the case of a small business that
+is affiliated to another small business, the limit would apply to the bank’s aggregated exposure on
+both businesses).
+Claims secured by residential property and past due retail loans are to be excluded from
+the overall regulatory retail portfolio for risk weighting purposes. These are addressed separately
+in the asset classes for residential property or commercial real estate.
+H. Claims Secured by Residential Property
+Claims secured by residential property are defined as loans secured by residential
+property that is either self-occupied or rented out. The property must be fully mortgaged in favor
+of the bank.
+The Loan-to-Value (LTV) ratio is the outstanding loan exposure divided by the value of the
+property. The value of the property will be maintained at the value at origination unless the Central
+Bank requires banks to revise the property value downward. The value must be adjusted if an
+extraordinary, idiosyncratic event occurs resulting in a permanent reduction of the property value.
+Such adjustment must be notified to the Central Bank. If the value has been adjusted downwards,
+a subsequent upwards adjustment can be made but not to a higher value than the value at
+origination.
+A 35% risk weighting shall apply to eligible residential claims if the LTV ratio is less than
+85% and the exposure is less than AED 10 million. When the loan amount exceeds AED 10 million
+and the LTV is below 85%, the loan amount up to AED 10 million will receive 35% risk weight and
+the remaining amount above AED 10 million receives 100% risk weight.
+A risk weight of 75% may be applied by banks that do not hold information regarding
+LTVs for individual exposures
+For residential exposures that meet the criteria for regulatory retail claims and have an
+LTV greater than 85%, the 75% risk weight must be applied to the whole loan, i.e. the loan should
+not be split.
+The risk-weights in this asset class may be applied to a limit of four individual properties
+made to a single individual customer that are owner- occupied or rented out by a retail borrower.
+Any additional exposure to a customer with loans for four individual properties shall be classified
+as a claim on a commercial property and risk weighted with 100%.
+I. Claims secured by Commercial Real Estate
+Commercial real estate is defined as a loan granted by a bank to a customer specifically
+for the purpose of buying or constructing commercial property including residential towers and
+mixed use towers.
+J. Past Due Loans
+Risk weights of past due loans depend on the degree of provision coverage on the claim.
+For any past due loan, 100% Credit Conversion Factor (CCF) should be applied for the off-
+28

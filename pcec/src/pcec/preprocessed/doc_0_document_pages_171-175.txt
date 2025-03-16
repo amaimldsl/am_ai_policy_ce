@@ -1,0 +1,201 @@
+[Document: document.pdf, Page 171]
+CBUAE Classification: Public
+into risk, loss, and capital figures.
+Use Test
+120. Stress tests should support decision-making throughout the bank effectively. Stress
+tests should be embedded in banks’ business decision-making and risk management process
+at several levels of the organisation. Senior Management and the Board should lead and
+approve all assumptions, the methodology framework and authorise the use of stress test
+results.
+121. Stress tests do not stop with the production of results. Risk mitigations should always
+be considered in light of the stress severity and likelihood. If no action is deemed necessary,
+this should be documented and clearly justified.
+Reverse Stress Test
+122. In addition to normal stress testing, each bank is expected to conduct reverse stress
+tests. Reverse stress tests start with the identification of a pre-defined outcome where the
+bank’s business model becomes non-viable (e.g. through insolvency), or it breaches
+supervisory compliance minima, e.g. by breaching minimum capital requirements (i.e. the bank
+will breach the regulatory capital buffer and minimum capital requirements). The next step is
+to assess which scenarios and shocks lead to that identified outcome. Finally, the objective is
+to assess whether the likelihood of occurrence is realistic and the impact warrants mitigating
+actions. If a bank considers mitigation strategies, e.g. hedging strategies, the bank should
+consider if such strategies would be viable. For example, a market that is stressed at a financial
+system level may be characterised by a lack of market liquidity and increased counterparty
+credit risk.
+123. Effective reverse stress testing is a challenging exercise that requires the involvement
+of all material risk areas across the bank’s subject matter experts, Senior Management, and
+the Board.
+124. Each bank should conduct a reverse stress test at least once a year. A well-designed
+reverse stress test should also include enough diagnostic information to allow the identification
+of the sources of potential failure. This enables proactive risk management actions and
+implementation of an appropriate strategy for refined risk monitoring, prevention, and
+mitigation. The reverse stress test requires each bank to consider scenarios beyond normal
+business forecasts and aids identification of events linked to contagion with potential systemic
+implications. Reverse stress testing has important quantitative and qualitative uses, through
+informing Senior Management of vulnerabilities, and supporting measures to avoid them.
+(Please refer to Appendix 3.3).
+VIII. ICAAP Submission and Approval
+Submission of the ICAAP report
+125. The annual ICAAP report should be submitted to the Central Bank on or before the
+submission dates addressed in Table 1.
+126. All documents have to be submitted to the respective Central Bank reviewer by
+softcopy (submitted in word or pdf format), sending a copy to bsed.basel@cbuae.gov.ae.
+127. The submission dates below as per Notice 2940/2022 differentiate between (i) national
+banks and foreign bank and (ii) size and importance of the banks: (Table 1)
+Table 1 - Submission date for ICAAP Report
+169
+
+[Document: document.pdf, Page 172]
+CBUAE Classification: Public
+Banks Report for Report for FY 2023
+FY 2022 onwards
+Large banks: FAB, ENBD, ADCB, DIB, Mashreq, ADIB, CBD 15/03/2022 01/03
+Other local banks and HSBC, Standard Chartered Bank,
+31/03/2022 31/03
+Citibank, Arab Bank, and Bank of Baroda
+Other Foreign Banks 15/04/2022 15/04
+Approval of the ICAAP report:
+128. The ICAAP report should be approved by:
+(i) Senior Management (including the CRO): The bank should use Appendix 1 –
+ICAAP – Mandatory disclosure form (Table 2) and include it as an attachment to
+the ICAAP report;
+(ii) Board approval: For all local banks, the ICAAP document must be approved by
+the Board or Board risk committee, and Senior Management prior to submission
+to the Central Bank. The meeting minutes of the Board of Directors meeting
+should state the approval of the ICAAP document and challenges that have
+taken place; and
+(iii) For foreign branches, the ICAAP document should be approved by (a) the
+managing director and/ or relevant highest committee of the bank in the UAE,
+and by (b) their head office, stating that the ICAAP assumptions and forecasts
+are in line with the group’s assumptions, forecasts, and that the group’s Board
+approves/ endorse the results of the ICAAP.
+IX. Internal Control Review
+129. The bank’s internal control structure is essential to the capital assessment process.
+Effective control of the internal capital adequacy assessment process should include an
+independent review and the involvement of both internal audit and external audit (refer to
+Appendix 3.1). Senior Management has a responsibility to ensure that the bank establishes a
+system for assessing the full scope of its risks, develops a system to relate risk to the bank’s
+capital level, and establishes a method for monitoring compliance with internal policies.
+130. Internal Audit should perform an audit on the bank’s ICAAP report annually. The report
+has to be submitted no later than three (3) months after the submission of the ICAAP report to
+the bank’s reviewer and in copy to bsed.basel@cbuae.gov.ae.
+131. Internal control functions should perform regular reviews of the risk management
+process to make sure its coherence, validity, and rationality. The review of the ICAAP should
+cover the following:
+(i) Ensuring that the ICAAP is complete and suitable as of the bank’s context ,
+operational conditions, the reliability of controls behind it;
+(ii) The process of identifying all material risks;
+(iii) Efficiency of the information systems that support the ICAAP;
+170
+
+[Document: document.pdf, Page 173]
+CBUAE Classification: Public
+(iv) Ensuring that the measurement methodologies in use are suitable to support the
+ICAAP valuation,
+(v) Ensuring the accuracy, and comprehensive of the data input to the ICAAP;
+(vi) Rational behind the ICAAP output and assumptions in use;
+(vii) Rational and suitability of stress tests and analysis of assumptions;
+(viii) Consolidation of the ICAAP outcomes with the risk management (e.g., limit
+setting and monitoring); and
+(ix) Rational of the capital plan and internal capital targets.
+132. In addition, the review should cover the integrity and validity of regulatory data
+submitted to the Central Bank during the course of the year relating to Pillar 1 capital
+requirements, which should address, but not be limited to the following:
+(i) Appropriate classification of risk-weighted assets (RWA);
+(ii) Appropriate inclusion of the off-balance sheet values and the application of credit
+conversion factors (CCF); and
+(iii) Appropriate credit risk mitigation (CRM) methodology application and values.
+133. The role and validity of internal control functions are also important and should be
+verified with regard to other topics. For example:
+(i) All risk quantification methodologies and models must be subject to independent
+validation (internal/ external); and
+(ii) Internal Audit should perform an independent review of the bank’s capital
+framework implementation every year in accordance with the Capital Standards.
+If the Central Bank is not satisfied with the quality of work performed by the
+bank’s Internal Audit function, the Central Bank may require an external review.
+X. Frequently-Asked Questions (FAQ)
+Question 1: What defines independent validation?
+Answer: Independent validation can be performed by an independent function of the bank. However, in
+some instances an external validation/ review is required. For large banks, external validations are
+strongly encouraged, if not explicitly required.
+Question 2: What are sustainable business model criteria?
+Answer: Sustainable business models may be defined in different ways. For the purpose of this
+guidance, a bank will be considered to have a sustainable business model if it meets all the following
+criteria:
+(i) The bank generates strong and stable returns, which are acceptable given its
+risk appetite and funding structure;
+(ii) The bank does not have any material asset concentrations or unsustainable
+concentrated sources of income;
+171
+
+[Document: document.pdf, Page 174]
+CBUAE Classification: Public
+(iii) The bank has a strong competitive position in its chosen markets and its strategy
+is likely to reinforce this strength;
+(iv) The bank’s forecasts are based on plausible assumptions about the future
+business environment; and
+(v) The bank’s strategic plans are appropriate given the current business model and
+management’s execution capabilities.
+Question 3: What is the definition of model?
+Answer: A quantitative method, system, or approach that applies statistical, economic, financial, or
+mathematical theories, techniques, and assumptions to process input data into quantitative estimates.
+Question 4: Who should be the owner of ICAAP, Finance or Risk Management?
+Answer: Multiple committees and working groups have to be involved in the ICAAP. However, Risk
+Management should have the ultimate responsibility for the final ICAAP outcome report, the ICAAP
+being in substance a risk evaluation process. The Board must approve the ICAAP, its outcomes, and
+the proposed mitigation actions.
+Question 5: The bank uses multi-period ST scenarios over three years. Which reporting year
+(Y1/2/3) shall be reported in the Pillar 2 template in Appendix 2 – ICAAP: Executive summary
+table (Table 3)?
+Answer: Banks using multi-period stress scenarios should include the most severe period of the most
+severe stress test results (reverse stress scenarios not considered). All other banks that perform a
+simpler point in time or 1-period stress scenario should include the most severe ST results (reverse
+stress scenarios not considered). In addition, the evaluation of Pillar 2 risks and stress test impact as of
+the reporting date is mandatory for all banks.
+Question 6: Does the bank have to present the capital contingency plan as part of ICAAP report?,
+If the bank plans to inject capital, is it required to have two capital plans, one with and a second
+plan without capital injection?
+Answer:
+(i) The bank must have a Board-approved capital contingency policy. The actual
+capital contingency plan as a response to the ICAAP results has to be in line
+with the capital contingency policy and the ICAAP report should contain at least
+an overview of the capital contingency plan.
+(ii) If the bank plan to change its capital base, the bank should have one capital
+plan, which reflects the capital injections (and reflects the source of injection).
+Injections can be considered if approved by Senior Management, if part of the
+official bank’s capital plan and if the Central Bank is informed on the planned
+capital injections. A stress test scenario has to show the impact if the injections
+do not materialise.
+Question 7: What is the ICAAP submission timeframe and can an extension be granted?
+Answer: The ICAAP submission should comply with the schedule specified in Section VIII - ICAAP
+Submission and Approval. An extension of the ICAAP report submission date will only be granted in
+exceptional cases, by the bank’s Central Bank reviewer.
+Question 8: Can banks implement the IRB methodology in full (i.e. A-IRB) while reporting credit
+172
+
+[Document: document.pdf, Page 175]
+CBUAE Classification: Public
+risk under the ICAAP, and is it mandatory?
+Answer: The bank should apply whichever approach is deemed appropriate for their size and complexity,
+as the ICAAP is an internal process. The evaluation of whether the Pillar 1 capital is adequate for the
+bank's risk is mandatory. The F-IRB approach is an accepted approach. With the implementation of
+IFRS9 banks have a PD for every exposure, which may be used to calculate the F-IRB capital. It is,
+however, not mandatory to fully implement the F-IRB approach. Comparing regulatory capital
+requirements with those determined using the F-IRB does indicate to what extent regulatory Pillar 1
+capital requirements may be insufficient. The comparison between the F-IRB approach and the
+regulatory standardised approach for credit risk has to be performed on an asset class level and the
+greater capital requirement should be applied in the ICAAP.
+The F-IRB should follow the floor on the PD of 0.03% and apply a fixed 45% LGD. The bank may
+consider certain eligible collateral to reduce the LGD accordingly. The bank shall not use own
+estimations of the LGD under the F-IRB.
+Question 9: Is it required to calculate a capital charge against the financial risks from climate
+change in the ICAAP? Is any calculation methodology prescribed for this?
+Answer: The bank should understand risks related to climate change and their impact on the
+sustainability of the bank and the risks of its business strategy. Banks should develop adequate
+methodologies to quantify the risk with models sophistication depending on size and business model.
+Stress tests and scenario analysis should be explored. Banks should consider assessing their green
+asset ratio (GAR) which measures a bank's “green assets” as a share of its total assets as an initial tool.
+The risk identification process should determine whether the risk arising from climate change is a
+material capital risk for the bank.
+Question 10: How commercial / non-commercial subsidiaries have be treated as part of the
+ICAAP exercise? And how to treat investments in insurance subsidiaries?

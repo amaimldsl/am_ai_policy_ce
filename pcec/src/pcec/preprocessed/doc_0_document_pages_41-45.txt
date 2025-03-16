@@ -1,0 +1,200 @@
+[Document: document.pdf, Page 41]
+CBUAE Classification: Public
+Instrument M S E
+Interest rate or credit default swap maturing in 10 years 10 0 10
+10-year interest rate swap, forward starting in 3 years 13 3 13
+Forward rate agreement for time period starting in 125 days and
+1 0.5 1
+ending in one year
+Cash-settled European swaption referencing 5-year interest
+0.5 0.5 5.5
+rate swap with exercise date in 125 days
+Physically-settled European swaption referencing 5-year
+5.5 0.5 5.5
+interest rate swap with exercise date in 125 days
+Interest rate cap or floor specified for semi-annual interest
+6 0 6
+with maturity 6 years
+Option on a 5-year maturity bond, with the last possible
+1 1 5
+exercise date in 1 year
+3-month Eurodollar futures maturing in 1 year 1 1 1.25
+Futures on 20-year bond maturing in 2 years 2 2 22
+6-month option on 2-year futures on a 20-year bond 2 2 22
+13. Note there is a distinction between the period spanned by the underlying transaction and
+the remaining maturity of the derivative contract. For example, a European interest rate swaption
+with expiry of 1 year and the term of the underlying swap of 5 years has S=1 year and E=6 years.
+An interest rate swap, or an index CDS, maturing in 10 years has S=0 years and E=10 years. The
+parameters S and E are only used for interest rate derivatives and credit-related derivatives.
+E. Aggregation of Maturity Category Effective Notional Amounts
+14. The Standards allows banks to choose between two options for aggregating the effective
+notional amounts that are calculated for each maturity category for interest rate derivatives. The
+primary formula is the following:
+√𝐷12+𝐷22+𝐷32+1.4×(𝐷1×𝐷2)+1.4×(𝐷2×𝐷3)+0.6×(𝐷1×𝐷3)
+15. In this formula, D1 is the effective notional amount for maturity category 1, D2 is the
+effective notional amount for maturity category 2, and D3 is the effective notional amount for
+maturity category 3. As defined in the Standards, maturity category 1 is less than one year,
+maturity category 2 is one to five years, and maturity category 3 is more than five years.
+16. As an alternative, the bank may choose to combine the effective notional values as the
+simple sum of the absolute values of D1, D2, and D3 within a hedging set, which has the effect
+of ignoring potential diversification benefits. That is, as an alternative to the calculation above, the
+bank may calculate:
+|𝐷1|+|𝐷2|+|𝐷3|
+This alternative is a simpler calculation, but is more conservative in the sense that it always
+produces a larger result. To see this, note that the two calculations would give identical results
+only if the values 1.4 and 0.6 in the first formula are replaced with the value 2.0. Since the actual
+coefficient values are smaller than 2.0, the first formula gives a smaller result than the second
+formula. Choosing the second formula is equivalent to choosing to use the first formula with the
+39
+
+[Document: document.pdf, Page 42]
+CBUAE Classification: Public
+1.4 and 0.6 values replaced by 2.0, increasing measured CCR exposure and therefore minimum
+required capital.
+F. Maturity Factor
+17. Note that the Standards requires the use of a standard 250-day trading or business year
+for the calculation of the maturity factor and the MPOR. The view of the Central Bank is that a
+single, standardised definition of one year for this purpose will enhance comparability across
+banks and over time. However, the BCBS has indicated that the number of business days used
+for the purpose of determining the maturity factor be calculated appropriately for each transaction,
+taking into account the market conventions of the relevant jurisdiction. If a bank believes that use
+of a different definition of one year is appropriate, or would significantly reduce its compliance
+burden, the bank may discuss the matter with bank supervisors.
+G. Delta Adjustment
+18. Supervisory delta adjustments reflect the fact that the notional value of a transaction is not
+by itself a good indication of the associated risk. In particular, exposure to future market
+movements depends on the direction of the transaction and any non-linearity in the structure.
+19. With respect to direction, a derivative may be long exposure to the underlying risk factor
+(price, rate, volatility, etc.), in which case the value of the derivative will move in the same direction
+as the underlying – gaining value with increases, losing value with decreases – and the delta is
+positive to reflect this relationship. The alternative is that a derivative may be short exposure to
+the underlying risk factor, in which case the value of the derivative moves opposite to the
+underlying – losing value with increases, and gaining value with decreases – and thus the delta
+is negative.
+20. The non-linearity effects are prominent with transactions that involve contingent payoffs
+or option-like elements. Options and CDOs are notable examples. For such derivative
+transactions, the impact of a change in the price of the underlying instrument is not linear or one-
+for-one. For example, with an option on a foreign currency, when the exchange rate changes by
+a given amount, the change in the value of the derivative – the option contract – will almost always
+be less than the change in the exchange rate. Moreover, the amount by which the change is less
+than one-for-one will vary depending on a number of factors, including the current exchange rate
+relative to the exercise price of the option, the time remaining to expiration of the option, and the
+current volatility of the exchange rate. Without an adjustment for that difference, the notional
+amounts alone would be misleading indications of the potential for counterparty credit risk.
+21. The supervisory delta adjustments for all derivatives are presented in the table below,
+which is repeated from the CCR Standards. These adjustments are defined at the trade level, and
+are applied to the adjusted notional amounts to reflect the direction of the transaction and its non-
+linearity.
+22. Note that the supervisory delta adjustments for the various option transactions are closely
+related to the delta from the widely used Black-Scholes model of option prices, although the risk-
+free interest rate – which would ordinarily appear in this expression – is not included. In general,
+banks should use a forward price or rate, ideally reflecting any interim cash flows on the underlying
+instrument, as P in the supervisory delta calculation.
+40
+
+[Document: document.pdf, Page 43]
+CBUAE Classification: Public
+23. The expression for the supervisory delta adjustment for CDOs is based on attachment and
+detachment points for any tranche of the CDO. The precise specification (including the values of
+the embedded constants of 14 and 15) is the result of an empirical exercise conducted by the
+Basel Committee on Banking Supervision to identify a relatively simple functional form that would
+provide a sufficiently close fit to CDO sensitivities as reported by a set of globally active banks.
+Supervisory Delta Adjustments
+Supervisory Delta
+Type of Derivative Transaction
+Adjustment
+Purchased Call Option F
+Purchased Put Option F-1
+Sold Call Option -F
+Sold Put Option 1-F
+Purchased CDO Tranche (Long Protection) G
+Sold CDO Tranche (Short Protection) -G
+Any Other Derivative Type, Long in the Primary Risk Factor +1
+Any Other Derivative Type, Short in the Primary Risk Factor -1
+Definitions
+For options:
+ln(𝑃/𝐾)+0.5×𝜎2𝑇
+𝐹 =Φ( )
+𝜎√𝑇
+In this expression, P is the current forward value of the underlying price or rate, K is the exercise
+or strike price of the option, T is the time to the latest contractual exercise date of the option, 
+is the appropriate supervisory volatility from Table 2, and Φ is the standard normal cumulative
+density function. A supervisory volatility of 50% should be used on swaptions for all currencies.
+For CDO tranches:
+15
+𝐺 =
+(1+14𝐴)(1+14𝐷)
+In this expression, A is the attachment point of the CDO tranche and D is the detachment point
+of the CDO tranche.
+41
+
+[Document: document.pdf, Page 44]
+CBUAE Classification: Public
+H. Complex Derivatives
+24. The Standards requires that complex trades with more than one risk driver (e.g. multi-
+asset or hybrid derivatives) must be allocated to more than one asset class when the material risk
+drivers span more than one asset class. The full amount of the trade must be included in the PFE
+calculation for each of the relevant asset classes. Asset-class allocation of complex derivatives is
+a point of national discretion in the Basel framework, and the Central Bank believes that requiring
+banks to identify such trades and allocate them accordingly places appropriate responsibility on
+banks that choose to engage in such trades.
+25. Examples of derivatives that reference the basis between two risk factors and are
+denominated in a single currency (basis transactions) include three-month Libor versus six-month
+Libor, three-month Libor versus three-month T-Bill, one-month Libor versus OIS rate, or Brent
+Crude oil versus Henry Hub gas. These examples are provided as illustrations, and do not
+represent an exhaustive list.
+26. Hedging sets for derivatives that reference the volatility of a risk factor (volatility
+transactions) must follow the same hedging set construction outlined in the Standards for
+derivatives in that asset class; for example, all equity volatility transactions form a single hedging
+set. Examples of volatility transactions include variance and volatility swaps, or options on realized
+or implied volatility.
+I. Unrated Reference Assets
+27. The supervisory factor for credit derivatives depends on the credit rating of the underlying
+reference asset. The Basel framework does not provide a specific treatment of unrated reference
+assets. The Central Bank believes that credit derivatives on unrated reference entities are likely
+to be rare. However, for the sake of completeness, the Standards requires that any such credit
+derivatives be treated in a manner that is broadly consistent with the treatment of unrated entities
+in other aspects of the risk-based capital framework, through use of a Supervisory Factor
+corresponding to BBB or BB ratings as described in the Standards.
+28. For an entity for which a credit rating is not available, a bank should use the Supervisory
+Factor corresponding to BBB. However, where the exposure is associated with an elevated risk
+of default, the bank should use the Supervisory Factor for BB. In this context, “elevated risk of
+default” should also be understood to include instances in which it is difficult or impossible to
+assess adequately whether the exposure has high risk of loss due to default by the obligor. A
+bank trading credit derivatives referencing unrated entities should conduct their own analysis to
+examine this risk.
+J. Commodity Derivatives
+29. Note that the Standards defines the term “commodity type” for purposes of calculation of
+exposure for CCR. A commodity type is defined as a set of commodities with broadly similar risk
+drivers, such that the prices or volatilities of commodities of the same commodity type may
+reasonably be expected to move with similar direction and timing and to bear predictable
+relationships to one another. For example, a commodity type such as coal might include several
+types of coal, and a commodity type such as oil might include oil of different grades from different
+sources. The prices of commodities of a given type may not move precisely in lock step, but they
+are likely to move in the same direction at roughly the same time, due to their dependence on
+common forces in commodity markets. Long and short trades within a single commodity type can
+be fully offset.
+42
+
+[Document: document.pdf, Page 45]
+CBUAE Classification: Public
+30. For commodity derivatives, defining individual commodity types is operationally difficult. In
+fact, it is generally not possible to fully specify all relevant distinctions between commodity types,
+and as a result, a single commodity type is likely to include individual commodities that in practice
+differ to some extent in the dynamic behaviour they exhibit. As a result, not all basis risk is likely
+to be captured. Nonetheless, banks should attempt to minimize unrecognized basis risk through
+sound definitions of commodity types.
+31. The Standards requires a bank to establish appropriate governance processes for the
+creation and maintenance of the list of defined commodity types used by the bank for CCR
+calculations, with clear definitions and independent internal review or validation processes to
+ensure that commodities grouped as a single type are in fact similar. A bank can only use the
+specifically defined commodity types it has established through its adequately controlled internal
+processes.
+32. Trades within the same commodity hedging set (Energy, Metals, Agriculture, and Other)
+enjoy partial offsetting through the use of correlation values established in the Standards, with
+correlation values varying by asset subclass. More specifically, partial offsetting applies only to
+the systematic component, not the issuer-specific or idiosyncratic component. Note that Electricity
+is a sub-class of the Commodity asset class, but is itself part of the broader Energy hedging set,
+rather than constituting a distinct hedging set.
+K. Single-Name and Index Derivatives
+33. For credit derivatives, there is one credit reference entity for each reference debt

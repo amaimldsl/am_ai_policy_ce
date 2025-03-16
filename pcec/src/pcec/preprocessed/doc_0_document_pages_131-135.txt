@@ -1,0 +1,161 @@
+[Document: document.pdf, Page 131]
+CBUAE Classification: Public
+For the other six business lines, the calculation of the operational risk capital charge will be based
+on the gross income and beta factor of that business line, as prescribed under the SA.
+Further Options under the Alternative Standardised Approach (ASA)
+Further options are available at under the ASA for calculating the operational risk capital
+charge to address problems in disaggregation of the exposure indicator among business lines by
+banks. However, the greater the disaggregation, the better will be the alignment of the capital
+charge with a bank's operational risk profile.
+Available options relate to using loans and advances in commercial and retail banking
+business lines and gross income in the other six business lines as the exposure indicators with
+different beta factor combinations:
+- Option 1 – using a common beta factor of 15% for commercial loans and retail loans, and
+the SA beta factors for the other six business lines
+- Option 2 – using the SA beta factors of 15% and 12%, respectively, for commercial loans
+and retail loans and a common beta factor of 18% for the other six business lines
+- Option 3 – using a common beta of 15% for commercial loans and retail loans and a
+common beta factor of 18% for the other six business lines
+For further details, kindly refer to the Appendix below.
+IV. Shari’ah Implementation
+Banks that conduct all or part of their activities in accordance with the provisions of
+Shari’ah law and have exposure to risks similar to those mentioned in the Operational Risk
+Standard, shall, for the purpose of maintaining an appropriate level of capital, calculate the
+relevant risk weighted asset in line with these guidelines. This must be done in a manner
+compliant to the Shari’ah law.
+This is applicable until relevant standards and/or guidelines in respect of these
+transactions are issued specifically for banks offering Islamic financial services.
+V. Frequently Asked Questions
+A. Basic Indicator Approach
+Question 1: If a bank incurs a negative gross income in any of the previous three years,
+will it be taken into account under the Basic Indicator Approach (BIA)?
+The basis for working out the capital charge for operational risk under the BIA is three-year
+average of positive gross income. If the gross income for any of the previous three years is
+negative or zero, the figures for that year will be excluded from both the numerator and the
+denominator when calculating the capital charge. The negative gross income will not be added to
+the numerator and the denominator will exclude the year in which the income is negative.
+As mentioned under the Basic Indicator Approach, if negative gross income distorts a bank’s Pillar
+1 capital charge under the Standardised Approach, supervisors will consider appropriate
+supervisory action under Pillar 2.
+129
+
+[Document: document.pdf, Page 132]
+CBUAE Classification: Public
+Question 2: Can the Central Bank detail or provide examples of the extraordinary or
+irregular items under the definition of Gross income. Does this cover the bank selling off
+certain part of its business?
+An extraordinary or irregular item consists of gains or losses included on a bank's P&L statement
+(usually reported separately as these items are not predictors of future performance) from events
+that are unusual and infrequent in nature. Such items are the result of unforeseen and atypical
+events that are outside the normal course of the core banking business (i.e. outside the types of
+income described in paragraph 13 of the Operational Risk section of Standards re Capital
+Adequacy in the UAE). For example, income derived from non-core banking business; income
+from discontinued operations; extraordinary income (e.g. from the sale of certain part a banking
+business).
+B. Standardised Approach
+Question 3: Define business Segments under 'Retail Brokerage' and 'Asset Management'?
+• Retail Brokerage - Examples of activities:
+Execution and full service, such as:
+i. Reception and transmission of orders in relation to one or more financial instruments
+ii. Execution of orders on behalf of clients
+• Asset Management- Examples of activities:
+i. Portfolio management
+ii. Managing of Investments funds, including: pooled funds, segregated funds, retail
+funds, institutional funds, closed funds, open funds, private equity funds
+Question 4: What is the objective mapping criteria for mapping ancillary business function
+that supports more than one business line?
+Such objective mapping criteria depends on the business and ancillary business mix of a bank.
+These criteria are not preset by the Central Bank. A bank should establish internally such criteria,
+reflecting its internal organisation, and these should be subject to independent review as per point
+(ix) of paragraph 12 of the Operational Risk section of Standards re Capital Adequacy in the UAE.
+The allocation can be done pro-rata based on the chosen criteria.
+Examples of objective criteria include:
+1. number of full-time equivalent members of staff,
+2. time sheet man-hours,
+3. number of clients or transactions originated from each business line,
+4. volume of business originated from each business line.
+Question 5: Business Segments/ functions that are to be mapped to 'Payment and
+Settlement' can be clearly articulated, as currently Level 2 defines the business segment
+as 'External Clients'
+There is no fixed definition of external clients but all clients that the bank deals with externally with
+regards to Payment and Settlements need to be incorporated in this business line.
+130
+
+[Document: document.pdf, Page 133]
+CBUAE Classification: Public
+C. Alternative Standardised Approach
+Question 6: What exposure indicator is used in the ASA approach?
+In the ASA, gross income is replaced by the credit volume in terms of outstanding loans and
+advances (L&A) multiplied by a factor m (fixed at 0.035), as the exposure indicator for retail and
+commercial banking business lines. The loans and advances are non-risk weighted and gross of
+provisions.
+Question 7: Why is the volume-based indicator alternative provided?
+This volume-based indicator is provided to avoid large differences in the operational risk
+requirement caused by differences in income margins across banks and jurisdictions in these
+business lines. Gross income is not an appropriate exposure indicator of the extent of operational
+risk in retail and commercial lending.
+Question 8: Can a bank choose to adopt ASA on its own?
+No, the Central Bank must be satisfied that the alternative approach provides an improved basis
+for calculating the capital charge for operational risk in the bank. Reverting to the SA after adopting
+ASA is only possible with the approval of the Central Bank.
+Question 9: What comprises Commercial Loans and Advances?
+Under the ASA, commercial loans and advances will include outstanding amounts (non-risk
+weighted and gross of provisions) averaged over the past three years, from the following credit
+portfolios:
+Commercial loans included for ASA Definitions
+Corporates Loans to a corporation, partnership or
+proprietorship firm
+Sovereigns Loans to sovereigns and their central banks,
+certain public sector enterprises and
+multilateral development banks
+Banks Loans to other banks and regulated
+securities firms
+Specialised lending Loans for project finance, object finance,
+commodities finance, income producing real
+estate and commercial real estate
+Small and medium enterprises treated as Loans to small and medium enterprises
+corporates belonging to a group with annual gross
+turnover that exceeds AED 250 million
+Purchased corporate receivables Bank finance against amounts due to
+corporates from third parties for goods
+and/or services provided by them.
+Book value of securities held in the banking The value at which securities have been
+book purchased rather than their market value.
+Securities that are held in the banking book
+are intended to be held until maturity. There
+is no intent of trading in these securities.
+Question 10: What comprises Retail Loans?
+For the purpose of the ASA, retail loans will include total outstanding amounts (non-risk weighted
+131
+
+[Document: document.pdf, Page 134]
+CBUAE Classification: Public
+and gross of provisions) averaged over the past three years in the following credit portfolios:
+Retail loans included for ASA Definitions
+Retail Exposures to individuals, residential
+mortgage loans etc.
+SMEs treated as retail Loans extended to small and medium
+businesses and managed as retail
+exposures by the bank.
+Purchased retail receivables Bank finance against amounts due to
+bank’s retail clients from third parties for
+goods and/or services provided by them
+Question 11: What is the threshold to decide a large diversified bank in terms of assets
+book size/composition or any other indicators?
+Currently, there is no such threshold. The Central Bank will perform an assessment for each bank
+applying to qualify for ASA. The qualifying criteria provided in paragraph 28 of the Operational
+Risk section of Standards re Capital Adequacy in the UAE, especially the first one (90% income
+from retail/commercial banking) are stringent. The Central Bank will review whether the bank
+meets the 90% standard to determine whether an additional size cut-off is appropriate.
+Question 12: Retail or commercial banking activities shall account for at least 90% of its
+income. Please clarify whether this needs to be seen in the current year or an average of
+all the 3 years based on which the Operational Risk capital is being computed
+Testing the 90% rule across a period of three consecutive years will be more appropriate.
+Question 13: "The bank's operational risk management processes and assessment system
+shall be subject to validation and regular independent review". Can we get clarification on
+the difference between the validation and the review, and what are the scope and
+responsible party for each?
+Validation of models and tables must be performed by the internal auditor or by the external
+auditor.
+Question 14: In terms of the "regular reporting", is an official ORM meeting required? For
+example, Operational Risk Business/ Country / Group Committee meetings?

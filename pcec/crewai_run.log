@@ -1,0 +1,155 @@
+2025-03-16 18:12:45,340 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 18:13:59,989 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 18:14:00,439 - root - INFO - Testing PDF tool...
+2025-03-16 18:14:00,440 - tools.PDFTool - WARNING - Chunk text too large (44850 chars), truncating to 15000 chars
+2025-03-16 18:14:00,440 - tools.PDFTool - WARNING - Chunk text too large (44850 chars), truncating to 15000 chars
+2025-03-16 18:14:00,445 - root - INFO - Preprocessing documents...
+2025-03-16 18:14:00,445 - root - ERROR - ❌ ERROR: Analysis failed with exception: name 'Path' is not defined
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 29, in main
+    document_processor.preprocess_documents()
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/document_processor.py", line 6, in preprocess_documents
+    output_dir = Path(__file__).resolve().parent / "preprocessed"
+                 ^^^^
+NameError: name 'Path' is not defined
+
+2025-03-16 18:14:00,445 - root - INFO - Error details have been saved to: /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/error_log_20250316-181400.txt
+2025-03-16 18:14:00,445 - root - INFO - Please check the error log for more information.
+2025-03-16 18:19:13,006 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 18:21:27,446 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 18:21:27,897 - root - INFO - Testing PDF tool...
+2025-03-16 18:21:27,898 - tools.PDFTool - WARNING - Chunk text too large (44850 chars), truncating to 15000 chars
+2025-03-16 18:21:27,898 - tools.PDFTool - WARNING - Chunk text too large (44850 chars), truncating to 15000 chars
+2025-03-16 18:21:27,903 - root - INFO - Preprocessing documents...
+2025-03-16 18:21:27,903 - root - ERROR - ❌ ERROR: Analysis failed with exception: name 'Path' is not defined
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 29, in main
+    document_processor.preprocess_documents()
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/document_processor.py", line 6, in preprocess_documents
+    output_dir = Path(__file__).resolve().parent / "preprocessed"
+                 ^^^^
+NameError: name 'Path' is not defined
+
+2025-03-16 18:21:27,903 - root - INFO - Error details have been saved to: /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/error_log_20250316-182127.txt
+2025-03-16 18:21:27,903 - root - INFO - Please check the error log for more information.
+2025-03-16 18:23:29,614 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 18:23:30,075 - root - INFO - Testing PDF tool...
+2025-03-16 18:23:30,076 - root - INFO - Preprocessing documents...
+2025-03-16 18:23:30,077 - root - ERROR - ❌ ERROR: Analysis failed with exception: name 'Path' is not defined
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 29, in main
+    document_processor.preprocess_documents()
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/document_processor.py", line 6, in preprocess_documents
+    output_dir = Path(__file__).resolve().parent / "preprocessed"
+                 ^^^^
+NameError: name 'Path' is not defined
+
+2025-03-16 18:23:30,077 - root - INFO - Error details have been saved to: /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/error_log_20250316-182330.txt
+2025-03-16 18:23:30,077 - root - INFO - Please check the error log for more information.
+2025-03-16 18:24:59,321 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 18:24:59,782 - root - INFO - Testing PDF tool...
+2025-03-16 18:24:59,784 - root - INFO - Preprocessing documents...
+2025-03-16 18:25:12,582 - root - INFO - Checking available tools...
+2025-03-16 18:25:12,582 - root - INFO - ✓ PDFTool is available
+2025-03-16 18:25:12,583 - root - INFO - ✓ FileIOTool is available
+2025-03-16 18:25:12,583 - root - INFO - ✓ RiskAnalysisTool is available
+2025-03-16 18:25:12,583 - root - INFO - ✓ ControlDesignTool is available
+2025-03-16 18:25:12,583 - root - INFO - ✓ AuditPlanningTool is available
+2025-03-16 18:25:12,583 - root - INFO - Starting Policy Compliance Analysis...
+2025-03-16 18:25:12,601 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:25:13,290 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:25:22,527 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:25:22,579 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:25:22,975 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:26:04,379 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:26:04,399 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:26:04,819 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:26:19,508 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:26:19,518 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:26:20,168 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:27:13,587 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:27:13,593 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:27:14,145 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:28:13,331 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:28:13,351 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:28:13,773 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:28:21,953 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:28:21,955 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:28:22,530 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:29:13,757 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:29:13,766 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:29:34,367 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:30:12,721 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:30:12,740 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:30:13,194 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:30:26,736 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:30:26,741 - tools.PDFTool - WARNING - Chunk text too large (15957 chars), truncating to 15000 chars
+2025-03-16 18:30:26,745 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:30:27,365 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:31:09,447 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:31:09,456 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:31:10,068 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:32:18,256 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:32:18,375 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:32:18,811 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:32:30,613 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:32:30,622 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:32:31,228 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:33:29,625 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:33:29,644 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:33:30,062 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:33:51,325 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:33:51,334 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:33:51,947 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:34:25,610 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:34:25,625 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:34:26,214 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:34:41,982 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:34:41,994 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:34:42,579 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:35:21,540 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:35:21,548 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:36:00,539 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 522 "
+2025-03-16 18:36:00,540 - openai._base_client - INFO - Retrying request to /chat/completions in 0.430431 seconds
+2025-03-16 18:36:01,562 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:36:15,785 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:36:15,793 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:36:16,403 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:36:36,896 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:36:36,904 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:36:37,513 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:36:49,337 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:36:49,345 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:36:49,954 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:37:05,239 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:37:05,247 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:37:05,873 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 18:38:02,777 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-16 18:38:02,794 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-16 18:38:03,449 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"

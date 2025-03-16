@@ -1,0 +1,223 @@
+[Document: document.pdf, Page 81]
+CBUAE Classification: Public
+have the additional capital requirement on CVA, will this liability be netted off against the
+CVA capital requirement, or an add back to the capital for this P&L charge will be
+incorporated?
+Incurred CVA losses should be used to reduce EAD.
+IV. Examples
+A. CVA capital and RWA with no hedging
+For this example, a bank has only two derivatives counterparties, Galaxy Financial with a AA
+credit rating, and Solar Systems with a BB credit rating. The bank computes counterparty credit
+risk (CCR) exposure as 800 for Galaxy, and 200 for Solar, following the requirements of the CCR
+Standards. The bank uses the standardised approach rather than the simple alternative to
+compute CVA capital and RWA.
+The bank calculates the weighted average maturity for exposures to Galaxy at 3 years, and for
+Solar 1 year. In this example, the bank has no eligible hedges for CVA risk for either counterparty.
+Example: Derivatives Portfolio for the Bank
+# Counterparty Name Credit Rating CCR Exposure Maturity
+1 Galaxy Financial AA 800 3 years
+2 Solar Systems BB 200 1 year
+The bank must compute the supervisory discount factor, DF, for each of the two counterparties.
+i
+Using the formula in the Standards, the calculations are:
+(1−𝑒−.05×3)
+𝐷𝐹 = = 2.786
+1 .05
+(1−𝑒−.05×1)
+𝐷𝐹 = = 0.975
+2 .05
+Using these supervisory discount factors, the bank calculates single-name exposure for each
+counterparty, taking into account the fact that there are no eligible CVA hedges:
+𝑆𝑁𝐸 = 𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙 ×𝐷𝐹 = 800×2.786 =2229
+1 1 1
+𝑆𝑁𝐸 = 𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙 ×𝐷𝐹 = 200×0.975= 195
+2 2 2
+The bank must also determine the appropriate risk weights for each of these single-name
+exposures. Because Galaxy is rated AA, the appropriate risk weight is 0.7% from Table 1 of the
+Standards. Solar is rated BB, so the corresponding risk weight is 2.0%. That is, W =0.007, and
+1
+W =0.02.
+2
+The bank’s calculation of CVA capital must use the formula in the Standards:
+2
+𝐾 = 2.33√(∑0.5 𝑊 𝑆𝑁𝐸) +∑0.75 (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖 𝑖 𝑖
+𝑖 𝑖
+Substituting in the relevant values for Galaxy and Solar, the calculation is:
+79
+
+[Document: document.pdf, Page 82]
+CBUAE Classification: Public
+𝐾 = 2.33√(0.5×𝑊 ×𝑆𝑁𝐸 +0.5×𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2
+1 1 2 2 1 1 2 2
+= 2.33√(0.5×0.007×2229+0.5×0.02×195)2+0.75×(0.007×2229)2+0.75×(0.02×195)2
+= 2.33√(7.80+1.95)2+0.75×(15.60)2+0.75×(3.90)2
+= 2.33√95.06+182.52+11.41 = 2.33√288.99= 39.61
+In the final step, the bank must compute RWA for CVA using the multiplicative factor of 12.5 as
+required in the Standards:
+CVA RWA = K × 12.5 = 39.61 × 12.5 = 495.16
+B. CVA capital and RWA with a single-name hedge
+The bank from the previous example has the same portfolio, but in this example enters into a
+CDS with a third party that provides protection on Galaxy Financial, to protect against a potential
+increase in credit spreads that would reduce the fair value of transactions with Galaxy if Galaxy’s
+credit quality deteriorates. The notional value of the CDS is 400, with a maturity of 2 years. Thus,
+the calculation must now take into account the impact of an eligible single-name CVA hedge, with
+H = 400 and M = 2.
+1 h
+The bank must compute the supervisory discount factor for the CVA hedge:
+(1−𝑒−.05×2)
+𝐷𝐹 = =1.903
+𝐻 .05
+The presence of the CVA hedge for Galaxy changes. Galaxy’s SNE calculation:
+𝑆𝑁𝐸 = (𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙 ×𝐷𝐹 )−(𝐻 ×𝐷𝐹 )
+1 1 1 1 𝐻
+= (800×2.786)−(400×1.903)= 2228.7−761.3 ≈ 1467
+The remainder of the computations proceed as before, with the new value for SNE :
+1
+𝐾 = 2.33√(0.5×𝑊 ×𝑆𝑁𝐸 +0.5×𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2
+1 1 2 2 1 1 2 2
+= 2.33√(0.5×0.007×1467+0.5×0.02×195)2+0.75×(0.007×1467)2+0.75×(0.02×195)2
+= 2.33√(5.13+1.95)2+0.75×(10.27)2+0.75×(3.90)2
+= 2.33√50.13+79.10+11.41= 2.33√140.64 =27.63
+In the final step, the bank computes RWA for CVA using the multiplicative factor of 12.5 as
+required in the Standards:
+CVA RWA = K × 12.5 = 27.63 × 12.5 = 345.38
+This example illustrates the impact of CVA risk mitigation, as the presence of the eligible CVA
+hedge reduces CVA capital and RWA compared to the previous example with no hedging.
+80
+
+[Document: document.pdf, Page 83]
+CBUAE Classification: Public
+C. CVA capital and RWA with an index hedge
+The bank from the previous example has the same portfolio, including the single-name hedge of
+Galaxy Financial, but now enters into an index CDS that provides credit spread protection against
+a basket of twenty named entities. The notional value of the index CDS is 300, with a maturity of
+1.5 years. The bank’s calculation of CVA capital now takes into account the impact of an eligible
+index hedge, which reduces systematic CVA risk. The relevant form of the calculation from the
+Standard is:
+2
+𝐾 =2.33√(∑0.5 𝑊 𝑆𝑁𝐸 −∑𝑊 𝐻 𝐷𝐹 ) +∑0.75 (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖 𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖 𝑖
+𝑖 𝑖𝑛𝑑 𝑖
+Because the bank has only one index hedge, the summation for index hedges inside the
+calculation has only a single (Wind Hind DFind) term. As stated above, the notional value of the
+hedge is Hind=300. The bank needs to calculate the appropriate supervisory discount factor for
+the index CDS, based on the maturity Mind=1.5 years:
+(1−𝑒−.05×1.5)
+𝐷𝐹 = = 1.445
+𝑖𝑛𝑑 .05
+To determine the risk weight, the bank must determine the credit rating for each of the twenty
+reference names in the index basket, the corresponding risk weight for each rating (from Table 1
+in the Standard), and the weighted average of those risk weights using the relative notional values
+of the component names for the weights. Suppose that through this process of analysis, the bank
+determines that the weighted average is 1.2% (slightly worse than BBB). As a result, Wind=0.012.
+The impact of risk mitigation from the index CDS enters the calculation through the term:
+𝑊 𝐻 𝐷𝐹 = 0.012×300×1.445= 5.20
+𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖𝑛𝑑
+The bank can now calculate CVA capital, taking into account the impact of the index hedge that
+mitigates systematic risk. Many of the relevant values are unchanged from the previous example,
+but there is the addition of the index hedge effect on systematic CVA risk:
+𝐾 =2.33√(0.5×𝑊 ×𝑆𝑁𝐸 +0.5×𝑊 ×𝑆𝑁𝐸 −𝑾 𝑯 𝑫𝑭 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2
+1 1 2 2 𝒊𝒏𝒅 𝒊𝒏𝒅 𝒊𝒏𝒅 1 1 2 2
+=2.33√(0.5×0.007×1467+0.5×0.02×195−𝟎.𝟎𝟏𝟐×𝟑𝟎𝟎×𝟏.𝟒𝟒𝟓)2+0.75×(0.007×1467)2+0.75×(0.02×195)2
+=2.33√(5.13+1.95−𝟓.𝟐𝟎)2+0.75×(10.27)2+0.75×(3.90)2
+=2.33√3.53+79.10+11.41=2.33√94.04=22.59
+As before, the bank computes RWA for CVA using the multiplicative factor of 12.5 as required in
+the Standard:
+CVA RWA = K × 12.5 = 22.59 × 12.5 = 282.38
+81
+
+[Document: document.pdf, Page 84]
+CBUAE Classification: Public
+VI. Equity Investments in Funds
+I. Introduction
+In December 2013, the Basel Committee on Banking Supervision (BCBS) published a
+revised framework for calculating the capital requirements for banks’ equity investments in funds
+held in the banking book. This followed a BCBS review of the risk-based capital requirements for
+banks’ exposures to funds, undertaken as part of the work of the Financial Stability Board (FSB)
+to strengthen the oversight and regulation of shadow banking. The BCBS review was undertaken
+to clarify the existing treatment of such exposures in the Basel II capital adequacy framework and
+to achieve a more internationally consistent and risk-sensitive capital treatment for banks’
+investments in the equity of funds, reflecting both the risk of the fund’s underlying investments
+and its leverage.
+Following the approach developed by the BCBS in Capital requirements for banks’ equity
+investments in funds, (BCBS 266, published December 2013), the Central Bank Standards for
+minimum required capital for banks’ equity investments in funds relies on a hierarchy of three
+successive approaches to risk weighting of fund assets, with varying degrees of risk sensitivity
+and conservatism:
+ The “look-through approach” (LTA): The LTA is the most granular approach. Subject to
+meeting the conditions set out for its use, banks employing the LTA must apply the risk
+weight of the fund’s underlying exposures as if the exposures were held directly by the
+bank;
+ The “mandate-based approach” (MBA): The MBA provides a degree of risk sensitivity,
+and can be used when banks do not meet the conditions for applying the LTA. Banks
+employing the MBA assign risk weights on the basis of the information contained in a
+fund’s mandate or in relevant regulations, national legislation, or other similar rules under
+which the fund is required to operate; and
+ The “fall-back approach” (FBA): When neither of the above approaches is feasible, the
+FBA must be used. The FBA applies a 1250 percent risk weight to a bank’s equity
+investment in the fund.
+To ensure that banks have appropriate incentives to enhance the risk management of their
+exposures, the degree of conservatism increases with each successive approach.
+The capital framework for banks’ equity investments in funds also incorporates a leverage
+adjustment to the risk-weighted assets derived from the above approaches to appropriately reflect
+a fund’s leverage.
+82
+
+[Document: document.pdf, Page 85]
+CBUAE Classification: Public
+II. Clarifications
+A. Scope
+The Standards covers banks’ equity investments held in the banking book. Note that equity
+positions within the trading book are covered by the market risk capital requirements that apply
+to trading book positions.
+The Central Bank has chosen not to use the national discretion provided within the BCBS
+framework to exclude from the standard equity positions in entities whose debt obligations qualify
+for a zero risk weight. The Central Bank also has chosen not to use the national discretion
+provided within the BCBS framework to exclude from the scope of the standard equity investments
+made under identified official programs that support specified sectors of the economy
+B. General Design of the Capital Requirement
+At a high level, the framework is designed such that the risk-weight for a bank’s equity
+investment in a fund depends on the average risk weight that would be applicable to the assets
+of the fund, and on the extent of use of leverage by the fund. The approach to the average risk
+weight for any fund will reflect one or more of the three approaches described briefly above (and
+described more fully in the Standards).
+The illustration below gives a general overview of how the average risk weight and
+leverage are combined, subject to a cap of 1250%, and then applied to the bank’s equity
+investment in the funds.
+For example, if the average risk weight of the assets held by the fund is 80%, and the fund
+is financed through half debt and half equity, then the ratio of assets to equity would be 2.0 and
+the risk weight applied to a bank’s investment in the fund would be:
+80% x 2.0 = 160%
+If instead the same fund is financed 90% by debt, then the ratio of assets to equity would be 10,
+and the risk weight applied to the bank’s investment in the fund would be 800% (80% x 10).
+Another way to view the capital requirement for equity investments in funds is that a bank
+generally must count a proportional amount of the risk-weighted assets (RWA) of the fund as the
+bank’s own RWA for capital purposes, in proportion to the bank’s share of the equity of the fund.
+Ignoring the 1250% limit for simplicity, the RWA calculation can be written as:
+𝑅𝑊𝐴 𝐴𝑠𝑠𝑒𝑡𝑠
+𝑅𝑊𝐴 = ( 𝑓𝑢𝑛𝑑 )×( 𝑓𝑢𝑛𝑑 )×𝐵𝑎𝑛𝑘′𝑠 𝐸𝑞𝑢𝑖𝑡𝑦 𝐼𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡
+𝐵𝑎𝑛𝑘 𝐴𝑠𝑠𝑒𝑡𝑠 𝐸𝑞𝑢𝑖𝑡𝑦
+𝑓𝑢𝑛𝑑 𝑓𝑢𝑛𝑑
+83
+
+[Document: document.pdf, Page 86]
+CBUAE Classification: Public
+𝑅𝑊𝐴 𝐴𝑠𝑠𝑒𝑡𝑠
+= ( 𝑓𝑢𝑛𝑑 )×( 𝑓𝑢𝑛𝑑 )×𝐵𝑎𝑛𝑘′𝑠 𝐸𝑞𝑢𝑖𝑡𝑦 𝐼𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡
+𝐴𝑠𝑠𝑒𝑡𝑠 𝐸𝑞𝑢𝑖𝑡𝑦
+𝑓𝑢𝑛𝑑 𝑓𝑢𝑛𝑑
+𝐵𝑎𝑛𝑘′𝑠 𝐸𝑞𝑢𝑖𝑡𝑦 𝐼𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡
+= 𝑅𝑊𝐴 ×( )
+𝑓𝑢𝑛𝑑 𝐸𝑞𝑢𝑖𝑡𝑦
+𝑓𝑢𝑛𝑑
+= 𝑅𝑊𝐴 ×𝐵𝑎𝑛𝑘′𝑠 𝑆ℎ𝑎𝑟𝑒 𝑜𝑓 𝐹𝑢𝑛𝑑 𝐸𝑞𝑢𝑖𝑡𝑦
+𝑓𝑢𝑛𝑑
+The rearrangement of the terms in the equation highlights that the bank’s RWA from the EIF is
+the bank’s proportional share of the fund’s RWA – if the bank holds a 5% share of the equity in
+the fund, then the bank’s RWA is 5% of the total RWA of the fund. This is a logical treatment – if
+a bank effectively owns 5% of a fund, the bank must hold capital as if it owns 5% of the fund’s
+risk-weighted assets.
+C. Look-Through Approach
+The LTA requires a bank to assign the same risk weights to the underlying exposures of
+a fund as would be assigned if the bank held the exposures directly. The information used for to

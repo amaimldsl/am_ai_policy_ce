@@ -1,0 +1,111 @@
+❌ ERROR: Analysis failed with exception: litellm.APIError: APIError: DeepseekException - error - Expecting value: line 10 column 1 (char 9), Received response - <APIResponse [200 OK] type=<class 'openai.types.chat.chat_completion.ChatCompletion'>>, Type of response - <class 'openai._legacy_response.LegacyAPIResponse'>
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 447, in make_sync_openai_chat_completion_request
+    response = raw_response.parse()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/openai/_legacy_response.py", line 137, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/openai/_legacy_response.py", line 332, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/httpx/_models.py", line 766, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/anaconda3/envs/pce/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/anaconda3/envs/pce/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/anaconda3/envs/pce/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 10 column 1 (char 9)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 711, in completion
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 638, in completion
+    self.make_sync_openai_chat_completion_request(
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_utils.py", line 145, in sync_wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 451, in make_sync_openai_chat_completion_request
+    raise Exception(
+Exception: error - Expecting value: line 10 column 1 (char 9), Received response - <APIResponse [200 OK] type=<class 'openai.types.chat.chat_completion.ChatCompletion'>>, Type of response - <class 'openai._legacy_response.LegacyAPIResponse'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/main.py", line 1692, in completion
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/main.py", line 1665, in completion
+    response = openai_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 721, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: error - Expecting value: line 10 column 1 (char 9), Received response - <APIResponse [200 OK] type=<class 'openai.types.chat.chat_completion.ChatCompletion'>>, Type of response - <class 'openai._legacy_response.LegacyAPIResponse'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 42, in main
+    result = pcec.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/crew.py", line 619, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/crew.py", line 731, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/crew.py", line 829, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/task.py", line 304, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/task.py", line 448, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/task.py", line 368, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agent.py", line 265, in execute_task
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agent.py", line 246, in execute_task
+    result = self.agent_executor.invoke(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 119, in invoke
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 108, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 166, in _invoke_loop
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 146, in _invoke_loop
+    answer = self._get_llm_response()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 216, in _get_llm_response
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 207, in _get_llm_response
+    answer = self.llm.call(
+             ^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/llm.py", line 310, in call
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1154, in wrapper
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1032, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/main.py", line 3068, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2201, in exception_type
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise APIError(
+litellm.exceptions.APIError: litellm.APIError: APIError: DeepseekException - error - Expecting value: line 10 column 1 (char 9), Received response - <APIResponse [200 OK] type=<class 'openai.types.chat.chat_completion.ChatCompletion'>>, Type of response - <class 'openai._legacy_response.LegacyAPIResponse'>

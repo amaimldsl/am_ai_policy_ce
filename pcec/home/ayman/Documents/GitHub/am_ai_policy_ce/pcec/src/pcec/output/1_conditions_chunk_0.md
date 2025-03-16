@@ -1,63 +1,45 @@
-Here is a structured list of policy compliance conditions and requirements extracted from the document chunk (doc_0_document_pages_151-165.txt):
+### Policy Compliance Conditions and Requirements from Chunk 0
 
-1. **Condition ID: 1**
-   - **Description:** All banks licensed by the Central Bank of the UAE must ensure that Pillar 1 risks (credit, market, and operational risk) are mitigated by capital in compliance with the capital adequacy framework.
-   - **Reference:** Document: document.pdf, Page 151, Section I. Introduction and Purpose, Paragraph 1.
+1. **Condition ID: 120**
+   - **Description**: Stress tests should support decision-making throughout the bank effectively. Stress tests should be embedded in banks’ business decision-making and risk management process at several levels of the organisation. Senior Management and the Board should lead and approve all assumptions, the methodology framework, and authorise the use of stress test results.
+   - **Reference**: document.pdf, Page 171
 
-2. **Condition ID: 2**
-   - **Description:** Each bank is required to quantify all risks not covered or not sufficiently covered by Pillar 1 capital and determine the additional capital required to mitigate these risks (Pillar 2 capital).
-   - **Reference:** Document: document.pdf, Page 151, Section I. Introduction and Purpose, Paragraph 1.
+2. **Condition ID: 121**
+   - **Description**: Risk mitigations should always be considered in light of the stress severity and likelihood. If no action is deemed necessary, this should be documented and clearly justified.
+   - **Reference**: document.pdf, Page 171
 
-3. **Condition ID: 3**
-   - **Description:** Each bank is required to have a process to assess its overall capital adequacy as a function of its risk profile and strategy (Internal Capital Adequacy Assessment Process - ICAAP).
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 2.
+3. **Condition ID: 122**
+   - **Description**: Each bank is expected to conduct reverse stress tests. Reverse stress tests start with the identification of a pre-defined outcome where the bank’s business model becomes non-viable or it breaches supervisory compliance minima. The next step is to assess which scenarios and shocks lead to that identified outcome. Finally, the objective is to assess whether the likelihood of occurrence is realistic and the impact warrants mitigating actions.
+   - **Reference**: document.pdf, Page 171
 
-4. **Condition ID: 4**
-   - **Description:** The Board of Directors is required to approve the ICAAP on a yearly basis and ensure the governance framework is in place.
-   - **Reference:** Document: document.pdf, Page 153, Section III. ICAAP Governance, Paragraph 15.
+4. **Condition ID: 123**
+   - **Description**: Effective reverse stress testing requires the involvement of all material risk areas across the bank’s subject matter experts, Senior Management, and the Board.
+   - **Reference**: document.pdf, Page 171
 
-5. **Condition ID: 5**
-   - **Description:** Each bank is required to maintain appropriate capital levels in accordance with the Central Bank Standards on Pillar 2 capital.
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 2.
+5. **Condition ID: 124**
+   - **Description**: Each bank should conduct a reverse stress test at least once a year. A well-designed reverse stress test should also include enough diagnostic information to allow the identification of the sources of potential failure.
+   - **Reference**: document.pdf, Page 171
 
-6. **Condition ID: 6**
-   - **Description:** The Central Bank may require a bank to meet an adjusted Minimum Capital Adequacy ratio if the evaluation concludes that the capital levels are not satisfactory.
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 3.
+6. **Condition ID: 125**
+   - **Description**: The annual ICAAP report should be submitted to the Central Bank on or before the submission dates addressed in Table 1.
+   - **Reference**: document.pdf, Page 171
 
-7. **Condition ID: 7**
-   - **Description:** Each bank is required to adopt a Pillar 1 plus approach, where total capital requirements include Pillar 1 regulatory capital plus Pillar 2 capital.
-   - **Reference:** Document: document.pdf, Page 155, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 17.
+7. **Condition ID: 126**
+   - **Description**: All documents have to be submitted to the respective Central Bank reviewer by softcopy (submitted in word or pdf format), sending a copy to bsed.basel@cbuae.gov.ae.
+   - **Reference**: document.pdf, Page 171
 
-8. **Condition ID: 8**
-   - **Description:** Each bank is required to conduct an ICAAP supported by appropriate methods and procedures to ensure adequate capital covers all material risks.
-   - **Reference:** Document: document.pdf, Page 155, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 18.
+8. **Condition ID: 128**
+   - **Description**: The ICAAP report should be approved by Senior Management (including the CRO), Board approval, and for foreign branches, by the managing director and/or relevant highest committee of the bank in the UAE, and by their head office.
+   - **Reference**: document.pdf, Page 172
 
-9. **Condition ID: 9**
-   - **Description:** The ICAAP should be forward-looking, covering a period of three to five years, and consider both internal and external drivers.
-   - **Reference:** Document: document.pdf, Page 155, Section V. Capital Planning, Paragraph 34.
+9. **Condition ID: 130**
+   - **Description**: Internal Audit should perform an audit on the bank’s ICAAP report annually. The report has to be submitted no later than three (3) months after the submission of the ICAAP report to the bank’s reviewer and in copy to bsed.basel@cbuae.gov.ae.
+   - **Reference**: document.pdf, Page 172
 
-10. **Condition ID: 10**
-    - **Description:** Each bank is required to fulfill internal risk appetite requirements in the bank’s self-assessment of Pillar 1 and Pillar 2 minimum regulatory capital requirements.
-    - **Reference:** Document: document.pdf, Page 156, Section V. Capital Planning, Paragraph 41.
+10. **Condition ID: 131**
+    - **Description**: Internal control functions should perform regular reviews of the risk management process to make sure its coherence, validity, and rationality. The review of the ICAAP should cover ensuring that the ICAAP is complete and suitable, the process of identifying all material risks, efficiency of the information systems, ensuring the accuracy and comprehensiveness of the data input, rational behind the ICAAP output and assumptions, rational and suitability of stress tests, consolidation of the ICAAP outcomes with the risk management, and rational of the capital plan and internal capital targets.
+    - **Reference**: document.pdf, Page 172-173
 
-11. **Condition ID: 11**
-    - **Description:** Each bank is required to perform a detailed risk analysis specific to Real Estate exposures (RE) and comply with the Central Bank Standards for Real Estate Exposures.
-    - **Reference:** Document: document.pdf, Page 164, Section E. Credit Concentration Risk, Paragraph 81.
-
-12. **Condition ID: 12**
-    - **Description:** Each bank is required to define a risk appetite for Interest Rate Risk in the Banking Book (IRRBB) and implement a comprehensive risk appetite framework.
-    - **Reference:** Document: document.pdf, Page 165, Section F. Interest Rate Risk in the Banking Book (IRRBB), Paragraph 84.
-
-13. **Condition ID: 13**
-    - **Description:** Each bank is required to perform quantitative stress testing based on historical loss data and operational risk profile.
-    - **Reference:** Document: document.pdf, Page 161, Section D. Operational Risk, Paragraph 77.
-
-14. **Condition ID: 14**
-    - **Description:** Each bank is required to ensure that credit concentration risk is pro-actively and efficiently addressed, with policies and procedures for identification, measurement, monitoring, and reporting.
-    - **Reference:** Document: document.pdf, Page 164, Section E. Credit Concentration Risk, Paragraph 81(i).
-
-15. **Condition ID: 15**
-    - **Description:** Each bank is required to calculate and report additional capital for credit concentration risk using the Herfindahl-Hirschman Index (HHI) methodology.
-    - **Reference:** Document: document.pdf, Page 164, Section E. Credit Concentration Risk, Paragraph 81(ii).
-
-This list includes all identified compliance conditions, requirements, and obligations from the provided document chunk.
+11. **Condition ID: 132**
+    - **Description**: The review should cover the integrity and validity of regulatory data submitted to the Central Bank during the course of the year relating to Pillar 1 capital requirements, including appropriate classification of risk-weighted assets (RWA), appropriate inclusion of the off-balance sheet values and the application of credit conversion factors (CCF), and appropriate credit risk mitigation (CRM) methodology application and values.
+    - **Reference**: document.pdf, Page 173

@@ -1,0 +1,87 @@
+❌ ERROR: Analysis failed with exception: litellm.AuthenticationError: AuthenticationError: DeepseekException - The api_key client option must be set either by passing api_key to the client or by setting the DEEPSEEK_API_KEY environment variable
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 711, in completion
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 614, in completion
+    openai_client: OpenAI = self._get_openai_client(  # type: ignore
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 368, in _get_openai_client
+    _new_client = OpenAI(
+                  ^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/openai/_client.py", line 110, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/main.py", line 1692, in completion
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/main.py", line 1665, in completion
+    response = openai_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/llms/openai/openai.py", line 721, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 42, in main
+    result = pcec.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/crew.py", line 619, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/crew.py", line 731, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/crew.py", line 829, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/task.py", line 304, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/task.py", line 448, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/task.py", line 368, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agent.py", line 265, in execute_task
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agent.py", line 246, in execute_task
+    result = self.agent_executor.invoke(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 119, in invoke
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 108, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 166, in _invoke_loop
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 146, in _invoke_loop
+    answer = self._get_llm_response()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 216, in _get_llm_response
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 207, in _get_llm_response
+    answer = self.llm.call(
+             ^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/crewai/llm.py", line 310, in call
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1154, in wrapper
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/utils.py", line 1032, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/main.py", line 3068, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2201, in exception_type
+    raise e
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 357, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: AuthenticationError: DeepseekException - The api_key client option must be set either by passing api_key to the client or by setting the DEEPSEEK_API_KEY environment variable

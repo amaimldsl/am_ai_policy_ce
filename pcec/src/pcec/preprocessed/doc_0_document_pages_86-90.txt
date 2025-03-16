@@ -1,0 +1,173 @@
+
+determine the risk weights must meet the requirements stated in the Standards, including
+sufficiency, frequency, and third party review. However, that information is not required to be
+derived from sources that are subject to an external audit.
+RWA and assets of investment funds should, to the extent possible, be evaluated using
+the same accounting standards the bank would apply if the assets were held directly. However,
+where this is not possible due to constraints on available information, the evaluation can be based
+on the accounting standards applied by the investment fund, provided the treatment of the
+numerator (RWA) and the denominator (total unweighted assets) is consistent.
+If a bank relies on third-party calculations for determining the underlying risk weights of
+the exposures of the fund, the risk weights should be increased by a factor of 1.2 times to
+compensate for the fact that the bank cannot be certain about the accuracy of third-party
+information. For instance, any exposure that is ordinarily subject to a 20% risk weight under the
+risk-based capital standards would be weighted at 24% (1.2×20%) when the look-through is
+performed by a third party.
+D. Mandate-Based Approach
+Under the MBA, banks may use the information contained in a fund’s mandate, or in the
+rules or regulations governing such investment funds in the relevant jurisdiction. Information used
+for this purpose is not strictly limited to a fund’s mandate or to national regulations or other
+requirements that govern such funds. For example, a bank could obtain information from the
+fund’s prospectus or from other disclosures of the fund.
+To ensure that all underlying risks are taken into account (including CCR) and that the
+MBA renders capital requirements no less than the LTA, the Standards requires that risk-weighted
+assets for funds’ exposures be calculated as the sum of three items:
+ On-balance-sheet exposures;
+ Off-balance-sheet exposures including notional value of derivatives exposures; and
+ CCR exposure for derivatives.
+84
+
+[Document: document.pdf, Page 87]
+CBUAE Classification: Public
+As with the LTA, for purposes of the MBA the RWA and assets of investment funds should,
+to the extent possible, be evaluated using the same accounting standards the bank would apply
+if the assets were held directly. However, where this is not possible due to constraints on available
+information, the evaluation can be based on the accounting standards applied by the investment
+fund, provided the treatment of the numerator (RWA) and the denominator (total unweighted
+assets) is consistent.
+In general, the MBA aims to take a conservative approach by calculating the highest risk-
+weighted assets the fund could achieve under the terms of its mandate or governing laws and
+regulations. Under the MBA, the bank should assume that the fund’s assets are first invested to
+the maximum extent allowable in assets that would attract the highest risk weight, and then to the
+maximum extent allowable in the next riskiest type of asset, and so on until all of the fund’s
+balance sheet assets have been assigned to a risk-weight category. If more than one risk weight
+could be applied to a given exposure, the bank must use the maximum applicable risk weight. For
+example, if the mandate does not place restrictions on the rating quality of the fund’s investments
+in corporate bonds, the bank should apply a risk weight of 150% to the fund’s corporate bond
+positions.
+For derivatives, when the replacement cost is unknown, the Standards takes a
+conservative approach by setting replacement cost equal to the notional amount of the derivatives
+contracts. When the notional amount of a fund’s derivative exposure is unknown, the approach
+again is conservative: the bank should use the maximum notional amount of derivatives allowed
+under the fund’s mandate. When the PFE for derivatives is unknown, the PFE add-on should be
+set at 15% of the notional value. Thus, if the replacement cost and PFE add-on both are unknown,
+a total multiplication factor of 1.15 must be applied to the notional amount to reflect the CCR
+exposure.
+Instead of determining a CVA charge associated with the fund’s derivative exposures, the
+Standards allows banks to multiply the CCR exposure by a factor of 1.5 before applying the risk
+weight associated with the counterparty. However, a bank is not required to apply the 1.5 factor
+for situations in which the CVA capital charge would not otherwise be applicable. Notably, this
+includes derivative transactions for which the direct counterparty is a qualifying central
+counterparty.
+E. Leverage Adjustment
+A leverage adjustment is applied to the average risk weight of the fund under either the
+LTA or the MBA. A similar leverage adjustment is not necessary for the FBA, because the risk
+weight of 1250% applied under the FBA to equity investments in funds is fixed at that maximum
+value.
+When determining the leverage adjustment under the MBA, banks are required to make
+conservative assumptions using information from the fund’s mandate. Specifically, the Standards
+requires that banks assume the fund will use financial leverage up to the maximum amount
+permitted under the fund’s mandate, or up to the maximum permitted under the regulations
+governing that fund. This maximum may be significantly greater than the actual leverage for the
+fund at any point in time.
+85
+
+[Document: document.pdf, Page 88]
+CBUAE Classification: Public
+III. Frequently Asked Questions
+Question 1: BCBS 266 states “Equity holdings in entities whose debt obligations qualify
+for a zero risk weight can be excluded from the LTA, MBA and FBA approaches (including
+those publicly sponsored entities where a zero risk weight can be applied), at the
+discretion of the national supervisor.” Are such equity holdings excluded under the
+Central Bank’s Standards?
+No, the Central Bank of the UAE has chosen not to adopt this point of national discretion. Bank
+investments in such funds are subject to the requirements of the Standards.
+Question 2: If a bank makes a “seed capital investment” in a fund that is out of scope of
+consolidation, and is considered a significant investment in the common shares of a
+banking, financial, or insurance entity, is it within scope as an equity investment in a fund?
+If the investment is one that the bank would be required to deduct from capital, then the investment
+is not in scope for this Standards.
+Question 3: If a bank makes a “seed capital investment” in a fund, and that fund is managed
+by a Fund Manager hired by the bank, is the investment considered to be a direct investment
+in the fund, or indirect?
+Assuming that the fund in question is not consolidated into the bank under accounting rules for
+financial reporting, such an investment is considered a direct investment under the Standards.
+Question 4: Under the Standards, what methodology should a bank use to compute
+counterparty credit risk exposure for funds in which the bank has an equity investment?
+The Standards states that banks must risk weight all exposures as if the bank held those
+exposures directly. Thus, the risk weights and the exposure amounts for counterparty credit risk
+should be determined using the standards that would apply to the bank. For banks in the UAE,
+the applicable standards for counterparty credit risk is the Central Bank’s Standards for
+Counterparty Credit Risk Capital, which reflects the Standardised Approach to Counterparty
+Credit Risk (SA-CCR).
+Question 5: If a bank relies on a third-party information provider for information used to
+calculate the leverage adjustment for a fund, does the 1.2 multiplication factor apply?
+No, as the Standards states, the factor of 1.2 applies when the bank relies on a third party for the
+risk weights of the underlying exposures. This is a conservative adjustment to recognize the
+uncertainty associated with such information about risk weights. It does not apply to the leverage
+ratio calculation.
+Question 6: The FBA applies a risk weight of 1250%, which is significantly higher than the
+current risk weights of 100% or 150% that apply to equity investments in funds under
+previous capital requirements. Should this risk weight be lower?
+The risk weight of 1250% is aligned with international capital standards as developed by the Basel
+Committee, and is being adopted by the Central Bank under this Standards. Considering the
+higher minimum capital requirements in the UAE (10.5% vs 8%), the final risk weight is capped at
+952%.
+Question 7: What happens when the bank has mandated intermediaries to invest in fixed
+income? Would this investment be included or excluded in the calculation of Equity
+Investments?
+86
+
+[Document: document.pdf, Page 89]
+CBUAE Classification: Public
+Banks having mandated Intermediaries have to go through same framework approach. This
+means that if the bank has information for these intermediaries, the bank may use the LTA
+approach. If the bank does not have information, then it has to use the MBA or FBA approach.
+Question 8: The EIF standards allows for partial use of approaches for reporting EIF and
+the RWA calculations from each applied approach are summed, and then divided by total
+fund assets to compute “Avg RWfund”. Should the leverage of the fund be proportioned
+according to use of approach?
+No, the leverage ratio is a single number that applies to the entire fund. When a bank uses more
+than one approach to determine the risk weight (that is, LTA, MBA, and/or FBA), the bank should
+report the amounts on separate lines in the reporting template.
+87
+
+[Document: document.pdf, Page 90]
+CBUAE Classification: Public
+IV. Example Calculations
+A. Example of calculation of risk-weighted assets using the LTA
+Consider a fund that aims to replicate an equity index using a strategy based on forward
+contracts. Assume the fund holds short-term forward contracts for this purpose with a notional
+amount of 100 that are cleared through a qualifying central counterparty. Further, assume that
+the fund’s financial position can be represented by the following T-account balance sheet:
+Assets Liabilities and Equity
+Cash 20 Notes payable 5
+Government bonds (AAA) 30
+Variation margin receivable
+on forward contracts 50 Equity 95
+100 100
+Finally, assume that the bank’s equity investment in the fund comprises 20% of the shares of the
+fund, and therefore is 20% × 95 = 19.
+Using the LTA, the fund’s balance sheet exposures of 100 are risk weighted according to the risk
+weights that would be applied to these assets by the bank. For cash, the risk weight is 0%; for the
+government bonds, the risk weight is also 0%. The margin receivable is an exposure to a
+qualifying CCP, which has 2% risk weight. The underlying risk weight for equity exposures (100%)
+is applied to the notional amount of the forward contracts.
+Assume that the bank is able to determine that the amount of the CCR exposure to the CCP is
+10, which then receives the 2% risk weight for exposures to a qualifying CCP. Note that there is
+no CVA charge because the forward contracts are cleared through the qualifying CCP.
+The total RWA for the fund is:
+20×0% + 30×0% + 50×2% + 100×100% + 10×2% = 101.2
+Given the total assets of the fund of 100, the average risk-weight for the fund is:
+Avg RW = 101.2 / 100 = 101.2%
+fund
+With fund assets of 100 and fund equity of 95, leverage is calculated as the assets-to-equity ratio,
+or 100/95≈1.05. Therefore, the risk-weight for the bank’s equity investment in the fund is:
+Risk Weight = 101.2% × (100/95) = 106.5%
+Applying this risk weight to the bank’s equity investment in the fund of 19, the bank’s RWA on the
+position for the purpose of calculating minimum required capital is 106.5% × 19 = 20.24.
+B. Example of calculation of risk-weighted assets using the MBA
+Consider a fund with current balance-sheet assets of 100, and assume that the bank is
+unable to apply the LTA due to a lack of adequate information. Suppose that the fund’s mandate
+states that the fund’s investment objective is to replicate an equity index. In addition to being
+88

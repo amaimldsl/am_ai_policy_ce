@@ -38,7 +38,8 @@ def extract_text_from_pdf(pdf_path, start_page=0, end_page=None):
     
     return "\n\n".join(text)
 
-def preprocess_documents(chunk_size=15):
+
+def preprocess_documents(chunk_size=10):  # Reduced from 15 to 10 pages per chunk
     """
     Preprocess all PDF documents and save them as chunks.
     Returns a list of chunk files that can be processed by agents.
@@ -57,23 +58,45 @@ def preprocess_documents(chunk_size=15):
             start_page = chunk_idx * chunk_size
             end_page = min((chunk_idx + 1) * chunk_size, pages)
             
+            # Extract with smaller chunk size
             chunk_text = extract_text_from_pdf(pdf_file, start_page, end_page)
-            output_file = output_dir / f"doc_{pdf_idx}_{pdf_file.stem}_pages_{start_page+1}-{end_page}.txt"
             
-            with open(output_file, "w", encoding="utf-8") as f:
-                f.write(chunk_text)
-            
-            chunk_files.append(output_file)
-            print(f"  Saved chunk {chunk_idx+1}/{(pages + chunk_size - 1) // chunk_size}: {output_file.name}")
+            # If chunk is very large, split it further
+            if len(chunk_text) > 10000:  # Limit chunk size to around 10K characters
+                midpoint = len(chunk_text) // 2
+                # Find a newline near the midpoint to split cleanly
+                split_point = chunk_text.find('\n', midpoint)
+                if split_point == -1:
+                    split_point = midpoint
+                
+                chunk_text_1 = chunk_text[:split_point]
+                chunk_text_2 = chunk_text[split_point:]
+                
+                # Save the first half
+                output_file_1 = output_dir / f"doc_{pdf_idx}_{pdf_file.stem}_pages_{start_page+1}-{start_page+((end_page-start_page)//2)}.txt"
+                with open(output_file_1, "w", encoding="utf-8") as f:
+                    f.write(chunk_text_1)
+                chunk_files.append(output_file_1)
+                
+                # Save the second half
+                output_file_2 = output_dir / f"doc_{pdf_idx}_{pdf_file.stem}_pages_{start_page+((end_page-start_page)//2)+1}-{end_page}.txt"
+                with open(output_file_2, "w", encoding="utf-8") as f:
+                    f.write(chunk_text_2)
+                chunk_files.append(output_file_2)
+                
+                print(f"  Split and saved chunk {chunk_idx+1}/{(pages + chunk_size - 1) // chunk_size} into two parts")
+            else:
+                # Save as a single chunk if not too large
+                output_file = output_dir / f"doc_{pdf_idx}_{pdf_file.stem}_pages_{start_page+1}-{end_page}.txt"
+                with open(output_file, "w", encoding="utf-8") as f:
+                    f.write(chunk_text)
+                chunk_files.append(output_file)
+                print(f"  Saved chunk {chunk_idx+1}/{(pages + chunk_size - 1) // chunk_size}: {output_file.name}")
     
     # Save list of chunks for easy reference
     with open(output_dir / "chunk_index.txt", "w", encoding="utf-8") as f:
         for idx, chunk_file in enumerate(chunk_files):
             f.write(f"{idx}: {chunk_file.name}\n")
     
+    print(f"Created {len(chunk_files)} document chunks for processing")
     return chunk_files
-
-if __name__ == "__main__":
-    print("Preprocessing policy documents...")
-    chunks = preprocess_documents()
-    print(f"Created {len(chunks)} document chunks for processing")

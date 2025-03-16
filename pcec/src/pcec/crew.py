@@ -4,6 +4,7 @@ from crewai import LLM
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import logging
 
 # Import your custom tools here
 from tools.PDFTool import PDFTool
@@ -11,6 +12,9 @@ from tools.FileIOTool import FileIOTool
 from tools.RiskAnalysisTool import RiskAnalysisTool
 from tools.ControlDesignTool import ControlDesignTool
 from tools.AuditPlanningTool import AuditPlanningTool
+
+# Import DeepSeek wrapper
+from deepseek_wrapper import DeepSeekWrapper
 
 # Load environment variables
 load_dotenv()
@@ -24,15 +28,42 @@ deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
 deepseek_api_base = os.getenv("DEEPSEEK_API_BASE")
 deepseek_model = os.getenv("DEEPSEEK_MODEL", "deepseek/deepseek-chat")
 
+# Initialize DeepSeek wrapper
+deepseek = DeepSeekWrapper(
+    api_key=deepseek_api_key,
+    api_base=deepseek_api_base,
+    model=deepseek_model
+)
+
 # Initialize the DeepSeek LLM with reduced max_tokens
 llm = LLM(
     model=deepseek_model,
     api_key=deepseek_api_key,
     api_base=deepseek_api_base,
     temperature=0.2,
-    max_tokens=2048,  # Reduced for better handling of long outputs
-    streaming=True
+    max_tokens=1024,  # Further reduced to avoid response size issues
+    streaming=True,
+    custom_llm_provider="deepseek"  # Add this line to specify the provider
 )
+
+# Optional: Add a custom callback to handle errors
+
+
+
+original_call = llm.call
+
+
+def safe_llm_call(*args, **kwargs):
+    try:
+        return original_call(*args, **kwargs)
+    except Exception as e:
+        logging.error(f"LLM call error: {str(e)}")
+        # Return a simple response to prevent fatal errors
+        return "Error processing this chunk. Please try with smaller input or different parameters."
+
+# Override the LLM call method with our safe version
+llm._call = safe_llm_call
+
 
 # Define agents with appropriate tools for each role
 policy_analyzer = Agent(
@@ -104,6 +135,8 @@ def create_chunk_processing_task(chunk_index):
         Format the output as a structured list with condition ID, description, and reference (document name, page/section).
         Include the source document name in each reference.
         
+        Try to limit your response size and focus on the most important requirements.
+        
         Save the results using the FileIOTool with:
         - action: "write"
         - filepath: "1_conditions_chunk_{chunk_index}.md"
@@ -113,6 +146,8 @@ def create_chunk_processing_task(chunk_index):
         context=[list_chunks_task],
         output_file=str(output_dir / f"1_conditions_chunk_{chunk_index}.md")
     )
+
+
 
 # Create initial chunk tasks
 initial_chunk_tasks = [create_chunk_processing_task(i) for i in range(15)]  # Process first 15 chunks
@@ -225,20 +260,75 @@ generate_report_task = Task(
 )
 
 # Create the crew with the streamlined tasks
+# Create the crew with the streamlined tasks and error handling
 compliance_analysis_crew = Crew(
     agents=[policy_analyzer, risk_assessor, control_designer, audit_planner],
     tasks=[
         list_chunks_task,
-        *initial_chunk_tasks,
+        *initial_chunk_tasks[:5],  # Process first 5 chunks initially
         consolidate_conditions_task,
-        risk_assessment_task,      # Single task instead of multiple group tasks
-        design_controls_task,      # Single task instead of multiple group tasks
-        develop_tests_task,        # Single task instead of multiple group tasks
+        risk_assessment_task,
+        design_controls_task,
+        develop_tests_task,
         generate_report_task
     ],
     process=Process.sequential,
     verbose=True,
+    max_task_errors=3,  # Allow up to 3 task errors before failing
+    task_timeout=600,  # Set a 10-minute timeout for each task
 )
+
+# Process the remaining chunks in batches
+def process_remaining_chunks(crew, start_index=5, batch_size=5):
+    """Process remaining chunks in batches to avoid memory issues"""
+    chunks = list(Path(__file__).parent / "preprocessed".glob("*.txt"))
+    
+    for batch_start in range(start_index, len(chunks), batch_size):
+        batch_end = min(batch_start + batch_size, len(chunks))
+        
+        # Create tasks for this batch
+        batch_tasks = [create_chunk_processing_task(i) for i in range(batch_start, batch_end)]
+        
+        # Create a new batch consolidation task
+        batch_consolidate_task = Task(
+            description=f"""
+            Consolidate conditions from chunks {batch_start} to {batch_end-1}.
+            Use the FileIOTool to read each chunk output file.
+            Ensure consistent formatting and resolve any duplicates.
+            
+            Save the consolidated batch using the FileIOTool with:
+            - action: "write"
+            - filepath: "2_consolidated_batch_{batch_start}_{batch_end-1}.md"
+            """,
+            expected_output=f"Consolidated conditions from chunks {batch_start} to {batch_end-1}",
+            agent=policy_analyzer,
+            context=batch_tasks,
+            output_file=str(output_dir / f"2_consolidated_batch_{batch_start}_{batch_end-1}.md")
+        )
+        
+        # Add the tasks to the crew
+        crew.add_tasks(batch_tasks + [batch_consolidate_task])
+    
+    # Create a final consolidation task for all batches
+    final_consolidate_task = Task(
+        description="""
+        Consolidate all batch consolidations into a single comprehensive list.
+        Use the FileIOTool to read all batch consolidation files.
+        Ensure consistent formatting and resolve any duplicates.
+        
+        Save the final consolidated list using the FileIOTool with:
+        - action: "write"
+        - filepath: "2_final_consolidated_conditions.md"
+        """,
+        expected_output="Final consolidated list of all policy conditions",
+        agent=policy_analyzer,
+        context=[],  # Will be populated with batch consolidation tasks
+        output_file=str(output_dir / "2_final_consolidated_conditions.md")
+    )
+    
+    crew.add_task(final_consolidate_task)
+    
+    return crew
 
 # Make crew
 pcec = compliance_analysis_crew

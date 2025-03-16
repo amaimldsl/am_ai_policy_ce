@@ -1,0 +1,101 @@
+
+Not quite – the CCR exposure calculation for the leverage ratio is similar, but with some
+differences. Potential Future Exposure is different because the PFE multiplier is set equal to
+1, rather than possibly being less than 1 as under the CCR Standards. Replacement Cost
+also differs, due to some differences in the treatment of eligible collateral. The requirements
+are covered in para 44 to 46 of the Leverage Ratio Standards.
+Question 5: Why is the PFE multiplier set to 1 for derivatives in the calculation of the
+leverage ratio exposure measure?
+The PFE multiplier is set to 1 because unlike the SA-CCR calculation, there is no “credit”
+given to the bank for overcollateralization for the leverage ratio. This is in the spirit of other
+aspects of the leverage ratio exposure calculation, which strictly limits the recognition of
+various forms of credit risk mitigation.
+Question 6: What types of commitments can qualify for a CCF less than 40%?
+Commitments that are unconditionally cancellable at any time by the bank without prior
+notice, or that effectively provide for automatic cancellation due to deterioration in a
+borrower’s creditworthiness, without observed constraints on the bank’s ability to cancel
+such commitments. As noted in the Standards, such commitments are subject to a 10%
+CCF.
+Question 7: The Standards states “general provisions or general loan loss reserves
+which have reduced Tier 1 capital may be deducted from the leverage ratio exposure
+measure.” Does this imply that for banks under the standardised approach all general
+provisions held on the balance sheet are permitted to be deducted from the exposure
+measure?
+200
+
+[Document: document.pdf, Page 203]
+CBUAE Classification: Public
+Yes, that interpretation is correct.
+Question 8: The Standards does not mention interest in suspense; are bank’s allowed
+to deduct this from the leverage ratio exposure measure?
+No, interest in suspense should be included as an exposure. However, specific provisions
+for interest in suspense can be deducted.
+IV. Examples: Calculation of Gross SFT Assets
+This section provides simple examples to help clarify the calculation of adjusted gross SFT
+assets for the leverage ratio exposure measure. These examples are for guidance only;
+banks should consult the actual Leverage Ratio Standards for the specific requirements.
+Note that the SFT examples do not include the calculation of CCR exposure for the SFTs,
+which is required under the leverage ratio standards.
+For purposes of these examples, consider a bank with a simple initial balance sheet
+consisting of assets of 200 cash and 400 in investment securities, funded by 600 in equity,
+with no other initial liabilities. In simple T-account format, the bank’s initial position is the
+following:
+Assets Liabilities and Equity
+Cash 200
+Investment Securities 400 Equity 600
+600 600
+Example 1: Single Repurchase Agreement
+A customer obtains financing from the bank through a repurchase agreement. The customer
+provides securities to the bank of 110, receives cash of 100, and commits to repurchase the
+securities at a specified future date. This is the bank’s only SFT.
+After the transaction, the bank’s balance sheet appears as follows:
+Assets Liabilities and Equity
+Cash 100
+Investment Securities 510
+Repo Encumbered
+Securities -110
+Cash Receivable 100 Equity 600
+600 600
+For purposes of the leverage ratio, gross SFT assets would be the sum of the cash receivable
+created and the investment securities received, 100+110, for a total of 210. However, this
+total is reduced by the value of the securities received under the SFT because the bank has
+recognized the securities as an asset on its balance sheet, leading to an adjusted gross SFT
+asset value of 100 for inclusion in the leverage ratio exposure measure.
+Note that in this example, the net effect on leverage ratio exposure would be zero, since on-
+balance-sheet assets exclusive of SFT assets decline by 100.
+Example 2: Single Reverse Repurchase Agreement
+A bank obtains funding by reversing out securities in exchange for cash. The bank receives
+100 cash, repos out 110 in securities, and will repurchase the securities at a specified future
+date. This is the bank’s only SFT.
+After the transaction, the bank’s balance sheet appears as follows:
+201
+
+[Document: document.pdf, Page 204]
+CBUAE Classification: Public
+Assets Liabilities and Equity
+Cash 300
+Investment Securities 290 Cash Payable 100
+Repo Encumbered Securities 110 Equity 600
+700 700
+For purposes of the leverage ratio, gross SFT assets would be simply the 100 cash received.
+Note that in this example, the net effect would be to increase the measured leverage ratio
+exposure by 100.
+Example 3: Simple Repo Portfolio
+The bank has two SFTs, the repo from Example 1 above, and the reverse repo from Example
+2 above. Both SFTs are with the same counterparty, and are subject to a qualifying master
+netting agreement under which cash payables and receivables qualify for netting. These are
+the bank’s only SFTs.
+After the transaction, the bank’s balance sheet appears as follows:
+Assets Liabilities and Equity
+Cash 200
+Investment Securities 400 Cash Payable 100
+Cash Receivable 100 Equity 600
+700 700
+Because the SFT transactions have matching terms, there are offsetting accounting entries
+for Repo Encumbered Securities, Investment Securities, and Cash. In this case, gross SFT
+assets would be 310, consisting of 100 cash receivable, 110 investment securities received,
+and 100 cash received. However, this total is adjusted down by the amount of the securities
+received and held on the balance sheet (110), and by another 100 due to the netting of the
+cash payable and the cash receivable, leaving an adjusted total gross SFT assets of 100 to
+be included in the leverage ratio exposure measure.
+202

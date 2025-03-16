@@ -1,0 +1,9 @@
+❌ ERROR: Analysis failed with exception: name 'Path' is not defined
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 29, in main
+    document_processor.preprocess_documents()
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/document_processor.py", line 6, in preprocess_documents
+    output_dir = Path(__file__).resolve().parent / "preprocessed"
+                 ^^^^
+NameError: name 'Path' is not defined

@@ -1,63 +1,32 @@
-Here is the list of policy compliance conditions, requirements, and obligations extracted from chunk 4:
+1. **Condition ID: 1**  
+   **Description:** The Standards require banks to choose between two options for aggregating the effective notional amounts for interest rate derivatives. The primary formula is:  
+   √𝐷12+𝐷22+𝐷32+1.4×(𝐷1×𝐷2)+1.4×(𝐷2×𝐷3)+0.6×(𝐷1×𝐷3).  
+   **Reference:** document.pdf, Page 41, Section E, Paragraph 14.
 
-1. **Condition ID: CVA-1**  
-   **Description:** Banks are required to use a weighted average maturity calculation for netting sets, with notional values as the weights.  
-   **Reference:** [Document: document.pdf, Page 76]  
+2. **Condition ID: 2**  
+   **Description:** As an alternative, banks may choose to combine the effective notional values as the simple sum of the absolute values of D1, D2, and D3 within a hedging set, ignoring potential diversification benefits.  
+   **Reference:** document.pdf, Page 41, Section E, Paragraph 16.
 
-2. **Condition ID: CVA-2**  
-   **Description:** Banks must apply risk weights to derivatives exposures and CVA hedges based on the credit rating of counterparties or underlying entities. Unrated counterparties must be treated as BBB rated unless they have an elevated risk of default, in which case they should be treated as BB rated.  
-   **Reference:** [Document: document.pdf, Page 77]  
+3. **Condition ID: 3**  
+   **Description:** The Standards require the use of a standard 250-day trading or business year for the calculation of the maturity factor and the MPOR.  
+   **Reference:** document.pdf, Page 42, Section F, Paragraph 17.
 
-3. **Condition ID: CVA-3**  
-   **Description:** Banks must multiply the calculated CVA capital by a factor of 12.5 to determine the corresponding Risk-Weighted Assets (RWA).  
-   **Reference:** [Document: document.pdf, Page 77]  
+4. **Condition ID: 4**  
+   **Description:** Banks must apply supervisory delta adjustments to reflect the direction of the transaction and its non-linearity.  
+   **Reference:** document.pdf, Page 42, Section G, Paragraph 21.
 
-4. **Condition ID: CVA-4**  
-   **Description:** Banks with an aggregate notional amount of covered transactions less than or equal to 400 billion AED may choose to set CVA RWA equal to the bank’s RWA for counterparty credit risk. However, this approach must be applied to all covered transactions, and the bank may not recognize the risk-reducing effects of CVA hedges.  
-   **Reference:** [Document: document.pdf, Page 77]  
+5. **Condition ID: 5**  
+   **Description:** Complex trades with more than one risk driver must be allocated to more than one asset class when the material risk drivers span more than one asset class.  
+   **Reference:** document.pdf, Page 44, Section H, Paragraph 24.
 
-5. **Condition ID: CVA-5**  
-   **Description:** The Central Bank may prohibit a bank from using the simple alternative approach if it determines that CVA risk from the bank’s derivative positions and SFTs materially contributes to the bank’s overall risk.  
-   **Reference:** [Document: document.pdf, Page 77]  
+6. **Condition ID: 6**  
+   **Description:** For credit derivatives on unrated reference entities, banks should use the Supervisory Factor corresponding to BBB or BB ratings, depending on the risk of default.  
+   **Reference:** document.pdf, Page 44, Section I, Paragraph 27.
 
-6. **Condition ID: CVA-6**  
-   **Description:** Debit valuation adjustment (DVA) cannot be taken into account to reduce regulatory CVA for the capital calculation.  
-   **Reference:** [Document: document.pdf, Page 78]  
+7. **Condition ID: 7**  
+   **Description:** Banks must establish appropriate governance processes for the creation and maintenance of the list of defined commodity types used for CCR calculations.  
+   **Reference:** document.pdf, Page 45, Section J, Paragraph 31.
 
-7. **Condition ID: CVA-7**  
-   **Description:** CVA hedges must refer specifically to the counterparty by name, and their value must increase when the credit quality of the counterparty being hedged deteriorates. "Nth-to-default" credit derivatives are not permitted as CVA hedges.  
-   **Reference:** [Document: document.pdf, Page 78]  
-
-8. **Condition ID: CVA-8**  
-   **Description:** Banks must calculate weighted average maturity for each netting set, reflecting all covered transactions within the netting set, regardless of asset class.  
-   **Reference:** [Document: document.pdf, Page 78]  
-
-9. **Condition ID: CVA-9**  
-   **Description:** If a counterparty has ratings from multiple rating agencies, the higher risk weight must be applied. If there are ratings from three or more agencies, the two lowest risk weights should be referred to, and the higher of the two must be applied.  
-   **Reference:** [Document: document.pdf, Page 79]  
-
-10. **Condition ID: CVA-10**  
-    **Description:** All SFT exposures must be reflected in the CVA calculation, whether or not they create non-zero gross SFT asset values for the leverage ratio.  
-    **Reference:** [Document: document.pdf, Page 79]  
-
-11. **Condition ID: CVA-11**  
-    **Description:** Haircuts should not be applied to the fair value of securities when determining exposure for SFTs.  
-    **Reference:** [Document: document.pdf, Page 79]  
-
-12. **Condition ID: CVA-12**  
-    **Description:** Banks must apply the same multiplicative scaling factor of 1.4 for the CVA calculation as used in the SA-CCR standards.  
-    **Reference:** [Document: document.pdf, Page 79]  
-
-13. **Condition ID: CVA-13**  
-    **Description:** Banks must use the rating for the entity that is actually obligated as a counterparty under the terms of the transactions within the applicable netting set.  
-    **Reference:** [Document: document.pdf, Page 79]  
-
-14. **Condition ID: CVA-14**  
-    **Description:** Banks must apply the CVA risk weight that corresponds to the rating of the entity, or if unrated, apply the approach specified for unrated counterparties.  
-    **Reference:** [Document: document.pdf, Page 79]  
-
-15. **Condition ID: CVA-15**  
-    **Description:** Banks must consistently apply a conservative treatment to unrated counterparties and should not reduce exposure for the CVA calculation relative to the treatment stated in the standards.  
-    **Reference:** [Document: document.pdf, Page 79]  
-
-This list captures the key compliance conditions, requirements, and obligations from the analyzed document chunk.
+8. **Condition ID: 8**  
+   **Description:** Trades within the same commodity hedging set enjoy partial offsetting through the use of correlation values established in the Standards.  
+   **Reference:** document.pdf, Page 45, Section J, Paragraph 32.
