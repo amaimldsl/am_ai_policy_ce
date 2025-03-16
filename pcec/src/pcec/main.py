@@ -13,30 +13,32 @@ def main():
         print("Testing PDF tool...")
         
         test_pdf_extraction()
+        
+        print("Preprocessing documents...")
         document_processor.preprocess_documents()
         
-
-        # Debug check for context passing
-        def check_task_context():
-            for task in pcec.tasks:
-                print(f"Task: {task.description[:50]}...")
-                if task.context:
-                    print(f"  Has {len(task.context)} context items:")
-                    for ctx in task.context:
-                        print(f"  - Context: {ctx.description[:50]}...")
-                else:
-                    print("  No context items")
-            
-        # Add before pcec.kickoff()
-        check_task_context()
-
-
-
+        # Check if tools are available
+        print("Checking available tools...")
+        tool_checks = [
+            "PDFTool",
+            "FileIOTool",
+            "RiskAnalysisTool", 
+            "ControlDesignTool",
+            "AuditPlanningTool"
+        ]
+        
+        for tool in tool_checks:
+            try:
+                # Simple check to see if the tool is importable
+                exec(f"from tools.{tool} import {tool}")
+                print(f"✓ {tool} is available")
+            except ImportError:
+                print(f"✗ {tool} is NOT available")
+        
         print("Starting Policy Compliance Analysis...")
         start_time = time.time()
         
-        # Run the crew - outputs will be automatically saved to the specified files
-        # Change 'run' to 'kickoff' as this is the correct method in CrewAI
+        # Run the crew
         result = pcec.kickoff()
         
         end_time = time.time()

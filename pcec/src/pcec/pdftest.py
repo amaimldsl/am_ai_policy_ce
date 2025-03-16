@@ -1,13 +1,12 @@
-# Save this as pdftest.py in your pcec folder
+# Expand pdftest.py to test the new tools
 from pathlib import Path
-from tools.PDFTool import PDFTool  # Add this import statement
-import document_processor  # Add this import statement
-
+from tools.PDFTool import PDFTool
+from tools.FileIOTool import FileIOTool
+import document_processor
 
 def test_pdf_extraction():
-    """
-    Test script to verify PDF extraction functionality
-    """
+    """Test script to verify PDF extraction functionality"""
+    print("\n===== TESTING PDF TOOL =====")
     pdf_tool = PDFTool()
     
     # Try with compatible params
@@ -43,28 +42,25 @@ def test_pdf_extraction():
             "error": "No preprocessed chunks available"
         }
     
-    # Count policy-related terms to verify content
-    shall_count = single_chunk_text.lower().count("shall") if 'single_chunk_text' in locals() else 0
-    must_count = single_chunk_text.lower().count("must") if 'single_chunk_text' in locals() else 0
-    should_count = single_chunk_text.lower().count("should") if 'single_chunk_text' in locals() else 0
-    required_count = single_chunk_text.lower().count("required") if 'single_chunk_text' in locals() else 0
+    # Test FileIOTool
+    print("\n===== TESTING FILE IO TOOL =====")
+    file_io_tool = FileIOTool()
     
-    print("\n===== POLICY KEYWORD ANALYSIS =====")
-    print(f"'shall' occurrences: {shall_count}")
-    print(f"'must' occurrences: {must_count}")
-    print(f"'should' occurrences: {should_count}")
-    print(f"'required' occurrences: {required_count}")
+    # Write a test file
+    test_content = "This is a test file."
+    write_result = file_io_tool._run(action="write", filepath="test_file.txt", content=test_content)
+    print(write_result)
+    
+    # Read the test file
+    read_result = file_io_tool._run(action="read", filepath="test_file.txt")
+    print(f"Read result: {read_result}")
+    print(f"Read matches write: {read_result == test_content}")
     
     return {
         "chunk_extraction": {
             "text_length": len(single_chunk_text) if 'single_chunk_text' in locals() else 0,
             "page_count": page_count if 'page_count' in locals() else 0,
             "doc_count": doc_count if 'doc_count' in locals() else 0,
-            "policy_terms": {
-                "shall": shall_count,
-                "must": must_count,
-                "should": should_count,
-                "required": required_count
-            }
+            "file_io_test": read_result == test_content if 'read_result' in locals() else False
         }
     }
