@@ -1,0 +1,229 @@
+
+platform. Please note that an AIF is a supplemental report that does not contain transactional
+details.
+ Additional Information File with Transactions (“AIFT”): Should the FIU require any further details
+including transactions while processing an STR or SAR, then the LFI that originally submitted the
+said report may be solicited for further information including transactions by receiving an AIFT
+request from the FIU through the Message Board. Should such a situation arise, then the LFI is
+required to submit an AIFT report through the goAML. Please note that an AIFT is a supplemental
+report that contains transactional details.
+ Request for Information (“RFI”) without Transactions: Should the FIU require further information
+from multiple LFIs rather than just the entity responsible for submitting the STR or SAR, then an
+RFI request will be sent out to the concerned LFIs through the goAML Message Board. Should
+such a situation arise, then the LFI is required to submit an RFI report through the goAML portal.
+ Request for Information with Transactions (“RFIT”): The ‘RFI with Transaction(s)’ report is similar
+to the structure of an RFI request, with the exception that this report type supports the use of
+transactions.
+ High Risk Country Transaction Report (“HRC”): If, during the establishment or course of the
+customer relationship, or when conducting transactions on behalf of a customer or a potential
+customer, an LFI identifies transactions related to high-risk countries as defined by the National
+Page 15 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 16]
+CBUAE Classification: Public
+Anti-Money Laundering and Combating the Financing of Terrorism and financing of Illegal
+Organizations Committee2, then the LFI should submit an HRC to the FIU. Such reported
+transaction(s) may only be executed three working days after reporting such to the FIU, and if the
+FIU does not object to conducting the transaction within the set period.
+ High Risk Country Activity Report (“HRCA”): If, during the establishment or course of the customer
+relationship, or when conducting an activity on behalf of a customer or a potential customer, a
+reporting entity identifies activities related to high-risk countries as defined by the National Anti-
+Money Laundering and Combating the Financing of Terrorism and financing of Illegal Organizations
+Committee3, then the entity should submit an HRC to the FIU. Such reported activity(ies) may only
+be executed three working days after reporting such to the FIU, and if the FIU does not object to
+conducting the activity within the set period.
+When all applicable information is collected, analyzed, and documented and the LFI decides that an STR
+or SAR is required, the information should be described in the narrative within an investigative narrative
+report template in a concise and chronological format. The LFI should divide the narrative into three
+sections: an introduction, a body, and a conclusion. The investigative narrative report template is
+considered as an addition to the goAML report (due to the potential text limitation within the “goAML
+description of the report” field).
+ Introduction
+The introductory paragraph should provide:
+ A brief statement addressing the purpose of the report with a general description of the known or
+alleged violation.
+ The name(s) of the subject against whom the report is filed.
+ Any linked/ previous STRs, SARs, or other reports, including the date of any STR(s) / SAR(s) filed
+(or other reports) previously on the suspect or related suspects and the reason why the previous
+STR(s) / SAR(s) (or other report) was filed.
+Additional Guidance:
+ Whether the activity is associated with any sanctioned countries or contained on government lists
+for individuals or organisations.
+ A summary of the “red flags” and suspicious patterns of activity that initiated the report. (This
+information should be provided either in the introduction or conclusion of the narrative).
+ Body
+The next paragraph or paragraphs of the narrative can provide all pertinent information documenting
+why the STR, SAR, or other report was filed and might include:
+ Details of parties facilitating the suspicious activity or transactions. If the subject is an entity, details
+of the subject can include the entity’s trade license number, date established, line of business,
+licensing authority, and ownership structure.
+2 https://www.namlcftc.gov.ae/en/high-risk-countries.php
+3 Idem note
+Page 16 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 17]
+CBUAE Classification: Public
+ Involved suspected transactions (usually identified in chronological order by date and amount) [To
+be included only for an STR and supplementary reports involving transactions].
+ The review period for the suspicious activity or transactions.
+ The source of funds, destination of funds, and total of suspected amounts. This can include the
+transactor and beneficiary information, providing as much detail as possible, including the name
+and location of any involved domestic and/or international financial institution(s); names,
+addresses, account numbers, and any other available identifiers of originator and beneficiary
+transactor(s); and/or third parties or business entities on whose behalf the conductor was acting;
+the date(s) of the transaction(s); and amount(s).
+ Explain in detail the reason for the suspicion, and why the activity or transaction is determined to
+be illegal or suspicious.
+ Description of the method of operation (i.e., modus operandi).
+Additional Guidance:
+ A breakdown of larger volumes of financial activity into categories of credits and debits, and by date
+and amount. [To be included only for an STR and supplementary reports involving transactions].
+ An explanation of any observed relationships among the transactors (e.g., shared accounts,
+addresses, employment, known or suspected business relationships and/or frequency of
+transactions occurring amongst them; appearing together at the LFI and/or counter). [To be
+included only for an STR and supplementary reports involving transactions].
+ Specific details on cash transactions that identify the branch(es) where the transaction(s) occurred,
+the type of transaction(s), and how the transaction(s) occurred (e.g., night deposit, on-line banking,
+ATM, etc.). [To be included only for an STR and supplementary reports involving transactions].
+ Any factual observations or incriminating statements made by the suspect.
+ Conclusion
+The final paragraph will be covered under “Action Taken by Reporting Entity” field. The final paragraph
+of the narrative can summarize the report and might also include:
+ Any planned/initiated mitigating steps, including information about any follow-up actions conducted
+by the LFI (e.g., intent to close or closure of accounts, ongoing monitoring of activity, etc.).
+Additional Guidance:
+ Names and telephone numbers of other contacts at the LFI if different from the point of contact
+indicated in the report.
+ A general description of any additional information related to the LFI that may be made available
+to law enforcement by the LFI.
+ Names of any law enforcement or department/unit investigating the case who are not already
+identified in another section of the report.
+Page 17 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 18]
+CBUAE Classification: Public
+3.3. Best Practices for Drafting an STR or SAR
+In general, a narrative should identify the five core components – who? what? when? where? and why? –
+of the suspicious activity being reported to the FIU. The method of operation/modus operandi (or how?) is
+also important and should be included in the report narrative. An LFI should ensure that the following five
+questions are answered prior to submitting an STR, SAR, or other report in the FIU’s goAML system.
+Who is conducting the suspicious activity or transaction?
+ Describe the subject of the STR, SAR, or other report, otherwise known as the suspect(s),
+including the conductor, beneficiary, and accountholders involved in the transaction or activity.
+ Provide identifying information on the parties involved in the transaction, such as the suspect’s
+occupation and position or title within the business.
+ List beneficial owners, directors, officers, and those with signing authority, if possible. If the
+transaction or activity involves an entity, include information on the ownership, control, and
+structure of the business.
+ Provide details about each individual or entity's role in each of the financial transactions
+described. It is important to understand who is sending and receiving the funds. [To be included
+only for an STR and supplementary reports involving transactions].
+ If more than one individual or entity is involved in the suspicious activity, explain the relationships
+among the individuals or entities (if known).
+Even though information may not always be available, information should be included to the extent possible.
+For instance, addresses for suspects are important; filing LFIs should note not only the suspect’s primary
+street addresses, but also, other known addresses. Any identification numbers associated with the
+suspect(s) such as passport and driver’s license numbers are also important to document.
+What instruments or mechanisms are being used to facilitate the suspicious activity or
+transaction(s)?
+ Review the instruments or mechanisms used in the suspicious activity (e.g., wire transfers,
+foreign currency, Wages Protection System (WPS), letters of credit and other trade instruments,
+correspondent accounts, money orders, credit/debit cards, etc.).
+ Understand the number of different methods employed for initiating the negotiation of funds,
+such as the Internet, phone access, mail, night deposit box, remote dial-up, couriers, or others.
+ Describe the source of the funds (as originator) or use of the funds (as beneficiary). In
+documenting the movement of funds, identify all account numbers at the LFI affected by the
+suspicious activity or transaction and when possible, provide any account numbers held at other
+LFIs and the names/locations of the other LFIs involved in the reported activity.
+When did the suspicious activity or transaction take place?
+ If the activity takes place over a period of time, provide the date when the suspicious activity or
+transaction was first observed and describe the duration of the activity.
+ To better understand the history and nature of the activity, and the flow of funds, LFIs should
+provide information on each individual transaction in a chronological order (e.g., individual
+Page 18 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 19]
+CBUAE Classification: Public
+dates and transaction amounts, rather than only the aggregated amount). [To be included only for
+an STR and supplementary reports involving transactions].
+ Provide information on when the transaction was completed or attempted. If the transaction was
+not completed, the LFI should indicate this in the narrative. [To be included only for an STR and
+supplementary reports involving transactions].
+Where did the suspicious activity or transaction take place?
+ Explain if multiple offices of a single LFI were involved in the suspicious activity or transaction
+being reported. Provide the addresses of those locations.
+ Specify if the suspected activity or transaction(s) involves a foreign jurisdiction. In this case,
+list the foreign jurisdiction, LFI, address, and any account numbers involved in, or affiliated with the
+suspected activity or transaction(s).
+ This information should include any location involved in the full transaction chain, including
+ultimate originators and beneficiaries to the extent this can be ascertained. [To be included only for
+an STR and supplementary reports involving transactions].
+Why does the LFI think the activity or transaction is suspicious?
+ Describe the industry or business and why the activity or transaction is unusual for the
+customer. Consider the types of products and services involved in the activity and the expected
+activities of similar customers.
+ Assess why the activity created a red flag for the LFI or triggered an alert within the system.
+These answers will vary based on the LFI type (for example, a depository institution versus an insurance
+company) and an LFI should also consider such factors as:
+ The types of products and services the LFI offers;
+ The types of accounts the customer has with the LFI;
+ The normally expected business activity of the customer (if they are a customer of the LFI), and
+why this is not normal or expected activity;
+ The purpose of the payment or transaction, to the extent known, reported, alleged, or questioned;
+and
+ If the activity resulted from an automated alert, the scenario or rule that generated the alert.
+How did the suspicious activity or transaction occur?
+ Describe how the transaction or pattern of transactions was committed (i.e., the “modus
+operandi” or the method of operation). [To be included only for an STR and supplementary reports
+involving transactions].
+ For example, if there appear to be multiple cheques deposited matched with outgoing wire transfers
+from the accounts, the narrative should include information about both the cheques and outbound
+transfers (including dates, destinations, amounts, accounts, frequency, and beneficiaries of the
+funds transfers).
+Page 19 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 20]
+CBUAE Classification: Public
+3.3.1. Defensive STR or SAR Filings4
+Defensive filing is the practice of filing STRs or SARs on transactions or activity(ies) that LFIs do not deem
+truly suspicious in order to reduce the risk of regulatory penalties for non-filing of STRs or SARs.5 Although
+there may be some aspect of the transaction or activity creating potential suspicion, defensive filings do not
+report on activity that the LFI truly considers suspicious. As such, defensive filings are generally
+discouraged given that such filings diminish the value of STRs and SARs, including by leading to an
+increase in non-valuable filings. An STR, SAR, and other report types should be of the best possible quality,
+including in that it should have a clearly written narrative with sufficient detail that comprehensively
+articulates the factors involving the reported suspicious transaction or activity. As a result, the CBUAE
+considers defensive STR or SARs as indicative of an inefficient transaction monitoring system and an LFI’s
+weak system of internal controls. An LFI may be asked to correct such deficiencies as part of broader
+supervisory measures provided by applicable law, including administrative sanctions, temporary limitation
+to business activities, etc. If, for any reason, an LFI needs additional data to assess whether unusual activity
+is truly suspicious, the LFI should review other mechanisms—such as expanding the time period for
+reviewing alerted transactions (e.g., from 30 days to 90 days) or reviewing threshold-based reports—to
+make the determination that an STR or SAR is required.
+3.4. How to Submit an STR and Other Report Types
+LFIs are required to submit suspicious transaction and activity reports directly to the FIU using the “goAML”
+portal, and registration in the system is mandatory for all entities under CBUAE’s supervision. According to
+the Guidelines on Anti-Money Laundering and Combating the Financing of Terrorism and Illicit
+Organizations for Financial Institutions, the FIU has launched the goAML system for the purposes of
+facilitating the filing of STRs, SARs, and other report types by all LFIs. LFIs should register themselves on
+the goAML system by following the “GoAML Registration Guide” and maintaining their registration in an
+“active” status. An entity’s Compliance Officer or MLRO can register as the user of the system. GoAML
+provides a secure link from each LFI to the FIU through their respective supervisory authorities. The system
+also has an .xml schema for filing batches of STRs. All newly licensed LFIs should register themselves
+immediately after obtaining their financial services license. Failure to register within the goAML system may
+result in a breach of the LFI’s AML/CFT obligations and will be dealt with in accordance with the prevailing
+legal provisions related to non-compliance.
+According to the “goAML XML Submission Guide,” the goAML system reflects multiple mandatory fields,
+business rules, and various binding scenarios. Combined, the system only accepts reports that pass
+through the minimum requirements set by the FIU. Mandatory fields for submitting a report in the goAML
+system are noted below:
+4 The UAE FIU has noted instances where SAR or STRs are reported due to the LFI not receiving supporting documents that would
+justify the transaction or activity. However, upon the FIU raising a request to the same LFI in the form of an AIF, supporting documents
+were subsequently provided for the same subjects and report. This documentation in some instances removed the suspicion of the
+transaction and in others, helped explain the transaction or action. Submitting reports to the FIU without first conducting a thorough
+investigation and looking at all available evidence creates a situation where non-suspicious transactions may be reported to the FIU.
+LFIs are reminded that internal investigations into the suspicious transaction or activity should be conducted to the fullest extent
+possible prior to raising an STR or SAR and that related documentation, when available or easily retrievable, should be included with
+the STR or SAR.
+5 Egmont Group, Enterprise-wide STR Sharing: Issues and Approaches, Pg. 17
+Page 20 of 46

@@ -1,45 +1,41 @@
 ### Policy Compliance Conditions and Requirements from Chunk 0
 
-1. **Condition ID: 120**
-   - **Description**: Stress tests should support decision-making throughout the bank effectively. Stress tests should be embedded in banks’ business decision-making and risk management process at several levels of the organisation. Senior Management and the Board should lead and approve all assumptions, the methodology framework, and authorise the use of stress test results.
-   - **Reference**: document.pdf, Page 171
+1. **Condition ID: 1**
+   - **Description:** LFIs must implement appropriate risk-based Enhanced Due Diligence (EDD) and ongoing monitoring procedures if a customer or business relationship is classified as high-risk.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 31
 
-2. **Condition ID: 121**
-   - **Description**: Risk mitigations should always be considered in light of the stress severity and likelihood. If no action is deemed necessary, this should be documented and clearly justified.
-   - **Reference**: document.pdf, Page 171
+2. **Condition ID: 2**
+   - **Description:** LFIs are obligated to document the process and rationale for maintaining a business relationship with a high-risk customer, including any conditions related to the decision.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 31
 
-3. **Condition ID: 122**
-   - **Description**: Each bank is expected to conduct reverse stress tests. Reverse stress tests start with the identification of a pre-defined outcome where the bank’s business model becomes non-viable or it breaches supervisory compliance minima. The next step is to assess which scenarios and shocks lead to that identified outcome. Finally, the objective is to assess whether the likelihood of occurrence is realistic and the impact warrants mitigating actions.
-   - **Reference**: document.pdf, Page 171
+3. **Condition ID: 3**
+   - **Description:** LFIs must implement adequate EDD measures to manage and mitigate money laundering and terrorism financing risks associated with high-risk business relationships.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 31
 
-4. **Condition ID: 123**
-   - **Description**: Effective reverse stress testing requires the involvement of all material risk areas across the bank’s subject matter experts, Senior Management, and the Board.
-   - **Reference**: document.pdf, Page 171
+4. **Condition ID: 4**
+   - **Description:** LFIs should implement additional control measures such as requiring additional data, restricting product use, and placing transaction limits for high-risk customers.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 31
 
-5. **Condition ID: 124**
-   - **Description**: Each bank should conduct a reverse stress test at least once a year. A well-designed reverse stress test should also include enough diagnostic information to allow the identification of the sources of potential failure.
-   - **Reference**: document.pdf, Page 171
+5. **Condition ID: 5**
+   - **Description:** LFIs must document specific EDD, ongoing monitoring, and additional control measures, and obtain senior management approval for the plan.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 31
 
-6. **Condition ID: 125**
-   - **Description**: The annual ICAAP report should be submitted to the Central Bank on or before the submission dates addressed in Table 1.
-   - **Reference**: document.pdf, Page 171
+6. **Condition ID: 6**
+   - **Description:** LFIs should maintain a customer exit policy outlining the process for reviewing and deciding on customer relationships, including ending the relationship and notifying law enforcement.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 32
 
-7. **Condition ID: 126**
-   - **Description**: All documents have to be submitted to the respective Central Bank reviewer by softcopy (submitted in word or pdf format), sending a copy to bsed.basel@cbuae.gov.ae.
-   - **Reference**: document.pdf, Page 171
+7. **Condition ID: 7**
+   - **Description:** LFIs must retain all records and documents pertaining to STRs and investigations for at least five years from the date of transaction completion or business relationship termination.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 33
 
-8. **Condition ID: 128**
-   - **Description**: The ICAAP report should be approved by Senior Management (including the CRO), Board approval, and for foreign branches, by the managing director and/or relevant highest committee of the bank in the UAE, and by their head office.
-   - **Reference**: document.pdf, Page 172
+8. **Condition ID: 8**
+   - **Description:** LFIs should report the number and types of STRs, SARs, or other regulatory reports filed to the Board of Directors or a Board-designated committee.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 32
 
-9. **Condition ID: 130**
-   - **Description**: Internal Audit should perform an audit on the bank’s ICAAP report annually. The report has to be submitted no later than three (3) months after the submission of the ICAAP report to the bank’s reviewer and in copy to bsed.basel@cbuae.gov.ae.
-   - **Reference**: document.pdf, Page 172
+9. **Condition ID: 9**
+   - **Description:** LFIs must ensure that the subject of an STR or SAR filing is added to internal watch lists to avoid future onboarding.
+   - **Reference:** CBUAE_EN_418_VER2.pdf, Page 32
 
-10. **Condition ID: 131**
-    - **Description**: Internal control functions should perform regular reviews of the risk management process to make sure its coherence, validity, and rationality. The review of the ICAAP should cover ensuring that the ICAAP is complete and suitable, the process of identifying all material risks, efficiency of the information systems, ensuring the accuracy and comprehensiveness of the data input, rational behind the ICAAP output and assumptions, rational and suitability of stress tests, consolidation of the ICAAP outcomes with the risk management, and rational of the capital plan and internal capital targets.
-    - **Reference**: document.pdf, Page 172-173
-
-11. **Condition ID: 132**
-    - **Description**: The review should cover the integrity and validity of regulatory data submitted to the Central Bank during the course of the year relating to Pillar 1 capital requirements, including appropriate classification of risk-weighted assets (RWA), appropriate inclusion of the off-balance sheet values and the application of credit conversion factors (CCF), and appropriate credit risk mitigation (CRM) methodology application and values.
-    - **Reference**: document.pdf, Page 173
+10. **Condition ID: 10**
+    - **Description:** LFIs should determine a threshold for escalating accounts with repeated STR or SAR filings to senior management for consideration of account closure or restrictions.
+    - **Reference:** CBUAE_EN_418_VER2.pdf, Page 32

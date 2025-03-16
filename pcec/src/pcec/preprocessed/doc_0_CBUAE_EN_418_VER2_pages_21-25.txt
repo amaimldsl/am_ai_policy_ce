@@ -1,0 +1,222 @@
+[Document: CBUAE_EN_418_VER2.pdf, Page 21]
+CBUAE Classification: Public
+1. Select the Report Type [4.2.1 GoAML XML Submission Guide]: A Compliance Officer or MLRO
+should select a report type and populate all available details in the ‘Report Cover’ as depicted
+below:
+ Reporting Entity ID – Entity name as per the  Report Type* – Report type relevant to the
+registration (auto-generated) suspicion/reason for submission to the FIU
+ Internal STR/SAR # – Internal STR/SAR  FIU Reference – Only applicable in the
+number case of AIF/RFI/ AIFT/RFIT type reports.
+ Submission Date* – Date of escalating the Provide the corresponding case number as
+Report to the FIU (auto-generated) specified in the Message Board
+ Description/Summary of the Report* – Brief communication sent by the FIU
+overview for the suspicion/reason for  Action Taken by Reporting Entity* – The
+submitting this report to the FIU. This field is action(s) taken by the reporting entity post-
+only mandatory for STR and SAR report types identifying the reason for
+ Reporting Entity Branch – Branch where the suspicion/submission
+main subject(s) of the report were identified
+2. MLRO Details [4.2.2 GoAML XML Registration Guide]: This section of the report includes details
+on the Compliance Officer, MLRO, or individual filing the report, which is automatically populated
+using the details provided during the registration phase.6
+3. Location of the Incident [4.2.3 GoAML XML Registration Guide]: The location of the incident
+requires the location where the suspicious incident/transaction originated from. This is mandatory
+for STR and SAR report types.
+4. Reason for Reporting [4.2.4 GoAML XML Registration Guide]: The LFI is expected to select
+the most appropriate reason for reporting available from the menu selection provided. If necessary,
+more than one reason may also be provided. It is imperative that the correct Reason for Reporting
+(“RFR”) is chosen for STRs or SARs submitted in the goAML system.7
+5. Transactions [4.2.5 GoAML XML Registration Guide]: If the reported activity involves
+transaction(s), the LFI should populate the following transaction details:
+ Transaction Ref. Number* – Kindly use the  Transaction Executed by (Staff Name) –
+auto-generate button to generate a unique Name of the staff member who executed
+identification number if the LFI is not a the transaction
+Bank/Exchange House
+6 The UAE FIU has noted that there have been instances of reports being received whereby upon review, the LFI’s MLRO and related
+team members’ contact details were not updated in the goAML system, which included email addresses and phone numbers. Keeping
+contact information updated helps with the two-way communication between LFIs and the FIU while helping to shorten the turnaround
+time of report analysis. It also enhances the ability of the FIU to analyze and subsequently process reports in a timely manner. The
+contact information should be kept updated at all times.
+7 The UAE FIU has noted that in some cases LFIs file reports while choosing RFRs that, upon closer examination, are not linked to
+the actual suspicions of the report. As an example, reports have been received with RFRs related to the financing of terrorism and
+illegal organisations with no evidence of any activity connected to the financing of terrorism and illegal organisations. Selecting
+incorrect RFRs hinders the FIU’s analysis, and the LFI should expect multiple requests by the FIU for further clarification in these
+cases. LFIs should be prudent and diligent when choosing RFRs and submitting reports to the UAE FIU. RFRs should be chosen
+correctly and in relation to the actual suspicions of the STR or SAR being submitted.
+Page 21 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 22]
+CBUAE Classification: Public
+ Reporting Entity Internal Reference Number*  Authorizer – Name of the staff member
+– Reporting entity's internal transaction responsible for authorizing the transaction
+reference number  Branch executing the transaction* –
+ Type of Transaction* – The mode used to Branch where the transaction was
+conduct the transaction being reported executed
+ Late Deposit – Does this transaction account  Date of receipt for recall request* (that field
+as a late deposit? (Yes or No) will only show if ‘Yes’ was selected for
+ Total Suspected Amount* (AED) – Suspected Indemnified for Repatriation) – The date
+amount in AED when the reporting entity received the fund
+ Date* – Date when transaction was initiated recall request
+ Indemnified for Repatriation* – If the reporting  Purpose of the Transaction* – Purpose for
+entity has received an indemnity for executing the transaction
+repatriation  Transactions Comments – Comments (if
+any)
+6. Transaction Type, From Type / To Type, My Client / Not My Client, Foreign Currency,
+Conductor, [4.2.5.1-4.2.5.5 GoAML XML Registration Guide]: Additional transaction details
+should be added according to the transaction type; transaction type (to/from) (i.e., my client, not
+my client); and foreign currency type (if applicable); and the amount. These fields should be
+populated by the LFI according to the GoAML XML Registration Guide’s instructions. Please refer
+to Party Type: Person (below) to populate information on the conductor of the transaction for
+4.2.5.6.
+7. Phone, Address, Identification, Email, and Employer Address and Employer Phone [4.2.5.7-
+4.2.5.11 GoAML XML Registration Guide]: These fields should be populated by the LFI according
+to the GoAML XML Registration Guide’s instructions.
+8. Party Type [4.2.5.12 GoAML XML Registration Guide]: The ‘Party Type’ refers to the initiating
+source (source of funds) and beneficiary/destination party in relation to the report being filed. The
+initiating source and beneficiary/destination party can be either a Person, Account, or Entity.
+ Party Type: Person [4.2.5.6, 4.2.5.13 GoAML XML Registration Guide]: Where the subject
+initiating or receiving the transaction is a person, clicking the ‘Person’ radio button will
+generate the following form and fields.
+ Title – e.g., Mr./Mrs./Dr.  Occupation – Known occupation of the
+ Prefix – Prefix Name e.g., Von, Jr. subject
+ First Name* – First name of the person  Employer Name – Name of the person’s
+ Middle Name – Middle name of the person current employer
+ Last Name* – Last name of the person  PEP (Y/ N) – Specify if the person is a
+ Gender – Male / Female politically exposed person. Input “Y” or “N”
+ Birth Date – Date of birth of the subject accordingly
+person  Source of funds – Primary source of funds
+ Birthplace – Location where the person was used for the reported transaction
+born  Passport* – Select if the passport details
+ Mother’s Name – Name of the person’s are available (Y/N)
+mother (if available)
+Page 22 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 23]
+CBUAE Classification: Public
+ Alias – A known alias for the person (if  Passport Number* – Input the passport
+applicable) number without any spaces/hyphens only
+ Emirates ID – Emirates ID number; input the in the absence of an Emirates ID
+number without using any spaces/hyphens  Passport Country* – Country of the
+ Nationality 1 – First nationality of the person passport provided
+ Nationality 2 – Second nationality of the  Deceased – Is the person deceased?
+person (Y/N)
+ Nationality 3 – Third nationality of the person  Date of Death – Date when the person
+ ID Number – ID number; input the number died (applicable only if “Y” was provided in
+without using any spaces/hyphens the ‘Deceased’ field)
+ Tax Number – Tax number for outside UAE
+without hyphens/spaces (e.g., FATCA number
+for US citizens)
+ Residence – Country of residence
+ Party Type: Account [4.2.5.14 GoAML XML Registration Guide]: If the transaction was
+initiated or received through an Account, clicking the ‘Account’ radio button will generate the
+following form and fields:
+ Account Number* – Account number without
+any spaces/ hyphens  Closed – Date of account closure
+ Status Code (is mandatory for My Client) –  Balance* (Y/N) – Input "Y" or "N” on
+Account status when transaction was whether there is a credit / debit in the
+initiated account
+ Institution Name – Name of the institution  Balance (if the ‘Yes’ radio button is
+where the account was created selected (above)) – The current balance of
+ UBO* – Who is the beneficial owner of the the account in AED
+account?  Date of balance – Date when the balance
+ Non-Banking Institution – Is the mentioned was recorded
+account held in a bank or otherwise (Y/N)
+ Client Number – Client Number as per
+reporting entity’s records
+ Account Type – Drop-down menu for type of
+account
+ Currency Code – Currency of the account
+ IBAN – IBAN as per standard format (no
+spaces/hyphens)
+ Opened* – Date of account opening
+ Please note that LFIs should also add a ‘Signatory(ies)’ form for reports involving accounts
+that are classified as ‘My Client.’ When the accountholder is a person, the LFI is required to
+enter all involved signatories. If the accountholder is an entity, the LFI is required to populate
+the entity details. For instances where an account has multiple signatories, all of the signatory
+details need to be captured in the goAML system.
+Page 23 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 24]
+CBUAE Classification: Public
+ Party Type: Entity [4.2.5.15 GoAML XML Registration Guide]: If the transaction was
+initiated through an Entity, clicking the ‘Entity radio button will generate the following form and
+fields.
+ Name* – Legal name as per documentation  Comments – Comments (if any)
+ Commercial Name – Commercial name as  PEP (Y/ N) – Specify if the person is a
+per documentation politically exposed person. Input "Y" or "N"
+ Business Activity – Business activity of entity accordingly
+(drop-down)  Latest date of trade license
+ Licensing Authority – Regulatory authority issuance/renewal – Date of trade license
+responsible for licensing the entity issuance/renewal
+ Trade License Number Authority  Latest date of trade license
+ Place of incorporation – Specify the city issuance/renewal – Date of trade license
+(Emirate in case of a UAE entity) issuance/renewal
+ Establishment Date – Date when entity was  **Phones, Addresses, and Controlling
+established Persons/Beneficial Owners can also be
+ Incorporation Country – Country where the added. Addresses and Controlling
+entity was incorporated (drop-down) Persons/Beneficial Owners section are
+ Email – Registered email for the entity (if mandatory only when the entity is
+any) classified as ‘My Client.’
+ Website – Website for the entity (if any)
+ Tax Number – Tax number for outside UAE
+without hyphens/spaces (e.g., FATCA
+number for US citizens)
+9. Involved Parties [4.2.5.16 GoAML XML Registration Guide]: If there are multiple parties
+involved in the reported activity, the ‘Involved Parties’ form should be populated with the following
+fields.
+ Role* – Nature of association with the  Funds comment – Comments on use of
+transaction funds (if any)
+ Funds Code* – The type of funds  Comments – Comments (if any)
+ Country* – Country of the involved party  **Foreign Currency can also be added
+ Significance – Rate the significance of the
+concerned subject from 0 - 10 (0 being the
+lowest and 10 being the highest score)
+Page 24 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 25]
+CBUAE Classification: Public
+10. Good and Services [4.2.5.17 GoAML XML Registration Guide]: This section corresponds to
+transactions involving the exchange of goods and services.
+ Item Type* – The type of item (e.g., Vehicle)  Disposed Value - Effective value for
+ Description – Description of the item (e.g., property transfer (value must be in AED)
+Luxury Car)  Size UOM – Unit of measurement (e.g.
+ Manufacturer – Item maker (e.g., if the item square meters)
+is a car - BMW)  Size – Size of the property
+ Presently Registered To – Name of current  Registration Number – Official registration
+owner number (e.g., Car VIN Number)
+ Previously Registered To – Name of  Registration Date – Official registration
+previous owner date (in MM/DD/ YYYY format)
+ Status Code – Stats code (e.g., Bought,  Identification Number – Any number that
+Hired) can identify the item (e.g., Car Plate
+ Estimated Value – Estimated value of the Number)
+item  Comments – If applicable
+ Currency Code – Used to report service  **Addresses can be added
+conducted in foreign currency
+
+11. Activity [4.2.6 GoAML XML Registration Guide]: If the report does not contain any transaction(s),
+then the activity details may be captured in the report. The activity details should include the
+significance of a concerned subject (scale of 0-10), the reason for reporting the party, and any
+comments. The ‘Activity’ tab will be shown only in the case the reporting entity is submitting an
+“SAR”, “RFI without transaction(s)” or an “AIF without transaction(s)” based report file.
+Upon completion of all the mandatory fields (noted above) and submission of the report in the goAML
+system, the report will be provided to the FIU. It is mandatory for the LFI’s filer to attach supplemental
+documents to accompany the submission—including but not limited to—Know Your Customer (“KYC”)
+documentation, copies of identification documentation, account opening forms, transaction receipts,
+financial statements, and other documents relevant to the investigation. In the instance that the LFI
+conducted due diligence or internal investigations, the corresponding documents must also be attached.
+This will assist the FIU in reviewing the report with all the appropriate documentation to support its review
+and analysis.
+3.5. Amendments to Submitted Reports
+Once a report is submitted and accepted in the system, neither the Compliance Officer, MLRO, nor FIU
+employees can apply any changes and amendments to the report for missing or incorrect information.
+However, LFIs may be requested to file a corresponding AIF, AIFT, RFI, or RFIT, and mention in the
+“Description of the Report” field the reason of filing. LFIs should ensure that the filer uses the correct web
+reference number of the initial report. In order to avoid such incident(s) and in order to safeguard the system
+data integrity, LFIs should adopt a maker and checker process/concept to verify the quality and accuracy
+of uploaded information.
+Page 25 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 26]
+CBUAE Classification: Public
+4. Timing of Alert Reviews and STR or SAR Filings
+4.1. Alert Review, Case Investigation, and STR or SAR Decision Making
+An efficient alert management and dispositioning process is essential to safeguarding the financial integrity

@@ -1,45 +1,41 @@
-### Policy Compliance Conditions and Requirements
+# Policy Compliance Conditions and Requirements from Chunk 1 (CBUAE_EN_418_VER2.pdf, Pages 44-46)
 
-1. **Condition ID: 1**
-   - **Description**: The bank must document evidence of regular reports submitted to senior management and the board of directors, such as senior management signatures on the reports.
-   - **Reference**: [Document: document.pdf, Page 135]
+## Condition ID: 1
+- **Description**: LFIs are required to submit suspicious transaction and activity reports directly to the FIU using the “goAML” portal. Mandatory fields must be populated, and supplemental documents must be provided.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 44
 
-2. **Condition ID: 2**
-   - **Description**: If the quarterly income is audited, the bank should use the quarterly data for operational risk capital charge computation, considering the same quarter in the previous two years or yearly audited data.
-   - **Reference**: [Document: document.pdf, Page 135]
+## Condition ID: 2
+- **Description**: LFIs must file an STR/SAR within a maximum of 35 business days from the date of automated alert generation. In cases of escalation for expedited review, the Compliance Officer or MLRO must file an STR or SAR within 24 hours.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 44
 
-3. **Condition ID: 3**
-   - **Description**: The bank must use only audited numbers for operational risk capital charge computation. If the current year’s income is audited, it can be used as part of the computation.
-   - **Reference**: [Document: document.pdf, Page 135]
+## Condition ID: 3
+- **Description**: LFIs must maintain detailed records of investigative procedures performed against alerts and include a summary justifying the time taken to establish grounds of suspicion when filing an STR/SAR.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 44
 
-4. **Condition ID: 4**
-   - **Description**: The definition and scope of Operational Risk must be sufficiently elaborated in the Operational Risk Standard of the Capital Adequacy Standards of Banks in the UAE and the Operational Risk Guidance.
-   - **Reference**: [Document: document.pdf, Page 135]
+## Condition ID: 4
+- **Description**: LFIs are required to implement enhanced monitoring on account holders upon filing an STR/SAR pertaining to them. If continued suspicious activity is detected, LFIs must expeditiously file another STR/SAR.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 44
 
-5. **Condition ID: 5**
-   - **Description**: Any income which the bank earns out of bancassurance should be treated as income derived from insurance and excluded from gross income for operational risk computation.
-   - **Reference**: [Document: document.pdf, Page 136]
+## Condition ID: 5
+- **Description**: In complex investigations, LFIs must submit an initial STR or SAR within 15 business days of alert generation, labelled as “Complex investigation,” and follow up with additional information within 30 business days.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 44
 
-6. **Condition ID: 6**
-   - **Description**: The Basic Indicator Approach (BIA) must be used by banks that are not internationally active or by banks that are internationally active but may not have risk management systems in place for more advanced approaches.
-   - **Reference**: [Document: document.pdf, Page 136]
+## Condition ID: 6
+- **Description**: LFIs are obliged to maintain confidentiality regarding the information reported to the FIU and ensure that the information is protected from unauthorized access.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 45
 
-7. **Condition ID: 7**
-   - **Description**: The operational risk capital charge under the BIA must be calculated using the three-year average of positive gross income multiplied by the alpha factor (15%).
-   - **Reference**: [Document: document.pdf, Page 137]
+## Condition ID: 7
+- **Description**: LFIs must retain all records and documents pertaining to STRs or SARs and the results of all analysis or investigations for a period of no less than five (5) years.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 45
 
-8. **Condition ID: 8**
-   - **Description**: Negative gross income must be excluded from the numerator and denominator of the BIA operational risk formula, and the supervisor should review and consider appropriate actions under Pillar 2 to avoid distortions.
-   - **Reference**: [Document: document.pdf, Page 137]
+## Condition ID: 8
+- **Description**: LFIs should have mechanisms to inform the Board of Directors and senior management on the status of its AML/CFT program, including reporting on the number and types of STRs or SARs.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 45
 
-9. **Condition ID: 9**
-   - **Description**: Gross income for each business line under the Standardised Approach must be gross of any provisions and operating expenses, and exclude realised profits/losses from the sale of securities and income derived from insurance claims.
-   - **Reference**: [Document: document.pdf, Page 138]
+## Condition ID: 9
+- **Description**: LFIs must follow the instructions of the FIU after filing an STR or SAR, including decisions on retaining, exiting, or restricting customer relationships.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 45
 
-10. **Condition ID: 10**
-    - **Description**: The capital charge for operational risk under the Standardised Approach must be calculated by summing the capital charges for each business line, with negative capital charges offsetting positive charges within a year.
-    - **Reference**: [Document: document.pdf, Page 138]
-
-11. **Condition ID: 11**
-    - **Description**: Under the Alternative Standardised Approach (ASA), banks may aggregate retail and commercial banking using a common beta of 15% or maintain the SA beta factors of 12% and 15% and aggregate the other six business lines with a beta factor of 18%.
-    - **Reference**: [Document: document.pdf, Page 140]
+## Condition ID: 10
+- **Description**: LFIs must provide precise and outlined information to the FIU when additional details are requested regarding an STR or SAR.
+- **Reference**: CBUAE_EN_418_VER2.pdf, Page 45

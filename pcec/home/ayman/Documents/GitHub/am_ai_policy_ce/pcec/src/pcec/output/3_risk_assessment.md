@@ -1,73 +1,67 @@
 ### Risk Assessment Report for Consolidated Compliance Conditions
 
-#### Condition ID: 120
-- **Risk Scenario**: Failure to embed stress tests in decision-making processes could lead to inadequate risk management and poor decision-making.
-- **Likelihood of Non-Compliance**: Medium
-- **Impact of Non-Compliance**: High
-- **Description**: If stress tests are not effectively integrated into the bank’s decision-making processes, the bank may fail to identify and mitigate key risks, leading to potential financial losses or regulatory penalties.
-
-#### Condition ID: 121
-- **Risk Scenario**: Inadequate documentation of risk mitigation decisions could result in regulatory scrutiny and potential fines.
-- **Likelihood of Non-Compliance**: Medium
-- **Impact of Non-Compliance**: Medium
-- **Description**: If the bank fails to document and justify decisions not to take action on risk mitigations, it may face challenges in demonstrating compliance during audits or regulatory reviews.
-
-#### Condition ID: 122
-- **Risk Scenario**: Ineffective reverse stress testing could lead to the bank being unprepared for severe adverse scenarios.
-- **Likelihood of Non-Compliance**: Medium
-- **Impact of Non-Compliance**: High
-- **Description**: If reverse stress tests are not conducted properly, the bank may not identify scenarios that could render its business model non-viable, leading to significant financial and reputational damage.
-
-#### Condition ID: 123
-- **Risk Scenario**: Lack of involvement from key stakeholders in reverse stress testing could result in incomplete or inaccurate assessments.
-- **Likelihood of Non-Compliance**: Medium
-- **Impact of Non-Compliance**: High
-- **Description**: Without the involvement of Senior Management, the Board, and subject matter experts, reverse stress tests may not accurately reflect the bank’s risk profile, leading to inadequate risk mitigation strategies.
-
-#### Condition ID: 124
-- **Risk Scenario**: Failure to conduct annual reverse stress tests could result in the bank being unprepared for severe adverse events.
-- **Likelihood of Non-Compliance**: Low
-- **Impact of Non-Compliance**: High
-- **Description**: If the bank does not conduct reverse stress tests annually, it may miss critical vulnerabilities in its business model, leading to potential financial instability.
-
-#### Condition ID: 125
-- **Risk Scenario**: Late submission of the ICAAP report could result in regulatory penalties and reputational damage.
-- **Likelihood of Non-Compliance**: Low
-- **Impact of Non-Compliance**: Medium
-- **Description**: If the ICAAP report is not submitted on time, the bank may face fines and increased scrutiny from regulators, potentially damaging its reputation.
-
-#### Condition ID: 126
-- **Risk Scenario**: Incorrect submission format of documents could lead to delays in regulatory review and potential penalties.
-- **Likelihood of Non-Compliance**: Low
-- **Impact of Non-Compliance**: Medium
-- **Description**: If documents are not submitted in the required format, the Central Bank may reject the submission, leading to delays and potential regulatory action.
-
-#### Condition ID: 128
-- **Risk Scenario**: Lack of approval from Senior Management and the Board for the ICAAP report could result in regulatory non-compliance.
-- **Likelihood of Non-Compliance**: Low
-- **Impact of Non-Compliance**: High
-- **Description**: If the ICAAP report is not approved by the required authorities, the bank may face regulatory penalties and increased scrutiny.
-
-#### Condition ID: 130
-- **Risk Scenario**: Failure to submit the Internal Audit report on time could result in regulatory penalties.
-- **Likelihood of Non-Compliance**: Low
-- **Impact of Non-Compliance**: Medium
-- **Description**: If the Internal Audit report is not submitted within the required timeframe, the bank may face fines and increased regulatory scrutiny.
-
-#### Condition ID: 131
-- **Risk Scenario**: Inadequate reviews of the risk management process could lead to undetected risks and regulatory non-compliance.
-- **Likelihood of Non-Compliance**: Medium
-- **Impact of Non-Compliance**: High
-- **Description**: If internal control functions do not regularly review the risk management process, the bank may fail to identify and mitigate key risks, leading to potential financial losses and regulatory penalties.
-
-#### Condition ID: 132
-- **Risk Scenario**: Inaccurate regulatory data submission could result in regulatory penalties and reputational damage.
-- **Likelihood of Non-Compliance**: Medium
-- **Impact of Non-Compliance**: High
-- **Description**: If the bank submits inaccurate or incomplete regulatory data, it may face fines, increased scrutiny, and reputational damage.
-
 #### Condition ID: 1
-- **Risk Scenario**: Lack of documented evidence of reports submitted to senior management and the board could result in regulatory non-compliance.
-- **Likelihood of Non-Compliance**: Low
-- **Impact of Non-Compliance**: Medium
-- **Description**: If the bank fails to document evidence of reports submitted to senior management and the board, it may face challenges
+- **Description:** LFIs should implement appropriate risk-based Enhanced Due Diligence (EDD) and ongoing monitoring procedures if a customer or business relationship is classified as high-risk.
+- **Likelihood of Non-Compliance:** Medium
+- **Impact of Non-Compliance:** High
+- **Risk Scenario:** Failure to implement EDD and ongoing monitoring could result in undetected high-risk activities, leading to regulatory penalties and reputational damage.
+
+#### Condition ID: 2
+- **Description:** LFIs must document the process and rationale for maintaining a business relationship, along with any conditions related to the decision.
+- **Likelihood of Non-Compliance:** Low
+- **Impact of Non-Compliance:** Medium
+- **Risk Scenario:** Inadequate documentation could lead to challenges in justifying business decisions during audits, resulting in regulatory scrutiny.
+
+#### Condition ID: 3
+- **Description:** LFIs should implement additional control measures such as requiring additional data, information, or documents from the customer, restricting the use of certain products or services, and placing restrictions on transaction processing.
+- **Likelihood of Non-Compliance:** Medium
+- **Impact of Non-Compliance:** High
+- **Risk Scenario:** Lack of additional controls could expose the institution to financial crimes, leading to significant financial and reputational losses.
+
+#### Condition ID: 4
+- **Description:** LFIs must obtain senior management approval for the EDD, ongoing monitoring, and additional control measures plan, including its specific conditions, duration, and requirements for removal.
+- **Likelihood of Non-Compliance:** Low
+- **Impact of Non-Compliance:** Medium
+- **Risk Scenario:** Without senior management approval, the implementation of control measures may lack oversight, increasing the risk of non-compliance.
+
+#### Condition ID: 5
+- **Description:** LFIs should maintain a customer exit policy that outlines the process for reviewing the overall customer relationship and deciding on next steps, including ending the relationship and notifying law enforcement.
+- **Likelihood of Non-Compliance:** Medium
+- **Impact of Non-Compliance:** High
+- **Risk Scenario:** Absence of a clear exit policy could result in continued relationships with high-risk customers, increasing exposure to financial crimes.
+
+#### Condition ID: 6
+- **Description:** LFIs must retain all records and documents pertaining to STRs and the results of all analysis or investigations performed for at least five years from the date of completion of the transaction or termination of the business relationship.
+- **Likelihood of Non-Compliance:** Low
+- **Impact of Non-Compliance:** Medium
+- **Risk Scenario:** Failure to retain records could lead to non-compliance with regulatory requirements, resulting in penalties during audits.
+
+#### Condition ID: 7
+- **Description:** LFIs should develop and maintain a system of reporting that provides accurate and timely information on the status of the AML/CFT program, including statistics on key elements of the program.
+- **Likelihood of Non-Compliance:** Medium
+- **Impact of Non-Compliance:** High
+- **Risk Scenario:** Inadequate reporting systems could lead to delayed or inaccurate reporting, increasing the risk of regulatory breaches.
+
+#### Condition ID: 8
+- **Description:** Employees should report the number and types of STRs, SARs, or other regulatory reports filed to the Board of Directors or a Board-designated committee.
+- **Likelihood of Non-Compliance:** Low
+- **Impact of Non-Compliance:** Medium
+- **Risk Scenario:** Lack of reporting to the Board could result in insufficient oversight, increasing the risk of non-compliance.
+
+#### Condition ID: 9
+- **Description:** LFIs should contact law enforcement before closing an account if the entity has knowledge of an ongoing law enforcement investigation involving that account or customer.
+- **Likelihood of Non-Compliance:** Medium
+- **Impact of Non-Compliance:** High
+- **Risk Scenario:** Failure to contact law enforcement could result in obstruction of justice, leading to legal and reputational consequences.
+
+#### Condition ID: 10
+- **Description:** LFIs should ensure that the subject of an STR or SAR filing is added to internal watch lists to avoid future onboarding.
+- **Likelihood of Non-Compliance:** Medium
+- **Impact of Non-Compliance:** High
+- **Risk Scenario:** Failure to add subjects to watch lists could result in onboarding high-risk customers, increasing exposure to financial crimes.
+
+#### Condition ID: 11
+- **Description:** LFIs are required to submit suspicious transaction and activity reports directly to the FIU using the “goAML” portal.
+- **Likelihood of Non-Compliance:** Medium
+- **Impact of Non-Compliance:** High
+- **Risk Scenario:** Delayed or incorrect reporting could lead to regulatory penalties and missed opportunities to prevent financial crimes

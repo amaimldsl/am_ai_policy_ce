@@ -1,152 +1,102 @@
-### Comprehensive Control Framework
+# Control Framework for Consolidated Compliance Conditions
 
-1. **Control ID: C1**
-   - **Related Risk ID: R1**
-   - **Control Description:** Implement a robust capital adequacy framework to ensure sufficient capital coverage for Pillar 1 risks (credit, market, and operational risk).
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Regular stress testing and scenario analysis to validate capital adequacy.
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 1.
+## Condition ID: 1
+**Risk:** Failure to implement Enhanced Due Diligence (EDD) and ongoing monitoring for high-risk customers.
+**Control:** Implement a risk-based EDD and ongoing monitoring program.
+- **Type:** Preventive
+- **Implementation Considerations:** 
+  - Develop a risk assessment matrix to classify customers.
+  - Automate monitoring systems to flag high-risk activities.
+  - Train staff on EDD procedures and ongoing monitoring requirements.
 
-2. **Control ID: C2**
-   - **Related Risk ID: R2**
-   - **Control Description:** Develop and maintain a comprehensive risk quantification framework for risks not covered by Pillar 1 capital.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Use advanced risk modeling techniques and ensure regular updates to the risk quantification framework.
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 1.
+## Condition ID: 2
+**Risk:** Inadequate documentation of business relationship decisions.
+**Control:** Establish a standardized documentation process.
+- **Type:** Detective
+- **Implementation Considerations:** 
+  - Create templates for documenting business relationship decisions.
+  - Implement a centralized document management system.
+  - Conduct periodic audits to ensure compliance.
 
-3. **Control ID: C3**
-   - **Related Risk ID: R3**
-   - **Control Description:** Establish a robust Internal Capital Adequacy Assessment Process (ICAAP) to align capital levels with the bank's risk profile.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Ensure ICAAP is integrated into the bank's overall risk management framework and reviewed annually.
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 2.
+## Condition ID: 3
+**Risk:** Lack of additional controls for high-risk customers.
+**Control:** Implement additional control measures for high-risk customers.
+- **Type:** Preventive
+- **Implementation Considerations:** 
+  - Require additional data, information, or documents from high-risk customers.
+  - Restrict the use of certain products or services for high-risk customers.
+  - Place restrictions on transaction processing for high-risk customers.
 
-4. **Control ID: C4**
-   - **Related Risk ID: R4**
-   - **Control Description:** Implement a governance process to ensure the Board of Directors approves the ICAAP annually.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Establish clear roles and responsibilities for ICAAP governance and ensure timely Board reviews.
-   - **Reference:** Document: document.pdf, Page 154, Section III. ICAAP Governance, Paragraph 15.
+## Condition ID: 4
+**Risk:** Lack of senior management approval for EDD and control measures.
+**Control:** Require senior management approval for EDD and control measures.
+- **Type:** Preventive
+- **Implementation Considerations:** 
+  - Develop an approval workflow for senior management.
+  - Document all approvals in a centralized system.
+  - Conduct periodic reviews to ensure compliance.
 
-5. **Control ID: C5**
-   - **Related Risk ID: R5**
-   - **Control Description:** Ensure compliance with Central Bank Standards on Pillar 2 capital through regular audits and reviews.
-   - **Control Type:** Detective
-   - **Implementation Considerations:** Conduct periodic internal and external audits to verify compliance with regulatory standards.
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 2.
+## Condition ID: 5
+**Risk:** Absence of a clear customer exit policy.
+**Control:** Develop and implement a customer exit policy.
+- **Type:** Preventive
+- **Implementation Considerations:** 
+  - Outline the process for reviewing customer relationships.
+  - Define criteria for ending relationships with high-risk customers.
+  - Notify law enforcement when necessary.
 
-6. **Control ID: C6**
-   - **Related Risk ID: R6**
-   - **Control Description:** Monitor and maintain the adjusted Minimum Capital Adequacy ratio to avoid regulatory intervention.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Implement real-time monitoring tools and early warning systems for capital adequacy.
-   - **Reference:** Document: document.pdf, Page 152, Section I. Introduction and Purpose, Paragraph 3.
+## Condition ID: 6
+**Risk:** Failure to retain records for STRs and investigations.
+**Control:** Implement a record retention policy.
+- **Type:** Detective
+- **Implementation Considerations:** 
+  - Establish a centralized record-keeping system.
+  - Automate retention schedules for records.
+  - Conduct periodic audits to ensure compliance.
 
-7. **Control ID: C7**
-   - **Related Risk ID: R7**
-   - **Control Description:** Adopt the Pillar 1 plus approach to ensure comprehensive capital coverage for all material risks.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Regularly review and update the Pillar 1 plus approach to reflect changes in the risk profile.
-   - **Reference:** Document: document.pdf, Page 155, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 17.
+## Condition ID: 7
+**Risk:** Inadequate reporting systems for AML/CFT programs.
+**Control:** Develop and maintain a robust reporting system.
+- **Type:** Detective
+- **Implementation Considerations:** 
+  - Automate the collection and reporting of key statistics.
+  - Provide regular reports to senior management.
+  - Conduct periodic reviews to ensure accuracy and timeliness.
 
-8. **Control ID: C8**
-   - **Related Risk ID: R8**
-   - **Control Description:** Develop and implement appropriate methods and procedures for ICAAP to ensure adequate capital coverage for material risks.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Ensure methods and procedures are documented, reviewed, and updated regularly.
-   - **Reference:** Document: document.pdf, Page 155, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 18.
+## Condition ID: 8
+**Risk:** Lack of reporting to the Board of Directors.
+**Control:** Implement a reporting mechanism to the Board of Directors.
+- **Type:** Detective
+- **Implementation Considerations:** 
+  - Develop a standardized reporting format.
+  - Schedule regular reporting to the Board or designated committee.
+  - Document all reports and follow-up actions.
 
-9. **Control ID: C9**
-   - **Related Risk ID: R9**
-   - **Control Description:** Ensure consistent ICAAP effectiveness across all levels of the organization through regular training and communication.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Develop a training program and communication plan to ensure all staff understand ICAAP requirements.
-   - **Reference:** Document: document.pdf, Page 156, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 21.
+## Condition ID: 9
+**Risk:** Failure to contact law enforcement before closing an account under investigation.
+**Control:** Establish a protocol for contacting law enforcement.
+- **Type:** Preventive
+- **Implementation Considerations:** 
+  - Train staff on the protocol for contacting law enforcement.
+  - Document all communications with law enforcement.
+  - Conduct periodic reviews to ensure compliance.
 
-10. **Control ID: C10**
-    - **Related Risk ID: R10**
-    - **Control Description:** Evaluate the difference between ICAAP at bank and solo levels to ensure aligned capital adequacy assessments.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Conduct regular reviews and reconciliations of ICAAP assessments at both levels.
-    - **Reference:** Document: document.pdf, Page 156, Section IV. ICAAP Methodology, Scope and Use Test, Paragraph 23.
+## Condition ID: 10
+**Risk:** Failure to add STR/SAR subjects to internal watch lists.
+**Control:** Implement a process to add STR/SAR subjects to watch lists.
+- **Type:** Preventive
+- **Implementation Considerations:** 
+  - Automate the process of adding subjects to watch lists.
+  - Conduct periodic reviews of watch lists.
+  - Train staff on the importance of watch list management.
 
-11. **Control ID: C11**
-    - **Related Risk ID: R11**
-    - **Control Description:** Implement a comprehensive risk analysis framework for Real Estate exposures to mitigate credit risk.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Use advanced risk modeling techniques and ensure regular updates to the risk analysis framework.
-    - **Reference:** Document: document.pdf, Page 164, Section E. Credit Concentration Risk, Paragraph 81.
+## Condition ID: 11
+**Risk:** Delayed or incorrect reporting of suspicious transactions.
+**Control:** Implement a process for timely and accurate reporting.
+- **Type:** Preventive
+- **Implementation Considerations:** 
+  - Train staff on the use of the “goAML” portal.
+  - Automate the reporting process where possible.
+  - Conduct periodic reviews to ensure compliance.
 
-12. **Control ID: C12**
-    - **Related Risk ID: R12**
-    - **Control Description:** Define and implement a risk appetite framework for Interest Rate Risk in the Banking Book (IRRBB).
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Ensure the risk appetite framework is integrated into the bank's overall risk management framework.
-    - **Reference:** Document: document.pdf, Page 165, Section F. Interest Rate Risk in the Banking Book (IRRBB), Paragraph 84.
-
-13. **Control ID: C13**
-    - **Related Risk ID: R13**
-    - **Control Description:** Compute the economic value of equity (EVE) at a granular level to accurately estimate interest rate risk exposure.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Use advanced modeling techniques and ensure regular updates to the EVE computation process.
-    - **Reference:** Document: document.pdf, Page 165, Section F. Interest Rate Risk in the Banking Book (IRRBB), Paragraph 87.
-
-14. **Control ID: C14**
-    - **Related Risk ID: R14**
-    - **Control Description:** Apply interest rate shock scenarios to assess the impact on the bank's financial position.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regularly update shock scenarios to reflect current market conditions and ensure comprehensive analysis.
-    - **Reference:** Document: document.pdf, Page 165, Section F. Interest Rate Risk in the Banking Book (IRRBB), Paragraph 88.
-
-15. **Control ID: C15**
-    - **Related Risk ID: R15**
-    - **Control Description:** Implement a robust credit concentration risk management framework to mitigate financial instability.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Use advanced risk modeling techniques and ensure regular updates to the risk management framework.
-    - **Reference:** Document: document.pdf, Page 164, Section E. Credit Concentration Risk, Paragraph 81.
-
-16. **Control ID: C16**
-    - **Related Risk ID: R16**
-    - **Control Description:** Ensure accurate calculation of Replacement Cost (RC) through regular validation and review processes.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Implement automated tools for RC calculation and conduct regular manual reviews.
-    - **Reference:** Document: document.pdf, Page 46.
-
-17. **Control ID: C17**
-    - **Related Risk ID: R17**
-    - **Control Description:** Develop and enforce strict rules for RC calculation to prevent misapplication and incorrect exposure assessments.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Provide training to staff on RC calculation rules and conduct regular audits.
-    - **Reference:** Document: document.pdf, Page 46.
-
-18. **Control ID: C18**
-    - **Related Risk ID: R18**
-    - **Control Description:** Implement a robust process for calculating Potential Future Exposure (PFE) to ensure adequate capital allocation.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Use advanced modeling techniques and ensure regular updates to the PFE calculation process.
-    - **Reference:** Document: document.pdf, Page 46.
-
-19. **Control ID: C19**
-    - **Related Risk ID: R19**
-    - **Control Description:** Ensure accurate estimation of Exposure at Default (EAD) through regular validation and review processes.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Implement automated tools for EAD estimation and conduct regular manual reviews.
-    - **Reference:** Document: document.pdf, Page 46.
-
-20. **Control ID: C20**
-    - **Related Risk ID: R20**
-    - **Control Description:** Establish a robust internal process for netting agreement validation to ensure regulatory compliance.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Develop clear guidelines for netting agreement validation and conduct regular audits.
-    - **Reference:** Document: document.pdf, Page 49.
-
-21. **Control ID: C21**
-    - **Related Risk ID: R21**
-    - **Control Description:** Implement a process to review and approve all amendments to netting agreements to prevent invalid netting sets.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Establish a review committee and ensure all amendments are documented and approved.
-    - **Reference:** Document: document.pdf, Page 49.
-
-22. **Control ID: C22**
-    - **Related Risk ID: R22**
-    - **Control Description
+This control framework provides a comprehensive approach to mitigating the identified risks, ensuring compliance with regulatory requirements, and reducing the likelihood of financial crimes.

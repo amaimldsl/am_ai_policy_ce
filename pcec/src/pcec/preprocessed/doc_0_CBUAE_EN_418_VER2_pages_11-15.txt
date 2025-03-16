@@ -1,0 +1,200 @@
+[Document: CBUAE_EN_418_VER2.pdf, Page 11]
+CBUAE Classification: Public
+ Policies and Procedures: An LFI should have policies and procedures that govern changes to its
+transaction monitoring program which ensures that changes are defined, managed, controlled,
+reported, and audited. Namely, LFIs should have governance protocols surrounding the design and
+implementation of new detection scenarios; periodic assessment and validation of existing
+detection scenarios; and retiring of detection scenarios. In addition, an LFI should develop a
+procedure for the investigation and processing of transaction monitoring alerts in order to file an
+STR, SAR, or other report type promptly and qualitatively. These policies and procedures should
+cover the key processes for drafting and filing an STR, SAR, or other report type and other
+regulatory reports. More broadly, policies and procedures work to manage key AML/CFT risks and
+create processes for adherence across an LFI.
+ Clear Lines of Responsibility and Reporting: In relation to suspicious transactions, an LFI should
+have clear roles, responsibilities, and reporting lines, including reporting and escalations to the
+Board of Directors and senior management. These roles, responsibilities, and reporting lines should
+be clearly documented across all three lines of defense. Clear lines of responsibility help with
+effectively identifying and reporting suspicious activity in a timely manner while ensuring that there
+is appropriate and effective oversight of employees who engage in activities which may pose
+greater AML/CFT risk. LFIs should also have a mechanism to inform senior management and the
+Board of Directors (or a committee of the Board) of compliance initiatives, compliance deficiencies,
+STRs or SARs (or other reports) filed, and corrective actions taken.
+ Ongoing Training: Training should be provided on an ongoing basis to an LFI’s employees and
+should include changes to the UAE’s legislative and regulatory frameworks; internal policies or
+procedures; and understanding of evolving risk issues with respect to an LFI’s transaction
+monitoring and suspicious activity reporting program. Training topics can include, but are not limited
+to, thematic analysis of STRs or SARs; regulatory requirements and best practices related to STR
+or SAR reporting; noteworthy STRs or SARs (or other reports) filed during the prior quarter; and
+controls related to emerging financial crime risks. Training should be customized to include any
+other internal data that would be beneficial to both the first line and second line of defense.
+2.5.1. Considerations for Institutions with Foreign Branches and Subsidiaries
+For LFIs operating in an international context, FATF Recommendation 18 recommends that financial groups
+are required to implement group-wide AML/CFT programs applicable to foreign branches and majority-
+owned subsidiaries. Recent major enforcement actions taken by supervisors in key jurisdictions have
+highlighted the need to ensure that systems and controls are aligned across a financial group and that
+foreign branches and majority-owned subsidiaries align AML/CFT measures with a financial group’s home
+country requirements. As a result, LFIs have implemented global AML/CFT policies that outline a group risk
+appetite and are managed in each jurisdiction to align to local regulatory or legislative requirements. To
+support alignment of controls, LFIs operating across jurisdictions may seek to leverage the same control
+solutions for key processes, such as customer screening or transaction monitoring, though there may be
+different rules for different jurisdictions. For example, if the LFI operates in an economy which is known to
+be more cash-based than another, the cash trigger rules in transaction monitoring may vary appropriately.
+Centralized controls with operational centers of excellence also provide a means of ensuring alignment
+across the group around systems and controls.
+Page 11 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 12]
+CBUAE Classification: Public
+2.6. Transaction Monitoring Methods
+The five key components to an effective transaction monitoring and reporting system are: (i) identification
+of unusual or suspicious activity; (ii) managing alerts with an alert risk scoring model; (iii) STR or SAR
+decision making; (iv) STR or SAR completion and filing; and (v) monitoring and STR or SAR filing on
+continuing activity. To effectively identify unusual or potentially suspicious activity, LFIs should first maintain
+a transaction monitoring program based on an underlying AML/CFT risk-based assessment. The
+transaction monitoring program should take into account the AML/CFT risks of the LFI’s customers,
+prospective customers, counterparties, businesses, products, services, delivery channels, and geographic
+markets in addition to helping prioritize high-risk alerts. However, the sophistication of monitoring systems
+can differ based on an LFI’s AML/CFT risks. Monitoring systems typically include employee identification
+or referrals, transaction-based (manual) systems, surveillance (automated) systems, or a combination of
+these. Overall, LFIs must adopt monitoring processes and procedures to monitor customer activity that are
+commensurate with the size and nature of the line of business and the money laundering and the financing
+of terrorism and illegal organisations’ risks posed by their relevant customer base. The monitoring system
+and/or manual processes must reasonably demonstrate that transactions that carry the highest risk of
+money laundering and financing of terrorism and illegal organisations are subject to enhanced scrutiny.
+As part of a risk-based approach to AML/CFT, in the case of customers or Business Relationships identified
+as high-risk, LFIs are expected to investigate and obtain more information about the purpose of
+transactions, and to enhance ongoing monitoring and review of transactions in order to identify potentially
+unusual or suspicious activities. In the case of customers or Business Relationships that are identified as
+low-risk, LFIs may consider monitoring and reviewing transactions at a reduced frequency.
+Examples of some of the methods that may be employed for the ongoing monitoring of transactions include,
+but are not limited to:
+ Threshold-based rules, in which transactions above certain pre-determined values, numerical
+volumes, or aggregate amounts are examined;
+ Transaction-based rules, in which the transactions of a certain type are examined;
+ Location-based rules, in which the transactions involving a specific location (either as origin or
+destination) are examined; and
+ Customer-based rules, in which the transactions of particular customers are examined.
+2.6.1. Manual Monitoring
+An LFI may seek to utilize a manual transaction monitoring system, which typically targets specific
+categories of transactions (e.g., those involving large amounts of cash, those to or from certain
+geographies) and includes a manual review of various reports generated by the LFI’s systems in order to
+identify unusual activity. The type and frequency of reviews and resulting reports used should be
+commensurate with the LFI’s AML/CFT risk profile—including the nature, size, and complexity of its
+operations—and properly cover customers, counterparties, businesses, products, services, delivery
+channels, and geographic markets. System-generated reports typically use a certain currency threshold to
+detect unusual activity. An LFI’s responsible senior employee should periodically evaluate the
+appropriateness of filtering criteria and thresholds used in the monitoring process and periodically appraise
+Page 12 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 13]
+CBUAE Classification: Public
+Senior Management and where required, notify the Board of Directors (as part of periodic updates), on the
+appropriateness of design of manual monitoring reports. LFIs should be alert to the fact that complex and
+evolving financial crime risks can undermine the effectiveness of manual monitoring systems, and therefore,
+manual monitoring systems should also be independently reviewed for reasonable filtering criteria.
+2.6.2. Automated Transaction Monitoring
+Automated transaction monitoring systems can cover multiple types of transactions and use different rules
+to identify potentially suspicious activity. In addition, many systems can adapt over time based on historical
+activity, trends, or internal peer comparison. After parameters and filters have been developed, they should
+be reviewed before implementation to identify any gaps in coverage to address potential financial crime
+schemes that may not have been addressed. LFIs should also seek to have appropriate case management
+systems so that such funds or transactions are scrutinized in a timely manner and a determination is made
+as to whether the funds or transaction are suspicious.
+Once established, the LFI should review and test system capabilities and thresholds on a periodic basis,
+commensurate to its risk profile. This review should focus on specific parameters or filters in order to ensure
+that intended information is accurately captured, and that the parameter or filter is appropriate for the LFI’s
+particular risk profile, including the applicability of the detection scenarios, underlying rules, threshold
+values, and assumptions used. An LFI should also aim to review its transaction monitoring program at least
+annually to account for changes in the LFI’s internal procedures; local laws and regulations; and best
+practices.
+Relatedly, the authorization to establish or alter expected activity profiles should be clearly defined through
+policies and procedures. An LFI’s internal controls should ensure limited access to the monitoring systems,
+and changes should require the approval of the Compliance Officer, MLRO, or senior management. The
+LFI should implement a robust end-to-end, pre- and post-implementation testing procedure of its transaction
+monitoring program with documentation detailing current detection scenarios and the underlying
+assumptions, parameters, and thresholds applied.
+Employees appointed by the LFI should also be responsible for the design, planning, implementation,
+operation, testing, validation, and on-going analysis of the transaction monitoring program, which may
+extend to assessing the timely review and decision-making of generated alerts and potential STR or SAR
+filings. Such employees should be responsible for independently validating an LFI’s transaction monitoring
+system's programming methodology and effectiveness to ensure that the LFI’s automated transaction
+monitoring system is effectively detecting potentially suspicious activity. These appointed employees
+should also ensure that customer segments, customer types, and transactions/transaction codes are
+mapped into the transaction monitoring system, and that the transaction monitoring system is integrated
+with the LFI’s core banking and other relevant system. Independent validation should also take place of an
+LFI’s policies with an aim to assess if employees are adhering to these policies. This is especially important
+to validate the proper use of automated tools and to ensure that the application of information technology
+instruments or algorithms—often leveraged by LFIs to reduce the number of false positives in their
+transaction monitoring programs—is not inadvertently suppressing instances of reportable suspicious
+activity. Where appropriate, the LFI, in lieu of maintaining full time employees to perform aforementioned
+functions, may hire qualified specialist consultants or external vendors to provide such review services.
+Page 13 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 14]
+CBUAE Classification: Public
+2.6.3. Intelligence-led Transaction Monitoring Approach
+LFIs have begun to invest in forming and developing their own intelligence units or capabilities. By
+establishing such units or capabilities, these units seek to maximize the use of data and information
+available both internally—within the LFI—and externally—across jurisdictions and businesses—in order to
+tackle money laundering, the financing of terrorism and illegal organisations, and fraud schemes, as well
+as to consolidate analytical capacity and remove any jurisdictional and business silos. This has led some
+LFIs to shift from a pure transaction-level monitoring approach towards adopting a “customer-level” or
+“network” monitoring approach. Under this approach, previous investigations can be applied to inform and
+refine risk models, which can then be used to customize monitoring for different business lines and
+customer types. These enhancements are focused on looking beyond single transactions or single
+customers to identify the wider network in which a customer operates—looking at the customer as an
+entity—enabling LFIs to manage networks of accounts and report on these networks, that in turn, increases
+opportunities to disrupt that network. This model moves reporting away from reports of single suspicious
+transactions towards suspicious entities and networks with a view on how the funds flow between them.
+3. Procedures for the Reporting of Suspicious Transactions
+All customers and accounts should be subject to monitoring under a risk-based approach in order to identify
+potentially suspicious transactions, patterns, as well as behavior that is inconsistent with past behavior on
+the account or with the anticipated activity on the account as determined at onboarding. Alerts on such
+behavior are risk relevant indicators of potentially suspicious activity. Upon identifying unusual or potentially
+suspicious activity, an LFI’s employees must review and, as appropriate, escalate the activity for further
+investigation or immediate action.
+Although the process for reviewing unusual or potentially suspicious activity for further investigation or
+immediate action is not outlined in this guidance, LFIs should establish a process to investigate such
+activity, including developing policies and procedures that document the process for deciding whether to
+close the alert or to promptly report the transaction as suspicious and should include guidance on capturing
+detailed descriptions for the manner in which the alerts were either disposed of by reporting or closure of
+the alerts. For the purposes of this guidance, best practices are discussed once activity is determined to
+meet one or more of the regulatory definitions of suspicious activity and when an LFI decides to report such
+activity to the FIU by filing an STR, SAR, or other report type.
+3.1. Importance of Filing an STR and SAR
+The information generated from an STR, SAR, and other report type is important for identifying and
+combatting financial crime. First, the quality of STRs, SARs, and other report types is imperative for
+increasing the FIU’s analytical function to identify vulnerabilities and threats to the UAE financial system
+and develop an overall understanding of money laundering and the financing of terrorism and illegal
+organisations’ risks based on emerging trends and patterns. Relatedly, STRs, SARs, and other report types
+also assist law enforcement in detecting criminal actors and preventing the flow of illicit funds through the
+UAE financial system. Law enforcement uses the intelligence generated from STRs, SARs, and other report
+types to initiate and supplement money laundering or terrorist financing investigations and other criminal
+Page 14 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 15]
+CBUAE Classification: Public
+cases. As a result, it is critical that the information provided in all reports of suspicious activity be as
+accurate, timely, and complete as possible.
+3.2. Basic Structure of an STR or SAR
+The Compliance Officer or MLRO and other concerned employees responsible for using the goAML system
+must be aware of the different report types. As such, the LFI should select the correct report type when
+filing a report through the goAML system. The STR and SAR are the primary (or first instance) reports
+which must be used to report a new suspicion, whereas Additional Information File without Transactions
+(“AIF”) and Additional Information File with Transactions (“AIFT”) report types are supplementary reports
+which can be used to escalate additional information or transactions that correspond to a previously filed
+STR or SAR. When filing an AIF or AIFT, the LFI should input the Reference Number that corresponds to
+the STR or SAR.
+ STR: If, during the establishment or course of the customer relationship, or when conducting
+transactions on behalf of a customer or an occasional customer, an LFI suspects transactions are
+related to money laundering, related predicate offenses, or the financing of terrorism or illegal
+organisations, then the LFI should submit an STR to the FIU within the timelines established in this
+guidance.
+ SAR: If, during the establishment or course of the customer relationship, an LFI suspects any
+activity or an attempted transaction (i.e., a non-executed transaction) can be related to money
+laundering, related predicate offenses, or the financing of terrorism or illegal organisations, then
+the LFI should submit a SAR to the FIU within the timelines established in this guidance.
+ Additional Information File (“AIF”) without Transactions: Should the FIU require any further details
+while reviewing an STR or SAR, then the LFI that originally submitted the report may be solicited
+for further information by receiving an AIF request from the FIU through the Message Board. Should
+such a situation arise, the LFI is required to submit an AIF based report through the goAML

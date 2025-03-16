@@ -1,0 +1,201 @@
+
+of LFIs, assisting law enforcement in the identification and investigation of criminal activity, and satisfying
+regulatory expectations concerning timely suspicious activity reporting. The alert management and
+dispositioning process should be adequately staffed and free of bottlenecks and should include a process
+for the expedited filing of urgent reports in appropriate cases. For purposes of this guidance, “alerts” shall
+be understood to include automated transaction monitoring alerts, employee referrals, and law enforcement
+requests. The LFI should apply a risk-based approach to the alert review process by prioritizing alerts based
+on their risk category. For instance, alerts generated on suspicious transactions of higher-risk customers
+should be risk-scored higher and prioritized for review.
+Alert Review: An LFI’s employees should review an alert and determine whether further investigation is
+warranted. The underlying basis for the determination should be documented in accordance with an LFI’s
+investigations procedures. An LFI may choose to have alert review decisions subject to Quality Control
+(“QC”) review, prior to final dispositioning.
+Where the facts available at the alert review stage are or may be sufficient to warrant an STR or SAR filing
+without further investigation, or where the transaction may otherwise require immediate attention (per
+criteria set forth below in 4.4 Activity Requiring Immediate Attention), employees should immediately
+escalate the alerted activity to the designated STR or SAR decision authority for expedited review.
+Case Investigation: For any alerted activity determined to require further investigation, employees should
+conduct and complete (at least preliminarily) an investigation of the alerted activity, document the results
+of any research or analysis performed, and make a recommendation as to whether an STR or SAR should
+be filed.
+Where a case investigator becomes aware of activity that requires immediate attention (per criteria set forth
+below in 4.4 Activity Requiring Immediate Attention), employees should immediately escalate the activity to
+the designated STR or SAR decision authority for expedited review.
+If, in the case investigator’s judgment, the facts available at the filing recommendation deadline meet one
+or more of the UAE regulatory definitions of suspicious activity, the case investigator should submit a
+recommendation to file an STR or SAR, even if certain aspects of the activity remain unexplained.
+Unanswered requests for information (RFIs) made in the course of a case investigation should not delay
+the timely submission of recommendations with respect to an STR or SAR filing. LFIs should define the
+reasonable RFI timeframe to allow the customer to respond to quires raised during a case investigation as
+part of the RFI process.
+Page 26 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 27]
+CBUAE Classification: Public
+In the event of escalation for expedited review, the Compliance Officer or MLRO should review the activity
+and make a determination as to whether it is suspicious within 24 hours of the date of escalation. Where
+appropriate, the Compliance Officer or MLRO also should escalate the activity for potential exit and account
+closure.
+4.2. STR/SAR Decision Making and Filing
+In the absence of escalation for expedited review, LFIs are expected to file an STR/SAR within a maximum
+of 35 business days from the date of automated alert generation. The establishment of adequate grounds
+of suspicion may involve the investigation procedures as per the LFIs' AML and/or Financial Crime
+Compliance policies and procedures. LFIs are expected to complete the required investigative procedures
+as expeditiously as possible. LFIs must maintain adequately detailed records of investigative procedures
+performed against alerts and when filing an STR/SAR, must include a summary justifying the time taken to
+establish grounds of suspicion.
+In the event of escalation for expedited review, the Compliance Officer or MLRO should file an STR or SAR
+to the FIU within 24 hours of the determination. All prospective STRs or SARs should be reviewed for
+accuracy and completeness prior to filing, in accordance with applicable procedures.
+LFIs are ultimately responsible under UAE’s AML-CFT Law to report suspicious activity without delay and
+should seek to file STRs and SARs ahead of the prescribed timeline.
+4.3. Monitoring and Reporting of Continuing Suspicious Activity
+Upon filing an STR/SAR pertaining to an account holder, LFIs are expected to implement enhanced
+monitoring on such account holders. In the case of continued suspicious activity detected against said
+account holder, LFIs are expected to expeditiously file an STR/SAR with the FIU.
+4.4. Activity Requiring Immediate Attention
+Situations requiring immediate attention include reportable violations that are ongoing (e.g., part of an
+ongoing money laundering scheme as indicated by an appropriate law enforcement authority) and
+transactions that the LFI suspects are related to the financing of terrorism and illegal organisations.
+4.5. Exceptions for Complex Investigations
+There may be instances when the LFI encounters potentially unusual or suspicious activity that is of a
+“complex” nature. The following is a non-exhaustive list of factors that should be considered to determine
+whether investigated activity qualifies as a complex investigation: employee-related investigations;
+significant investigations involving multiple customers, multiple jurisdictions, multiple accounts, multiple
+transactions, and/or multiple subpoena requests; and legal referred investigations.
+If the LFI designates an investigation as “complex”, the LFI should submit an initial STR or SAR to the FIU
+within 15 business days of the alert generation. The initial STR/SAR should be labelled as a “Complex
+investigation” to the FIU. Following the initial STR or SAR filing, the LFI has an additional 30 business days
+Page 27 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 28]
+CBUAE Classification: Public
+to obtain all necessary information related to the complex investigation and submit a follow-up STR or SAR
+to the FIU.
+4.6. Summary of Review, Investigation, and Reporting Timelines
+The following table summarizes the recommended suspicious activity review, investigation, and reporting
+timelines in the absence of escalation for expedited review. Please note – the following table captures the
+maximum timeline by which LFIs should identify and report suspicious activity and transactions. LFIs are
+ultimately responsible under UAE’s AML-CFT Law to report suspicious activity without delay and should
+seek to file STRs and SARs ahead of the below timelines.
+Action Maximum Timeline in Calendar Days
+LFIs are expected to file an STR/SAR
+Dispositioning of alert; recommendation on
+within a maximum of 35 business days
+whether to file an STR or SAR; and decision on
+from the date of automated alert
+whether to file an STR or SAR
+generation.
+If an LFI designates an investigation as
+“complex”, the LFI should submit an
+initial STR within 15 business days of
+Filing of a follow-up STR or SAR for a
+alert generation – SAR/STR to be
+“complex investigation”
+labelled “Complex investigation”. Follow-
+up SAR/STR to be submitted within 30
+business days of filing the initial STR.
+Upon filing an STR/SAR pertaining to an
+account holder, LFIs are expected to
+implement enhanced monitoring on such
+account holders. In the case of
+Filing of STR or SAR on continuing activity continued suspicious activity detected
+against said account holder, LFIs are
+expected to expeditiously file an
+STR/SAR continuing activity with the
+FIU.
+4.7. Escalation for Expedited Review
+In certain cases, an alert or case may need to be dispositioned and an STR or SAR filed more rapidly than
+usual processes allow. In such cases, the alert will be dispositioned and the STR or SAR filed according to
+the expedited review timeline as laid out below.
+Circumstances where expedited review is expected include:
+ The activity requires immediate attention (as defined above); and
+ The facts available at the alert review stage are or may be sufficient to warrant an STR or SAR
+filing without further investigation.
+The following table summarizes the recommended suspicious activity review, investigation, and reporting
+timelines in the event of escalation for expedited review.
+Page 28 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 29]
+CBUAE Classification: Public
+Action Maximum Timeline in
+Calendar Days
+Decision on whether to file an STR or SAR and
+24 hours from decision to file
+filing of first STR or SAR
+Filing of STR or SAR on continuing activity Upon filing an STR/SAR
+pertaining to an account holder,
+LFIs are expected to implement
+enhanced monitoring on such
+account holders. In the case of
+continued suspicious activity
+detected against said account
+holder, LFIs are expected to
+expeditiously file an STR/SAR
+with the FIU.
+5. Confidentiality and Prohibition against “Tipping Off”
+According to Article 18 of the AML-CFT Decision, when reporting suspicious activity or transactions to the
+FIU, LFIs are obliged to maintain confidentiality with regard to both the information being reported and to
+the act of reporting itself, and to make reasonable efforts to ensure that the information and data reported
+are protected from access by any unauthorized person.
+As part of their risk-based AML/CFT framework, and in keeping with the nature and size of their businesses,
+LFIs and their foreign branches or group affiliates where applicable, should establish adequate policies,
+procedures and controls to ensure the confidentiality and protection of information and data related to STRs,
+SARs, and other report types. These policies, procedures and controls should be documented, approved
+by senior management, and communicated to the appropriate levels of the organization.
+LFIs must ensure that all relevant information relating to STRs, SARs, and other report types is kept
+confidential, with due regard to the conditions and exceptions provided for in the law, and the guiding
+principles for this must be established in policies and procedures. LFIs should ensure that policy and
+procedures are reflected in for example, appropriate access rights with regard to core systems used for
+case management and notifications, secure information flows and guidance/training to all employees
+involved. This guidance and training are particularly important for the first line of defense employees who
+have contact with customers. It is essential that these employees know when there may be cases of
+suspicious transactions, what questions they have to ask the customer and which information they must
+not under any circumstances disclose to the customer.
+It should be noted that the confidentiality requirement does not pertain to communication within the LFIs
+or its affiliated group members (foreign branches, subsidiaries, or parent company) for the purpose of
+sharing information relevant to the identification, prevention or reporting of suspicious transactions and/or
+crimes related to money laundering and the financing of terrorism and illegal organisations, according to
+the Article 39.1 of the AML-CFT Decision.
+Page 29 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 30]
+CBUAE Classification: Public
+It is a federal crime for LFIs or their managers, employees, or representatives, to inform a customer or any
+other person, whether directly or indirectly, that a report has been filed or will be filed, or of any information
+or data contained in the report, or that an investigation is under way concerning the transaction, otherwise
+known as “tipping off.” Any person violating this prohibition is liable to a penalty of no less than AED100,000
+and no more than AED500,000 and imprisonment for a term of not less one year, according to the Article
+25 of the AML-CFT Law.
+6. Handling of Transactions and Business Relationships
+after Filing STRs or SARs
+6.1. Requirements for Corresponding with the FIU
+As a standard practice and as specified in Article 9.1 of the AML-CFT Law, the FIU can reach out to LFIs
+to provide additional requested information pertaining to an STR or SAR. Therefore, when responding to
+the FIU’s inquiries, details should be provided in a way that is precise and outlined as per the request. LFIs
+should maintain clarity on the presented information and provide it in the required format (e.g., tabular
+format, pdf, etc.). Moreover, LFIs should avoid adding unnecessary codes and abbreviations or any raw
+information extracted directly from the core databases, which are unknown to the FIU. It is important to
+understand that the details pertaining to the source and destination of funds are essential for investigating
+the reported activity. Therefore, names; account numbers; country of origin and destination; currencies;
+dates; source and purpose of transactions; and other related information should be detailed in LFI’s
+response. Once the report is filed, LFI should send the report web reference number and inform the FIU
+via the goAML Message Board.
+6.2. Post STR and SAR Process
+Following an STR or SAR filing, the FIU may or may not revert to the LFI with specific instructions, requests
+for additional information, feedback or further guidance related to the STR or SAR, or to the business
+relationship in general. In such cases, these communications will generally be directed to the Compliance
+Officer or MLRO of the LFI. However, LFIs may not receive instructions, additional information requests, or
+other feedback from the FIU regarding STRs or SARs that have been filed; or the receipt of such
+communications may be delayed beyond what they consider to be a reasonable time period. In such
+instances, LFIs must follow their internal policies in relation to such customers and should determine the
+appropriate handling of the STR or SAR and of the business relationship in general, taking into
+consideration all of the risk factors involved.
+Specifically, once a suspicious transaction or other suspicious information related to a customer or business
+relationship has been reported to the FIU, the LFI should take the following immediate responses:
+ LFIs should follow the instructions, if any, of the FIU in relation to both the specific transaction and
+to the business relationship in general.
+ LFIs should identify all related/associated accounts or relationship of STR or SAR customers and
+conduct a review on those accounts/relationship to check whether any suspicious transaction(s)
+Page 30 of 46

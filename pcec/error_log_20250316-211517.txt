@@ -1,0 +1,10 @@
+❌ CRITICAL ERROR: Analysis failed with exception: No module named 'tools.parser_utils'
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 258, in main
+    from crew import pcec
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/crew.py", line 14, in <module>
+    from tools.RiskAnalysisTool import RiskAnalysisTool
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/tools/RiskAnalysisTool.py", line 5, in <module>
+    from tools.parser_utils import ParserUtils
+ModuleNotFoundError: No module named 'tools.parser_utils'

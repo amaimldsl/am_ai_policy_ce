@@ -1,4 +1,5 @@
 ### Consolidated Policy Compliance Conditions and Requirements
 
-1. **Condition ID: 120**
-   - **Description**: Stress tests should support decision-making throughout the bank effectively. Stress tests should be embedded in banks’ business decision-making and risk management process at several levels of the organisation. Senior Management and the Board should lead and approve all assumptions
+1. **Condition ID: 1**
+   - **Description:** LFIs should implement appropriate risk-based Enhanced Due Diligence (EDD) and ongoing monitoring procedures if a customer or business relationship is classified as high-risk.
+   - **Reference:** CBUAE_EN_418_VER2.pdf

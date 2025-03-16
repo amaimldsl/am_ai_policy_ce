@@ -1,0 +1,109 @@
+[Document: CBUAE_EN_418_VER2.pdf, Page 41]
+CBUAE Classification: Public
+Annex 3. Red Flag Indicators for the UAE Insurance Sector
+The UAE Insurance Authority has issued the following list of red flag indicators when handling life and
+general insurance products. The indicators, as well as any future ones the UAE Insurance Authority may
+determine, should be incorporated into an LFI’s AML/CFT program with a view to update policies,
+procedures, detection scenarios, and red flag indicators for identifying potentially suspicious activity related
+to life and general insurance products.
+1. The purchase of an insurance product does not reflect a customer’s known needs (e.g., purpose
+of the account).
+2. The early surrender of an insurance product is taken at a cost to the customer.
+3. The surrender of an insurance product is initiated with the refund directed to a third party.
+4. The customer exhibits no concern for the investment performance of a purchased insurance
+product and instead exhibits significant concern for its early surrender terms.
+5. The customer purchases insurance products using unusual payment methods, such as cash or
+cash equivalents, or with monetary instruments in structured amounts.
+6. The customer demonstrates reluctance to provide identifying information when purchasing an
+insurance product.
+7. The customer borrows the maximum amount available from their insurance product shortly after
+purchase.
+8. The customer used to purchase low-premium insurance and pay premiums by making regular
+payments but suddenly purchases insurance that requires a large lump-sum premium payment, for
+which no reasonable explanations are provided.
+9. The customer purchases an insurance product without concern for the coverage or benefits, or the
+customer only cares about the procedures for the policy loan, cancellation of insurance policy, or
+changing beneficiary when purchasing an insurance policy that has a high cash value or requires
+a high lump-sum premium payment.
+10. The customer usually pays a premium by making regular payments but suddenly requests to
+purchase a large-sum policy by paying off premium all at once.
+11. The customer purchases insurance products with high cash value successively over a short period
+of time, and the insurance products purchased do not appear to be commensurate with the
+customer’s status and income or are unrelated to the nature of the customer’s business.
+12. The customer pays premiums in cash and in several payments marginally below the threshold for
+declaration but cannot reasonably explain the source of funds. In addition, the transactions do not
+appear to be commensurate with the customer’s status and income or are unrelated to the nature
+of the customer’s business.
+13. The customer, after making a large premium payment for a policy purchased, applies for a large
+policy loan or cancels the policy in a short period of time, for which no reasonable explanations are
+provided.
+14. The customer is a policyholder of several motor vehicles which is inconsistent with their profile.
+15. The theft of a motor vehicle is not reported by the customer/policyholder.
+16. The customer attempts to insure a motor vehicle that was reported as stolen or as a total loss.
+Page 41 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 42]
+CBUAE Classification: Public
+Annex 4. Overarching Rules and Principles for the goAML
+System
+The FIU published the goAML XML Submission Guide (please see Section 3.4) with additional detail on
+the rules that an LFI should consider when submitting an STR, SAR, or other report type in the goAML
+system:
+ All LFIs transactions should be reported as bi-party transactions on the goAML system.
+ Reporting entities should submit only suspicious transactions in a report. Any additional
+transactions can be submitted via an AIFT (upon request only).
+ For AIFT submissions where the number of transactions exceed 10,000, reporting entities are
+advised to split them into more than one AIFT; however, the AIFT should use the same “Internal
+Reference Number”.
+ A deposit is composed of a bi-party transaction occurring from a person who may be a conductor
+to an account.
+ A withdrawal is composed of a bi-party transaction occurring from an account to a person.
+ A remittance is composed of a bi-party transaction occurring from one person/account/entity to
+another.
+ A wire transfer is composed of a bi-party transaction occurring from an account to another account.
+ In case a LFI is acting as a correspondent bank within a reported transaction, then the transaction
+is occurring from one account to another, in which both accounts should be classified as ‘Not My
+Client’ by the LFI/Compliance Officer/MLRO.
+ In the case of Exchange Houses, where a currency exchange transaction is being reported, it
+should be reported as a bi-party transaction, where the “from” and “to” parties are the same Person.
+ The conductor field is mandatory when the transaction is conducted from an entity.
+ If the date of birth for a subject (person) is unknown, then the user may enter the 1st of January
+1900 in the ‘Birth Date’ field.
+ In case the expiration date of a registered ID is unknown, then the user may enter the 31st of
+December 2100 in the ‘Expiry Date’ field.
+ When reporting a transaction that involves an account, it is imperative that the LFI also provide
+details for the person or entity associated with the said account.
+Page 42 of 46
+
+[Document: CBUAE_EN_418_VER2.pdf, Page 43]
+CBUAE Classification: Public
+Annex 5. Synopsis of the Guidance
+The purpose of the Guidance is to assist the understanding and effective performance by the United Arab Emirates Central Bank’s (CBUAE)
+Purpose
+licensed financial institutions (LFIs) of their statutory obligations under the legal and regulatory framework in force in the UAE.
+This guidance applies to all natural and legal persons, which are licensed and/or supervised by CBUAE, in the following categories: •National
+Applicability banks, branches of foreign banks, exchange houses, finance companies, payment service providers, registered hawala providers and other LFIs;
+and •Insurance companies, agencies, and brokers.
+Introduction The legal basis of STR reporting is based on the (i) Federal Decree-Law No. (20) of 2018 on Anti-Money Laundering (AML) and Combatting the
+Financing of Terrorism (CFT) and Financing Illegal Organisations and Federal Decree law No. (26) of 2021 To amend certain provisions of
+Federal Decree-law No. (20) of 2018, on anti-money laundering and combating the financing of terrorism and financing of illegal organisations; (ii)
+Cabinet Decision No. (10) of 2019 Concerning the Implementing Regulation for Decree-Law No. (20) of 2018 on AML and CFT and Financing of
+Legal Basis
+Illegal Organisations; and (iii) Cabinet Decision No. (74) of 2020 Regarding Terrorism Lists Regulation and Implementation of UN Security Council
+Resolutions on the Suppression and Combating of Terrorism, Terrorist Financing, Countering the Proliferation of Weapons of Mass Destruction
+and its Financing and Relevant Resolution. The legal basis addresses (i) the consequences for failure to disclose suspicious activity, (ii) protection
+for individuals disclosing suspicious activity, and (iii) the meaning of suspicious transactions.
+The first line of defense plays a critical role in the management of customer and third-party risk and the timely escalation of potentially suspicious
+Role of the First Line of activity. The first line of defense is well-placed to identify suspicious transactions and assess that information once deemed reasonable—collected
+Defense through interactions with a customer—now appears suspicious. Employees within the first line of defense include relationship managers, business
+executives, and back-office operations functions.
+The second line of defense (e.g., compliance employees) provides policy, advice, guidance, assurance, oversight, and challenge to the first line of
+Role of the Second Line defense. While employees in Financial Crime Operations Units (possibly in the first line of defense) can investigate suspicious transactions and
+of Defense document the resultant investigation, the ultimate filing of the STR or SAR should be made by the Compliance Officer or the money laundering
+reporting officer (MLRO) (in the second line of defense). The second line of defense is charged with overseeing the investigations programme.
+Role of the Third Line of The third line of defense identifies gaps, deficiencies, and weaknesses in operational controls owned or overseen by an LFI’s business,
+Identification of Defense operations, and compliance functions.
+Suspicious
+The purpose of transaction monitoring is the ongoing, retrospective monitoring of customers’ and prospective customers’ transactions or activity to
+Transactions
+Purpose of Transaction identify activity anomalous from normal behavior. This may, on further investigation, generate knowledge or reasonable suspicion of financial

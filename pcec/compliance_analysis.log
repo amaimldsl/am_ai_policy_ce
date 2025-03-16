@@ -1,0 +1,168 @@
+2025-03-16 20:54:30,626 - __main__ - INFO - Starting Policy Compliance Analysis Framework
+2025-03-16 20:54:30,626 - __main__ - INFO - Checking prerequisites...
+2025-03-16 20:54:30,627 - __main__ - ERROR - Configuration file agents.yaml not found
+2025-03-16 20:54:30,627 - __main__ - ERROR - Prerequisites check failed. Exiting.
+2025-03-16 21:15:06,764 - __main__ - INFO - Starting Policy Compliance Analysis Framework
+2025-03-16 21:15:06,764 - __main__ - INFO - Checking prerequisites...
+2025-03-16 21:15:06,765 - __main__ - INFO - Testing tools...
+2025-03-16 21:15:06,769 - __main__ - INFO - Testing PDF extraction tool...
+2025-03-16 21:15:08,697 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 21:15:09,801 - pdftest - INFO - 
+===== TESTING PDF TOOL =====
+2025-03-16 21:15:09,805 - pdftest - INFO - Test result: Available chunks (11):
+0: doc_0_CBUAE_EN_418_VER2_pages_31-35.txt
+1: doc_0_CBUAE_EN_418_VER2_pages_44-46.txt
+2: doc_0_CBUAE_EN_418_VER2_pages_11-15.txt
+3: doc_0_CBUAE_EN_418_VER2_pages_26-30.txt
+4: do...
+2025-03-16 21:15:09,805 - pdftest - INFO - 
+===== TESTING CHUNK LISTING =====
+2025-03-16 21:15:09,805 - pdftest - INFO - Available chunks (11):
+0: doc_0_CBUAE_EN_418_VER2_pages_31-35.txt
+1: doc_0_CBUAE_EN_418_VER2_pages_44-46.txt
+2: doc_0_CBUAE_EN_418_VER2_pages_11-15.txt
+3: doc_0_CBUAE_EN_418_VER2_pages_26-30.txt
+4: doc_0_CBUAE_EN_418_VER2_pages_41-43.txt
+5: chunk_index.txt
+6: doc_0_CBUAE_EN_418_VER2_pages_16-20.txt
+7: doc_0_CBUAE_EN_418_VER2_pages_6-10.txt
+8: doc_0_CBUAE_EN_418_VER2_pages_21-25.txt
+9: doc_0_CBUAE_EN_418_VER2_pages_36-40.txt
+10: doc_0_CBUAE_EN_418_VER2_pages_1-5.txt
+2025-03-16 21:15:09,805 - pdftest - INFO - 
+===== TESTING SINGLE CHUNK EXTRACTION =====
+2025-03-16 21:15:09,806 - pdftest - INFO - Total extracted text length: 14252
+2025-03-16 21:15:09,806 - pdftest - INFO - Sample of extracted text:
+[Document: CBUAE_EN_418_VER2.pdf, Page 31]
+CBUAE Classification: Public
+has taken place. If yes, appropriate risk-based Enhanced Due Diligence (“EDD”) and ongoing
+monitoring procedures should be implemented.
+ The customer or business relationship, including the related/associated accounts and relationship
+to the STR or SAR customers, should immediately be classified as a high-risk customer and
+appropriate risk-based EDD and ongoing monitoring procedures should be implemented in order
+to mitigat...
+
+2025-03-16 21:15:09,806 - pdftest - INFO - Number of pages extracted: 0
+2025-03-16 21:15:09,806 - pdftest - INFO - Number of documents referenced: 5
+2025-03-16 21:15:09,806 - pdftest - INFO - 
+===== TESTING SEARCH FUNCTIONALITY =====
+2025-03-16 21:15:09,807 - pdftest - INFO - Search results for 'shall':
+
+has taken place. If yes, appropriate risk-based Enhanced Due Diligence (“EDD”) and ongoing
+monitoring procedures should be implemented.
+ The customer or business relationship, including the related/associated accounts and relationship
+---
+ The customer or business relationship, including the related/associated accounts and relationship
+to the STR or SAR customers, should immediately be classified as a high-risk customer and
+appropriate risk-based EDD and ongoing mo...
+2025-03-16 21:15:09,807 - pdftest - INFO - 
+===== TESTING FILE IO TOOL =====
+2025-03-16 21:15:09,809 - pdftest - INFO - Content written to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/test_file.txt
+2025-03-16 21:15:09,810 - pdftest - INFO - Read result: This is a test file.
+2025-03-16 21:15:09,810 - pdftest - INFO - Read matches write: True
+2025-03-16 21:15:09,810 - __main__ - INFO - PDF extraction test completed successfully
+2025-03-16 21:15:09,810 - __main__ - INFO - Preprocessing documents...
+2025-03-16 21:15:09,813 - __main__ - INFO - Starting document preprocessing...
+2025-03-16 21:15:09,883 - document_processor - INFO - Processing CBUAE_EN_418_VER2.pdf (46 pages)
+2025-03-16 21:15:11,511 - document_processor - INFO -   Split and saved chunk 1/5 into two parts
+2025-03-16 21:15:13,207 - document_processor - INFO -   Split and saved chunk 2/5 into two parts
+2025-03-16 21:15:14,757 - document_processor - INFO -   Split and saved chunk 3/5 into two parts
+2025-03-16 21:15:16,140 - document_processor - INFO -   Split and saved chunk 4/5 into two parts
+2025-03-16 21:15:17,072 - document_processor - INFO -   Split and saved chunk 5/5 into two parts
+2025-03-16 21:15:17,072 - document_processor - INFO - Created 10 document chunks for processing
+2025-03-16 21:15:17,072 - __main__ - INFO - Document preprocessing completed successfully with 10 chunks
+2025-03-16 21:15:17,072 - __main__ - INFO - Importing CrewAI framework...
+2025-03-16 21:15:17,081 - __main__ - ERROR - ❌ CRITICAL ERROR: Analysis failed with exception: No module named 'tools.parser_utils'
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 258, in main
+    from crew import pcec
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/crew.py", line 14, in <module>
+    from tools.RiskAnalysisTool import RiskAnalysisTool
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/tools/RiskAnalysisTool.py", line 5, in <module>
+    from tools.parser_utils import ParserUtils
+ModuleNotFoundError: No module named 'tools.parser_utils'
+
+2025-03-16 21:15:17,081 - __main__ - INFO - Error details have been saved to: error_log_20250316-211517.txt
+2025-03-16 21:16:03,750 - __main__ - INFO - Starting Policy Compliance Analysis Framework
+2025-03-16 21:16:03,750 - __main__ - INFO - Checking prerequisites...
+2025-03-16 21:16:03,751 - __main__ - INFO - Testing tools...
+2025-03-16 21:16:03,751 - __main__ - INFO - Testing PDF extraction tool...
+2025-03-16 21:16:05,502 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-16 21:16:06,592 - pdftest - INFO - 
+===== TESTING PDF TOOL =====
+2025-03-16 21:16:06,596 - pdftest - INFO - Test result: Available chunks (11):
+0: doc_0_CBUAE_EN_418_VER2_pages_31-35.txt
+1: doc_0_CBUAE_EN_418_VER2_pages_44-46.txt
+2: doc_0_CBUAE_EN_418_VER2_pages_11-15.txt
+3: doc_0_CBUAE_EN_418_VER2_pages_26-30.txt
+4: do...
+2025-03-16 21:16:06,596 - pdftest - INFO - 
+===== TESTING CHUNK LISTING =====
+2025-03-16 21:16:06,597 - pdftest - INFO - Available chunks (11):
+0: doc_0_CBUAE_EN_418_VER2_pages_31-35.txt
+1: doc_0_CBUAE_EN_418_VER2_pages_44-46.txt
+2: doc_0_CBUAE_EN_418_VER2_pages_11-15.txt
+3: doc_0_CBUAE_EN_418_VER2_pages_26-30.txt
+4: doc_0_CBUAE_EN_418_VER2_pages_41-43.txt
+5: chunk_index.txt
+6: doc_0_CBUAE_EN_418_VER2_pages_16-20.txt
+7: doc_0_CBUAE_EN_418_VER2_pages_6-10.txt
+8: doc_0_CBUAE_EN_418_VER2_pages_21-25.txt
+9: doc_0_CBUAE_EN_418_VER2_pages_36-40.txt
+10: doc_0_CBUAE_EN_418_VER2_pages_1-5.txt
+2025-03-16 21:16:06,597 - pdftest - INFO - 
+===== TESTING SINGLE CHUNK EXTRACTION =====
+2025-03-16 21:16:06,597 - pdftest - INFO - Total extracted text length: 14252
+2025-03-16 21:16:06,598 - pdftest - INFO - Sample of extracted text:
+[Document: CBUAE_EN_418_VER2.pdf, Page 31]
+CBUAE Classification: Public
+has taken place. If yes, appropriate risk-based Enhanced Due Diligence (“EDD”) and ongoing
+monitoring procedures should be implemented.
+ The customer or business relationship, including the related/associated accounts and relationship
+to the STR or SAR customers, should immediately be classified as a high-risk customer and
+appropriate risk-based EDD and ongoing monitoring procedures should be implemented in order
+to mitigat...
+
+2025-03-16 21:16:06,598 - pdftest - INFO - Number of pages extracted: 0
+2025-03-16 21:16:06,598 - pdftest - INFO - Number of documents referenced: 5
+2025-03-16 21:16:06,598 - pdftest - INFO - 
+===== TESTING SEARCH FUNCTIONALITY =====
+2025-03-16 21:16:06,599 - pdftest - INFO - Search results for 'shall':
+
+has taken place. If yes, appropriate risk-based Enhanced Due Diligence (“EDD”) and ongoing
+monitoring procedures should be implemented.
+ The customer or business relationship, including the related/associated accounts and relationship
+---
+ The customer or business relationship, including the related/associated accounts and relationship
+to the STR or SAR customers, should immediately be classified as a high-risk customer and
+appropriate risk-based EDD and ongoing mo...
+2025-03-16 21:16:06,599 - pdftest - INFO - 
+===== TESTING FILE IO TOOL =====
+2025-03-16 21:16:06,601 - pdftest - INFO - Content written to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/test_file.txt
+2025-03-16 21:16:06,602 - pdftest - INFO - Read result: This is a test file.
+2025-03-16 21:16:06,602 - pdftest - INFO - Read matches write: True
+2025-03-16 21:16:06,602 - __main__ - INFO - PDF extraction test completed successfully
+2025-03-16 21:16:06,602 - __main__ - INFO - Preprocessing documents...
+2025-03-16 21:16:06,602 - __main__ - INFO - Starting document preprocessing...
+2025-03-16 21:16:06,673 - document_processor - INFO - Processing CBUAE_EN_418_VER2.pdf (46 pages)
+2025-03-16 21:16:08,132 - document_processor - INFO -   Split and saved chunk 1/5 into two parts
+2025-03-16 21:16:09,782 - document_processor - INFO -   Split and saved chunk 2/5 into two parts
+2025-03-16 21:16:11,339 - document_processor - INFO -   Split and saved chunk 3/5 into two parts
+2025-03-16 21:16:12,741 - document_processor - INFO -   Split and saved chunk 4/5 into two parts
+2025-03-16 21:16:13,679 - document_processor - INFO -   Split and saved chunk 5/5 into two parts
+2025-03-16 21:16:13,680 - document_processor - INFO - Created 10 document chunks for processing
+2025-03-16 21:16:13,680 - __main__ - INFO - Document preprocessing completed successfully with 10 chunks
+2025-03-16 21:16:13,680 - __main__ - INFO - Importing CrewAI framework...
+2025-03-16 21:16:13,682 - __main__ - ERROR - ❌ CRITICAL ERROR: Analysis failed with exception: No module named 'tools.parser_utils'
+Detailed error information:
+Traceback (most recent call last):
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/main.py", line 258, in main
+    from crew import pcec
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/crew.py", line 14, in <module>
+    from tools.RiskAnalysisTool import RiskAnalysisTool
+  File "/home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/tools/RiskAnalysisTool.py", line 5, in <module>
+    from tools.parser_utils import ParserUtils
+ModuleNotFoundError: No module named 'tools.parser_utils'
+
+2025-03-16 21:16:13,682 - __main__ - INFO - Error details have been saved to: error_log_20250316-211613.txt
