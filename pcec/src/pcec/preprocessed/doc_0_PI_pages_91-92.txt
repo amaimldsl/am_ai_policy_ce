@@ -1,0 +1,143 @@
+[Document: PI.pdf, Page 90 (Overlap)]
+CBUAE Classification: Public
+distinct tranches is the key feature of securitisation; similar structures that merely “pass through”
+the cash flows to the claims without modification are not considered securitisations.
+For securitisation exposures, payments to the investors depend upon the performance of
+the specified underlying exposures, as opposed to being derived from an obligation of the entity
+originating those exposures. The stratified/tranched structures that characterize securitisations
+differ from ordinary senior/subordinated debt instruments in that junior securitisation tranches can
+absorb losses without interrupting contractual payments to more senior tranches, whereas
+subordination in a senior/subordinated debt structure is a matter of priority of rights to the
+proceeds of a liquidation.
+In some cases, transactions that have some of the features of securitisations should not
+be treated as such for capital purposes. For example, transactions involving cash flows from real
+estate (e.g., in the form of rents) may be considered specialized lending exposures. Banks should
+consult with Central Bank when there is uncertainty about whether a given transaction should be
+considered a securitisation.
+2. Senior Securitisation exposures
+A securitisation exposure is considered a senior exposure if it is effectively backed or
+secured by a first claim on the entire amount of the assets in the underlying securitised pool.
+While this generally includes only the most senior position within a securitisation tranche,
+in some instances there may be other claims that, in a technical sense, may be more senior in
+the waterfall (e.g., a swap claim) but may be disregarded for the purpose of determining which
+positions are treated as senior.
+If a senior tranche is retranched or partially hedged (i.e., not on a pro rata basis), only the
+new senior part would be treated as senior for capital purposes.
+In some cases, several senior tranches of different maturities may share pro rata in loss
+allocation. In that case, the seniority of these tranches is unaffected – they all are considered to
+be senior – since they all benefit from the same level of credit enhancement. (Note that in this
+case, the material effects of differing tranche maturities are captured by maturity adjustments to
+the risk weights assigned to the securitisation exposures, per the Standards.)
+In a traditional securitisation where all tranches above the first-loss piece are rated, the
+most highly rated position should be treated as a senior tranche. When there are several tranches
+that share the same rating, only the most senior tranche in the cash flow waterfall should be
+treated as senior (unless the only difference among them is the effective maturity). In addition,
+when the different ratings of several senior tranches only result from a difference in maturity, all
+of these tranches should be treated as senior.
+In a typical synthetic securitisation, an unrated tranche can be treated as a senior tranche
+provided that all of the conditions for inferring a rating from a lower tranche that meets the
+definition of a senior tranche are fulfilled.
+Usually, a liquidity facility supporting an ABCP program would not be the most senior
+position within the program; instead, the commercial paper issued by the program, which benefits
+from the liquidity support, typically would be the most senior position. However, when a liquidity
+facility that is sized to cover all of the outstanding commercial paper and other senior debt
+supported by the pool is structured so that no cash flows from the underlying pool can be
+91
+
+[Document: PI.pdf, Page 91]
+CBUAE Classification: Public
+transferred to other creditors until any liquidity draws are repaid in full, the liquidity facility can be
+treated as a senior exposure. Otherwise, if these conditions are not satisfied, or if for other reasons
+the liquidity facility constitutes a mezzanine position in economic substance rather than a senior
+position in the underlying pool, the liquidity facility should be treated as a non-senior exposure.
+3. Operational requirements for the recognition of risk transference
+The Standards requires that banks obtain a legal opinion to confirm true sale to
+demonstrate that the transferor does not maintain effective or indirect control over the transferred
+exposures and that the exposures are legally isolated from the transferor in such a way (e.g.,
+through the sale of assets or through sub-participation) that the exposures are put beyond the
+reach of the transferor and its creditors, even in bankruptcy or receivership. However, that legal
+opinion need not be limited to legal advice from qualified external legal counsel; it may be in the
+form of written advice from in-house lawyers.
+For synthetic securitisations, risk transference through instruments such as credit
+derivatives may be recognized only if the instruments used to transfer credit risk do not contain
+terms or conditions that limit the amount of credit risk transferred. Examples of terms or conditions
+that would violate this requirement include the following:
+(a) Clauses that materially limit the credit protection or credit risk transference, such as an
+early amortization provision in a securitisation of revolving credit facilities that effectively
+subordinates the bank’s interest, significant materiality thresholds below which credit
+protection is deemed not to be triggered even if a credit event occurs, or clauses that
+allow for the termination of the protection due to deterioration in the credit quality of the
+underlying exposures.
+(b) Clauses that require the originating bank to alter the underlying exposures to improve
+the pool’s average credit quality.
+(c) Clauses that increase the bank’s cost of credit protection in response to deterioration in
+the pool’s quality.
+(d) Clauses that increase the yield payable to parties other than the originating bank, such
+as investors and third-party providers of credit enhancements, in response to a
+deterioration in the credit quality of the reference pool.
+(e) Clauses that provide for increases in a retained first-loss position or credit enhancement
+provided by the originating bank after the transaction’s inception.
+4. Due diligence
+The Standards requires banks to have a thorough understanding of all structural features of a
+securitisation transaction that would materially affect the performance of the bank’s exposures to
+the transaction. Common structural features that are particularly relevant include those related to
+the payment waterfall incorporated in the structure, which is the description of the order of
+payment for the securitisation, under which higher-tier tranches receive principal and interest
+first, before lower-tier tranches are paid. Credit enhancements and liquidity enhancements also
+are important structural features; these may take the form of cash advance facilities, letters of
+credit, guarantees, or credit derivatives, among others. Effective due diligence also should
+consider unusual or unique aspects of a particular securitisation structure, such as the specific
+nature of the conditions that would constitute default under the structure.
+92
+
+[Document: PI.pdf, Page 92]
+CBUAE Classification: Public
+5. Treatment of Securitisation exposures
+1. Risk weights for off-balance-sheet exposures
+The Standards requires that banks apply a 100% CCF to any securitisation-related off-
+balance-sheet exposures that are not credit risk mitigants. One example of such an off-balance-
+sheet exposure that may arise with securitisations is a commitment for servicer cash advances,
+under which a servicer enters into a contract to advance cash to ensure an uninterrupted flow of
+payments to investors. The BCBS securitisation framework provides national discretion to permit
+the undrawn portion of servicer cash advances that are unconditionally cancellable without prior
+notice to receive the CCF for unconditionally cancellable. The Central Bank has chosen not to
+adopt this discretionary treatment, and instead requires a 100% CCF for all off-balance-sheet
+exposures, including undrawn servicer cash advances.
+2. Adjustment of risk-weights for overlapping exposures
+Banks may adjust risk weights for overlapping exposures. An exposure A overlaps another
+exposure B if in all circumstances the bank can avoid any loss on exposure B by fulfilling its
+obligations with respect to exposure A. For example, if a bank holds notes as an investor but
+provides full credit support to those notes, its full credit support obligation precludes any loss from
+its exposure to the notes. If a bank can verify that fulfilling its obligations with respect to exposure
+A will preclude a loss from its exposure to B under any circumstance, the bank does not need to
+calculate risk-weighted assets for its exposure B.
+To demonstrate an overlap, a bank may, for the purposes of calculating capital
+requirements, split or expand its exposures. That is, splitting exposures into portions that overlap
+with another exposure held by the bank and other portions that do not overlap, or expanding
+exposures by assuming for capital purposes that obligations with respect to one of the overlapping
+exposures are larger than those established contractually. The latter could be done, for instance,
+by expanding either the assumed extent of the obligation, or the trigger events to exercise the
+facility. A bank may also recognize overlap between exposures in the trading book and
+securitisation exposures in the banking book, provided that the bank is able to calculate and
+compare the capital charges for the relevant exposures.
+3. External Ratings-Based Approach (SEC-ERBA)
+To be eligible for use in the securitisation framework, the external credit assessment must
+take into account and reflect the entire amount of credit risk exposure the bank has with regard
+to all payments owed to it. For example, if a bank is owed both principal and interest, the
+assessment must fully take into account and reflect the credit risk associated with timely
+repayment of both principal and interest.
+A bank is not permitted to use any external credit assessment for risk-weighting purposes
+where the assessment is at least partly based on unfunded support provided by the bank itself.
+For example, if a bank buys ABCP where it provides an unfunded securitisation exposure
+extended to the ABCP program (e.g., liquidity facility or credit enhancement), and that exposure
+plays a role in determining the credit assessment on the ABCP, the bank must treat the ABCP as
+if it were not rated. The bank also must hold capital against the liquidity facility and/or credit
+enhancement as a securitisation exposure.
+93
+
+[Document: PI.pdf, Page 93]
+CBUAE Classification: Public
+External credit assessments used for the SEC-ERBA must be from an eligible external
+credit assessment institution (ECAI) as recognized by the Central Bank in accordance with the
+Central Bank standards on rating agency recognition. However, the securitisation Standards
+additionally requires that the credit assessment, procedures, methodologies, assumptions and

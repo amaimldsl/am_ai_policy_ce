@@ -1,0 +1,135 @@
+[Document: PI.pdf, Page 45 (Overlap)]
+CBUAE Classification: Public
+Aggregate to get hedging set add-on,
+Aggregate absolute value of currency-
+with full offset for systematic components
+pair add-ons to get hedging set add-on
+and no offset for idiosyncratic
+for FX derivatives
+components
+8. Asset-Class Add-On Calculation
+Simple summation of add-ons across hedging sets for each asset class
+9. Aggregate Add-On Calculation
+Simple summation of asset-class add-ons across asset classes
+10. Potential Future Exposure (PFE) Calculation
+Apply multiplier reflecting impact of any negative contract value or over-
+collateralization to aggregate add-on, possibly reducing PFE by up to
+95%
+11. Exposure at Default (EAD) Calculation
+Sum RC and PFE for the netting set, and multiply by 1.4. If the resulting
+EAD for margined trades exceeds EAD if un-margined, use the un-
+margined EAD.
+46
+
+[Document: PI.pdf, Page 46]
+CBUAE Classification: Public
+IV. Frequently Asked Questions
+A. Netting
+Question A1: Does a bank need written approval for each netting agreement it has in place,
+or will the Central Bank provide a list of pre-approved jurisdictions or counterparties?
+The bank should establish an internal process that considers the factors identified in the
+Standards. That process should be subject to internal review and challenge per the Standards.
+The Central Bank will review the identification of netting sets as part of the supervisory process,
+and notify the bank of any determinations that netting is not appropriate. The Central Bank will
+not provide a list of pre-approved jurisdictions or counterparties.
+Question A2: Do amendments to existing netting agreements require approval from the
+Central Bank?
+Amendments that do not raise new questions about the validity of netting need not be raised to
+the Central Bank for consideration.
+Question A3: What if netting is not valid? Can netting sets still be used for the calculation?
+If the requirements of the Standards for recognition of netting are not satisfied, then each
+transaction is its own netting set – a netting set consisting of a single transaction – and many of
+the calculations are much simpler.
+Question A4: Is use of the standard ISDA agreement sufficient to apply netting?
+No, use of the standard ISDA agreement is not in itself sufficient to demonstrate that netting is
+validand legally enforceable in the relevant jurisdictions under the requirements of the Standards.
+Question A5: Can we treat trades with a UAE counterparty (UAE Bank or Foreign Bank
+operating in the UAE) having a signed ISDA / CSA as a netting set even though the UAE is
+not a netting jurisdiction?
+No, as noted above, use of the standard ISDA agreement is not in itself sufficient to demonstrate
+that netting is valid and legally enforceable in the relevant jurisdictions under the requirements of
+the Standards, and is not a replacement for a determination regarding the legal enforceability of
+netting.
+Question A6: If there is no netting agreement of any sort in place, what would the treatment
+be for trades with negative mark to market? Will they be included or excluded from the
+exposure calculation?
+Trades with negative value have RC=0, but still have counterparty credit risk, which will be
+reflected in the calculation of the PFE component of exposure.
+B. Collateral
+Question B1: What haircuts should be applied to collateral for the calculations of exposure
+net of collateral?
+Banks should apply the standard supervisory haircuts from the capital framework.
+Question B2: If a counterparty places initial cash margin against a derivatives facility, but
+has no signed ISDA / CSA in place, can this cash margin be considered as collateral for
+Replacement Cost calculations?
+Yes, provided the arrangement allows the bank to retain the cash in the event of a default by the
+counterparty.
+Question B3: Can collateral received under a CSA be considered as part of the RC
+calculation in absence of a netting agreement?
+47
+
+[Document: PI.pdf, Page 47]
+CBUAE Classification: Public
+Yes. Note that in the absence of netting, the netting set would consist of a single trade and any
+collateral corresponding to that trade.
+C. Classification of Trades
+Question C1: For a currency swap involving principal and interest exchange, since there
+is exchange rate risk in addition to interest rate risk, do we need to assign the notional to
+both the currency and interest rate classes?
+Yes, derivatives with exposure to more than one primary risk factor should be allocated to all
+relevant asset classes for the PFE calculation, so this transaction should be included in its full
+amount in both the Foreign Exchange hedging set and the Interest Rate hedging set.
+Question C2: In a cross-currency swap with principal exchange at the beginning and at the
+end, and with fixed-rate to fixed-rate interest exchange so that there is no interest rate risk,
+should this trade be included only in the foreign currency category?
+Yes, it should be treated as FX exposure.
+Question C3: Is there any prescribed PFE treatment for a derivative such as a weather
+derivative?
+Derivatives with "unusual" underlying such as weather or mortality are included in the "Other"
+hedging set within the Commodity asset class.
+Question C4: Can trades with gold as the underlying asset be treated as currency
+derivatives?
+No. Although gold often has been grouped with foreign exchange historically, for the CCR
+Standards it is to be treated as a metal within the commodity asset class.
+D. Supervisory Delta Adjustment
+Question D1: What is the Supervisory Delta for FX Swaps and FX Forwards?
+These are linear contracts, so the Supervisory Delta is either +1 (for long positions) or -1 (for short
+positions).
+Question D2: The Standards states that the Supervisory Delta for a short position (one that
+is not an option or CDO) should be -1. However, if netting is not permitted, should the
+Supervisory Delta be set to +1 for all the short (as well as the long) positions?
+In principle, the Supervisory Delta should be -1 if the position is short. However, in the case of a
+single-trade netting set, there is no possibility of offsetting, so the sign of the Supervisory Delta
+does not affect the calculation.
+Question D3: In the case of an option strategy such as a straddle or strangle involving
+more than one type of option (e.g. a long call and a long put), which Supervisory Delta
+should be used?
+In the case of positions that involve combinations of options, the position should be decomposed
+into its simpler option components, appropriate Supervisory Deltas determined for each
+component, and the weighted average Supervisory Delta applied to the position as a whole.
+Question D4: In the case of an option strategy involving multiple options with only one leg
+having a possibility of exercise, can we consider this structure as a "short" position if we
+are net receiver of the premium and a "long" position if we are net payer of premium?
+As noted above, in the case of positions that involve combinations of options, the position should
+be decomposed into its simpler option components, appropriate Supervisory Deltas determined
+for each component, and the weighted average Supervisory Delta applied to the position as a
+48
+
+[Document: PI.pdf, Page 48]
+CBUAE Classification: Public
+whole. In this case, some of the Supervisory Deltas would be positive, and some would be
+negative. The sign of the overall Supervisory Delta would depend on the relative size of the
+positions, and the associated magnitude (in absolute value) of the deltas.
+Question D5: Should the same set of Supervisory Deltas be used in the case of path
+dependent options such as barrier options, or other complex options? For such products,
+the simple option delta formula may not be appropriate.
+Banks should apply the standardised formulas for the CCR calculations, including the Supervisory
+Delta adjustment for all options. Note that use of a single, simplified formula for the Supervisory
+Delta for options is a feature of the Standardised Approach. Like all standardised approaches, the
+SA-CCR involves numerous trade-offs between precision and simplicity. Many other aspects of
+the Standardised Approach use approximations, such as the assumption that a single correlation
+should be used for all commodity derivatives, or the use of a single volatility for all FX options.
+Banks should certainly use more analytically appropriate deltas for internal purposes such as
+valuation and risk management.
+E. Hedging Sets
+Question E1: Can different floating rates within the same base currency be included in

@@ -1,0 +1,184 @@
+
+reference entity as long as a credit event on the senior reference asset would result
+in a credit event on the subordinated reference asset.
+ For tranched products, the credit protection purchased through credit derivatives
+must be on a reference obligation with the same level of seniority.
+Another required condition is that the credit protection purchased through credit
+derivatives is not purchased from a counterparty whose credit quality is highly correlated with
+the value of the reference obligation, which would generate wrong-way risk. Specifically, the
+credit quality of the counterparty must not be positively correlated with the value of the
+reference obligation (i.e. the credit quality of the counterparty falls when the value of the
+reference obligation falls and the value of the purchased credit derivative increases). This
+determination should reflect careful analysis of the actual risk; a legal connection does not
+need to exist between the counterparty and the underlying reference entity.
+For the purposes of the leverage ratio, the term “written credit derivative” refers to a
+broad range of credit derivatives through which a bank effectively provides credit protection
+and is not limited solely to credit default swaps and total return swaps. For example, all
+options where the bank has the obligation to provide credit protection under certain
+conditions qualify as “written credit derivatives.” The effective notional amount of such
+options sold by the bank may be offset by the effective notional amount of options by which
+the bank has the right to purchase credit protection that fulfils the conditions stated in the
+Standards. For example, to have the same or more conservative material terms, the strike
+price of the underlying purchased credit protection would need to be equal to or lower than
+the strike price of the underlying sold credit protection.
+f. Securities Financing Transaction (SFT) Exposures
+Secured lending and borrowing in the form of SFTs is an important source of
+leverage. How the framework measures exposure from SFTs depends on whether the bank
+is acting as a principal or agent. For principal banks, the exposure measure is equal to the
+sum of gross SFT assets (gross receivables related to SFTs, with some adjustments) and
+an amount representing counterparty credit risk. When acting as an agent, depending on the
+structure of the SFT, a bank may be able to ignore the collateral involved and reflect only the
+counterparty credit risk component, or it may have to include both. The framework also
+198
+
+[Document: PIII.pdf, Page 19]
+CBUAE Classification: Public
+includes specific rules for SFTs that qualify for sale treatment under the operative accounting
+regime.
+A degree of netting is allowed for SFTs, but only where strict criteria are met (for
+example, same counterparty, same maturity date). In these cases, the net position provides
+the better measure of the degree of leverage in a set of transactions between counterparties.
+When a bank acts as a principal, its SFT exposure is the sum of gross SFT assets
+(subject to adjustments) and a measure of counterparty credit risk calculated as the current
+exposure without an add-on for potential future exposure.
+For SFT assets subject to novation and cleared through QCCPs, “gross SFT assets
+recognized for accounting purposes” are replaced by the final contractual exposure, that is,
+the exposure to the QCCP after the process of novation has been applied, given that pre-
+existing contracts have been replaced by new legal obligations through the novation process.
+However, banks can only net cash receivables and cash payables with a QCCP if the
+requisite criteria are met. Any other netting permitted by the QCCP is not permitted for the
+purposes of the Basel III leverage ratio. Gross SFT assets recognized for accounting
+purposes must not recognize any accounting netting of cash payables against cash
+receivables (e.g. as currently permitted under the IFRS accounting framework). This
+regulatory treatment has the benefit of avoiding inconsistencies from netting which may arise
+across different accounting regimes.
+Where a bank acting as an agent in an SFT does not provide an indemnity or
+guarantee to any of the involved parties, the bank is not exposed to the SFT and therefore
+need not recognize those SFTs in its leverage ratio exposure measure.
+In situations where a bank is economically exposed beyond providing an indemnity
+or guarantee for the difference between the value of the security or cash its customer has
+lent and the value of the collateral the borrower has provided, a further exposure equal to
+the full amount of the security or cash must be included in the leverage ratio exposure
+measure. An example of this scenario could arise due to the bank managing collateral
+received in the bank’s name or on its own account rather than on the customer’s or
+borrower’s account (e.g. by on-lending or managing unsegregated collateral, cash or
+securities). However, this does not apply to client omnibus accounts that are used by agent
+lenders to hold and manage client collateral provided that client collateral is segregated from
+the bank’s proprietary assets and the bank calculates the exposure on a client-by-client
+basis.
+g. Off-Balance Sheet Items
+OBS items arise from such transactions as credit and liquidity commitments,
+guarantees and standby letters of credit. The amount that is included in the exposure
+measure is determined by multiplying the notional amount of an OBS item by the relevant
+credit conversion factor (CCF) from the Central Bank’s Standards for Leverage Ratio.
+The off-balance-sheet exposure measure will be calculated using credit equivalent
+values. This reflects the fact that the degree of leverage in these transactions is not the same
+as if banks had made fully funded loans. That is, a 100% credit conversion factor (CCF)
+overestimates leverage. The use of standardised CCFs retains a consistent and
+conservative treatment that is not dependent on the risk of the bank’s counterparty.
+Where there is an undertaking to provide a commitment on an off-balance-sheet item,
+banks are to apply the lower of the two applicable CCFs. For example:
+ If a bank has a commitment to open short-term self-liquidating trade letters of credit
+arising from the movement of goods, a 20% CCF will apply, instead of a 40% CCF;
+and
+199
+
+[Document: PIII.pdf, Page 20]
+CBUAE Classification: Public
+ If a bank has an unconditionally cancellable commitment to issue direct credit
+substitutes, a 10% CCF will apply, instead of a 100% CCF.
+III. Frequently Asked Questions
+Question 1: Is the starting point for the leverage ratio exposure calculation total on-
+balance-sheet assets as reported in the financial statements?
+Yes, total assets are the correct starting point, with adjustments as specified in the
+Standards, and with additions for off-balance-sheet exposure as required under the
+Standards.
+Question 2: Should aspects of derivatives exposures or SFT exposures that are on
+the balance sheet be included as part of on-balance-sheet exposure, or as part of
+derivatives or SFT exposure?
+Certain exposures related to derivatives may appear on the balance sheet; the same is true
+for SFTs. Those exposures related to derivatives or SFTs should be excluded from the on-
+balance-sheet component of the leverage ratio exposure calculation, and instead included
+with either derivatives exposure or SFT exposure, as appropriate.
+Question 3: Why is collateral on the bank’s balance sheet part of the exposure
+measure for the leverage ratio calculation?
+The leverage ratio framework as developed by the Basel Committee treats all assets on a
+bank’s balance sheet as creating equal risk. If the bank holds collateral on its balance sheet,
+the collateral is an asset of the bank, and changes in the value of that collateral affect the
+bank’s total assets and capital. In this sense, the leverage ratio calculation treats collateral
+as an additional source of risk exposure to the bank, even though the purpose of taking the
+collateral may be credit risk mitigation. The leverage ratio treats most types of secured
+exposures the same way, on a gross basis without taking into account the effects of
+collateral.
+Question 4: Is the calculation of counterparty credit risk exposure the same as the
+calculation used in the SA-CCR standards of the Central Bank?
+Not quite – the CCR exposure calculation for the leverage ratio is similar, but with some
+differences. Potential Future Exposure is different because the PFE multiplier is set equal to
+1, rather than possibly being less than 1 as under the CCR Standards. Replacement Cost
+also differs, due to some differences in the treatment of eligible collateral. The requirements
+are covered in para 44 to 46 of the Leverage Ratio Standards.
+Question 5: Why is the PFE multiplier set to 1 for derivatives in the calculation of the
+leverage ratio exposure measure?
+The PFE multiplier is set to 1 because unlike the SA-CCR calculation, there is no “credit”
+given to the bank for overcollateralization for the leverage ratio. This is in the spirit of other
+aspects of the leverage ratio exposure calculation, which strictly limits the recognition of
+various forms of credit risk mitigation.
+Question 6: What types of commitments can qualify for a CCF less than 40%?
+Commitments that are unconditionally cancellable at any time by the bank without prior
+notice, or that effectively provide for automatic cancellation due to deterioration in a
+borrower’s creditworthiness, without observed constraints on the bank’s ability to cancel
+such commitments. As noted in the Standards, such commitments are subject to a 10%
+CCF.
+Question 7: The Standards states “general provisions or general loan loss reserves
+which have reduced Tier 1 capital may be deducted from the leverage ratio exposure
+measure.” Does this imply that for banks under the standardised approach all general
+provisions held on the balance sheet are permitted to be deducted from the exposure
+measure?
+200
+
+[Document: PIII.pdf, Page 21 (Overlap)]
+CBUAE Classification: Public
+Yes, that interpretation is correct.
+Question 8: The Standards does not mention interest in suspense; are bank’s allowed
+to deduct this from the leverage ratio exposure measure?
+No, interest in suspense should be included as an exposure. However, specific provisions
+for interest in suspense can be deducted.
+IV. Examples: Calculation of Gross SFT Assets
+This section provides simple examples to help clarify the calculation of adjusted gross SFT
+assets for the leverage ratio exposure measure. These examples are for guidance only;
+banks should consult the actual Leverage Ratio Standards for the specific requirements.
+Note that the SFT examples do not include the calculation of CCR exposure for the SFTs,
+which is required under the leverage ratio standards.
+For purposes of these examples, consider a bank with a simple initial balance sheet
+consisting of assets of 200 cash and 400 in investment securities, funded by 600 in equity,
+with no other initial liabilities. In simple T-account format, the bank’s initial position is the
+following:
+Assets Liabilities and Equity
+Cash 200
+Investment Securities 400 Equity 600
+600 600
+Example 1: Single Repurchase Agreement
+A customer obtains financing from the bank through a repurchase agreement. The customer
+provides securities to the bank of 110, receives cash of 100, and commits to repurchase the
+securities at a specified future date. This is the bank’s only SFT.
+After thetransaction, the bank’s balance sheet appears as follows:
+Assets Liabilities and Equity
+Cash 100
+Investment Securities 510
+Repo Encumbered
+Securities -110
+Cash Receivable 100 Equity 600
+600 600
+For purposes of the leverage ratio, gross SFT assets would be the sum of the cash receivable
+created and the investment securities received, 100+110, for a total of 210. However, this
+total is reduced by the value of the securities received under the SFT because the bank has
+recognized the securities as an asset on its balance sheet,leading to an adjusted gross SFT
+asset value of 100 for inclusion in the leverage ratio exposure measure.
+Note that in this example, the net effect on leverage ratio exposure would be zero, since on-
+balance-sheet assets exclusive of SFT assets decline by 100.
+Example 2: Single Reverse Repurchase Agreement
+A bank obtains funding by reversing out securities in exchange for cash. The bank receives
+100 cash, repos out 110 in securities, and will repurchase the securities at a specified future
+date. This is the bank’s only SFT.
+After thetransaction, the bank’s balance sheet appears as follows:
+201

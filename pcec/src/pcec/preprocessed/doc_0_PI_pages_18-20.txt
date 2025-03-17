@@ -1,0 +1,143 @@
+
+cancel distributions/payments on the instrument, nor must they act in a way that could hinder the
+recapitalization of the bank. For example, it would not be permitted for a stopper on an Additional
+Tier 1 instrument to:
+i. attempt to stop payment on another instrument where the payments on this other
+instrument were not also fully discretionary;
+ii. prevent distributions to shareholders for a period that extends beyond the point in time
+that dividends/coupons on the instrument are resumed;
+iii. impede the normal operation of the bank or any restructuring activity (including
+acquisitions/disposals).
+8. A dividend stopper may act to prohibit actions that are equivalent to the payment of
+19
+
+[Document: PI.pdf, Page 19]
+CBUAE Classification: Public
+dividend, such as the bank undertaking discretionary share buybacks. The dividend stopper will
+remain until one coupon following the dividend stopper date has been made in full or an amount
+equal to the same has been duly set aside or provided for in full for the benefit of the holders of
+the instrument.
+Maximum Distributable Amount (MDA):
+To further clarify the MDA’s calculation, below is an example of the calculation:
+Bank Capital Holdings 14.0%
+Bank Capital Requirements %
+CET1 7.0%
+AT1 1.5%
+Tier 2 2.0%
+Pillar 2 0.0%
+Capital Conservation Buffer 2.5%
+Countercyclical Buffer 0.000%
+D-SIB Buffer 1.5%
+Total 14.5%
+Combined Buffer 4.0%
+Quartile of Buffer 1.0%
+Bank Capital Gap 0.5%
+Quartile 1 Quartile 2 Quartile 3 Quartile 4
+0.0 1.0% 1.0% 2.0% 2.0% 3.0% 3.0% 4.0%
+The bank first will need to fulfill all minimum requirements. As the bank only has CET1 capital
+available, it needs to use CET1 capital to fulfill all minimum capital requirements
+(10.5%=7%+1.5%+2%). After fulfilling the minimum capital requirements, the bank has still 3.5%
+(=14.0%-10.5%) CET1 capital available to fulfill the combined buffer requirements of 4%. Hence,
+the Bank’s capital gap is 0.5%.
+From the table above 3.5% means that the bank is in the fourth of the buffer requirements.
+Therefore, the MDA is restricted to 60% of the bank’s earnings, which means the bank may
+distribute no other restrictions and limitations considered, up to 60% of the earnings in the form
+of dividend, Additional Tier 1 payments, and variable remuneration.
+Note that items considered to be distributions include dividends and share buybacks,
+discretionary payments on other Tier 1 capital instruments and discretionary bonus payments to
+staff. Payments that do not result in a depletion of CET1, which may for example include certain
+scrip dividends, are not considered distributions.
+20
+
+[Document: PI.pdf, Page 20]
+CBUAE Classification: Public
+Note also that earnings are defined as distributable profits calculated prior to the deduction of
+elements subject to the restriction on distributions. Earnings are calculated after the tax, which
+would have been reported had none of the distributable items been paid. As such, any tax impact
+of making, such distributions are reversed out. Where a bank does not have positive earnings
+and has a CET1 ratio less than 9.5%, it would be restricted from making positive net distributions.
+Gross-up Clauses:
+Gross-up clauses for Additional Tier 1:
+9. Gross up clauses are acceptable only if:
+i. It is activated by decision of the local tax authority of the issuer and not the investor,
+ii. The increased payments do not exceed distributable items,
+iii. The gross-up is in relation to the dividend and not the principal.
+Gross up Clauses for Tier 2:
+10. The second condition related to distributable items is not relevant for Tier 2 instruments,
+as Tier 2 coupons are not restricted by the amount of available distributable items. Therefore, Tier
+2 gross-up clauses can be considered as acceptable if they are activated by a decision of the
+local tax authority of the issuer, and if they relate to dividend and not on principal. The other two
+conditions on gross-up clauses are, however, activation is still required by a local tax authority of
+the issuer and not the investor, and the gross-up is in relation to the dividend payments only not
+principal.
+Point of Non-Viability (PONV):
+11. The issuance of any new shares as a result of the Point of Non-Viability must occur prior
+to any public sector injection of capital so that the capital provided by the public sector is not
+diluted.
+Further guidance on grandfathering:
+12. If a Tier 2 instrument eligible for grandfathering begins its final five-year amortisation
+period prior to 1st January 2018, the base for grandfathering in this case must take into account
+the amortised amount, not the full nominal amount. As for the rate, if a Tier 2 instrument eligible
+for grandfathering begins its final amortisation period on 1st January 2018, then individual
+instruments will continue to be amortised at a rate of 20% per year while the grandfathering cap
+will bereduced at a rate of 10% per year. Note that each tranche needs to be treated as a separate
+tranche.
+Amortisation of Tier 2 instruments:
+13. During the last 5 years of the eligibility before maturity, the eligibility of Tier 2 instruments
+is written down by 20% per year, i.e. the eligible amount is calculated by multiplying:
+i. The nominal amount of the instruments on the first day of the final five year period of their
+contractual maturity divided by the number of calendar days in that period;
+ii. The number of remaining calendar days until the contractual maturity of the instruments.
+21
+
+[Document: PI.pdf, Page 21 (Overlap)]
+CBUAE Classification: Public
+Documents required to be submitted for the application to issue new Tier Capital
+Instruments
+1. The CN-01 form should be completed, filled and signed by the bank's Chief Executive Officer
+(CEO), Chief Financial Officer (CFO), Head of Internal Audit, Head of Compliance and Head
+of Risk.
+2. Full terms and conditions, together with the risk factors relating to the instrument.
+i. Instruments of Islamic banks issued through an SPV must also provide the contract
+between the bank and the SPV
+3. Shareholder Approval:
+i. Tier capital instruments require shareholder approval.
+ii. The approval shall relate to an issuance of the specific planned Tier capital instrument
+(Additional Tier 1 or subordinated Tier 2). Moreover, the approval should clearly mention
+that the instrument is subordinated; coupon payments may not be paid under certain
+circumstances, and contains a Point of Non-Viability (PONV) condition.
+4. Legal opinion letters:
+i. Legal Opinion of an independent appropriately qualified and experienced lawyer that the
+terms and conditions are compliant with the requirements detailed in the Capital
+Regulations, Standards and Guidance.
+ii. Legal opinion of an independent appropriately qualified and experienced lawyer that the
+obligations contained in terms and conditions will constitute legal, valid, binding and
+enforceable obligations.
+iii. Legal opinion of an independent appropriately qualified and experienced lawyer that the
+Self-Assessment of the issuing bank meets the Conditions and the Capital Regulations
+5. Capital planning and forecast:
+The Business as Usual (BAU) case should be formulated, such as:
+a) Amount of assumed issuance and the expected issuance date (e.g. Q1 2018).
+b) Capital structure: % in CET1, AT1, Tier 2 and deductions (using Basel 3 capital
+components)
+c) Five (5) year forecast of the Balance sheet, Profit & loss P&L, Risk Weighted Assets RWA.
+d) Amortization of Tier Capital Issuances: Subordinated Tier 2 in the last 5 years prior to
+maturity and AT1 Instruments, if they fall under a grandfathering rule, for example, 10%
+per year.
+e) Key assumptions and analysis (e.g. on balance growth, asset structure, conversation
+factors CCF for off balance, operational and market risk, total assets growth, of which
+businesses that will be the main driver for such growth) and CRWA (i.e. on balance sheet
+exposure in different industry) in numerical as well as qualitative aspect.
+6. Stress Testing Scenarios:
+The Stress Testing should be submitted in form of a presentation including the underlying data in
+Excel sheet.
+Two Scenarios should be provided as part of the presentation:
+a) Top 2 customers defaulting (point in time analysis permitted: End of Year): Definition of
+top 2 customers; name of top 2 customers; exposure (including on and off balance
+exposures); what type of eligible collateral and value of collateral, with two sub-scenarios:
+i. With average provisioning level of similar assets, and
+ii. 75% provisioning level
+b) Central Bank’s Macro-Economic Stress Test
+ Assumptions and results of the latest Macroeconomic stress tests performed by the
+Central Bank.
+22

@@ -1,0 +1,230 @@
+[Document: PI.pdf, Page 41]
+CBUAE Classification: Public
+H. Complex Derivatives
+24. The Standards requires that complex trades with more than one risk driver (e.g. multi-
+asset or hybrid derivatives) must be allocated to more than one asset class when the material risk
+drivers span more than one asset class. The full amount of the trade must be included in the PFE
+calculation for each of the relevant asset classes. Asset-class allocation of complex derivatives is
+a point of national discretion in the Basel framework, and the Central Bank believes that requiring
+banks to identify such trades and allocate them accordingly places appropriate responsibility on
+banks that choose to engage in such trades.
+25. Examples of derivatives that reference the basis between two risk factors and are
+denominated in a single currency (basis transactions) include three-month Libor versus six-month
+Libor, three-month Libor versus three-month T-Bill, one-month Libor versus OIS rate, or Brent
+Crude oil versus Henry Hub gas. These examples are provided as illustrations, and do not
+represent an exhaustive list.
+26. Hedging sets for derivatives that reference the volatility of a risk factor (volatility
+transactions) must follow the same hedging set construction outlined in the Standards for
+derivatives in that asset class; for example, all equity volatility transactions form a single hedging
+set. Examples of volatility transactions include variance and volatility swaps, or options on realized
+or implied volatility.
+I. Unrated Reference Assets
+27. The supervisory factor for credit derivatives depends on the credit rating of the underlying
+reference asset. The Basel framework does not provide a specific treatment of unrated reference
+assets. The Central Bank believes that credit derivatives on unrated reference entities are likely
+to be rare. However, for the sake of completeness, the Standards requires that any such credit
+derivatives be treated in a manner that is broadly consistent with the treatment of unrated entities
+in other aspects of the risk-based capital framework, through use of a Supervisory Factor
+corresponding to BBB or BB ratings as described in the Standards.
+28. For an entity for which a credit rating is not available, a bank should use the Supervisory
+Factor corresponding to BBB. However, where the exposure is associated with an elevated risk
+of default, the bank should use the Supervisory Factor for BB. In this context, “elevated risk of
+default” should also be understood to include instances in which it is difficult or impossible to
+assess adequately whether the exposure has high risk of loss due to default by the obligor. A
+bank trading credit derivatives referencing unrated entities should conduct their own analysis to
+examine this risk.
+J. Commodity Derivatives
+29. Note that the Standards defines the term “commodity type” for purposes of calculation of
+exposure for CCR. A commodity type is defined as a set of commodities with broadly similar risk
+drivers, such that the prices or volatilities of commodities of the same commodity type may
+reasonably be expected to move with similar direction and timing and to bear predictable
+relationships to one another. For example, a commodity type such as coal might include several
+types of coal, and a commodity type such as oil might include oil of different grades from different
+sources. The prices of commodities of a given type may not move precisely in lock step, but they
+are likely to move in the same direction at roughly the same time, due to their dependence on
+common forces in commodity markets. Long and short trades within a single commodity type can
+be fully offset.
+42
+
+[Document: PI.pdf, Page 42]
+CBUAE Classification: Public
+30. For commodity derivatives, defining individual commodity types is operationally difficult. In
+fact, it is generally not possible to fully specify all relevant distinctions between commodity types,
+and as a result, a single commodity type is likely to include individual commodities that in practice
+differ to some extent in the dynamic behaviour they exhibit. As a result, not all basis risk is likely
+to be captured. Nonetheless, banks should attempt to minimize unrecognized basis risk through
+sound definitions of commodity types.
+31. The Standards requires a bank to establish appropriate governance processes for the
+creation and maintenance of the list of defined commodity types used by the bank for CCR
+calculations, with clear definitions and independent internal review or validation processes to
+ensure that commodities grouped as a single type are in fact similar. A bank can only use the
+specifically defined commodity types it has established through its adequately controlled internal
+processes.
+32. Trades within the same commodity hedging set (Energy, Metals, Agriculture, and Other)
+enjoy partial offsetting through the use of correlation values established in the Standards, with
+correlation values varying by asset subclass. More specifically, partial offsetting applies only to
+the systematic component, not the issuer-specific or idiosyncratic component. Note that Electricity
+is a sub-class of the Commodity asset class, but is itself part of the broader Energy hedging set,
+rather than constituting a distinct hedging set.
+K. Single-Name and Index Derivatives
+33. For credit derivatives, there is one credit reference entity for each reference debt
+instrument that underlies a single-name transaction allocated to the credit risk category. Single-
+name transactions should be assigned to the same credit reference entity only where the
+underlying reference debt instrument of those transactions is issued by the same issuer.
+34. The approach for establishing the reference entity for equity derivatives should correspond
+to the general approach for credit derivatives.
+35. For credit derivatives with indices as the underlying instrument, there should be one
+reference entity for each group of reference debt instruments or single-name credit derivatives
+that underlie a multi-name transaction. Multi-name transactions should be assigned to the same
+credit reference entity only where the group of underlying reference debt instruments or single-
+name credit derivatives of those transactions has the same constituents. The determination of
+whether an index is investment grade or speculative grade should be based on the credit quality
+of the majority of its individual constituents.
+36. Again, the approach for equity index derivatives should follow the general approach for
+credit index derivatives.
+L. Special Cases of Margin Agreements
+37. When multiple margin agreements apply to a single netting set, the netting set should be
+broken down into sub-netting sets that align with the respective margin agreement for calculating
+both RC and PFE.
+38. When a single margin agreement applies to multiple netting sets, RC at any given time is
+determined by the sum of two terms. The first term is equal to the un-margined current exposure
+of the bank to the counterparty aggregated across all netting sets within the margin agreement
+reduced by the positive current net collateral (i.e. collateral is subtracted only when the bank is a
+43
+
+[Document: PI.pdf, Page 43]
+CBUAE Classification: Public
+net receiver of collateral). The second term is non-zero only when the bank is a net poster of
+collateral: it is equal to the current net posted collateral (if there is any) reduced by the un-
+margined current exposure of the counterparty to the bank aggregated across all netting sets
+within the margin agreement. Net collateral available to the bank should include both VM and
+NICA. Mathematically, RC for the entire margin agreement is:
+𝑅𝐶 =𝑚𝑎𝑥(0 ; ∑ max(0;𝑉 )−max (0;𝐶 ))+𝑚𝑎𝑥(0 ; ∑ min(0;𝑉 )−min (0;𝐶 ))
+𝑀𝐴 𝑁𝑆 𝑀𝐴 𝑁𝑆 𝑀𝐴
+𝑁𝑆∈𝑀𝐴 𝑁𝑆∈𝑀𝐴
+where the summation NS ∈ MA is across the netting sets covered by the margin agreement
+(hence the notation), V is the current mark-to-market value of the netting set NS and C is the
+NS MA
+cash equivalent value of all currently available collateral under the margin agreement.
+39. An alternative description of this calculation is as follows:
+Step 1: Compute the net value, positive or negative, of each netting set. These calculated
+values correspond to the terms V
+NS
+in the expression above.
+Step 2: Sum the values of all netting sets with positive value, to get Total Positive Value
+(TPV). This corresponds to the term in the expression above:
+𝑇𝑃𝑉 = ∑ max (𝑉 ;0)
+𝑁𝑆
+𝑁𝑆∈𝑀𝐴
+Step 3: Sum the values of all of netting sets with negative value, to get Total Negative
+Value (TNV). This corresponds to the term in the expression above:
+𝑇𝑁𝑉 = ∑ min (𝑉 ;0)
+𝑁𝑆
+𝑁𝑆∈𝑀𝐴
+Step 4: Calculate the net current cash value of collateral, including NICA and VM. This
+corresponds to the term C in the expression above. If the bank is net holder of
+MA
+collateral, then C is positive; it is the net value held (NVH). If the bank is a net
+MA
+provider of collateral, then C is negative, and its absolute value is the net value
+MA
+provided (NVP). Note that either NVH>0 and NVP=0, or NVP>0 and NVH=0.
+One of the following cases then applies:
+Step 5a: If NVH>0 (so NVP=0), then RC = TPV – NVH, but with a minimum of zero
+– that is, RC cannot be negative.
+or
+Step 5b: If NVH=0 (so NVP>0), then RC = TPV + NVP – TNV, but with a minimum
+of TPV – that is, RC cannot be less than TPV.
+40. To calculate PFE when a single margin agreement applies to multiple netting sets, netting
+set level un-margined PFEs should be calculated and aggregated, i.e. PFE should be calculated
+as the sum of all the individual netting sets considered as if they were not subject to any form of
+margin agreement.
+44
+
+[Document: PI.pdf, Page 44]
+CBUAE Classification: Public
+III. Summary of the EAD Calculation Process
+The following diagram provides a visual summary of the CCR calculation of EAD for derivatives,
+based on replacement cost and potential future exposure.
+1. Replacement Cost (RC) Calculation
+Calculate RC for all transactions, margined and un-margined
+2. Trade Classification
+Assign trades to netting set, and to asset classes based on primary risk
+factors
+3. Trade-level Adjusted Notional Calculation
+Calculate trade-level adjusted notional amount using asset class rules
+(with supervisory duration adjustment for interest rate and credit
+derivatives)
+4. Trade-level Effective Notional Calculation
+Adjust trade-level adjusted notional using Supervisory Delta and
+Maturity Factor
+5a. Credit, Equity, Commodity
+5b. Interest Rate and FX Derivatives
+Derivatives
+Aggregate effective notional with full
+Aggregate effective notional with full
+offset for trades in same maturity
+offset for trades in same entity (credit,
+category and currency (interest rate) and
+equity) or commodity type
+currency pair (FX)
+6a. Add-Ons 6b. Add-Ons
+Apply prescribed Supervisory Factors to
+Apply prescribed Supervisory Factors to
+effective notional amounts to calculate
+effective notional amounts to calculate
+add-on for each maturity category or
+add-on for each entity or commodity type
+currency pair
+7a. Hedging Set Assignment and Add- 7b. Hedging set Assignment and Add-
+Ons Ons
+One hedging set for credit, one for
+One hedging set for each currency
+equity, and one for each of four
+(interest rate) or currency pair (FX)
+commodity sub-classes
+Apply supervisory correlations to divide Aggregate maturity-category add-ons
+the add-on into systematic and according to rules in the standards to get
+idiosyncratic components in each hedging set add-on for interest rate
+hedging set derivatives
+45
+
+[Document: PI.pdf, Page 45]
+CBUAE Classification: Public
+Aggregate to get hedging set add-on,
+Aggregate absolute value of currency-
+with full offset for systematic components
+pair add-ons to get hedging set add-on
+and no offset for idiosyncratic
+for FX derivatives
+components
+8. Asset-Class Add-On Calculation
+Simple summation of add-ons across hedging sets for each asset class
+9. Aggregate Add-On Calculation
+Simple summation of asset-class add-ons across asset classes
+10. Potential Future Exposure (PFE) Calculation
+Apply multiplier reflecting impact of any negative contract value or over-
+collateralization to aggregate add-on, possibly reducing PFE by up to
+95%
+11. Exposure at Default (EAD) Calculation
+Sum RC and PFE for the netting set, and multiply by 1.4. If the resulting
+EAD for margined trades exceeds EAD if un-margined, use the un-
+margined EAD.
+46
+
+[Document: PI.pdf, Page 46]
+CBUAE Classification: Public
+IV. Frequently Asked Questions
+A. Netting
+Question A1: Does a bank need written approval for each netting agreement it has in place,
+or will the Central Bank provide a list of pre-approved jurisdictions or counterparties?
+The bank should establish an internal process that considers the factors identified in the
+Standards. That process should be subject to internal review and challenge per the Standards.
+The Central Bank will review the identification of netting sets as part of the supervisory process,
+and notify the bank of any determinations that netting is not appropriate. The Central Bank will
+not provide a list of pre-approved jurisdictions or counterparties.
+Question A2: Do amendments to existing netting agreements require approval from the
+Central Bank?
+Amendments that do not raise new questions about the validity of netting need not be raised to
+the Central Bank for consideration.
+Question A3: What if netting is not valid? Can netting sets still be used for the calculation?

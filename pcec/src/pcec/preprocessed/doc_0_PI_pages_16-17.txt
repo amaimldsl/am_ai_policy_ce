@@ -1,0 +1,153 @@
+[Document: PI.pdf, Page 15 (Overlap)]
+CBUAE Classification: Public
+Appendix 5: Threshold Deduction
+This Appendix is meant to clarify the reporting of threshold deduction and calculation of the 10%
+limit on significant investments in the common shares of unconsolidated financial institutions
+(banks, insurance and other financial entities); and the 10% limit on deferred tax assets arising
+from temporary differences.
+CET1 Capital (prior to regulatory deductions) 1000
+Regulatory deductions: 300
+Total CET1 after the regulatory adjustments above (CET1C) 700
+Total amount of significant investments in the common share of banking, financial
+and insurance entities 150
+Total amount of Deferred tax assets arising from temporary differences 150
+DTA that rely on future profitability Significant investments in the
+and arise from temporary difference unconsolidated financial institutions
+150 150
+Excess over Excess over
+Amount below 10% of CET1C Amount below 10% of CET1C
+10% of CET1 10% of CET1
+70 70
+C: C:
+Deduct from Aggregate the amount below 10% threshold Deduct from
+CET1C 140 (70+70) CET1C
+Calculate 17.65 % of CET1*
+CET1* = 400 (1000-300-150-150) or
+CET1* = CET1 D (700-80-80) – Aggregated amount below 10% threshold
+(140)
+Aggregate amount Aggregate amount
+below 17.65% of CET1* above 17.65% of CET1*
+Risk Weight (250%) Deduct from CET1 D
+70.60 69.40 (140-70.60)
+*This is a “hypothetical” amount of CET1 that is used only for the purpose of determining the
+deduction of above two items for the aggregate limit. Amount of CET1 = Total CET1 (prior to
+deduction) – All the deduction except the threshold deduction (i.e. all deduction outlined in para
+44 to 68 of the Tier Capital Supply Standards) minus the total amount of both DTA that rely on
+future profitability and arise from temporary difference and significant investments in the
+unconsolidated financial institutions.
+16
+
+[Document: PI.pdf, Page 16]
+CBUAE Classification: Public
+Appendix 6: Effective Countercyclical Buffer
+Assume a bank has the following capital ratios
+Capital Base Minimum Capital Bank's Capital Ratio
+Requirements
+Common Equity Tier 1 Capital Ratio 7.00% 9.50%
+Tier 1 Capital Ratio 8.50% 0.00%
+Tier 2 Capital Ratio 2.00% 4.00%
+Total Capital Ratio 10.50% 13.50%
+From the above table, the bank has fulfilled all minimum capital requirements. In addition, the
+bank has to meet the additional capital buffers:
+Capital Conservation Buffer (CCB) 2.50%
+Countercyclical Buffer 0.00%
+D- SIB 1.00%
+Aggregated Buffer requirement (effective CCB) 3.50%
+The table below shows the adjusted quartiles accordingly:
+Freely available Minimum Capital Conservation
+CET 1 Ratio Ratios (expressed as a percentage of
+earnings)
+Within 1st quartile of buffer: 0.0 % - 0.875% 100 %
+Within 2nd quartile of buffer: > 0.875% - 1.75% 80 %
+Within 3rd quartile of buffer: > 1.75% - 2.625% 60 %
+Within 4th quartile of buffer: > 2.625% - 3.5% 40 %
+Above top of the buffer: > 3.5% 0 %
+As the bank does not have Additional Tier 1, the bank has to use 8.5% of its available CET1 to
+fulfill the minimum Tier 1 requirement of 8.5%. Only the proportion of CET1 that is not allocated
+to fulfill the minimum capital requirements is freely available to fulfill the buffer requirement. For
+this bank, 1% CET1 is freely available, because the bank already used 8.5% of its CET1 to fulfill
+the Tier 1 ratio. (9.5% available CET1 - 8.5% CET1 required to fulfill the Tier 1 minimum
+requirement of 8.5%).
+Impact: The bank breaches the effective CCB with 1% freely available CET1. Capital conservation
+is required by at least 80% of the bank’s earnings. Distributions to shareholders is limited to
+maximal 20% of the bank’s earnings (Central Bank approval of dividends still required).
+17
+
+[Document: PI.pdf, Page 17]
+CBUAE Classification: Public
+II. Tier Capital Instruments
+I. Introduction
+1. This guidance explains how banks should comply with the Tier Capital Instruments
+Standard. It must be read in conjunction with the Capital Regulation and Standards for Capital
+Adequacy of Banks in the UAE. It also ensures that banks issue robust and simple Tier capital
+instruments.
+2. A bank needs to take into consideration the below points when issuing capital publicly or
+privately:
+a. The Central Bank expects that issuers will formulate the terms and conditions so that they
+are not complex, but as simple and as clear as possible.
+b. Prudential clauses of importance from a prudential point of view should not be written in
+italics. They should also not be worded in a way that makes it unclear whether they do
+actually apply (e.g. ‘it is expected that’, ‘if required by the regulation’, etc.). Terms and
+conditions must be worded clearly.
+c. The wording used must be in accordance with that in the Capital Standards/ Guidance.
+d. The text should avoid making references to ‘as determined by the bank’ or to regulatory
+reporting dates. All requirements must be fulfilled at any time.
+e. It is not desirable to specify the reference to say ‘under applicable law’ or ‘if required by
+the applicable banking rules’ when it is clear that legal requirements come directly from
+the Central Bank, Capital Regulation, Standards or as Guidance.
+f. A detailed list may easily create the impression that the list maybe exhaustive. The bank
+has to clearly note when a list is not exhaustive.
+Distributable Items:
+3. The definition of distributable items may change when the Central Bank introduces the
+solo level concept.
+Subordination:
+4. Additional Tier 1 instruments willrank below Tier 2 instruments by virtue of subordination.
+The instrument should not be subject to set-off or netting arrangements that would undermine the
+instrument's capacity to absorb losses.
+Redemption Notices:
+5. Where a notice has not been revoked as of the relevant date, it follows that a payment is
+due to the holder. Any non-payment thereafter may trigger an enforcement event. Any notice for
+redemption should become void and null as soon as the Central Bank declares that a PONV
+trigger event has occurred.
+Call of Instruments:
+a. Optional Call:
+The Central Bank does not prohibit the issuer to call the instrument at its option but only
+after a period of 5 years.
+18
+
+[Document: PI.pdf, Page 18]
+CBUAE Classification: Public
+b. Regulatory Call:
+The Central Bank does not prohibit the issuer to call the instrument in case of a capital
+event so that they become or, as appropriate, remain, qualified regulatory capital.
+However, the amount in case of a capital event can be the outstanding amount or the
+amount that qualifies as regulatory capital, if some amount of the instrument is held by the
+issuer or whose purchase is funded by the issuer, save where such non-qualification is only
+as a result of any applicable limitation on the amount of such capital.
+c. Tax Call:
+The Central Bank does not prohibit the issuer to call the instruments in case of a tax event.
+A tax event may occur at any time on or after the issue date. A tax event can occur as a
+result of a change in the applicable tax treatment of the instrument.
+Note that both the optional call and the tax call require the Central Bank’s approval.
+Changes of Terms and conditions:
+a. Insignificant Changes to Terms and Conditions (Variation):
+The issuer may vary the terms and conditions of the instrument subject to the condition of
+redemption in the Tier capital instrument Standard. Variation of the terms and conditions of the
+instrument can occur on optional call regulatory call, or tax call. Changes must be legally
+enforceable.
+b. Significant Changes to Terms and Conditions:
+Significant changes to the terms and conditions of the instrument will require the approval of the
+holders. Every instrument that undergoes significant changes needs to meet all requirements of
+the Tier Capital Instruments Standard.
+Every instrument with changed terms and conditions need to be re-approved by the Central Bank
+by applying Stage 2 of the Approval Process in Appendix B of the Tier Capital Instruments
+Standard (Stage 1 of the Approval Process can be omitted in this case).
+Coupon Payments:
+6. No provision should link a change in payments to contractual, statutory or other
+obligations, as payments are fully discretionary. Payments should also not be linked to payments
+on other Additional Tier 1 instruments.
+Dividend and Redemption Restrictions:
+7. Dividend stopper arrangements that prevent for example dividend payments on common
+shares are not prohibited by the Central Bank. Furthermore, dividend stopper arrangements that
+prevent dividend payments on other Additional Tier 1 instruments are not prohibited by Central
+Bank. However, stoppers must not impede the full discretion that bank must have at all times to

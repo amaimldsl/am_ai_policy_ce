@@ -1,0 +1,230 @@
+[Document: PIII.pdf, Page 11]
+CBUAE Classification: Public
+year only to be reported? If an employee has a deferral which has a tranche of a prior
+year paid out after they have left the Branch, is it expected that this would be reported
+or not? If a prior year tranches awarded is reported should this be reported if the
+individual is no longer an employee of the Branch?
+All contract earnings of all employees need to be reported even if the employee is earning
+compensation in UAE and outside UAE. The full contractual award needs to be mentioned
+and not only the physical payout
+Question 9: Is the End of Service Benefit (EOSB) i.e. severance payment for a normal
+leaver to be reported depending upon the definition of “other material risk taker” OR
+are banks also required to report any additional payment such as a redundancy type
+payment? Should a transfer of Senior Management personnel or Other Material Risk-
+takers to other branch of the Bank be considered as severance for reporting purpose?
+All payments regardless of the type of payment based on the contract needs to be reported
+Question 10: For branches of foreign banks where the Head Office reports to the home
+regulator, there are pre-fixed formats prepared and submitted at a frequency as
+stipulated by home regulator. Can the branch of foreign banks provide such reports
+in UAE which are submitted to the home regulator as a part of UAE Pillar 3
+Disclosures?
+Reports sent between Head Office and UAE needs to be separated and only the Pillar 3
+disclosures as per this Guidance needs to be reported for UAE branches in the mandatory
+formats published here.
+Question 11: What does “Fully loaded” ECL accounting model mean and what is the
+difference between total capital and fully loaded capital?
+"Fully Loaded" means bank’s regulatory capital compared with a situation where the
+transitional arrangement had not been applied
+Question 12: For branches of foreign banks, would Central Bank allow for a transition
+period if the threshold for partial disclosure is reached? (i.e. if RWA exceed AED 5
+billion)
+Transition will be granted on a case by case basis
+Question 13: Currently CCyB buffer is 0% in UAE. In this case, what do banks need to
+report in CCyB template?
+Currently CCyB is not applicable in UAE but if banks in UAE have branches in other countries
+this needs to be reported if CCyB is being reported as per that foreign country’s regulations.
+Banks, hence, need to calculate and fill the CCyB1 as explained in the Capital Supply
+standards.
+Question 14: In Sheet CR5, for "Unrated" Category, should we include the Post CRM
+and CCF amounts in their respective Risk Weight categories or should we club it
+under "Others"?
+Yes, it can be placed in “Others” along with any other ratings.
+Question 15: In Sheet OV1, is the minimum requirements simply 10.5% of the RWA.
+Pillar 1 capital requirements at the reporting date will normally be RWA*10.5% but may differ
+if a floor is applicable or adjustments (such as scaling factors).
+Question 16: CCR8 requires Bank to report Exposures to Non QCCPs (excluding initial
+margin and default fund contribution) arising of (i) OTC derivatives, (ii) Exchange-
+traded derivatives, (iii) Securities financing transactions & (iv) Netting sets where
+cross-product netting has been approved. Does this mean the Exposures computed
+under SA-CCR which are eligible under Netting Jurisdiction to be disclosed under
+(iv)?
+Currently, UAE has no netting jurisdiction but such exposures reported will be taken into
+191
+
+[Document: PIII.pdf, Page 12]
+CBUAE Classification: Public
+consideration on a case-by-case basis.
+Question 17: LIQA, Liquidity exposures and funding needs at the level of individual
+legal entities, foreign branches and subsidiaries, taking into account legal, regulatory
+and operational limitations on the transferability of capital. Are insurance or non-bank
+subsidiaries to be included?
+All entities that are consolidated by the bank must be included.
+Question 18: LIQA, Balance sheet and off-balance sheet items broken down into
+maturity buckets and the resultant liquidity gaps. Is there any format for reporting the
+liquidity gap report?
+As per BRF 9 reported by the bank. The bank may add a section for Off Balance sheet as
+required
+192
+
+[Document: PIII.pdf, Page 13]
+CBUAE Classification: Public
+Leverage Ratio
+193
+
+[Document: PIII.pdf, Page 14]
+CBUAE Classification: Public
+Leverage Ratio
+I. Introduction
+Risk-based capital adequacy ratios measure the extent to which a bank has sufficient
+capital relative to the risk of its business activities. They are based on a foundational
+principle: that a bank that takes higher risks should have higher capital to compensate.
+Leverage, on the other hand, measures the extent to which a bank has financed its
+assets with equity. It does not matter what those assets are, or their risk characteristics. The
+leverage ratio, by placing an absolute cap on exposures relative to a bank’s capital, is an
+important component of the Central Bank capital framework, and complements the risk-
+based capital adequacy regime. However, neither of these parts of the framework stands
+alone: it is important to look at Central Bank capital requirements as a package of constraints
+that mutually reinforce prudent behaviour. Even though the leverage ratio has been designed
+as a backstop, it must be a meaningful backstop if it is to serve its intended purpose.
+One of the underlying causes of the global financial crisis is believed to have been
+the build-up of excessive on- and off-balance-sheet leverage in the banking system. At the
+height of the crisis, developments in financial markets forced banks to reduce leverage in a
+manner that likely amplified downward pressures on asset prices. This deleveraging process
+exacerbated the feedback loop between losses, falling bank capital, and shrinking credit
+availability.
+The Central Bank’s leverage ratio framework introduces a simple, transparent, non-
+risk-based leverage ratio to act as a credible supplementary measure to the risk-based
+capital requirements. The leverage ratiois intended to:
+ restrict the build-up of leverage in the banking sector to avoid destabilizing
+deleveraging processes that can damage the broader financial system and the
+economy; and
+ reinforce the risk-based requirements with a simple, non-risk-based “backstop”
+measure.
+The Basel Committee on Banking Supervision (BCBS) adopted the leverage ratio
+with the launch of Basel III in December 2010. A revised leverage ratio framework, titled
+Basel III Leverage Ratio Framework and Disclosure Requirements, was published in January
+2014. In December 2017, the leverage ratio was finalized along with the rest of the Basel III
+capital framework. Prior to each release of the leverage ratio, the BCBS published
+consultative documentation and sought comments from the industry. Additionally, in 2015
+and 2017, the BCBS published revised Pillar 3 disclosure requirements, including updated
+disclosure requirements for the leverage ratio.
+In designing the UAE leverage ratio framework, the Central Bank considered the full
+evolution of the BCBS leverage ratio, including consultative frameworks, reporting
+requirements, and comments raised by banks and industry bodies across the globe. The
+Central Bank’s Standards for Leverage Ratio is based closely on the requirements
+articulated by the BCBS in the document Basel III: Finalising post-crisis reforms, December
+2017.
+This Guidance should be read in conjunction with the Central Bank’s Standards on
+Leverage Ratio, as it is intended to provide clarification of the requirements of that Standards,
+and together with that Standards supports the Central Bank’s Regulations Re Capital
+Adequacy.
+194
+
+[Document: PIII.pdf, Page 15]
+CBUAE Classification: Public
+II. Clarifications of the Standards
+The leverage ratio framework is designed to capture leverage associated with both
+on- and off-balance-sheet exposures. It also aims to make use of accounting measures to
+the greatest extent possible, while at the same time addressing concerns that (i) different
+accounting frameworks across jurisdictions raise level playing field issues and (ii) a
+framework based exclusively on accounting measures may not capture all risks.
+a. Leverage Ratio and Capital
+The leverage ratio is defined as the capital measure divided by the exposure
+measure, expressed as a percentage:
+𝐶𝑎𝑝𝑖𝑡𝑎𝑙 𝑀𝑒𝑎𝑠𝑢𝑟𝑒
+𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒 𝑅𝑎𝑡𝑖𝑜 =
+𝐸𝑥𝑝𝑜𝑠𝑢𝑟𝑒 𝑀𝑒𝑎𝑠𝑢𝑟𝑒
+The capital measure is Tier 1 capital as defined for the purposes of the Central Bank
+risk-based capital framework, subject to transitional arrangements. In other words, the capital
+measure for the leverage ratio at a particular point in time is the applicable Tier 1 capital
+measure at that time under the risk-based framework.
+The minimum requirement for the leverage ratio is established in the Central Bank’s
+Regulations Re Capital Adequacy.
+The Standards includes the possibility that the Central Bank may consider
+temporarily exempting certain central bank “reserves” from the leverage ratio exposure
+measure to facilitate the implementation of monetary policies in exceptional macroeconomic
+circumstances. In this context, the term “reserves” refers to certain bank balances or
+placements at the Central Bank. Certain other jurisdictions have pursued monetary policies
+that resulted in a significant expansion of such bank balances at the Central Bank, for
+example through policies commonly described as “quantitative easing.” While the Central
+Bank has no plan to implement such policies, the inclusion of this flexibility in the Standards
+ensures that, in the event that such policies were to be implemented, the minimum leverage
+requirement could be adjusted in a manner that allows it to continue to serve its appropriate
+prudential role. Per the requirements of the BCBS framework, the Central Bank would also
+increase the calibration of the minimum leverage ratio requirement commensurately to offset
+the impact of exempting central bank reserves, since actual bank leverage ratios would be
+expected to increase due to the exclusion of these exposures.
+b. Scope of Consolidation
+The framework applies on a consolidated basis, following the same scope of
+regulatory consolidation used in the risk-based capital requirements (see Regulations re
+Capital Adequacy). For example, if proportional consolidation is applied for regulatory
+consolidation under the risk-based framework, the same criteria shall be applied for leverage
+ratio purposes.
+Where a banking, financial, insurance or commercial entity is outside the scope of
+regulatory consolidation, only the investment in the capital of such entities (that is, only the
+carrying value of the investment, as opposed to the underlying assets and other exposures
+of the investee) is included in the exposure measure. However, any such investments that
+are deducted from Tier 1 capital may be excluded from the exposure measure.
+195
+
+[Document: PIII.pdf, Page 16]
+CBUAE Classification: Public
+c. Exposure Measure
+The exposure measure includes both on-balance-sheet exposures and off-balance-
+sheet (OBS) items. On-balance-sheet exposures are generally included at their accounting
+value, although exposures arising from derivatives transactions and securities financing
+transactions (SFTs) are subject to separate treatment.
+Except where a different treatment is specified, no offset is allowed for physical or
+financial collateral held, guarantees in favour of the bank or other credit risk mitigation
+techniques.
+Balance sheet assets that are deducted from Tier 1 capital may also be deducted
+from the exposure measure. For example:
+ Where a banking, financial or insurance entity is not included in the regulatory scope
+of consolidation, the amount of any investment in the capital of that entity that is totally
+or partially deducted from Common Equity Tier 1 (CET1) or Additional Tier 1 capital
+may also be deducted from the leverage ratio exposure measure.
+ Prudent valuation adjustments for exposures to less liquid positions that are deducted
+from Tier 1 capital as per the Central Bank’s Market Risk Standards may be deducted
+from the leverage ratio exposure measure.
+Liability items must not be deducted from the leverage ratio exposure measure. For
+example, gains/losses on fair valued liabilities or accounting value adjustments on derivative
+liabilities due to changes in the bank’s own credit risk must not be deducted from the leverage
+ratio exposure measure.
+The Central Bank will be vigilant to transactions and structures that have the result
+of inadequately capturing banks’ sources of leverage. Examples of concerns that might arise
+in such leverage ratio exposure measure minimizing transactions and structures may
+include: securities financing transactions where exposure to the counterparty increases as
+the counterparty’s credit quality decreases or securities financing transactions in which the
+credit quality of the counterparty is positively correlated with the value of the securities
+received in the transaction (i.e. the credit quality of the counterparty falls when the value of
+the securities falls); banks that normally act as principal but adopt an agency model to
+transact in derivatives and SFTs in order to benefit from the more favorable treatment
+permitted for agency transactions under the leverage ratio framework; collateral swap trades
+structured to mitigate inclusion in the leverage ratio exposure measure; or use of structures
+to move assets off the balance sheet. This list of examples is by no means exhaustive.
+d. On-Balance Sheet Exposures
+Where a bank recognizes fiduciary assets on the balance sheet, these assets can be
+excluded from the leverage ratio exposure measure provided that the assets meet the IFRS
+9 criteria for de-recognition and, where applicable, IFRS 10 for deconsolidation.
+e. Derivative Exposures
+The basis for the framework’s treatment of derivative transactions is a modified
+version of Standardised Approach to Counterparty Credit Risk (SA-CCR) in Basel III. It
+captures both the exposure arising from the underlying of the derivative contract and the
+related counterparty credit risk. The exposure measure amount is generally equal to the sum
+of the replacement cost (the mark-to-market value of contracts with positive value) and an
+add-on representing the transaction’s potential future exposure, with that sum multiplied by
+a scaling factor of 1.4. Valid bilateral netting contracts can reduce the exposure amount, but
+196
+
+[Document: PIII.pdf, Page 17]
+CBUAE Classification: Public
+collateral received generally cannot. There are specific rules governing the treatment of cash
+variation margin, clearing services and written credit derivatives.
+If, under a bank’s operative accounting standards, there is no accounting measure of
+exposure for certain derivative instruments because they are held (completely) off balance
+sheet, the bank must use the sum of positive fair values of these derivatives as the
+replacement cost.
+Netting across product categories such as derivatives and SFTs is not permitted in
+determining the leverage ratio exposure measure. However, where a bank has a cross-
+product netting agreement in place that meets the eligibility criteria; it may choose to perform
+netting separately in each product category provided that all other conditions for netting in

@@ -1,0 +1,196 @@
+
+current risk weights of 100% or 150% that apply to equity investments in funds under
+previous capital requirements. Should this risk weight be lower?
+The risk weight of 1250% is aligned with international capital standards as developed by the Basel
+Committee, and is being adopted by the Central Bank under this Standards. Considering the
+higher minimum capital requirements in the UAE (10.5% vs 8%), the final risk weight is capped at
+952%.
+Question 7: What happens when the bank has mandated intermediaries to invest in fixed
+income? Would this investment be included or excluded in the calculation of Equity
+Investments?
+86
+
+[Document: PI.pdf, Page 86]
+CBUAE Classification: Public
+Banks having mandated Intermediaries have to go through same framework approach. This
+means that if the bank has information for these intermediaries, the bank may use the LTA
+approach. If the bank does not have information, then it has to use the MBA or FBA approach.
+Question 8: The EIF standards allows for partial use of approaches for reporting EIF and
+the RWA calculations from each applied approach are summed, and then divided by total
+fund assets to compute “Avg RWfund”. Should the leverage of the fund be proportioned
+according to use of approach?
+No, the leverage ratio is a single number that applies to the entire fund. When a bank uses more
+than one approach to determinethe risk weight (that is, LTA, MBA, and/or FBA), the bank should
+report the amounts on separate lines in the reporting template.
+87
+
+[Document: PI.pdf, Page 87]
+CBUAE Classification: Public
+IV. Example Calculations
+A. Example of calculation of risk-weighted assets using the LTA
+Consider a fund that aims to replicate an equity index using a strategy based on forward
+contracts. Assume the fund holds short-term forward contracts for this purpose with a notional
+amount of 100 that are cleared through a qualifying central counterparty. Further, assume that
+the fund’s financial position can be represented by the following T-account balance sheet:
+Assets Liabilities and Equity
+Cash 20 Notes payable 5
+Government bonds (AAA) 30
+Variation margin receivable
+on forward contracts 50 Equity 95
+100 100
+Finally, assume that the bank’s equity investment in the fund comprises 20% of the shares of the
+fund, and therefore is 20% × 95 = 19.
+Using the LTA, the fund’s balance sheet exposures of 100 are risk weighted according to the risk
+weights that would be applied tothese assets by the bank. For cash, the risk weight is 0%; for the
+government bonds, the risk weight is also 0%. The margin receivable is an exposure to a
+qualifying CCP, whichhas 2% risk weight. The underlying risk weight for equity exposures (100%)
+is applied to the notional amount of the forward contracts.
+Assume that the bank is able to determine that the amount of the CCR exposure to the CCP is
+10, which then receives the 2% risk weight for exposures to a qualifying CCP. Note that there is
+no CVA charge because the forward contracts are cleared through the qualifying CCP.
+The total RWA for the fund is:
+20×0% + 30×0% + 50×2% + 100×100% + 10×2% = 101.2
+Given the total assets of the fund of 100, the average risk-weight for the fund is:
+Avg RW
+fund
+= 101.2/ 100=101.2%
+With fund assets of 100 and fund equity of 95, leverage is calculated as the assets-to-equity ratio,
+or 100/95≈1.05. Therefore, the risk-weight for the bank’s equity investment in the fund is:
+Risk Weight = 101.2% × (100/95) = 106.5%
+Applying this risk weight to the bank’s equity investment in the fund of 19, the bank’s RWA on the
+position for the purpose of calculating minimum required capital is 106.5% × 19 = 20.24.
+B. Example of calculation of risk-weighted assets using the MBA
+Consider a fund with current balance-sheet assets of 100, and assume that the bank is
+unable to apply the LTA due to a lack of adequate information. Suppose that the fund’s mandate
+states that the fund’s investment objective is to replicate an equity index. In addition to being
+88
+
+[Document: PI.pdf, Page 88]
+CBUAE Classification: Public
+permitted to invest in equities directly as assets and to hold cash balances, the mandate allows
+the fund to take long positions in equityindex futures up to a maximum notional amount equivalent
+to 80% of the fund’s balance sheet. Since this means that with 100 in assets the fund could have
+futures with a notional value of 80, the total on-balance-sheet and off-balance-sheet exposures
+of the fund could reach 180.
+Suppose that the fund’s mandate also places a restriction on leverage, allowing the fund to issue
+debt up to a maximum of 10% of the total value of the fund’s assets. This debt constraint implies
+that with 100 in assets, the fund’s maximum financial leverage would be at a mixture of 10 debt
+and 90 equity, for a maximum assets-to-equity ratio of 100/90≈1.11.
+Finally, assume that the value of the bank’s investment in the fund is 20.
+For the computation of RWA, the on-balance-sheet assets are assumed to be invested to the
+maximum extent possible in the riskiest type of asset permitted under the mandate. The mandate
+allows either cash (which has a zero risk weight) or equities, so the full 100 is assumed to be in
+equities, with a 100% risk weight.
+Next, the fund is assumed to enter into derivatives contracts to the maximum extent allowable
+under its mandate – stated as 80% of total assets – implying a maximum derivatives notional of
+80. This amount receives the risk weight associated with the underlying of the derivatives position,
+which in this example is 100% for publicly traded equity holdings.
+The calculation of RWA must include an amount for the counterparty credit risk associated with
+derivatives. If the bank cannot determine the replacement cost associated with the futures
+contracts, then the replacement cost must be approximated by the maximum notional amount of
+80. If the PFE is similarly indeterminate, an additional 15% of the notional amount must be added
+for PFE. Thus, the CCR exposure is 1.4 x (80×1.15) = 129. Assuming the futures contracts clear
+through a qualifying CCP, a risk weight of 2% applies to the CCR exposure, and no CVA charge
+is assessed for the CCP.
+The total RWA for the fund is the sum of the components for on-balance-sheet assets, off-
+balance-sheet exposures, and CCR:
+100×100% + 80×100% + 129×2% = 182.58
+Given the total assets of the fund of 100, the average risk-weight for the fund is:
+Avg RW
+fund
+= 182.58 / 100 = 182.58%
+As noted above, the fund’s maximum leverage is approximately 1.11 at an assets-to-equity ratio
+of 100/90. Therefore, the risk-weight for the bank’s equity investment in the fund is:
+Risk Weight = 182.58% × (100/90) = 202.87%
+Applying this risk weight of 202.87% to the bank’s equity investment in the fund of 20, the bank’s
+RWA on the position for the purpose of calculating minimum required capital is 202.87% × 20 =
+40.57.
+89
+
+[Document: PI.pdf, Page 89]
+CBUAE Classification: Public
+VII. Securitisation
+I. Introduction
+In December 2014, the Basel Committee on Banking Supervision (BCBS) published a
+revised framework for calculating bank capital requirements for securitisation exposures, with
+further revisions in July 2016. The revised securitisation framework aimed to address a number
+of shortcomings in the Basel II securitisation framework and to strengthen the capital standards
+for securitisation exposures held in the banking book. The Central Bank’s Standards on Required
+Capital for Securitisation Exposures is based closely on the BCBS framework.
+A central feature of the revised framework is a hierarchy of approaches to risk-weighted
+asset calculations. The BCBS framework includes approaches based on internal credit risk ratings
+of banks. These approaches have not been included in the Central Bank’s Standards, as internal
+ratings-based approaches are not deemed appropriate for use in capital calculations at this time
+by banks in the UAE.
+Consequently, the hierarchy of approaches within the Central Bank’s Standards begins
+with the revised External Ratings-Based Approach (SEC-ERBA), and below that in the hierarchy
+the revised Standardised Approach (SEC-SA). For resecuritisations, the hierarchy excludes the
+SEC-ERBA, and instead begins with the SEC-SA. If neither the SEC-ERBA nor the SEC-SA can
+be applied for a particular securitisation exposure, a maximum risk weight of 1250% must be used
+for the exposure.
+Calculations under both the SEC-ERBA and the SEC-SA depend to some degree on a
+measure of “tranche thickness.” The thickness of a tranche is determined by the size of the
+tranche relative to the entire securitisation transaction. In general, for a given attachment point, a
+thinner tranche is riskier than a thicker tranche, and therefore warrants a higher risk weight for
+risk-based capital adequacy purposes. While credit rating agencies capture some aspects of the
+risk related to tranche thickness in their external ratings, analysis performed by the BCBS
+suggested that capital requirements for a given rating of a mezzanine tranche should differ
+significantly based on tranche thickness, and this is reflected in the Standards.
+Under the SEC-ERBA, risk weights also are adjusted to reflect tranche maturity. The
+BCBS incorporated a maturity adjustment to reflect unexpected losses appropriately in the capital
+calculations. External ratings used for SEC-ERBA typically reflect expected credit loss rates, and
+the BCBS concluded through analysis during the development process that the mapping between
+these expected losses and unexpected losses (the quantity that capital is intended to cover)
+depends on maturity.
+II. Clarifications
+1. Securitisation
+The Standards defines a securitisation as a contractual structure under which the cash
+flow from an underlying pool of exposures is used to service claims with at least two different
+stratified risk positions or tranches reflecting different degrees of credit risk. The creation of
+90
+
+[Document: PI.pdf, Page 90]
+CBUAE Classification: Public
+distinct tranches is the key feature of securitisation; similar structures that merely “pass through”
+the cash flows to the claims without modification are not considered securitisations.
+For securitisation exposures, payments to the investors depend upon the performance of
+the specified underlying exposures, as opposed to being derived from an obligation of the entity
+originating those exposures. The stratified/tranched structures that characterize securitisations
+differ from ordinary senior/subordinated debt instruments in that junior securitisation tranches can
+absorb losses without interrupting contractual payments to more senior tranches, whereas
+subordination in a senior/subordinated debt structure is a matter of priority of rights to the
+proceeds of a liquidation.
+In some cases, transactions that have some of the features of securitisations should not
+be treated as such for capital purposes. For example, transactions involving cash flows from real
+estate (e.g., in the form of rents) may be considered specialized lending exposures. Banks should
+consult with Central Bank when there is uncertainty about whether a given transaction should be
+considered a securitisation.
+2. Senior Securitisation exposures
+A securitisation exposure is considered a senior exposure if it is effectively backed or
+secured by a first claim on the entire amount of the assets in the underlying securitised pool.
+While this generally includes only the most senior position within a securitisation tranche,
+in some instances there may be other claims that, in a technical sense, may be more senior in
+the waterfall (e.g., a swap claim) but may be disregarded for the purpose of determining which
+positions are treated as senior.
+If a senior tranche is retranched or partially hedged (i.e., not on a pro rata basis), only the
+new senior part would be treated as senior for capital purposes.
+In some cases, several senior tranches of different maturities may share pro rata in loss
+allocation. In that case, the seniority of these tranches is unaffected – they all are considered to
+be senior – since they all benefit from the same level of credit enhancement. (Note that in this
+case, the material effects of differing tranche maturities are captured by maturity adjustments to
+the risk weights assigned to the securitisation exposures, per the Standards.)
+In a traditional securitisation where all tranches above the first-loss piece are rated, the
+most highly rated position should be treated as a senior tranche. When there are several tranches
+that share the same rating, only the most senior tranche in the cash flow waterfall should be
+treated as senior (unless the only difference among them is the effective maturity). In addition,
+when the different ratings of several senior tranches only result from a difference in maturity, all
+of these tranches should be treated as senior.
+In a typical synthetic securitisation, an unrated tranche can be treated as a senior tranche
+provided that all of the conditions for inferring a rating from a lower tranche that meets the
+definition of a senior tranche are fulfilled.
+Usually, a liquidity facility supporting an ABCP program would not be the most senior
+position within the program; instead, the commercial paper issued by the program, which benefits
+from the liquidity support, typically would be the most senior position. However, when a liquidity
+facility that is sized to cover all of the outstanding commercial paper and other senior debt
+supported by the pool is structured so that no cash flows from the underlying pool can be
+91

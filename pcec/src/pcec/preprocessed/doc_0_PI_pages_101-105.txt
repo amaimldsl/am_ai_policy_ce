@@ -1,0 +1,219 @@
+[Document: PI.pdf, Page 101]
+CBUAE Classification: Public
+The charge for specific risk protects against price movements in a security owing to factors
+related to the individual issuer, that is, price moves that are not initiated by the general market.
+a) Offsetting
+When specific risk is measured, offsetting between positions is restricted.
+ Offsetting is only permitted for matched positions in an identical issue.
+ Offsetting is not allowed between different issues, even if the issuer is the same. This is
+because differences in coupon rates, liquidity, call features, and so on, mean that prices
+may diverge in the short run.
+b) Specific Risk – Capital Charge
+Under the standardised approach, market risk exposures are categorised according to
+external credit assessments (ratings) and based on those assessments a capital charge is
+assigned. This broad methodology for calculating the specific risk capital charge was not changed
+by Basel 2.5.
+The capital charges assigned to those external credit assessments are similar to the credit
+risk charges under the standardised approach to credit risk.
+Categorisation of Securities
+Consistent with other sections, a lower specific risk charge can be applied to government
+paper denominated in the domestic currency and funded by the bank in the same currency. The
+national discretion is limited to GCC Sovereigns. This use of national discretion aligns the Market
+Risk Standards with the similar treatment under the credit risk standards. The Market Risk
+Standard is also aligned to the Credit Risk Standard when it comes to the transition period
+permitted for USD funded and denominated exposures of the individual Emirates.
+Qualifying includes securities issued by public sector entities and multilateral development
+banks, plus other securities that are rated with investment grades by two rating agencies. Unrated
+securities can also be included, subject to supervisory approval (such as securities deemed to be
+of comparable investment quality).
+Other securities comprise of securities that do not meet the definition of government or the
+definition of qualifying securities. This category receives the same risk charge as non-investment
+grade borrowers under the standardised approach to credit risk. However, it is recognised that for
+some high yielding debt instruments, an 8% specific risk charge may underestimate the specific
+risk.
+Calculating the Capital Requirement for Market and Credit Risk
+The standards contain different processes for calculating the capital requirement for
+market and credit risk. For credit risk, assets are first risk weighted (by multiplying them by a risk
+weight) and then a capital requirement is applied. In contrast, for market risk, exposures are
+simply multiplied by a specific risk capital charge. For an exposure with a given external credit
+assessment (rating), the specific risk capital charge is the same as the capital requirement
+calculated under the standardised approach for credit risk.
+102
+
+[Document: PI.pdf, Page 102]
+CBUAE Classification: Public
+Specific Risk – Capital Charge for Positions Covered Under the Securitisation
+Framework
+Following the 2009 enhancements to the BCF, the specific risk of securitisation positions
+held in the trading book are generally calculated in the same way as securitisation positions in the
+banking book.
+Specific risk – the capital charges for positions covered under the standardised approach
+for securitisation exposures.
+The default position for unrated securitisations can be thought of as a capital charge of
+100 percent (that is, equivalent to a risk weight of 1250 percent where the capital charge is 8
+percent).
+Where the specific risk capital charge for an exposure is 100% such that capital is held for
+the full value of the exposure, it may be excluded from the calculation of the capital charge for
+general market risk. Forfurther details, please refer to the securitisation framework.
+Treatment of Interest Rate Derivatives
+The interest rate risk measurement system should include all interest rate derivatives and
+off-balance sheet instruments assigned to the trading book that are sensitive to changes in
+interest rates.
+The derivatives are converted into positions in the relevant underlying. These positions
+are subject to the general market risk charges and, where applicable, the specific risk charges for
+interest rate risk. The amounts reported should be the market value of the principal amount of the
+underlying or notional underlying.
+For instruments where the apparent notional amount differs from the effective notional
+amount, banks will use the effective notional amount.
+Interest rate derivatives include:
+ forward rate agreements (FRAs)
+ other forward contracts
+ bond futures
+ interest rate swaps
+ cross currency swaps
+ forward foreign exchange positions
+ interest rate options
+Refer to the examples below in this section for numerical illustrations
+B. Equity Risk
+Market risk can be influenced by changes in equity prices, that is, equity risk.
+Equity risk is the risk that movement in equity prices will have a negative effect on the
+value of equity positions. The capital charge for equity risk is the sum of the charges for general
+and specific market risk.
+103
+
+[Document: PI.pdf, Page 103]
+CBUAE Classification: Public
+The Central Bank sets out a minimum capital standard to cover the risk of equity positions
+held in the trading book. It applies to long and short positions in all instruments that exhibit
+behavior similar to equities, with the exception of non-convertible preference shares, which fall
+under interest rate risk requirements.
+1. Capital Charges for Equity Risk
+To calculate the minimum capital charge for equity risk, you must calculate two separate
+charges:
+ A general market risk charge of 8% is applied to the net overall position.
+ A specific risk charge of 8% is applied to the gross equity position. After offsetting long
+and short positions in the same issue, a bank's gross equity position is the sum of the
+absolute values of all long equity positions and all short equity positions.
+Since banks may hold equities in different national markets, separate calculations for
+general and specific risk must be carried out for eachof these markets.
+Offsetting
+Long and short positions in the same issue can be fully offset, resulting in a single net long or
+short position.
+2. Treatment of Equity Derivatives
+Equity derivatives and off-balance-sheet positions that are affected by changes in equity
+prices should be included in the measurement system, with the exception of certain options
+positions. This includes futures and swaps on both individual equities and on stock indices.
+Positions in these equity derivatives should be converted into notional positions in the
+relevant underlying stock or portfolio of stocks. For example, stock index futures should be
+reported as the marked-to-market value of the notional underlying equity portfolio. A stock index
+future is an agreement to buy or sell a standard quantity of a specific stock index, on a recognised
+exchange, at a price agreed between two parties, and with delivery to be executed on a
+standardised future settlement date. As it is obviously not feasible to deliver an actual stock index,
+stock index futures contracts are settled by cash, calculated with reference to the difference
+between the purchase price and the level of the index at settlement.
+An equity swap is an agreement between two counterparties to swap the returns on a
+stock or a stock index for a stream of payments based on some other form of asset return. Often,
+one payment leg is determined by a stock index with the second leg determined by a fixed or
+floating rate of interest. Alternatively, the second leg may be determined by some other stock
+index (often referred to as a relative performance swap).
+Equity swaps should be treated as two notional positions. For example, in an equity swap
+where a bank is receiving an amount based on the change in value of one stock index and paying
+an amount based on a different index, the bank is regarded as having a long position in the former
+index and a short positionin the latter index.
+In addition to the general market risk requirement, a further capital charge of 2% will be
+applied to the net long or short position in index contracts on a diversified portfolio of equities, to
+cover factors such as execution risk. As the standard stated.
+104
+
+[Document: PI.pdf, Page 104]
+CBUAE Classification: Public
+Refer to the examples below in this section for numerical illustrations
+C. Foreign Exchange Rates
+Market risk can be influenced by changes in foreign exchange rates, that is, foreign
+exchange risk.
+Foreign exchange risk is the risk that the value of foreign exchange positions may be
+adversely affected by movements in currency exchange rates. Foreign exchange positions or
+exposures incur only general market risk. The capital charge for foreign exchange risk also include
+a charge for positions in gold. For purposes of market risk capital requirements, the Central Bank
+takes into account the stable relationship between the AED and the US dollar, with the resultthat
+no capital is charged for open positions in USD. Foreign currency is any currency other than the
+bank's reporting currency.
+Two steps are required to calculate the overall net open position:
+Step 1: Determine the Exposure in Each Currency
+The first step is to calculate the bank's open position, long or short in each currency.
+The open position in each currency is the sum of:
+ the net spot FX position (Includes also all asset items less all liability items, including
+accrued interest, denominated in the currency)
+ the net forward FX position (Because forward FX rates reflect interest rate differentials,
+forward positions are normally valued at current spot exchange rates. The net forward
+position in an exposure should consist of all amounts to be received less all amounts to
+be paid under forward FX transactions, including currency futures and the principal on
+currency swaps not included in the spot position. For banks that base their management
+accounting on the net present values (NPVs), the NPV of each position should be used;
+discounted using current interest rates and valued at current spot rates)
+ guarantees and similar instruments that are certain to be called and are likely to be
+irrecoverable.
+ net future income and expenses not yet accrued but already fully hedged
+ any other item representing a profit or loss in foreign currencies
+ the net delta-based equivalent of the total book of foreign currency options
+Step 2: Determine the Overall Net Open Position across FX Exposures
+The second step in calculating the capital requirement for FX risk is to measure the risk in the
+bank's portfolio of foreign currency and gold positions.
+You can determine the overall net open position of the portfolio by first converting the exposure
+in each foreign currency into the reporting currency at the spot rates. Then, calculate the overall
+net position by summing the following:
+ the greater of the sum of the net short positions or the sum of the net long positions
+(excluding the net open position in the US dollar
+ Take the larger of the two sums, from the step above, and add the absolute value of the
+net position (short or long) in gold.
+The capital charge for foreign exchange market risk is 8% of the position resulting from the
+105
+
+[Document: PI.pdf, Page 105]
+CBUAE Classification: Public
+calculation above.
+Foreign Exchange (FX) Exceptions
+The Central Bank of UAE may allow banks to exclude certain FX positions from the capital
+charges calculation. Banks have to comply with both the requirement of para 70 of the Market
+Risk section of the standards.
+Items that are deducted from a bank’s capital when calculating its capital base, such as
+investments in non-consolidated subsidiaries, or other long-term participations denominated in
+foreign currencies, which are reported in the published accounts at historic cost, do not need to
+be included as foreign currency exposures for the foreign exchange risk calculation.
+Banks with negligible business in foreign currencies and with no FX positions taken for
+their own account may exclude their FX positions if they meet both of the following requirements:
+ their FX business (the greater of the sum of their gross long positions and the sum of their
+gross short positions) does not exceed 100% of total capital (Tier 1 + Tier 2)
+ their overall net open position does not exceed 2% of its total capital
+D. Commodity Risk
+Market risk can be influenced by changes in commodity prices, that is, commodity risk.
+Commodity risk is the risk that on- or off-balance sheet positions will be adversely affected by
+movements in commodity prices.
+A commodity is defined as a physical product that can be traded on a secondary market,
+for example, agricultural products, minerals and precious metals. Gold; however, is covered under
+the framework for foreign exchange.
+Price risk in commodities is often more complex and volatile than price risk associated
+with currencies and interest rates. One reason for this is that commodity prices are influenced by
+natural events such as floods and droughts. Changes in supply and demand also have more
+dramatic effects on price and volatility, and commodity markets often lack liquidity.
+Commodity risk only has a general market risk component because commodity prices are
+not influenced by specific risk.
+Banks using portfolio strategies involving forward and derivative contracts on commodities
+are exposed to a variety of additional risks, such as:
+ Basis risk. the risk of changes in the cost of carry for forward positions and options. Cost
+of carry is a margin and refers to the net effect of borrowing funds for a certain period of
+time and investing them in a financial instrument or commodity for the same period of time.
+If the interest earned on the instrument or commodity is greater than the cost of borrowing,
+then the cost of carry is positive. The cost of carry can also be negative if the cost of
+borrowing is greater than the interest earned.
+ Forward gap risk. This is the risk wherein forward prices may change for reasons other
+than a change in interest rates.
+It is important to note that these risks could well exceed the risk associated with changes
+in spot prices of commodities.
+106
+
+[Document: PI.pdf, Page 106]
+CBUAE Classification: Public
+1. `Treatment of Commodities
+Offsetting
+When measuring risk in commodities, offsetting between positions is restricted.

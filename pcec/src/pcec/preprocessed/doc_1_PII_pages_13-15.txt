@@ -1,0 +1,171 @@
+
+capital methodologies. The analysis should include a robust and conservative forecast of
+operational risk losses and respective capital requirements (at least split into conduct and non-
+conduct risks).
+75. Legal risk is considered an operational risk. Each bank is required to analyse, assess,
+and quantify the impact of legal risk failures on its capital structure. Examples of legal risk
+include inadequate documentation, legal, regulatory incapacity, the insufficient authority of a
+counterparty, and contract invalidity/ unenforceability. The Legal department of each bank bear
+responsibility for the identification and management of this risk. They must consult with internal
+and external legal counsel. Subsidiaries and branches of major international banking groups
+typically have in-house legal departments, acting under the guidance of the group, which aims
+to facilitate the business of the group, by providing proactive, business-oriented advice. The
+outcome of legal and/or regulatory issues to which the bank is currently exposed, and others,
+which may arise in the future, is difficult to predict and, consequently, there can be no
+assurance that the outcome of a legal matters will not be material to the financial condition of
+the bank.
+76. Given the potential impact from operational risk, each bank should evaluate under
+Pillar 2 risks arising from business conduct risks and money laundering / financing of terrorism.
+In addition, each bank should consider internal and external operational risks faced by it,
+including but not limited to operational cyber risk, IT risks, and outsourcing, and each bank is
+expected to consider ways in which it can improve its operational resilience. Each bank should
+provide details in the ICAAP report on the outcome of its Risk Control Self-Assessment (RCSA)
+process to collate bottom-up operational risk drivers across businesses.
+77. Each bank should undertake quantitative stress testing based on its historical loss data
+and operational risk profile.
+E. Credit Concentration Risk
+78. Section V.D of the ICAAP Standard requires banks to address weaknesses at the
+161
+
+[Document: PII.pdf, Page 14]
+CBUAE Classification: Public
+portfolio level including credit concentrations risk. Credit concentration risk is the incremental
+credit loss in a portfolio of credit exposures, caused by high correlation between the credit risk
+drivers of those exposures. Such concentration risk arises mostly due to high correlations and
+dependencies between individual obligors (name concentration) or between economic sectors
+(sectoral concentration). Credit concentration risk can affect a bank’s health or core operations,
+liquidity, earnings and capital ratios. The Central Bank considers concentration risk as a key
+material Pillar 2 risk for all UAE banks.
+79. Consequently, credit concentration arises when large exposures are associated with a
+small number of obligors or a small number of sectors, but not only. Credit concentration risk
+can arise from a seemingly granular portfolio but with high correlation between the obligors’
+risk drivers.
+80. In accordance with the Central Bank re Large Exposures - Credit Concentrations Limits
+(Notice No.226/2018), an exposure is deemed large if it accounts for more than 10% of a
+bank’s capital. Such threshold has been implemented for regulatory purposes. The
+measurement of concentration risk for risk management purposes and for determining Pillar 2
+risk capital requirements should refer to the wider definition of concentration risk. Each bank
+is exposed to a degree of concentration risk, even when complying with the Large Exposure
+Regulation.
+81. Each bank should perform a detailedrisk analysis specific to the Real Estate exposures
+(RE) of the bank and the Central Bank re Standards for Real Estate Exposures (Notice No.
+5733/2021).
+82. Credit concentration risk is a common feature of UAE banks, but currently the Central
+Bank regulations for banks do not include an explicit Pillar 1 capital requirement for name and
+sector concentration risk. Credit concentration risk is a key prudential risk for which the capital
+requirement is at the discretion of banks, and it should be held under Pillar 2. This risk should
+warrant particular attention from each bank. In particular:
+(i) For the purpose of risk management, each bank should ensure that credit
+concentration risk is pro-actively and efficiently addressed. Each bank should
+develop policies and procedures for the identification, measurement, monitoring,
+and reporting of credit concentration risk. Credit concentration risk arises from
+exposures to obligors structured as conglomerates. Therefore each bank should
+have a mechanism in place to identify and aggregate exposures across related
+entities based on their legal relationships. Data should be aggregated across
+systems operated by different business units or entities. This should be indicated
+through the bank’s management information system (MIS);
+(ii) For the purpose of estimating the Pillar 2 capital associated with credit
+concentration risk, each bank should build upon the methodologies employed
+for risk management. These methods should be developed further, as deemed
+appropriate, in order to fully measure the additional capital. Each bank should
+compare several methodologies and propose a choice based on clear and
+documented justification. At a minimum, each bank should calculate and report
+the additional capital using the Herfindahl-Hirschman Index (HHI) methodology;
+and
+(iii) For the purpose of capital planning, each bank should ensure that concentration
+risk is taken into account adequately within its ICAAP. Each bank should assess
+the amount of capital, which it consider adequate to hold given the level of
+concentration risk in their portfolios and given their business plan and the
+expected economic environment.
+162
+
+[Document: PII.pdf, Page 15]
+CBUAE Classification: Public
+F. Interest Rate Risk in the Banking Book (IRRBB)
+83. IRRBB is the risk of loss in the banking book caused by changes in interest rates.
+Interest rate risk can arise both in the banking book and/or the trading book. While interest rate
+risk in the trading book is addressed under the Pillar 1 market risk framework, the interest rate
+risk in the banking book should be addressed under Pillar 2. Conventional banks refer to this
+risk as IRRBB while Islamic banks are exposed to the analogous risk called profit rate risk in
+the banking book (PRRBB).
+84. Each bank should define a risk appetite pertaining to IRRRB that should be approved
+by the Board and implemented through a comprehensive risk appetite framework, i.e. policies
+and procedures for limiting and controlling IRRBB. Each bank should have a process
+supported by adequate policies to manage IRRBB appropriately.This involves, as for any other
+risk, comprehensive identification, measurement, reporting, monitoring, and mitigation.
+85. The measurement process should be based upon several existing Standards and
+Guidance:
+(i) Central Bank “Standards re Capital Adequacy of Banks in the UAE - ICAAP
+Standards”;
+(ii) Central Bank “Regulation and Standards re Interest Rate & Rate of Return Risk
+in the Banking Book” in 2018 (Notice 3021/2018 and Circular 165/2018);
+(iii) Central Bank Model Management Standards and Guidance in 2022 (Notice
+5052/2022); and
+(iv) Basel Framework - Interest Rate Risk in the Banking Book (SRP 31).
+Measurement
+86. The assessment should include all positions of each bank’s potential basis risk, re-
+pricing gaps, commercial margins, gaps for material currencies optionality, and non-maturing
+deposits. The quantitative impact analysis should be supported by description and analysis of
+the key assumptions made by the bank, in particular, assumptions regarding loan
+prepayments, the behaviour of non-maturity deposits (CASA), non-rated sensitive assets,
+contractual interest rate ceilings or floors for adjustable-rate items, and measuring the
+frequency of the interest rate risk in the banking book.
+87. DSIBs and other banks with significant interest rate risk (IRR) exposure should
+compute the economic value of equity (EVE) at a granular facility level, while non-DSIBs may
+compute EVE at exposure level, which is based upon the summation of discounted gap risk
+across time buckets, rather than a granular net present value (NPV) estimation at exposure
+level.
+Scenarios
+88. For the purpose of capital calibration, each bank should employ the interest rate shock
+scenarios corresponding to Table 12 of Central Bank Model Management Guidance and table
+2 of the SRP 31 for their AED and non-AED positions respectively.
+89. In addition to the standard shocks prescribed above, DSIBs and other banks with
+significant exposure to interest rate risk are expected to apply further shocks/ idiosyncratic
+scenarios, which will takeinto account:
+ The bank’s inherent risk profile;
+163
+
+[Document: PII.pdf, Page 16 (Overlap)]
+CBUAE Classification: Public
+ Historical shocks experienced by the bank due to market sentiment and
+corresponding to macro-financial factors; and
+ Additional scenarios prescribed by the Central Bank specifically through
+supervisory interactions or financial stability processes.
+Capital Calculation
+90. The capital requirement should be aggregated across all currencies and scenarios
+conservatively.
+91. The estimation of the Pillar 2 capital corresponding to IRRBB should be based on the
+most conservative loss arising from (i) the change in the economic value of equity (ΔEVE), and
+(ii) the change in net interest income (ΔNII). The most conservative result should be considered
+across all the scenarios calibrated by the bank. (In avoidance of doubt, the allocated capital
+for IRRBB should not be lower than the maximum of the absolute EVE impact and the absolute
+NII impact: Max(abs(EVE impact), abs(NII impact).
+92. The Central Bank considers a bank as an outlier when the IRRBB EVE impact based
+on the standard parallel shock leads to an economic value decline of more than 15% of its Tier
+1 capital. The Central Bank may request an outlier bank to:
+(i) Reduce its IRRBB exposures (e.g. by hedging);
+(ii) Raise additional capital;
+(iii) Set constraints on the internal risk parameters used by a bank; and/ or
+(iv) Improve its risk managementframework.
+93. Irrespective of the approach or model chosen by the bank, at a minimum each bank
+should calculate and report IRRBB using the methodology described by the Central Bank
+Model Management Standards and Guidance.
+G. Model Risk
+94. Models have become an integral part of decision-making in the banking sector for risk
+management, business decisions, and accounting. Inaccurate model results, e.g. based on
+wrong assumptions or valuations, may lead to actual or potential financial losses or an
+underestimation of risks. Therefore, the Central Bank considers model risk a significant risk
+type.
+95. Simple models should not be confused with poorly designed models. Poorly designed
+models can be misleading and interfere with sound decision-making. Small and/or
+unsophisticated banks can employ simple models. However, they cannot employ poorly
+designed models. Each bank should manage model risk in accordance to the Central Bank
+Model Management Standards and Guidance.
+96. Model risk should be incorporated in each banks’ risk framework alongside other key
+risks, as inherent consequences of conducting their activities (refer to Appendix 3.2).
+Consequently, model risk should be managed through a formal process incorporating the
+bank’s appetite for model uncertainty. The framework should be designed to identify, measure,
+monitor, and mitigate this risk. A bank should mitigate a large appetite for model risk by
+counter-measures such as conservative buffers on model results and/ or additional allocated
+Pillar 2 capital.
+164

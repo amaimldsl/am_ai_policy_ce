@@ -1,0 +1,206 @@
+[Document: PI.pdf, Page 121]
+CBUAE Classification: Public
+at 8% for general market risk and 8% for specific risk, giving a summed charge of 16%.
+Market value of 100 shares = USD 1,000
+First, multiply the market value by the sum of general market risk and specific risk charges.
+USD 1,000 x 16% = USD 160
+Then, calculate the amount the option is in-the-money.
+(USD 11 - USD 10) x 100 = USD 100
+The capital charge is the general market risk and specific risk charge less the amount the option
+is in-the-money.
+USD 160 - USD 100 = USD 60
+A similar methodology applies for options whose underlying is a foreign currency, an interest rate
+related instrument or a commodity.
+Another example for simplified approach
+A bank holds 500 shares currently valued at USD 25.50 and holds an equivalent number of put
+options with a strike price of USD 26.25 (each option entitles the bank to sell one share).
+The capital charge is calculated as follows:
+Market value of 500 shares = USD 12,750
+USD 12,750 x 16% (that is, 8% specific plus 8% general market risk) = USD 2,040
+The amount the option is in-the-money = (USD 26.25 - USD 25.50) x 500 = USD 375.
+This gives a capital charge of USD 2,040 - USD 375 = USD 1,665
+122
+
+[Document: PI.pdf, Page 122]
+CBUAE Classification: Public
+IX. Operational Risk
+I. Introduction and Scope
+This section of the guidance supports the Operational Risk Standard in clarifying the
+calculation of the Operational risk capital requirement.
+Operational risk has existed since banks have been in business. However, it is only in
+recent decades that the management of operational risk (including measurement techniques) has
+evolved into a distinct discipline, long after this was the case for both credit risk and market risk.
+In this same period, the significance of operational risk in banks became widely
+recognised. This development was influenced by numerous high-profile operational risk events
+and related losses, along with such factors as banks' greater reliance on technology and
+increased use of outsourcing, the growing sophistication of cyber threats, and the pace of change
+in the financial services sector.
+II. Clarification
+Operational risk includes legal and compliance risk but excludes strategic and reputational
+risk. The exclusion of strategic and reputational risk is because they relate more to indirect losses,
+the definition, measurement and quantification of which would give rise to significant complexities.
+The operational risk capital charge represents the amount of capital that a bank should
+maintain as a cushion against losses arising from operational risk.
+The operational risk capital charge is first calculated using the appropriate approach under
+Basel III. It is then converted into a risk-weighted asset equivalent by multiplying the charge by
+12.5 and adding the result to the total risk-weighted assets for credit risk.
+III. Approaches
+The calculation of the operational risk capital charge is covered under the Standards for
+Capital Adequacy of banks in the UAE.
+The approaches represent a continuum of increasing sophistication and risk sensitivity.
+The charge is to be calculated using one of the following two approaches:
+a. Basic Indicator Approach (BIA)
+The Basic Indicator Approach (BIA) is a simple approach for calculating the capital charge
+for operational risk. It can be used by banks that are not internationally active, as well as by banks
+that are internationally active but may not yet have risk management systems in place for using
+the more advanced approaches for measuring operational risk.
+While the approach is available for all banks as a 'point of entry', irrespective of their level
+of sophistication, Central Bank expects internationally active banks and banks with significant
+operational risk to discontinue indefinitely with the Basic Indicator Approach.
+The Basic Indicator Approach Components
+The operational risk capital charge under the BIA is based on two components:
+123
+
+[Document: PI.pdf, Page 123]
+CBUAE Classification: Public
+1. The exposure indicator, represented by the Gross Income (GI) of a bank as a whole.
+2. The fixed factor, alpha (α), set by the Basel Committee.
+The formula for calculating the capital charge for operational risk under the BIA is as follows:
+𝐾 = [∑(𝐺𝐼 × 𝛼)]⁄𝑛
+𝐵𝐼𝐴 1..𝑛
+Where:
+K
+BIA
+= The capital charge under the BIA;
+GI = Annual gross income, where positive, over the previous three years;
+n = Number of the previous three years for which gross income is positive; and
+α =15%, relating the industry wide level of required capital to the industry wide level of
+the indicator.
+1. Gross Income of the Bank
+Gross income is a broad indicator that serves as a proxy for the likely exposure of a bank
+to operational risk. It is the total of net interest income plus net non-interest income of a bank as
+a whole. Net interest income is defined as interest income of a bank (for example, from loans and
+advances) minus theinterest expenses (for example, interest paid on deposits). Net non-interest
+income is defined as fees and commissions earned minus the non-interest expenses (that is, fees
+and commissions paid) and other income.
+Gross income used in the calculation of the capital charge for operational risk should be:
+- Gross of any provisions, for example, for unpaid interest. This is because such amounts
+should have normally formed part of a bank's income but have been set aside for likely
+credit losses.
+- Gross of operating expenses, including fees paid to outsourcing service providers. This is
+because outsourcing of activities does not fully transfer operational risk to the service
+provider. Outsourcing is the strategic use of outside resources to perform business
+functions that are traditionally managed by internal staff. Outsourcing offers the advantage
+of access to specialised and experienced personnel that may not be available internally,
+and enables banks to concentrate on their core business and reduce costs.
+Only sustainable, renewable and recurrent sources of income are to be used as the basis
+for calculatingthe operational risk capital charge. Banks should perform a reconciliation between
+the gross income reported on the capital adequacy return and the audited financial statements.
+This information should be available to the Central Bank upon request. As such, gross income
+should exclude:
+- realised profits/losses from the sale of securities classified as 'held to maturity' and 'available
+for sale', which typically constitute items of the banking book under certain accounting
+standards. The intention is to hold such securities for some time or up to their full term and
+not for trading purposes. Their sale does not represent sustainable income from normal
+business.
+- Held to maturity securities are those that the bank intends to hold indefinitely or until the
+security reaches its maturity. Available for sale securities includes securities that are neither
+held for trading purposes nor intended to be held till maturity. These are securities that the
+bank intends to hold in the short or medium term, but may ultimately sell. Banking book relates
+124
+
+[Document: PI.pdf, Page 124]
+CBUAE Classification: Public
+to positions that are held to maturity with no trading intent associated with them. Most loans
+and advances are included in the banking book as they are intended to be held until maturity.
+At times, there may also be liquid positions assigned to the banking book if they are intended
+to be held over a longer term or to maturity.
+- Extraordinary or irregular items as well as income derived from insurance claims. Again,
+these items are to be excluded, as they are not sustainable sources of income for a bank.
+Banks sometimes outsource certain activities, such as processing and maintaining data
+on loan collection services to external service providers. Alternatively, banks may act as service
+providers to other banks. This results in the payment or receipt of a fee for the outsourced service.
+Basel provides the following guidance for the treatment of outsourcing fees paid or
+received, while calculating the gross income for the purpose of calculating the operational risk
+capital charge:
+- Outsourcing fees paid by a bank to a service provider do not reduce the gross income of
+the bank.
+- Outsourcing fees received by a bank for providing outsourcing services are included in the
+definition of gross income.
+2. Alpha
+Alpha is a fixed factor, set by the Basel Committee. It serves as a proxy for the industry-
+wide relationship between operational risk loss experience of a bank and the aggregate level of
+the operational risk exposure as reflected in its gross income.
+Treatment of Negative Gross Income
+The operational risk capital charge under the BIA is assumed that a bank has positive
+gross income for all of the previous three years.However, some banks may have negative gross
+income for some year(s), for example, resulting from poor financial performance. Figures for any
+year in which annual gross income is negative or zero shall be excluded from both the numerator
+and denominator when calculating the gross income average.
+On this basis, the figures presented in the 3 years' calculations should reconcile (or be
+reconcilable) with the bank’s audited financial statements.
+b. Standardised Approach (SA)
+The Standardised Approach (SA) represents a refinement along the continuum of
+approaches for calculating the operational risk capital charge. While this approach also relies on
+fixed factors as a percentage of gross income, it allows banks to use up to eight such factors,
+called betas, depending upon their business lines.
+The calculation of the operational risk charge under this approach is more risk sensitive
+than the BIA.
+The Standardised Approach Capital Charge
+Under the Standardised Approach (SA), the operational risk capital charge is based on
+the operational risk capital charges for individual business lines in a bank. The formula for
+calculating the operational risk capital charge under the SA is as follows:
+125
+
+[Document: PI.pdf, Page 125]
+CBUAE Classification: Public
+𝐾 = { ∑ max [∑(𝐺𝐼 × 𝛽 ), 0]}⁄3
+𝑇𝑆𝐴 1−8 1−8
+𝑦𝑒𝑎𝑟𝑠 1−3
+Where:
+K
+TSA
+= the capital charge under the Standardised Approach
+GI = the annual gross income in a given year, as defined in the Basic Indicator Approach
+1-8
+(BIA), for each of the eight business lines
+β = a fixed percentage, set by the committee, relating the level of required capital to the
+1-8
+level of the gross income for each of the eight business lines
+The Standardised Approach Components
+The Standardised Approach identifies two main components to be used in calculating the
+operational risk capital charge:
+1. Gross Income of Eight Business Lines
+Eight business lines are recommended for use by the Basel Committee in calculating the
+operational risk charge under the SA. These business lines are considered as being
+representative of the various kinds of businesses undertaken by banks. The identified business
+lines briefed below are:
+1. Corporate finance: banking arrangements and facilities provided to large commercial
+enterprises, multinational companies, non-bank financial institutions, government
+departments etc.
+2. Trading and sales: treasury operations, buying and selling of securities, currencies and
+commodities for proprietary and client accounts.
+3. Retail banking: financing arrangements for private individuals, retail clients and small
+businesses such as personal loans, credit cards, auto loans, etc. as well as other facilities
+such as trust and estates and investment advice.
+4. Commercial banking: financing arrangements for commercial enterprises, including
+project finance, real estate, trade finance, factoring, leasing, guarantees, bills of exchange
+etc.
+5. Payment and settlement: activities relating to payments and collections, interbank funds
+transfer, clearing and settlement.
+6. Agency services: acting as issuing and paying agents for corporate clients, providing
+custodial services etc.
+7. Asset management: managing funds of clients on a pooled, segregated, retail,
+institutional, open or closed basis under a mandate.
+8. Retail brokerage: broking services provided to customers that are retail investors rather
+than institutional investors.
+Under the SA, the gross income is calculated for each of the eight business lines. It serves
+as a proxy for the likely scale of exposure of that business line of the bank to operational risk.
+Since all income has to be allocated to a business line, the sum of the gross income of the eight
+business lines should equal the gross income for the bank as a whole
+126
+
+[Document: PI.pdf, Page 126]
+CBUAE Classification: Public
+Just like in the Basic Indicator Approach, gross income for SA comprises net interest
+income plus net non-interest income as defined in the Operational Risk section of the Standards

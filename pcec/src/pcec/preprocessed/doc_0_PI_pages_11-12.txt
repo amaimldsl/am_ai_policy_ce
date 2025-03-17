@@ -1,0 +1,148 @@
+[Document: PI.pdf, Page 10 (Overlap)]
+CBUAE Classification: Public
+Appendix 2:Banking, Securities, insurance and other financial entities - Investment
+with ownership not more than 10%
+Investment (ownership not more than 10%)
+Bank's
+Investment Listed/ ownership in Investment
+Entity Entity activity
+Classification Unlisted the entity Amount
+(% of Holding)
+Banking
+E Banking Book Listed 10% 50
+Trading
+F Banking Book Listed 3% 11
+Banking
+G Securities Book Unlisted 8% 40
+Banking
+H Insurance Book Listed 2% 9
+a.Total investment (Banking, Securities, insurance and other financial
+entities)
+110
+b. Bank's CET1 (after applying all the regulatory deduction except
+section 3.9 and 3.10 of the Tier Capital Supply Standards) 1000
+c. Limit (10% of bank's CET1)
+100
+d. Amount to be deducted from bank's CET1 (a-c)
+10
+e. Amount not deducted to be risk weighted (Remaining amount) (a-d)
+100
+The remaining amount of 75 is to be distributed amongst the investments on a pro rata /
+proportionate basis and risk weighted as stated below
+Invest as a % of all Calculation of
+Investment Listed/
+Entity ment such amount not Risk weight
+Classification Unlisted RWA Section
+Amount investment deducted to be risk
+weighted
+Banking 45.50 (100 x 34.5 Credit
+E Book 50 45.5% 45.5 %) Listed 100% 0 Risk
+Trading 10 (100 x Equity Risk - Market risk
+F Book 11 10.0% 10.00%) Listed section
+Banking Book 36.4 (100 x Unlist 40.5 Credit
+G 40 36.4% 36.4%) ed 150% 0 Risk
+Banking 8.2 (100 x Credit
+H Book 9 8.2% 8.2%) Listed 100% 6.00 Risk
+110 100% 100
+11
+
+[Document: PI.pdf, Page 11]
+CBUAE Classification: Public
+Appendix 3: Significant investments in commercial entities.
+Individual Investment Limit Check and its treatment
+Bank's CET1 (after applying all the regulatory and threshold deduction) 1000
+Individual Limit (10% of bank's CET1D) 100
+Step 1: Individual Limit check
+Significantinvestments in commercial entities
+Amount
+Amount
+as a %
+Entity Investment Listed/ Investment Significant to RW Remaining
+Entity of
+activity Classification Unlisted Amount Investment at amount
+bank's
+952%
+CET1
+I Commercial Banking Book Listed 140 14% Yes 40 100
+J Commercial Banking Book Listed 120 12% Yes 20 100
+K Commercial Banking Book Unlisted 110 11% Yes 10 100
+L Commercial Banking Book Listed 115 12% Yes 15 100
+M Commercial Banking Book Listed 75 8% No 75
+N Commercial Banking Book Listed 45 5% No 45
+O Commercial Banking Book Listed 50 5% No 50
+655 85 570
+Risk weighting at 952% on account of 10% threshold on individual basis is 85.
+Step 2: Aggregate Limit check
+Aggregate of remaining amount of investments after 10% deduction
+(entity I,J,K,L,M,N & O) 570
+Aggregate Limit (25% of bank's CET1) 250
+The amount to be risk-weighted at 952% based on the 25% threshold on
+aggregate basis 250
+Remaining amount of investments to be risk-weighted under the applicable risk
+320
+weighting rules (100% RW for listed and 150% unlisted)
+Total amount to be risk weighted at 952%: 335 (85 + 250)
+12
+
+[Document: PI.pdf, Page 12]
+CBUAE Classification: Public
+Appendix 4: Minority interest illustrative example
+This Appendix illustrates the treatment of minority interest and other capital issued out of
+subsidiaries to third parties, which is set out in section 2.7 of the Tier Capital Supply Standard
+(Paragraph 35 to 41).
+A banking group consists of two legal entities that are both banks. Bank P is the parent, Bank S
+is the subsidiary, and their unconsolidated balance sheets are set out below
+Amount Amount
+Bank P Balance sheet Bank S Balance sheet
+(AED) (AED)
+Assets Assets
+Loan to customers 100 Loan to customers 150
+Investment in CET 1 of Bank S 7
+Investment in AT1 of Bank S 4
+Investment in T2 of Bank S 2
+Total Assets 113 Total Assets 150
+Liabilities and Equities Liabilities and Equities
+Depositors 70 Depositors 127
+Common Equity (CET1) 26 Common Equity (CET1) 10
+Additional Tier1 (AT1) 7 Additional Tier1 (AT1) 5
+Tier 2 10 Tier 2 8
+Total Liabilities and Equities 113 Total Liabilities and Equities 150
+The balance sheet of Bank P shows that in addition to its loans to customers, it owns 70% of the
+common shares of Bank S, 80% of the Additional Tier 1 of Bank S and 25% of the Tier 2 capital
+of Bank S. The ownership of the capital of Bank S is therefore as follows:
+Capital issued by Bank S
+Amount Issued to Amount Issued
+Total
+Parent to third party
+Common Equity (CET1) 7 3 10
+Additional Tier1 (AT1) 4 1 5
+Tier 1 11 4 15
+Tier 2 2 6 8
+Total Capital (TC) 13 10 23
+13
+
+[Document: PI.pdf, Page 13]
+CBUAE Classification: Public
+The consolidated balance sheet of the banking group is set out below:
+Consolidated Balance sheet of Bank P
+Assets Amount (AED)
+Loan to customers 250
+Total Assets 250
+Liabilities and Equities
+Depositors 197
+Common Equity (CET1) 26
+Additional Tier1 (AT1) 7
+Tier 2 10
+Minority Interest
+Common Equity (CET1) 3
+Additional Tier1 (AT1) 1
+Tier 2 6
+Liabilities and Equities 250
+For illustrative purposes, Bank S is assumed to have risk-weighted assets of 100. In this example,
+the minimum capital requirements of Bank S and the subsidiary’s contribution to the consolidated
+requirements are the same since Bank S does not have any loans to Bank P. This means that it
+is subject to the following minimum plus capital conservation buffer requirements and has the
+following surplus capital:
+Minimum and surplus capital of Bank S
+Minimum plus Capital
+Capital Surplus

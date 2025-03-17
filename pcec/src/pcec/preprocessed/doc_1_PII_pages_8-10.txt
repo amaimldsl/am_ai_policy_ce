@@ -1,0 +1,172 @@
+
+those management actions that have been approved by the bank’s Board.
+39. If the bank plans the increase of its capital base (e.g. capital issuances, rights issues,
+reduction in the equity, etc.), the bank may consider the capital increase in its capital planning.
+The bank should only consider capital increases that have obtained Senior Management
+approval and form part of the bank’s official capital plan and that have been discussed with the
+Central Bank. A bank that considers capital increases in it capital planning has to perform an
+additional stress test scenario to analyse the impact if the capital increase does not materialise.
+40. The following elements should be included in the ICAAP report or related appendix:
+(i) Assumptions related to business developments over the forecasted period;
+(ii) Assumptions related to the economic environment over the forecasted period;
+(iii) Summary of historic capital base, aggregate RWAs, and CAR ratios for a
+minimum of five (5) years;
+(iv) Disclosure of the following forecasted financial projections:
+(v) Detailed balance sheet;
+(vi) Detailed statement of profit and loss;
+(vii) Break down of Capital base into its regulatory components;
+(viii) Break down of Risk Weighted Assets (RWAs) components;
+(ix) Significant ratios (e.g. CET 1, Tier 1, and CAR);
+(x) A method to calibrate capital needs to the current and expected levels of risks,
+in coherence with the bank’s risk appetite, business plan, and strategy;
+(xi) It should include the likely future constraints on the availability and the use of
+capital; and
+(xii) Any future regulatory and accounting changes that can potentially impact such
+plan.
+41. Banks are required to fulfill internal risk appetite requirements in the bank’s self-
+assessment of Pillar 1 and Pillar 2 minimum regulatory capital requirements. Banks should
+156
+
+[Document: PII.pdf, Page 9]
+CBUAE Classification: Public
+fulfill the minimum capital requirements plus capital buffer requirements under business as
+usual (BAU) conditions. Under stress testing (ST) banks should fulfill the minimum capital
+requirements without the requirement to meet buffer requirements.
+42. The capital planning should not be limited to risk-based capital ratios but should also
+consider the leverage ratio of the bank. Bank should analyse and consider unaccounted
+foreseeable events in the capital plan, e.g. regulatory changes like the revised standardised
+approaches for credit, marketand operational risk.
+VI. Material Risks
+43. As a part of its risk management practices, each bank is responsible for implementing
+a regular process to identify, measure, report, monitor, and mitigate risks. Such risk
+management process should be used as direct input into the calibration of capital demand to
+cover both Pillar 1 and Pillar 2 risks. The framework supporting the estimation of capital
+consumption for each risk type should approved by Senior Management and the Board.
+44. All risks identified as material risks are expected to be addressed in the ICAAP. Risk
+materiality should depend on each bank’s business model and risk profile. The scope of such
+risk identification should cover the entire group, including all branches and subsidiaries of the
+bank. The Central Bank considers credit concentration risk and interest rate risk in the banking
+book (IRRBB) as defined in this Guidance, as material risks. Given the growing risk universe
+outside of traditional Pillar 1 risks, each bank must define, update, and review the applicable
+ICAAP risks on a continuous basis (e.g. quarterly).
+45. The identification of risks should distinguish between direct risks and indirect risks.
+Direct risks are explicit and commonly identifiable risks, such as the credit risk associated with
+facility underwriting. Indirect risks are arising as second order consequences of direct risks
+and unforeseen events. For instance, an increase in fraud and cyber-attacks as a
+consequence of an economic downturn or a pandemic during which employees are forced to
+work from home. Other examples are the credit risk arising from derivatives during periods of
+high market volatility or the increase in credit risk resulting from a drop in collateral values
+following a real estate market crash.
+46. The identification of risks should be supported by a regular and structured process. An
+inventory of risks should be recorded for each business activity and each portfolio on a regular
+basis. In addition to the regular updates (i.e. at least quarterly), it is expected to adjust the
+inventory whenever it no longer reflects the risks that are material, e.g. because a new product
+has been introduced or certain business activities have been expanded. This should support
+the production of ICAAP from one year to the next.
+47. The measurement of risk should be transparent, documented, and supported by
+subject-matter experts throughout the bank. Each expert function should contribute to its area
+of expertise, in such way that the ICAAP is a reflection of a collective work substantiated by
+thorough analysis. Each dedicated risk team should provide a comprehensive assessment of
+the risk drivers and materiality of the risk they manage.
+48. The estimation of the capital consumption associated with each risk should be based
+upon clear methodologies designed appropriately for each risk type. Each bank should identify
+the owner of such methodology either within the team responsible to manage risks or with a
+centralised team responsible for aggregating risk information and to construct the ICAAP.
+Ultimately, the process to identify, measure risks, and estimate the associated capital
+consumption should be approved by Senior Management and the Board.
+49. In the case of vendor models, this includes the expectation that such models are not
+expected to be imported mechanistically, but rather they are expected to be fully understood
+157
+
+[Document: PII.pdf, Page 10]
+CBUAE Classification: Public
+by the bank and well suited for, and tailored to, its business and its risk profile.
+50. The identification of risks should result in distinct types:
+(i) Pillar 1 risks that are not fully captured and that are covered by insufficient
+capital. For instance, the market risk capital consumption under Pillar 1 might
+not incorporate sufficient basis risk; and
+(ii) Risks that are not captured at all as part of the Pillar 1 framework.
+51. Each bank should not develop separate methodologies for risk measurement, if those
+are not employed for risk management. The Use Test assumes that the method and conclusion
+of the ICAAP should be coherent with the bank’s internal practices.
+52. To ensure an adequate assessment of high quality, each bank should establish, and
+implement an effective data quality framework, to deploy adequate processes, and control
+mechanisms to ensure the quality of data. The data quality framework should ensure reliable
+risk information that supports sound decision-making, covers all relevant risk data, and data
+quality dimensions.
+53. The next sections contain explanations and expectations on certain risk types (e.g.
+Business Model Analysis (BMA) and strategic risk, Interest Rate Risk in the Banking Book,
+and Credit concentration risk).
+A. Business Model Analysis (BMA) and Strategic Risk
+54. Business model analysis embodies the risk that the bank has failed to structure its
+organisation and operations (expertise, systems, and processes) in a way that leads to
+achieving its primary business and strategic objectives.
+55. Strategic risks arise when the bank’s business model, organisation structure,
+operations, and/or strategy are no longer adequate to deliver the objective of the bank as
+specified by the Board.
+56. The bank should conduct regular business model analysis (BMA) to assess its
+business and strategic risks to determine:
+(i) The ability of the bank’s current business model to deliver suitable results over
+the following 12 months;
+(ii) The sustainability of the bank’s strategy and its ability to deliver suitable/
+acceptable results over a forward-looking period of at least three (3) to five (5)
+years, based on the strategic plansand financial planning;
+(iii) The sustainability and sufficient diversification of income over time (three (3) to
+five (5) years). This analysis should consider the sources and levels of income
+and expenses; and
+(iv) The ability of the bank to deliver total financial data across the group and for
+each of its key business units (includes forward-looking performance and
+profitability).
+57. An effective BMA contains a through-the-cycle view of the sustainability of the business
+model in its current state and against a projected view of the bank’s funding structure, return
+on equity (ROE), capital supply, and capital demand, the effect this has on the product, service
+pricing, and resource requirements. The business planning should be clear, aligned, and
+158
+
+[Document: PII.pdf, Page 11 (Overlap)]
+CBUAE Classification: Public
+integrated with the bank’s strategy, governance, risk-appetite statement, recovery plans,
+internal controls, stress tests, and internal reporting (MIS).
+58. Each bank should elaborate on the linkage and consistency between their strategic
+decisions, risk appetite, and the resources allocated for achieving those strategies. The bank
+should articulate the frequency of monitoring and quantifying changes in its financial
+projections (e.g. balance sheet, profit and loss, and concentrations) regularly to verify that they
+are consistent with the business model, risk appetite, and the achievement of the bank’s
+strategic goals.
+59. An effective BMA enables banks to identify vulnerabilities at an early stage and assess
+their ability to adapt to changes in their specific operating environment therefore helps to
+promote the safety and soundness of banks. A well-designed and comprehensive BMA
+approach provides banks with the basis to understand, analyse, assess the sustainability of
+their business models, enhance proactive, forward-looking operations, and strategy
+evaluation.
+60. Each bank’s business model should be based on analyses and realistic assumptions
+(stress tests, scenario analyses, and driver analyses, etc.) about the effect of strategic choices
+on financial and economic outcomes of operations performed. This will enable the bank and
+the Central Bank to understand the nature of the business model and the inherent risks. Each
+bank should perform an analysis that involves identifying, challenging the dependency of
+strategies on uncontrollable external factors, and assumptions (e.g. market interest rates,
+demand growth in the target customer markets, degree of competition in the markets, cost of
+entry, and compliance costs).
+61. An effective BMA addresses the banks’ ability to produce aggregate financial data
+across the banking group as a whole, and the bank solo level, for each of its main business
+units and business lines. Moreover, to make the best use of this data and transform it into
+relevant inputs, banks need to develop and use analytical tools including stress tests, peer
+group assessments, profitability forecasts and analysis, and scenario analyses.
+62. The documentation provided in support of the business model should contain an
+overview of the business activities of the bank and anoverview of the structure/organisational
+details of the bank. For example a brief description of the business model, present financial
+condition, any expected changes in the present business model, the expected future business
+environment, business plans, and the projected financial condition for the following year.
+63. The following additional information and documentation should be referenced (if not
+part of) the ICAAP report:
+(i) Bank’s strategic plan(s) with current-year, forward-looking forecasts, and
+underlying economic assumptions;
+(ii) Financial reporting (e.g. profit and loss (P&L), and balance sheet), covering the
+most recent period and the whole (forward-looking) ICAAP reporting period;
+(iii) Internal reporting (e.g. management information, capital reporting, liquidity
+reporting, and internal risk reporting);
+(iv) Recovery plans, including the results of resolvability assessment, if any, and
+identification of critical functions;
+(v) Third-party reports (e.g. audit reports, and reports by equity/credit analysts),
+states their main concerns and issues;
+159

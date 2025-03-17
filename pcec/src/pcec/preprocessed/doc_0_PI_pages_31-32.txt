@@ -1,0 +1,145 @@
+[Document: PI.pdf, Page 30 (Overlap)]
+CBUAE Classification: Public
+deterioration in credit quality and thereby cancellability by the bank.
+For exposures that give rise to counterparty credit risk, the exposure amount to be used
+in the determination of RWA is to be calculated according to the standardised approach for
+Counterparty Credit Risk (SA-CCR).
+N. Credit Risk Mitigation (CRM)
+Only eligible collateral, guarantees, credit derivatives, and netting under legally
+enforceable bilateral agreements (such as ISDAs) are eligible for CRM purposes. For example, a
+commitment to provide collateral or a guarantee is not recognised as an eligible CRM technique
+for capital adequacy purposes until the commitment to do so is actually fulfilled.
+No additional CRM will be recognised for capital adequacy purposes on exposures where
+the risk weight is mapped from a rating specificto a debt security where that rating already reflects
+CRM. For example, if the rating has already taken into account a guarantee pledged by the parent
+or sovereign entity, then the guarantee shall not be considered again for credit risk mitigation
+purposes.
+Banks should ensure that all minimum legal and the operational requirements set out in
+the Standard are fulfilled.
+CRM treatment by substitution of risk weights
+The method ofsubstitution of risk weight is applicable for the recognition of the guarantees
+and credit derivatives as CRM techniques under both the simple approach and the comprehensive
+approach. Under this method, an exposure is divided into two portions: the portion covered by credit
+protection and the remaining uncovered portion.
+For guarantees and credit derivatives, the value of credit protection to be recorded is the
+nominal value. However, where the credit protection is denominated in a currency different from
+that of the underlying obligation, the covered portion should be reduced by a standard supervisory
+haircut defined in the Credit Risk Standard for the currency mismatch.
+For eligible collateral, the value of credit protection to be recorded is its market value,
+subject to a minimum revaluation frequency of 6 months for performing assets, and 3 months for
+past due assets (if this is not achieved then no value can be recognised). Where the collateral
+includes cash deposits, certificates of deposit, cash funded credit-linked notes, or other
+comparable instruments, which are held at a third-party bank in a non-custodial arrangement and
+unconditionally and irrevocably pledged or assigned to the bank, the collateral will be allocated
+the same risk weight as that of the third party bank.
+Simple Approach
+Under simple approach, the eligible collateral must be pledged for at least the life of the
+exposure, i.e. maturity mismatch is not allowed.
+Where a bank has collateral in the form of shares and uses the simple approach, a 100%
+risk weight is applied for listed shares and 150% risk weight for unlisted shares.
+Comprehensive Approach
+Under the comprehensive approach, the collateral adjusted value is deducted from the
+risk exposure (before assigning the risk weight). Standard supervisory haircuts as defined in the
+31
+
+[Document: PI.pdf, Page 31]
+CBUAE Classification: Public
+Credit Risk Standard are applied to the collateral because collateral is subject to risk, which could
+reduce the realisation value of the collateral when liquidated.
+If the exposure and collateral are held in different currencies, the bank must adjust
+downwards the volatility- adjusted collateral amount to take into account possible future
+fluctuations in exchange rates.
+There is no distinction for applying supervisory haircuts between main index equities and
+equities listed at a recognised exchange. A 25% haircut applies to all equities.
+Capital Add-on under Pillar 2
+While the use of CRM techniques reduces or transfers credit risk, it gives rise to other
+risksthat need to be adequately controlled and managed. Banks should take all appropriate steps
+to ensure the effectiveness of the CRM and to address related risks. Where these risks are not
+adequately controlled, the Central Bank may impose additional capital charges or take other
+supervisory actions as outlined in Pillar 2 Standard.
+III. Shari’ah Implementation
+Banks that conduct all or part of their activities in accordance with the provisions of
+Shari’ah laws and have exposure to risks similar to those mentioned in the Credit Risk Standard,
+shall, for the purpose of maintaining an appropriate level of capital, calculate the relevant risk
+weighted asset in line with these guidelines. This must be done in a manner compliant with the
+Shari’ah laws.
+This is applicable until relevant standards and/or guidelines in respect of these
+transactions are issued specifically for banks offering Islamic financial services.
+IV. Frequently asked questions (FAQ)
+During the industry consultation the Central Bank received a number of questions related to
+the Credit Risk Standard and Guidance. To ensure consistent implementation of the Credit
+Risk Standard in the UAE, the main questions are addressed hereunder.
+Claims on Sovereigns
+Question 1: What does the 7-year transition for USD exposure to the Federal Government
+and Emirates Government mean for banks?
+During the 7-year transition period, banks are required to have a forward looking plan on USD
+exposures to Federal and Emirate governments. Banks shall monitor and manage the impact of
+the change in risk weights of exposures in USD on the bank’s capital position. Exposures in USD
+as well as the banks’ capital plans will be monitored by the Central Bank.
+Question 2: What is the appropriate risk weight for exposures to other GCC sovereigns?
+A 0% risk weight is applied to GCC Sovereign exposures denominated and funded in the domestic
+currency of their country. However, exposures in non-domestic currencies (including USD) shall
+be risk weighted according to the rating of sovereigns.
+Question 3: Does the Central Bank allow banks to apply unsolicited ratings in the same
+32
+
+[Document: PI.pdf, Page 32]
+CBUAE Classification: Public
+way as solicited ratings?
+Bank should use ratings determined by an eligible External Credit Assessment Institution (ECAIs).
+Only solicited ratings are allowed to be used. The Central Bank only allows unsolicited ratings
+from an eligible ECAI for the UAE federal government. All other exposures shall be risk weighted
+using solicited ratings.
+Claims on Non-Commercial Public Sector Enterprises
+Question 4: Can the bank include claims on a GCC PSE denominated in their local currency
+under claims of Non-Commercial PSEs?
+No, the preferential risk weights for Non-Commercial PSEs are only granted for UAE entities.
+Question 5: Do all the seven criteria stated in the credit risk guidance have to be met or
+any of the criterion can be met to classify an entity as non-commercial PSE? In addition,
+does the bank just follow the so-called GRE list or shall the bank apply the criteria to
+classify entities as non-commercial PSE?
+To classify entities as Non-commercial PSE, the Central Bank will consider in its approval process
+all seven criteria and in principle all seven criteria must be satisfied. A bank may approach the
+Central Bank, if the bank thinks that certain entities satisfy the criteria for a Non-commercial PSE
+that can be added to the GRE list. If banks have information that would lead to changes to of the
+GRE List, banks should inform the Central Bank accordingly.
+Question 6: The guidance requires that the bank’s internal audit/ compliance departments
+perform regular reviews to ensure the PSE and GRE classification complies with the
+Central Bank's GRE list. What is the expected frequency of such a review?
+The frequency of internal audit/compliance should be commensurate with the bank's size, the
+nature and risks of bank’s operations and the complexity of the bank.
+Claims on Multilateral Development Banks (MDBs)
+Question 7: Does an MDB need to satisfy all of the stated criteria or any one of the criteria
+to apply a 0% risk-weight?
+Exposures to MDBs may receive a risk weight of 0% if they fulfill all five criteria. However, the
+Central Bank does not decide whether an MDB satisfies the criteria or not. The Basel Committee
+on Banking Supervision (BCBS) evaluates each MDB’s eligibility for inclusion in the list of 0% RW
+on a case-by-case basis.
+Claims on Banks
+Question 8: For claims on an unrated bank, can the bank apply the preferential rating as
+per risk weight table for short-term exposures?
+A risk weight of 50% for long term exposures and 20% for short term exposures are applied to
+claims on unrated banks. However, no claim on an unrated bank may receive a risk weight lower
+than the risk weight applied to claims on its sovereign of incorporation, irrespectively of the
+exposure being short-term or long-term.
+Claims on Corporates
+Question 9: Should loans to High Net Worth Individuals (HNIs) be reported under claims in
+regulatory retail portfolio or claims on corporate?
+33
+
+[Document: PI.pdf, Page 33]
+CBUAE Classification: Public
+No, HNI classification should be aligned with the BRF explanatory note and should be reported
+under claims on corporate.
+Question 10: What is the treatment for SMEs and in which asset class are SME exposures
+reported?
+Answer: Banks have to follow BRF explanatory note 6.21 for the definition of SME. Exposures
+classified as SME according to BRF explanatory note, are for capital adequacy reporting purposes
+classified as “Retail SME” and “corporate SME”. SME exposures fulfilling all of four retail criteria
+as stated in Section III G of the Credit Risk Standard are reported under “claims on retail”. SME
+that do not fulfill the retail criteria are treated under claims on corporates as per Section III F of
+the Credit Risk Standard.
+Claims secured by Residential Property
+Question 11: Does the bank have to assign 100% RW for customers with more than 4
+properties?
+Yes, if a customer has more than 4 properties, a bank has to report all properties of that customer

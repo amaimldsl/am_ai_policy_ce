@@ -1,0 +1,218 @@
+
+re Capital Adequacy.
+2. Beta
+Beta serves as a proxy for the industry-wide relationship between the operational risk loss
+experience and the level of operational risk exposure as reflected in the gross income for a
+business line. It is representative of the amount of loss that can be incurred by a bank given that
+level of exposure (represented by gross income) in a business line.
+The beta factors for the eight business lines as set by the Basel Committee are as follows:
+Beta Business line Beta factor
+β 1 Corporate finance 18%
+β 2 Trading and sales 18%
+β 3 Retail banking 12%
+β 4 Commercial banking 15%
+β 5 Payment and settlement 18%
+β 6 Agency services 15%
+β 7 Asset management 12%
+β 8 Retail brokerage 12%
+The beta factors have been set within a range of 12-18% depending upon the degree of
+operational risk perceived in a business line. Thus, a 12% beta factor for retail banking indicates
+that, in general, the operational risk in retail banking is lower than the operational risk in
+commercial banking. The latter, which has a beta of 15%, carries a lower operational risk than,
+for example, payment and settlement, which carries a beta factor of 18%.
+Treatment of Negative Gross Income from Business lines
+Some banks may have negative gross income for some years in some business lines.
+This will result in a negative capital charge for the business line for that year. If the gross income
+and the resulting capital charge of a specific business line is negative, the aggregate of the capital
+charges across business lines for that year could still be positive, so long as the gross income
+from other business lines is positive.
+The following guidance applies for treatment of negative capital charges under the
+Standardised Approach:
+- In any given year, negative charges in business lines may offset positive capital charges
+in other business lines without any limit.
+- If the total capital charge, after offsetting negative and positive capital charges of business
+lines, is negative for a given year, then the numerator for that year will be set to zero.
+- If negative gross income distorts the operational risk capital charge calculated under the
+SA, the Central Bank will consider appropriate supervisory action under Pillar 2.
+Calculating the Operational risk capital charge under the Standardised Approach (SA)
+The calculation of the capital charge for operational risk under the SA follows the following steps:
+127
+
+[Document: PI.pdf, Page 127]
+CBUAE Classification: Public
+Step 1: Calculate the capital charge for each business line using its gross income and applicable
+beta factor in year 1.
+If the gross income from a business line is negative, the capital charge for that business line in
+year 1 willbenegative.
+Step 2: Sum the eight capital charges of business lines for Year 1.
+In a year, negative capital charges in some business lines may offset positive capital charges for
+other business lines without any limit.
+Steps 3 and 4: Follow steps 1 and 2 for the other two years.
+Step 5: Calculate the 3-year average of the aggregated capital charges. Where the aggregate
+capital charge across all business lines in a given year is negative, then the input to the numerator
+for that year will be zero. The denominator will remain 3, representing the three years included in
+the calculation.
+Central Bank supports the use of the Beta given in the Standards re Capital Adequacy as well as
+here in this guidance above as the basis for the capital calculations under SA.
+c. Alternative Standardised Approach (ASA) Capital Charge
+The Alternative Standardised Approach provides a different exposure indicator for two
+of the eight business lines, retail banking and commercial banking. These activities essentially
+comprise traditional banking business and still represent the main business of banks in several
+jurisdictions.
+Calculation of Operational Risk Capital Charge under Alternative Standardised
+Approach (ASA)
+Using the ASA, the operational risk capital charge for retail banking and commercial
+banking will be based on the following formulas:
+K = β x m x LA
+RB RB RB
+Where:
+K = is the capital charge for retail banking
+rb
+m = 0.035
+β
+rb
+= is the beta factor for retail banking (12%)
+LA = is the total outstanding retail loans and advances (non-risk weighted and gross of
+rb
+provisions), averaged over the past three years
+K = β x m x LA
+CB CB CB
+Where:
+K = is the capital charge for commercial banking
+CB
+m = 0.035
+β CB= is the beta factor for commercial banking (15%)
+LA = is the total outstanding commercial loans and advances (non-risk weighted and gross of
+CB
+provisions), averaged over the past three years
+128
+
+[Document: PI.pdf, Page 128]
+CBUAE Classification: Public
+For the other six business lines, the calculation of the operational risk capital charge will be based
+on the gross income and beta factor of that business line, as prescribed under the SA.
+Further Options under the Alternative Standardised Approach (ASA)
+Further options are available at under the ASA for calculating the operational risk capital
+charge to address problems in disaggregation of the exposure indicator among business lines by
+banks. However, the greater the disaggregation, the better will be the alignment of the capital
+charge with a bank's operational risk profile.
+Available options relate to using loans and advances in commercial and retail banking
+business lines and gross income in the other six business lines as the exposure indicators with
+different beta factor combinations:
+- Option 1 – using a common beta factor of 15% for commercial loans and retail loans, and
+the SA beta factors for the other six business lines
+- Option 2 – using the SA beta factors of 15% and 12%, respectively, for commercial loans
+and retail loans and a common beta factor of 18% for the other six business lines
+- Option 3 – using a common beta of 15% for commercial loans and retail loans and a
+common beta factor of 18% for the other six business lines
+For further details, kindly refer to the Appendix below.
+IV. Shari’ah Implementation
+Banks that conduct all or part of their activities in accordance with the provisions of
+Shari’ah law and have exposure to risks similar to those mentioned in the Operational Risk
+Standard, shall, for the purpose of maintaining an appropriate level of capital, calculate the
+relevant risk weighted asset in line with these guidelines. This must be done in a manner
+compliant to the Shari’ah law.
+This is applicable until relevant standards and/or guidelines in respect of these
+transactions are issued specifically for banks offering Islamic financial services.
+V. Frequently Asked Questions
+A. Basic Indicator Approach
+Question 1: If a bank incurs a negative gross income in any of the previous three years,
+will it be taken into account under the Basic Indicator Approach (BIA)?
+The basis for working out the capital charge for operational risk under the BIA is three-year
+average of positive gross income. If the gross income for any of the previous three years is
+negative or zero, the figures for that year will be excluded from both the numerator and the
+denominator when calculating the capital charge. The negative gross income will not be added to
+the numerator and the denominator will exclude the year in which the income is negative.
+As mentioned under the Basic Indicator Approach, if negative gross income distorts a bank’s Pillar
+1 capital charge under the Standardised Approach, supervisors will consider appropriate
+supervisory action under Pillar 2.
+129
+
+[Document: PI.pdf, Page 129]
+CBUAE Classification: Public
+Question 2: Can the Central Bank detail or provide examples of the extraordinary or
+irregular items under the definition of Gross income. Does this cover the bank selling off
+certain part of its business?
+An extraordinary or irregular item consists of gains or losses included on a bank's P&L statement
+(usually reported separately as these items are not predictors of future performance) from events
+that are unusual and infrequent in nature. Such items are the result of unforeseen and atypical
+events that are outside the normal course of the core banking business (i.e. outside the types of
+income described in paragraph 13 of the Operational Risk section of Standards re Capital
+Adequacy in the UAE). For example, income derived from non-core banking business; income
+from discontinued operations; extraordinary income (e.g. from the sale of certain part a banking
+business).
+B. Standardised Approach
+Question 3: Define business Segments under 'Retail Brokerage' and 'Asset Management'?
+• Retail Brokerage - Examples of activities:
+Execution and full service, such as:
+i. Reception and transmission of orders in relation to one or more financial instruments
+ii. Execution of orders on behalf of clients
+• Asset Management- Examples of activities:
+i. Portfolio management
+ii. Managing of Investments funds, including: pooled funds, segregated funds, retail
+funds, institutional funds, closed funds, open funds, private equity funds
+Question 4: What is the objective mapping criteria for mapping ancillary business function
+that supports more than one business line?
+Such objective mapping criteria depends on the business and ancillary business mix of a bank.
+These criteria are not preset by the Central Bank. A bank should establish internally such criteria,
+reflecting its internal organisation, and these should be subject to independent review as per point
+(ix) of paragraph 12 of the Operational Risk section of Standards re Capital Adequacy in the UAE.
+The allocation can be done pro-rata based on the chosen criteria.
+Examples of objective criteria include:
+1. number of full-time equivalent members of staff,
+2. time sheet man-hours,
+3. number of clients or transactions originated from each business line,
+4. volume of business originated from each business line.
+Question 5: Business Segments/ functions that are to be mapped to 'Payment and
+Settlement' can be clearly articulated, as currently Level 2 defines the business segment
+as 'External Clients'
+There is no fixed definition of external clients but all clients that the bank deals with externally with
+regards to Payment and Settlements need to be incorporated in this business line.
+130
+
+[Document: PI.pdf, Page 130]
+CBUAE Classification: Public
+C. Alternative Standardised Approach
+Question 6: What exposure indicator is used in the ASA approach?
+In the ASA, gross income is replaced by the credit volume in terms of outstanding loans and
+advances (L&A) multiplied by a factor m (fixed at 0.035), as the exposure indicator for retail and
+commercial banking business lines. The loans and advances are non-risk weighted and gross of
+provisions.
+Question 7: Why is the volume-based indicator alternative provided?
+This volume-based indicator is provided to avoid large differences in the operational risk
+requirement caused by differences in income margins across banks and jurisdictions in these
+business lines. Gross income is not anappropriate exposure indicator of the extent of operational
+risk in retail and commercial lending.
+Question 8: Can a bank choose to adopt ASA on its own?
+No, the Central Bank must be satisfied that the alternative approach provides an improved basis
+for calculating the capital charge for operational risk in the bank. Reverting to the SA after adopting
+ASA is only possible with the approval of the Central Bank.
+Question 9: What comprises Commercial Loans and Advances?
+Under the ASA, commercial loans and advances will include outstanding amounts (non-risk
+weighted and gross of provisions) averaged over the past three years, from the following credit
+portfolios:
+Commercial loans included for ASA Definitions
+Corporates Loans to a corporation, partnership or
+proprietorship firm
+Sovereigns Loans to sovereigns and their central banks,
+certain public sector enterprises and
+multilateral development banks
+Banks Loans to other banks and regulated
+securities firms
+Specialised lending Loans for project finance, object finance,
+commodities finance, income producing real
+estate and commercial real estate
+Small and medium enterprises treated as Loans to small and medium enterprises
+corporates belonging to a group with annual gross
+turnover that exceeds AED 250 million
+Purchased corporate receivables Bank finance against amounts due to
+corporates from third parties for goods
+and/or services provided by them.
+Book value of securities held in the banking The value at which securities have been
+book purchased rather than their market value.
+Securities that are held in the banking book
+are intended to be held until maturity. There
+is no intent of trading in these securities.
+Question 10: What comprises Retail Loans?
+For the purpose of the ASA, retail loans will include total outstanding amounts (non-risk weighted
+131

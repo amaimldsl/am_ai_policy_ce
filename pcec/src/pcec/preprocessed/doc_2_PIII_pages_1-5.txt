@@ -1,0 +1,176 @@
+[Document: PIII.pdf, Page 1]
+CBUAE Classification: Public
+Pillar 3
+181
+
+[Document: PIII.pdf, Page 2]
+CBUAE Classification: Public
+Pillar 3 – Market Disclosures
+I. Introduction
+1. Market discipline has long been recognized as a key objective of the Central Bank of the
+UAE. The provision of meaningful information about common key risk metrics to market
+participants is a fundamental principle of a sound banking system. It reduces information
+irregularity and helps promote comparability of banks’ risk profiles within UAE. Pillar 3 of the Basel
+framework aims to promote market discipline through regulatory disclosure requirements. These
+requirements enable market participants to access key information relating to a bank’s regulatory
+capital and risk exposures in order to increase transparency and confidence about a bank’s
+exposure to risk and the overall adequacy of its regulatory capital.
+2. The revised Pillar 3 disclosures in this guidance focus on regulatory measures defined in
+Pillar 1 of the Basel framework, which requires banks to adopt specified approaches for measuring
+credit, market and operational risks and their associated resulting risk-weighted assets (RWA) and
+capital requirements. In some instances, Pillar 3 also requires supplementary information to be
+disclosed to improve the understanding of underlying risks. Central Bank continues to believe that
+a common disclosure framework based around Pillar 1 is an effective means of informing the
+market and allowing market participants to take informed investment decisions. However, in the
+wake of the 2007–09 financial crisis, it became apparent that the existing Pillar 3 framework failed
+to promote the identification of a bank’s material risks and did not provide sufficient, and
+sufficiently comparable, information to enable market participants to assess a bank’s overall
+capital adequacy and to compare it with its peers. The revised Pillar 3 disclosure requirements in
+this guidance are based on an extensive review of Pillar 3 reports.
+3. A key goal of the revised Pillar 3 disclosures is to improve comparability and consistency
+of disclosures. However, it is recognized that a balance needs to be struck between the use of
+mandatory templates that promote consistency of reporting and comparability across banks, and
+the need to allow senior management sufficient flexibility to provide commentary on a bank’s
+specific risk profile. For this reason, the revised disclosure regime introduces a “hierarchy” of
+disclosures; prescriptive fixed form templates which are used for quantitative information that is
+considered essential for the analysis of a bank’s regulatory capital requirements, and templates
+with a more flexible format are proposed for information which is considered meaningful to the
+UAE market but not central to the analysis of a bank’s regulatory capital adequacy. In addition,
+senior management may accompany the disclosure requirements in each template with a
+qualitative commentary that explains a bank’s particular circumstance and risk profile.
+II. Disclosure of Pillar 3 information
+A. Scope and implementation of the revised Pillar 3 framework
+Scope of application
+4. The revised disclosure requirements presented in this guidance supersede the existing
+Pillar 3 disclosure requirements issued in 2009. These revised requirements are an integral part
+of the Basel framework and they complement other disclosure requirements issued separately by
+Central Bank, which are uploaded on Central Bank's website/online portal for banks to download.
+182
+
+[Document: PIII.pdf, Page 3]
+CBUAE Classification: Public
+Pillar 3 applies to all banks in the UAE at the top consolidated level for local banks and all
+branches of foreign banks. Banks having a banking subsidiary will be required to be consolidated
+at Group level as one Pillar 3 report as well as at subsidiary solo level as a separate Pillar 3 report
+Banks offering Islamic financial services should comply with these disclosure requirements.
+These requirements are applicable to their activities that are in line with Islamic Sharia rules and
+principals, which are neither interest-based lending nor borrowing but are parallel to the activities
+described in these Guidance and Explanatory Notes
+Implementation date
+5. The Pillar 3 tables and disclosures will be effective from the beginning of 2019 for the
+previous year's figures and every year going forward. Banks need to report in each table as per
+the requirements for that table set out in the Appendix since few tables are required to be reported
+every quarter or semi-annually or annually.
+Reporting
+6. Banks should publish their Pillar 3 report in a stand-alone document on the bank’s UAE-
+specific website that provides a readily accessible source of prudential measures for users. The
+Pillar 3 report may be appended to form a discrete section of a bank’s financial reporting, but the
+full report will be needed to be disclosed separately in the Pillar 3 tables as well.
+7. Signposting of disclosure requirements is permitted in certain circumstances, as set out
+in paragraphs 21–23 below. Banks should also make available on their websites a 5-year
+archive of Pillar 3 reports (i.e. quarterly, semi-annual or annual) relating to prior reporting
+periods (past 5 years’ data)
+Frequency and timing of disclosures
+8. The reporting frequencies for each disclosure requirement are set out in the schedule in
+paragraph 27 below. The frequencies vary between quarterly, semi-annual and annual reporting
+depending upon the nature of the specific disclosure requirement. If a bank publishes interim
+financial statements, then the bank should publish the quarterly Pillar 3 report, three (3) weeks
+after the interim financial statements are published. For bankswho do not have an interim financial
+statement,the Pillar 3 quarterly report needs to be published 6 weeks from quarter end.
+9. A bank’s Pillar 3 report should be published with its financial report for thecorresponding
+period as mandated in paragraph 8 above. If a Pillar 3 disclosure is required to be published for
+a period when a bank does not produce any financial report, the disclosure requirement should
+be published as soon as possible. However, the time lag should not exceed that allowed to the
+bank for its regular financial reporting period-ends (e.g. if a bank reports only annually and its
+annual financial statements are made available six weeks after the end of the annual reporting
+period-end, interim Pillar 3 disclosures on a quarterly and/or semi-annual basis should be
+available within six weeks after the end of the relevant quarter or semester).
+Assurance of Pillar 3 data
+10. The information provided by banks under Pillar 3 should be subject, at a minimum, to the
+same level of internal review and internal control processes as the information provided by banks
+for their financial reporting (i.e. the level of assurance should be the same as for information
+provided within the management discussion and analysis part of the financial report).
+ The Pillar 3 Disclosures and reports have to be reviewed by internal audit of all bank for all
+Pillar 3 reports.
+183
+
+[Document: PIII.pdf, Page 4]
+CBUAE Classification: Public
+ All local banks and large foreign banks will need to have the annual Pillar 3 reports externally
+audited every two (2) years and smaller foreign banks (as defined in paragraph 27) will need
+to have the annual Pillar 3 reports externally audited every four (4) years.
+11. Banks should also have a formal board-approved disclosure policy for Pillar 3 information
+that sets out the internal controls and procedures for disclosure of such information. The key
+elements of this policy should be described in the year-end Pillar 3 report. The board of directors
+and senior management are responsible for establishing and maintaining an effective internal
+control structure over the disclosure of financial information, including Pillar 3 disclosures. They
+should also ensure that appropriate review of the disclosures takes place. One or more senior
+officers of a bank, ideally at board level or equivalent, should attest in writing that Pillar 3
+disclosures have been prepared in accordance with the board-agreed internal control processes.
+For larger banks, Board member attestation will be expected.
+Proprietary and confidential information
+12. The Central Bank believes that the disclosure requirements set out below strike an
+appropriate balance between the need for meaningful disclosure and the protection of proprietary
+and confidential information. In exceptional cases, disclosure of certain items required by Pillar 3
+may reveal the position of a bank or contravene its legal obligations by making public information
+that is proprietary or confidential in nature. In such cases, a bank would need to approach the
+Central Bank first and obtain approval for non-disclosure of such information they deem to be
+confidential. The Central Bank will review the information and provide approval if the bank does
+not need to disclose those specific items, but should disclose more general information about the
+subject matter of the requirement instead. The bank should also explain to Central Bank the
+specific items of information that cannot be disclosed and the reasons for this.
+B. Guiding principles for banks’ Pillar 3 disclosures
+13. The Central Bank has agreed upon five guiding principles for banks’ Pillar 3 disclosures.
+Pillar 3 complements the minimum risk-based capital requirements and other quantitative
+requirements (Pillar 1) and the supervisory review process (Pillar 2) and aims to promote market
+discipline by providing meaningful regulatory information to investors and other interested parties
+on a consistent and comparable basis. The guiding principles aim to provide a firm foundation for
+achieving transparent, high-quality Pillar 3 risk disclosures that will enable users to better
+understand and compare a bank’s business and its risks.
+14. The principles are as follows:
+Principle 1: Disclosures should be clear
+Disclosures should be presented in a form that is understandable to key stakeholders (i.e.
+investors, analysts, financial customers and others) and communicated through an accessible
+medium. Important messages should be highlighted and easy to find. Complex issues should be
+explained in simple language with important terms defined. Related risk information should be
+presented together.
+Principle 2: Disclosures should be comprehensive
+Disclosures should describe a bank’s main activities and all significant risks, supported by relevant
+underlying data and information. Significant changes in risk exposures between reporting periods
+should be described, together with the appropriate response by management.
+Disclosures should provide sufficient information in both qualitative and quantitative terms on a
+bank’s processes and procedures for identifying, measuring and managing those risks. The level
+of detail of such disclosure should be proportionate to a bank’s complexity.
+184
+
+[Document: PIII.pdf, Page 5]
+CBUAE Classification: Public
+Approaches to disclosure should be sufficiently flexible to reflect how senior management and the
+board of directors internally assess and manage risks and strategy, helping users to better
+understand a bank’s risk tolerance/appetite.
+Principle 3: Disclosures should be meaningful to users
+Disclosures should highlight a bank’s most significant current and emerging risks and how those
+risks are managed, including information that is likely to receive market attention. Where
+meaningful, linkages should be provided to line items on the balance sheet or the income
+statement. Disclosures that do not add value to users’ understanding or do not communicate
+useful information should be avoided. Furthermore, information, which is no longer meaningful or
+relevant to users, should be removed.
+Principle 4: Disclosures should be consistent over time
+Disclosures should be consistent over time to enable key stakeholders to identify trends in a
+bank’s risk profile across all significant aspects of its business. Additions, deletions and other
+important changes in disclosures from previous reports, including those arising from a bank’s
+specific, regulatory or market developments, should be highlighted and explained.
+Principle 5: Disclosures should be comparable across banks
+The level of detail and the format of presentation of disclosures should enable key stakeholders
+to perform meaningful comparisons of business activities, prudential metrics, risks and risk
+management between banks and across jurisdictions.
+C. Presentation of the disclosure requirements
+Templates and tables
+15. The disclosure requirements are presented either in the form of templates or of tables.
+Templates should be completed with quantitative data in accordance with the definitions provided.
+Tables generally relate to qualitative requirements, but quantitative information is also required in
+some instances. Banks may choose the format they prefer when presenting the information
+requested in tables.
+16. In line with Principle 3 above, the information provided in the templates and tables should
+be meaningful to users. The disclosure requirements in this guidance that necessitate an
+assessment from banks are specifically identified. When preparing these individual tables and

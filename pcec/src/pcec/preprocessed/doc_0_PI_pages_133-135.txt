@@ -1,0 +1,180 @@
+
+VI. Examples
+A. Basic Indicator Approach
+The Basic Indicator Approach (BIA) is a simple approach for calculating the capital charge for
+operational risk. It can be used by banks that are not internationally active, as well as by banks
+that are internationally active but may not as yet have risk management systems in place for using
+the more advanced approaches for measuring operational risk. Below is an example of ABC bank
+and how the Operational risk capital charge is calculated on Basic Indicator Approach
+1- Calculating gross income through the table shows part of the income statement of
+ABC bank for 2003.
+Income statement of ABC bank for 2003
+Operating income
+Interest income 150
+Interest expenses 110
+Provisions made 20
+Net interest income after provisions 20
+Fees and commissions received 80
+Fees and commissions paid 50
+including fees paid for outsourcing 12
+Other income
+From disposal of subsidiaries 10
+From disposal of available for sale 8
+Investments 0
+Net non-interest income 48
+Total operating income 68
+The net interest income to be used in gross income for calculating the operational risk capital
+charge after provisions. Normally banks reduce this amount to arrive at the operating income,
+however, in the calculation of capital charge for operational risk, net interest income is gross of
+provisions.
+In this example, net interest income is interest income minus interest expenses.
+150 – 110 = 40
+While for calculating net non-interest income for calculating operational risk capital charge, in this
+example:
+Net non-interest income is fees and commissions received (80) minus fees and commissions
+paid, adjusted for outsourcing fees paid (50 – 12 = 38). Therefore, the amount will be 42.
+2- Calculating operational risk capital charge under BIA
+The following table shows how to calculate the operational risk capital charge under the BIA.
+134
+
+[Document: PI.pdf, Page 134]
+CBUAE Classification: Public
+Year Gross income of the bank
+2002 120
+2003 20
+2004 250
+Total positive GI for 3 years 390 (120+20+250)
+Three year average of positive Gross 130 (390/3)
+Income
+Alpha 15%
+Operational risk capital requirement under 19.5 ((390*15%)/3 or 130*15%
+BIA
+3- Treatment of Negative Gross Income
+Below is the calculation of the operational risk capital charge when the bank has negative gross
+income for a year.
+Amount
+Gross income year 1 -120
+Gross income year 2 20
+Gross income year 3 250
+Total of positive gross income 270
+Number of years with positive gross income 2
+Average of positive annual gross income for 135 (270/2)
+the last three years
+Alpha 15%
+Operational risk capital requirement 20.25 (135*15%)
+Since negative gross income leads to exclusion of data points for that year from both the
+numerator and the denominator of the BIA operational risk formula, it could at times result in some
+distortions. For example, a bank that has negative gross income for one of three years might end
+up with a higher operational risk capital charge than if it were to have positive gross income for
+that year, even if it was a small amount. To ensure that such distortions do not occur, the
+supervisor should review and consider appropriate actions under Pillar 2.
+B. Standardised Approach
+1- Below is small example indicated which to include and exclude in the gross income:
+Included Excluded
+Provisions Profits/losses from sale of securities
+Operating expenses Extraordinary/ irregular items
+Gross income for each business line should:
+- Be gross of any provisions (for example, for unpaid interest).
+- Be gross of operating expenses, including fees paid to outsourcing service providers.
+- Exclude realised profits/losses from the sale of securities in the banking book.
+- Exclude extraordinary or irregular items as well as income derived from insurance claims.
+135
+
+[Document: PI.pdf, Page 135]
+CBUAE Classification: Public
+2- The following table shows how to calculate the capital charge for operational risk using
+the Standardised Approach:
+Business line Beta Gross income Capital requirement
+factor
+Year 1 Year 2 Year 3 Year 1 Year Year 3 Average
+2*
+Corporate 18% 250 300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail banking 12% 500 200 -300 60 24 -36
+Commercial 15% 400 300 400 60 45 60
+banking
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 1,825 1,130 625
+Income
+Aggregate 272.25 180.9 113.55 189***
+Capital
+Requirement**
+*Gross Income x Beta factor
+**Sum of eight capital charges for the year – remember within a year negative capital charges can offset
+positive charges among business lines
+***Three-year average capital charge
+3- Another example to illustrate the negative Gross income:
+Business line Beta Gross income Capital requirement
+factor
+Year 1 Year 2 Year 3 Year 1 Year 2 Year 3 Average
+Corporate 18% 250 -300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail 12% 500 200 -300 60 24 -36
+banking
+Commercial 15% 400 -300 400 60 45 60
+banking
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+136
+
+[Document: PI.pdf, Page 136 (Overlap)]
+CBUAE Classification: Public
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 1,825 -70 625
+Income
+Aggregate 272.25 0* 113.55 129**
+Capital
+Requirement
+*Total capital charge against all business lines for year 2 is negative (-17.1), so the numerator for year 2 is
+set to zero
+**Capital charge averaged for three years, with the numerator for year 2 set to zero
+C. Alternative Standardised Approach
+The following table shows how to calculate the capital charge for operational risk using the
+Alternative Standardised Approach.
+Business line Beta Exposure Indicator* Capital requirement**
+factor
+Year 1 Year 2 Year 3 Year Year 2 Year 3 Average
+1
+Corporate 18% 250 300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail 12% 700*** 875*** 945*** 84 105 113.4
+banking
+Commercial 15% 875*** 910*** 980*** 131.2 136.5 147
+banking 5
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 2,500 2,415 2,450
+Income
+Aggregate 367.5 353.4# 349.9 356.95#
+Capital 5 #
+Requirement
+*Gross income/loans & advances x m
+**Exposure indicator (GI or LA x m) x β
+***Outstanding loans and advances x m (0.035)
+# Sum of eight capital charges for the year
+## Three year average capital charge
+137

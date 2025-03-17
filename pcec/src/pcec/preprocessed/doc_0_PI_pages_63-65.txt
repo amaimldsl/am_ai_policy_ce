@@ -1,0 +1,97 @@
+
+credit support amount of AED 90 million (80 million plus 10 million), which is assumed to have
+been fully received as of the reporting date. There is a small “Minimum Transfer Amount” (MTA)
+of AED1 million, and a “Threshold” (TH) of zero.
+In this example, the V-C term in the replacement cost (RC) formula is zero, since the value of the
+trades is more than offset by collateral received; AED80 million – AED90 million = -10 million. The
+term (TH + MTA - NICA) is -9 million (0 TH + 1 million MTA - 10 million of NICA held). Using the
+replacing cost formula:
+RC = MAX {(V-C), (TH+MTA-NICA), 0}
+= MAX{(80-90),(0+1-10),0}
+= MAX{-10,-9,0} = 0
+Because both V-C and TH+MTA-NICA are negative, the replacement cost is zero. This occurs
+because of the large amount of collateral posted by the bank’s counterparty.
+B. Illustration 2: Initial Margin
+A bank, in its capacity as clearing member of a CCP, has posted VM to the CCP in an amount
+equal to the value of the trades it has with the CCP. The bank has posted AED10 million in cash
+as initial margin, and the initial margin is held in such a manner as to be bankruptcy-remote from
+the CCP. Assume that the value of trades with the CCP are -50 million, and the bank has posted
+AED50 million in VM to the CCP. Also assume that MTA and TH are both zero under the terms
+of clearing atthe CCP.
+In this case, the V-C term is zero, since the already posted VM offsets the negative value of V.
+The TH+MTA-NICA term is also zero, since MTA and TH both equal zero, and the initial margin
+held by the CCP is bankruptcy remote and thus does not affect NICA. Thus:
+RC = MAX {(V-C), (TH+MTA-NICA), 0}
+= MAX{(-50-(-50)), (0+0-0), 0}
+= MAX{0,0,0} = 0
+Therefore, the replacement cost RC is zero.
+C. Illustration 3: Initial Margin Not Bankruptcy Remote
+Consider the same case as in Illustration 2, except that the initial margin posted to the CCP is not
+bankruptcy remote. Since this now counts as part of the collateral C, the value of V-C is AED10
+million. The value of the TH+MTA-NICA term is AED10 million due to the negative NICA of -10
+million. In this case:
+RC = MAX {(V-C), (TH+MTA-NICA), 0}
+= MAX{(-50-(-50)-(-10)), (0+0-(-10)), 0}
+= MAX{10,10,0} = 10
+65
+
+[Document: PI.pdf, Page 65]
+CBUAE Classification: Public
+The RC is now AED10 million, representing the initial margin posted to the CCP that would be
+lost if the CCP were to default.
+D. Illustration 4: Maintenance Margin Agreement
+Some margin agreements specify that a counterparty must maintain a level of collateral that is a
+fixed percentage of the mark-to-market (MtM) of the transactions in the netting set. For this type
+of margining agreement, the Independent Collateral Amount (ICA) is the percentage of MtM that
+the counterparty must maintain above the net MtM of the transactions covered by the margin
+agreement. For example, suppose the agreement states that a counterparty must maintain a
+collateral balance of at least 140% of the MtM of its transactions. Further suppose for purposes
+of this illustration that there is no TH and no MTA, and that the MTM of the derivative transactions
+is 50. The counterparty posts 80 in cash collateral. ICA in this case is the amount that the
+counterparty is required to post above the MTM (140%x50 – 50 = 20). Since MtM minus the
+collateral is negative (50-80 = -30), and MTA+TH-NICA also is negative (0+0-20 = -20), the
+replacement cost RC is zero. In terms of the replacement cost formula:
+RC = MAX {(V-C), (TH+MTA-NICA), 0}
+= MAX{(50-80), (0+0-20), 0}
+= MAX{-30,-20,0} = 0
+66
+
+[Document: PI.pdf, Page 66 (Overlap)]
+CBUAE Classification: Public
+V. Credit Valuation Adjustment (CVA)
+I. Introduction
+A credit valuation adjustment (CVA) is an adjustment to the fair value of a derivative
+instrument to account for counterparty credit risk. CVA is commonly viewed as the cost of
+counterparty credit risk. For any given position with a counterparty, this cost depends on the
+market’s perception of the riskiness of the counterparty, as reflected for example in counterparty
+credit spreads, as well as on the market value of the exposure, which typically depends on
+underlying market factors.
+During the financial crisis, banks suffered significant losses due to counterparty risk
+exposure on over-the-counter (OTC) derivatives. Various analyses have concluded that the
+majority of these losses came not from counterparty defaults but from fair value adjustments on
+derivatives. The value of outstanding derivative assets was written down as it became apparent
+that counterparties had become less likely to meet their obligations. These types of credit-related
+losses, reflected in changes in CVA, are now widely recognized as a source of risk for banks
+involved in derivatives activity.
+Under the Basel II market risk framework, firms were required to hold capital against the
+variability in the market value of their derivatives in the trading book, but there was no requirement
+to capitalize against variability in CVA. Counterparty credit risk capital under Basel II was based
+on the credit risk framework, and designed to provide protection against default and migration risk
+rather than the potential losses that can arise through variations in CVA.
+To address this gap in the prudential capital framework, the Basel Committee on Banking
+Supervision (BCBS) introduced the CVA capital charge as part of Basel III in December 2010.
+The purpose of the Basel III CVA capital charge is to ensure that bank capital provides adequate
+protection against the risks of future changes in CVA.
+In line with the requirements of Basel III, UAE banks are required to calculate risk-weighted
+assets (RWA) for CVA risk under one of two approaches. Banks must use either:
+ A standardised approach, described in the Standards and closely based on the
+standardised approach to CVA risk capital developed by the BCBS; or
+ A simple alternative approach, under which a bank with an aggregate notional
+amount of non-centrally cleared derivatives less than or equal to 400 billion AED
+may calculate RWA for CVA by setting it equal to the bank’s counterparty credit
+risk (CCR) RWA.
+The Central Bank is fully aware of the BCBS view that CVA risk cannot be modelled by
+banks in a robust and prudent manner at this time. Accordingly, the Central Bank has determined
+that CVA approaches that rely on banks’ internal CVA models, or that use inputs derived from
+those models, are not appropriate for use in regulatory capital calculations by UAE banks.
+67

@@ -1,0 +1,180 @@
+[Document: PI.pdf, Page 111]
+CBUAE Classification: Public
+Question 11: BCBS standards provides banks two options to include large swap books in
+the maturity or duration ladder (Convert the payments into their present values or to
+calculate the sensitivity of the net present value). It would be useful to clarify which
+methods are acceptable.
+Currently both methods are acceptable but to move forward with sensitivity or NPV approach, the
+bank shall seek Central Bank approval by providing all relevant documents.
+Question 12: How to treat Multilateral Development Banks (MDBs), PSEs and GREs that
+qualify 0% risk weight as per Credit Risk Section of the Standards for the “Qualifying”
+criteria of Specific Risk?
+All MDBs are considered “qualifying” for this purpose and will receive a RW of 0%.
+PSE that meets the conditions to be treated like a sovereign for credit risk can be considered
+“government" for specific risk.
+Commercial GREs that are treated as corporates for credit risk should also be treated as
+corporates for market risk, for consistency.
+Question 13: Can the securities issued by local government be reported under
+government? If yes, what capital charge will be applied?
+Only if they qualify for treatment as “sovereign” under the credit risk framework, a 0% can be
+applied.
+Question 14: What is meant by 'broadly' in paragraphs 23 and 24 of the Market Risk
+Standard. Any threshold for the size of the movement e.g. a negative correlation of more
+than 0.6?
+No, there is no specific threshold. "Broadly" in this context means "with close approximation," to
+allow for minor deviations from perfect correlation. The bank should have a sensible policy to
+ensure that objective, which should be subject to supervisory review.
+Question 15: What is meant by "long term participation"? What is included in it?
+Long-term participations could take a number of forms, but a typical example would be
+investments accounted at historical cost (and in this context, denominated in a foreign currency).
+Paragraph 65 edited for clear understanding.
+Question 16: Do the banks have to meet certain criteria to apply duration or maturity
+approach or is the choice of method fully within the bank's discretion?
+Maturity approach shall be the initial approach to be used. In case the bank requires to apply
+Duration approach, then banks will have to seek Central Bank consent to switch between the
+approaches.
+Question 17: Under Specific interest rate risk, what will be the treatment for the debt
+securities that are denominated and funded in domestic currency or foreign currency?
+The preferential treatment/national discretion will be applicable to GCC sovereign’s papers
+denominated and funded in local currency. In addition, exposures to the Federal Government and
+Emirates Government receive 0% risk weight, if such exposures are denominated and funded in
+AED or USD for a transition period of 7 years from the date of implementation of this Standard.
+After the transition period, 0% risk weights are only applied to exposures that are denominated
+and funded in AED. Elsewise (if denominated and funded in foreign currency and if the debt
+security is not GCC sovereign paper) rating and residual maturity shall be applied.
+Question 18: Interest Rate Risk: How are derivatives treated from a market risk and credit
+risk perspective that a foreign branch has with its head office and other branches of the
+112
+
+[Document: PI.pdf, Page 112]
+CBUAE Classification: Public
+group? Are all the derivative transactions under the umbrella of the group, can such
+derivatives be excluded from the capital charge?
+• Exemption is not eligible; all derivatives are to be included under credit and market risk.
+• If the branch and the head office both have the same ISDA contract, netting and collateral
+will not be eligible. However, if the ISDA contract contains only the deals from the branch,
+then netting and collateral would be eligible.
+• From Market risk perspective, if the bank's transactions are fully hedged, i.e. certain
+derivatives with UAE customers are fully hedged back to back with the head office, then the
+bank can offset for example the general and specific interest rate risks (based on
+paragraphs 41 to 45). However, counterparty credit risk is still to be considered.
+Question 19: Treatment of Options: Do banks have to meet certain criteria to apply the
+simplified approach or the delta plus method? Or is the choice of method fully within
+bank's discretion?
+As per Para 82 (Standard), two alternative approaches apply to options. Banks that only
+purchase options (rather than written options) can choose to use a simplified approach. Unless
+all written option positions (under the simplified approach) are hedged by perfectly matched long
+positions in exactly the same options, in which case no capital charge for market risk is
+required. Banks with more complex option positions that also write options must use the delta-
+plus approach rather than the simplified approach.
+Question 20: Specific Interest Rate Risk: When the securities are not externally credit
+rated, does the Central Bank have a list of specific treatment for issuers/ issues that are
+unrated?
+The Central Bank does not have a discretionary list of customers that do receive a special
+treatment if an external rating is not available.
+ The standard is exhaustive for all special treatments. For example: UAE and GCC
+sovereign exposure that are funded and denominated in the domestic currency receive
+0% RW (independent of the external rating of that sovereign)
+ Exposures to the Federal Government and Emirates Government receive 0% risk weight,
+if such exposures are denominated and funded in AED or USD for a transition period of
+7 years from the date of implementation of this Standard. After the transition period, 0%
+risk weights are only applied to exposures that are denominated and funded in AED.
+Question 21: If a bank has exposure in equity investments in the trading book, how will
+this exposure be treated under Market risk?
+Risk-weighted assets for equity exposures arising from bank investments in funds that are held
+in the trading book are subject to the market risk capital rules. Equity investments in funds will
+be allocated to the trading book if the bank is able to “look through” to the fund’s underlying
+assets (i.e. determine capital requirements based on the underlying positions held by the fund),
+or where the bank has access both to daily price quotes and to the information contained in the
+mandate of the fund. The reporting is based on the underlying positions held by the fund; it
+could be covered under different areas of the market risk (e.g. FX, IRR and equity risk).
+Question 22: As per paragraph 21 of the Market Risk Standard, it is mentioned that a
+securitisation exposure subject to a risk weight of 1250% under the Central Bank
+requirements (and therefore to a 100% specific risk charge under this Standard) may be
+excluded from the calculation of capital for general market risk. Should the cap forthe
+113
+
+[Document: PI.pdf, Page 113]
+CBUAE Classification: Public
+UAE be 1250% or 952% as mentioned in paragraph 5 of the Introduction of the
+standards?
+Yes, the RW has to be capped at 952% as mentioned in the introduction of the standards.
+V. Examples
+Note that capital charges calculated in all examples below still need to be converted into
+risk-weighted assets via Section IV in the Market Risk Standards.
+A. Interest rate risk
+1. Calculating the General Market risk charge
+Calculate the general market risk capital charge for XYZ bank’s interest rate positions using the
+maturity method.
+Long position in a qualifying bond: Market value AED 13.33m. Residual maturity 8 years & coupon
+8%
+Long position in a government bond: Market value AED 75m. Residual maturity 2 months &
+coupon 7%
+Interest rate swap: Notional value AED 150m. Residual life of swap 8 years & bank receives
+floating rate interest and pays fixed. Next interest fixing after 9 months
+Long position in interest rate governmentbond future: Contract size AED 50mn.
+The treatment of interest rate future positions assume a bank is exposed to a long position in a
+6-month interest rate future bought today and settled in two months' time. The long position in
+interest rates needs to be slotted into the 6-12 months’ time band because the maturity of the long
+position is considered to be eight months. This is because the position is taken on today and will
+be settled in two months with a maturity of six months.
+Delivery date after 6 months & remaining maturity of the CTD government security 3.5 years.
+Cheapest to deliver CTD refers to the underlying instrument that result in the greatest profit or the
+least loss when delivered in satisfaction of futures contracts.
+Calculating the general market risk capital charge comprises two main steps and a number of
+sub-steps.
+Step 1: Map each interest rate position
+We are using the maturity method to map the positions. None of the bank’s positions have a
+coupon of less than 3%, so we will use a ladder of 13 time bands. Each position is mapped to the
+appropriate time band according to its residual maturity.
+Step 2: calculate the total capital charge
+Overall net open position
+Zone 1 (months) Zone 2 (years) Zone 3 (years)
+Time 0- 1-3 3-6 6-12 1- 2- 3-4 4- 5- 7-10 10- 15- >20
+band 1 2 3 5 7 15 20
+Weighted +0.15 - +1.05 +1.125 -
+position 0.2 5.625
+(AED m) +0.5
+114
+
+[Document: PI.pdf, Page 114]
+CBUAE Classification: Public
+The net open position is the sum of all the positions across all the time bands. The net open
+position is AED 3m short, which leads to a capital charge at 100% of AED 3,000,000.
+Calculation:
++75*0.2%=+0.15
+-50*0.4%=-0.2
++150*0.7%=+1.05
++50*2.25%=+1.125
+-150*3.75%=-5.625
++13.33*3.75%=+0.5
+Vertical disallowance
+The long position of AED 0.5m is offset against the short position of AED 5.625m as per the
+marked area. The matched position is AED 0.5m and the net open position is AED -5.125m.
+This leads to a capital charge of 10% of AED 0.5m, or AED 50,000
+Zone 1 (months) Zone 2 (years) Zone 3 (years)
+Time band 0- 1-3 3-6 6-12 1- 2- 3-4 4- 5- 7-10 10- 15- >20
+1 2 3 5 7 15 20
+Weighted +0.15 - +1.05 +1.125 -
+position 0.2 5.625
+(AED m) +0.5
+Vertical -
+disallowance 5.125
+Calculation
+Matched position = 0.5
+Net open position = -5.625+0.5= -5.125
+Horizontal disallowance
+The third part of the capital charge is a charge for the horizontal disallowance. There are three
+rounds of horizontal offsetting.
+In round 1, the horizontal disallowance within each zone is calculated. In this example, charge
+applies to zone 1 only because it is the only zone with a long and a short position. (With more
+than one position). The short position, -0.2 is offset against the total long position, +1.2. The
+matched position is 0.2 and the net open position is +1.
+The capital charge for the horizontal disallowance within zone 1 is 40% of AED 0.2m, or AED
+80,000
+In round 2, calculate the horizontal disallowance between adjacent zones, i.e., between:
+Zone 1 and zone 2
+Zone 2 and zone 3
+In this example, zone 1 and zone 2 both contain long positions, so there is no matched position
+and therefore no offsetting between these zones. The long position of 1.125 in zone 2 is offset
+against the short position of -5.125 in zone 3. The matched position is 1.125 and the net open

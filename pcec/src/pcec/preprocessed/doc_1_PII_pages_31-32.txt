@@ -1,0 +1,72 @@
+[Document: PII.pdf, Page 31]
+CBUAE Classification: Public
+use of, any third parties such as external consultants or suppliers. The bank
+should provide a high-level summary reports or reviews of the outsourced
+functions’ related policy documentation and processes.
+3.2 Models
+141. The ICAAP report is required to address models used to comply with regulatory and
+accounting requirements, and those used for internal capital management, including but not
+limited to models used for:
+(i) IFRS9 accounting requirements;
+(ii) The appropriate assessment of Pillar 1 risks for capital requirements under the
+Pillar 2;
+(iii) The appropriate assessment of Pillar 2 risks for capital requirements;
+(iv) Regulatory stress tests requirements;
+(v) Risk Management Regulations;
+(vi) Valuation adjustments; and
+(vii) Pricing models, capital allocation models, and budgeting models.
+3.3 Reverse Stress Testing
+142. In addition to normal stress testing, each bank is expected to conduct reverse stress
+tests and document the process and outcomes of the process in the ICAAP report.
+143. Banks are expected to apply a mix of qualitative analyses and quantitative analyses,
+which may vary in relation to the nature, scale, and complexity of the banks’ business activities
+and the risks associated with those activities. Accordingly, it may be acceptable for smaller
+and less complex banks to develop reverse stress tests that focus more on qualitative
+analyses, while larger and more banks that are complex should include more quantitative
+elements alongside the qualitative analyses. Appropriate scenarios differ based on each bank
+economic circumstances, business model and risk drivers.
+144. A bank may consider implementing the following steps, which are presented purely for
+illustrative purposes:
+(i) Define specific trigger points that could threaten the bank’s viability or
+solvency. Such trigger points may involve situations in which:
+ The bank’s capital or liquidity positions fall below the minimum regulatory
+requirements;
+ Specific indicators which, if hit, reflect a loss of confidence by the bank’s
+counterparties (e.g. access to wholesale funding markets denied) or by
+depositors (e.g. deposit run-off rates reach a significant level); or
+ The bank is unable to repay its debt obligations. Some of the indicators
+may render the banks unviable (e.g. due to illiquidity resulting from a
+substantial and rapid deposit run) before it becomes insolvent.
+(ii) Reverse-engineering the bank’s business model to the point that the trigger
+points are breached. In this way, it is possible to identify what adverse but
+plausible financial or non-financial events, either independently or combined,
+179
+
+[Document: PII.pdf, Page 32]
+CBUAE Classification: Public
+cause the bank to reach those trigger points notwithstanding existing
+management actions. That is, for reverse stress testing purposes, the bank is to
+tweak the parameters of a stress scenario until the point at which current
+systems and controls (e.g. accepted risk limits, controls, exposures and
+collaterals, etc.) are not able to prevent the bank from hitting the trigger point(s).
+The bank should understand the parameters and conditions in the scenario that
+precipitate a failed reverse stress test to analyse its risks and weaknesses.
+Feasible remedial actions should be designed that could prevent the
+consequences of such a scenario. For example, the bank could amend its
+business strategy regarding a specific sector.
+3.4 Supplementary Content Required in an ICAAP Report
+145. The following supplementary topics should be documented in the ICAAP report.
+(a) Summary of outstanding findings and required management actions from
+pertinent assessments, examinations and audits (e.g. current outstanding
+actions emanating from internal audits, external audits, risk management
+assessments, capital management reviews, Central Bank examinations, and
+Pillar 3, etc.), including the status of official actions;
+(b) Key items which warrant immediate Central Bank attention, such asa projected
+shortfall in regulatory minimum capital amount; a breach in outlier status under
+IRRBB, and any other material risks;
+(c) A list of the major changes compared to the previous ICAAP report, e.g. changes
+in data, MIS, organisation, process, and methodology; and
+(d) Key actions resulting from ICAAP discussions with the Board of Directors, in the
+form of meeting minutes included as an Appendix. (Relevant evidence should
+be made available upon request).
+180

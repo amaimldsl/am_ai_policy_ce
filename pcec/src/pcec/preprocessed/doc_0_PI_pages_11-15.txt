@@ -1,0 +1,237 @@
+[Document: PI.pdf, Page 11]
+CBUAE Classification: Public
+Appendix 3: Significant investments in commercial entities.
+Individual Investment Limit Check and its treatment
+Bank's CET1 (after applying all the regulatory and threshold deduction) 1000
+Individual Limit (10% of bank's CET1D) 100
+Step 1: Individual Limit check
+Significantinvestments in commercial entities
+Amount
+Amount
+as a %
+Entity Investment Listed/ Investment Significant to RW Remaining
+Entity of
+activity Classification Unlisted Amount Investment at amount
+bank's
+952%
+CET1
+I Commercial Banking Book Listed 140 14% Yes 40 100
+J Commercial Banking Book Listed 120 12% Yes 20 100
+K Commercial Banking Book Unlisted 110 11% Yes 10 100
+L Commercial Banking Book Listed 115 12% Yes 15 100
+M Commercial Banking Book Listed 75 8% No 75
+N Commercial Banking Book Listed 45 5% No 45
+O Commercial Banking Book Listed 50 5% No 50
+655 85 570
+Risk weighting at 952% on account of 10% threshold on individual basis is 85.
+Step 2: Aggregate Limit check
+Aggregate of remaining amount of investments after 10% deduction
+(entity I,J,K,L,M,N & O) 570
+Aggregate Limit (25% of bank's CET1) 250
+The amount to be risk-weighted at 952% based on the 25% threshold on
+aggregate basis 250
+Remaining amount of investments to be risk-weighted under the applicable risk
+320
+weighting rules (100% RW for listed and 150% unlisted)
+Total amount to be risk weighted at 952%: 335 (85 + 250)
+12
+
+[Document: PI.pdf, Page 12]
+CBUAE Classification: Public
+Appendix 4: Minority interest illustrative example
+This Appendix illustrates the treatment of minority interest and other capital issued out of
+subsidiaries to third parties, which is set out in section 2.7 of the Tier Capital Supply Standard
+(Paragraph 35 to 41).
+A banking group consists of two legal entities that are both banks. Bank P is the parent, Bank S
+is the subsidiary, and their unconsolidated balance sheets are set out below
+Amount Amount
+Bank P Balance sheet Bank S Balance sheet
+(AED) (AED)
+Assets Assets
+Loan to customers 100 Loan to customers 150
+Investment in CET 1 of Bank S 7
+Investment in AT1 of Bank S 4
+Investment in T2 of Bank S 2
+Total Assets 113 Total Assets 150
+Liabilities and Equities Liabilities and Equities
+Depositors 70 Depositors 127
+Common Equity (CET1) 26 Common Equity (CET1) 10
+Additional Tier1 (AT1) 7 Additional Tier1 (AT1) 5
+Tier 2 10 Tier 2 8
+Total Liabilities and Equities 113 Total Liabilities and Equities 150
+The balance sheet of Bank P shows that in addition to its loans to customers, it owns 70% of the
+common shares of Bank S, 80% of the Additional Tier 1 of Bank S and 25% of the Tier 2 capital
+of Bank S. The ownership of the capital of Bank S is therefore as follows:
+Capital issued by Bank S
+Amount Issued to Amount Issued
+Total
+Parent to third party
+Common Equity (CET1) 7 3 10
+Additional Tier1 (AT1) 4 1 5
+Tier 1 11 4 15
+Tier 2 2 6 8
+Total Capital (TC) 13 10 23
+13
+
+[Document: PI.pdf, Page 13]
+CBUAE Classification: Public
+The consolidated balance sheet of the banking group is set out below:
+Consolidated Balance sheet of Bank P
+Assets Amount (AED)
+Loan to customers 250
+Total Assets 250
+Liabilities and Equities
+Depositors 197
+Common Equity (CET1) 26
+Additional Tier1 (AT1) 7
+Tier 2 10
+Minority Interest
+Common Equity (CET1) 3
+Additional Tier1 (AT1) 1
+Tier 2 6
+Liabilities and Equities 250
+For illustrative purposes, Bank S is assumed to have risk-weighted assets of 100. In this example,
+the minimum capital requirements of Bank S and the subsidiary’s contribution to the consolidated
+requirements are the same since Bank S does not have any loans to Bank P. This means that it
+is subject to the following minimum plus capital conservation buffer requirements and has the
+following surplus capital:
+Minimum and surplus capital of Bank S
+Minimum plus Capital
+Capital Surplus
+conservation Buffer
+0.50
+CET1 (7% + 2.5%) of 100 = 9.5
+(10- 9.5 )
+4.00
+T1 (8.5%+ 2.5%) of 100 = 11
+(10+5-11)
+10
+TC (10.5% +2.5%) of 100 = 13
+(10+5+8 -13)
+14
+
+[Document: PI.pdf, Page 14]
+CBUAE Classification: Public
+The following table illustrates how to calculate the amount of capital issued by Bank S to include
+in consolidated capital, following the calculation procedure set out in paragraphs 35 to 41 of the
+Tier Capital Supply Standards.
+Bank S: amount of capital issued to third parties included in the consolidated capital.
+Surplus
+attributable to third Amount
+Total Total Amount parties (i.e. Included in the
+Capital Amount Issued to third Surplus (C) amount excluded consolidated
+Issued (A) party (B) from consolidated capital
+capital) (E) = (B)-(D)
+(D) = ( C) * (B/A)
+CET1 10 3 0.5 0.15 2.85
+T1 15 4 4 1.07 2.93
+TC 23 10 10 4.35 5.65
+The following table summarizes the components of capital for the consolidated group based on
+the amounts calculated in the table above. Additional Tier 1 is calculated as the difference
+between Common Equity Tier 1 and Tier 1 and Tier 2 is the difference between Total Capital and
+Tier 1.
+Bank S: amount of capital issued to third parties included in the consolidated capital.
+Total amount of capital
+Total amount issued by Amount issued by
+issued by parent and
+Parent (all of which is to be subsidiaries to third parties
+Capital subsidiary to be
+included in consolidated to be included in the
+included in the
+capital) consolidated capital
+consolidated capital
+CET1 26 2.85 28.85
+AT1 7 0.08 7.08
+T1 33 2.93 35.93
+T2 10 2.72 12.72
+TC 43 5.65 48.65
+15
+
+[Document: PI.pdf, Page 15]
+CBUAE Classification: Public
+Appendix 5: Threshold Deduction
+This Appendix is meant to clarify the reporting of threshold deduction and calculation of the 10%
+limit on significant investments in the common shares of unconsolidated financial institutions
+(banks, insurance and other financial entities); and the 10% limit on deferred tax assets arising
+from temporary differences.
+CET1 Capital (prior to regulatory deductions) 1000
+Regulatory deductions: 300
+Total CET1 after the regulatory adjustments above (CET1C) 700
+Total amount of significant investments in the common share of banking, financial
+and insurance entities 150
+Total amount of Deferred tax assets arising from temporary differences 150
+DTA that rely on future profitability Significant investments in the
+and arise from temporary difference unconsolidated financial institutions
+150 150
+Excess over Excess over
+Amount below 10% of CET1C Amount below 10% of CET1C
+10% of CET1 10% of CET1
+70 70
+C: C:
+Deduct from Aggregate the amount below 10% threshold Deduct from
+CET1C 140 (70+70) CET1C
+Calculate 17.65 % of CET1*
+CET1* = 400 (1000-300-150-150) or
+CET1* = CET1 D (700-80-80) – Aggregated amount below 10% threshold
+(140)
+Aggregate amount Aggregate amount
+below 17.65% of CET1* above 17.65% of CET1*
+Risk Weight (250%) Deduct from CET1 D
+70.60 69.40 (140-70.60)
+*This is a “hypothetical” amount of CET1 that is used only for the purpose of determining the
+deduction of above two items for the aggregate limit. Amount of CET1 = Total CET1 (prior to
+deduction) – All the deduction except the threshold deduction (i.e. all deduction outlined in para
+44 to 68 of the Tier Capital Supply Standards) minus the total amount of both DTA that rely on
+future profitability and arise from temporary difference and significant investments in the
+unconsolidated financial institutions.
+16
+
+[Document: PI.pdf, Page 16]
+CBUAE Classification: Public
+Appendix 6: Effective Countercyclical Buffer
+Assume a bank has the following capital ratios
+Capital Base Minimum Capital Bank's Capital Ratio
+Requirements
+Common Equity Tier 1 Capital Ratio 7.00% 9.50%
+Tier 1 Capital Ratio 8.50% 0.00%
+Tier 2 Capital Ratio 2.00% 4.00%
+Total Capital Ratio 10.50% 13.50%
+From the above table, the bank has fulfilled all minimum capital requirements. In addition, the
+bank has to meet the additional capital buffers:
+Capital Conservation Buffer (CCB) 2.50%
+Countercyclical Buffer 0.00%
+D- SIB 1.00%
+Aggregated Buffer requirement (effective CCB) 3.50%
+The table below shows the adjusted quartiles accordingly:
+Freely available Minimum Capital Conservation
+CET 1 Ratio Ratios (expressed as a percentage of
+earnings)
+Within 1st quartile of buffer: 0.0 % - 0.875% 100 %
+Within 2nd quartile of buffer: > 0.875% - 1.75% 80 %
+Within 3rd quartile of buffer: > 1.75% - 2.625% 60 %
+Within 4th quartile of buffer: > 2.625% - 3.5% 40 %
+Above top of the buffer: > 3.5% 0 %
+As the bank does not have Additional Tier 1, the bank has to use 8.5% of its available CET1 to
+fulfill the minimum Tier 1 requirement of 8.5%. Only the proportion of CET1 that is not allocated
+to fulfill the minimum capital requirements is freely available to fulfill the buffer requirement. For
+this bank, 1% CET1 is freely available, because the bank already used 8.5% of its CET1 to fulfill
+the Tier 1 ratio. (9.5% available CET1 - 8.5% CET1 required to fulfill the Tier 1 minimum
+requirement of 8.5%).
+Impact: The bank breaches the effective CCB with 1% freely available CET1. Capital conservation
+is required by at least 80% of the bank’s earnings. Distributions to shareholders is limited to
+maximal 20% of the bank’s earnings (Central Bank approval of dividends still required).
+17
+
+[Document: PI.pdf, Page 17]
+CBUAE Classification: Public
+II. Tier Capital Instruments
+I. Introduction
+1. This guidance explains how banks should comply with the Tier Capital Instruments
+Standard. It must be read in conjunction with the Capital Regulation and Standards for Capital
+Adequacy of Banks in the UAE. It also ensures that banks issue robust and simple Tier capital
+instruments.
+2. A bank needs to take into consideration the below points when issuing capital publicly or
+privately:
+a. The Central Bank expects that issuers will formulate the terms and conditions so that they
+are not complex, but as simple and as clear as possible.
+b. Prudential clauses of importance from a prudential point of view should not be written in

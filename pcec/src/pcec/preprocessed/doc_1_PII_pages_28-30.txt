@@ -1,0 +1,169 @@
+
+Effective Capital Conservation Buffer 2.50% 2.50% 2.50%
+(CCB) (standard CCB of 2.5% + D­SIB Buffer
++ CCyB) in percentage points (in %)
+Capital requirements under Business as Usual
+Total Pillar 1 ­ ­ ­
+Top 3 Pillar 2 capital requirements
+Other Pillar 2 capital requirements
+Total Pillar 2 ­
+Minimum regulatory CAR requirement 10.50% 10.50% 10.50%
+(incl. CCB)
+Actual CAR Ratio
+Total Capital Surplus/ deficit (Measured ­ ­ ­
+including capital buffer requirements)
+Minimum CET1 regulatory requirement 7.00% 7.00% 7.00%
+(incl. CCB)
+Actual CET1 Ratio
+CET1 capital surplus/ deficit (measure ­ ­ ­
+includes capital buffer requirements)
+Stress Testing
+Minimum regulatory CAR requirement 10.50% 10.50%
+(excl. CCB)
+Actual CAR Ratio under ST
+Additive impact of ST on CAR
+Surplus / (Deficit, i.e., additional capital ­ ­
+required)
+Minimum regulatory CET1 requirement 7.00% 7.00%
+(excl. CCB)
+Actual CET1 Ratio under ST
+Additive impact of ST on CET1 ratio
+CET1 capital surplus/ deficit (measure ­ ­
+includes capital buffer requirements)
+135. The ICAAP: Executive Summary Table (Table 3) above should be used for the ICAAP
+report for the FY2022 ICAAP report. Each bank is required to download the most current
+reporting template prior to finalizing the ICAAP report from the CBUAE IRR SYSTEM
+(BRF/BASEL Portal) (CBUAE IRR), in the live environment for banks:
+(i) Detailed reporting template including description (this report must be available
+upon request); and
+(ii) Executive Summary report (should form part of the ICAAP report Executive
+Summary).
+176
+
+[Document: PII.pdf, Page 29]
+CBUAE Classification: Public
+Appendix 3 – Additional Requirements for the ICAAP
+3.1 Governance and Risk Management
+136. In the ICAAP report, each bank should provide high level summaries of key areas of
+the risk framework of the bank: organisational structure, governance framework, risk
+management function and the risk control function. The bank’s high level summaries should
+refer to the relevant policies, procedures, manuals, and limits:
+3.1.1 Organisational Structure
+137. Each bank is expected to describe how
+(i) The bank’s Board encourages a risk culture and prudent behaviours at all levels;
+(ii) The Board Risk Committee (“BRC”) provides oversight and challenges the risk
+exposures, risk appetite, and tolerance; and
+(iii) The Risk Management Function (RMF) is structured, including reporting lines
+and a summary of functions and responsibilities. The RMF should have
+authority, responsibilities, and resources, to conduct risk related policies and the
+risk management framework, and committees addressing the risk function.
+3.1.2 Governance Framework
+138. Each bank is expected to describe
+(i) Board and Senior Management oversight (i.e. ICAAP governance framework
+with a description of responsibilities, and the separation of functions);
+(ii) Arrangements through which the Board and Senior Management define the
+bank-wide risk appetite;
+(iii) Relevant policies and risk appetite/limits/tolerance; and
+(iv) How the Chief Risk Officer (CRO) is held responsible for the methodology and
+utilisation of the ICAAP, including
+ reporting comprehensive, comprehensible information on risks; and
+ advising the Board independently and objectively, enabling them to
+understand the bank’s overall risk profile and to effectively discharge
+their responsibilities.
+3.1.3 Risk Management Function (RMF) and Risk Control Function
+139. With regard to the bank’s risk management and control function, the ICAAP report is
+expected to describe
+(i) How the RMF has access to all business lines and other units that might have
+possibility in generating risk , and to all relevant subsidiaries, and affiliates;
+(ii) RMF processes/ practices/ mechanisms through which the bank effectively
+identifies, measures, monitors, and reports material risks;
+(iii) Mechanisms that ensure that the policies, methodologies, controls, and risk
+monitoring systems are developed, validated, maintained and appropriately
+177
+
+[Document: PII.pdf, Page 30]
+CBUAE Classification: Public
+approved;
+(iv) Processes to effectively identify and review the changes in risks arising from the
+bank’s strategy, business model, new products, and changes in the economic
+environment;
+(v) Capital contingency plans for surviving unexpected events;
+(vi) Risk management information systems (MIS) that ensure:
+ That the bank distributes regular, accurate, and timely information on the
+bank’s aggregate risk profile internally;
+ The appropriate frequency and distribution of risk management
+information;
+ Early warning processes for pre-empting capital limit breaches; and
+ Internal decision-making process are facilitated to allow the bank’s
+management to authorize remedial actions before capital adequacy is
+compromised.
+(vii) The bank’s risk appetite as defined and used in the preparation of the ICAAP,
+which should be consistently referenced for taking business decisions;
+(viii) Risk quantification methodologies that are clearly articulated and documented,
+including high-level risk measurement assumptions and parameters;
+(ix) The approaches used to assess capital adequacy, which should include the
+stress test framework and a well-articulated definition of capital adequacy;
+(x) The capital planning process objectives, which should be forward-looking and
+aligned to the bank’s business model and strategy;
+(xi) Capital allocation processes including monitoring among business lines and
+identified risk types (e.g. risk limits defined for business lines, entities, or
+individual risks should be consistent to ensure the overall adequacy of the bank’s
+internal capital resources); and
+(xii) The boundary of entities included,
+(xiii) The process of risk identification, and
+(xiv) The bank’s risk inventory and classification, reflecting the materiality of risks and
+the treatment of those risks through capital.
+140. The internal control functions should play a vital role in contributing to the formation of
+a sustainable business strategy. The ICAAP report should describe the following with regard
+to internal control functions:
+(i) The responsibilities of Internal Audit and Compliance concerning risk
+management;
+(ii) Any relevant internal and external audit reviews of risk management and the
+conclusions reached; and
+(iii) Outsourcing arrangements that have a material effect on internal capital
+adequacy management, if any. This should elaborate the bank’s reliance on, or
+178
+
+[Document: PII.pdf, Page 31 (Overlap)]
+CBUAE Classification: Public
+use of, any third parties such as external consultants or suppliers. The bank
+should provide a high-level summary reports or reviews of the outsourced
+functions’ related policy documentation and processes.
+3.2 Models
+141. The ICAAP report is required to address models used to comply with regulatory and
+accounting requirements, and those used for internal capital management, including but not
+limited to models used for:
+(i) IFRS9 accounting requirements;
+(ii) The appropriate assessment of Pillar 1 risks for capital requirements under the
+Pillar 2;
+(iii) The appropriate assessment of Pillar 2 risks for capital requirements;
+(iv) Regulatory stress tests requirements;
+(v) Risk Management Regulations;
+(vi) Valuation adjustments; and
+(vii) Pricing models, capital allocation models, and budgeting models.
+3.3 Reverse Stress Testing
+142. In addition to normal stress testing, each bank is expected to conduct reverse stress
+tests and document the process and outcomes of the process in the ICAAP report.
+143. Banks are expected to apply a mix of qualitative analyses and quantitative analyses,
+which may vary in relation to the nature, scale, and complexity of the banks’ business activities
+and the risks associated with those activities. Accordingly, it may be acceptable for smaller
+and less complex banks to develop reverse stress tests that focus more on qualitative
+analyses, while larger and more banks that are complex should include more quantitative
+elements alongside the qualitative analyses. Appropriate scenarios differ based on each bank
+economic circumstances, business model and risk drivers.
+144. A bank may consider implementing the following steps, which are presented purely for
+illustrative purposes:
+(i) Define specific trigger points that could threaten the bank’s viability or
+solvency. Such trigger points may involve situations in which:
+ The bank’s capital or liquidity positions fall below the minimum regulatory
+requirements;
+ Specific indicators which, if hit, reflect a loss of confidence by the bank’s
+counterparties (e.g. access to wholesale funding markets denied) or by
+depositors (e.g. deposit run-off rates reach a significant level); or
+ The bank is unable to repay its debt obligations. Some of the indicators
+may render the banks unviable (e.g. due to illiquidity resulting from a
+substantial and rapid deposit run) before it becomes insolvent.
+(ii) Reverse-engineering the bank’s business model to the point that the trigger
+points are breached. In this way, it is possible to identify what adverse but
+plausible financial or non-financial events, either independently or combined,
+179

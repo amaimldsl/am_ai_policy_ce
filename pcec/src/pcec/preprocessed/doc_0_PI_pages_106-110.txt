@@ -1,0 +1,214 @@
+
+ Offsetting is allowed between long and short positions in exactly the same commodity to
+calculate open positions.
+ In general, offsetting is not allowed between positions in different commodities. However,
+the Central Bank may permit offset between different sub-categories of the same
+commodity, for example, different categories of crude oil, if:
+ they are deliverable against each other
+ they are close substitutes for each other, with a minimum correlation of 0.9
+between price movements over a period of at least one year
+Correlations
+Banks using correlations between commodities to offset commodity positions must have
+obtained prior approval from the Central bank of UAE.
+2. Calculating the Capital Charge
+Two alternative approaches for calculating the capital charge for commodities are set out
+by the standardised measurement method:
+a) Simplified Approach
+Under the simplified approach, banks must express each commodity position, spot plus
+forward, in terms of the standard unit of measurement (barrels, kilos, grams, and so on).
+The capital charge is the sum of two charges:
+ 15% of the net position in each commodity. All commodity derivatives and off-balance
+sheet positions affected by changes in commodity prices should be included.
+ 3% of the bank's gross commodity positions, that is, the sum of the net long plus net short
+positions in each commodity, calculated using the current spot price. This charge
+addresses basis risk, interest rate risk and forward gap risk.
+b) Maturity Ladder Approach
+There are seven steps involved in calculating the capital charge for commodities using the
+maturity ladder approach. A separate maturity ladder must be used for each commodity.
+The maturity ladder approach
+Step 1 Express each commodity position in terms of the standard unit of measurement,
+and value in the reporting currency at the current spot price
+Step 2 Slot each position into a time band in the maturity ladder according to remaining
+maturity
+Step 3 Apply a capital charge of 1.5% to the sum of the matched long and short positions
+in each time band to capture spread risk. Instead of applying the 1.5% spread risk
+charge to the sum of matched long and short positions in each time band, some
+countries apply a 3% spread risk charge to the matched position.
+Step 4 Apply a capital charge of 0.6% to the residual net position carried forward to the
+next relevant time band, multiplied by the number of time bands it is carried.
+Step 5 Repeat step 3 and step 4 for each time band.
+107
+
+[Document: PI.pdf, Page 107]
+CBUAE Classification: Public
+Step 6 Apply a capital charge of 15% to the overall long or short net open position.
+Step 7 Derive the total capital charge by summing the charges for spread risk, for
+positions carried forward and for the overall net open position.
+3. Treatment of Commodity Derivatives
+All commodity derivatives and off-balance sheet positions affected by changes in
+commodity prices should be included in the commodities risk measurement framework. This
+includes commodity futures, commodity swaps, and options where the “delta plus” method is
+used.
+E. Options
+Treatment of Options
+There is a section of the market risk framework devoted to the treatment of options.
+The market risk charge for options can be calculated using one of the following methods:
+ the simplified approach
+ an intermediate approach: the delta-plus method
+The more significant a bank's trading activities, the more sophisticated the approach it
+should use. The following table shows which methods a bank can use:
+Simplified approach Intermediate approach
+Delta- plus method
+Bank uses √ √
+purchased options
+only
+Bank writes options ₓ √
+Banks that solely use purchased options are free to use the simplified approach, whereas
+banks that also write options are expected to use the intermediate approach. If a bank has option
+positions, but all of those written options are hedged by perfectly matched long positions in exactly
+the same options, no capital is required for market risk on those options. However, banks need
+to report the hedged options in the respective sheet.
+a) Simplified Approach
+Option positions and their associated underlying (cash or forward) are 'carved out' from
+other risk types in the standardised approach. They are subject to separately calculated capital
+charges that incorporate both general market risk and specific risk. These charges are then added
+to the capital charges for the relevant risk categories: interest rate risk, equities risk, foreign
+exchange risk or commodities risk.
+In some cases, such as foreign exchange, it may be unclear which side is the “underlying
+security.” In such cases, the asset that would be received if the option were exercised should be
+considered as the underlying. In addition, the nominal value should be used for items where the
+market value of the underlying instrument could be zero, such as caps and floors, swaptions, or
+similar instruments.
+108
+
+[Document: PI.pdf, Page 108]
+CBUAE Classification: Public
+The capital charges under the simplified approach are as follows:
+Simplified approach : capital charges
+Position Treatment
+Hedged positions: long cash position in the The capital charge is the market value of the
+underlying instrument and long put or short underlying security multiplied by the sum of
+cash position in the underlying instrument specific and general market risk charges for
+and long call the underlying, less the amount the option is
+in-the-money (if any) bounded at zero.
+Outright option positions: long call or long The capital charge is the lesser of:
+put  The market value of the underlying
+security multiplied by the sum of
+specific and general market risk
+charges for the underlying
+ The market value of the option
+b) Intermediate Approach
+The procedure for general market risk is explained below. The specific risk capital charges
+are determined separately by multiplying the delta-equivalent of each option by the specific risk
+charges for each risk category.
+The delta-plus method
+The delta-plus method uses the sensitivity parameters or Greek letters associated with
+options to measure their market risk and capital requirements.
+Options should be included in market risk calculations for each type of risk as a delta-
+weighted position equal to the market value of the underlying multiplied by the delta.
+The delta-equivalent position of each option becomes part of the standardised approach,
+with the delta-equivalent amount subject to the applicable market risk capital charges. Separate
+capital charges are then applied to the gamma and Vega risks of the option positions.
+Greek Letters: Five coefficients are used to help explain how option values behave in relation to
+changes in market parameters (price of the underlying asset, the strike price, the volatility of the
+underlying, the time to maturity and the risk-free interest rate). These are represented by the
+Greek letters delta, gamma, Vega, theta and rho, and are referred to as the 'option Greeks'.
+ Delta (Δ) measures the rate of change in the value of an option with respect to a change
+in the price of the underlying asset.
+ Gamma (Γ) measures the rate ofchange in the delta of an option with respect to a change
+in the price of the underlying asset.
+ Vega (Λ) measures the rate of change in an option price with respect to a change in market
+volatility for the underlying asset price.
+109
+
+[Document: PI.pdf, Page 109]
+CBUAE Classification: Public
+III. Shari’ah Implementation:
+Bank that conduct all or part of their activities in accordance with the provisions of Shari’ah
+and have exposure to risks similar to those mentioned in the Market Risk Standard, shall, for the
+purpose of maintaining an appropriate level of capital, calculate the relevant risk weighted asset
+(RWA) in line with these guidelines. This must be done in a manner compliant to the Shari’ah.
+This is applicable until relevant standards and/or guidelines in respect of these
+transactions are issued specifically for banks offering Islamic financial services.
+IV. Frequently Asked Questions
+Question 1: Are issues rated AA- or better by Supranational issuers qualify for 0% specific
+risk charge? For such issues, the Country of Risk = SNAT as classification in Bloomberg
+would be considered as Supranational
+No, there is no specification to supranational and thereby low risk charge.
+Question 2: Please clarify whether futures or options on ETFs and volatility indices such
+as VIX are treated as equity index instrument.
+Yes, it will be part of equity and reported under equity derivative. Please refer to the Market risk
+section of the standards for further guidance.
+Question 3: Under the treatment of interest rate derivatives for general market risk, in
+reference to table 3, credit derivatives have not been listed. Kindly advise if these products
+are excluded from the capital requirement stipulated under general market risk.
+Credit derivatives (including CDS and TRS) are subject to the general market risk treatment for
+interest rate risk if the instrument involves periodic payments of interest. Credit derivatives are
+subject to specific risk capital as described in paragraphs 26 and 27 of the Market Risk section of
+the Standards. Note that Table 3 in the text covers only interest rate derivatives, and therefore
+credit derivatives should not be included. Credit derivatives must be analysed whether they are
+subject to the general market risk treatment for interest rate risk. For example, Credit Default
+Swaps are usually not subject to general interest rate risk, whereas Total Return Swaps and credit
+linked notes are usually subject to general market risk. Please note, that the analysis to which risk
+types a specific instrument type is exposed, must be provided to the Central Bank upon request.
+Question 4: Clarity is needed on what constitutes trading book. For example, Investment
+Grade bonds classified as AFS, however with no active trading and a holding period of
+almost till maturity (e.g. callable, decision to sell closer to maturity) does this need to be
+banking book? Similarly, HTM under this description can be either trading or banking
+book.
+The Market Risk Standard as published does not change the definition of trading book. The
+requirements of BCBS 128 paragraphs 685 to 689 have been applied in the text of the Standards.
+Please refer to the Market Risk Regulation under Notice 3018/2018 for the full definition of trading
+book.
+Question 5: For Qualifying category, if the issuer of the security is a rated corporate by
+any one of rated agencies i.e. Moody's, S&P, Fitch with investment grade. Should it be
+included under Qualifying Category?
+110
+
+[Document: PI.pdf, Page 110]
+CBUAE Classification: Public
+Yes, this will fall under qualifying category as long as it rated investment grade by at least two
+credit rating agencies.
+Question 6: Should general criteria for all investment grade securities other than
+Government Issuers be taken under the category of Qualifying?
+Yes, these instruments will be classified as qualifying provided in paragraphs 16-19.
+Question 7: As per the Standards, "the separate legs of cross-currency swaps or forward
+foreign exchange deals are to be treated as notional positions in the relevant instruments
+and included in the appropriate calculation for each currency". Under which method these
+are required to be included in MR-3 i.e Maturity method or Duration method.
+General risk can be computed using Maturity and Duration approach. Paragraph 41 on
+"Allowable offsetting of matched positions" of the market risk standard applies to both
+approaches and depends on what approach the bank uses for reporting.
+Question 8: If the options are hedged, do we need to input the numbers in the template.
+If it is fully micro hedged, then Net Forward Purchase (Sales) & Delta weighted positions for
+Options will be zero. Refer to VII Appendix: Prudent Valuation Guidance as part of Market risk
+standard.
+Question 9: Banks have the possibility to include the repo transactions in the trading book
+for regulatory capital calculation even though they are accounted in the banking book?
+Term trading-related repo-style transactions that meet the requirements for trading-book
+treatment may be included in the bank’s trading book for regulatory capital purposes even if a
+bank accounts for those transactions in the banking book. If the bank does so, all such repo-style
+transactions must be included in the trading book, and both legs of such transactions, either cash
+or securities, must be included in the trading book. Regardless of where they are booked, all repo-
+style transactions are subject to a credit risk capital requirement under the Central Bank’s
+Standards for Credit Risk Capital. The secured part of the exposure is risk weighted based on the
+credit rating/type of the issuer the security serving as collateral, and the unsecured part is risk
+weighted based on the credit rating/type (bank-sovereign-corporate) of the counterparty. In
+addition, how/where the reporting should be under which risk type (e.g. interest rate risk (Specific
+and/or General), FX, Equity, etc.) depends on the nature of the cash placement (one ‘leg’) and
+that of the security/collateral (other ‘leg’). The two legs are reportable to the relevant market risk
+type. For example, if the cash placement is floating rate and denominated in foreign currency it
+would be reported under FX. In regards to position risk (interest rate and equity risk types), it
+would be under General risk.
+Question 10: How do we treat the capital charge when an exposure in the Banking book is
+hedged via a derivative in the trading book?
+As long as the position got an open leg under one of the two books (i.e. Banking or trading),
+applicable capital charge should be taken in place. When a bank hedges a banking book credit
+risk exposure using a credit derivative booked in its trading book (i.e. using an internal hedge),
+the banking book exposure is not deemed to be hedged for capital purposes unless the bank
+purchases from an eligible third party protection provider a credit derivative meeting the
+requirements in the Central Bank’s Standards for Credit Risk. Where such third party protection
+is purchased and is recognised as a hedge of a banking book exposure for regulatory capital
+purposes, neither the internal nor external credit derivative hedge would be included in the trading
+book for regulatory capital purposes.
+111

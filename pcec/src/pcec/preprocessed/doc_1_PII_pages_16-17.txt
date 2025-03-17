@@ -1,0 +1,173 @@
+[Document: PII.pdf, Page 15 (Overlap)]
+CBUAE Classification: Public
+F. Interest Rate Risk in the Banking Book (IRRBB)
+83. IRRBB is the risk of loss in the banking book caused by changes in interest rates.
+Interest rate risk can arise both in the banking book and/or the trading book. While interest rate
+risk in the trading book is addressed under the Pillar 1 market risk framework, the interest rate
+risk in the banking book should be addressed under Pillar 2. Conventional banks refer to this
+risk as IRRBB while Islamic banks are exposed to the analogous risk called profit rate risk in
+the banking book (PRRBB).
+84. Each bank should define a risk appetite pertaining to IRRRB that should be approved
+by the Board and implemented through a comprehensive risk appetite framework, i.e. policies
+and procedures for limiting and controlling IRRBB. Each bank should have a process
+supported by adequate policies to manage IRRBB appropriately.This involves, as for any other
+risk, comprehensive identification, measurement, reporting, monitoring, and mitigation.
+85. The measurement process should be based upon several existing Standards and
+Guidance:
+(i) Central Bank “Standards re Capital Adequacy of Banks in the UAE - ICAAP
+Standards”;
+(ii) Central Bank “Regulation and Standards re Interest Rate & Rate of Return Risk
+in the Banking Book” in 2018 (Notice 3021/2018 and Circular 165/2018);
+(iii) Central Bank Model Management Standards and Guidance in 2022 (Notice
+5052/2022); and
+(iv) Basel Framework - Interest Rate Risk in the Banking Book (SRP 31).
+Measurement
+86. The assessment should include all positions of each bank’s potential basis risk, re-
+pricing gaps, commercial margins, gaps for material currencies optionality, and non-maturing
+deposits. The quantitative impact analysis should be supported by description and analysis of
+the key assumptions made by the bank, in particular, assumptions regarding loan
+prepayments, the behaviour of non-maturity deposits (CASA), non-rated sensitive assets,
+contractual interest rate ceilings or floors for adjustable-rate items, and measuring the
+frequency of the interest rate risk in the banking book.
+87. DSIBs and other banks with significant interest rate risk (IRR) exposure should
+compute the economic value of equity (EVE) at a granular facility level, while non-DSIBs may
+compute EVE at exposure level, which is based upon the summation of discounted gap risk
+across time buckets, rather than a granular net present value (NPV) estimation at exposure
+level.
+Scenarios
+88. For the purpose of capital calibration, each bank should employ the interest rate shock
+scenarios corresponding to Table 12 of Central Bank Model Management Guidance and table
+2 of the SRP 31 for their AED and non-AED positions respectively.
+89. In addition to the standard shocks prescribed above, DSIBs and other banks with
+significant exposure to interest rate risk are expected to apply further shocks/ idiosyncratic
+scenarios, which will takeinto account:
+ The bank’s inherent risk profile;
+163
+
+[Document: PII.pdf, Page 16]
+CBUAE Classification: Public
+ Historical shocks experienced by the bank due to market sentiment and
+corresponding to macro-financial factors; and
+ Additional scenarios prescribed by the Central Bank specifically through
+supervisory interactions or financial stability processes.
+Capital Calculation
+90. The capital requirement should be aggregated across all currencies and scenarios
+conservatively.
+91. The estimation of the Pillar 2 capital corresponding to IRRBB should be based on the
+most conservative loss arising from (i) the change in the economic value of equity (ΔEVE), and
+(ii) the change in net interest income (ΔNII). The most conservative result should be considered
+across all the scenarios calibrated by the bank. (In avoidance of doubt, the allocated capital
+for IRRBB should not be lower than the maximum of the absolute EVE impact and the absolute
+NII impact: Max(abs(EVE impact), abs(NII impact).
+92. The Central Bank considers a bank as an outlier when the IRRBB EVE impact based
+on the standard parallel shock leads to an economic value decline of more than 15% of its Tier
+1 capital. The Central Bank may request an outlier bank to:
+(i) Reduce its IRRBB exposures (e.g. by hedging);
+(ii) Raise additional capital;
+(iii) Set constraints on the internal risk parameters used by a bank; and/ or
+(iv) Improve its risk managementframework.
+93. Irrespective of the approach or model chosen by the bank, at a minimum each bank
+should calculate and report IRRBB using the methodology described by the Central Bank
+Model Management Standards and Guidance.
+G. Model Risk
+94. Models have become an integral part of decision-making in the banking sector for risk
+management, business decisions, and accounting. Inaccurate model results, e.g. based on
+wrong assumptions or valuations, may lead to actual or potential financial losses or an
+underestimation of risks. Therefore, the Central Bank considers model risk a significant risk
+type.
+95. Simple models should not be confused with poorly designed models. Poorly designed
+models can be misleading and interfere with sound decision-making. Small and/or
+unsophisticated banks can employ simple models. However, they cannot employ poorly
+designed models. Each bank should manage model risk in accordance to the Central Bank
+Model Management Standards and Guidance.
+96. Model risk should be incorporated in each banks’ risk framework alongside other key
+risks, as inherent consequences of conducting their activities (refer to Appendix 3.2).
+Consequently, model risk should be managed through a formal process incorporating the
+bank’s appetite for model uncertainty. The framework should be designed to identify, measure,
+monitor, and mitigate this risk. A bank should mitigate a large appetite for model risk by
+counter-measures such as conservative buffers on model results and/ or additional allocated
+Pillar 2 capital.
+164
+
+[Document: PII.pdf, Page 17]
+CBUAE Classification: Public
+97. The Central Bank recognises that the estimation of model risk is challenging. However,
+each bank should demonstrate that they have implemented steps to measure the potential
+losses arising from model risk. At minimum, each bank should implement a grouping approach
+to categorise models according to their associated model risk. The uncertainty and losses
+arising from models should be estimated by using a range of different techniques, including:
+(i) Internal and external validations;
+(ii) Comparison against alternative models;
+(iii) Sensitivity analysis; and
+(iv) Stress tests.
+98. Each bank should also consider the quality of its model risk management in the model
+risk analysis, including but not limited to the quality of model documentation, data,
+assumptions, validation, staff, implementation, and usage.
+Risk Diversification Effects
+99. Each bank is expected to take a prudent approach whenever assuming risk
+diversification effects. Furthermore, each bank should be aware that the Central Bank as a
+matter of principle will not take into account inter-risk diversification in the SREP. Banks should
+be cognisant of this when applying inter-risk diversification in its ICAAP.
+H. Financial Risks from Climate Change
+100. Banks are expected to build up Board awareness and understanding of the financial
+risks arising from climate change and how they will affect their business models. Each bank
+should use scenario analysis and stress tests to improve the risk identification process, to
+understand the short- and long-term financial risks to their business model from climate
+change, and to develop appropriate strategies accordingly.
+I. Liquidity Risk and Funding Cost
+101. Though capital is not a direct mitigation for liquidity risk and liquidity is not a mitigation
+for capital risk, both risk types are interlinked. The Internal Capital Adequacy Assessment
+Process (ICAAP) and the Internal Liquidity Adequacy Assessment Process (ILAAP) are
+expected to inform each other; with respect to the underlying assumptions, stress test results,
+and forecasted management actions. Each bank is expected to assess the potential impact of
+scenarios, integrating capital and liquidity impacts, and potential feedback processes, taking
+into account, in particular, losses arising from the liquidation of assets, increased funding costs
+or availability of funding during periods of stress.
+102. For example, each bank is expected to assess the impact of deteriorating capital levels,
+as projected in the ICAAP, on their liquidity. A downgrade by an external rating agency could,
+for example, have direct implications for the refinancing ability of the bank. Vice versa, changes
+in funding cost could impact capital adequacy.
+VII. ICAAP Stress Test and Reverse Stress Test
+103. Stress test helps to improve the bank’s understanding of the vulnerabilities that it faces
+under exceptional, but plausible events, and provide the bank with an indication of how much
+capital might be needed to absorb losses if such events occur, which supplements other risk
+management approaches and measures. These events can be financial, operational, legal, or
+relate to any other risk that may have an economic impact on the bank. The results derived
+165
+
+[Document: PII.pdf, Page 18]
+CBUAE Classification: Public
+from stress tests can also assist the bank in determining the appropriate appetite for different
+types of risks and in estimating the amount of capital that should be set aside to cover them.
+104. Each bank is required to implement a stress testing framework to address both the
+needs of the ICAAP and broader risk management. Stress tests and the stress test outcome
+analysis should not be confined to the ICAAP. It should be designed to support decision-
+making across the bank as explained in this section.
+105. Each bank should perform an in-depth review of its potential vulnerabilities, capturing
+all material risks on a bank-wide basis that result from its business model and operating
+environment in the context of adverse events, stressed macroeconomic (e.g. economic cycle
+risk), and financial conditions.
+106. As part of the ICAAP exercise, each bank should carry out integrated, regular, rigorous,
+and forward-looking stress tests that are appropriate to the nature of the bank’s business
+model and major sources of risk. The frequency should be annually and more frequently, when
+necessary, depending on the individual circumstances.
+107. The Central Bank may challenge the key assumptions and their continuing relevance
+to ensure that there is sufficient capital to withstand the impact of possible adverse events and/
+or changes in market conditions.
+Governance
+108. The Board is responsible for the effective implementation of the stress tests framework
+through appropriate delegation to Senior Management and subject-matter experts across the
+bank. This framework should be supported by robust governance, processes, methods, and
+systems with associated policies and procedures approved by the Board. The Board is not
+only responsible for the stress testing policies, but also for oversight of the stress testing
+execution. It is also responsible for the potential measures to mitigate stress scenario
+outcomes and the key decisions and actions taken based on the stress testing results, such
+as the consideration of stress testing outcomes in strategy and capital planning.
+109. The stakeholders involved in a particular stress testing framework depend on the type
+of stress tests. The scenario design, quantification of impact and the identification of mitigating
+actions will involve a range of subject matter experts across the bank. Stress test-related
+activities are not the sole responsibility of the team in charge of preparing the ICAAP or in
+charge of the stress testing programme. Rather, the execution of stress tests is a collective
+exercise, whereby numerous stakeholders contribute to the design, measurement, reporting
+and analysis of stress tests. Stakeholders should include Senior Management and the Board.
+Types of stress test exercises

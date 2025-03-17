@@ -1,0 +1,167 @@
+[Document: PI.pdf, Page 125 (Overlap)]
+CBUAE Classification: Public
+𝐾 = { ∑ max [∑(𝐺𝐼 × 𝛽 ), 0]}⁄3
+𝑇𝑆𝐴 1−8 1−8
+𝑦𝑒𝑎𝑟𝑠 1−3
+Where:
+K
+TSA
+= the capital charge under the Standardised Approach
+GI = the annual gross income in a given year, as defined in the Basic Indicator Approach
+1-8
+(BIA), for each of the eight business lines
+β = a fixed percentage, set by the committee, relating the level of required capital to the
+1-8
+level of the gross income for each of the eight business lines
+The Standardised Approach Components
+The Standardised Approach identifies two main components to be used in calculating the
+operational risk capital charge:
+1. Gross Income of Eight Business Lines
+Eight business lines are recommended for use by the Basel Committee in calculating the
+operational risk charge under the SA. These business lines are considered as being
+representative of the various kinds of businesses undertaken by banks. The identified business
+lines briefed below are:
+1. Corporate finance: banking arrangements and facilities provided to large commercial
+enterprises, multinational companies, non-bank financial institutions, government
+departments etc.
+2. Trading and sales: treasury operations, buying and selling of securities, currencies and
+commodities for proprietary and client accounts.
+3. Retail banking: financing arrangements for private individuals, retail clients and small
+businesses such as personal loans, credit cards, auto loans, etc. as well as other facilities
+such as trust and estates and investment advice.
+4. Commercial banking: financing arrangements for commercial enterprises, including
+project finance, real estate, trade finance, factoring, leasing, guarantees, bills of exchange
+etc.
+5. Payment and settlement: activities relating to payments and collections, interbank funds
+transfer, clearing and settlement.
+6. Agency services: acting as issuing and paying agents for corporate clients, providing
+custodial services etc.
+7. Asset management: managing funds of clients on a pooled, segregated, retail,
+institutional, open or closed basis under a mandate.
+8. Retail brokerage: broking services provided to customers that are retail investors rather
+than institutional investors.
+Under the SA, the gross income is calculated for each of the eight business lines. It serves
+as a proxy for the likely scale of exposure of that business line of the bank to operational risk.
+Since all income has to be allocated to a business line, the sum of the gross income of the eight
+business lines should equal the gross income for the bank as a whole
+126
+
+[Document: PI.pdf, Page 126]
+CBUAE Classification: Public
+Just like in the Basic Indicator Approach, gross income for SA comprises net interest
+income plus net non-interest income as defined in the Operational Risk section of the Standards
+re Capital Adequacy.
+2. Beta
+Beta serves as a proxy for the industry-wide relationship between the operational risk loss
+experience and the level of operational risk exposure as reflected in the gross income for a
+business line. It is representative of the amount of loss that can be incurred by a bank given that
+level of exposure (represented by gross income) in a business line.
+The beta factors for the eight business lines as set by the Basel Committee are as follows:
+Beta Business line Beta factor
+β 1 Corporate finance 18%
+β 2 Trading and sales 18%
+β 3 Retail banking 12%
+β 4 Commercial banking 15%
+β 5 Payment and settlement 18%
+β 6 Agency services 15%
+β 7 Asset management 12%
+β 8 Retail brokerage 12%
+The beta factors have been set within a range of 12-18% depending upon the degree of
+operational risk perceived in a business line. Thus, a 12% beta factor for retail banking indicates
+that, in general, the operational risk in retail banking is lower than the operational risk in
+commercial banking. The latter, which has a beta of 15%, carries a lower operational risk than,
+for example, payment and settlement, which carries a beta factor of 18%.
+Treatment of Negative Gross Income from Business lines
+Some banks may have negative gross income for some years in some business lines.
+This will result in a negative capital charge for the business line for that year. If the gross income
+and the resulting capital charge of a specific business line is negative, the aggregate of the capital
+charges across business lines for that year could still be positive, so long as the gross income
+from other business lines is positive.
+The following guidance applies for treatment of negative capital charges under the
+Standardised Approach:
+- In any given year, negative charges in business lines may offset positive capital charges
+in other business lines without any limit.
+- If the total capital charge, after offsetting negative and positive capital charges of business
+lines, is negative for a given year, then the numerator for that year will be set to zero.
+- If negative gross income distorts the operational risk capital charge calculated under the
+SA, the Central Bank will consider appropriate supervisory action under Pillar 2.
+Calculating the Operational risk capital charge under the Standardised Approach (SA)
+The calculation of the capital charge for operational risk under the SA follows the following steps:
+127
+
+[Document: PI.pdf, Page 127]
+CBUAE Classification: Public
+Step 1: Calculate the capital charge for each business line using its gross income and applicable
+beta factor in year 1.
+If the gross income from a business line is negative, the capital charge for that business line in
+year 1 willbenegative.
+Step 2: Sum the eight capital charges of business lines for Year 1.
+In a year, negative capital charges in some business lines may offset positive capital charges for
+other business lines without any limit.
+Steps 3 and 4: Follow steps 1 and 2 for the other two years.
+Step 5: Calculate the 3-year average of the aggregated capital charges. Where the aggregate
+capital charge across all business lines in a given year is negative, then the input to the numerator
+for that year will be zero. The denominator will remain 3, representing the three years included in
+the calculation.
+Central Bank supports the use of the Beta given in the Standards re Capital Adequacy as well as
+here in this guidance above as the basis for the capital calculations under SA.
+c. Alternative Standardised Approach (ASA) Capital Charge
+The Alternative Standardised Approach provides a different exposure indicator for two
+of the eight business lines, retail banking and commercial banking. These activities essentially
+comprise traditional banking business and still represent the main business of banks in several
+jurisdictions.
+Calculation of Operational Risk Capital Charge under Alternative Standardised
+Approach (ASA)
+Using the ASA, the operational risk capital charge for retail banking and commercial
+banking will be based on the following formulas:
+K = β x m x LA
+RB RB RB
+Where:
+K = is the capital charge for retail banking
+rb
+m = 0.035
+β
+rb
+= is the beta factor for retail banking (12%)
+LA = is the total outstanding retail loans and advances (non-risk weighted and gross of
+rb
+provisions), averaged over the past three years
+K = β x m x LA
+CB CB CB
+Where:
+K = is the capital charge for commercial banking
+CB
+m = 0.035
+β CB= is the beta factor for commercial banking (15%)
+LA = is the total outstanding commercial loans and advances (non-risk weighted and gross of
+CB
+provisions), averaged over the past three years
+128
+
+[Document: PI.pdf, Page 128]
+CBUAE Classification: Public
+For the other six business lines, the calculation of the operational risk capital charge will be based
+on the gross income and beta factor of that business line, as prescribed under the SA.
+Further Options under the Alternative Standardised Approach (ASA)
+Further options are available at under the ASA for calculating the operational risk capital
+charge to address problems in disaggregation of the exposure indicator among business lines by
+banks. However, the greater the disaggregation, the better will be the alignment of the capital
+charge with a bank's operational risk profile.
+Available options relate to using loans and advances in commercial and retail banking
+business lines and gross income in the other six business lines as the exposure indicators with
+different beta factor combinations:
+- Option 1 – using a common beta factor of 15% for commercial loans and retail loans, and
+the SA beta factors for the other six business lines
+- Option 2 – using the SA beta factors of 15% and 12%, respectively, for commercial loans
+and retail loans and a common beta factor of 18% for the other six business lines
+- Option 3 – using a common beta of 15% for commercial loans and retail loans and a
+common beta factor of 18% for the other six business lines
+For further details, kindly refer to the Appendix below.
+IV. Shari’ah Implementation
+Banks that conduct all or part of their activities in accordance with the provisions of
+Shari’ah law and have exposure to risks similar to those mentioned in the Operational Risk
+Standard, shall, for the purpose of maintaining an appropriate level of capital, calculate the
+relevant risk weighted asset in line with these guidelines. This must be done in a manner
+compliant to the Shari’ah law.
+This is applicable until relevant standards and/or guidelines in respect of these
+transactions are issued specifically for banks offering Islamic financial services.

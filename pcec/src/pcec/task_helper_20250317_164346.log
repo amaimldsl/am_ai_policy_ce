@@ -1,0 +1,101 @@
+2025-03-17 16:43:46,196 - INFO - Running extract conditions task
+2025-03-17 16:43:46,202 - INFO - Found 43 chunks
+2025-03-17 16:43:46,202 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_21-25.txt
+2025-03-17 16:43:46,210 - INFO -   Found 50 conditions
+2025-03-17 16:43:46,210 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_101-105.txt
+2025-03-17 16:43:46,213 - INFO -   Found 21 conditions
+2025-03-17 16:43:46,213 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_66-70.txt
+2025-03-17 16:43:46,215 - INFO -   Found 19 conditions
+2025-03-17 16:43:46,215 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_1-5.txt
+2025-03-17 16:43:46,231 - INFO -   Found 81 conditions
+2025-03-17 16:43:46,232 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_21-25.txt
+2025-03-17 16:43:46,251 - INFO -   Found 93 conditions
+2025-03-17 16:43:46,251 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_121-125.txt
+2025-03-17 16:43:46,255 - INFO -   Found 30 conditions
+2025-03-17 16:43:46,255 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_86-90.txt
+2025-03-17 16:43:46,259 - INFO -   Found 24 conditions
+2025-03-17 16:43:46,259 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_6-10.txt
+2025-03-17 16:43:46,270 - INFO -   Found 60 conditions
+2025-03-17 16:43:46,270 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_71-75.txt
+2025-03-17 16:43:46,274 - INFO -   Found 31 conditions
+2025-03-17 16:43:46,275 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_96-100.txt
+2025-03-17 16:43:46,277 - INFO -   Found 16 conditions
+2025-03-17 16:43:46,277 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_1-5.txt
+2025-03-17 16:43:46,301 - INFO -   Found 101 conditions
+2025-03-17 16:43:46,301 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_111-115.txt
+2025-03-17 16:43:46,303 - INFO -   Found 13 conditions
+2025-03-17 16:43:46,303 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_141-143.txt
+2025-03-17 16:43:46,309 - INFO -   Found 38 conditions
+2025-03-17 16:43:46,309 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_21-22.txt
+2025-03-17 16:43:46,310 - INFO -   Found 7 conditions
+2025-03-17 16:43:46,310 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_136-140.txt
+2025-03-17 16:43:46,318 - INFO -   Found 56 conditions
+2025-03-17 16:43:46,318 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_6-10.txt
+2025-03-17 16:43:46,321 - INFO -   Found 22 conditions
+2025-03-17 16:43:46,321 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_81-85.txt
+2025-03-17 16:43:46,328 - INFO -   Found 41 conditions
+2025-03-17 16:43:46,328 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_16-20.txt
+2025-03-17 16:43:46,333 - INFO -   Found 37 conditions
+2025-03-17 16:43:46,333 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_116-120.txt
+2025-03-17 16:43:46,335 - INFO -   Found 18 conditions
+2025-03-17 16:43:46,336 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_36-40.txt
+2025-03-17 16:43:46,338 - INFO -   Found 23 conditions
+2025-03-17 16:43:46,339 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_31-32.txt
+2025-03-17 16:43:46,341 - INFO -   Found 15 conditions
+2025-03-17 16:43:46,341 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_11-15.txt
+2025-03-17 16:43:46,358 - INFO -   Found 87 conditions
+2025-03-17 16:43:46,358 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_131-135.txt
+2025-03-17 16:43:46,361 - INFO -   Found 26 conditions
+2025-03-17 16:43:46,361 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_16-20.txt
+2025-03-17 16:43:46,364 - INFO -   Found 27 conditions
+2025-03-17 16:43:46,364 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/chunk_index.txt
+2025-03-17 16:43:46,365 - INFO -   Found 0 conditions
+2025-03-17 16:43:46,365 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_91-95.txt
+2025-03-17 16:43:46,372 - INFO -   Found 46 conditions
+2025-03-17 16:43:46,372 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_76-80.txt
+2025-03-17 16:43:46,376 - INFO -   Found 30 conditions
+2025-03-17 16:43:46,376 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_56-60.txt
+2025-03-17 16:43:46,378 - INFO -   Found 7 conditions
+2025-03-17 16:43:46,378 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_11-15.txt
+2025-03-17 16:43:46,385 - INFO -   Found 51 conditions
+2025-03-17 16:43:46,385 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_106-110.txt
+2025-03-17 16:43:46,391 - INFO -   Found 39 conditions
+2025-03-17 16:43:46,391 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_126-130.txt
+2025-03-17 16:43:46,394 - INFO -   Found 20 conditions
+2025-03-17 16:43:46,394 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_16-20.txt
+2025-03-17 16:43:46,413 - INFO -   Found 87 conditions
+2025-03-17 16:43:46,413 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_1-5.txt
+2025-03-17 16:43:46,417 - INFO -   Found 38 conditions
+2025-03-17 16:43:46,418 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_51-55.txt
+2025-03-17 16:43:46,419 - INFO -   Found 2 conditions
+2025-03-17 16:43:46,419 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_6-10.txt
+2025-03-17 16:43:46,437 - INFO -   Found 89 conditions
+2025-03-17 16:43:46,437 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_61-65.txt
+2025-03-17 16:43:46,439 - INFO -   Found 13 conditions
+2025-03-17 16:43:46,440 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_144-147.txt
+2025-03-17 16:43:46,444 - INFO -   Found 37 conditions
+2025-03-17 16:43:46,444 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_26-30.txt
+2025-03-17 16:43:46,461 - INFO -   Found 84 conditions
+2025-03-17 16:43:46,461 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_46-50.txt
+2025-03-17 16:43:46,466 - INFO -   Found 38 conditions
+2025-03-17 16:43:46,466 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_41-45.txt
+2025-03-17 16:43:46,471 - INFO -   Found 40 conditions
+2025-03-17 16:43:46,471 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_31-35.txt
+2025-03-17 16:43:46,480 - INFO -   Found 47 conditions
+2025-03-17 16:43:46,480 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_26-30.txt
+2025-03-17 16:43:46,485 - INFO -   Found 39 conditions
+2025-03-17 16:43:46,485 - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_11-15.txt
+2025-03-17 16:43:46,487 - INFO -   Found 14 conditions
+2025-03-17 16:43:52,471 - INFO - Found 1657 total conditions, 1641 unique conditions
+2025-03-17 16:43:52,473 - INFO - Wrote 1641 conditions to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/extract_conditions_task_output.md
+2025-03-17 16:43:52,474 - INFO - Wrote structured format to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/structured_conditions.md
+2025-03-17 16:43:52,475 - INFO - Successfully ran extract conditions task
+2025-03-17 16:43:52,475 - INFO - Running identify risks task
+2025-03-17 16:43:52,499 - INFO - Successfully generated risk assessment to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/identify_risks_task_output.md
+2025-03-17 16:43:52,500 - INFO - Running design controls task
+2025-03-17 16:43:52,512 - INFO - Successfully generated control framework to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/design_controls_task_output.md
+2025-03-17 16:43:52,513 - INFO - Running develop tests task
+2025-03-17 16:43:52,595 - INFO - Successfully generated audit program to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/develop_tests_task_output.md
+2025-03-17 16:43:52,596 - INFO - Running generate report task
+2025-03-17 16:43:55,376 - INFO - Successfully generated comprehensive final report to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/6_final_compliance_report.md
+2025-03-17 16:43:55,380 - INFO - All requested tasks completed successfully

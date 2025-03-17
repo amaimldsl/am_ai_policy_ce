@@ -1,0 +1,152 @@
+
+CRA General qualitative information about credit risk Flexible Annual
+CR1 Credit quality of assets Fixed Semi-annual
+CR2 Changes in the stock of defaulted loans and debt securities Fixed Semi-annual
+CRB Additional disclosure related to credit quality of assets Flexible Annual
+CRC Qualitative information on the mitigation of credit risk Flexible Annual
+CR3 Credit risk mitigation techniques – overview Fixed Semi-annual
+Qualitative disclosures on banks' use of external credit ratings
+Credit risk CRD under the standardised approach for credit risk Flexible Annual
+Standardised approach - credit risk exposure and CRM
+CR4 effects Fixed Semi-annual
+Standardised approach - exposures by asset classes and
+CR5 risk weights Fixed Semi-annual
+CCRA Qualitative disclosure related to CCR Flexible Annual
+CCR1 Analysis of CCR by approach Fixed Semi-annual
+CCR2 Credit valuation adjustment capital charge Fixed Semi-annual
+Standardised approach - CCR exposures by regulatory portfolio
+CCR3 and risk weights Fixed Semi-annual
+Counterparty credit risk
+(CCR)
+CCR5 Composition of collateral for CCR exposure Flexible Semi-annual
+CCR6 Credit derivatives exposures Flexible Semi-annual
+CCR8 Exposures to central counterparties Fixed Semi-annual
+SECA Qualitative disclosures related to securitisation exposures Flexible Annual
+SEC1 Securitisation exposures in the banking book Flexible Semi-annual
+SEC2 Securitisation exposures in the trading book Flexible Semi-annual
+Securitisation Securitisation exposures in the banking book and associated
+regulatory capital requirements - bank acting as originator or as
+SEC3 sponsor Fixed Semi-annual
+188
+
+[Document: PIII.pdf, Page 9]
+CBUAE Classification: Public
+Securitisation exposures in the trading book and associated
+SEC4 capital requirements - bank acting as investor Fixed Semi-annual
+General qualitative disclosure requirements related to market
+MRA risk Flexible Annual
+Market risk MR1 Market risk under the standardised approach Fixed Semi-annual
+IRRBBA IRRBB risk management objectives and policies Flexible Annual
+Interest rate risk in the IRRBB1 Quantitative information on IRRBB Fixed Annual
+banking book (IRRBB) OR1 Qualitative disclosures on operational risk Flexible Annual
+Operational risk REMA Remuneration policy Flexible Annual
+REM1 Remuneration awarded during the financial year Flexible Annual
+REM2 Special payments Flexible Annual
+Remuneration Policy
+REM3 Deferred remuneration Flexible Annual
+189
+
+[Document: PIII.pdf, Page 10]
+CBUAE Classification: Public
+III. Frequently Asked Questions (FAQ)
+Question 1: One or more senior officers of a bank, ideally at boardlevel or equivalent,
+should attest in writing that Pillar 3 disclosures have been prepared in accordance
+with the board-agreed internal control processes. For banks of foreign branches, is
+Country Manager or CFO at Head office attestation sufficient?
+For local banks and large foreign banks, Board member attestation will be expected. For
+smaller foreign bank branches, Country Manager/GM will be sufficient
+Question 2: There are requirements on the Pillar III disclosure that is dependent on
+the BASEL returns (BRF 95), in relation to this, the submission that mentions 6 weeks
+after the end of the relevant quarter starts from the BASEL quarter reporting deadline
+or actual quarter end?
+Pillar 3 disclosure submission will be 6 weeks after the quarter end date. For example,
+December quarter submission will be 6 weeks from December 31st and not 6 weeks from
+January 31st. Since the BRF95 should mandatorily be submitted by banks within 4 weeks
+from quarter end, the bank still has additional 2 weeks to complete the Pillar 3 disclosures
+based on BRF95.
+Question 3: Pillar 3 applies to all banks in the UAE at the top consolidated level for
+local banks... Please clarify in case of subsidiary of a bank, whether revised pillar 3
+disclosures will be required to be prepared at consolidated Group level or stand-alone
+level?
+Bank subsidiaries will be consolidated at stand-alone subsidiary level and the group bank
+will be consolidated at the stand-alone of the group bank only without the bank’s subsidiary
+data.
+Question 4: Pillar 3 disclosures can be presented in a separate report; however, Can
+it be signposted to the audited financial statements?
+Signposting is allowed if the bank chooses to use the same template in their audited financial
+statements but a separate reporting template needs to be prepared as per Pillar 3 templates
+which is mandatory and cannot be omitted from the Pillar 3 tables.
+Question 5: If any section/ table of Template is not applicable to the Bank (i.e. DSIBs,
+Securitisation), shall the Bank exclude this section/ table completely irrespective of
+type of table.
+Yes, banks can exclude the tables/templates not pertaining to the bank, for example DSIB
+and Securitisation
+Question 6: Banks should also have a formal board-approved disclosure policy for
+Pillar 3 information that sets out the internal controls and procedures for disclosure
+of such information. Should this formal Disclosure policy still be submitted to Central
+Bank along with ICAAP or it shall only be published / disclosed as mentioned?
+The formal disclosure policy should not be submitted but should be available on request by
+Central Bank of UAE.
+Question 7: Will it be sufficient to publish Basel 3 disclosures on its investor relations
+page on the bank’s website without any physical printouts?
+Banks should publish their Pillar 3 report in a stand-alone document on the bank’s UAE-
+specific website. This can be anywhere on the website but it needs to be clearly visible and
+easily available for all stakeholders. Banks which do not have a UAE-Specific website should
+create a website specific to UAE so that all stakeholders can have access to the Pillar 3
+disclosures of the bank.
+Question 8: For REM1 template, is Central Bank expecting the Bank to report overseas
+earnings or only the locally paid compensation? Are deferrals awarded in the current
+190
+
+[Document: PIII.pdf, Page 11 (Overlap)]
+CBUAE Classification: Public
+year only to be reported? If an employee has a deferral which has a tranche of a prior
+year paid out after they have left the Branch, is it expected that this would be reported
+or not? If a prior year tranches awarded is reported should this be reported if the
+individual is no longer an employee of the Branch?
+All contract earnings of all employees need to be reported even if the employee is earning
+compensation in UAE and outside UAE. The full contractual award needs to be mentioned
+and not only the physical payout
+Question 9: Is the End of Service Benefit (EOSB) i.e. severance payment for a normal
+leaver to be reported depending upon the definition of “other material risk taker” OR
+are banks also required to report any additional payment such as a redundancy type
+payment? Should a transfer of Senior Management personnel or Other Material Risk-
+takers to other branch of the Bank be considered as severance for reporting purpose?
+All payments regardless of the type of payment based on the contract needs to be reported
+Question 10: For branches of foreign banks where the Head Office reports to the home
+regulator, there are pre-fixed formats prepared and submitted at a frequency as
+stipulated by home regulator. Can the branch of foreign banks provide such reports
+in UAE which are submitted to the home regulator as a part of UAE Pillar 3
+Disclosures?
+Reports sent between Head Office and UAE needs to be separated and only the Pillar 3
+disclosures as per this Guidance needs to be reported for UAE branches in the mandatory
+formats published here.
+Question 11: What does “Fully loaded” ECL accounting model mean and what is the
+difference between total capital and fully loaded capital?
+"Fully Loaded" means bank’s regulatory capital compared with a situation where the
+transitional arrangement had not been applied
+Question 12: For branches of foreign banks, would Central Bank allow for a transition
+period if the threshold for partial disclosure is reached? (i.e. if RWA exceed AED 5
+billion)
+Transition will be granted on a case by case basis
+Question 13: Currently CCyB buffer is 0% in UAE. In this case, what do banks need to
+report in CCyB template?
+Currently CCyB is not applicable in UAE but if banks in UAE have branches in other countries
+this needs to be reported if CCyB is being reported as per that foreign country’s regulations.
+Banks, hence, need to calculate and fill the CCyB1 as explained in the Capital Supply
+standards.
+Question 14: In Sheet CR5, for "Unrated" Category, should we include the Post CRM
+and CCF amounts in their respective Risk Weight categories or should we club it
+under "Others"?
+Yes, it can be placed in “Others” along with any other ratings.
+Question 15: In Sheet OV1, is the minimum requirements simply 10.5% of the RWA.
+Pillar 1 capital requirements at the reporting date will normally be RWA*10.5% but may differ
+if a floor is applicable or adjustments (such as scaling factors).
+Question 16: CCR8 requires Bank to report Exposures to Non QCCPs (excluding initial
+margin and default fund contribution) arising of (i) OTC derivatives, (ii) Exchange-
+traded derivatives, (iii) Securities financing transactions & (iv) Netting sets where
+cross-product netting has been approved. Does this mean the Exposures computed
+under SA-CCR which are eligible under Netting Jurisdiction to be disclosed under
+(iv)?
+Currently, UAE has no netting jurisdiction but such exposures reported will be taken into
+191

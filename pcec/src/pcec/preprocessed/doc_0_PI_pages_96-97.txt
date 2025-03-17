@@ -1,0 +1,154 @@
+[Document: PI.pdf, Page 95 (Overlap)]
+CBUAE Classification: Public
+III. Example Calculations
+A. Standardised Approach
+Consider a bank applying the SEC-SA to a securitisation exposure for which the
+underlying pool of assets has a required capital ratio of 9% under the standardised approach to
+credit risk. Suppose that the delinquency rate is unknown for 1% of the exposures in the
+underlying pool, but for the remaining 99% of the pool the delinquency rate is known to be 6%.
+The bank holds an investment of 100 million in a tranche that has an attachment point of 5% and
+a detachment point of 25%. Finally, assume that the pool does not itself contain any securitisation
+exposures, so the exposure is not a resecuritisation.
+In this example, K is given at 9%. To adjust for the known delinquency rate on the pooled
+SA
+assets, the bank computes an adjusted capital ratio:
+(1−𝑊)×𝐾 +(𝑊×0.5)=0.94×0.09+0.06×0.5=0.1146
+𝑆𝐴
+This calculated capital ratio must be further adjusted for the fact that the delinquency rate
+is unknown for a small portion (1%) of the underlying asset pool:
+𝐾 =0.99×0.1146+0.01=0.1235
+𝐴
+Next, the bank applies the supervisory formula to calculate the capital required per unit of
+securitisation exposure, using the values of the attachment point A, the detachment point D, the
+calculated value of K , and the appropriate value of the supervisory parameter ρ, and noting that
+A
+D>K :
+A
+𝑒𝑎×𝑈−𝑒𝑎×𝐿
+𝐾 =
+𝑎×(𝑈−𝐿)
+Where:
+−1 −1
+a= = =−8.100
+ρ×K 1×0.1234
+A
+U=D−K =0.25−0.1235=0.1265
+A
+L=max[(A−K ),0] =max[(0.05−0.1235),0]=0
+A
+Note that because this is not a resecuritisation exposure, the appropriate value of the supervisory
+calibration parameter rho is 1 (ρ=1).
+Substituting the values of a, U, and L into the supervisory formula gives:
+e−8.1×0.1265−e−8.1×0 0.3586−1
+𝐾 = = =0.6260
+−8.1×(0.1265−0) −8.1×0.1265
+This tranche represents a case in which the attachment point A is less than K but the
+A
+detachment point D is greater than K . Thus, according to the Standards, the risk weight for the
+A
+bank’s exposure is calculated as a weighted average of 12.5 and 12.5×K:
+96
+
+[Document: PI.pdf, Page 96]
+CBUAE Classification: Public
+K −A D−K
+A A
+RW=( )×12.5+( )×12.5×K
+D−A D−A
+0.1235−0.05 0.25−0.1235
+=( )×12.5+( )×12.5×0.6260=9.54,or 954%
+0.2 0.2
+With a tranche risk weight of 954%, the bank’s risk-weighted asset amount for this
+securitisation would be 954% of the 100 million investment, or 954 million. If, for example, the
+bank chose to apply a capital ratio of 13% to this exposure, then the bank’s required capital would
+be 13% of 954 million, or approximately 85 million, on the investment of 100 million in this
+securitisation tranche.
+B. External Ratings-Based Approach
+Consider a non-senior securitisation tranche that has been assigned a rating by one of the
+eligible rating agencies corresponding to a rating of BB+. Suppose that the tranche has an
+attachment point A of 5%, a detachment point D of 30%, and effective tranche maturity of M = 2
+T
+years.
+ From the look-up table for SEC-ERBA, a non-senior securitisation exposure rated BB+
+with one-year maturity has a risk weight of 470%; the risk weight for a five-year maturity
+is 580%.
+ The tranche maturity of 2 years is one-quarter of the way between one year and five years,
+so the relevant maturity-adjusted risk weight based on linear interpolation is one quarter
+of the way between 470% and 580%, or 497.5%.
+ Because this is a non-senior tranche, it must also be adjusted for tranche thickness, which
+is the difference between D=30% and A=5%, a difference of 25%. The interpolated risk
+weight from the table should be multiplied by a factor of 1-(D-A)=0.75, which exceeds the
+floor of 50% and therefore should be used by the bank in the calculation (0.75 x 497.5%).
+ The resulting tranche risk weight is 373%.
+Banks using the SEC-ERBA for securitisation exposures may prefer to incorporate the
+main features of the ERBA look-up tables into formal calculations of risk weights, including the
+relevant adjustments for tranche maturity and tranche thickness. In that case, each pair of 1-year
+and 5-year risk weights can be viewed as coefficients for a formulaic calculation of the risk weight
+for a tranche of given maturity M T, and in the case of non-senior tranches, thickness D-A.
+For example, for a non-senior tranche rated BB+ with M between one year and five years,
+T
+the tranche risk weight RW
+T
+can be computed with a single formula as:
+𝑀 −1
+𝑇
+𝑅𝑊 =𝑚𝑎𝑥 [0.5 ,1−(𝐷−𝐴)]×(4.7+( )×(5.8−4.7))
+𝑇 4
+where the coefficients 4.7 and 5.8 correspond to the relevant values from the look-up table of
+470% for one-year maturity and 580% for five-year maturity. Substituting in the values for A, D,
+and M from the example above:
+T
+2−1
+𝑅𝑊 =𝑚𝑎𝑥[0.5 ,1−(30%−5%)]×(4.7+( )×(1.1))=0.75×4.975=3.73,or 373%
+𝑇 4
+97
+
+[Document: PI.pdf, Page 97]
+CBUAE Classification: Public
+Senior tranches are not adjusted for thickness; hence, the calculation of the tranche risk
+weight RW
+T
+for a senior BB+ rated tranche would be computed as:
+𝑀 −1
+𝑇
+𝑅𝑊 =1.4+( )×(1.6−1.4)=1.4+0.25×0.2=1.45,or 145%
+𝑇 4
+where again the coefficients 1.4 and 1.6 correspond to the relevant values from the senior tranche
+columns of the look-up table, specifically 140% for 1-year maturity and 160% for 5-year maturity.
+98
+
+[Document: PI.pdf, Page 98]
+CBUAE Classification: Public
+VIII. Market Risk
+I. Introduction and scope
+This section supports the Market risk standards in clarifying the calculation of the market
+risk capital requirement.
+The capital charges for interest rate related instruments and equities will apply to the
+trading book. The capital charges for foreign exchange risk and for commodities risk will apply to
+banks’ total currency and commodity positions (i.e. entire book).
+Capital requirements for market risk apply on a consolidated basis. Note that the capital
+required for general and specific market risk under these Standards is in addition to, not in place
+of, any capital required under other Central Bank Standards. Banks should follow the
+requirements of all other applicable Central Bank standards to determine overall capital adequacy
+requirements.
+II. Identifying Market Risk Drivers
+For a particular instrument, the risk drivers that influence the market prices of that
+instrument must be identified. In a portfolio, the correlations between instruments also influence
+the risk profile of the entire portfolio (i.e. Banking and Trading book).
+The market price of an asset incorporates virtually all known information concerning that
+asset. In practice; however, it is very difficult to clearly separate the main sources that influence
+an instrument's market price and risk level.
+As a simplification, the following are generally recognised as the main market risk drivers:
+A. Interest Rate Risk
+Interest rate risk is the potential for losses in on- or off-balance sheet positions from
+adverse changes in interest rates. Instruments covered by the standardised approach for interest
+rate risk include all fixed rate and floating rate related instruments, such as debt securities, swaps,
+forwards and futures.
+The standardised approach provides a framework for measuring interest rate risk. It takes
+into account the maturity or duration of the positions, basis risk, and certain correlations among
+risk factors.
+Duration is a measure ofthe average maturity of a debt instrument's cash flows from both
+coupons and principal repayment. It is expressed in years and allows debt instruments with
+different coupons andmaturities to be compared. Based on the duration, the sensitivity of a fixed
+income security's price with respect to a small change in its yield can be determined.
+When hedging positions, basis risk is a key risk for the hedged position and needs to be

@@ -1,0 +1,135 @@
+[Document: PI.pdf, Page 141]
+CBUAE Classification: Public
+(iii) The ECAI is being paid by rated entities, obligors, originators, underwriters,
+arrangers, or subscribers for services other than issuing credit ratings or providing
+access to the ECAI’s credit ratings;
+(iv) The ECAI is providing a preliminary indication or similar indication of credit quality to
+an entity, obligor, originator, underwriter, or arranger prior to being hired to determine
+the final credit rating for the entity, obligor, originator, underwriter, or arranger; and
+(v) The ECAI has a direct or indirect ownership interest in a rated entity or obligor, or a
+rated entity or obligor has a direct or indirect ownership interest in the ECAI.
+12. An ECAI should disclose the general nature of its compensation arrangements with rated
+entities, obligors, lead underwriters, or arrangers. When the ECAI receives compensation
+unrelated to its credit rating services from a party such as a rated entity, obligor, originator, lead
+underwriter, or arranger, the ECAI should disclose such compensation as a percentage of the
+total annual compensation received from that party in the relevant credit rating report or
+elsewhere, as appropriate. An ECAI should disclose in the relevant credit rating report or
+elsewhere, as appropriate, if it receives 10% or more of its annual revenue from a single party
+(e.g., a rated entity, obligor, originator, lead underwriter, arranger, or subscriber, or any of their
+affiliates).
+E. Resources
+13. ECAI should possess sufficient human and technical resources to produce high quality
+credit ratings. Evidence of resource sufficiency includes:
+(i) Technical expertise of the people should be sufficient to conduct the analysis to
+support the assignment of ratings, and to maintain contact with senior and
+operational levels within the entities that are rated. In particular, ECAIs should assign
+analysts with appropriate knowledge and experience to assess the creditworthiness
+of the type of entity or obligation being rated; and
+(ii) With respect to technical resources, an ECAI is expected to apply quantitative
+techniques and models that can appropriately process and analyze the quantities of
+data required to support the rating process.
+F. Credibility
+14. The ECAI must demonstrate that it enjoys credibility in the markets in which it operates.
+Such credibility is gauged on the basis of:
+(i) The extent to which it meets the resources requirements stated above;
+(ii) The extent to which independent parties (investors, insurers etc.) rely on the ECAI’s
+risk ratings; and
+(iii) The existence of internal procedures to preventmisuse of confidential information.
+142
+
+[Document: PI.pdf, Page 142]
+CBUAE Classification: Public
+G. No Abuse of Unsolicited Ratings
+15. The Central Bank may request the ECAI to demonstrate that it has not used unsolicited
+ratings to put pressure on entities to obtain solicited ratings. If the Central Bank becomes aware
+of an ECAI using unsolicited ratings to put pressure on entities to obtain solicited ratings, the
+Central Bank may consider whether it is appropriate to revoke the recognition of the ECAI as
+eligible for capital adequacy purposes.
+H. Cooperation with the Supervisor
+16. Eligible ECAIs should notify the Central Bank of significant changes to methodologies,
+and should provide the Central Bank with sufficient access to external ratings and other relevant
+data to support initial and ongoing determination of eligibility.
+I. Code of Conduct and Regulation
+17. The ECAI must adopt and adhere to a code of conduct that is consistent with the IOSCO
+CRA Code. The ECAI must be subject to effective supervision on an ongoing basis by a
+competent regulatory authority that has adopted a regulatory regime consistent with the IOSCO
+CRA Code, and that incorporates a registration system for ECAIs.
+III. Recognition of ECAIs
+18. The Central Bank’s standards for capital adequacy include mappings that identify risk
+weights for various types of exposures using a scale that corresponds most closely to the rating
+system used by Standard & Poor’s. This is done for purposes of exposition and for consistency
+with the BCBS framework. However, banks should not interpret use of this scale as a Central
+Bank endorsement of any particular rating agency. Banks may select among all eligible rating
+agencies as appropriate for purposes of determining risk weights.
+19. On the basis of information assessed by the Central Bank, the following entities currently
+meet the criteria for eligible ECAIs described in this Guidance:
+(i) Standard & Poor’s Ratings Services;
+(ii) Moody’s Investors Service;
+(iii) Fitch Ratings; and
+(iv) Capital Intelligence.
+20. The Central Bank has concluded that banks can use the ratings of any of the above ECAIs.
+Banks should be aware that the Central Bank regularly reassesses the extent to which any ECAI
+meets the criteria stated in this Guidance. Banks must take steps to confirm that any ratings used
+in capital adequacy calculations are obtained from ECAIs that continue to be viewed as eligible
+by the Central Bank. Additional entities may be approved as eligible ECAIs in due course.
+21. Based on available information regarding the rating processes of these ECAIs, the Central
+Bank has established the correspondence shown in Table 1 between the long-term rating scales
+of the various ECAIs. However, if a bank determines that a different mapping is more appropriate,
+the bank should use that alternative mapping, provided the results are at least as conservative as
+using the mapping below.
+143
+
+[Document: PI.pdf, Page 143]
+CBUAE Classification: Public
+Table 1: Long-Term Rating Correspondence
+S & P Fitch Moody’s Capital Intelligence
+AAA to AA‐ AAA to AA‐ Aaa to Aa3 AAA to AA-
+A+ to A‐ A+ to A‐ A1 to A3 A+ to A-
+BBB+ to BBB‐ BBB+ to BBB‐ Baa1 to Baa3 BBB+ to BBB-
+BB+ to BB‐ BB+ to BB‐ Ba1 to Ba3 BB+ to BB-
+B+ to B‐ B+ to B‐ B1 to B3 B+ to B-
+Below B- Below B- Below B3 Below B-
+Unrated Unrated Unrated Unrated
+22. For certain aspects of capital adequacy calculations, short‐term ratings are used. Based
+on available information regarding the rating processes of these ECAIs, the Central Bank has
+established the correspondence shown in Table 2 between the short-term rating scales of the
+eligible ECAIs. However, as with the long-term ratings, if a bank determines that a different
+mapping is more appropriate, the bank should use that alternative mapping, provided the results
+are at least as conservative as using the mapping below.
+Table 2: Short-Term Rating Correspondence
+S & P Fitch Moody’s Capital Intelligence
+A‐1+, A‐1 F1+, F1 P‐1 A1+, A1
+A‐2 F2 P‐2 A2
+A‐3 F3 P‐3 A3
+Below A‐3 Below F3 Not prime Below A3
+IV. Bank Use of Ratings
+A. Bank Use of ECAI Ratings
+23. For the purpose of applying ECAI ratings to derive risk‐weights for exposures, banks
+should apply the following process:
+(i) Identify an ECAI (the “nominated ECAI”) whose assigned ratings the bank intends
+to use to derive risk weights for some type of exposure that is subject to an external
+ratings‐based approach under Central Bank standards;
+(ii) Confirm that the nominated ECAIs can provide reasonable coverage of the bank’s
+exposures in terms of the types of counterparties and the geographical regions
+covered;
+(iii) Document the selection of the ECAI and the analysis demonstrating that the ratings
+of ECAI are appropriate for the specific use;
+(iv) Notify the Central Bank of the nominated ECAI and of the intended application of the
+ratings of that ECAI to the bank’s external ratings‐based calculations; and
+144
+
+[Document: PI.pdf, Page 144]
+CBUAE Classification: Public
+(v) Use the ratings of the ECAI within external ratings‐based calculations consistently.
+24. Banks must use the chosen ECAIs and their ratings consistently for each type of claim for
+which the ECAI and its ratings are approved, and must seek the consent of the Central Bank on
+any subsequent changes to the application of those ratings. Banks may not “cherry‐pick” the
+ratings provided by different ECAIs, and must maintain records of which ECAIs they use for
+various purposes within capital adequacy calculations. Banks may not use unsolicited ratings that
+may be provided by any ECAI.
+25. When banks use external ratings to assign risk weight to securitisation exposures under
+the Central Bank’s Standards on Capital for Securitisation Exposures, additional operational
+requirements apply to the ratings and the ECAI that is the source of the ratings.
+B. Multiple Ratings
+26. If there is only one rating by a nominated ECAI for a particular claim, that rating should be
+used to determine the risk weight of the exposure.

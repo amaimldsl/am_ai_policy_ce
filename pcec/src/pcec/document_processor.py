@@ -4,6 +4,7 @@ import glob
 import logging
 import os
 import traceback
+import re
 
 # Configure logging
 logging.basicConfig(
@@ -110,8 +111,8 @@ def count_pages(file_path):
         logger.error(f"Error counting pages: {str(e)}")
         return 1
 
-def extract_text_from_file(file_path, start_page=0, end_page=None):
-    """Extract text from a document file, limited to specific page range."""
+def extract_text_from_file(file_path, start_page=0, end_page=None, include_overlaps=True):
+    """Extract text from a document file, limited to specific page range with option for overlap"""
     text = []
     doc_name = file_path.name
     
@@ -127,6 +128,18 @@ def extract_text_from_file(file_path, start_page=0, end_page=None):
                     
                     end_page = min(end_page, total_pages)
                     
+                    # Add overlap page if requested and available
+                    if include_overlaps and end_page < total_pages and start_page > 0:
+                        # Extract text from the page before start_page (overlap with previous chunk)
+                        overlap_page = start_page - 1
+                        try:
+                            page_text = pdf.pages[overlap_page].extract_text()
+                            if page_text:
+                                text.append(f"[Document: {doc_name}, Page {overlap_page+1} (Overlap)]\n{page_text.strip()}")
+                        except Exception as e:
+                            logger.warning(f"Error extracting overlap page {overlap_page+1}: {str(e)}")
+                    
+                    # Extract the main requested pages
                     for i in range(start_page, end_page):
                         try:
                             page_text = pdf.pages[i].extract_text()
@@ -134,6 +147,17 @@ def extract_text_from_file(file_path, start_page=0, end_page=None):
                                 text.append(f"[Document: {doc_name}, Page {i+1}]\n{page_text.strip()}")
                         except Exception as e:
                             text.append(f"[Document: {doc_name}, Page {i+1}]\nError extracting text: {str(e)}")
+                    
+                    # Add overlap page if requested and available
+                    if include_overlaps and end_page < total_pages:
+                        # Extract text from the page after end_page (overlap with next chunk)
+                        overlap_page = end_page
+                        try:
+                            page_text = pdf.pages[overlap_page].extract_text()
+                            if page_text:
+                                text.append(f"[Document: {doc_name}, Page {overlap_page+1} (Overlap)]\n{page_text.strip()}")
+                        except Exception as e:
+                            logger.warning(f"Error extracting overlap page {overlap_page+1}: {str(e)}")
             except ImportError:
                 logger.warning("pdfplumber not installed. Trying to read PDF as text.")
                 with open(file_path, 'rb') as f:
@@ -151,21 +175,34 @@ def extract_text_from_file(file_path, start_page=0, end_page=None):
                 if end_page is None:
                     end_page = (len(content) + page_size - 1) // page_size
                 
+                # Include one page before if overlap requested and available
+                if include_overlaps and start_page > 0:
+                    overlap_start = (start_page - 1) * page_size
+                    overlap_end = start_page * page_size
+                    overlap_content = content[overlap_start:overlap_end]
+                    text.append(f"[Document: {doc_name}, Page {start_page} (Overlap)]\n{overlap_content}")
+                
+                # Extract the main requested range
                 start_char = start_page * page_size
                 end_char = min(len(content), end_page * page_size)
-                
-                # Extract the requested range
                 content_part = content[start_char:end_char]
                 
                 # Add document header
                 text.append(f"[Document: {doc_name}, Pages {start_page+1}-{end_page}]\n{content_part}")
+                
+                # Include one page after if overlap requested and available
+                if include_overlaps and end_page * page_size < len(content):
+                    overlap_start = end_page * page_size
+                    overlap_end = min(len(content), (end_page + 1) * page_size)
+                    overlap_content = content[overlap_start:overlap_end]
+                    text.append(f"[Document: {doc_name}, Page {end_page+1} (Overlap)]\n{overlap_content}")
     except Exception as e:
         logger.error(f"Error extracting text from {file_path}: {str(e)}")
         text.append(f"[Document: {doc_name}]\nError extracting text: {str(e)}")
     
     return "\n\n".join(text)
 
-def preprocess_documents(chunk_size=10):
+def preprocess_documents(chunk_size=5):  # Reduced chunk size from 10 to 5
     """
     Preprocess all document files and save them as chunks.
     Returns a list of chunk files that can be processed by agents.
@@ -184,11 +221,11 @@ def preprocess_documents(chunk_size=10):
                 start_page = chunk_idx * chunk_size
                 end_page = min((chunk_idx + 1) * chunk_size, pages)
                 
-                # Extract with smaller chunk size
-                chunk_text = extract_text_from_file(pdf_file, start_page, end_page)
+                # Extract with smaller chunk size and include page overlaps
+                chunk_text = extract_text_from_file(pdf_file, start_page, end_page, include_overlaps=True)
                 
                 # If chunk is very large, split it further
-                if len(chunk_text) > 10000:  # Limit chunk size to around 10K characters
+                if len(chunk_text) > 8000:  # Reduced from 10K to 8K for better granularity
                     midpoint = len(chunk_text) // 2
                     # Find a newline near the midpoint to split cleanly
                     split_point = chunk_text.find('\n', midpoint)

@@ -1,0 +1,218 @@
+
+Reconstruction and Development, the Inter-American Development Bank, the European
+Investment Bank, the European Investment Fund, the Nordic Investment Bank, the Caribbean
+Development Bank, the Islamic Development Bank, the Council of Europe Development Bank,
+the International Finance Facility for Immunisation and the Asian Infrastructure Investment Bank.
+The list of MDBs is by the Basel Committee on Banking Supervision (BCBS) and can be found
+on the website www.bis.org. All banks are required to refer to and comply with the BCBS list.
+Whilst the BCBS evaluates the eligibility of the entities on a case-by-case basis, the Central Bank
+has no role in the assessment and decision of entities being eligible for 0% risk weight.
+D. Claims on Banks
+The types of claims that fall under this asset class are claims not limited to those due from
+banks, nostro accounts, certificates of deposit (CD) issued by banks, and repurchase agreements
+(repos). A risk weight of 50% (long term) and 20% (short term) is applied to claims on unrated
+banks. However, this treatment is subject to the provision that no claim on an unrated bank may
+receive a risk weight lower than that applied to claims on its sovereign of incorporation.
+Exposure to intra-group of the bank have to be risk weighted according to the external
+rating of the counterparty entity (e.g. exposures to the head office shall receive the risk weight
+according to the rating of the head office).
+E. Claims on Securities Firms
+In addition to providing loans to other banks in the interbank market, banks provide loans to
+securities firms. The securities firms use these loans to fund the purchase of securities. Exposures
+to these securities firms shall be treated as claims on banks if these firms are subject to prudential
+standards and a level of supervision that is equivalent to those applicable to banks. Such
+supervision must include at least both capital and liquidity requirements. Exposures to all other
+securities firms that are not treated as claims on banks will be treated as exposures to corporates.
+F. Claims on Corporates
+For the purposes of calculating capital requirements, exposures to corporates include, but
+are not limited to, exposures (loans, bonds, receivables, etc.) to incorporated entities,
+associations, partnerships, proprietorships, trusts, funds and other entities with similar
+characteristics, except those which qualify for one of the other exposure classes. The corporate
+exposure class does not include exposures to individuals.
+Claims on corporates may be risk- weighted based on the entity’s external credit rating
+assessment. The Central Bank may increase the standard risk weight for unrated claims where it
+judges that a higher risk weight is warranted by the overall default experience. As part of the
+supervisory review process, the Central Bank may also consider whether the credit quality of
+corporate claims held by banks warrants a risk weight higher than 100%.
+G. Claims included in the Regulatory Retail Portfolios
+To qualify for a 75% risk weight in the regulatory retail portfolio, claims must meet the four
+27
+
+[Document: PI.pdf, Page 27]
+CBUAE Classification: Public
+criteria stated in the Credit Risk Standard (orientation criterion, product criterion, granularity
+criterion and value criterion). All other retail claims should be risk weighted at 100%. For
+granularity criterion and value criterion, the aggregated exposure means gross amount (i.e. not
+taking any credit risk mitigation into account) of all forms of retail exposures, excluding residential
+real estate exposures. In case of off-balance sheet items, the gross amount will be calculated
+after applying credit conversion factors. In addition, “to one counterparty” means one or several
+entities that may be considered as a single beneficiary (e.g. in the case of a small business that
+is affiliated to another small business, the limit would apply to the bank’s aggregated exposure on
+both businesses).
+Claims secured by residential property and past due retail loans are to be excluded from
+the overall regulatory retail portfolio for risk weighting purposes. These are addressed separately
+in the asset classes for residential property or commercial real estate.
+H. Claims Secured by Residential Property
+Claims secured by residential property are defined as loans secured by residential
+property that is either self-occupied or rented out. The property must be fully mortgaged in favor
+of the bank.
+The Loan-to-Value (LTV) ratio is the outstanding loan exposure divided by the value of the
+property. The value of the property will be maintained at the value at origination unless the Central
+Bank requires banks to revise the property value downward. The value must be adjusted if an
+extraordinary, idiosyncratic event occurs resulting in a permanent reduction of the property value.
+Such adjustment must be notified to the Central Bank. If the value has been adjusted downwards,
+a subsequent upwards adjustment can be made but not to a higher value than the value at
+origination.
+A 35% risk weighting shall apply to eligible residential claims if the LTV ratio is less than
+85% and the exposure is less than AED 10 million. When the loan amount exceeds AED 10 million
+and the LTV is below 85%, the loan amount up to AED 10 million will receive 35% risk weight and
+the remaining amount above AED 10 million receives 100% risk weight.
+A risk weight of 75% may be applied by banks that do not hold information regarding
+LTVs for individual exposures
+For residential exposures that meet the criteria for regulatory retail claims and have an
+LTV greater than 85%, the 75% risk weight must be applied to the whole loan, i.e. the loan should
+not be split.
+The risk-weights in this asset class may be applied to a limit of four individual properties
+made to a single individual customer that are owner- occupied or rented out by a retail borrower.
+Any additional exposure to a customer with loans for four individual properties shall be classified
+as a claim on a commercial property and risk weighted with 100%.
+I. Claims secured by Commercial Real Estate
+Commercial real estate is defined as a loan granted by a bank to a customer specifically
+for the purpose of buying or constructing commercial property including residential towers and
+mixed use towers.
+J. Past Due Loans
+Risk weights of past due loans depend on the degree of provision coverage on the claim.
+For any past due loan, 100% Credit Conversion Factor (CCF) should be applied for the off-
+28
+
+[Document: PI.pdf, Page 28]
+CBUAE Classification: Public
+balance sheet component to calculate the credit risk-weighted assets. Any exposure that is past
+due for more than 90 days should be reported under this asset class, net of specific provisions
+(including partial write-offs). This differs from the IFRS 9 classification as the past due asset
+includes any loans more than 90 days past due.
+K. Higher-risk categories
+Higher risk weights may be applied to assets that reflect higher risks. A bank may decide
+to apply a risk weight of 150% or higher.
+L. Other Assets
+Assets in this class include any other form of exposure that does not fit into the specific
+exposure classes. The standard risk weight for all other assets will be 100%, with the exception
+of the following exposures:
+a) 0% risk weight applied to:
+i. cash owned and held at the bank or in transit;
+ii. Gold bullion held at the bank or held in another bank on an allocated basis, to the extent
+the gold bullion assets are backed by gold bullion liabilities;
+iii. All the deductions from capital according tothe Tier capital supply of Standards of Capital
+Adequacy in the UAE, for reconciliation between the regulatory return and the
+audited/reviewed financial statement.
+b) 20% risk weight:
+i. Cash items in the process of collection.
+c) 100% risk weight:
+i. Investments in the capital of banking, financial and insurance entities to which a credit risk
+standardised approach applies, unless they are deducted from regulatory capital
+according to section 3.9 of Tier capital supply of Standards Capital Adequacy in the UAE.
+(listed entity)
+ii. Investments in commercial entities below the materiality thresholds according to section 5
+of Tier capital supply of Standards of Capital Adequacy in the UAE (listed);
+iii. Premises, plant and equipment and other fixed assets,
+iv. Prepaid expenses such as property taxes and utilities,
+v. All other assets
+d) 150% risk weight:
+i. The amount of investments in the capital of banking, financial and insurance entities to
+which a credit risk standardised approach applies unless they are deducted from
+regulatory capital deduction according to section 3.9 of Tier capital supply of Standards
+of Capital Adequacy in the UAE (unlisted entity);
+ii. Investments in commercial entities below the materiality thresholds according to section
+5 of Tier capital supply of Standards of Capital Adequacy in the UAE (unlisted entity).
+e) 250% risk weight:
+29
+
+[Document: PI.pdf, Page 29]
+CBUAE Classification: Public
+i. Investments in the capital of banking, financial and insurance entities to which a credit risk
+standardised approach, applies unless they are deducted from regulatory capital
+according to the threshold deduction described in section 3.10 of Tier capital supply of
+Standards of Capital Adequacy in the UAE.
+ii. Deferred tax assets (DTAs) which depend on future profitability and arise from temporary
+differences unless they are not deducted under threshold deductions described in section
+4 of Tier capital supply of Standards of Capital Adequacy in the UAE.
+f) 1250% risk weight:
+i. Investments in commercial entities in excess of the materiality thresholds must be risk-
+weighted at 1/ (Minimum capital requirement) (i.e. 1250%).
+M. Off-Balance Sheet Items: Credit Conversion Factors
+Under the standardised approach, off-balance sheet items are converted into credit
+exposure equivalents with Credit Conversion Factors (CCFs). CCFs approximate the potential
+amount of the off-balance sheet facility that would have been drawn down by the client by the
+time of its default. The credit equivalent amount is treated in a manner similar to an on-balance
+sheet instrument and is assigned the risk weight appropriate to the counterparty. The categories
+of off-balance sheet and its appropriate CCFs are outlined in the standard.
+Calculating credit equivalent amounts for off-balance sheet item:
+(Principal amount – provision amount) * CCF = Credit equivalent amount.
+Bank guarantees
+There are two types of bank guarantees viz. financial guarantees (direct credit substitutes);
+and performance guarantees (transaction-related contingent items).
+Financial guarantees essentially carry the same credit risk as a direct extension of credit
+i.e. the risk of loss is directly linked to the creditworthiness of the counterparty against whom a
+potential claim is acquired, and therefore attracts a CCF of 100%.
+Performance guarantees are essentially transaction-related contingencies that involve an
+irrevocable undertaking to pay a third party in the event the counterparty fails to fulfil or perform
+a contractual non-financial obligation. In such transactions, the risk of loss depends on the event
+which need not necessarily be related to the creditworthiness of the counterparty involved.
+Performance guarantees attract a CCF of 50%.
+Commitments
+The credit conversion factor applied to a commitment is dependent on its maturity. Banks
+should use original maturity to report these instruments.
+Longer maturity commitments are considered to be of higher risk because there is a longer
+period between credit reviews and less opportunity to withdraw the commitment if the credit quality
+of the customer deteriorates. Commitments with an original maturity up to one year and
+commitments with an original maturity over one year will receive a CCF of 20% and 50%,
+respectively.
+However, any commitments that are unconditionally cancellable at any time by the bank
+without prior notice, or that effectively provide for automatic cancellation due to deterioration in a
+borrower’s creditworthiness, will receive a 0% CCF. This requires that banks conduct formal
+reviews of the facilities regularly and this provides the opportunity to take note of any perceived
+30
+
+[Document: PI.pdf, Page 30]
+CBUAE Classification: Public
+deterioration in credit quality and thereby cancellability by the bank.
+For exposures that give rise to counterparty credit risk, the exposure amount to be used
+in the determination of RWA is to be calculated according to the standardised approach for
+Counterparty Credit Risk (SA-CCR).
+N. Credit Risk Mitigation (CRM)
+Only eligible collateral, guarantees, credit derivatives, and netting under legally
+enforceable bilateral agreements (such as ISDAs) are eligible for CRM purposes. For example, a
+commitment to provide collateral or a guarantee is not recognised as an eligible CRM technique
+for capital adequacy purposes until the commitment to do so is actually fulfilled.
+No additional CRM will be recognised for capital adequacy purposes on exposures where
+the risk weight is mapped from a rating specificto a debt security where that rating already reflects
+CRM. For example, if the rating has already taken into account a guarantee pledged by the parent
+or sovereign entity, then the guarantee shall not be considered again for credit risk mitigation
+purposes.
+Banks should ensure that all minimum legal and the operational requirements set out in
+the Standard are fulfilled.
+CRM treatment by substitution of risk weights
+The method ofsubstitution of risk weight is applicable for the recognition of the guarantees
+and credit derivatives as CRM techniques under both the simple approach and the comprehensive
+approach. Under this method, an exposure is divided into two portions: the portion covered by credit
+protection and the remaining uncovered portion.
+For guarantees and credit derivatives, the value of credit protection to be recorded is the
+nominal value. However, where the credit protection is denominated in a currency different from
+that of the underlying obligation, the covered portion should be reduced by a standard supervisory
+haircut defined in the Credit Risk Standard for the currency mismatch.
+For eligible collateral, the value of credit protection to be recorded is its market value,
+subject to a minimum revaluation frequency of 6 months for performing assets, and 3 months for
+past due assets (if this is not achieved then no value can be recognised). Where the collateral
+includes cash deposits, certificates of deposit, cash funded credit-linked notes, or other
+comparable instruments, which are held at a third-party bank in a non-custodial arrangement and
+unconditionally and irrevocably pledged or assigned to the bank, the collateral will be allocated
+the same risk weight as that of the third party bank.
+Simple Approach
+Under simple approach, the eligible collateral must be pledged for at least the life of the
+exposure, i.e. maturity mismatch is not allowed.
+Where a bank has collateral in the form of shares and uses the simple approach, a 100%
+risk weight is applied for listed shares and 150% risk weight for unlisted shares.
+Comprehensive Approach
+Under the comprehensive approach, the collateral adjusted value is deducted from the
+risk exposure (before assigning the risk weight). Standard supervisory haircuts as defined in the
+31

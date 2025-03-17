@@ -1,0 +1,129 @@
+
+the build-up of excessive on- and off-balance-sheet leverage in the banking system. At the
+height of the crisis, developments in financial markets forced banks to reduce leverage in a
+manner that likely amplified downward pressures on asset prices. This deleveraging process
+exacerbated the feedback loop between losses, falling bank capital, and shrinking credit
+availability.
+The Central Bank’s leverage ratio framework introduces a simple, transparent, non-
+risk-based leverage ratio to act as a credible supplementary measure to the risk-based
+capital requirements. The leverage ratiois intended to:
+ restrict the build-up of leverage in the banking sector to avoid destabilizing
+deleveraging processes that can damage the broader financial system and the
+economy; and
+ reinforce the risk-based requirements with a simple, non-risk-based “backstop”
+measure.
+The Basel Committee on Banking Supervision (BCBS) adopted the leverage ratio
+with the launch of Basel III in December 2010. A revised leverage ratio framework, titled
+Basel III Leverage Ratio Framework and Disclosure Requirements, was published in January
+2014. In December 2017, the leverage ratio was finalized along with the rest of the Basel III
+capital framework. Prior to each release of the leverage ratio, the BCBS published
+consultative documentation and sought comments from the industry. Additionally, in 2015
+and 2017, the BCBS published revised Pillar 3 disclosure requirements, including updated
+disclosure requirements for the leverage ratio.
+In designing the UAE leverage ratio framework, the Central Bank considered the full
+evolution of the BCBS leverage ratio, including consultative frameworks, reporting
+requirements, and comments raised by banks and industry bodies across the globe. The
+Central Bank’s Standards for Leverage Ratio is based closely on the requirements
+articulated by the BCBS in the document Basel III: Finalising post-crisis reforms, December
+2017.
+This Guidance should be read in conjunction with the Central Bank’s Standards on
+Leverage Ratio, as it is intended to provide clarification of the requirements of that Standards,
+and together with that Standards supports the Central Bank’s Regulations Re Capital
+Adequacy.
+194
+
+[Document: PIII.pdf, Page 15]
+CBUAE Classification: Public
+II. Clarifications of the Standards
+The leverage ratio framework is designed to capture leverage associated with both
+on- and off-balance-sheet exposures. It also aims to make use of accounting measures to
+the greatest extent possible, while at the same time addressing concerns that (i) different
+accounting frameworks across jurisdictions raise level playing field issues and (ii) a
+framework based exclusively on accounting measures may not capture all risks.
+a. Leverage Ratio and Capital
+The leverage ratio is defined as the capital measure divided by the exposure
+measure, expressed as a percentage:
+𝐶𝑎𝑝𝑖𝑡𝑎𝑙 𝑀𝑒𝑎𝑠𝑢𝑟𝑒
+𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒 𝑅𝑎𝑡𝑖𝑜 =
+𝐸𝑥𝑝𝑜𝑠𝑢𝑟𝑒 𝑀𝑒𝑎𝑠𝑢𝑟𝑒
+The capital measure is Tier 1 capital as defined for the purposes of the Central Bank
+risk-based capital framework, subject to transitional arrangements. In other words, the capital
+measure for the leverage ratio at a particular point in time is the applicable Tier 1 capital
+measure at that time under the risk-based framework.
+The minimum requirement for the leverage ratio is established in the Central Bank’s
+Regulations Re Capital Adequacy.
+The Standards includes the possibility that the Central Bank may consider
+temporarily exempting certain central bank “reserves” from the leverage ratio exposure
+measure to facilitate the implementation of monetary policies in exceptional macroeconomic
+circumstances. In this context, the term “reserves” refers to certain bank balances or
+placements at the Central Bank. Certain other jurisdictions have pursued monetary policies
+that resulted in a significant expansion of such bank balances at the Central Bank, for
+example through policies commonly described as “quantitative easing.” While the Central
+Bank has no plan to implement such policies, the inclusion of this flexibility in the Standards
+ensures that, in the event that such policies were to be implemented, the minimum leverage
+requirement could be adjusted in a manner that allows it to continue to serve its appropriate
+prudential role. Per the requirements of the BCBS framework, the Central Bank would also
+increase the calibration of the minimum leverage ratio requirement commensurately to offset
+the impact of exempting central bank reserves, since actual bank leverage ratios would be
+expected to increase due to the exclusion of these exposures.
+b. Scope of Consolidation
+The framework applies on a consolidated basis, following the same scope of
+regulatory consolidation used in the risk-based capital requirements (see Regulations re
+Capital Adequacy). For example, if proportional consolidation is applied for regulatory
+consolidation under the risk-based framework, the same criteria shall be applied for leverage
+ratio purposes.
+Where a banking, financial, insurance or commercial entity is outside the scope of
+regulatory consolidation, only the investment in the capital of such entities (that is, only the
+carrying value of the investment, as opposed to the underlying assets and other exposures
+of the investee) is included in the exposure measure. However, any such investments that
+are deducted from Tier 1 capital may be excluded from the exposure measure.
+195
+
+[Document: PIII.pdf, Page 16 (Overlap)]
+CBUAE Classification: Public
+c. Exposure Measure
+The exposure measure includes both on-balance-sheet exposures and off-balance-
+sheet (OBS) items. On-balance-sheet exposures are generally included at their accounting
+value, although exposures arising from derivatives transactions and securities financing
+transactions (SFTs) are subject to separate treatment.
+Except where a different treatment is specified, no offset is allowed for physical or
+financial collateral held, guarantees in favour of the bank or other credit risk mitigation
+techniques.
+Balance sheet assets that are deducted from Tier 1 capital may also be deducted
+from the exposure measure. For example:
+ Where a banking, financial or insurance entity is not included in the regulatory scope
+of consolidation, the amount of any investment in the capital of that entity that is totally
+or partially deducted from Common Equity Tier 1 (CET1) or Additional Tier 1 capital
+may also be deducted from the leverage ratio exposure measure.
+ Prudent valuation adjustments for exposures to less liquid positions that are deducted
+from Tier 1 capital as per the Central Bank’s Market Risk Standards may be deducted
+from the leverage ratio exposure measure.
+Liability items must not be deducted from the leverage ratio exposure measure. For
+example, gains/losses on fair valued liabilities or accounting value adjustments on derivative
+liabilities due to changes in the bank’s own credit risk must not be deducted from the leverage
+ratio exposure measure.
+The Central Bank will be vigilant to transactions and structures that have the result
+of inadequately capturing banks’ sources of leverage. Examples of concerns that might arise
+in such leverage ratio exposure measure minimizing transactions and structures may
+include: securities financing transactions where exposure to the counterparty increases as
+the counterparty’s credit quality decreases or securities financing transactions in which the
+credit quality of the counterparty is positively correlated with the value of the securities
+received in the transaction (i.e. the credit quality of the counterparty falls when the value of
+the securities falls); banks that normally act as principal but adopt an agency model to
+transact in derivatives and SFTs in order to benefit from the more favorable treatment
+permitted for agency transactions under the leverage ratio framework; collateral swap trades
+structured to mitigate inclusion in the leverage ratio exposure measure; or use of structures
+to move assets off the balance sheet. This list of examples is by no means exhaustive.
+d. On-Balance Sheet Exposures
+Where a bank recognizes fiduciary assets on the balance sheet, these assets can be
+excluded from the leverage ratio exposure measure provided that the assets meet the IFRS
+9 criteria for de-recognition and, where applicable, IFRS 10 for deconsolidation.
+e. Derivative Exposures
+The basis for the framework’s treatment of derivative transactions is a modified
+version of Standardised Approach to Counterparty Credit Risk (SA-CCR) in Basel III. It
+captures both the exposure arising from the underlying of the derivative contract and the
+related counterparty credit risk. The exposure measure amount is generally equal to the sum
+of the replacement cost (the mark-to-market value of contracts with positive value) and an
+add-on representing the transaction’s potential future exposure, with that sum multiplied by
+a scaling factor of 1.4. Valid bilateral netting contracts can reduce the exposure amount, but
+196

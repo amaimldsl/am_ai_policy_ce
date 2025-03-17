@@ -1,0 +1,186 @@
+
+Amount SD
+Trade 1
+10,000,000 0 3 2.785840471 27,858,405
+Trade 2
+10,000,000 0 6 5.183635586 51,836,356
+Trade 3
+10,000,000 0 5 4.423984339 44,239,843
+The appropriate supervisory delta must be assigned to each trade: in particular, since Trade 1
+and Trade 3 are long in the primary risk factor (CDS spread), their delta is 1; in contrast, the
+supervisory delta for Trade 2 is -1.
+Trade Delta Instrument Type
+Trade 1 1 linear, long (forward and swap)
+Trade 2 -1 linear, short (forward and swap)
+Trade 3 1 linear, long (forward and swap)
+Thus, the entity-level effective notional is equal to the adjusted notional times the supervisory
+delta times the maturity factor (where the maturity factor is 1 for all three derivatives).
+Effective Notionalk = ∑𝒊𝝐di × 𝜹i × MFi
+Supervisory Entity Level
+Trade Adjusted Notional Maturity Factor
+Delta Effective Notional
+Trade 1 27,858,405 1 1 27,858,405
+Trade 2 51,836,356 -1 1 -51,836,356
+Trade 3 44,239,843 1 1 44,239,843
+Supervisory Factor
+The add-on must now be calculated for each entity. Note that all derivatives refer to different
+entities (single names/indices). A supervisory factor is assigned to each single-name entity based
+on the rating of the reference entity, as specified in Table 1 in the relevant Standards. This means
+assigning a supervisory factor of 0.38% for AA-rated firms (Trade 1) and 0.54% for BBB-rated
+firms (for Trade 2). For CDS indices (Trade 3), the supervisory factor is assigned according to
+whether the index is investment or speculative grade; in this example, its value is 0.38% since the
+index is investment grade.
+Asset Class Subclass 𝜌 SF
+Credit, Single Name AA 50% 0.38%
+Credit, Single Name BBB 50% 0.54%
+Credit, Index IG 80% 0.38%
+57
+
+[Document: PI.pdf, Page 57]
+CBUAE Classification: Public
+Thus, the entity level add-ons are as follows:
+Add-on(Entity) = SF × Effective Notional
+Trade Effective Notional Supervisory factor SF Add-on (Entity)
+Trade 1 27,858,405 0.38% 105,862
+Trade 2 -51,836,356 0.54% -279,916
+Trade 3 44,239,843 0.38% 168,111
+Supervisory Correlation Parameters
+The add-on calculation separates the entity level add-ons into systematic and idiosyncratic
+components, which are combined through weighting by the correlation factor. The correlation
+parameter ρ is equal to 0.5 for the single-name entities (Trade 1-Firm A and Trade 2-Firm B) and
+0.8 for the index (Trade 3-CDX.IG) in accordance with the requirements of the Standards.
+(Credit) CR 2 CR 2 21/2
+Add-on = [ [ ∑k ρk × Add-on (Entityk) ] + ∑k (1- (ρk ) ) × (Add-on (Entityk)) ]
+Trade 𝜌 Add-on(Entityk) 𝜌 × Add-on(Entityk) (1 – 𝜌2) (1 – 𝜌2) × (Add-on(Entityk))2
+Trade 1 50% 105,862 52,931 0.75 8,405,062,425
+Trade 2 50% -279,916 -139,958 0.75 58,764,860,350
+Trade 3 80% 168,111 134,489 0.36 10,174,120,000
+Systematic Component 47,462 Idiosyncratic Component 77,344,042,776
+Full offsetting No offsetting
+Add-on Aggregation
+For this netting set, the interest rate add-on is also the aggregate add-on because there are no
+trades assigned to other asset classes. Thus, the aggregate add-on = 346,878
+Aggregation of entity-level add-ons with full offsetting in the systematic component and no
+offsetting benefit in the idiosyncratic component.
+Systematic Component 47,462
+Idiosyncratic Component 77,344,042,776
+Thus,
+Add-on = [ (47,462)2 + 77,344,042,776 ]1/2 = 282,129
+Multiplier
+The multiplier is given by
+58
+
+[Document: PI.pdf, Page 58]
+CBUAE Classification: Public
+multiplier = min {1; Floor+(1-Floor) × exp [(V-C)/(2×(1-Floor)×Add-on agg)] }
+= min {1; 0.05 + 0.95 × exp [-20,000 / (2 × 0.95 × 282,129)]}
+=0.96521
+Final Calculation of PFE
+PFE = multiplier × Add-on
+agg
+= 0.96521 × 282,129= 272,313
+3. EAD Calculation
+The exposure that would be risk-weighted for the purpose of counterparty credit risk capital
+requirements is therefore:
+EAD = 1.4 * (RC + PFE) = 1.4 x (0 + 272,313) = 381,238
+C. Illustration 3
+Consider a netting set with three commodity forward contracts. All notional amounts and market
+values are denominated in USD. This netting set is not subject to a margin agreement and there
+is no exchange of collateral (independent amount/initial margin) at inception. The table below
+summarizes the relevant contractual terms of the three commodity derivatives.
+Trade Nature Underlying Position Direction Residual Notional Market value
+# maturity (thousands) (thousands)
+1 Forward (WTI) Protection Long 9 months 10,000 -50
+Crude Oil Buyer
+2 Forward (Brent) Protection Short 2 years 20,000 -30
+Crude Oil Seller
+3 Forward Silver Protection Long 5 years 10,000 100
+Buyer
+1. Replacement Cost Calculation
+The replacement cost is calculated at the netting set level as a simple algebraic sum (floored at
+zero) of the derivatives’ market values at the reference date, provided that value is positive. Thus,
+using the market values indicated in the table (expressed in thousands):
+RC = max {V - C; 0} = max {100 - 30 - 50; 0} = 20
+The replacement cost is positive and there is no exchange of collateral (so the bank has not
+received excess collateral), which means the multiplier will be equal to 1.
+2. Potential Future Exposure Calculation
+The following table illustrates the steps typically followed for the add-on calculation, for each of
+the four commodity hedging sets with non-zero exposure:
+59
+
+[Document: PI.pdf, Page 59]
+CBUAE Classification: Public
+Steps Activities
+1. Calculate Effective Notional Calculate trade-level adjusted notional = current
+price × number of units referenced by derivative
+Calculate trade-level effective notional amount =
+trade-level adjusted notional × supervisory delta
+× maturity factor
+Calculate effective notional for each commodity-
+type = Σ(trade-level effective notional) for trades
+referencing the same commodity type, with full
+offsetting in commodity type
+2. Apply Supervisory Factors Add-on for each commodity type in a hedging set
+= Commodity-type Effective Notional Amount ×
+Supervisory Factor
+3. Apply Supervisory Correlations Commodity-type add-ons are divided into
+systematic and idiosyncratic components
+weighted by the correlation factor
+4. Aggregate Aggregationof commodity-type add-ons with full
+offsetting in the systematic component and no
+offsetting in the idiosyncratic component
+Simple summation of absolute values of add-ons
+across the four hedging sets
+Effective Notional Amount
+Trade-level Adjusted Notional calculation for each commodity derivative trade:
+d i(COM) = current price per unit × number of units in the trade
+Current price per unit
+Number of units in the
+Trade (unit is barrel for oil; Adjusted Notional
+trade
+ounces for silver)
+Trade 1 100 100 barrels 10,000
+Trade 2 100 200 barrels 20,000
+Trade 3 20 500 ounces 10,000
+60
+
+[Document: PI.pdf, Page 60]
+CBUAE Classification: Public
+The appropriate supervisory delta must be assigned to each trade:
+Trade Delta Instrument Type
+Trade 1 1 linear, long (forward & swap)
+Trade 2 -1 linear, short (forward & swap)
+Trade 3 1 linear, long (forward & swap)
+Since the remaining maturity of Trade 1 is less than a year, at nine months (approximately 187
+business days), and the trade is un-margined, its maturity factor is scaled down by the square
+root of 187/250 in accordance with the requirements of the Standards. On the other hand, the
+maturity factor is 1 for Trade 2 and for Trade 3, since the remaining maturity of those two trades
+is greater than one year and they are un-margined.
+The trade-level effective notional is equal to the adjusted notional times the supervisory delta
+times the maturity factor. The basic difference between the WTI and Brent forward contracts
+effectively is ignored since they belong to the same commodity type, namely “Crude Oil” within
+the “Energy” hedging set, thus allowing for full offsetting. (In contrast, if one of the two forward
+contracts were on a different commodity type within the “Energy” hedging set, such as natural
+gas, with the other on crude oil, then only partial offsetting would have been allowed between the
+two trades.) Therefore, Trade 1 and Trade 2 can be aggregated into a single effective notional,
+taking into account each trade’s supervisory delta and maturity factor.
+(Com) (Com) (type)
+Effective NotionalTypek = ∑𝒊 𝝐 𝑻𝒚𝒑𝒆𝒌 𝜹i × d i × MF i
+Hedging Commodity Adjusted Supervisory
+Trade Maturity Factor Effective Notional
+Set Type Notional Delta
+Crude 187
+Energy Trade 1 10,000 1 √ = 0.865 10,000 x 1 x 0.865 
+Oil 250
+20,000x(1)x1
+11,350
+(full off-setting within
+Crude
+Energy Trade 2 20,000 -1 1 the ‘Crude Oil’
+Oil
+commodity type)
+Metals Silver Trade 3 10,000 1 1 10,000
+Supervisory Factor
+For each commodity-type in a hedging set, the effective notional amount must be multiplied by
+the correct Supervisory Factor (SF).As described in the Standards, the Supervisory Factor for
+61

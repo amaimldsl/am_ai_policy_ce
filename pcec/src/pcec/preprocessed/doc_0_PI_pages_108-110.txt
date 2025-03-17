@@ -1,0 +1,142 @@
+
+109
+
+[Document: PI.pdf, Page 109]
+CBUAE Classification: Public
+III. Shari’ah Implementation:
+Bank that conduct all or part of their activities in accordance with the provisions of Shari’ah
+and have exposure to risks similar to those mentioned in the Market Risk Standard, shall, for the
+purpose of maintaining an appropriate level of capital, calculate the relevant risk weighted asset
+(RWA) in line with these guidelines. This must be done in a manner compliant to the Shari’ah.
+This is applicable until relevant standards and/or guidelines in respect of these
+transactions are issued specifically for banks offering Islamic financial services.
+IV. Frequently Asked Questions
+Question 1: Are issues rated AA- or better by Supranational issuers qualify for 0% specific
+risk charge? For such issues, the Country of Risk = SNAT as classification in Bloomberg
+would be considered as Supranational
+No, there is no specification to supranational and thereby low risk charge.
+Question 2: Please clarify whether futures or options on ETFs and volatility indices such
+as VIX are treated as equity index instrument.
+Yes, it will be part of equity and reported under equity derivative. Please refer to the Market risk
+section of the standards for further guidance.
+Question 3: Under the treatment of interest rate derivatives for general market risk, in
+reference to table 3, credit derivatives have not been listed. Kindly advise if these products
+are excluded from the capital requirement stipulated under general market risk.
+Credit derivatives (including CDS and TRS) are subject to the general market risk treatment for
+interest rate risk if the instrument involves periodic payments of interest. Credit derivatives are
+subject to specific risk capital as described in paragraphs 26 and 27 of the Market Risk section of
+the Standards. Note that Table 3 in the text covers only interest rate derivatives, and therefore
+credit derivatives should not be included. Credit derivatives must be analysed whether they are
+subject to the general market risk treatment for interest rate risk. For example, Credit Default
+Swaps are usually not subject to general interest rate risk, whereas Total Return Swaps and credit
+linked notes are usually subject to general market risk. Please note, that the analysis to which risk
+types a specific instrument type is exposed, must be provided to the Central Bank upon request.
+Question 4: Clarity is needed on what constitutes trading book. For example, Investment
+Grade bonds classified as AFS, however with no active trading and a holding period of
+almost till maturity (e.g. callable, decision to sell closer to maturity) does this need to be
+banking book? Similarly, HTM under this description can be either trading or banking
+book.
+The Market Risk Standard as published does not change the definition of trading book. The
+requirements of BCBS 128 paragraphs 685 to 689 have been applied in the text of the Standards.
+Please refer to the Market Risk Regulation under Notice 3018/2018 for the full definition of trading
+book.
+Question 5: For Qualifying category, if the issuer of the security is a rated corporate by
+any one of rated agencies i.e. Moody's, S&P, Fitch with investment grade. Should it be
+included under Qualifying Category?
+110
+
+[Document: PI.pdf, Page 110]
+CBUAE Classification: Public
+Yes, this will fall under qualifying category as long as it rated investment grade by at least two
+credit rating agencies.
+Question 6: Should general criteria for all investment grade securities other than
+Government Issuers be taken under the category of Qualifying?
+Yes, these instruments will be classified as qualifying provided in paragraphs 16-19.
+Question 7: As per the Standards, "the separate legs of cross-currency swaps or forward
+foreign exchange deals are to be treated as notional positions in the relevant instruments
+and included in the appropriate calculation for each currency". Under which method these
+are required to be included in MR-3 i.e Maturity method or Duration method.
+General risk can be computed using Maturity and Duration approach. Paragraph 41 on
+"Allowable offsetting of matched positions" of the market risk standard applies to both
+approaches and depends on what approach the bank uses for reporting.
+Question 8: If the options are hedged, do we need to input the numbers in the template.
+If it is fully micro hedged, then Net Forward Purchase (Sales) & Delta weighted positions for
+Options will be zero. Refer to VII Appendix: Prudent Valuation Guidance as part of Market risk
+standard.
+Question 9: Banks have the possibility to include the repo transactions in the trading book
+for regulatory capital calculation even though they are accounted in the banking book?
+Term trading-related repo-style transactions that meet the requirements for trading-book
+treatment may be included in the bank’s trading book for regulatory capital purposes even if a
+bank accounts for those transactions in the banking book. If the bank does so, all such repo-style
+transactions must be included in the trading book, and both legs of such transactions, either cash
+or securities, must be included in the trading book. Regardless of where they are booked, all repo-
+style transactions are subject to a credit risk capital requirement under the Central Bank’s
+Standards for Credit Risk Capital. The secured part of the exposure is risk weighted based on the
+credit rating/type of the issuer the security serving as collateral, and the unsecured part is risk
+weighted based on the credit rating/type (bank-sovereign-corporate) of the counterparty. In
+addition, how/where the reporting should be under which risk type (e.g. interest rate risk (Specific
+and/or General), FX, Equity, etc.) depends on the nature of the cash placement (one ‘leg’) and
+that of the security/collateral (other ‘leg’). The two legs are reportable to the relevant market risk
+type. For example, if the cash placement is floating rate and denominated in foreign currency it
+would be reported under FX. In regards to position risk (interest rate and equity risk types), it
+would be under General risk.
+Question 10: How do we treat the capital charge when an exposure in the Banking book is
+hedged via a derivative in the trading book?
+As long as the position got an open leg under one of the two books (i.e. Banking or trading),
+applicable capital charge should be taken in place. When a bank hedges a banking book credit
+risk exposure using a credit derivative booked in its trading book (i.e. using an internal hedge),
+the banking book exposure is not deemed to be hedged for capital purposes unless the bank
+purchases from an eligible third party protection provider a credit derivative meeting the
+requirements in the Central Bank’s Standards for Credit Risk. Where such third party protection
+is purchased and is recognised as a hedge of a banking book exposure for regulatory capital
+purposes, neither the internal nor external credit derivative hedge would be included in the trading
+book for regulatory capital purposes.
+111
+
+[Document: PI.pdf, Page 111 (Overlap)]
+CBUAE Classification: Public
+Question 11: BCBS standards provides banks two options to include large swap books in
+the maturity or duration ladder (Convert the payments into their present values or to
+calculate the sensitivity of the net present value). It would be useful to clarify which
+methods are acceptable.
+Currently both methods are acceptable but to move forward with sensitivity or NPV approach, the
+bank shall seek Central Bank approval by providing all relevant documents.
+Question 12: How to treat Multilateral Development Banks (MDBs), PSEs and GREs that
+qualify 0% risk weight as per Credit Risk Section of the Standards for the “Qualifying”
+criteria of Specific Risk?
+All MDBs are considered “qualifying” for this purpose and will receive a RW of 0%.
+PSE that meets the conditions to be treated like a sovereign for credit risk can be considered
+“government" for specific risk.
+Commercial GREs that are treated as corporates for credit risk should also be treated as
+corporates for market risk, for consistency.
+Question 13: Can the securities issued by local government be reported under
+government? If yes, what capital charge will be applied?
+Only if they qualify for treatment as “sovereign” under the credit risk framework, a 0% can be
+applied.
+Question 14: What is meant by 'broadly' in paragraphs 23 and 24 of the Market Risk
+Standard. Any threshold for the size of the movement e.g. a negative correlation of more
+than 0.6?
+No, there is no specific threshold. "Broadly" in this context means "with close approximation," to
+allow for minor deviations from perfect correlation. The bank should have a sensible policy to
+ensure that objective, which should be subject to supervisory review.
+Question 15: What is meant by "long term participation"? What is included in it?
+Long-term participations could take a number of forms, but a typical example would be
+investments accounted at historical cost (and in this context, denominated in a foreign currency).
+Paragraph 65 edited for clear understanding.
+Question 16: Do the banks have to meet certain criteria to apply duration or maturity
+approach or is the choice of method fully within the bank's discretion?
+Maturity approach shall be the initial approach to be used. In case the bank requires to apply
+Duration approach, then banks will have to seek Central Bank consent to switch between the
+approaches.
+Question 17: Under Specific interest rate risk, what will be the treatment for the debt
+securities that are denominated and funded in domestic currency or foreign currency?
+The preferential treatment/national discretion will be applicable to GCC sovereign’s papers
+denominated and funded in local currency. In addition, exposures to the Federal Government and
+Emirates Government receive 0% risk weight, if such exposures are denominated and funded in
+AED or USD for a transition period of 7 years from the date of implementation of this Standard.
+After the transition period, 0% risk weights are only applied to exposures that are denominated
+and funded in AED. Elsewise (if denominated and funded in foreign currency and if the debt
+security is not GCC sovereign paper) rating and residual maturity shall be applied.
+Question 18: Interest Rate Risk: How are derivatives treated from a market risk and credit
+risk perspective that a foreign branch has with its head office and other branches of the
+112

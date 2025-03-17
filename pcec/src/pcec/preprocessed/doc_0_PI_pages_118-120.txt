@@ -1,0 +1,175 @@
+
+Recall that XYZ bank is exposed to a number of positions in the same commodity. The bank’s
+reporting currency is AED. The following positions are held in EUR:
+118
+
+[Document: PI.pdf, Page 118]
+CBUAE Classification: Public
+Position Standard units (kg) Maturity
+Long 128 4 months
+Short -160 5 months
+Long 96 13 months
+Short -96 4 years
+Step 1:
+First express each commodity position in terms of the standard unit of measurement, and value
+in the reporting currency at the current spot price.
+The following is the current situation:
+Current spot price of the 5.00 EUR per kg
+commodity per unit (kg) in
+local currency
+Current EUR/AED FX spot 4.25 1 EUR = 4.25 AED
+rate
+This isdonethesamewayas forthesimplifiedapproach.
+Position Standard Spot Value FX spot rate 1 Value (AED) Maturity
+units (kg) price (EUR) EUR = 4.25 AED
+Long 128 5.00 640 4.25 2,720 4 months
+Short -160 5.00 -800 4.25 -3,400 5 months
+Long 96 5.00 480 4.25 2,040 13 months
+Short -96 5.00 -480 4.25 -2,040 4 years
+Step 2:
+Slot each position into a time band in the maturity ladder according to its remaining maturity.
+Physical stocks should be allocated to the first time band.
+Maturity ladder
+Time bands Positions (AED)
+Long Short
+0-1 months
+1-3 months
+3-6 months 2,720 -3,400
+6-12 months
+1-2 years 2,040
+2-3 years
+Over 3 years -2,040
+Step 3:
+Apply a capital charge: of 1.5% to the sum of the matched long and short positions in each time
+band to capture spread risk.
+Maturity ladder Matched position Capital charge for
+Time Positions (AED) spread risk rate =
+bands 1.5%
+Long Short
+0-1
+months
+1-3
+months
+119
+
+[Document: PI.pdf, Page 119]
+CBUAE Classification: Public
+3-6 2,720 -3,400 2,720 81.6*
+months
+6-12
+months
+1-2 years 2,040
+2-3 years
+Over 3 -2,040
+years
+*start with the 3-6 months’ time band.
+Multiply the sum of the ling and short matched positions by the spread rate 1.5%, to calculate the
+capital charge: (AED 2,720 + AED 2,720) * 1.5% = AED 81.6
+Step 4:
+Apply a capital charge of 0.6% to the residual net position carried forward to the next relevant
+time band, multiplied by the number of time bands it is carried forward.
+The maturity ladder approach allows for netting between unmatched long and short positions
+across time bands. The residual net position in a time band can be carried forward to the next
+relevant time band, thus offsetting exposures in time bands further out. Because this is imprecise,
+resulting in an “imperfect hedge”; a capital charge is required.
+The residual net position in the 3-6 months’ band is short AED 680. This net position is carried
+forward two time bands to offset exposures in the next relevant time band, the 1-2 years’ band.
+Maturity ladder Matched Net Capital Capital
+Time Positions (AED) position position charge for charge
+bands spread risk for
+Long Short rate = 1.5% positions
+carried
+forward
+rate =
+0.6%
+0-1
+months
+1-3
+months
+3-6 2,720 -3,400 2,720 -680 (3400- 81.6 8.16*
+months 2720)
+6-12
+months
+1-2 2,040 -680
+years
+2-3
+years
+Over 3 -2,040
+years
+*The capital charge is calculated as follows: AED 680 * 2 * 0.6% = AED 8.16
+Step 5:
+Repeat step 3 and step 4 for each time band.
+When determining the matched position in each time band, take into account the residual net
+position carried forward.
+120
+
+[Document: PI.pdf, Page 120]
+CBUAE Classification: Public
+Maturity ladder Matched Net Capital Capital
+Time Positions (AED) position position charge for charge for
+bands spread risk positions
+Long Short rate = 1.5% carried
+forward
+rate =
+0.6%
+0-1
+months
+1-3
+months
+3-6 2,720 -3,400 2,720 -680 (3400- 81.6 8.16
+months 2720)
+6-12
+months
+1-2 2,040 -680 680 1,360 20.4* 16.32**
+years
+2-3
+years
+Over 3 1,360 -2,040 1,360 - 680 40.8***
+years
+*(680+680)*1.5% = AED 20.4
+**(1,360*2*0.6%) = AED 16.32
+***(1,360+1360) *1.5% = AED 40.8
+Step 6:
+Apply a capital charge of 15% to the overall long or short net open position.
+The net position in the final time band is subject to a capital charge of 15% as to say 680 * 15%
+= AED 102
+Step 7:
+Derive the total capital charge by summing the charges for spread risk, for positions carried
+forward and for the overall net open position.
+Capital charges AED
+Charge for spread risk 142.8
+Charge for the positions carried forward 24.48
+Charge for the overall net position 102
+Total capital charge 269.28
+In this example, the capital charge calculated using the maturity ladder approach; AED 269.28 is
+significantly lower than that calculated using the simplified approach, AED 408.
+E. Options
+Simplified approach
+A bank holds 100 shares currently valued at USD 10, and also holds an equivalent number of put
+options with a strike price of USD 11 (each option entitles the bank to sell one share).
+Since these are equity options, they are subject to the capital charges for general market risk and
+specific risk according to the standardised framework for equity risk. The capital charge is levied
+121
+
+[Document: PI.pdf, Page 121 (Overlap)]
+CBUAE Classification: Public
+at 8% for general market risk and 8% for specific risk, giving a summed charge of 16%.
+Market value of 100 shares = USD 1,000
+First, multiply the market value by the sum of general market risk and specific risk charges.
+USD 1,000 x 16% = USD 160
+Then, calculate the amount the option is in-the-money.
+(USD 11 - USD 10) x 100 = USD 100
+The capital charge is the general market risk and specific risk charge less the amount the option
+is in-the-money.
+USD 160 - USD 100 = USD 60
+A similar methodology applies for options whose underlying is a foreign currency, an interest rate
+related instrument or a commodity.
+Another example for simplified approach
+A bank holds 500 shares currently valued at USD 25.50 and holds an equivalent number of put
+options with a strike price of USD 26.25 (each option entitles the bank to sell one share).
+The capital charge is calculated as follows:
+Market value of 500 shares = USD 12,750
+USD 12,750 x 16% (that is, 8% specific plus 8% general market risk) = USD 2,040
+The amount the option is in-the-money = (USD 26.25 - USD 25.50) x 500 = USD 375.
+This gives a capital charge of USD 2,040 - USD 375 = USD 1,665
+122

@@ -1,0 +1,144 @@
+
+Crude Oil Seller
+3 Forward Silver Protection Long 5 years 10,000 100
+Buyer
+1. Replacement Cost Calculation
+The replacement cost is calculated at the netting set level as a simple algebraic sum (floored at
+zero) of the derivatives’ market values at the reference date, provided that value is positive. Thus,
+using the market values indicated in the table (expressed in thousands):
+RC = max {V - C; 0} = max {100 - 30 - 50; 0} = 20
+The replacement cost is positive and there is no exchange of collateral (so the bank has not
+received excess collateral), which means the multiplier will be equal to 1.
+2. Potential Future Exposure Calculation
+The following table illustrates the steps typically followed for the add-on calculation, for each of
+the four commodity hedging sets with non-zero exposure:
+59
+
+[Document: PI.pdf, Page 59]
+CBUAE Classification: Public
+Steps Activities
+1. Calculate Effective Notional Calculate trade-level adjusted notional = current
+price × number of units referenced by derivative
+Calculate trade-level effective notional amount =
+trade-level adjusted notional × supervisory delta
+× maturity factor
+Calculate effective notional for each commodity-
+type = Σ(trade-level effective notional) for trades
+referencing the same commodity type, with full
+offsetting in commodity type
+2. Apply Supervisory Factors Add-on for each commodity type in a hedging set
+= Commodity-type Effective Notional Amount ×
+Supervisory Factor
+3. Apply Supervisory Correlations Commodity-type add-ons are divided into
+systematic and idiosyncratic components
+weighted by the correlation factor
+4. Aggregate Aggregationof commodity-type add-ons with full
+offsetting in the systematic component and no
+offsetting in the idiosyncratic component
+Simple summation of absolute values of add-ons
+across the four hedging sets
+Effective Notional Amount
+Trade-level Adjusted Notional calculation for each commodity derivative trade:
+d i(COM) = current price per unit × number of units in the trade
+Current price per unit
+Number of units in the
+Trade (unit is barrel for oil; Adjusted Notional
+trade
+ounces for silver)
+Trade 1 100 100 barrels 10,000
+Trade 2 100 200 barrels 20,000
+Trade 3 20 500 ounces 10,000
+60
+
+[Document: PI.pdf, Page 60]
+CBUAE Classification: Public
+The appropriate supervisory delta must be assigned to each trade:
+Trade Delta Instrument Type
+Trade 1 1 linear, long (forward & swap)
+Trade 2 -1 linear, short (forward & swap)
+Trade 3 1 linear, long (forward & swap)
+Since the remaining maturity of Trade 1 is less than a year, at nine months (approximately 187
+business days), and the trade is un-margined, its maturity factor is scaled down by the square
+root of 187/250 in accordance with the requirements of the Standards. On the other hand, the
+maturity factor is 1 for Trade 2 and for Trade 3, since the remaining maturity of those two trades
+is greater than one year and they are un-margined.
+The trade-level effective notional is equal to the adjusted notional times the supervisory delta
+times the maturity factor. The basic difference between the WTI and Brent forward contracts
+effectively is ignored since they belong to the same commodity type, namely “Crude Oil” within
+the “Energy” hedging set, thus allowing for full offsetting. (In contrast, if one of the two forward
+contracts were on a different commodity type within the “Energy” hedging set, such as natural
+gas, with the other on crude oil, then only partial offsetting would have been allowed between the
+two trades.) Therefore, Trade 1 and Trade 2 can be aggregated into a single effective notional,
+taking into account each trade’s supervisory delta and maturity factor.
+(Com) (Com) (type)
+Effective NotionalTypek = ∑𝒊 𝝐 𝑻𝒚𝒑𝒆𝒌 𝜹i × d i × MF i
+Hedging Commodity Adjusted Supervisory
+Trade Maturity Factor Effective Notional
+Set Type Notional Delta
+Crude 187
+Energy Trade 1 10,000 1 √ = 0.865 10,000 x 1 x 0.865 
+Oil 250
+20,000x(1)x1
+11,350
+(full off-setting within
+Crude
+Energy Trade 2 20,000 -1 1 the ‘Crude Oil’
+Oil
+commodity type)
+Metals Silver Trade 3 10,000 1 1 10,000
+Supervisory Factor
+For each commodity-type in a hedging set, the effective notional amount must be multiplied by
+the correct Supervisory Factor (SF).As described in the Standards, the Supervisory Factor for
+61
+
+[Document: PI.pdf, Page 61 (Overlap)]
+CBUAE Classification: Public
+both the Crude Oil commodity type in the Energy hedging set and the Silver commodity type in
+the Metals hedging set is SF=18%.
+Thus, the add-on by hedging set and commodity type is as follows:
+Add-on(Type j) = SF (Com) × Effective Notional (Com)
+k Typek Typek
+Add-on by HS
+Hedging Commodity Effective Supervisory
+and Commodity
+Set Type Notional Factor SF
+type
+Energy Crude Oil -11,350 18% -2,043
+Metals Silver 10,000 18% 1,800
+Supervisory Correlation Parameters
+The commodity-type add-ons in a hedging set aredecomposed into systematic and idiosyncratic
+components. The commodity subclass correlations parameters are as stated in the Standards, in
+this case 40% for commodities.
+Thus, the hedging set level add-ons are calculated for each commodity hedging set:
+Add­on(COM) = [( Σ
+k
+ρ j(COM) × Add­on (Type kj) )2 + Σ
+k
+(1­ (ρ j(COM) )2) × (Add­on (Typ e kj))2]1/2
+Systematic Component
+Idiosyncratic Component Add-on
+j
+Hedg Sin eg
+t
+Com Tym po ed ity 𝜌 Add-on(Typek) (𝜌 × Add-on(Type k) )2 (1 – 𝜌2)(1 – 𝜌2) x (Add -on(Type k)) 2 c( oO mn mly
+o
+o dn ie
+ty
+type in each HS)
+Energy Crude Oil 40% -2,043 (-817)2 0.84 0.84 × (-2,043)2 2,043
+Metals Silver 40% 1,800 (720)2 0.84 0.84 × (1,800)2 1,800
+However, in this example, since only one commodity type within the “Energy” hedging set is
+populated (i.e. all other commodity types within that hedging set have a zero add-on), the resulting
+add-on for the hedging set is the same as the add-on for the commodity type. This calculation
+shows that when there is only one commodity type within a commodity hedging set, the hedging-
+set add-on is equal to the absolute value of the commodity-type add-on. (The same comment
+applies to the commodity type “Silver” in the “Metals” hedging set.)
+Add-on Aggregation
+Aggregation of commodity-type add-ons uses full offsetting in the systematic component and no
+offsetting benefit in the idiosyncratic component in each hedging set. As noted earlier, in this
+example there is only one commodity type per hedging set, which means no offsetting benefits.
+Computing the simple summation of absolute values of add-ons for the hedging sets:
+Add-on = Σ Add-on
+j j
+Add-On = 2,043 + 1,800 = 3,843
+62

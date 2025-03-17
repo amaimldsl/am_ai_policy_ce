@@ -40,7 +40,7 @@ class AuditPlanningTool(BaseTool):
             return f"Error developing test procedures: {str(e)}"
     
     def _develop_test_procedures(self, controls: List[Dict[str, Any]], methodology: Optional[str]) -> List[Dict[str, Any]]:
-        """Develop test procedures for each control"""
+        """Develop test procedures for each control - ENHANCED VERSION"""
         test_procedures = []
         
         # Different methodologies can have different testing approaches
@@ -54,21 +54,44 @@ class AuditPlanningTool(BaseTool):
         # Select testing approach based on methodology
         selected_approach = testing_approaches.get(methodology, testing_approaches["Default"])
         
+        # Track control types to ensure coverage of all control aspects
+        control_types_covered = {}
+        
         for control in controls:
             # Generate test ID based on control ID
             control_id = control.get('id', '')
-            test_id = f"T-{control_id.replace('C-', '')}"
             
-            # Design test procedure based on control
-            test_objective = f"Verify implementation and effectiveness of {control_id}"
+            # Handle cases where ID might not be in expected format
+            if '-' in control_id:
+                base_id = control_id.split('-')[0].replace('C-', '')
+                test_id = f"T-{base_id}"
+                
+                # Add suffix if we've already created a test for this base ID
+                if test_id in control_types_covered:
+                    control_types_covered[test_id] += 1
+                    test_id = f"{test_id}.{control_types_covered[test_id]}"
+                else:
+                    control_types_covered[test_id] = 1
+            else:
+                test_id = f"T-{control_id.replace('C-', '')}"
             
-            # Generate test steps based on control type and selected approach
+            # Get control details
             control_type = control.get('type', 'Preventive')
             control_desc = control.get('description', '')
+            
+            # Generate a more specific test objective based on the control
+            test_objective = self._generate_specific_test_objective(control_id, control_type, control_desc)
+            
+            # Generate test steps based on control type and selected approach
             test_steps = selected_approach(control_type, control_desc)
             
+            # Add control-specific test steps
+            additional_steps = self._generate_control_specific_steps(control_desc, control_type)
+            if additional_steps:
+                test_steps.extend(additional_steps)
+            
             # Determine appropriate evidence requirements
-            evidence = self._determine_evidence_requirements(control_type, control_desc)
+            evidence = self._determine_comprehensive_evidence(control_type, control_desc)
             
             # Add to test procedures list
             test_procedures.append({
@@ -79,8 +102,180 @@ class AuditPlanningTool(BaseTool):
                 "evidence": evidence,
                 "reference": control.get("reference", "")
             })
+            
+            # For complex controls, add a secondary test procedure focusing on another aspect
+            if len(control_desc) > 100 or 'and' in control_desc.lower() or ';' in control_desc:
+                secondary_aspect = self._identify_secondary_aspect(control_desc)
+                if secondary_aspect:
+                    secondary_test_id = f"{test_id}-B"
+                    secondary_objective = f"Verify specific aspect of {control_id}: {secondary_aspect}"
+                    secondary_steps = self._generate_focused_test_steps(secondary_aspect, control_type)
+                    
+                    test_procedures.append({
+                        "test_id": secondary_test_id,
+                        "control_id": control_id,
+                        "objective": secondary_objective,
+                        "steps": secondary_steps,
+                        "evidence": evidence,
+                        "reference": control.get("reference", "")
+                    })
         
         return test_procedures
+    
+    def _generate_specific_test_objective(self, control_id: str, control_type: str, control_desc: str) -> str:
+        """Generate a more specific test objective based on control details"""
+        # Extract the key objectives from the control description
+        key_objective = control_desc[:100] + ('...' if len(control_desc) > 100 else '')
+        
+        if control_type == "Preventive":
+            return f"Verify that preventive control {control_id} effectively prevents non-compliance by validating that {key_objective}"
+        elif control_type == "Detective":
+            return f"Verify that detective control {control_id} effectively identifies non-compliance by confirming that {key_objective}"
+        elif control_type == "Corrective":
+            return f"Verify that corrective control {control_id} effectively resolves non-compliance by ensuring that {key_objective}"
+        else:
+            return f"Verify implementation and effectiveness of control {control_id} by testing that {key_objective}"
+
+    def _identify_secondary_aspect(self, control_desc: str) -> str:
+        """Identify a secondary aspect of a control to test separately"""
+        # Check for multiple requirements separated by conjunctions or punctuation
+        segments = re.split(r'(?:and|or|;|,\s*but|,\s*as well as)', control_desc, 1)
+        
+        if len(segments) > 1:
+            return segments[1].strip()
+        
+        # Check for different components that might be tested separately
+        if 'monitor' in control_desc.lower() and 'report' in control_desc.lower():
+            return "reporting capabilities and accuracy"
+        elif 'verify' in control_desc.lower() and 'document' in control_desc.lower():
+            return "documentation completeness and retention"
+        elif 'approve' in control_desc.lower() and 'review' in control_desc.lower():
+            return "review and approval process effectiveness"
+        
+        return ""
+
+    def _generate_focused_test_steps(self, aspect: str, control_type: str) -> List[str]:
+        """Generate test steps focused on a specific aspect of a control"""
+        aspect_lower = aspect.lower()
+        
+        if 'report' in aspect_lower:
+            return [
+                "1. Identify all reporting requirements specified in the control",
+                "2. Sample recent reports to verify completeness and accuracy",
+                "3. Verify timely distribution to appropriate stakeholders",
+                "4. Confirm that report content meets regulatory requirements",
+                "5. Test the reporting mechanism for reliability and consistency"
+            ]
+        elif 'document' in aspect_lower:
+            return [
+                "1. Identify all documentation requirements in the control",
+                "2. Verify that documentation templates are properly defined",
+                "3. Sample documentation to verify completeness and accuracy",
+                "4. Confirm retention periods are defined and followed",
+                "5. Verify accessibility of documentation when needed"
+            ]
+        elif 'approv' in aspect_lower:
+            return [
+                "1. Review the approval workflow process documentation",
+                "2. Verify appropriate segregation of duties in the approval process",
+                "3. Sample transactions to confirm proper approval was obtained",
+                "4. Test scenarios requiring escalated approvals",
+                "5. Verify that approvals are properly documented and retained"
+            ]
+        elif 'monitor' in aspect_lower:
+            return [
+                "1. Review monitoring procedures and frequency",
+                "2. Verify that monitoring covers all required elements",
+                "3. Test alert mechanisms for proper functioning",
+                "4. Confirm that monitoring results are properly reviewed",
+                "5. Verify that issues identified through monitoring are addressed"
+            ]
+        else:
+            return [
+                f"1. Identify specific requirements related to: {aspect}",
+                "2. Develop specific test criteria for this aspect",
+                "3. Sample transactions or processes to verify compliance",
+                "4. Review documentation specific to this aspect",
+                "5. Verify effectiveness through observation and testing"
+            ]
+
+    def _generate_control_specific_steps(self, control_desc: str, control_type: str) -> List[str]:
+        """Generate additional steps specific to the control content"""
+        additional_steps = []
+        
+        # Add specific steps based on control description content
+        if 'training' in control_desc.lower():
+            additional_steps.append("Verify training materials are comprehensive and up-to-date")
+            additional_steps.append("Confirm training completion records are maintained")
+        
+        if 'report' in control_desc.lower():
+            additional_steps.append("Verify reports contain all required elements")
+            additional_steps.append("Test report generation process for accuracy")
+        
+        if 'review' in control_desc.lower():
+            additional_steps.append("Verify evidence of reviews is documented")
+            additional_steps.append("Test that review findings are acted upon")
+        
+        if 'document' in control_desc.lower():
+            additional_steps.append("Verify document retention policies are followed")
+            additional_steps.append("Test document retrieval process")
+        
+        # Prefix with step numbers if needed
+        if additional_steps:
+            start_num = 6  # Assuming there are already 5 steps
+            for i in range(len(additional_steps)):
+                additional_steps[i] = f"{start_num + i}. {additional_steps[i]}"
+        
+        return additional_steps
+
+    def _determine_comprehensive_evidence(self, control_type: str, control_desc: str) -> str:
+        """Determine comprehensive evidence requirements based on control characteristics"""
+        evidence_items = ["Documentation"]
+        
+        # Basic evidence types based on control type
+        if control_type.lower() == "technical" or "system" in control_desc.lower():
+            evidence_items.extend(["System logs", "Configuration screenshots", "Access records", "System audit trails"])
+        
+        if control_type.lower() == "detective" or "monitor" in control_desc.lower():
+            evidence_items.extend(["Alert records", "Monitoring reports", "Exception logs", "Review documentation", "Issue tracking records"])
+        
+        if control_type.lower() == "preventive" or "prevent" in control_desc.lower():
+            evidence_items.extend(["Access control lists", "Validation rules documentation", "Restriction evidence", "Configuration settings", "Approval workflows"])
+        
+        if control_type.lower() == "corrective" or "correct" in control_desc.lower():
+            evidence_items.extend(["Incident records", "Remediation documentation", "Corrective action plans", "Follow-up verification", "Resolution evidence"])
+        
+        if control_type.lower() == "administrative" or "policy" in control_desc.lower():
+            evidence_items.extend(["Policy documents", "Training records", "Signed acknowledgements", "Governance documentation", "Meeting minutes"])
+        
+        if control_type.lower() == "physical":
+            evidence_items.extend(["Physical inspection records", "Access logs", "Photographs", "Security assessments", "Visitor logs"])
+        
+        # Add evidence types based on specific keywords in the control description
+        keywords_to_evidence = {
+            "train": ["Training materials", "Attendance records", "Comprehension assessments"],
+            "report": ["Report samples", "Distribution lists", "Reporting schedules"],
+            "review": ["Review documentation", "Reviewer qualifications", "Review findings"],
+            "approve": ["Approval signatures", "Approval workflows", "Delegation of authority documentation"],
+            "document": ["Document templates", "Completed documentation", "Documentation metadata"],
+            "record": ["Record samples", "Record retention schedules", "Record management procedures"],
+            "audit": ["Audit reports", "Audit working papers", "Auditor qualifications"],
+            "test": ["Test plans", "Test results", "Test coverage analysis"],
+            "monitor": ["Monitoring logs", "Monitoring procedures", "Alert configurations"]
+        }
+        
+        # Add relevant evidence types based on keywords in the control description
+        for keyword, evidence_types in keywords_to_evidence.items():
+            if keyword in control_desc.lower():
+                evidence_items.extend(evidence_types)
+        
+        # Add general evidence types
+        evidence_items.append("Interview notes")
+        
+        # Deduplicate evidence items
+        unique_evidence = list(dict.fromkeys(evidence_items))
+        
+        return ", ".join(unique_evidence)
     
     def _generate_default_steps(self, control_type: str, control_desc: str) -> List[str]:
         """Generate appropriate test steps based on control type and description"""
@@ -89,28 +284,32 @@ class AuditPlanningTool(BaseTool):
                 "1. Review detection mechanism documentation",
                 "2. Test detection capabilities with sample scenarios",
                 "3. Verify alert/notification process",
-                "4. Validate response procedures"
+                "4. Validate response procedures",
+                "5. Confirm detection effectiveness through simulated violations"
             ]
         elif control_type.lower() == "preventive":
             return [
                 "1. Review control implementation documentation",
                 "2. Test preventive measure with sample data",
                 "3. Attempt to bypass control (negative testing)",
-                "4. Verify logging of attempted violations"
+                "4. Verify logging of attempted violations",
+                "5. Confirm the control consistently prevents non-compliant actions"
             ]
         elif control_type.lower() == "corrective":
             return [
                 "1. Review correction procedures documentation",
                 "2. Validate correction workflow with sample scenarios",
                 "3. Verify timeliness of corrective actions",
-                "4. Confirm documentation of corrections"
+                "4. Confirm documentation of corrections",
+                "5. Test correction effectiveness through follow-up verification"
             ]
         else:
             return [
                 "1. Review control documentation",
                 "2. Interview responsible personnel",
                 "3. Test control using sample data",
-                "4. Verify effectiveness against requirements"
+                "4. Verify effectiveness against requirements",
+                "5. Validate ongoing monitoring and maintenance processes"
             ]
     
     def _generate_risk_based_steps(self, control_type: str, control_desc: str) -> List[str]:
@@ -160,28 +359,6 @@ class AuditPlanningTool(BaseTool):
             "4. Document exceptions and deviations",
             "5. Evaluate statistical significance of findings"
         ]
-    
-    def _determine_evidence_requirements(self, control_type: str, control_desc: str) -> str:
-        """Determine appropriate evidence requirements based on control type"""
-        evidence_items = ["Documentation"]
-        
-        # Add evidence types based on control type
-        if control_type.lower() == "technical" or "system" in control_desc.lower():
-            evidence_items.extend(["System logs", "Configuration screenshots", "Access records"])
-        
-        if control_type.lower() == "detective" or "monitor" in control_desc.lower():
-            evidence_items.extend(["Alert records", "Monitoring reports", "Incident documentation"])
-        
-        if control_type.lower() == "administrative" or "policy" in control_desc.lower():
-            evidence_items.extend(["Policy documents", "Training records", "Signed acknowledgements"])
-        
-        if control_type.lower() == "physical":
-            evidence_items.extend(["Physical inspection records", "Access logs", "Photographs"])
-        
-        # Add general evidence types
-        evidence_items.append("Interview notes")
-        
-        return ", ".join(evidence_items)
     
     def _format_audit_program(self, test_procedures_text: str) -> str:
         """Format audit program in a structured way"""

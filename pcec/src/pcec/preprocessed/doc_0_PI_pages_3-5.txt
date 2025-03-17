@@ -1,0 +1,95 @@
+
+requirement as a weighted average of the buffers that are being applied in jurisdictions to which
+they have an exposure. Credit exposures in this case include all private sector credit exposures
+that attract a credit risk capital charge or the risk weighted equivalent trading book capital charges
+for specific risk and securitisation.
+19. The weighting applied to the buffer in place in each jurisdiction will be the bank’s total
+credit risk charge that relates to private sector credit exposures in that jurisdiction, divided by the
+bank’s total credit risk charge that relates to private sector credit exposures across all jurisdictions.
+Banks must determine whether the ultimate counterparty is a private sector exposure, as well as
+the location of the “ultimate risk”, to the extent possible.
+20. The charge for the relevant portfolio should be allocated to the geographic regions of the
+constituents of the portfolio by calculating the proportion of the portfolio’s total credit exposure
+arising from credit exposure to counterparties in each geographic region.
+Please refer to Question 15 of the FAQs below for further guidance and examples of
+countercyclical buffers.
+5
+
+[Document: PI.pdf, Page 5]
+CBUAE Classification: Public
+3. Regulatory adjustments
+Goodwill and Other Intangibles
+21. Intangible assets typically do not generate any cash flows and hence their value, when a
+bank is in need of immediate additional capital to absorb losses, is uncertain. For this reason, all
+intangible assets are deducted from CET1 (5.1.8.1).
+22. From regulatory perspective, goodwill and intangible assets have the same meaning as
+under IFRS.
+23. Capitalized software costs that is not “integral to hardware” is to be treated as an intangible
+asset and software that is “integral to hardware” is to be treated as property, plant and equipment
+(i.e. as a fixed asset).
+24. The amount of intangible assets to be deducted should be net of any associated deferred
+tax liability (DTL) that would be extinguished if the asset became impaired or derecognised under
+the applicable accounting standards.
+25. Goodwill and intangible assets that are deducted from CET1, they are excluded from the
+calculation of RWA for credit risk exposure value.
+Deferred Tax Assets
+26. Deferredtaxassets(DTAs)typicallyarisewhen abank:
+ suffers a net loss in a financial year and is permitted to carry forward this loss to offset
+future profits when calculating its tax bill (net losses carried forward)
+ has to reduce the value of an asset on the balance sheet, but this 'loss in value' is not
+recognised by the tax authorities until a future period (temporary timing difference)
+27. DTAs arising from net losses carried forward have to be deducted in full from a bank's
+CET1 (5.1.8.2). This recognises that their value can only be derived through the existence of
+future taxable income. On the other hand, a DTA relying on future profitability and arising from
+temporary timing differences is subject to the 'threshold deduction rule' (5.1.9.2).
+4. Threshold Deduction
+28. The purpose of calculating the threshold is to limit the significant investments in the
+common shares of unconsolidated financial institutions (banks, insurance and other financial
+entities) and deferred tax assets (arising from temporary differences) to 15% of the CET1 after all
+deduction (Deduction includes regulatory deductions and the amount of significant investments
+in the common shares of unconsolidated financial institutions and deferred tax assets in full).
+29. Therefore, significant investments in the common shares of unconsolidated financial
+institutions and deferred tax assets may receive limited recognition of 10% CET1 individually (CET
+after regulatory adjustment outlined in section3 of the Tier Capital Supply Standard).
+30. The amount that is recognised will receive risk weight of 250% and the remaining amount
+will be deducted. See Appendix 5 for example.
+6
+
+[Document: PI.pdf, Page 6 (Overlap)]
+CBUAE Classification: Public
+5. Significant investment in commercial entities
+31. For purposes of this section, 'significant investments' in a commercial entity is defined as
+any investment in the capital instruments of a commercial entity by a bank which is equivalent to
+or more than 10% of CET 1 of the bank (after application of regulatory and threshold deduction).
+See Appendix 3 for an example.
+6. Frequently Asked Questions
+Question 1: When will the Standards, Guidance and Template with regards to Solo reporting be
+issued by the Central Bank?
+The Central Bank will issue all related material regarding Solo reporting during 2020. Formal
+communication will be issued in advance.
+Question 2: What is meant by the book value of an investment?
+The book value of an investment shall be in accordance with the applicable accountingframework
+(IFRS). This valuation must be accepted by an external auditor.
+Question 3: Are capital shortfalls of non-consolidated insurance companies to be deducted from
+CET1?
+Yes, any capital shortfall on a company has to be deducted.
+Question 4: If the Bank meets minimum CET1 ratios can the excess CET1 also be counted to meet
+AT1 and Total CAR?
+Yes.
+Question 5: Please clarify whether minority interest related to any other regulated financial entity
+(whichis not a bank) should be included or not.
+Onlyminority interest of the subsidiary that are subject to the same minimum prudential standards
+and level of supervision as a bank be eligible for inclusion in the capital.
+Question 6: Is the bank able to include the profit & loss in the year-end CAR calculation before the
+issuance of the audited financial statements?
+Bank may include interim profit/ yearend profit in CET1 capital only if reviewed or audited by
+external auditors. Furthermore, the expected dividend should be deducted in Q4.
+Question 7: Is subordinated Debt currently considered Tier 2 as per Basel III, hence no
+amortization is required?
+Grandfathering rule plus amortization in last 5 years - refer to Standards for Capital Adequacy of
+banks in UAE, Tier Capital Supply Standard- paragraph 27 (iv)(b) . Reference should also be
+made to the Tier Capital Instruments Standards.
+Question 8: Do dividends need to be deducted from CET1 after the proposal from the Board or
+after Central Bank approval or after approval from shareholders at the Annual General Meeting?
+Please refer to Question 6
+7

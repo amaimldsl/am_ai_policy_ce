@@ -1,0 +1,171 @@
+[Document: PI.pdf, Page 135 (Overlap)]
+CBUAE Classification: Public
+2- The following table shows how to calculate the capital charge for operational risk using
+the Standardised Approach:
+Business line Beta Gross income Capital requirement
+factor
+Year 1 Year 2 Year 3 Year 1 Year Year 3 Average
+2*
+Corporate 18% 250 300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail banking 12% 500 200 -300 60 24 -36
+Commercial 15% 400 300 400 60 45 60
+banking
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 1,825 1,130 625
+Income
+Aggregate 272.25 180.9 113.55 189***
+Capital
+Requirement**
+*Gross Income x Beta factor
+**Sum of eight capital charges for the year – remember within a year negative capital charges can offset
+positive charges among business lines
+***Three-year average capital charge
+3- Another example to illustrate the negative Gross income:
+Business line Beta Gross income Capital requirement
+factor
+Year 1 Year 2 Year 3 Year 1 Year 2 Year 3 Average
+Corporate 18% 250 -300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail 12% 500 200 -300 60 24 -36
+banking
+Commercial 15% 400 -300 400 60 45 60
+banking
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+136
+
+[Document: PI.pdf, Page 136]
+CBUAE Classification: Public
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 1,825 -70 625
+Income
+Aggregate 272.25 0* 113.55 129**
+Capital
+Requirement
+*Total capital charge against all business lines for year 2 is negative (-17.1), so the numerator for year 2 is
+set to zero
+**Capital charge averaged for three years, with the numerator for year 2 set to zero
+C. Alternative Standardised Approach
+The following table shows how to calculate the capital charge for operational risk using the
+Alternative Standardised Approach.
+Business line Beta Exposure Indicator* Capital requirement**
+factor
+Year 1 Year 2 Year 3 Year Year 2 Year 3 Average
+1
+Corporate 18% 250 300 200 45 54 36
+finance
+Trading and 18% 100 -70 -80 18 -12.6 -14.4
+sales
+Retail 12% 700*** 875*** 945*** 84 105 113.4
+banking
+Commercial 15% 875*** 910*** 980*** 131.2 136.5 147
+banking 5
+Payment and 18% 300 350 300 54 63 54
+settlement
+Agency 15% 75 50 45 11.25 7.5 6.75
+services
+Asset 12% 50 -100 -20 6 -12 -2.4
+management
+Retail 12% 150 100 80 18 12 9.6
+brokerage
+Total Gross 2,500 2,415 2,450
+Income
+Aggregate 367.5 353.4# 349.9 356.95#
+Capital 5 #
+Requirement
+*Gross income/loans & advances x m
+**Exposure indicator (GI or LA x m) x β
+***Outstanding loans and advances x m (0.035)
+# Sum of eight capital charges for the year
+## Three year average capital charge
+137
+
+[Document: PI.pdf, Page 137]
+CBUAE Classification: Public
+VII. Appendix
+Further Options under the ASA – Option 1
+Under the ASA Option 1, banks may aggregate retail and commercial banking using a common
+beta of 15%, instead of 12% and 15%, respectively, as prescribed under the Standardised
+Approach (SA). For the other six business lines, the relevant beta factors as prescribed under the
+SA are used. The exposure indicator remains the volume of loans and advances for commercial
+and retail banking and gross income for the other six business lines.
+Further Options under the ASA – Option 2
+Under Option 2, banks may maintain the SA beta factors of 12% and 15% for retail and
+commercial banking and aggregate the other six business lines with a beta factor of 18%. The
+volume of loans and advances is used as the exposure indicator for commercial and retail
+banking. Gross income is used for the other six business lines. Banks undertaking predominantly
+traditional banking activities, such as retail and commercial banking, and unable to segregate
+their grossincome according to businesslines may find it useful to adopt this option.
+Further Options under the ASA – Option 3
+Under Option 3, banks may aggregate retail and commercial banking with a beta factor of 15%
+and the other six business lines with a beta factor of 18%. The volume of loans and advances is
+used as the exposure indicator for retail banking and commercial banking. Gross income is used
+for the other six business lines.
+138
+
+[Document: PI.pdf, Page 138]
+CBUAE Classification: Public
+X. External Credit Assessment Institutions
+I. Introduction and Scope
+1. Banks are required to use external ratings to determine risk weights for certain types of
+exposures. However, only external ratings provided by External Credit Assessment Institutions
+(ECAIs) that have been recognized as eligible for that purpose by the Central Bank may be used.
+This Guidance describes the specific requirements for the recognition of eligible ECAIs, together
+with certain other aspects of the use of ratings within the Central Bank’s capital adequacy
+framework. Note that additional requirements related to the use of ratings in capital requirements
+for securitisation are provided in the Central Bank’s Standards on Required Capital for
+Securitisation Exposures.
+2. The Guidance is based closely on requirements of the framework for capital adequacy
+developed by the Basel Committee on Banking Supervision (BCBS), specifically the requirements
+articulated by the BCBS in International Convergence of Capital Measurement and Capital
+Standards: A Revised Framework (comprehensive version June 2006), and the revisions from
+Basel III: A global regulatory framework for more resilient banks and banking systems, December
+2010 (rev June 2011).
+II. Eligibility Criteria
+3. ECAIs may beconsidered eligible for recognition if they meet the criteria articulated in this
+section. The Central Bank also takes into account the criteria and conditions provided in the
+IOSCO Code of Conduct Fundamentals for Credit Rating Agencies (IOSCO CRA Code) when
+determining ECAI eligibility.
+4. The Central Bank’s eligibility determination for each ECAI applies only with respect to the
+types of claims for which the eligibility criteria have been met by that ECAI.
+A. Objectivity
+5. ECAI’s should have a methodology for assigning credit ratings that is rigorous and
+systematic, and is subject to validation based on historical experience. Ratings assessments
+should be based on methodologies combining qualitative and quantitative approaches. Moreover,
+assessments must be subject to ongoing review and responsive to changes in financial condition.
+To establish that an ECAI fulfils this primary component of eligibility criteria, it must demonstrate
+that it meets the following minimum standards:
+(i) The ECAI has established rating definitions, criteria, and methodologies, and apply
+them consistently;
+(ii) The ECAI should have a robust procedure of rating assignment based on published
+information, market data, interviews with management, and/or other sources of
+information that provide a sound basis for purposes of assigning the ratings;
+(iii) When assigning risk ratings, the ECAI should take into account all major features of
+credit quality that are relevant under the ECAI’s applicable methodology, and should
+ensure that the ratings are assigned taking into account all risk factors of the rated
+entity or issue relevant under the ECAI’s applicable methodology;
+139
+
+[Document: PI.pdf, Page 139]
+CBUAE Classification: Public
+(iv) The ECAI should demonstrate that rating methodologies are subject to quantitative
+back testing. For this purpose, the ECAI should calculate and publish default studies,
+recovery studies, rating transition matrices, or other analyses as relevant to the
+ECAI’s rating methodology. The analysis should reflect a definition of default that is

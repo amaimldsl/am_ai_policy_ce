@@ -1,0 +1,117 @@
+
+consistent with international standards, subject to possible adjustments to take into
+account local practices or institutional or market conditions;
+(v) The rating methodology for each market segment, including rigorous back testing,
+must have been established for at least one year and preferably three years;
+(vi) All rating decisions should be made based on the ECAI’s established criteria and
+methodologies, subject to documented variations approved in accordance with the
+ECAI’s procedures;
+(vii) The ECAI should have a mechanism to review its procedures and methodologies to
+adapt them to a potentially changing environment; and
+(viii) The ECAI should maintain adequate systems and internal records to support its
+assigned ratings.
+B. Independence
+6. The ECAI should be free from any economic or external political pressures that may
+influence its credit ratings. In particular, an ECAI should not delay or refrain from taking a rating
+action based on its potential effect (economic, political or otherwise). The independence of an
+ECAI shall be assessed on the basis of the following five parameters:
+(i) Ownership: The ownership structure should not be such that it could jeopardize the
+objectivity of the rating process. For example, the owners should not hold 10 percent
+or more of the equity of any entity rated by the ECAI.
+(ii) Organizational Structure and Corporate Governance: The ECAI should
+demonstrate that its organizational structure minimizes the scope for external
+influences to influence the rating process inappropriately. The ECAI should have in
+place effective corporate governance that safeguards the independence of its credit
+ratings, promotes integrity, and ensures that internal disagreements over ratings are
+resolved in ways that do not compromise the overall effectiveness of the rating
+process.
+(iii) Financial Resources: The ECAI must demonstrate that its business is financially
+viable and is able to sustain any commercial pressure that might be exerted by
+external entities, including the entities being rated. The ECAI’s financial position
+should not depend significantly on the provision of other services to the rated entities.
+(iv) External Conflict of Interest: The credit rating process of the ECAI should have the
+ability to withstand external pressures. The ECAI should demonstrate that it is free
+from any type of external conflicts of interest, or that conflicts of interest are disclosed
+and managed.
+(v) Separation: An ECAI should separate its rating business operationally, legally, and
+if practicable, physically from its other business operations that may present a
+conflict of interest, such as advisory services.
+140
+
+[Document: PI.pdf, Page 140]
+CBUAE Classification: Public
+C. International Access and Transparency
+7. The individual ratings, the key elements underlying the ratings, and whether the issuer
+participated in the rating process should be information that is publicly available on a non-selective
+basis.
+8. In order to promote transparency and enable stakeholders to make decisions about the
+appropriateness of its credit rating methods, an ECAI should disclose sufficient information (e.g.,
+rating definition, methods of arriving at the rating, rating process, time horizon of the rating, and
+the surveillance and review procedure) to facilitate such decisions. The ECAI’s general
+procedures, methodologies, and assumptions for arriving at ratings should be publicly available.
+D. Disclosure
+9. A rating should be disclosed as soon as practicably possible after issuance. When
+disclosing a rating, the information should be clearly worded, and should indicate the nature of
+the rating and relevant limitations, while providing appropriate warning to users of the potential
+danger of unduly relying on the rating to make investment or other decisions.
+10. To promote transparency and market discipline, an ECAI should demonstrate that it
+provides access to information that enables stakeholders to make decisions about the
+appropriateness of ratings for the intended use or uses. At a minimum, the ECAI is expected to
+make public the following information:
+ Code of conduct;
+ Definition of default;
+ The time horizons reflected in ratings;
+ Rating definitions;
+ Rating methods;
+ Actual default rates experienced in each rating category;
+ Rating transition matrices;
+ Whether particular ratings are solicited or unsolicited;
+ The date of last review and update of ratings;
+ The general nature of compensation arrangements with rated entities; and
+ Any actual or potential conflicts of interest.
+11. At a minimum, the following conflict-of-interest situations and their influence on the ECAI’s
+credit rating methodologies or credit rating actions must be disclosed:
+(i) The ECAI is being paid to issue a credit rating by a rated entity or by the obligor,
+originator, underwriter, or arranger of a rated obligation;
+(ii) The ECAI is being paid by subscribers with a financial interest that could be affected
+by a credit rating action of the ECAI;
+141
+
+[Document: PI.pdf, Page 141 (Overlap)]
+CBUAE Classification: Public
+(iii) The ECAI is being paid by rated entities, obligors, originators, underwriters,
+arrangers, or subscribers for services other than issuing credit ratings or providing
+access to the ECAI’s credit ratings;
+(iv) The ECAI is providing a preliminary indication or similar indication of credit quality to
+an entity, obligor, originator, underwriter, or arranger prior to being hired to determine
+the final credit rating for the entity, obligor, originator, underwriter, or arranger; and
+(v) The ECAI has a direct or indirect ownership interest in a rated entity or obligor, or a
+rated entity or obligor has a direct or indirect ownership interest in the ECAI.
+12. An ECAI should disclose the general nature of its compensation arrangements with rated
+entities, obligors, lead underwriters, or arrangers. When the ECAI receives compensation
+unrelated to its credit rating services from a party such as a rated entity, obligor, originator, lead
+underwriter, or arranger, the ECAI should disclose such compensation as a percentage of the
+total annual compensation received from that party in the relevant credit rating report or
+elsewhere, as appropriate. An ECAI should disclose in the relevant credit rating report or
+elsewhere, as appropriate, if it receives 10% or more of its annual revenue from a single party
+(e.g., a rated entity, obligor, originator, lead underwriter, arranger, or subscriber, or any of their
+affiliates).
+E. Resources
+13. ECAI should possess sufficient human and technical resources to produce high quality
+credit ratings. Evidence of resource sufficiency includes:
+(i) Technical expertise of the people should be sufficient to conduct the analysis to
+support the assignment of ratings, and to maintain contact with senior and
+operational levels within the entities that are rated. In particular, ECAIs should assign
+analysts with appropriate knowledge and experience to assess the creditworthiness
+of the type of entity or obligation being rated; and
+(ii) With respect to technical resources, an ECAI is expected to apply quantitative
+techniques and models that can appropriately process and analyze the quantities of
+data required to support the rating process.
+F. Credibility
+14. The ECAI must demonstrate that it enjoys credibility in the markets in which it operates.
+Such credibility is gauged on the basis of:
+(i) The extent to which it meets the resources requirements stated above;
+(ii) The extent to which independent parties (investors, insurers etc.) rely on the ECAI’s
+risk ratings; and
+(iii) The existence of internal procedures to preventmisuse of confidential information.
+142

@@ -1,0 +1,162 @@
+[Document: PI.pdf, Page 20 (Overlap)]
+CBUAE Classification: Public
+Note also that earnings are defined as distributable profits calculated prior to the deduction of
+elements subject to the restriction on distributions. Earnings are calculated after the tax, which
+would have been reported had none of the distributable items been paid. As such, any tax impact
+of making, such distributions are reversed out. Where a bank does not have positive earnings
+and has a CET1 ratio less than 9.5%, it would be restricted from making positive net distributions.
+Gross-up Clauses:
+Gross-up clauses for Additional Tier 1:
+9. Gross up clauses are acceptable only if:
+i. It is activated by decision of the local tax authority of the issuer and not the investor,
+ii. The increased payments do not exceed distributable items,
+iii. The gross-up is in relation to the dividend and not the principal.
+Gross up Clauses for Tier 2:
+10. The second condition related to distributable items is not relevant for Tier 2 instruments,
+as Tier 2 coupons are not restricted by the amount of available distributable items. Therefore, Tier
+2 gross-up clauses can be considered as acceptable if they are activated by a decision of the
+local tax authority of the issuer, and if they relate to dividend and not on principal. The other two
+conditions on gross-up clauses are, however, activation is still required by a local tax authority of
+the issuer and not the investor, and the gross-up is in relation to the dividend payments only not
+principal.
+Point of Non-Viability (PONV):
+11. The issuance of any new shares as a result of the Point of Non-Viability must occur prior
+to any public sector injection of capital so that the capital provided by the public sector is not
+diluted.
+Further guidance on grandfathering:
+12. If a Tier 2 instrument eligible for grandfathering begins its final five-year amortisation
+period prior to 1st January 2018, the base for grandfathering in this case must take into account
+the amortised amount, not the full nominal amount. As for the rate, if a Tier 2 instrument eligible
+for grandfathering begins its final amortisation period on 1st January 2018, then individual
+instruments will continue to be amortised at a rate of 20% per year while the grandfathering cap
+will bereduced at a rate of 10% per year. Note that each tranche needs to be treated as a separate
+tranche.
+Amortisation of Tier 2 instruments:
+13. During the last 5 years of the eligibility before maturity, the eligibility of Tier 2 instruments
+is written down by 20% per year, i.e. the eligible amount is calculated by multiplying:
+i. The nominal amount of the instruments on the first day of the final five year period of their
+contractual maturity divided by the number of calendar days in that period;
+ii. The number of remaining calendar days until the contractual maturity of the instruments.
+21
+
+[Document: PI.pdf, Page 21]
+CBUAE Classification: Public
+Documents required to be submitted for the application to issue new Tier Capital
+Instruments
+1. The CN-01 form should be completed, filled and signed by the bank's Chief Executive Officer
+(CEO), Chief Financial Officer (CFO), Head of Internal Audit, Head of Compliance and Head
+of Risk.
+2. Full terms and conditions, together with the risk factors relating to the instrument.
+i. Instruments of Islamic banks issued through an SPV must also provide the contract
+between the bank and the SPV
+3. Shareholder Approval:
+i. Tier capital instruments require shareholder approval.
+ii. The approval shall relate to an issuance of the specific planned Tier capital instrument
+(Additional Tier 1 or subordinated Tier 2). Moreover, the approval should clearly mention
+that the instrument is subordinated; coupon payments may not be paid under certain
+circumstances, and contains a Point of Non-Viability (PONV) condition.
+4. Legal opinion letters:
+i. Legal Opinion of an independent appropriately qualified and experienced lawyer that the
+terms and conditions are compliant with the requirements detailed in the Capital
+Regulations, Standards and Guidance.
+ii. Legal opinion of an independent appropriately qualified and experienced lawyer that the
+obligations contained in terms and conditions will constitute legal, valid, binding and
+enforceable obligations.
+iii. Legal opinion of an independent appropriately qualified and experienced lawyer that the
+Self-Assessment of the issuing bank meets the Conditions and the Capital Regulations
+5. Capital planning and forecast:
+The Business as Usual (BAU) case should be formulated, such as:
+a) Amount of assumed issuance and the expected issuance date (e.g. Q1 2018).
+b) Capital structure: % in CET1, AT1, Tier 2 and deductions (using Basel 3 capital
+components)
+c) Five (5) year forecast of the Balance sheet, Profit & loss P&L, Risk Weighted Assets RWA.
+d) Amortization of Tier Capital Issuances: Subordinated Tier 2 in the last 5 years prior to
+maturity and AT1 Instruments, if they fall under a grandfathering rule, for example, 10%
+per year.
+e) Key assumptions and analysis (e.g. on balance growth, asset structure, conversation
+factors CCF for off balance, operational and market risk, total assets growth, of which
+businesses that will be the main driver for such growth) and CRWA (i.e. on balance sheet
+exposure in different industry) in numerical as well as qualitative aspect.
+6. Stress Testing Scenarios:
+The Stress Testing should be submitted in form of a presentation including the underlying data in
+Excel sheet.
+Two Scenarios should be provided as part of the presentation:
+a) Top 2 customers defaulting (point in time analysis permitted: End of Year): Definition of
+top 2 customers; name of top 2 customers; exposure (including on and off balance
+exposures); what type of eligible collateral and value of collateral, with two sub-scenarios:
+i. With average provisioning level of similar assets, and
+ii. 75% provisioning level
+b) Central Bank’s Macro-Economic Stress Test
+ Assumptions and results of the latest Macroeconomic stress tests performed by the
+Central Bank.
+22
+
+[Document: PI.pdf, Page 22]
+CBUAE Classification: Public
+7. Non-Funding Notice: Neither the bank nor a related party over which the bank exercises
+control or significant influence can have purchased the instrument, nor can the bank directly
+or indirectly have funded the purchase of the instrument.
+Private Placements
+ Offer letter is required for private placements, including risk factors and the bank's financial
+and risk situation.
+ Market Conformity Analysis: The bank has to provide evidence on why the pricing of the
+instrument conforms to the market rate.
+II. Frequently Asked Questions (FAQ)
+Question 1: The last bullet point mentions “Liability accounted instruments must set the
+loss absorption trigger at a level of 7.625%.” Is it Central Bank decision to have this trigger
+set at 7.625%? Are any triggers likely to be set for equity accounted instruments?
+It is Central Bank’s decision for the trigger level. However, the trigger level derives directly from
+Basel. Minimum capital requirement plus 0.625%. Note, that the consultation documents do not
+consult on a trigger for equity accounted AT1. However, in particular in conjunction with the
+development of a recovery/ resolution regulation, the introduction of a trigger level may also be
+discussed again, as pointed out in the presentation that was circulated with the Tier capital
+instrumentdocuments.
+Question 2: Point of Non-Viability mentions that “A Point of Non-Viability means that the
+Regulator has determined that the issuer has or will become, Non-Viable without: (a) a
+Write-down; or (b) a public injection of capital (or equivalent support).”. We need
+clarification as to whether the PONV will be determined by the regulator or the issuer.
+Also, please advise under what circumstance will partial Write-down be permitted. The
+regulator determines whether the bank is non-viable or not. Partial write-down will be permitted
+only for exceptional cases. Explicit examples will not be provided to prevent any expectation.
+Question 3: Appendix A: Application Process 1.4: It is mentioned that “Stress Testing with
+a stress scenario of top 2 customers are defaulting”. Since many UAE banks have
+concentrations in this area, what loss rate needs to be applied in this stress scenario?
+Current status quo is two sub scenarios: 75% loss rate and average loss rate of the bank for such
+customers.
+23
+
+[Document: PI.pdf, Page 23]
+CBUAE Classification: Public
+III. Credit Risk
+I. Introduction
+This section provides the guidance for the computation of Credit Risk Weighted Assets
+(CRWAs) under the Standardised Approach (SA). This guidance should be read in conjunction
+with the Central Bank’s Standard on Credit Risk.
+A bank must apply risk weights to its on-balance-sheet and off-balance-sheet items using
+the risk- weighted assets approach. Risk weights are based on credit ratings or fixed risk weights
+and are broadly aligned with the likelihood of obligor or counterparty default.
+A bank may use the ratings determined by an External Credit Assessment Institution
+(ECAI) for credit ratings. In general, banks should only use solicited ratings from recognised
+ECAIs for the purposes of calculating capital requirement under the SA. However, in exceptional
+cases, the bank may use unsolicited ratings with the Central Bank approval.
+Note that all exposures subject to the SA should be risk weighted net of specific
+allowances and interest in suspense. The guidance must be read in conjunction with
+Securitisation, Equity Investments in Funds, Counterparty Credit Risk and Credit Valuation
+Guidance.
+The guidance set out in this section applies to all exposures in the banking book.
+Exposures in the trading book should be captured as part of a bank’s market risk capital
+calculations.
+II. Clarification and Guiding Principles
+A. Claims on Sovereigns
+UAE Sovereigns: The UAE Sovereign asset class consists of exposures to Federal
+Government and Emirates governments.
+Federal Government includes all the UAE Federal entities and Central Bank of the UAE
+(Central Bank). Banks have transition period of 7 years from the date of implementation for
+exposures to Federal Government that receive a 0% RW, if such exposures are denominated in
+AED or USD and funded in AED or USD. However, any claim on UAE Federal Government in
+foreign currency other than USD should be risk weighted according to the published credit risk
+rating of UAE Federal Government. In the absence of solicited rating for UAE Federal
+Government, unsolicited ratings are permissible for assigning risk weights for UAE Federal
+Government exposures.
+Emirates Governments’ exposures include exposures to the Ruler and the Crown Prince
+of each emirate acting in the capacity as ruler and crown prince, as well as exposures to the

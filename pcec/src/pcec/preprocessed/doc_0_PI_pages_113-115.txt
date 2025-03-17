@@ -1,0 +1,196 @@
+
+Risk-weighted assets for equity exposures arising from bank investments in funds that are held
+in the trading book are subject to the market risk capital rules. Equity investments in funds will
+be allocated to the trading book if the bank is able to “look through” to the fund’s underlying
+assets (i.e. determine capital requirements based on the underlying positions held by the fund),
+or where the bank has access both to daily price quotes and to the information contained in the
+mandate of the fund. The reporting is based on the underlying positions held by the fund; it
+could be covered under different areas of the market risk (e.g. FX, IRR and equity risk).
+Question 22: As per paragraph 21 of the Market Risk Standard, it is mentioned that a
+securitisation exposure subject to a risk weight of 1250% under the Central Bank
+requirements (and therefore to a 100% specific risk charge under this Standard) may be
+excluded from the calculation of capital for general market risk. Should the cap forthe
+113
+
+[Document: PI.pdf, Page 113]
+CBUAE Classification: Public
+UAE be 1250% or 952% as mentioned in paragraph 5 of the Introduction of the
+standards?
+Yes, the RW has to be capped at 952% as mentioned in the introduction of the standards.
+V. Examples
+Note that capital charges calculated in all examples below still need to be converted into
+risk-weighted assets via Section IV in the Market Risk Standards.
+A. Interest rate risk
+1. Calculating the General Market risk charge
+Calculate the general market risk capital charge for XYZ bank’s interest rate positions using the
+maturity method.
+Long position in a qualifying bond: Market value AED 13.33m. Residual maturity 8 years & coupon
+8%
+Long position in a government bond: Market value AED 75m. Residual maturity 2 months &
+coupon 7%
+Interest rate swap: Notional value AED 150m. Residual life of swap 8 years & bank receives
+floating rate interest and pays fixed. Next interest fixing after 9 months
+Long position in interest rate governmentbond future: Contract size AED 50mn.
+The treatment of interest rate future positions assume a bank is exposed to a long position in a
+6-month interest rate future bought today and settled in two months' time. The long position in
+interest rates needs to be slotted into the 6-12 months’ time band because the maturity of the long
+position is considered to be eight months. This is because the position is taken on today and will
+be settled in two months with a maturity of six months.
+Delivery date after 6 months & remaining maturity of the CTD government security 3.5 years.
+Cheapest to deliver CTD refers to the underlying instrument that result in the greatest profit or the
+least loss when delivered in satisfaction of futures contracts.
+Calculating the general market risk capital charge comprises two main steps and a number of
+sub-steps.
+Step 1: Map each interest rate position
+We are using the maturity method to map the positions. None of the bank’s positions have a
+coupon of less than 3%, so we will use a ladder of 13 time bands. Each position is mapped to the
+appropriate time band according to its residual maturity.
+Step 2: calculate the total capital charge
+Overall net open position
+Zone 1 (months) Zone 2 (years) Zone 3 (years)
+Time 0- 1-3 3-6 6-12 1- 2- 3-4 4- 5- 7-10 10- 15- >20
+band 1 2 3 5 7 15 20
+Weighted +0.15 - +1.05 +1.125 -
+position 0.2 5.625
+(AED m) +0.5
+114
+
+[Document: PI.pdf, Page 114]
+CBUAE Classification: Public
+The net open position is the sum of all the positions across all the time bands. The net open
+position is AED 3m short, which leads to a capital charge at 100% of AED 3,000,000.
+Calculation:
++75*0.2%=+0.15
+-50*0.4%=-0.2
++150*0.7%=+1.05
++50*2.25%=+1.125
+-150*3.75%=-5.625
++13.33*3.75%=+0.5
+Vertical disallowance
+The long position of AED 0.5m is offset against the short position of AED 5.625m as per the
+marked area. The matched position is AED 0.5m and the net open position is AED -5.125m.
+This leads to a capital charge of 10% of AED 0.5m, or AED 50,000
+Zone 1 (months) Zone 2 (years) Zone 3 (years)
+Time band 0- 1-3 3-6 6-12 1- 2- 3-4 4- 5- 7-10 10- 15- >20
+1 2 3 5 7 15 20
+Weighted +0.15 - +1.05 +1.125 -
+position 0.2 5.625
+(AED m) +0.5
+Vertical -
+disallowance 5.125
+Calculation
+Matched position = 0.5
+Net open position = -5.625+0.5= -5.125
+Horizontal disallowance
+The third part of the capital charge is a charge for the horizontal disallowance. There are three
+rounds of horizontal offsetting.
+In round 1, the horizontal disallowance within each zone is calculated. In this example, charge
+applies to zone 1 only because it is the only zone with a long and a short position. (With more
+than one position). The short position, -0.2 is offset against the total long position, +1.2. The
+matched position is 0.2 and the net open position is +1.
+The capital charge for the horizontal disallowance within zone 1 is 40% of AED 0.2m, or AED
+80,000
+In round 2, calculate the horizontal disallowance between adjacent zones, i.e., between:
+Zone 1 and zone 2
+Zone 2 and zone 3
+In this example, zone 1 and zone 2 both contain long positions, so there is no matched position
+and therefore no offsetting between these zones. The long position of 1.125 in zone 2 is offset
+against the short position of -5.125 in zone 3. The matched position is 1.125 and the net open
+position is -4. The capital charge for the horizontal disallowance between zones 2 and 3 is 40%
+of AED 1.125m= AED 450,000.
+In round 3, we calculate the horizontal disallowance between zones 1 and 3.
+115
+
+[Document: PI.pdf, Page 115]
+CBUAE Classification: Public
+In this example, the long position of 1 in zone 1 is offset against the short position of -4 in zone 3.
+The matched position is 1 and the net open position is -3. The capital charge for the horizontal
+disallowance between zones 1 and 3 is 100% of AED 1m = AED 1m.
+After the three rounds of horizontal offsetting, the total charge for the horizontal disallowance is
+AED 80,000 + AED 450,000 + AED 1,000,000 = AED 1,530,000
+Having completed the horizontal and vertical offsetting, the remaining overallnet open position is
+AED 3m, which is equivalent to the overall net open position we calculated across all time bands
+when we calculated the first part of the capital charge.
+Zone 1 (months) Zone 2 (years) Zone 3 (years)
+Time band 0- 1-3 3-6 6-12 1- 2- 3-4 4- 5- 7-10 10- 15- >20
+1 2 3 5 7 15 20
+Weighted +0.15 - +1.05 +1.125 -
+position 0.2 5.625
+(AED m) +0.5
+Vertical -
+disallowance 5.125
+Horizontal +1
+disallowance
+Round 1
+Horizontal -4
+disallowance
+Round 2
+Horizontal -3
+disallowance
+Round 3
+We have now calculated the total capital charge for general market risk for this example.
+Capital charge AED
+1 A charge for the net open position 3,000,000
+2 A charge for the vertical disallowance 50,000
+3 A charge for horizontal disallowance
+Round 1: Charge for the horizontal 80,000
+disallowance within each zone
+Round 2: Charge for the horizontal 450,000
+disallowance between adjacent zones
+Round 3: Charge for the horizontal 1,000,000
+disallowance between zones 1 and 3 1,530,000
+net charge for positions in options 0
+Total capital charge 4,580,000
+2. Specific Market Risk – Example
+Relate to the same example as above.
+Given that, the government bonds are AAA-rated and that the qualifying bond is BBB-rated.
+The interest rate swap does not incur a specific risk charge. The AAA-rate government bonds
+incur a 0% specific risk charge. The qualifying bond has a residual maturity of 8 years and is BBB-
+rated, so if has a specific risk charge of 1.6%
+The capital charge is 1.6% of AED 13.33m, or AED213,280.
+116
+
+[Document: PI.pdf, Page 116 (Overlap)]
+CBUAE Classification: Public
+B. Equity Risk – Calculating the Capital Charge
+Bank XYZ has the following positions in its equity portfolio for a particular national market.
+Company Position No. of shares Market price Market value
+(AED) (AED)
+A Corp. Long 10,000 35 350,000
+B Corp. Short 20,000 25 500,000
+C Corp. Short 5,000 50 250,000
+D Corp. Long 15,000 20 300,000
+E Corp. Short 2,000 60 120,000
+To calculate the general market risk charge, we must first determine the overall net open position.
+The sum of the net long positions is AED 650,000 and the sum of the net short positions is AED
+870,000. The overall net open position is short AED 220,000.
+The capital charge for general market risk is 8% of AED 220,000, or AED 17,600.
+Next, we must work out the specific risk charge.
+The capital charge for specific risk is 8% of AED 1,520,000 or AED 121,600.
+That lead to, overall capital charge for this portfolio is AED 17,600 + AED 121,000, or AED
+139,200.
+C. FX Risk – calculating the capital charge
+Below is an example of calculating the capital charge for FX risk.
+A bank has the following positions that have been converted at spot rates into its reporting
+currency, United Arab dirhams (AED).
+Currency JPY EUR GBP AUD USD Gold
+Net position +50 +100 +150 -20 -180 -35
+(AEDm)
+The higher of the sum of the net long and net short currency positions is AED 300m.
+The capital charge is therefore calculated as 8% of AED 300m, plus the net position in gold (AED
+35m):
+Capital charge = 8% of AED 335m = AED 26.8m
+Another example;
+A bank has the following positions that have been converted at spot rates into its reporting
+currency (AED)
+Currency EUR JPY GBP AUD SGD
+Net position +150 -100 +75 -30 -15
+(AEDm)
+The sum of the net long positions is AED 225m and the sum of the net short positions is -AED
+145m. The capital charge is calculated as 8% of the higher of these two positions, so the charge
+is 8% of AED 225m, or AED 18m.
+D. Commodity risk
+1. Simplified approach
+XYZ bank is exposed to a number of positions in the same commodity. The bank’s reporting
+currency is AED. The following positions are held in EUR:
+117

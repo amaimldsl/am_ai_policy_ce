@@ -1,0 +1,165 @@
+[Document: PII.pdf, Page 10 (Overlap)]
+CBUAE Classification: Public
+by the bank and well suited for, and tailored to, its business and its risk profile.
+50. The identification of risks should result in distinct types:
+(i) Pillar 1 risks that are not fully captured and that are covered by insufficient
+capital. For instance, the market risk capital consumption under Pillar 1 might
+not incorporate sufficient basis risk; and
+(ii) Risks that are not captured at all as part of the Pillar 1 framework.
+51. Each bank should not develop separate methodologies for risk measurement, if those
+are not employed for risk management. The Use Test assumes that the method and conclusion
+of the ICAAP should be coherent with the bank’s internal practices.
+52. To ensure an adequate assessment of high quality, each bank should establish, and
+implement an effective data quality framework, to deploy adequate processes, and control
+mechanisms to ensure the quality of data. The data quality framework should ensure reliable
+risk information that supports sound decision-making, covers all relevant risk data, and data
+quality dimensions.
+53. The next sections contain explanations and expectations on certain risk types (e.g.
+Business Model Analysis (BMA) and strategic risk, Interest Rate Risk in the Banking Book,
+and Credit concentration risk).
+A. Business Model Analysis (BMA) and Strategic Risk
+54. Business model analysis embodies the risk that the bank has failed to structure its
+organisation and operations (expertise, systems, and processes) in a way that leads to
+achieving its primary business and strategic objectives.
+55. Strategic risks arise when the bank’s business model, organisation structure,
+operations, and/or strategy are no longer adequate to deliver the objective of the bank as
+specified by the Board.
+56. The bank should conduct regular business model analysis (BMA) to assess its
+business and strategic risks to determine:
+(i) The ability of the bank’s current business model to deliver suitable results over
+the following 12 months;
+(ii) The sustainability of the bank’s strategy and its ability to deliver suitable/
+acceptable results over a forward-looking period of at least three (3) to five (5)
+years, based on the strategic plansand financial planning;
+(iii) The sustainability and sufficient diversification of income over time (three (3) to
+five (5) years). This analysis should consider the sources and levels of income
+and expenses; and
+(iv) The ability of the bank to deliver total financial data across the group and for
+each of its key business units (includes forward-looking performance and
+profitability).
+57. An effective BMA contains a through-the-cycle view of the sustainability of the business
+model in its current state and against a projected view of the bank’s funding structure, return
+on equity (ROE), capital supply, and capital demand, the effect this has on the product, service
+pricing, and resource requirements. The business planning should be clear, aligned, and
+158
+
+[Document: PII.pdf, Page 11]
+CBUAE Classification: Public
+integrated with the bank’s strategy, governance, risk-appetite statement, recovery plans,
+internal controls, stress tests, and internal reporting (MIS).
+58. Each bank should elaborate on the linkage and consistency between their strategic
+decisions, risk appetite, and the resources allocated for achieving those strategies. The bank
+should articulate the frequency of monitoring and quantifying changes in its financial
+projections (e.g. balance sheet, profit and loss, and concentrations) regularly to verify that they
+are consistent with the business model, risk appetite, and the achievement of the bank’s
+strategic goals.
+59. An effective BMA enables banks to identify vulnerabilities at an early stage and assess
+their ability to adapt to changes in their specific operating environment therefore helps to
+promote the safety and soundness of banks. A well-designed and comprehensive BMA
+approach provides banks with the basis to understand, analyse, assess the sustainability of
+their business models, enhance proactive, forward-looking operations, and strategy
+evaluation.
+60. Each bank’s business model should be based on analyses and realistic assumptions
+(stress tests, scenario analyses, and driver analyses, etc.) about the effect of strategic choices
+on financial and economic outcomes of operations performed. This will enable the bank and
+the Central Bank to understand the nature of the business model and the inherent risks. Each
+bank should perform an analysis that involves identifying, challenging the dependency of
+strategies on uncontrollable external factors, and assumptions (e.g. market interest rates,
+demand growth in the target customer markets, degree of competition in the markets, cost of
+entry, and compliance costs).
+61. An effective BMA addresses the banks’ ability to produce aggregate financial data
+across the banking group as a whole, and the bank solo level, for each of its main business
+units and business lines. Moreover, to make the best use of this data and transform it into
+relevant inputs, banks need to develop and use analytical tools including stress tests, peer
+group assessments, profitability forecasts and analysis, and scenario analyses.
+62. The documentation provided in support of the business model should contain an
+overview of the business activities of the bank and anoverview of the structure/organisational
+details of the bank. For example a brief description of the business model, present financial
+condition, any expected changes in the present business model, the expected future business
+environment, business plans, and the projected financial condition for the following year.
+63. The following additional information and documentation should be referenced (if not
+part of) the ICAAP report:
+(i) Bank’s strategic plan(s) with current-year, forward-looking forecasts, and
+underlying economic assumptions;
+(ii) Financial reporting (e.g. profit and loss (P&L), and balance sheet), covering the
+most recent period and the whole (forward-looking) ICAAP reporting period;
+(iii) Internal reporting (e.g. management information, capital reporting, liquidity
+reporting, and internal risk reporting);
+(iv) Recovery plans, including the results of resolvability assessment, if any, and
+identification of critical functions;
+(v) Third-party reports (e.g. audit reports, and reports by equity/credit analysts),
+states their main concerns and issues;
+159
+
+[Document: PII.pdf, Page 12]
+CBUAE Classification: Public
+(vi) A descriptive report on the main business lines generating revenues broken
+down by main products, services, other activities, geographies, and market
+position; and
+(vii) Peer group analysis segregated by competitor bank, product, or business lines
+targeting the same source of profits and customers (e.g. credit card businesses
+targeting consumers at a particular economic stratum in a specific country.
+64. Business model analysis may act as a base for the development of Reverse Stress
+Test scenarios.
+B. Credit Risk
+65. Credit risk is the risk of losses arising from a borrower or counterparty failing to meet
+its obligations as they fall due. Each bank should assess all its credit exposures and determine
+whether the risk weights applied to such exposures under the regulatory standardised
+approach for credit risk (Standardised Approach) are appropriate for the inherent risk of the
+exposures. Each bank should have the ability to assess credit risk at the portfolio level as well
+as at the exposure or counterparty level.
+66. To ensure that each bank has sufficient capital allocated for credit risk, each bank
+should compare their capital consumption under two methods for all credit exposures across
+all asset classes: (i) the Standardised Approach and (ii) an estimation under the foundation
+internal-rating based approach (F-IRB) in the Basel Framework (“IRB approach: risk weight
+functions”, CRE31).
+67. The Central Bank recognises that some banks may not have appropriately calibrated
+probability of defaults (PDs) for the calculation of the F-IRB approach. In the absence of such
+calibration, banks should rely on their 1-year PD used for IFRS provisioning purposes. Each
+bank should undertake this comparison at asset class level, where higher F-IRB numbers
+indicate additional required capital. Drivers of material differences between the two
+approaches should be explained.
+68. If a bank uses credit risk mitigation techniques (CRMT), it should analyse and evaluate
+the risks associated to such mitigation under Pillar 2 risks measurement. The bank should
+analyse potential effects, the enforceability and the effectiveness of such CRMT, in particular
+in the case of real estate collaterals in order to estimate residual credit risk with prudence.
+C. Market Risk
+69. Market risk is the risk of losses in on- and off-balance sheet positions arising from
+movements in market factors such as interest rates, foreign exchange rates, equity prices,
+commodities prices, credit spreads, and options volatilities. Each bank should have
+methodologies and limits that enable it to assess and actively manage all material market risks,
+at several levels of granularity including position, desk, business line, or firm-wide level.
+70. Under its ICAAP, each bank should assess its capital adequacy for market risk by
+considering methods other than the regulatory standardised approach for market risk. Each
+bank should start this assessment with the metrics already employed to measure market risk
+as part of regular risk management, including net open positions (NOP), value-at-risk (VaR),
+stressed VaR, and economic stress tests. The calibration of capital associated to Pillar 2 risks
+should be undertaken with prudence and should include risks such as concentration risk,
+market illiquidity, basis risk, and jump-to-default risk.
+71. Ultimately, market risk capital should be designed to protect the bank against market
+risk volatility over the long term, including periods of stress and high volatility. Therefore, each
+160
+
+[Document: PII.pdf, Page 13]
+CBUAE Classification: Public
+bank should ensure that such calibration include appropriate stressed periods. The analysis
+should be structured based on the bank’s key drivers of market risk, including portfolios, asset
+classes, market risk factors, geographies, product types and tenors.
+72. Each bank should analyse its amortised cost portfolio under Pillar 2, considering the
+difference between the market value against the book value.
+D. Operational Risk
+73. Operational risk is the risk of loss resulting from inadequate or failed internal processes,
+people, or systems, or external events. This definition includes legal risk and compliance risk
+but excludes strategic and reputational risk. The framework for operational risk management
+should cover the bank’s appetite and tolerance for operational risks, and the manner and
+extent to which operational risk is transferred outside the bank.
+74. Operational risk is a recurrent and a material source of losses for many banks but the
+existing approaches (the Basic Indicator Approach (BIA), the Standardised Approach (SA),
+and the Alternative Standardised Approach (ASA)) for calculating Pillar 1 operational risk
+capital may not reliably reflect the nature and scale of potential operational risk losses. The
+Pillar 1 Standardised Approach for operational risk uses gross income as a measure of capital.
+Gross income is a risk-insensitive proxy for operational risk capital, which may lead banks to
+underestimate the risk. This was evident during the economic downturn in 2009, when banks’
+income dropped, lowering their regulatory operational risk capital requirement, yet operational
+risks were either constant or even elevated in some cases. Therefore, banks should ensure
+that their Pillar 2 capital charge covers operational risks that are not captured by regulatory

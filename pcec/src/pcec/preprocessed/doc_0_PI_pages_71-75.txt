@@ -1,0 +1,211 @@
+[Document: PI.pdf, Page 71]
+CBUAE Classification: Public
+In contrast, the BCBS formula includes the maturity term M directly in the denominator of
+the supervisory discount factor, as follows:
+(1−𝑒−0.05𝑀)
+0.05×𝑀
+However, the BCBS formula for CVA capital also multiplies by M as part of the CVA capital
+calculation. As a result of that multiplication, the M in the denominator of the discount factor is
+cancelled out, making the overall result the same as that provided by DF in the Standards. The
+formulation in the BCBS text was designed to accommodate the fact that banks using internal
+models incorporate discounting into the calculation of counterparty exposure, and those banks
+are required to set the BCBS supervisory discount factor to one, while retaining the multiplication
+by M. However, since internal-model approaches are not used for regulatory capital purposes in
+the UAE, this flexibility is not needed, and the simpler version of the calculation has been specified
+in the Standards. If for operational or other reasons a bank finds using the Basel formulation of
+the discount factor more convenient, its use is acceptable, provided the bank also multiplies the
+resulting discount factor by M.
+If the bank uses single-name hedging only, the bank aggregates SNE across
+counterparties to calculate CVA capital using the following formula:
+2
+𝐾 =2.33√(∑0.5 𝑊 𝑆𝑁𝐸) +∑0.75 (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖 𝑖 𝑖
+𝑖 𝑖
+where K is CVA capital, and Wi is the risk weight applicable to counterparty “i” taken from the
+risk- weight table in the Standards.
+An important insight is that CVA risk has both a systematic component and an idiosyncratic
+component. The systematic component reflects the fact that credit risks of different counterparties
+tend to be at least somewhat correlated with one another and move in concert, due to a degree
+of dependence on the same general economic or market factors. This kind of common risk
+potentially can be hedged, but cannot be reduced through diversification across counterparties.
+The non-systematic, or idiosyncratic, component of CVA risk arises from factors that affect credit
+spreads but are specific to an individual counterparty. In contrast to the systematic risk, the
+idiosyncratic part of CVA risk can be reduced through diversification, as well as through hedging.
+If a CVA portfolio is diversified to include many counterparties, it is not very likely that they would
+all suffer idiosyncratic credit deterioration at the same time, so overall risk is reduced; gains on
+some may offset losses on others.
+The CVA capital calculation recognizes the difference between these two kinds of risk,
+and treats them differently in the calculation. The first term in the square root in the capital
+calculation reflects the systematic component of CVA variance:
+2
+(∑0.5 𝑊 𝑆𝑁𝐸)
+𝑖 𝑖
+𝑖
+The exposures are weighted and summed before squaring. Holding risk weights constant,
+spreading a given amount of exposure across more counterparties has no effect on this sum;
+although there will be more individual terms in the summation, the sum will be the same, and thus
+72
+
+[Document: PI.pdf, Page 72]
+CBUAE Classification: Public
+there are no gains from diversification. The second term in the square root reflects the
+idiosyncratic CVA risk:
+∑0.75 (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖
+𝑖
+Here, because the weighted exposures are squared before summing, spreading a given amount
+of exposure across more counterparties reduces the total, reflecting the beneficial, risk-reducing
+effects of diversifying the idiosyncratic component of counterparty credit risk.
+An alternative arrangement of the CVA capital calculation may provide additional intuition:
+73
+
+[Document: PI.pdf, Page 73]
+CBUAE Classification: Public
+2
+𝐾 =2.33√0.25(∑𝑊 𝑆𝑁𝐸) + 0.75∑ (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖 𝑖 𝑖
+𝑖 𝑖
+This form, which separates the factor of 0.5 from the rest of the systematic portion before it is
+raised to the second power, highlights the fact that the CVA calculation can be viewed as
+effectively a weighted average of two components, a systematic component with a weight of 25%,
+and an idiosyncratic component with a weight of 75%. The 25% weight on the idiosyncratic
+component is the theoretically correct weight if counterparties have a common systematic
+correlation with the broader market of 50%. Note that this form is simply a mathematical
+restatement of the capital calculation, yielding an identical answer for the stated case (that is,
+single-name hedging only, no index hedges).
+The portfolio-level calculation of CVA risk also recognizes that index hedges may reduce
+systematic CVA risk. The calculation including index hedges is:
+2
+𝐾 =2.33√(∑0.5 𝑊 𝑆𝑁𝐸 −∑𝑊 𝐻 𝐷𝐹 ) +∑0.75 (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖 𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖 𝑖
+𝑖 𝑖𝑛𝑑 𝑖
+where Hind is the notional of an eligible purchased index hedge instrument that is used to hedge CVA risk,
+(1−𝑒−0.05𝑀𝑖𝑛𝑑)
+𝐷𝐹 = is the applicable supervisory discount factor, and M is the maturity of the index hedge.
+𝑖𝑛𝑑 ind
+0.05
+Note that the effect of the index hedge appears only in the systematic component of CVA risk within the
+square root. Also, note that there is no correlation-related coefficient associated with the index hedges,
+analogous to the 0.5 or 0.75 coefficients for the single-name exposure terms. This reflects the fact that an
+index CDS closely tracks the market, with a correlation expected tobe near perfect. The correct coefficient
+on the index hedge terms in the model would be approximately 1.0, which is the reason for their omission.
+The Standards also includes a version of the formula that more closely resembles the full
+formula used in the BCBS framework:
+2
+2
+𝐾=2.33√(∑0.5𝑊 𝑖(𝐸𝐴𝐷 𝑖𝑇𝑜𝑡𝑎𝑙×𝐷𝐹 𝑖− 𝐻 𝑖×𝐷𝐹 𝐻) −∑𝑊
+𝑖𝑛𝑑
+𝐻
+𝑖𝑛𝑑
+𝐷𝐹 𝑖𝑛𝑑) +∑0.75 (𝑊
+𝑖
+(𝐸𝐴𝐷 𝑖𝑇𝑜𝑡𝑎𝑙×𝐷𝐹 𝑖− 𝐻 𝑖×𝐷𝐹 𝐻))
+𝑖 𝑖𝑛𝑑 𝑖
+In this form, the intermediate calculation of SNE is not used. However, the results of the
+calculation are exactly the same as those produced by the formulation using SNE.
+F. Maturity Calculation
+When computing the maturity M for a netting set, banks are required to use a weighted
+average, with notional values as the weights. For example, suppose a netting set with a particular
+counterparty includes two exposures, a 2-year swap with a notional amount of 200, and a 3-year
+swap with a notional amount of 400. The total notional value of the netting set is therefore
+200+400=600. The weighted average maturity would be calculated as:
+200 400
+𝑀 =2×( )+3×( )=2.67
+600 600
+74
+
+[Document: PI.pdf, Page 74]
+CBUAE Classification: Public
+G. Risk Weights
+Derivatives exposures and CVA hedges enter the CVA capital calculation with associated
+risk weights that depend on the credit rating of the bank’s counterparties for the covered
+exposures, or on the credit rating of the underlying entity for hedge instruments. In the case of
+unrated counterparties or entities, banks should follow the approach applied by the Central Bank
+for credit derivatives that reference unrated entities in the CCR Standards, treating them as BBB
+rated unless the counterparty or entity has an elevated risk of default, in which case they should
+be treated as BB rated.
+The CVA Standards follows the BCBS framework in specifying an array of risk weights
+that align with an external rating scale that is most similar to the one used by Standard and Poor’s.
+Use of this rating scale for purposes of the CVA Standards should not be viewed as an
+endorsement of that or any other external rating agency. Banks may use other ratings, and should
+map those ratings to the scale included in the Standards using the historical default experience
+for the various rating grades as published by the relevant external rating agencies.
+H. Risk-Weighted Assets
+The formula developed by the BCBS to determine CVA capital reflects a calibration based
+on the 8% minimum capital ratio applied in the Basel capital framework. To calculate a
+corresponding RWA amount, the Standards requires banks to multiply the calculated CVA capital
+by a factor of 12.5, which is the reciprocal of 8%. That is, 1/(0.08) = 12.5. This multiplication is
+appropriate even if the Central Bank applies a higher minimum capital requirement to the resulting
+RWA, because the purpose of the multiplication by 12.5 is to reverse the calibration implicitly used
+by the BCBS to produce a capital number in the original formulation.
+I. Threshold for the Simple Alternative
+As part of the finalization of Basel III, the BCBS introduced a materiality threshold, and
+provided an option for any bank whose aggregate notional amount of non-centrally cleared
+derivatives is less than or equal to 100 billion euro to choose to set its CVA capital equal to 100%
+of its capital for counterparty credit risk.
+To implement this option in the UAE, the Central Bank has established a materiality
+threshold of 400 billion AED. Banks with an aggregate notional amount of covered transactions
+less than or equal to 400 billion AED may choose to set CVA RWA equal to the bank’s RWA for
+counterparty credit risk as calculated under the Central Bank’s CCR Standards. The Central Bank
+has determined that this threshold is appropriate for the UAE, and is comparable to the 100 Billion
+Euro threshold included in Basel.
+If a bank chooses this CDS, it must be applied to all of the bank’s covered transactions,
+as required under the BCBS framework. In addition, a bank adopting this simple approach may
+not recognize the risk-reducing effects of CVA hedges.
+The Central Bank may prohibit a bank from using this simple alternative if the Central bank
+determines that CVA risk resulting from the bank’s derivative positions and SFTs materially
+contributes to the bank’s overall risk, and therefore warrants a more sophisticated approach.
+75
+
+[Document: PI.pdf, Page 75]
+CBUAE Classification: Public
+III. Frequently Asked Questions
+Question 1: Are all transactions with Central Counterparties excluded from the CVA capital
+calculation?
+No, only transactions for which the direct counterparty is a qualifying CCP (QCCP) are excluded.
+Note that under the CCR Standard, the bank must have a determination of non-objection from the
+Central Bank with regard to any specific QCCP.
+Question 2: Should debit valuation adjustment (DVA) be netted from CVA for the capital
+calculation?
+No, DVA cannot be taken into account to reduce regulatory CVA for the capital calculation.
+Question 3: What types of transactions can qualify as CVA hedges?
+A CVA hedge can be any financial instrument or contract that refers specifically to the
+counterparty by name, and whose value increases when the credit quality of the counterparty
+being hedged deteriorates. However, the Standards does not permit "nth-to-default" credit
+derivatives (index or basket credit derivatives in which payment is made only on the event of the
+“nth” default by a reference entity in the basket, rather than the first default) to be used as CVA
+hedges.
+Question 4: If a CDS serves as an eligible CVA hedge for one counterparty, does it also
+create counterparty exposure to the counterparty for the CDS?
+Yes, a CDS or other hedging instrument used for CVA hedging also can create counterparty
+exposure, and in that case requires capital to cover the associated risks presented by that
+counterparty, including CVA. For example, if a bank has CVA exposure to counterparty A, and
+hedges that exposure by purchasing a credit default swap from counterparty B, the CVA charge
+for exposure to counterparty A may be reduced, but the bank now likely is exposed to CVA risk
+on counterparty B.
+Question 5: For calculating the weighted average maturity, should we use the original deal
+notional values, or the effective notional values per the CCR standards?
+Either approach is acceptable, provided the bank is consistent in its selected approach.
+Question 6: If there is no valid netting set with a counterparty, how should average maturity
+be calculated?
+Average maturity is calculated at the netting set level, for each netting set with each counterparty.
+If netting is not valid, then the “netting set” consists of a single transaction, which will have its own
+maturity per the contractual terms of the transaction. Without valid netting, there may be as many
+“netting sets” for a counterparty as there are derivative transactions with that counterparty.
+Question 7: To compute weighted average maturity, we have conservatively treated each
+trade as a stand-alone netting set. Is this conservative treatment acceptable?
+Yes, this treatment is acceptable.
+Question 8: When calculating average maturity for a netting set, should we consider each
+asset class separately?
+Maturity calculations for CVA must be calculated for each netting set, reflecting all covered
+transactions within a given netting set, regardless of asset class.
+Question 9: If an entity has ratings from multiple rating agencies, which one should be
+76
+
+[Document: PI.pdf, Page 76]
+CBUAE Classification: Public
+used to determine the risk weight for CVA capital?
+If there are ratings from two different rating agencies that map to different risk weights, the higher
+risk weight should be applied. If there are ratings from three or more rating agencies that map to
+different risk weights, the two ratings that correspond to the lowest risk weights should be referred
+to. If these two ratings give rise to the same risk weight, that risk weight should be applied. If the

@@ -1,0 +1,123 @@
+
+managed and closely monitored.
+Typically, two distinct components of market risk are recognised:
+99
+
+[Document: PI.pdf, Page 99]
+CBUAE Classification: Public
+1. General Market Risk
+General market risk refers to changes in market prices resulting from general market
+behavior.
+For example, in the case of an equity position, general market risk can arise from a change in a
+stock market index. In the case of a fixed income instrument, general market risk is driven by a
+change in the yield curve.
+The capital charge for general market risk is designed to capture the risk of loss arising from
+adverse changes in market interest rates.
+There are two steps for calculating the general market risk capital charge:
+Step 1: Map each interest rate position to a time band
+Interest rate positions have different price sensitivities to interest rate shifts depending on their
+residual maturity. Interest rate shifts are changes in the yield curve. Each interest rate position is
+mapped to a time band.
+There are two methods for mapping interest rate positions:
+a) Maturity method
+This Method maps each position to a maturity ladder based on the residual maturity of each
+position.
+Fixed weightings are used to adjust the positions for sensitivity to the changes in interest rates as
+per the relevant table under the standard.
+Time Bands for theMaturity Method
+ Fixed income instruments with low coupons have higher sensitivity to changes in the yield
+curve than fixed income instruments with high coupons, all other things being equal.
+ Fixed income instruments with long maturities have higher sensitivity to changes in the
+yield curve than fixed income instruments with short maturities, all other things being
+equal.
+This is why the maturity method uses a finer grid of time bands for low coupon instruments (less
+than 3%) with long maturities.
+Fixed and Floating Rate Instruments
+Fixed rate instruments are mapped according to the residual term to maturity. Floating
+rate instruments are allocated according to the residual term to the next repricing date.
+b) Duration method
+This method maps each position according to its duration to a duration ladder. Duration is
+a measure of the average maturity of a debt instrument’s cash flows from both coupons and
+principal repayment. It is expressed in years and allows debt instruments with different coupons
+and maturities to be compared. The duration method allows banks the necessary capability to
+calculate price sensitivity based on an instruments’ duration (with the supervisory consent).
+Step 2: Calculate the capital charge
+100
+
+[Document: PI.pdf, Page 100]
+CBUAE Classification: Public
+The capital charge is the sum of four components calculated from amounts in each time band:
+ A charge on the net short or long position in the whole trading book:
+ A vertical disallowance charge:
+It is a charge, which is levied on the matched position in each time band. This charges accounts
+for basis risk and gap risk, which can arise because each time band includes different instruments
+with different maturities. Gap risk, or interest mismatch risk, is the risk of losses due to interest
+rate changes that arise when the periods over which assets and liabilities are priced, differs. This
+charge is levied on the matched positionin each time band at:
+ 10% if the bank uses the maturity method
+ 5% of the bank uses the duration method
+The matched position is the smaller absolute value of the long and short positions. For example:
+if you have a long position of 1,200 and a short position of 700, the matched position is 700 (the
+net open position is long 500).
+ A horizontal disallowance charge:
+It is a charge against correlation among the different time bands. It is allowed for correlation to
+offset positions across different time bands.
+There are three rounds of horizontal disallowance:
+ Round 1 levies a charge on the matched position in each zone. The charge is:
+o 40% for zone 1
+o 30% for zone 2 and zone 3
+ Round 2 levies a charge of 40% on the matched positions between adjacent zones. The
+adjacent zones are:
+o Zone 1 and zone 2
+o Zone 2 and zone 3
+ Round 3 levies a charge of 100% on the matched position between zone 1 and zone 3.
+ Where applicable, a net charge for positions in options.
+2. Specific Risk
+Specific risk refers to changes in market prices specific to an instrument owing to factors
+related to the issuer of that instrument.
+Specific risk does not affect foreign exchange- and commodities-related instruments. This
+is because changes in FX rates and commodities prices are dependent on general market
+movements.
+101
+
+[Document: PI.pdf, Page 101 (Overlap)]
+CBUAE Classification: Public
+The charge for specific risk protects against price movements in a security owing to factors
+related to the individual issuer, that is, price moves that are not initiated by the general market.
+a) Offsetting
+When specific risk is measured, offsetting between positions is restricted.
+ Offsetting is only permitted for matched positions in an identical issue.
+ Offsetting is not allowed between different issues, even if the issuer is the same. This is
+because differences in coupon rates, liquidity, call features, and so on, mean that prices
+may diverge in the short run.
+b) Specific Risk – Capital Charge
+Under the standardised approach, market risk exposures are categorised according to
+external credit assessments (ratings) and based on those assessments a capital charge is
+assigned. This broad methodology for calculating the specific risk capital charge was not changed
+by Basel 2.5.
+The capital charges assigned to those external credit assessments are similar to the credit
+risk charges under the standardised approach to credit risk.
+Categorisation of Securities
+Consistent with other sections, a lower specific risk charge can be applied to government
+paper denominated in the domestic currency and funded by the bank in the same currency. The
+national discretion is limited to GCC Sovereigns. This use of national discretion aligns the Market
+Risk Standards with the similar treatment under the credit risk standards. The Market Risk
+Standard is also aligned to the Credit Risk Standard when it comes to the transition period
+permitted for USD funded and denominated exposures of the individual Emirates.
+Qualifying includes securities issued by public sector entities and multilateral development
+banks, plus other securities that are rated with investment grades by two rating agencies. Unrated
+securities can also be included, subject to supervisory approval (such as securities deemed to be
+of comparable investment quality).
+Other securities comprise of securities that do not meet the definition of government or the
+definition of qualifying securities. This category receives the same risk charge as non-investment
+grade borrowers under the standardised approach to credit risk. However, it is recognised that for
+some high yielding debt instruments, an 8% specific risk charge may underestimate the specific
+risk.
+Calculating the Capital Requirement for Market and Credit Risk
+The standards contain different processes for calculating the capital requirement for
+market and credit risk. For credit risk, assets are first risk weighted (by multiplying them by a risk
+weight) and then a capital requirement is applied. In contrast, for market risk, exposures are
+simply multiplied by a specific risk capital charge. For an exposure with a given external credit
+assessment (rating), the specific risk capital charge is the same as the capital requirement
+calculated under the standardised approach for credit risk.
+102

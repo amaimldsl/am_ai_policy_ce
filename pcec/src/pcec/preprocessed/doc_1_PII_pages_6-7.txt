@@ -1,0 +1,165 @@
+[Document: PII.pdf, Page 5 (Overlap)]
+CBUAE Classification: Public
+plus approach. According to this, the bank’s total capital requirements include the minimum
+Pillar 1 regulatory capital requirements, plus the capital required to cover Pillar 2 risks. As a
+result, the ICAAP should result in additional capital requirements specific to each bank’s
+business model.
+18. Board and Senior Management are responsible to deliver a comprehensive, effective,
+and accurate assessment of capital adequacy. Each bank is consequently required to conduct
+an ICAAP supported by appropriate methods and procedures to ensure that adequate capital
+covers all material risks. Each bank should adopt progressively more sophisticated
+approaches in measuring risks to keep up with the business model evolvement, the risk profile,
+size of the bank, and appropriate market practice. The key objective is for each bank to be
+transparent and demonstrate the relevance of the approach taken in relation to the nature of
+their activities and risk profile to the Board and the Central Bank.
+19. The frequency of reporting to the Board is expected to be at least quarterly, but,
+depending on the size, complexity, business model, risk types of the institution, and the market
+environment, reporting might need to be more frequent to ensure timely management actions.
+The quarterly reporting should comprise the internal calculation of the capital ratios (Pillar 1
+and Pillar 2 under business-as-usual (BAU) and under stress scenarios), which includes
+determining the surplus/ shortfall of capital. Stress scenarios and internal forecasts only need
+to be updated on a quarterly basis, if required. Nevertheless, the ICAAP reporting to the
+Central Bank remains an annual exercise. However, if the quarterly results deviate significantly
+compared to the results of the ICAAP report as submitted to the Central Bank, then the bank
+should inform the Central Bank of the updated capital plan (including reasons for the
+deviations, capital ratios and mitigation actions).
+20. The ICAAP should be supported by robust methodologies and data. All models used
+directly or indirectly in the ICAAP should follow the bank’s model management framework, in
+compliance with the Central Bank Standards and Guidance. The data employed in the ICAAP
+should be comprehensive, reliable, follow rigorous quality checks, and control mechanisms.
+Scope
+21. Each bank is expected to ensure the effectiveness and consistency of the ICAAP at
+each level, with a special focus on the group level for local banks. The ICAAP of these banks
+is expected to assess capital adequacy for the bank on a stand-alone basis, at regulatory
+consolidated level, and for the entities of the group. The ICAAP should primarily evaluate the
+capital requirement and capital adequacy of the bank at group level, following the regulatory
+consolidation. However, each bank should analyse whether additional risks arise from the
+group structure of the bank. The group structure must be analysed from different perspectives.
+To be able to effectively assess and maintain capital adequacy across entities, strategies, risk
+management processes, decision-making, methodologies, and assumptions applied should
+be coherent across the entire group. Identified additional risks may increase the capital
+requirement on group level accordingly.
+22. Capital transferability within the group should be assessed conservatively and
+cautiously, which should be considered in the ICAAP. Each bank should have a process to
+ensure capital transferability that addresses any restrictions on the management's ability to
+transfer or allocate capital into or out of the bank's subsidiaries (for example contractual,
+commercial, regulatory, or statutory/legal restrictions that may apply). The capital allocation or
+distribution and the approval process between the bank’s holding company (group/parent) and
+the subsidiaries in the banking group should be well defined. The analysis should also consider
+risks arising from structural foreign currency positions relating to assets, liabilities, and equity.
+23. A bank that has domestic or foreign subsidiaries or branches is expected to evaluate
+the difference between the ICAAP determined for the bank (including its subsidiaries) and the
+153
+
+[Document: PII.pdf, Page 6]
+CBUAE Classification: Public
+ICAAP at solo level (without subsidiaries). Therefore, the bank should identify any potential
+and additional risks both at consolidated group level and at solo bank level. The analysis
+should also address international operations that have jurisdictional capital requirements or
+restrictions.
+24. Additional risks may also arise from entities that are not consolidated under Pillar 1,
+e.g. investments in commercial subsidiaries, including Special Purpose Vehicles (SPV), and
+insurance companies. Each bank should evaluate whether the required Pillar 1 capital
+adequately covers all risks arising from those entities. The evaluation should consider all risk
+types, including credit risk, reputational risk, and step-in risk, etc. The analysis should not be
+limited to branches and subsidiaries but should also consider affiliates, if material. Such
+analysis should not be limited to local banks only, also foreign banks operating in the UAE
+should identify and analyse all their dependencies on parent companies through centralised
+risk management/ shared services etc.
+Use Test
+25. The ICAAP and the bank’s business strategy form a feedback process. While the
+ICAAP has to reflect the bank’s business strategy, and business decisions. The bank should
+implement a formal process to analyse whether the outcomes of the ICAAP influence the
+business strategy. Banks should determine which additional capital requirements under Pillar
+1 and Pillar 2 in business as usual BAU and stress scenarios on the top of the minimum
+regulatory requirements would be adequate and whether the bank’s risk appetite is adequate
+or requires to be adjusted accordingly. The formal feedback process should also include links
+to the banks’ business decisions, risk management process (e.g. using the ICAAP
+methodologies, results in the approval process, limit setting, strategic processes, such as
+capital planning or budgeting, and performance measurement). For that purpose, the Board
+and Senior Management should lead and approve the assumptions, methodology, framework,
+and outcome of the ICAAP. The usage of the ICAAP within the organisation and its alignment
+with strategic decisions is referred to as the‘Use Test’.
+26. The ICAAP should have an interactive relationship with other key processes within the
+bank, including but not limited to, (i) business strategies, (ii) financial budgeting, (iii) risk
+management, (iv) risk appetite setting, and (v) stress tests. Metrics related to capital allocation
+and capital consumption should be included in the banks’ risk appetite. Conversely, the metrics
+pertaining to business management and to risk management should take into consideration
+the capital plan.
+27. Conceptually, this circular process should be articulated according to the following
+illustration and guidance. Each bank should design its own iterative process:
+(i) The Board, Senior Management and the business lines should provide their
+business plan and budget to construct the ICAAP;
+(ii) The risk management function should analyse the feasibility and the risks
+associated to such business plan;
+(iii) The ICAAP should result in an estimation of the adequate level of capital given
+the business and risk assumptions. This should be approved by the Board and
+by Senior Management; and
+(iv) In return, the ICAAP and capital requirements should feed back to the business
+lines and the risk management function in order to steer the strategy of the bank.
+28. The stakeholders should regularly interact with each other during the production of the
+ICAAP in order to (i) obtain consistent forward-looking capital projections, and (ii) use capital
+154
+
+[Document: PII.pdf, Page 7]
+CBUAE Classification: Public
+projections consistently in their own decision-making. The stakeholders should include, but not
+be limited to, the Board, Senior Management, the business lines, the risk management
+function, and the finance function.
+29. Each bank should demonstrate its appropriate usage of the ICAAP via the production
+of thorough documentation, reporting covering the process, methodology, decision-making for
+capital allocation, and strategy. Each bank should document the overall ICAAP design,
+including key elements and the mechanism by which they interact with each other. Such
+components should include, but not be limited to, the business strategies, risk appetite
+statement, risk measurement methods, stress tests programme, and reporting across the
+Group.
+30. Regular reporting should be constructed to measure and monitor Pillar 2 risks in
+addition to the annual ICAAP report exercise. Adequate metrics and associated limits should
+be designed in relation to the bank’s size and complexity.
+31. The Central Bank shall evaluate evidence that the bank has embraced the process for
+business rather than regulatory reasons. Evidence should be provided that the management
+has, through the ICAAP, made the business more efficient or less risky.
+V. Capital Planning
+32. Each bank should operate above the minimum capital requirements set by the Central
+Bank. Each bank should have a capital plan approved by the Board. The objective of capital
+planning is to ensure that:
+(i) Each bank is compliant with minimum regulatory requirements;
+(ii) The bank is viable and able to endure external economic changes; and
+(iii) Each bank’s capital is calibrated to its risk profile in order to absorb unexpected
+losses through time, including periods of economic downturn.
+33. The ICAAP should be designed as a tool to adequately support these objectives. Each
+bank’s management is expected to develop and maintain an appropriate strategy that ensure
+the level of capital and the process to estimate such level should be commensurate with the
+nature, scope, scale, size, complexity, and risks of each bank.
+34. The ICAAP should be forward-looking taking into account both internal and external
+drivers over a period covering three (3) to five (5) years. The capital planning should take into
+account the bank’s business plan, its strategic development and the economic environment.
+35. The multi-year capital forecast should be assessed and calibrated through two
+perspectives:
+(i) Pillar 1: The bank’s ability to fulfil all of its capital-related regulatory, supervisory
+requirements, and demands; and
+(ii) Pillar 2: The bank’s ability to cope with capital demands beyond that of the
+regulatory requirements, in accordance to its risk profile.
+36. Both perspectives should be function of the bank’s business plan. In addition, the
+second perspective should incorporate a more granular, specific, and accurate measurement
+of risks. Both perspectives should take into account the current, expected economic
+environment, and consider the occurrence of stressed events.
+37. If the bank identifies a shortfall in capital pertaining to either Pillar 1 or Pillar 2. It is
+155
+
+[Document: PII.pdf, Page 8]
+CBUAE Classification: Public
+expected to consider measures to maintain adequate capitalisation, reverse the trend, review
+its strategy, and risk appetite.
+38. For each internal stress test scenario for capital planning purposes, each bank is
+expected to consider credible, quantifiable management actions that the bank could practically
+take to mitigate any capital impact of stress scenarios. Such mitigating actions for ICAAP
+stress scenarios may differ fromactions related to recovery planning. The timing and execution
+of these management actions should be supported by appropriate trigger points of the bank’s
+capital position, which may be informed by their internal risk appetite for capital adequacy.
+When the bank’s capital ratios fall below its internal risk appetite, it is expected that the bank
+is able to execute the necessary measures, i.e. the bank should explain how the capital
+adequacy would be ensured/ restored (e.g. via a capital contingency plan). In assessing the
+effectiveness of a management action, each bank should also consider the perceived
+reputational impact (e.g. as viewed by the market, customers, government etc.) on taking such
+an action in a stress. The results should be disclosed in the ICAAP report with and without

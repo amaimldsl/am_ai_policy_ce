@@ -1,0 +1,51 @@
+[Document: PI.pdf, Page 146]
+CBUAE Classification: Public
+VII. Frequently Asked Questions
+Question 1: What is meant by “international standards” in connection with the definition
+of default?
+The most widely accepted international standards for assessing the capital adequacy of banks,
+i.e. the Basel framework, incorporate specific definitions of default for wholesale and retail credit.
+ECAI definitions of default should broadly reflect those definitions, although they need not
+precisely duplicate the Basel definitions.
+Question 2: Can definitions of default be adjusted to take into account local practices or
+institutional or market conditions?
+Yes, as the Guidance notes, certain adjustments for local conditions may be appropriate,
+particularly to account for default conditions that should be interpreted as demonstrating that a
+borrower is “unlikely to pay.” As the BCBS has noted in guidance to banks, some flexibility in the
+definition of default is appropriate to reflect the particular circumstances of each jurisdiction.
+Question 3: Must the quantitative back testing of ratings outcomes incorporate an analysis
+of recovery rates in all cases?
+No, the quantitative analysis conducted should be tailored as appropriate to demonstrate the
+performance of the actual rating methodology applied by the ECAI. Specifics of the analysis may
+differ depending on the methodology; for example, if the rating methodology solely reflects default
+probabilities rather than loss rates, then recovery studies may not be relevant.
+Question 4: Can unsolicited ratings be used for bank capital calculations?
+No, the Central Bank of the UAE has determined that unsolicited ratings do not provide an
+appropriate basis for capital calculations by banks in the UAE.
+Question 5: Does the recognition of certain rating agencies by the Central Bank imply an
+endorsement of those ECAIs?
+No, recognition reflects only a determination that an ECAI and its ratings meet the requirements
+to be used for regulatory capital calculations as articulated in Central Bank standards and
+regulations.
+Question 6: Does the requirement that rating methodologies be established for at least one
+year preclude new rating methodologies from being introduced?
+No, this requirement does not preclude the development and implementation of new rating
+methods by an ECAI. However, use of ratings for capital adequacy calculations (as opposed to
+other uses of ratings) requires a demonstration of the reliability of the ratings. Demonstration of
+reliability takes time; one year of experience is the minimum requirement, and longer periods of
+observation, perhaps operating in parallel with previous rating methodologies, are preferable.
+Question 7: Do ratings correspond to specific risk weights for capital, and if so where is
+that correspondence found?
+Yes, the purpose of recognition of ECAIs and the alignment of their ratings as specified in the
+Guidance is to facilitate the use of these ratings for risk-weight assignments in regulatory capital
+adequacy calculations. Please consult the relevant Standards (such as the Standards on Credit
+Risk) for risk weights corresponding to each rating category.
+147
+
+[Document: PI.pdf, Page 147]
+CBUAE Classification: Public
+VIII. List of Abbreviations
+BCBS: Basel Committee on Banking Supervision
+ECAI: External Credit Assessment Institution
+IOSCO: International Organization of Securities Commissions
+148

@@ -1,0 +1,222 @@
+
+two are different, the higher of the two risk weights should be applied.
+Question 10: If a counterparty is within a legal organizational structure that includes
+multiple entities with different ratings, which rating should be used for the CVA capital
+calculation?
+The bank should use the rating for the entity that is actually obligated as a counterparty to the
+bank under the terms of the transactions within the applicable netting set.
+Question 11: Is there any special CVA treatment for counterparties that have a zero risk
+weight for credit risk under the risk-based capital standards?
+No, they are treated like all other counterparties (other than CCPs). Note that CVA risk is different
+from the more general type of credit risk treated under the risk-based standards. The risk weights
+in the CVA standards are intended to reflect credit spread risk, and generally differ from the risk
+weights used for other capital requirements. Forall counterparties, apply the CVA risk weight that
+corresponds to the rating of the entity, or if unrated, apply the approach specified for unrated
+counterparties.
+Question 12: We prefer to map unrated counterparties to CCC asa conservative treatment;
+is that acceptable, or must they be mapped to BBB?
+The bank is free to apply a more conservative treatment to unrated counterparties, and should do
+so if it considers the more conservative treatment to be appropriate. However, the bank should
+be consistent in its approach, and should not apply this process in a way that might reduce
+exposure for the CVA calculation relative to the treatment stated in the standards.
+Question 13: Should all SFT exposures be considered in scope for the CVA calculation, or
+only those that create gross SFT assets per the leverage ratio exposure measure? Will SFT
+exposures be classified separately for the computation of Credit RWAs in CAR
+computation?
+All SFTs should be reflected in the CVA calculation, whether or not they create non-zero gross
+SFT asset values for the leverage ratio.
+Credit risk capital for SFT exposures is addressed as part of the general credit risk standards for
+risk-based capital adequacy requirements.
+Question 14: When determining exposure for SFTs, are haircuts to be applied to the fair
+value of the securities?
+No, haircuts should not be applied – use the fair value without haircuts.
+Question 15: Can the weighted average maturity for SFT exposures be based on the
+exposure amounts?
+Yes, that approach is acceptable, provided it is applied consistently.
+Question 16: Can we consider Global Master Repo Agreements signed with banks in the
+UAE as qualifying master netting agreements (MNA) for SFT exposure computation?
+Banks should apply the requirements for valid netting agreements as stated in the Central Bank’s
+Standards for Counterparty Credit Risk to determine whether netting is valid in any particular
+case, rather than using broad categorical criteria.
+77
+
+[Document: PI.pdf, Page 77]
+CBUAE Classification: Public
+Question 17: Will the Central Bank establish a specific quantitative materiality threshold
+to determine whether SFTs are in scope for CVA capital?
+The Central Bank does not intend to establish a specific threshold, but instead will determine the
+materiality of CVA risk from SFTs on a case-by-case basis, taking into account all relevant factors
+that may affect the CVA risk posed by SFTs at each bank.
+Question 18: The CVA guidelines require computation of single-name exposure (SNE),
+while the CCR Standards is based on hedging sets; different names may be included in
+the same hedging set. Does this create an inconsistency?
+It does not. Note that the single “name” for CVA capital is the derivatives or SFT counterparty. It
+does not depend on any underlying reference names for credit derivatives or other transactions
+with a given counterparty. Suppose for example that a bank has two credit derivatives that depend
+on the performance of Company A and Company B (that is, those are the underlying reference
+names for the credit derivatives), and that the bank’s counterparty for both credit derivatives is
+another bank, Bank C. Under the CCR standards, assuming that the netting requirements are
+met, the two credit derivatives would be in a single hedging set within a netting set with Bank C.
+For calculation of CVA capital, the SNE would reflect the bank’s CCR exposure to the single
+“name” that is Bank C; neither the names nor the ratings of Company A or Company B enter the
+CVA calculation directly. The CVA risk-weight for the bank’s CVA capital calculation would depend
+on the credit rating of Bank C, not the ratings of either Company A or Company B.
+Question 19: Should we multiply the sum of replacement cost and potential future
+exposure by the same 1.4 scaling factor used in the SA-CCR standards issued by Central
+Bank?
+Yes, that is correct; the same multiplicative scaling factor of 1.4 should be used for the CVA
+calculation as well.
+Question 20: Can banks used the Basic Approach for CVA (BA-CVA) recently published by
+the Basel Committee on Banking Supervision in December 2017?
+Not at this time. The Central Bank may consider the BA-CVA at a later date.
+Question 21: Bank ask in case of calculating discounted counterparty exposure is a double
+count and will inflate CVA Capital charge given SA-CCR EAD already factors in maturity
+adjustment while computing adjusted notional which is product of trade notional &
+supervisory duration?
+The use of the discount factor in the CVA capital charge does not result in double counting. While
+there is superficial similarity between the supervisory duration (SD) adjustment in SA-CCR and
+the discount factor (DF) in CVA, they are actually capturing different aspects of risk exposure.
+The use of SD in SA-CCR adjusts the notional amount of the derivatives to reflect its sensitivity
+to changes in interest rates, since longer-term derivatives are more sensitive to rate changes than
+are shorter-term derivatives. In contrast, the use of DF in the CVA calculation reflects the fact that
+a bank is exposed to CVA risk not only during the first year of a derivative contract, but over the
+life of the contract; the DF term recognizes the present value of the exposure over the life of the
+contract. Thus, these two factors, although they have similar functional forms and therefore
+appear somewhat similar, are not in fact duplicative.
+Question 22: Further elaboration on "equivalent hedging instrument that directly
+references the counterparty being hedged"?
+This could be any instrument or contract that refers specifically to the counterparty by name, and
+whose value increases when the credit quality of the counterparty being hedged deteriorates.
+However, it does not include "nth-to-default" credit derivatives.
+Question 23: What if a Bank hold a CVA liability in our books, charged to P&L, once we
+78
+
+[Document: PI.pdf, Page 78]
+CBUAE Classification: Public
+have the additional capital requirement on CVA, will this liability be netted off against the
+CVA capital requirement, or an add back to the capital for this P&L charge will be
+incorporated?
+Incurred CVA losses should be used toreduce EAD.
+IV. Examples
+A. CVA capital and RWA with no hedging
+For this example, a bank has only two derivatives counterparties, Galaxy Financial with a AA
+credit rating, and Solar Systems with a BB credit rating. The bank computes counterparty credit
+risk (CCR) exposure as 800 for Galaxy, and 200 for Solar, following the requirements of the CCR
+Standards. The bank uses the standardised approach rather than the simple alternative to
+compute CVA capital and RWA.
+The bank calculates the weighted average maturity for exposures to Galaxy at 3 years, and for
+Solar 1 year. In this example, the bank has no eligible hedges for CVA risk for either counterparty.
+Example: Derivatives Portfolio for the Bank
+# Counterparty Name Credit Rating CCR Exposure Maturity
+1 Galaxy Financial AA 800 3 years
+2 Solar Systems BB 200 1 year
+The bank must compute the supervisory discount factor, DF, for each of the two counterparties.
+i
+Using the formula in the Standards, the calculations are:
+(1−𝑒−.05×3)
+𝐷𝐹 = =2.786
+1 .05
+(1−𝑒−.05×1)
+𝐷𝐹 = =0.975
+2 .05
+Using these supervisory discount factors, the bank calculates single-name exposure for each
+counterparty, taking into account the fact that there are no eligible CVA hedges:
+𝑆𝑁𝐸 =𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙×𝐷𝐹 =800×2.786=2229
+1 1 1
+𝑆𝑁𝐸 =𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙×𝐷𝐹 =200×0.975=195
+2 2 2
+The bank must also determine the appropriate risk weights for each of these single-name
+exposures. Because Galaxy is rated AA, the appropriate risk weight is 0.7% from Table 1 of the
+Standards. Solar is rated BB, so the corresponding risk weight is 2.0%. That is, W =0.007, and
+1
+W 2=0.02.
+The bank’s calculation of CVA capital must use the formula in the Standards:
+2
+𝐾 =2.33√(∑0.5 𝑊 𝑆𝑁𝐸) +∑0.75 (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖 𝑖 𝑖
+𝑖 𝑖
+Substituting in the relevant values for Galaxy and Solar, the calculation is:
+79
+
+[Document: PI.pdf, Page 79]
+CBUAE Classification: Public
+𝐾 =2.33√(0.5×𝑊 ×𝑆𝑁𝐸 +0.5×𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2
+1 1 2 2 1 1 2 2
+=2.33√(0.5×0.007×2229+0.5×0.02×195)2+0.75×(0.007×2229)2+0.75×(0.02×195)2
+=2.33√(7.80+1.95)2+0.75×(15.60)2+0.75×(3.90)2
+=2.33√95.06+182.52+11.41=2.33√288.99=39.61
+In the final step, the bank must compute RWA for CVA using the multiplicative factor of 12.5 as
+required in the Standards:
+CVA RWA = K × 12.5 = 39.61 × 12.5 = 495.16
+B. CVA capital and RWA with a single-name hedge
+The bank from the previous example has the same portfolio, but in this example enters into a
+CDS with a third party that provides protection on Galaxy Financial, to protect against a potential
+increase in credit spreads that would reduce the fair value of transactions with Galaxy if Galaxy’s
+credit quality deteriorates. The notional value of the CDS is 400, with a maturity of 2 years. Thus,
+the calculation must now take into account the impact of an eligible single-name CVA hedge, with
+H
+1
+= 400 and M
+h
+= 2.
+The bank must compute the supervisory discount factor for the CVA hedge:
+(1−𝑒−.05×2)
+𝐷𝐹 = =1.903
+𝐻 .05
+The presence of the CVA hedge for Galaxy changes. Galaxy’s SNE calculation:
+𝑆𝑁𝐸 =(𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙×𝐷𝐹 )−(𝐻 ×𝐷𝐹 )
+1 1 1 1 𝐻
+=(800×2.786)−(400×1.903)=2228.7−761.3≈1467
+The remainder of the computations proceed as before, with the new value for SNE 1:
+𝐾 =2.33√(0.5×𝑊 ×𝑆𝑁𝐸 +0.5×𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2
+1 1 2 2 1 1 2 2
+=2.33√(0.5×0.007×1467+0.5×0.02×195)2+0.75×(0.007×1467)2+0.75×(0.02×195)2
+=2.33√(5.13+1.95)2+0.75×(10.27)2+0.75×(3.90)2
+=2.33√50.13+79.10+11.41=2.33√140.64=27.63
+In the final step, the bank computes RWA for CVA using the multiplicative factor of 12.5 as
+required in the Standards:
+CVA RWA = K × 12.5 = 27.63 × 12.5 = 345.38
+This example illustrates the impact of CVA risk mitigation, as the presence of the eligible CVA
+hedge reduces CVA capital and RWA compared to the previous example with no hedging.
+80
+
+[Document: PI.pdf, Page 80]
+CBUAE Classification: Public
+C. CVA capital and RWA with an index hedge
+The bank from the previous example has the same portfolio, including the single-name hedge of
+Galaxy Financial, but now enters into an index CDS that provides credit spread protection against
+a basket of twenty named entities. The notional value of the index CDS is 300, with a maturity of
+1.5 years. The bank’s calculation of CVA capital now takes into account the impact of an eligible
+index hedge, which reduces systematic CVA risk. The relevant form of the calculation from the
+Standard is:
+2
+𝐾 =2.33√(∑0.5 𝑊 𝑆𝑁𝐸 −∑𝑊 𝐻 𝐷𝐹 ) +∑0.75 (𝑊 𝑆𝑁𝐸)2
+𝑖 𝑖 𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖 𝑖
+𝑖 𝑖𝑛𝑑 𝑖
+Because the bank has only one index hedge, the summation for index hedges inside the
+calculation has only a single (Wind Hind DFind) term. As stated above, the notional value of the
+hedge is Hind=300. The bank needs to calculate the appropriate supervisory discount factor for
+the index CDS, based on the maturity Mind=1.5 years:
+(1−𝑒−.05×1.5)
+𝐷𝐹 = =1.445
+𝑖𝑛𝑑 .05
+To determine the risk weight, the bank must determine the credit rating for each of the twenty
+reference names in the index basket, the corresponding risk weight for each rating (from Table 1
+in the Standard), and the weighted average of those risk weights using the relative notional values
+of the component names for the weights. Suppose that through this process of analysis, the bank
+determines that the weighted average is 1.2% (slightly worse than BBB). As a result, Wind=0.012.
+The impact of risk mitigation from the index CDS enters the calculation through the term:
+𝑊 𝐻 𝐷𝐹 =0.012×300×1.445=5.20
+𝑖𝑛𝑑 𝑖𝑛𝑑 𝑖𝑛𝑑
+The bank can now calculate CVA capital, taking into account the impact of the index hedge that
+mitigates systematic risk. Many of the relevant values are unchanged from the previous example,
+but there is the addition of the index hedge effect on systematic CVA risk:
+𝐾 =2.33√(0.5×𝑊 ×𝑆𝑁𝐸 +0.5×𝑊 ×𝑆𝑁𝐸 −𝑾 𝑯 𝑫𝑭 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2+0.75×(𝑊 ×𝑆𝑁𝐸 )2
+1 1 2 2 𝒊𝒏𝒅 𝒊𝒏𝒅 𝒊𝒏𝒅 1 1 2 2
+=2.33√(0.5×0.007×1467+0.5×0.02×195−𝟎.𝟎𝟏𝟐×𝟑𝟎𝟎×𝟏.𝟒𝟒𝟓)2+0.75×(0.007×1467)2+0.75×(0.02×195)2
+=2.33√(5.13+1.95−𝟓.𝟐𝟎)2+0.75×(10.27)2+0.75×(3.90)2
+=2.33√3.53+79.10+11.41=2.33√94.04=22.59
+As before, the bank computes RWA for CVA using the multiplicative factor of 12.5 as required in
+the Standard:
+CVA RWA = K × 12.5 = 22.59 × 12.5 = 282.38
+81

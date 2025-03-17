@@ -1,0 +1,226 @@
+[Document: PI.pdf, Page 21]
+CBUAE Classification: Public
+Documents required to be submitted for the application to issue new Tier Capital
+Instruments
+1. The CN-01 form should be completed, filled and signed by the bank's Chief Executive Officer
+(CEO), Chief Financial Officer (CFO), Head of Internal Audit, Head of Compliance and Head
+of Risk.
+2. Full terms and conditions, together with the risk factors relating to the instrument.
+i. Instruments of Islamic banks issued through an SPV must also provide the contract
+between the bank and the SPV
+3. Shareholder Approval:
+i. Tier capital instruments require shareholder approval.
+ii. The approval shall relate to an issuance of the specific planned Tier capital instrument
+(Additional Tier 1 or subordinated Tier 2). Moreover, the approval should clearly mention
+that the instrument is subordinated; coupon payments may not be paid under certain
+circumstances, and contains a Point of Non-Viability (PONV) condition.
+4. Legal opinion letters:
+i. Legal Opinion of an independent appropriately qualified and experienced lawyer that the
+terms and conditions are compliant with the requirements detailed in the Capital
+Regulations, Standards and Guidance.
+ii. Legal opinion of an independent appropriately qualified and experienced lawyer that the
+obligations contained in terms and conditions will constitute legal, valid, binding and
+enforceable obligations.
+iii. Legal opinion of an independent appropriately qualified and experienced lawyer that the
+Self-Assessment of the issuing bank meets the Conditions and the Capital Regulations
+5. Capital planning and forecast:
+The Business as Usual (BAU) case should be formulated, such as:
+a) Amount of assumed issuance and the expected issuance date (e.g. Q1 2018).
+b) Capital structure: % in CET1, AT1, Tier 2 and deductions (using Basel 3 capital
+components)
+c) Five (5) year forecast of the Balance sheet, Profit & loss P&L, Risk Weighted Assets RWA.
+d) Amortization of Tier Capital Issuances: Subordinated Tier 2 in the last 5 years prior to
+maturity and AT1 Instruments, if they fall under a grandfathering rule, for example, 10%
+per year.
+e) Key assumptions and analysis (e.g. on balance growth, asset structure, conversation
+factors CCF for off balance, operational and market risk, total assets growth, of which
+businesses that will be the main driver for such growth) and CRWA (i.e. on balance sheet
+exposure in different industry) in numerical as well as qualitative aspect.
+6. Stress Testing Scenarios:
+The Stress Testing should be submitted in form of a presentation including the underlying data in
+Excel sheet.
+Two Scenarios should be provided as part of the presentation:
+a) Top 2 customers defaulting (point in time analysis permitted: End of Year): Definition of
+top 2 customers; name of top 2 customers; exposure (including on and off balance
+exposures); what type of eligible collateral and value of collateral, with two sub-scenarios:
+i. With average provisioning level of similar assets, and
+ii. 75% provisioning level
+b) Central Bank’s Macro-Economic Stress Test
+ Assumptions and results of the latest Macroeconomic stress tests performed by the
+Central Bank.
+22
+
+[Document: PI.pdf, Page 22]
+CBUAE Classification: Public
+7. Non-Funding Notice: Neither the bank nor a related party over which the bank exercises
+control or significant influence can have purchased the instrument, nor can the bank directly
+or indirectly have funded the purchase of the instrument.
+Private Placements
+ Offer letter is required for private placements, including risk factors and the bank's financial
+and risk situation.
+ Market Conformity Analysis: The bank has to provide evidence on why the pricing of the
+instrument conforms to the market rate.
+II. Frequently Asked Questions (FAQ)
+Question 1: The last bullet point mentions “Liability accounted instruments must set the
+loss absorption trigger at a level of 7.625%.” Is it Central Bank decision to have this trigger
+set at 7.625%? Are any triggers likely to be set for equity accounted instruments?
+It is Central Bank’s decision for the trigger level. However, the trigger level derives directly from
+Basel. Minimum capital requirement plus 0.625%. Note, that the consultation documents do not
+consult on a trigger for equity accounted AT1. However, in particular in conjunction with the
+development of a recovery/ resolution regulation, the introduction of a trigger level may also be
+discussed again, as pointed out in the presentation that was circulated with the Tier capital
+instrumentdocuments.
+Question 2: Point of Non-Viability mentions that “A Point of Non-Viability means that the
+Regulator has determined that the issuer has or will become, Non-Viable without: (a) a
+Write-down; or (b) a public injection of capital (or equivalent support).”. We need
+clarification as to whether the PONV will be determined by the regulator or the issuer.
+Also, please advise under what circumstance will partial Write-down be permitted. The
+regulator determines whether the bank is non-viable or not. Partial write-down will be permitted
+only for exceptional cases. Explicit examples will not be provided to prevent any expectation.
+Question 3: Appendix A: Application Process 1.4: It is mentioned that “Stress Testing with
+a stress scenario of top 2 customers are defaulting”. Since many UAE banks have
+concentrations in this area, what loss rate needs to be applied in this stress scenario?
+Current status quo is two sub scenarios: 75% loss rate and average loss rate of the bank for such
+customers.
+23
+
+[Document: PI.pdf, Page 23]
+CBUAE Classification: Public
+III. Credit Risk
+I. Introduction
+This section provides the guidance for the computation of Credit Risk Weighted Assets
+(CRWAs) under the Standardised Approach (SA). This guidance should be read in conjunction
+with the Central Bank’s Standard on Credit Risk.
+A bank must apply risk weights to its on-balance-sheet and off-balance-sheet items using
+the risk- weighted assets approach. Risk weights are based on credit ratings or fixed risk weights
+and are broadly aligned with the likelihood of obligor or counterparty default.
+A bank may use the ratings determined by an External Credit Assessment Institution
+(ECAI) for credit ratings. In general, banks should only use solicited ratings from recognised
+ECAIs for the purposes of calculating capital requirement under the SA. However, in exceptional
+cases, the bank may use unsolicited ratings with the Central Bank approval.
+Note that all exposures subject to the SA should be risk weighted net of specific
+allowances and interest in suspense. The guidance must be read in conjunction with
+Securitisation, Equity Investments in Funds, Counterparty Credit Risk and Credit Valuation
+Guidance.
+The guidance set out in this section applies to all exposures in the banking book.
+Exposures in the trading book should be captured as part of a bank’s market risk capital
+calculations.
+II. Clarification and Guiding Principles
+A. Claims on Sovereigns
+UAE Sovereigns: The UAE Sovereign asset class consists of exposures to Federal
+Government and Emirates governments.
+Federal Government includes all the UAE Federal entities and Central Bank of the UAE
+(Central Bank). Banks have transition period of 7 years from the date of implementation for
+exposures to Federal Government that receive a 0% RW, if such exposures are denominated in
+AED or USD and funded in AED or USD. However, any claim on UAE Federal Government in
+foreign currency other than USD should be risk weighted according to the published credit risk
+rating of UAE Federal Government. In the absence of solicited rating for UAE Federal
+Government, unsolicited ratings are permissible for assigning risk weights for UAE Federal
+Government exposures.
+Emirates Governments’ exposures include exposures to the Ruler and the Crown Prince
+of each emirate acting in the capacity as ruler and crown prince, as well as exposures to the
+ministries, municipalities and other Emirates government departments. Banks have transition
+period of 7 years from the date of implementation for exposures to Emirates Governments that
+receive a 0% RW, if such exposures are denominated in AED or USD and funded in AED or USD.
+Any claim on Emirates governments in a foreign currency other than USD should be risk weighted
+according to the rating of the Emirate Government.
+GCC Sovereigns: If the regulators in GCC exercise their discretion to permit banks in
+their jurisdiction to allocate a lower risk weight to claims on that jurisdiction’s sovereign,
+24
+
+[Document: PI.pdf, Page 24]
+CBUAE Classification: Public
+denominated in the domestic currency of that jurisdiction and funded in that currency, the same,
+lower risk weight may be allocated to such claims (e.g. 0% assigned to the Government of Saudi
+Arabia if the exposure is denominated and funded in SAR). This is limited only to GCC sovereign
+exposures and this lower risk weight may be extended to the risk weighting of collateral and
+guarantees (refer to section on credit risk mitigation).
+All other exposures to sovereigns should be risk weighted according to the sovereign
+rating even if the national supervisory authority adopts preferential risk weights.
+B. Claims on Public Sector Entities (PSEs)
+Non-Commercial PSEs
+Non-Commercial PSEs include administrative bodies responsible to the UAE Federal
+Government, to the Emirates Governments, or to local authorities and other non-commercial
+undertakings owned by the Federal governments, Emirates Governments or local authorities.
+These non-commercial PSEs do not have specific revenue- raising powers or specific institutional
+arrangements the effect of which is to reduce their risks of default. The risk of non-commercial
+PSE exposures is not equivalent to the risk of sovereign exposures and hence the treatment of
+claims on sovereigns cannot be applied to non-commercial PSE. However, in exceptional cases,
+a Non-Commercial PSE may receive the same treatment as its sovereign, if the entity has proven
+formal arrangements in place to the effect that there is no distinction between the risk of the entity
+and the risk of its sovereign. The Central Bank's GRE List would reflect this accordingly.
+If the UAE borrower satisfies the criteria in paragraph 13, the risk weight shall be the same
+as that for claims on banks. However, the preferential treatment for short-term claims on banks
+may not be applied. In particular, unrated non-commercial PSE qualify for 50% risk weight. The
+criteria are based on the principle that non-commercial PSEs qualify for lower risk weights
+because they have significantly lower risk than a commercial company does. In addition, banks
+are specifically required to ensure compliance with other aspects of the banking regulations when
+lending to these entities, for example, but not limited to, the Central Bank large exposure
+regulations.
+The alternative criteria listed are to be applied in determining whether an entity qualifies
+for treatment as a non-commercial PSE. The Central Bank provides a list (so-called GRE List) to
+all the banks in the UAE which includes non-commercial PSEs.
+i. Direct government (Federal or Emirate) ownership >50% directly or through a qualifying
+PSE that itself is majority owned by government.
+ii. An entity whose complete activities are functions of a government.
+iii. Its services are of public benefit including when services are sold directly to the public
+(e.g. electricity and water). The service provided should be of substantial public benefit
+and the entity should have a monopolistic nature and there should be a significant
+likelihood that the government would not let the entity go bankrupt.
+iv. Not listed on any stock exchange.
+v. Provides internal services to parent or sister companies only, and the parent company is
+itself a non-commercial PSE.
+vi. The function of the company is of a non-commercial nature and does not operate in a
+competitive market.
+25
+
+[Document: PI.pdf, Page 25]
+CBUAE Classification: Public
+vii. Does not operate overseas.
+In the case of a UAE sovereign guarantee given to a non-commercial PSE, with the Central
+Bank approval, the guarantee may be treated as eligible credit risk mitigation (CRM) to reduce
+the exposure provided the bank ensures compliance with the entire minimum regulatory
+requirements and operational requirements stated in the credit risk standard.
+Government Related Entities (GRE)
+These are commercial undertakings that are fully owned or more than 50% in ownership
+by Federal governments, or by Emirates governments. As these entities function as a corporate
+in the competitive markets even though the government is the major shareholder, Central Bank
+requires such exposures to be classified under GRE and get the same treatment of claims on
+corporate with the appropriate risk weights based on the credit rating of the entity.
+All banks must comply with the latest version of the GRE list for classification and risk
+weighting of entities. Banks that have information that would lead to the addition (or removal) of
+an entity to (or from) the GRE list must submit such information to the Central Bank. All banks
+must comply with the GRE list unless any addition or removal of entities is reflected in the GRE
+list.
+Banks Internal audit/compliance department should perform regular reviews to ensure
+the PSE and GRE classification complies with the Central Bank GRE list.
+C. Claims on multilateral development banks (MDBs)
+Exposures to MDBs shall in general be treated similar to claim on banks, but without using
+the preferential treatment for short term claims. However, highly rated MDBs, which meet certain
+criteria specified below, are eligible for a preferential 0% risk weight.
+i. Very high quality long-term issuer ratings, i.e. a majority of an MDB's external
+assessments must be AAA;
+ii. Shareholder structure is comprised of a significant proportion of sovereigns with long-
+term issuer credit assessments of AA- or better, or the majority of the MDB's fund-
+raising is in the form of paid-in equity/capital and there is little or no leverage;
+iii. Strong shareholder support demonstrated by the amount of paid-in capital contributed
+by the shareholders; the amount of further capital the MDBs have the right to call, if
+required, to repay their liabilities; and continued capital contributions and new pledges
+from sovereign shareholders;
+iv. Adequate level of capital and liquidity (a case-by-case approach is necessary in order
+to assess whether each MDB's capital and liquidity are adequate), and
+v. Strict statutory lending requirements and conservative financial policies, which would
+include among other conditions a structured approval process, internal
+creditworthiness and risk concentration limits (per country, sector, and individual
+exposure and credit category), large exposures approval by the board or a committee
+of the board, fixed repayment schedules, effective monitoring of use of proceeds,
+status review process, and rigorous assessment of risk and provisioning to loan loss
+reserve.
+26
+
+[Document: PI.pdf, Page 26]
+CBUAE Classification: Public
+MDBs currently eligible for 0% risk weight are the World Bank Group comprised of the
+International Bank for Reconstruction and Development, the International Finance Corporation,
+the Multilateral Investment Guarantee Agency and the International Development Association,
+the Asian Development Bank, the African Development Bank, the European Bank for

@@ -1,0 +1,155 @@
+
+X. Frequently-Asked Questions (FAQ)
+Question 1: What defines independent validation?
+Answer: Independent validation can be performed by an independent function of the bank. However, in
+some instances an external validation/ review is required. For large banks, external validations are
+strongly encouraged, if not explicitly required.
+Question 2: What are sustainable business model criteria?
+Answer: Sustainable business models may be defined in different ways. For the purpose of this
+guidance, a bank will be considered to have a sustainable business model if it meets all the following
+criteria:
+(i) The bank generates strong and stable returns, which are acceptable given its
+risk appetite and funding structure;
+(ii) The bank does not have any material asset concentrations or unsustainable
+concentrated sources of income;
+171
+
+[Document: PII.pdf, Page 24]
+CBUAE Classification: Public
+(iii) The bank has a strong competitive position in its chosen markets and its strategy
+is likely to reinforce this strength;
+(iv) The bank’s forecasts are based on plausible assumptions about the future
+business environment; and
+(v) The bank’s strategic plans are appropriate given the current business model and
+management’s execution capabilities.
+Question 3: What is the definition of model?
+Answer: A quantitative method, system, or approach that applies statistical, economic, financial, or
+mathematical theories, techniques, and assumptions to process input data into quantitative estimates.
+Question 4: Who should be the owner of ICAAP, Finance or Risk Management?
+Answer: Multiple committees and working groups have to be involved in the ICAAP. However, Risk
+Management should have the ultimate responsibility for the final ICAAP outcome report, the ICAAP
+being in substance a risk evaluation process. The Board must approve the ICAAP, its outcomes, and
+the proposed mitigation actions.
+Question 5: The bank uses multi-period ST scenarios over three years. Which reporting year
+(Y1/2/3) shall be reported in the Pillar 2 template in Appendix 2 – ICAAP: Executive summary
+table (Table 3)?
+Answer: Banks using multi-period stress scenarios should include the most severe period of the most
+severe stress test results (reverse stress scenarios not considered). All other banks that perform a
+simpler point in time or 1-period stress scenario should include the most severe ST results (reverse
+stress scenarios not considered). In addition, the evaluation of Pillar 2 risks and stress test impact as of
+the reportingdate is mandatory for all banks.
+Question 6: Does the bank have to present the capital contingency plan as part of ICAAP report?,
+If the bank plans to inject capital, is it required to have two capital plans, one with and a second
+plan without capital injection?
+Answer:
+(i) The bank must have a Board-approved capital contingency policy. The actual
+capital contingency plan as a response to the ICAAP results has to be in line
+with the capital contingency policy and the ICAAP report should contain at least
+an overview of the capital contingency plan.
+(ii) If the bank plan to change its capital base, the bank should have one capital
+plan, which reflects the capital injections (and reflects the source of injection).
+Injections can be considered if approved by Senior Management, if part of the
+official bank’s capital plan and if the Central Bank is informed on the planned
+capital injections. A stress test scenario has to show the impact if the injections
+do not materialise.
+Question 7: What is the ICAAP submission timeframe and can an extension be granted?
+Answer: The ICAAP submission should comply with the schedule specified in Section VIII - ICAAP
+Submission and Approval. An extension of the ICAAP report submission date will only be granted in
+exceptional cases, by the bank’s Central Bank reviewer.
+Question 8: Can banks implement the IRB methodology in full (i.e. A-IRB) while reporting credit
+172
+
+[Document: PII.pdf, Page 25]
+CBUAE Classification: Public
+risk under the ICAAP, and is it mandatory?
+Answer: The bank should apply whichever approach is deemed appropriate for their size and complexity,
+as the ICAAP is an internal process. The evaluation of whether the Pillar 1 capital is adequate for the
+bank's risk is mandatory. The F-IRB approach is an accepted approach. With the implementation of
+IFRS9 banks have a PD for every exposure, which may be used to calculate the F-IRB capital. It is,
+however, not mandatory to fully implement the F-IRB approach. Comparing regulatory capital
+requirements with those determined using the F-IRB does indicate to what extent regulatory Pillar 1
+capital requirements may be insufficient. The comparison between the F-IRB approach and the
+regulatory standardised approach for credit risk has to be performed on an asset class level and the
+greater capital requirement should be applied in the ICAAP.
+The F-IRB should follow the floor on the PD of 0.03% and apply a fixed 45% LGD. The bank may
+consider certain eligible collateral to reduce the LGD accordingly. The bank shall not use own
+estimations of the LGD under the F-IRB.
+Question 9: Is it required to calculate a capital charge against the financial risks from climate
+change in the ICAAP? Is any calculation methodology prescribed for this?
+Answer: The bank should understand risks related to climate change and their impact on the
+sustainability of the bank and the risks of its business strategy. Banks should develop adequate
+methodologies to quantify the risk with models sophistication depending on size and business model.
+Stress tests and scenario analysis should be explored. Banks should consider assessing their green
+asset ratio (GAR) which measures a bank's “green assets” as a share of its total assets as an initial tool.
+The risk identification process should determine whether the risk arising from climate change is a
+material capital risk for the bank.
+Question 10: How commercial / non-commercial subsidiaries have be treated as part of the
+ICAAP exercise? And how to treat investments in insurance subsidiaries?
+Answer: One of the key components of the ICAAP is to determine whether the capital requirement under
+the Standardised Approach is adequately reflecting the risk. Additional risks arising from investment in
+subsidiaries should be addressed and assessed in the ICAAP. The bank should consider any subsidiary
+including commercial, non-commercial, and insurance subsidiaries.
+Question 11: The ICAAP has to be performed on consolidated level. Is it an additional
+requirement to perform the ICAAP also at solo level or should the ICAAP also have a solo-level
+analysis?
+Answer: The ICAAP needs to address additional risks that are not covered (or not fully covered) under
+Pillar 1. The ICAAP is expected to assess capital adequacy for the bank on a stand-alone basis, at
+regulatory consolidated level, and for the entities of the group. The ICAAP should evaluate the capital
+requirement and capital adequacy of the bank at group level, following the regulatory consolidation.
+However, each bank should analyse whether additional risks arise from the group structure of the bank.
+The ICAAP guidance lays out the importance to consider the group structure when evaluating the banks'
+capital adequacy, in Section IV "ICAAP Methodology, Scope and Use Test”. The bank should be in a
+position to report, measure and manage risks arising from its subsidiaries, branches, group entities and
+from the consolidation process. The ICAAP should reflect the results of the bank’s analysis.
+Consequently, the analysis should consider all relevant levels of the group structure (consolidated, solo,
+entity level, and including significant affiliate investments). Additional risks may have to be addressed
+as a specific additional capital add-on.
+Question 12: Does the bank require a separate capital plan approved by the Board, or is it
+sufficient to have the approved ICAAP that includes the capital plan?
+173
+
+[Document: PII.pdf, Page 26 (Overlap)]
+CBUAE Classification: Public
+Answer: The capital management policy and the ICAAP complement each other. The policy sets the
+framework and the capital management plan describes the capital management strategy and the steps
+to achieve it in compliance with the policy. The capital management plan can be a separate document.
+However, the ICAAP report should display the full picture, including an overview of the capital
+management policy and the capital management plan related to the ICAAP outcomes.
+Question 13: If a bank reports regulatory operational risk capital requirements using the BIA, can
+the Standardised Approach be used to quantify the potential additional operational risk charge
+under Pillar 2 if the capital requirement is higher under the SA compared to the BIA?
+Answer: The ICAAP is an internal process and the bank must determine the most adequate methodology
+to quantify the extent to which regulatory capital requirements for operational risk fail to adequately
+address the true extent of its potential operational risk losses.
+Question 14: Can the bank use the market risk stress test template as shared for Central Bank
+Econometric Stress test exercise in its ICAAP?
+Answer: The bank should determine the most adequate approach to quantify its risks. The quantification
+methodology should obtain internal approval. The methodology needs to be explained, validated and
+reasoned in detail as part of the methodology development and continuous model monitoring process.
+Question 15: Does the Internal Audit (IA) review required under Section IX - Internal Control
+Review contradict the requirement in Appendix 3.4, which requires banks to disclose the Internal
+Audit findings in the ICAAP report?
+Answer: The Central Bank is of the opinion that IA is not suffering a conflict of interest by reviewing a
+bank’s ICAAP and by disclosing its general findings and findings specific to the ICAAP in the ICAAP
+report. IAis involved twofold in the ICAAP report:
+(i) IA has to perform a review of the ICAAP (process) periodically as part of the
+audit function.
+(ii) IA has to perform the prescribed review for each ICAAP, to be submitted within
+3 months of the submission.
+The ICAAP report shall contain the most recent (available) audit findings, their status, and actions taken.
+(Note, that in the Capital Standards, para 13 under Introduction and Scope requires an annual review of
+the capital framework.)
+Question 16: Why does the Standard/ Guidance not address any specifics related to Islamic
+banking?
+Answer: The ICAAP is an internal process and the bank should determine the most adequate
+methodology to quantify risks arising for Islamic banks in general and Islamic banking products
+specifically.
+Question 17: Being a branch of an international bank, is a third party validation required, as this
+is already conducted at the parent company/ group level covering risk frameworks, systems and
+models?
+Answer: Branches and subsidiaries of foreign banks are required to validate the risk valuation
+methodologies deployed in their UAE operations. If the branch or subsidiary is applying head office
+methodologies, these should nevertheless be validated on branch or subsidiary level. In addition, the
+branch or subsidiary has to have a full understanding of the applied methodologies as it cannot fully rely
+on the head office.
+174

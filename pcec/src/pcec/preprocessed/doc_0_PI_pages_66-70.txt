@@ -1,0 +1,155 @@
+
+banks in a robust and prudent manner at this time. Accordingly, the Central Bank has determined
+that CVA approaches that rely on banks’ internal CVA models, or that use inputs derived from
+those models, are not appropriate for use in regulatory capital calculations by UAE banks.
+67
+
+[Document: PI.pdf, Page 67]
+CBUAE Classification: Public
+II. Clarifications
+A. Scope
+The CVA standards covers all of a bank’s non-centrally cleared derivative exposures. In
+the context of the CVA standards, derivatives are instruments whose value is based upon the
+price or value associated with an underlying reference entity. In general, derivatives exhibit the
+following abstract characteristics:
+ The transactions generate a current exposure or market value.
+ The transactions have an associated random future market value based on market
+variables.
+ The transactions have contractual terms that provide for an exchange of payments
+or an exchange of a financial instrument (including commodities) against payment.
+ The transactions are undertaken with an identified counterparty.
+Other common characteristics of derivative transactions may include the following:
+ Collateral may be used to mitigate risk exposure, and may be inherent in the nature
+of some transactions.
+ Netting may be used to mitigate risk or to simplify operational aspects of the
+transaction.
+ Positions are frequently valued (most commonly on a daily basis), with the value
+dependent on market variables or their changes.
+ Margin payments may be employed, with margin held in various forms, and with
+re-margining agreements that allow for the adjustment of margin either daily or at
+some other established frequency.
+In addition, the Central Bank has used national discretion to include securities financing
+transactions (SFTs) – transactions such as repurchase agreements, reverse repurchase
+agreements, security lending and borrowing, and margin lending transactions – within the scope
+of the CVA calculation. However, as the Standards note, if the Central Bank determines that SFT
+exposures at any individual bank are not a material source of CVA risk, the Central Bank may
+direct the bank to exclude SFTs from CVA capital calculations.
+Consistent with the BCBS framework, all derivative transactions for which a central
+counterparty is the direct counterparty are excluded from the CVA capital calculation. Banks must
+calculate RWA for those centrally cleared transactions as specified in the Central Bank’s CCR
+Standards.
+B. CVA Overview
+The Central Bank’s approach to minimum required capital for CVA risk is based closely on the
+standardised approach to CVA risk capital described in Basel III: A global regulatory framework
+for more resilient banks and banking systems (BCBS 189, December 2010, rev June 2011). A
+few elements also draw on clarifications and other information provided in BCBS publications
+responding to Frequently Asked Questions, or clarifications contained in Basel III: Finalising
+post-crisis reforms published by the BCBS in December 2017.
+68
+
+[Document: PI.pdf, Page 68]
+CBUAE Classification: Public
+Regulatory CVA may differ from the CVA calculated under IFRS or other accounting
+standards. In particular, regulatory CVA excludes any consideration of the effect of changes in a
+bank’s own credit risk as perceived by the market. This means that regulatory CVA calculations
+do not consider so-called debit valuation adjustments, or DVA.
+C. Hedging
+The calculation allows banks to recognize the risk mitigating benefits of certain eligible
+CVA hedges. The Standards allows only certain types of instruments to serve as eligible hedges
+for CVA, specifically an index credit default swap (CDS), or a single-name CDS, single-name
+contingent CDS, or equivalent hedging instrument that directly references the counterparty being
+hedged. An option on an eligible CDS (that is, a swaption on such a CDS) can be eligible, provided
+the swaption does not contain a “knock out” clause that terminates the swaption in the case of a
+credit event. Eligible hedges that are included in the CVA capital charge are removed from the
+bank’s market risk capital calculation.
+Other types of instruments must not be reflected as hedges within the calculation of the
+CVA capital charge, even if the bank views them as mitigating counterparty credit risk. For
+example, tranched or nth-to-default CDS instruments are not eligible CVA hedges. These instead
+must be treated as any other similar instrument in the bank’s portfolio for regulatory capital
+purposes.
+In addition to the restrictions regarding the types of instruments that a bank may recognize
+as CVA hedges, only transactions entered into explicitly for the purpose of hedging the
+counterparty credit spread component of CVA risk can be eligible hedges. This means, for
+example, that a bank might have a single-name CDS referencing an OTC counterparty in its
+portfolio, and yet that CDS would not be eligible to offset the single-name CVA exposure within
+the CVA calculation if that CDS was not originated or acquired as part of the bank’s process to
+manage CVA risk for that particular counterparty.
+To clearly demonstrate intent to manage CVA risk, the bank should have a documented
+CVArisk management process or program, so that any CVA hedging transaction is demonstrably
+consistent with the design and operation of that program, was entered into with the intent to
+mitigate the counterparty credit spread component of CVA risk, and continues to be managed by
+the bank in a manner consistent with that intent. The Central Bank expects that any bank wishing
+to recognize the benefits of hedges in CVA capital calculations will maintain policies and
+procedures to govern this process. If the Central Bank concludes that a bank’s CVA hedging
+policies and procedures are inadequate, the Central Bank may limit the bank’s ability to recognize
+hedges in CVA capital calculations.
+Another key principle for CVA hedging is that risk mitigation should transfer risk to third
+parties external to the bank. Some banks use internal transactions to transfer risk between
+different desks or business units within the bank as part of a broader risk management program,
+with these transactions typically subject to some type of internal transfer pricing mechanism. Such
+transactions are permissible and can be a valid component of the management of CVA risk within
+a bank, but the risk ultimately should be transferred out of the bank, which generally requires a
+corresponding external transaction to reduce CVA risk.
+69
+
+[Document: PI.pdf, Page 69]
+CBUAE Classification: Public
+D. CVA Capital Concept
+The standardised approach for calculation of CVA capital is a form of a value-at-risk
+calculation, an approach commonly used to set capital requirements. Changes in CVA can be
+viewed as following some distribution, such as the normal distribution illustrated in Figure 2.
+Conceptually, the general approach to CVA capital is to estimate a level of CVA losses that should
+be expected to be exceeded no more than a given percentage of the time. The CVA capital
+calculation reflects a value-at-risk calculation with a one-year, 99% confidence level for CVA risk.
+Assuming a normal distribution (or equivalently, a log-normal distribution for the underlying risk
+factors), losses can be expected to be within 2.33 standard deviations of the mean 99% of the
+time. That concept is illustrated in Figure 2, where the 1% negative tail of the distribution has been
+highlighted (in this case,  is the standard deviation).
+Figure 2
+Accordingly, the general form of the CVA capital calculation depends on the standard
+deviation of CVA losses:
+CVA capital = 2.33 × 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑑𝑒𝑣𝑖𝑎𝑡𝑖𝑜𝑛 𝑜𝑓 𝑐ℎ𝑎𝑛𝑔𝑒𝑠 𝑖𝑛 𝐶𝑉𝐴
+= 2.33 × √𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒 𝑜𝑓 𝑐ℎ𝑎𝑛𝑔𝑒𝑠 𝑖𝑛 𝐶𝑉𝐴
+The normality assumption, together with a desired 99% confidence level, is the reason for the
+inclusion of a 2.33 multiplication factor in the CVA capital formula. Other elements of the CVA
+capital calculation reflect a theoretical approximation of the variance of changes in CVA.
+E. CVA Capital Formula
+In the BCBS publication of Basel III, banks using the standardised approach to calculate
+CVA capital are to use the following formula:
+The Central Bank’s CVA calculation, while based directly on the BCBS formula and
+producing the same result, uses different (generally simpler) notation. The nature of, and
+motivation for, the main notational differences are explained in this section.
+70
+
+[Document: PI.pdf, Page 70]
+CBUAE Classification: Public
+A minor difference in notation is the omission of the multiplicative term “√ℎ” from the BCBS
+formulation. This term was included by the BCBS to allow the CVA capital calculation to be
+adjusted to an appropriate prudential horizon. However, in the ultimate calibration of the CVA
+calculation the horizon h was established at one year, and hence h=1. Since the square root of 1
+is also 1, and the term is a multiplicative factor, it has no impact on the resulting capital. Some
+other jurisdictions have recognized this fact, and have omitted the √ℎ from the CVA calculation
+for simplicity in their published capital regulations. The Central Bank has followed this approach.
+Another difference between the BCBS notation and thepresentation of the formula in the
+Standards is the concept of “single-name exposure” or SNE. Under the Standards, a bank
+calculates SNE for each counterparty as:
+𝑆𝑁𝐸 = 𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙×𝐷𝐹 − 𝐻 ×𝐷𝐹
+𝑖 𝑖 𝑖 𝑖 𝐻
+In this calculation, 𝐸𝐴𝐷𝑇𝑜𝑡𝑎𝑙 is the bank’s total exposure to counterparty “i” across all derivatives
+netting sets plus the co𝑖 unterparty exposure measure arising from SFTs with that counterparty,
+and H is the total notional of eligible single-name CVA hedges for that counterparty. (The symbol
+i
+H is used in place of B in the BCBS formula, an appropriate adjustment of notation since it reflects
+hedge instruments. DF is a supervisory discount factor, described further below.) In effect, the
+discounted value of the individual counterparty exposure is offset by the discounted value of
+eligible single-name CVA hedges for that counterparty. The Central Bank regards SNE as a useful
+concept, because it reflects single-name exposure net of hedges. Its use also simplifies
+presentation of the CVA capital formulas.
+The form of the supervisory discount factor DF in the Standards differs somewhat from
+the corresponding BCBS notation. Specifically, DF is defined in the CVA Standards as:
+(1−𝑒−0.05𝑀)
+𝐷𝐹 =
+0.05
+This form of DF is in effect the continuous-time present value of an M-period annuity of one AED
+discounted at a rate of 5%.
+71

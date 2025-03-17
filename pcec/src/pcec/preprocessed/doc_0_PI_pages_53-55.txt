@@ -1,0 +1,157 @@
+
+Effective notional(IR) = 10,105,550
+EUR
+In summary:
+Maturity category-
+Hedging Hedging Set level
+Time Bucket level
+set Effective Notional D j,k Effective Notional D j,k (IR)
+HS 1 (USD) 3 78,693,868
+59,269,963
+(Partial offset)
+2 -36,253,849
+3 -10,105,550 10,105,549.58
+HS 2 (EUR)
+Aggregation of the calculated add-ons across different hedging sets:
+(No offset between hedging
+Effective Notional(IR) = 59,269,963 + 10,105,550 = 69,375,513
+sets)
+The asset class is interest rates; thus the applicable Supervisory factor is 0.50%. As a result:
+Add-on = SF × Effective Notional = 0.005 × 69,375,513 = 346,878
+Supervisory Correlation Parameters
+Correlation is not applicable to the interest rate asset class, and there is no other asset class in
+the netting set in this example.
+Add-on Aggregation
+For this netting set, the interest rate add-on is also the aggregate add-on because there are no
+trades assigned to other asset classes. Thus, the aggregate add-on = 346,878
+54
+
+[Document: PI.pdf, Page 54]
+CBUAE Classification: Public
+Multiplier
+The multiplier is given by:
+multiplier = min { 1; Floor+(1-Floor) × exp [(V-C) /(2 ×(1-Floor)×Add-on agg)] }
+= min {1; 0.05 + 0.95 × exp [60,000 / (2 × 0.95 × 346,878]}
+=1
+Final Calculation of PFE
+In this case the multiplier is equal to one, so the PFE is the same as the aggregate Add-On:
+PFE = multiplier × Add-on
+agg
+= 1 × 346,878 = 346,878
+3. EAD Calculation
+The exposure EAD to be risk weighted for counterparty credit risk capital requirements purposes
+is therefore
+EAD = 1.4 * (RC + PFE) = 1.4 x (60,000 + 346,878) = 569,629
+B. Illustration 2
+Consider a netting set with three credit derivatives: one long single-name CDS written on Firm A
+(rated AA), one short single-name CDS written on Firm B (rated BBB), and one long CDS index
+(investment grade). All notional amounts and market values are denominated in USD. This netting
+set is not subject to a margin agreement and there is no exchange of collateral (independent
+amount/initial margin) at inception. The table below summarizes the relevant contractual terms of
+the three derivatives.
+Reference Rating Market value
+Trade entity / reference Residual Base Notional (thousands)
+Nature Position
+# index entity maturity currency (thousands)
+name
+Protection
+Single-
+1 Firm AA 3 years USD 10,000 Buyer 20
+name
+A
+CDS
+Protection
+Single-
+2 Firm BBB 6 years EUR 10,000 Seller -40
+name
+B
+CDS
+Protection
+Investment
+3 CDS CD 5 years USD 10,000 buyer 0
+grade
+index X.IG
+According to the Standards, the EAD for un-margined netting sets is given by:
+EAD = 1.4 * (RC + PFE)
+55
+
+[Document: PI.pdf, Page 55]
+CBUAE Classification: Public
+1. Replacement Cost Calculation
+The replacement cost is calculated at the netting set level as a simple algebraic sum (floored at
+zero) of the derivatives’ market values at the reference date. Thus, using the market values
+indicated in the table (expressed in thousands):
+RC = max {V - C; 0} = max {20 - 40 + 0; 0} = 0
+Since V-C is negative (i.e. -20,000), the multiplier will be activated (i.e. it will be less than 1).
+Before calculating its value, the aggregate add-on needs to be determined.
+2. Potential Future Exposure Calculation
+The following table illustrates the steps typically followed for the add-on calculation:
+Steps Activities
+1. Calculate Effective Notional Calculate supervisory duration
+Calculate trade-level adjusted notional = trade
+notional (in domestic currency) × supervisory
+duration
+Calculate trade-level effective notional amount =
+trade-level adjusted notional × supervisory delta
+× maturity factor
+Calculate effective notional amount for each
+entity by summing the trade-level effective
+notional amounts for all trades referencing the
+same entity (either a single entity or an index)
+with full offsetting
+2. Apply Supervisory Factors Add-on for each entity in a hedging set = Entity-
+level Effective Notional Amount × Supervisory
+Factor, which depends on entity’s credit rating (or
+investment/speculative for index entities)
+3. Apply Supervisory Correlations Entity-level add-ons are divided into systematic
+and idiosyncratic components weighted by the
+correlation factor
+4. Aggregate Aggregationof entity-level add-ons with full
+offsetting in the systematic component and no
+offsetting in the idiosyncratic component
+Effective Notional Amount
+The adjusted notional of each trade is calculated by multiplying the notional amount with the
+calculated supervisory duration SD specified in the Standards.
+d= Trade Notional × SD = Trade Notional × {exp(-0.05×S) – exp(-0.05 × E)} / 0.05
+56
+
+[Document: PI.pdf, Page 56 (Overlap)]
+CBUAE Classification: Public
+Notional Supervisory Duration
+Trade S E Adjusted Notional d
+Amount SD
+Trade 1
+10,000,000 0 3 2.785840471 27,858,405
+Trade 2
+10,000,000 0 6 5.183635586 51,836,356
+Trade 3
+10,000,000 0 5 4.423984339 44,239,843
+The appropriate supervisory delta must be assigned to each trade: in particular, since Trade 1
+and Trade 3 are long in the primary risk factor (CDS spread), their delta is 1; in contrast, the
+supervisory delta for Trade 2 is -1.
+Trade Delta Instrument Type
+Trade 1 1 linear, long (forward and swap)
+Trade 2 -1 linear, short (forward and swap)
+Trade 3 1 linear, long (forward and swap)
+Thus, the entity-level effective notional is equal to the adjusted notional times the supervisory
+delta times the maturity factor (where the maturity factor is 1 for all three derivatives).
+Effective Notionalk = ∑𝒊𝝐di × 𝜹i × MFi
+Supervisory Entity Level
+Trade Adjusted Notional Maturity Factor
+Delta Effective Notional
+Trade 1 27,858,405 1 1 27,858,405
+Trade 2 51,836,356 -1 1 -51,836,356
+Trade 3 44,239,843 1 1 44,239,843
+Supervisory Factor
+The add-on must now be calculated for each entity. Note that all derivatives refer to different
+entities (single names/indices). A supervisory factor is assigned to each single-name entity based
+on the rating of the reference entity, as specified in Table 1 in the relevant Standards. This means
+assigning a supervisory factor of 0.38% for AA-rated firms (Trade 1) and 0.54% for BBB-rated
+firms (for Trade 2). For CDS indices (Trade 3), the supervisory factor is assigned according to
+whether the index is investment or speculative grade; in this example, its value is 0.38% since the
+index is investment grade.
+Asset Class Subclass 𝜌 SF
+Credit, Single Name AA 50% 0.38%
+Credit, Single Name BBB 50% 0.54%
+Credit, Index IG 80% 0.38%
+57

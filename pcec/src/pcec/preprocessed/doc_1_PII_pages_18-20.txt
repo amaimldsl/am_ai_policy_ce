@@ -1,0 +1,167 @@
+
+110. Each bank is required to establish several distinct forms of stress test exercises as
+described hereunder, however for the purposes of an ICAAP the minimum expectation is to
+conduct internal enterprise-wide stress tests and portfolio-level stress tests. Regulatory stress
+tests are not acceptable as the only form of internal stress tests:
+a) Internal enterprise-wide stress tests: The purpose of these exercises to
+analyse the impact of stress events on the entire bank’s solvency, profitability,
+stability, and capital. The methodology and scope of such stress tests should
+be designed to address the specific risk profile of each bank, and will thus differ
+from regulatory stress tests. These exercises are generally executed as top-
+down exercises, with the objective to capture a wide scope of risks and
+portfolios. Such exercise should support strategic decision related to the risk
+appetite of the bank, its risk profile, and its portfolio allocation. Each bank should
+employ at least three (3) scenarios in the execution of internal enterprise-wide
+166
+
+[Document: PII.pdf, Page 19]
+CBUAE Classification: Public
+stress tests.
+b) Internal portfolio-level stress tests: The purpose of these exercises to
+execute frequent, variable and proactive stress tests on the various portfolios of
+the bank. These stress tests are generally executed as bottom-up exercises,
+with the objective to measure the stress impact at portfolio level accurately. The
+scenarios and the methodologies should be granular and fully tailored to the risk
+profile of each portfolio. Deteriorating economic circumstances are typically the
+drivers for conducting unscheduled stress tests on a particular portfolio, for
+example a declining outlook in the residential real estate sector would motivate
+a stress tests on the commensurate portfolio. These stress tests can result in
+the identification of risks that were not captured by the enterprise-wide stresses.
+Consequently, these exercises should support, motivate strategic, and tactical
+decisions at portfolio and/or facility level.
+c) Regulatory stress tests: These exercises are commissioned by the Central
+Bank or other supervisors, to whom banks’ foreign subsidiaries are accountable.
+These exercises follow the scenarios and methodologies prescribed by
+supervisors, which cover most of the bank’s portfolio. The purpose of such an
+exercise is to analyse the impact of stress events on the entire bank in order to
+assess its solvency, profitability, stability, and ultimately the suitability of its
+capital. While these exercises are originally designed to inform regulators for
+supervision purposes, they should also inform Senior Management and steer
+internal decision-making.
+111. The frequency of stress test exercises should depend on their type, scope, depth, and
+on the wider economic context. Each bank should execute enterprise-wide stress tests based
+on a set of scenarios regularly at least quarterly is recommend. Each bank should execute
+portfolio-level stress tests more frequently depending on the needs of risk management and
+the business functions. Market risk stress tests in particular may have to be performed more
+frequently.
+112. The capital impact results of these stress tests should be analysed, compared,
+incorporated, and presented in the ICAAP. One or several internal enterprise-wide stress test
+outcomes should be explicitly incorporated in the capital planning, and presented accordingly
+in the ICAAP capital planning section. The results from all types of stress tests exercise should
+be employed by Senior Management and the Board to assess the suitability of the bank’s
+capital.
+Scenarios
+113. Stress test scenarios should be designed to capture the risks and potential losses
+appropriately, in coherence with the characteristics of each bank’s risk profile and portfolio.
+The scope of these scenarios should cover all the risks identified as part of the identification
+process documented in the ICAAP. At a minimum, the scope of risks should cover strategic
+risk, credit risk, market risk, counterparty risk, operational risk, liquidity risk, IRRBB, credit
+concentration risk, funding risk, reputational risk, and climate risk.
+114. Stress scenarios should lead to a reliable measurement of loss under extreme but
+plausible events. Such scenarios are essential tool to support risk quantification in providing
+impact on Pillar 1 and Pillar 2. Consequently, the scenario design should be supported by a
+clear choice of risk factors and associated shocks. Several types of design are commonly
+employed:
+(i) Sensitivity analysis involve shifting the values of an individual risk factor or
+several risk factors by using standardised shocks. Sensitivity analysis is
+167
+
+[Document: PII.pdf, Page 20]
+CBUAE Classification: Public
+employed to estimate the P&L profile and risks to the bank from a range of
+shocks. This is particularly useful to identify non-linear response in the loss
+profile. For instance, this could include measuring NII with parallel shifts of +/-
+50bp, +/-100bp, +/-150bp and higher shocks applied to a yield curve. It also
+includes measuring expected credit loss (ECL) and capital requirements with
+standard parallel shocks of +/-100bp, +/-200bp, +/-300bp applied to the PD term
+structure of a given portfolio (e.g. worsening of credit spreads, adverse changes
+in interest rates, other macroeconomic or idiosyncratic variables).
+(ii) Scenario analysis involves measuring the combined effect of several risk
+factors with shocks designed in coherence with an economic narrative affecting
+the bank’s business operations simultaneously. Such narrative should be based
+on an analysis of the current economic conditions, the business environment
+and the operating conditions of the bank. The scope of events should be broad,
+consider an appropriate range of risk types, and geographies. The narrative
+should be constructed with a clear sequence of unfolding events leading to (a)
+direct risks, (b) second-order risks, and/or (c) systemic risks, and how these risks
+affect the profit and loss profile and risks of the bank based on a scale of shocks
+(e.g. an economic recession coupled with a tightening of market liquidity and
+declining asset prices). The scope of the narrative should take into account the
+economic environment and the features of each portfolio in scope. The
+calibration of shocks should be supported by rigorous methodologies using (a)
+historical data and past events, and/or (b) forward-looking assumptions.
+Practitioners refer to ‘historical scenarios’ and ‘hypothetical scenarios’.
+115. Each bank is expected to continuously monitor and identify new threats, vulnerabilities
+and changes in the environment to assess whether its stress testing scenarios remain
+appropriate at least quarterly and, if not, adapt them to the new circumstances. The impact of
+the scenarios is expected to be updated regularly (e.g. quarterly). In case of any material
+changes, the bank is expected to assess their potential impact on its capital adequacy over
+the course of the year.
+116. If the bank forecasts the increase of its capital base (e.g. capital issuances, rights
+issues, reduction in the equity, etc.) and the capital planning reflects the proposed changes,
+the bank must perform an additional stress scenario. In these additional stress scenarios the
+bank should analyse the impact under the assumption that the capital increase does not
+materialise. The impact analysis should include management actions and formal trigger points.
+Methodology
+117. The process of stress tests should be supported by robust and documented
+methodologies. All models employed in the quantification of stress results should comply with
+the requirements presented in the Central Bank Model Management Standards and Guidance.
+118. For the measurement of capital under stress, each bank should employ a dedicated
+financial model to forecast their financial statements under several economic conditions. Such
+projection should be constructed over a minimum of three (3) years, in coherence with the
+most recent capital plan and with the Central Bank regulatory exercise.
+119. Stress scenarios may be derived from stochastic models or historical events, and can
+be developed with varying degrees of precision, depth, and severity, particularly the impact on
+asset quality, profitability, and capital adequacy. Each bank should consider three (3) to five
+(5) scenarios (each scenario can have multiple severity levels (i.e. Low, medium, and high).
+Although it is expected to consider the supervisory stress tests (“stress test exercise of the
+Financial Stability Department (FSD)”) as one scenario, it is the bank’s responsibility to define
+scenarios and sensitivities in the manner that best addresses its situation and to translate them
+168
+
+[Document: PII.pdf, Page 21 (Overlap)]
+CBUAE Classification: Public
+into risk, loss, and capital figures.
+Use Test
+120. Stress tests should support decision-making throughout the bank effectively. Stress
+tests should be embedded in banks’ business decision-making and risk management process
+at several levels of the organisation. Senior Management and the Board should lead and
+approve all assumptions, the methodology framework and authorise the use of stress test
+results.
+121. Stress tests do not stop with the production of results. Risk mitigations should always
+be considered in light of the stress severity and likelihood. If no action is deemed necessary,
+this should be documented and clearly justified.
+Reverse Stress Test
+122. In addition to normal stress testing, each bank is expected to conduct reverse stress
+tests. Reverse stress tests start with the identification of a pre-defined outcome where the
+bank’s business model becomes non-viable (e.g. through insolvency), or it breaches
+supervisory compliance minima, e.g. by breaching minimum capital requirements (i.e. the bank
+will breach the regulatory capital buffer and minimum capital requirements). The next step is
+to assess which scenarios and shocks lead to that identified outcome. Finally, the objective is
+to assess whether the likelihood of occurrence is realistic and the impact warrants mitigating
+actions. If a bank considers mitigation strategies, e.g. hedging strategies, the bank should
+consider if such strategies would be viable. For example, a market that is stressed at a financial
+system level may be characterised by a lack of market liquidity and increased counterparty
+credit risk.
+123. Effective reverse stress testing is a challenging exercise that requires the involvement
+of all material risk areas across the bank’s subject matter experts, Senior Management, and
+the Board.
+124. Each bank should conduct a reverse stress test at least once a year. A well-designed
+reverse stress test should also include enough diagnostic information to allow the identification
+of the sources of potential failure. This enables proactive risk management actions and
+implementation of an appropriate strategy for refined risk monitoring, prevention, and
+mitigation. The reverse stress test requires each bank to consider scenarios beyond normal
+business forecasts and aids identification of events linked to contagion with potential systemic
+implications. Reverse stress testing has important quantitative and qualitative uses, through
+informing Senior Management of vulnerabilities, and supporting measures to avoid them.
+(Please refer to Appendix 3.3).
+VIII. ICAAP Submission and Approval
+Submission of the ICAAP report
+125. The annual ICAAP report should be submitted to the Central Bank on or before the
+submission dates addressed in Table 1.
+126. All documents have to be submitted to the respective Central Bank reviewer by
+softcopy (submitted in word or pdf format), sending a copy to bsed.basel@cbuae.gov.ae.
+127. The submission dates below as per Notice 2940/2022 differentiate between (i) national
+banks and foreign bank and (ii) size and importance of the banks: (Table 1)
+Table 1 - Submission date for ICAAP Report
+169

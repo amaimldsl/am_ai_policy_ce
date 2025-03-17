@@ -1,0 +1,168 @@
+[Document: PI.pdf, Page 105 (Overlap)]
+CBUAE Classification: Public
+calculation above.
+Foreign Exchange (FX) Exceptions
+The Central Bank of UAE may allow banks to exclude certain FX positions from the capital
+charges calculation. Banks have to comply with both the requirement of para 70 of the Market
+Risk section of the standards.
+Items that are deducted from a bank’s capital when calculating its capital base, such as
+investments in non-consolidated subsidiaries, or other long-term participations denominated in
+foreign currencies, which are reported in the published accounts at historic cost, do not need to
+be included as foreign currency exposures for the foreign exchange risk calculation.
+Banks with negligible business in foreign currencies and with no FX positions taken for
+their own account may exclude their FX positions if they meet both of the following requirements:
+ their FX business (the greater of the sum of their gross long positions and the sum of their
+gross short positions) does not exceed 100% of total capital (Tier 1 + Tier 2)
+ their overall net open position does not exceed 2% of its total capital
+D. Commodity Risk
+Market risk can be influenced by changes in commodity prices, that is, commodity risk.
+Commodity risk is the risk that on- or off-balance sheet positions will be adversely affected by
+movements in commodity prices.
+A commodity is defined as a physical product that can be traded on a secondary market,
+for example, agricultural products, minerals and precious metals. Gold; however, is covered under
+the framework for foreign exchange.
+Price risk in commodities is often more complex and volatile than price risk associated
+with currencies and interest rates. One reason for this is that commodity prices are influenced by
+natural events such as floods and droughts. Changes in supply and demand also have more
+dramatic effects on price and volatility, and commodity markets often lack liquidity.
+Commodity risk only has a general market risk component because commodity prices are
+not influenced by specific risk.
+Banks using portfolio strategies involving forward and derivative contracts on commodities
+are exposed to a variety of additional risks, such as:
+ Basis risk. the risk of changes in the cost of carry for forward positions and options. Cost
+of carry is a margin and refers to the net effect of borrowing funds for a certain period of
+time and investing them in a financial instrument or commodity for the same period of time.
+If the interest earned on the instrument or commodity is greater than the cost of borrowing,
+then the cost of carry is positive. The cost of carry can also be negative if the cost of
+borrowing is greater than the interest earned.
+ Forward gap risk. This is the risk wherein forward prices may change for reasons other
+than a change in interest rates.
+It is important to note that these risks could well exceed the risk associated with changes
+in spot prices of commodities.
+106
+
+[Document: PI.pdf, Page 106]
+CBUAE Classification: Public
+1. `Treatment of Commodities
+Offsetting
+When measuring risk in commodities, offsetting between positions is restricted.
+ Offsetting is allowed between long and short positions in exactly the same commodity to
+calculate open positions.
+ In general, offsetting is not allowed between positions in different commodities. However,
+the Central Bank may permit offset between different sub-categories of the same
+commodity, for example, different categories of crude oil, if:
+ they are deliverable against each other
+ they are close substitutes for each other, with a minimum correlation of 0.9
+between price movements over a period of at least one year
+Correlations
+Banks using correlations between commodities to offset commodity positions must have
+obtained prior approval from the Central bank of UAE.
+2. Calculating the Capital Charge
+Two alternative approaches for calculating the capital charge for commodities are set out
+by the standardised measurement method:
+a) Simplified Approach
+Under the simplified approach, banks must express each commodity position, spot plus
+forward, in terms of the standard unit of measurement (barrels, kilos, grams, and so on).
+The capital charge is the sum of two charges:
+ 15% of the net position in each commodity. All commodity derivatives and off-balance
+sheet positions affected by changes in commodity prices should be included.
+ 3% of the bank's gross commodity positions, that is, the sum of the net long plus net short
+positions in each commodity, calculated using the current spot price. This charge
+addresses basis risk, interest rate risk and forward gap risk.
+b) Maturity Ladder Approach
+There are seven steps involved in calculating the capital charge for commodities using the
+maturity ladder approach. A separate maturity ladder must be used for each commodity.
+The maturity ladder approach
+Step 1 Express each commodity position in terms of the standard unit of measurement,
+and value in the reporting currency at the current spot price
+Step 2 Slot each position into a time band in the maturity ladder according to remaining
+maturity
+Step 3 Apply a capital charge of 1.5% to the sum of the matched long and short positions
+in each time band to capture spread risk. Instead of applying the 1.5% spread risk
+charge to the sum of matched long and short positions in each time band, some
+countries apply a 3% spread risk charge to the matched position.
+Step 4 Apply a capital charge of 0.6% to the residual net position carried forward to the
+next relevant time band, multiplied by the number of time bands it is carried.
+Step 5 Repeat step 3 and step 4 for each time band.
+107
+
+[Document: PI.pdf, Page 107]
+CBUAE Classification: Public
+Step 6 Apply a capital charge of 15% to the overall long or short net open position.
+Step 7 Derive the total capital charge by summing the charges for spread risk, for
+positions carried forward and for the overall net open position.
+3. Treatment of Commodity Derivatives
+All commodity derivatives and off-balance sheet positions affected by changes in
+commodity prices should be included in the commodities risk measurement framework. This
+includes commodity futures, commodity swaps, and options where the “delta plus” method is
+used.
+E. Options
+Treatment of Options
+There is a section of the market risk framework devoted to the treatment of options.
+The market risk charge for options can be calculated using one of the following methods:
+ the simplified approach
+ an intermediate approach: the delta-plus method
+The more significant a bank's trading activities, the more sophisticated the approach it
+should use. The following table shows which methods a bank can use:
+Simplified approach Intermediate approach
+Delta- plus method
+Bank uses √ √
+purchased options
+only
+Bank writes options ₓ √
+Banks that solely use purchased options are free to use the simplified approach, whereas
+banks that also write options are expected to use the intermediate approach. If a bank has option
+positions, but all of those written options are hedged by perfectly matched long positions in exactly
+the same options, no capital is required for market risk on those options. However, banks need
+to report the hedged options in the respective sheet.
+a) Simplified Approach
+Option positions and their associated underlying (cash or forward) are 'carved out' from
+other risk types in the standardised approach. They are subject to separately calculated capital
+charges that incorporate both general market risk and specific risk. These charges are then added
+to the capital charges for the relevant risk categories: interest rate risk, equities risk, foreign
+exchange risk or commodities risk.
+In some cases, such as foreign exchange, it may be unclear which side is the “underlying
+security.” In such cases, the asset that would be received if the option were exercised should be
+considered as the underlying. In addition, the nominal value should be used for items where the
+market value of the underlying instrument could be zero, such as caps and floors, swaptions, or
+similar instruments.
+108
+
+[Document: PI.pdf, Page 108]
+CBUAE Classification: Public
+The capital charges under the simplified approach are as follows:
+Simplified approach : capital charges
+Position Treatment
+Hedged positions: long cash position in the The capital charge is the market value of the
+underlying instrument and long put or short underlying security multiplied by the sum of
+cash position in the underlying instrument specific and general market risk charges for
+and long call the underlying, less the amount the option is
+in-the-money (if any) bounded at zero.
+Outright option positions: long call or long The capital charge is the lesser of:
+put  The market value of the underlying
+security multiplied by the sum of
+specific and general market risk
+charges for the underlying
+ The market value of the option
+b) Intermediate Approach
+The procedure for general market risk is explained below. The specific risk capital charges
+are determined separately by multiplying the delta-equivalent of each option by the specific risk
+charges for each risk category.
+The delta-plus method
+The delta-plus method uses the sensitivity parameters or Greek letters associated with
+options to measure their market risk and capital requirements.
+Options should be included in market risk calculations for each type of risk as a delta-
+weighted position equal to the market value of the underlying multiplied by the delta.
+The delta-equivalent position of each option becomes part of the standardised approach,
+with the delta-equivalent amount subject to the applicable market risk capital charges. Separate
+capital charges are then applied to the gamma and Vega risks of the option positions.
+Greek Letters: Five coefficients are used to help explain how option values behave in relation to
+changes in market parameters (price of the underlying asset, the strike price, the volatility of the
+underlying, the time to maturity and the risk-free interest rate). These are represented by the
+Greek letters delta, gamma, Vega, theta and rho, and are referred to as the 'option Greeks'.
+ Delta (Δ) measures the rate of change in the value of an option with respect to a change
+in the price of the underlying asset.
+ Gamma (Γ) measures the rate ofchange in the delta of an option with respect to a change
+in the price of the underlying asset.
+ Vega (Λ) measures the rate of change in an option price with respect to a change in market
+volatility for the underlying asset price.

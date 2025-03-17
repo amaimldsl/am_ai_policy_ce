@@ -1,0 +1,292 @@
+
+position is -4. The capital charge for the horizontal disallowance between zones 2 and 3 is 40%
+of AED 1.125m= AED 450,000.
+In round 3, we calculate the horizontal disallowance between zones 1 and 3.
+115
+
+[Document: PI.pdf, Page 115]
+CBUAE Classification: Public
+In this example, the long position of 1 in zone 1 is offset against the short position of -4 in zone 3.
+The matched position is 1 and the net open position is -3. The capital charge for the horizontal
+disallowance between zones 1 and 3 is 100% of AED 1m = AED 1m.
+After the three rounds of horizontal offsetting, the total charge for the horizontal disallowance is
+AED 80,000 + AED 450,000 + AED 1,000,000 = AED 1,530,000
+Having completed the horizontal and vertical offsetting, the remaining overallnet open position is
+AED 3m, which is equivalent to the overall net open position we calculated across all time bands
+when we calculated the first part of the capital charge.
+Zone 1 (months) Zone 2 (years) Zone 3 (years)
+Time band 0- 1-3 3-6 6-12 1- 2- 3-4 4- 5- 7-10 10- 15- >20
+1 2 3 5 7 15 20
+Weighted +0.15 - +1.05 +1.125 -
+position 0.2 5.625
+(AED m) +0.5
+Vertical -
+disallowance 5.125
+Horizontal +1
+disallowance
+Round 1
+Horizontal -4
+disallowance
+Round 2
+Horizontal -3
+disallowance
+Round 3
+We have now calculated the total capital charge for general market risk for this example.
+Capital charge AED
+1 A charge for the net open position 3,000,000
+2 A charge for the vertical disallowance 50,000
+3 A charge for horizontal disallowance
+Round 1: Charge for the horizontal 80,000
+disallowance within each zone
+Round 2: Charge for the horizontal 450,000
+disallowance between adjacent zones
+Round 3: Charge for the horizontal 1,000,000
+disallowance between zones 1 and 3 1,530,000
+net charge for positions in options 0
+Total capital charge 4,580,000
+2. Specific Market Risk – Example
+Relate to the same example as above.
+Given that, the government bonds are AAA-rated and that the qualifying bond is BBB-rated.
+The interest rate swap does not incur a specific risk charge. The AAA-rate government bonds
+incur a 0% specific risk charge. The qualifying bond has a residual maturity of 8 years and is BBB-
+rated, so if has a specific risk charge of 1.6%
+The capital charge is 1.6% of AED 13.33m, or AED213,280.
+116
+
+[Document: PI.pdf, Page 116]
+CBUAE Classification: Public
+B. Equity Risk – Calculating the Capital Charge
+Bank XYZ has the following positions in its equity portfolio for a particular national market.
+Company Position No. of shares Market price Market value
+(AED) (AED)
+A Corp. Long 10,000 35 350,000
+B Corp. Short 20,000 25 500,000
+C Corp. Short 5,000 50 250,000
+D Corp. Long 15,000 20 300,000
+E Corp. Short 2,000 60 120,000
+To calculate the general market risk charge, we must first determine the overall net open position.
+The sum of the net long positions is AED 650,000 and the sum of the net short positions is AED
+870,000. The overall net open position is short AED 220,000.
+The capital charge for general market risk is 8% of AED 220,000, or AED 17,600.
+Next, we must work out the specific risk charge.
+The capital charge for specific risk is 8% of AED 1,520,000 or AED 121,600.
+That lead to, overall capital charge for this portfolio is AED 17,600 + AED 121,000, or AED
+139,200.
+C. FX Risk – calculating the capital charge
+Below is an example of calculating the capital charge for FX risk.
+A bank has the following positions that have been converted at spot rates into its reporting
+currency, United Arab dirhams (AED).
+Currency JPY EUR GBP AUD USD Gold
+Net position +50 +100 +150 -20 -180 -35
+(AEDm)
+The higher of the sum of the net long and net short currency positions is AED 300m.
+The capital charge is therefore calculated as 8% of AED 300m, plus the net position in gold (AED
+35m):
+Capital charge = 8% of AED 335m = AED 26.8m
+Another example;
+A bank has the following positions that have been converted at spot rates into its reporting
+currency (AED)
+Currency EUR JPY GBP AUD SGD
+Net position +150 -100 +75 -30 -15
+(AEDm)
+The sum of the net long positions is AED 225m and the sum of the net short positions is -AED
+145m. The capital charge is calculated as 8% of the higher of these two positions, so the charge
+is 8% of AED 225m, or AED 18m.
+D. Commodity risk
+1. Simplified approach
+XYZ bank is exposed to a number of positions in the same commodity. The bank’s reporting
+currency is AED. The following positions are held in EUR:
+117
+
+[Document: PI.pdf, Page 117]
+CBUAE Classification: Public
+Position Standard units (kg) Maturity
+Long 128 4 months
+Short -160 5 months
+Long 96 13 months
+Short -96 4 years
+Firstly, calculate the current value for these positons in the reporting currency.
+The following is the current situation:
+Current spot price of the 5.00 EUR per kg
+commodity per unit (kg) in
+local currency
+Current EUR/AED FX spot 4.25 1 EUR = 4.25 AED
+rate
+Further calculation to the position after conversion to local reporting bank’s currency
+Position Standard Spot Value FX spot rate 1 Value (AED) Maturity
+units (kg) price (EUR) EUR = 4.25 AED
+Long 128 5.00 640 4.25 2,720 4 months
+Short -160 5.00 -800 4.25 -3,400 5 months
+Long 96 5.00 480 4.25 2,040 13 months
+Short -96 5.00 -480 4.25 -2,040 4 years
+640*4.25=2,720
+-800*4.25=-3,400
+480*4.25=2,040
+-480*4.25=-2,040
+Calculate the capital charge, first a capital charge of 15% of the overall net open position in the
+commodity is required.
+The overall net position is the sum of the long and short positions:
+AED 2,720 – AED 3,400 + AED 2,040 – AED 2,040 = - AED 680
+The overall net positon is short AED 680. This leads to a capital charge of AED 102 (680 * 15%)
+Next, a capital charge of 3% of the bank’s gross positon in the commodity is required.
+The gross position is the sum of the absolute values of the long and short positions:
+AED 2,720 + AED 3,400 + AED 2,040 + AED 2,040 = AED 10,200
+XYZ bank’s gross position is AED 10,200. This leads to a capital charge of AED 306 (10,200 *
+3%).
+Now, sum the charges to find the total capital charge for this commodity. The charge for the overall
+net open position is AED 102, and the charge for the bank’s gross position in the commodity is
+AED 306.
+Therefore, XYZ bank’s total market risk capital charge for positions held in this commodity is AED
+102 + AED 306, or AED 408.
+2. Maturity ladder approach
+Recall that XYZ bank is exposed to a number of positions in the same commodity. The bank’s
+reporting currency is AED. The following positions are held in EUR:
+118
+
+[Document: PI.pdf, Page 118]
+CBUAE Classification: Public
+Position Standard units (kg) Maturity
+Long 128 4 months
+Short -160 5 months
+Long 96 13 months
+Short -96 4 years
+Step 1:
+First express each commodity position in terms of the standard unit of measurement, and value
+in the reporting currency at the current spot price.
+The following is the current situation:
+Current spot price of the 5.00 EUR per kg
+commodity per unit (kg) in
+local currency
+Current EUR/AED FX spot 4.25 1 EUR = 4.25 AED
+rate
+This isdonethesamewayas forthesimplifiedapproach.
+Position Standard Spot Value FX spot rate 1 Value (AED) Maturity
+units (kg) price (EUR) EUR = 4.25 AED
+Long 128 5.00 640 4.25 2,720 4 months
+Short -160 5.00 -800 4.25 -3,400 5 months
+Long 96 5.00 480 4.25 2,040 13 months
+Short -96 5.00 -480 4.25 -2,040 4 years
+Step 2:
+Slot each position into a time band in the maturity ladder according to its remaining maturity.
+Physical stocks should be allocated to the first time band.
+Maturity ladder
+Time bands Positions (AED)
+Long Short
+0-1 months
+1-3 months
+3-6 months 2,720 -3,400
+6-12 months
+1-2 years 2,040
+2-3 years
+Over 3 years -2,040
+Step 3:
+Apply a capital charge: of 1.5% to the sum of the matched long and short positions in each time
+band to capture spread risk.
+Maturity ladder Matched position Capital charge for
+Time Positions (AED) spread risk rate =
+bands 1.5%
+Long Short
+0-1
+months
+1-3
+months
+119
+
+[Document: PI.pdf, Page 119]
+CBUAE Classification: Public
+3-6 2,720 -3,400 2,720 81.6*
+months
+6-12
+months
+1-2 years 2,040
+2-3 years
+Over 3 -2,040
+years
+*start with the 3-6 months’ time band.
+Multiply the sum of the ling and short matched positions by the spread rate 1.5%, to calculate the
+capital charge: (AED 2,720 + AED 2,720) * 1.5% = AED 81.6
+Step 4:
+Apply a capital charge of 0.6% to the residual net position carried forward to the next relevant
+time band, multiplied by the number of time bands it is carried forward.
+The maturity ladder approach allows for netting between unmatched long and short positions
+across time bands. The residual net position in a time band can be carried forward to the next
+relevant time band, thus offsetting exposures in time bands further out. Because this is imprecise,
+resulting in an “imperfect hedge”; a capital charge is required.
+The residual net position in the 3-6 months’ band is short AED 680. This net position is carried
+forward two time bands to offset exposures in the next relevant time band, the 1-2 years’ band.
+Maturity ladder Matched Net Capital Capital
+Time Positions (AED) position position charge for charge
+bands spread risk for
+Long Short rate = 1.5% positions
+carried
+forward
+rate =
+0.6%
+0-1
+months
+1-3
+months
+3-6 2,720 -3,400 2,720 -680 (3400- 81.6 8.16*
+months 2720)
+6-12
+months
+1-2 2,040 -680
+years
+2-3
+years
+Over 3 -2,040
+years
+*The capital charge is calculated as follows: AED 680 * 2 * 0.6% = AED 8.16
+Step 5:
+Repeat step 3 and step 4 for each time band.
+When determining the matched position in each time band, take into account the residual net
+position carried forward.
+120
+
+[Document: PI.pdf, Page 120]
+CBUAE Classification: Public
+Maturity ladder Matched Net Capital Capital
+Time Positions (AED) position position charge for charge for
+bands spread risk positions
+Long Short rate = 1.5% carried
+forward
+rate =
+0.6%
+0-1
+months
+1-3
+months
+3-6 2,720 -3,400 2,720 -680 (3400- 81.6 8.16
+months 2720)
+6-12
+months
+1-2 2,040 -680 680 1,360 20.4* 16.32**
+years
+2-3
+years
+Over 3 1,360 -2,040 1,360 - 680 40.8***
+years
+*(680+680)*1.5% = AED 20.4
+**(1,360*2*0.6%) = AED 16.32
+***(1,360+1360) *1.5% = AED 40.8
+Step 6:
+Apply a capital charge of 15% to the overall long or short net open position.
+The net position in the final time band is subject to a capital charge of 15% as to say 680 * 15%
+= AED 102
+Step 7:
+Derive the total capital charge by summing the charges for spread risk, for positions carried
+forward and for the overall net open position.
+Capital charges AED
+Charge for spread risk 142.8
+Charge for the positions carried forward 24.48
+Charge for the overall net position 102
+Total capital charge 269.28
+In this example, the capital charge calculated using the maturity ladder approach; AED 269.28 is
+significantly lower than that calculated using the simplified approach, AED 408.
+E. Options
+Simplified approach
+A bank holds 100 shares currently valued at USD 10, and also holds an equivalent number of put
+options with a strike price of USD 11 (each option entitles the bank to sell one share).
+Since these are equity options, they are subject to the capital charges for general market risk and
+specific risk according to the standardised framework for equity risk. The capital charge is levied
+121

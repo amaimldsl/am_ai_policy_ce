@@ -1,0 +1,151 @@
+[Document: PI.pdf, Page 100 (Overlap)]
+CBUAE Classification: Public
+The capital charge is the sum of four components calculated from amounts in each time band:
+ A charge on the net short or long position in the whole trading book:
+ A vertical disallowance charge:
+It is a charge, which is levied on the matched position in each time band. This charges accounts
+for basis risk and gap risk, which can arise because each time band includes different instruments
+with different maturities. Gap risk, or interest mismatch risk, is the risk of losses due to interest
+rate changes that arise when the periods over which assets and liabilities are priced, differs. This
+charge is levied on the matched positionin each time band at:
+ 10% if the bank uses the maturity method
+ 5% of the bank uses the duration method
+The matched position is the smaller absolute value of the long and short positions. For example:
+if you have a long position of 1,200 and a short position of 700, the matched position is 700 (the
+net open position is long 500).
+ A horizontal disallowance charge:
+It is a charge against correlation among the different time bands. It is allowed for correlation to
+offset positions across different time bands.
+There are three rounds of horizontal disallowance:
+ Round 1 levies a charge on the matched position in each zone. The charge is:
+o 40% for zone 1
+o 30% for zone 2 and zone 3
+ Round 2 levies a charge of 40% on the matched positions between adjacent zones. The
+adjacent zones are:
+o Zone 1 and zone 2
+o Zone 2 and zone 3
+ Round 3 levies a charge of 100% on the matched position between zone 1 and zone 3.
+ Where applicable, a net charge for positions in options.
+2. Specific Risk
+Specific risk refers to changes in market prices specific to an instrument owing to factors
+related to the issuer of that instrument.
+Specific risk does not affect foreign exchange- and commodities-related instruments. This
+is because changes in FX rates and commodities prices are dependent on general market
+movements.
+101
+
+[Document: PI.pdf, Page 101]
+CBUAE Classification: Public
+The charge for specific risk protects against price movements in a security owing to factors
+related to the individual issuer, that is, price moves that are not initiated by the general market.
+a) Offsetting
+When specific risk is measured, offsetting between positions is restricted.
+ Offsetting is only permitted for matched positions in an identical issue.
+ Offsetting is not allowed between different issues, even if the issuer is the same. This is
+because differences in coupon rates, liquidity, call features, and so on, mean that prices
+may diverge in the short run.
+b) Specific Risk – Capital Charge
+Under the standardised approach, market risk exposures are categorised according to
+external credit assessments (ratings) and based on those assessments a capital charge is
+assigned. This broad methodology for calculating the specific risk capital charge was not changed
+by Basel 2.5.
+The capital charges assigned to those external credit assessments are similar to the credit
+risk charges under the standardised approach to credit risk.
+Categorisation of Securities
+Consistent with other sections, a lower specific risk charge can be applied to government
+paper denominated in the domestic currency and funded by the bank in the same currency. The
+national discretion is limited to GCC Sovereigns. This use of national discretion aligns the Market
+Risk Standards with the similar treatment under the credit risk standards. The Market Risk
+Standard is also aligned to the Credit Risk Standard when it comes to the transition period
+permitted for USD funded and denominated exposures of the individual Emirates.
+Qualifying includes securities issued by public sector entities and multilateral development
+banks, plus other securities that are rated with investment grades by two rating agencies. Unrated
+securities can also be included, subject to supervisory approval (such as securities deemed to be
+of comparable investment quality).
+Other securities comprise of securities that do not meet the definition of government or the
+definition of qualifying securities. This category receives the same risk charge as non-investment
+grade borrowers under the standardised approach to credit risk. However, it is recognised that for
+some high yielding debt instruments, an 8% specific risk charge may underestimate the specific
+risk.
+Calculating the Capital Requirement for Market and Credit Risk
+The standards contain different processes for calculating the capital requirement for
+market and credit risk. For credit risk, assets are first risk weighted (by multiplying them by a risk
+weight) and then a capital requirement is applied. In contrast, for market risk, exposures are
+simply multiplied by a specific risk capital charge. For an exposure with a given external credit
+assessment (rating), the specific risk capital charge is the same as the capital requirement
+calculated under the standardised approach for credit risk.
+102
+
+[Document: PI.pdf, Page 102]
+CBUAE Classification: Public
+Specific Risk – Capital Charge for Positions Covered Under the Securitisation
+Framework
+Following the 2009 enhancements to the BCF, the specific risk of securitisation positions
+held in the trading book are generally calculated in the same way as securitisation positions in the
+banking book.
+Specific risk – the capital charges for positions covered under the standardised approach
+for securitisation exposures.
+The default position for unrated securitisations can be thought of as a capital charge of
+100 percent (that is, equivalent to a risk weight of 1250 percent where the capital charge is 8
+percent).
+Where the specific risk capital charge for an exposure is 100% such that capital is held for
+the full value of the exposure, it may be excluded from the calculation of the capital charge for
+general market risk. Forfurther details, please refer to the securitisation framework.
+Treatment of Interest Rate Derivatives
+The interest rate risk measurement system should include all interest rate derivatives and
+off-balance sheet instruments assigned to the trading book that are sensitive to changes in
+interest rates.
+The derivatives are converted into positions in the relevant underlying. These positions
+are subject to the general market risk charges and, where applicable, the specific risk charges for
+interest rate risk. The amounts reported should be the market value of the principal amount of the
+underlying or notional underlying.
+For instruments where the apparent notional amount differs from the effective notional
+amount, banks will use the effective notional amount.
+Interest rate derivatives include:
+ forward rate agreements (FRAs)
+ other forward contracts
+ bond futures
+ interest rate swaps
+ cross currency swaps
+ forward foreign exchange positions
+ interest rate options
+Refer to the examples below in this section for numerical illustrations
+B. Equity Risk
+Market risk can be influenced by changes in equity prices, that is, equity risk.
+Equity risk is the risk that movement in equity prices will have a negative effect on the
+value of equity positions. The capital charge for equity risk is the sum of the charges for general
+and specific market risk.
+103
+
+[Document: PI.pdf, Page 103]
+CBUAE Classification: Public
+The Central Bank sets out a minimum capital standard to cover the risk of equity positions
+held in the trading book. It applies to long and short positions in all instruments that exhibit
+behavior similar to equities, with the exception of non-convertible preference shares, which fall
+under interest rate risk requirements.
+1. Capital Charges for Equity Risk
+To calculate the minimum capital charge for equity risk, you must calculate two separate
+charges:
+ A general market risk charge of 8% is applied to the net overall position.
+ A specific risk charge of 8% is applied to the gross equity position. After offsetting long
+and short positions in the same issue, a bank's gross equity position is the sum of the
+absolute values of all long equity positions and all short equity positions.
+Since banks may hold equities in different national markets, separate calculations for
+general and specific risk must be carried out for eachof these markets.
+Offsetting
+Long and short positions in the same issue can be fully offset, resulting in a single net long or
+short position.
+2. Treatment of Equity Derivatives
+Equity derivatives and off-balance-sheet positions that are affected by changes in equity
+prices should be included in the measurement system, with the exception of certain options
+positions. This includes futures and swaps on both individual equities and on stock indices.
+Positions in these equity derivatives should be converted into notional positions in the
+relevant underlying stock or portfolio of stocks. For example, stock index futures should be
+reported as the marked-to-market value of the notional underlying equity portfolio. A stock index
+future is an agreement to buy or sell a standard quantity of a specific stock index, on a recognised
+exchange, at a price agreed between two parties, and with delivery to be executed on a
+standardised future settlement date. As it is obviously not feasible to deliver an actual stock index,
+stock index futures contracts are settled by cash, calculated with reference to the difference
+between the purchase price and the level of the index at settlement.
+An equity swap is an agreement between two counterparties to swap the returns on a
+stock or a stock index for a stream of payments based on some other form of asset return. Often,

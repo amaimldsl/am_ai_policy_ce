@@ -1,0 +1,158 @@
+[Document: PI.pdf, Page 35 (Overlap)]
+CBUAE Classification: Public
+applies the comprehensive approach, is an approval required to go back to the simple
+approach?
+A bank that intends to apply the comprehensive approach requires prior approval from the Central
+Bank. Once approved and if the bank wishes to go back to simple approach, a bank requiresthe
+Central Bank's approval again to go to the simple approach.
+V. Appendix: Computation of Exposures with Credit Risk Mitigation Effects
+Bank A repos out cash of AED 1000 to a corporate with an external rating of AA. The corporate
+provides collateral in the form of debt securities issued by a bank with an external rating of
+AA. The debt securities have a remaining maturity of 7 years and a market value of AED 990.
+Minimum holding period for various products
+Transaction type Minimum holding period Condition
+Repo-style transaction 5 Business days Daily remargining
+Other capital market transactions 10 Business days Daily remargining
+Secured lending 20 Business days Daily revaluation
+Thehaircut for the transaction with other than 10 business days minimum holding
+period, as indicated above, will have to be adjusted by scaling up or down the haircut for
+10 business days as per the formula given below:
+NR+(TM−1)
+H=HM√
+𝑇M
+Variables Details of the Variables Supervisory haircuts Scaling Adjusted haircuts
+factor
+He Haircut appropriate to the Exposure in the form of cash, 0 Not applicable
+underlying exposure supervisory haircut 0%
+Hc Haircut appropriate to the Debt securities issued by a 0.71 Supervisory haircut
+Collateral bank (8%)* Scaling factor
+supervisory haircut 8% (0.71 )= 6%
+Hfx Haircut appropriate for No Currency Mismatch 0 Not applicable
+Currency Mismatch
+Theexposure amount after risk mitigation is calculated as follows:
+Variables E*= max {0, [E x (1 + He) – C x (1 – Hc – Hfx)]} Value
+E* Net credit exposure (i.e. exposure value after CRM) 69.4
+E Principal Amount, which is net of specific provisions, if any 1000
+For off-balance sheet, it is the credit equivalent amount
+He Haircut appropriate to the underlying exposure (cash) 0
+C Value of the collateral before CRM 990
+Hc Haircut appropriate to the Collateral 6%
+Hfx Haircut appropriate for Currency Mismatch 0
+Risk weighted asset for the exposure = (69.40 * 50% (AA)) = 34.70
+(Exposure * Risk weight)
+36
+
+[Document: PI.pdf, Page 36]
+CBUAE Classification: Public
+IV. Counterparty Credit Risk
+I. Introduction
+1. In March 2014, the Basel Committee on Banking Supervision (BCBS) published a new
+approach for measurement of counterparty credit risk exposure associated with OTC derivatives,
+exchange-traded derivatives, and long settlement transactions, the standardised approach for
+CCR (SA-CCR). The approach in the Central Bank’s Standards for CCR closely follows the SA-
+CCR as developed by theBCBS in all material areas of substance.
+2. The BCBS developed the SA-CCR to replace the two previous non-internal model
+methods, the Current Exposure Method (CEM) and the Standardized Method (SM). The SA-CCR
+was designed to be more risk sensitive than CEM and SM. It accurately recognizes the effects of
+collateralization and recognizes a benefit from over-collateralization. It also provides incentives
+for centralized clearing of derivative transactions.
+3. As is the case with the CEM, under the SA-CCR the exposure at default (EAD) is
+calculated as the sum of two components: (i) replacement cost (RC), which reflects the current
+value of the exposure adjusted for the effects of net collateral including thresholds, minimum
+transfer amounts, and independent amounts; and (ii) potential future exposure (PFE), which
+reflects the potential increase in exposure until the closure or replacement of the transactions.
+The PFE portion consists of a multiplier that accounts for over-collateralization, and an aggregate
+add-on derived from the summation of add-ons for each asset class (interest rate, foreign
+exchange, credit, equity, and commodity), which in turn are calculated at the hedging set level.
+II. Clarifications
+A. Replacement Cost
+4. Note that in mathematical terms, replacement cost for un-margined transactions is
+calculated as:
+𝑅𝐶 = max(𝑉 − 𝐶; 0)
+where RC is replacement cost, V is the total current market value of all derivative contracts in the
+netting set combined, and C is the net value of collateral for the netting set, after application of
+relevant haircuts. (In the CCR Standards, the quantity V-C is referred to as the Net Current Value,
+or NCV.)
+5. For margined transactions, the calculation becomes:
+𝑅𝐶 = max(𝑉 − 𝐶; 𝑇𝐻 + 𝑀𝑇𝐴 − 𝑁𝐼𝐶𝐴; 0)
+where TH is the threshold level of variation that would require a transfer of collateral, MTA is the
+minimum transfer amount of the collateral, and NICA is the Net Independent Collateral Amount
+equal to the difference between the value of any independent collateral posted by a counterparty
+and any independent collateral posted by the bank for that counterparty, excluding any collateral
+that the bank has posted to a segregated, bankruptcy remote account.
+37
+
+[Document: PI.pdf, Page 37]
+CBUAE Classification: Public
+6. When determining the RC component of a netting set, the netting contract must not contain
+any clause which, in the event of default of a counterparty, permits a non-defaulting counterparty
+to make limited payments only, or no payments at all, to the estate of the defaulting party, even if
+the defaulting party is a net creditor.
+B. Netting
+7. The Standards requires that a bank should apply netting only when it can satisfy the
+Central Bank that netting is appropriate, according to the specific requirements established in the
+Standards. Banks should recognize that this requirement would likely be difficult to meet in the
+case of trades conducted in jurisdictions lacking clear legal recognition of netting, which at present
+is the case in the UAE.
+8. If netting is not recognized, then netting sets still should be used for the calculation.
+However, since each netting set must contain only trades that can be netted, each netting set is
+likely to consist of a single transaction. The calculations of EAD can still be performed, although
+they simplify considerably.
+9. Note that there may be more than one netting set for a given counterparty. In that case,
+the CCR calculations should be performed for each netting set individually. The individual netting
+set calculations can be aggregated to the counterparty level for reporting or other purposes.
+C. PFE Multiplier
+10. For the multiplier of the PFE component, when the collateral held is less than the net
+market value of the derivative contracts (“under-collateralization”), the current replacement cost
+is positive and the multiplier is equal to one (i.e. the PFE component is equal to the full value of
+the aggregate add-on). Where the collateral held is greater than the net market value of the
+derivative contracts (“over-collateralization”), the current replacement cost is zero and the
+multiplier is less than one (i.e. the PFE component is less than the full value of the aggregate add-
+on).
+D. Supervisory Duration
+11. The Supervisory Duration calculation required in the Standards is in effect the present
+value of a continuous-time annuity of unit nominal value, discounted at a rate of 5%. The implied
+annuity is received between dates S and E (the start date and the end date, respectively), and
+the present value is taken to the current date.
+12. For interest rate and credit derivatives, the supervisory measure of duration depends on
+each transaction’s start date S and end date E. The following Table presents example
+transactions and illustrates the values of S and E, expressed in years, which would be associated
+with each transaction, together with the maturity M of the transaction.
+38
+
+[Document: PI.pdf, Page 38]
+CBUAE Classification: Public
+Instrument M S E
+Interest rate or credit default swap maturing in 10 years 10 0 10
+10-year interest rate swap, forward starting in 3 years 13 3 13
+Forward rate agreement for time period starting in 125 days and
+1 0.5 1
+ending in one year
+Cash-settled European swaption referencing 5-year interest
+0.5 0.5 5.5
+rate swap with exercise date in 125 days
+Physically-settled European swaption referencing 5-year
+5.5 0.5 5.5
+interest rate swap with exercise date in 125 days
+Interest rate cap or floor specified for semi-annual interest
+6 0 6
+with maturity 6 years
+Option on a 5-year maturity bond, with the last possible
+1 1 5
+exercise date in 1 year
+3-month Eurodollar futures maturing in 1 year 1 1 1.25
+Futures on 20-year bond maturing in 2 years 2 2 22
+6-month option on 2-year futures on a 20-year bond 2 2 22
+13. Note there is a distinction between the period spanned by the underlying transaction and
+the remaining maturity of the derivative contract. For example, a European interest rate swaption
+with expiry of 1 year and the term of the underlying swap of 5 years has S=1 year and E=6 years.
+An interest rate swap, or an index CDS, maturing in 10 years has S=0 years and E=10 years. The
+parameters S and E are only used for interest rate derivatives and credit-related derivatives.
+E. Aggregation of Maturity Category Effective Notional Amounts
+14. The Standards allows banks to choose between two options for aggregating the effective
+notional amounts that are calculated for each maturity category for interest rate derivatives. The
+primary formula is thefollowing:
+√𝐷12+𝐷22+𝐷32+1.4×(𝐷1×𝐷2)+1.4×(𝐷2×𝐷3)+0.6×(𝐷1×𝐷3)
+15. In this formula, D1 is the effective notional amount for maturity category 1, D2 is the
+effective notional amount for maturity category 2, and D3 is the effective notional amount for
+maturity category 3. As defined in the Standards, maturity category 1 is less than one year,

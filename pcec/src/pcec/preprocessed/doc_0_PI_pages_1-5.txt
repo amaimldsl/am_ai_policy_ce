@@ -1,0 +1,173 @@
+[Document: PI.pdf, Page 1]
+CBUAE Classification: Public
+Pillar 1
+2
+
+[Document: PI.pdf, Page 2]
+CBUAE Classification: Public
+I. Tier Capital Supply
+Introduction
+This guidance explains how banks can comply with the Tier Capital Supply Standard. It
+must be read in conjunction with the Capital Regulation and Standards for Capital
+Adequacy of Banks in the UAE. Guidance regarding Minimum Capital Requirement and
+Capital buffer as stated in the document have to be followed by all banks for the
+purpose of regulatory compliance.
+1. To help and ensure a consistent and transparent implementation of Capital supply
+standards, Central Bank will review and update this guidance document periodically.
+2. The guidance document has structured into six main sections
+1. Scope of Application
+2. Eligible capital
+3. Regulatory adjustments
+4. Threshold deductions
+5. Significant investment in commercial entities
+6. Frequently Asked Questions
+1. Scope of Application
+3. “Financial activities” do not include insurance activities and “financial entities” do not
+include insurance entities.
+4. Examples of the types of activities that financial entities might be involved in include
+financial leasing, issuing credit cards, portfolio management, investment advisory, custodial and
+safekeeping services and other similar activities that are ancillary to the business of banking
+Treatment of investment in Insurance Entities
+5. Insurance subsidiaries are to be deconsolidated for regulatory capital purposes (i.e. all
+equity, assets, liabilities and third-party capital investments in such insurance entities are to be
+removed from the bank’s balance sheet) and the book value of the investment in the subsidiary
+is to be included in the aggregate investments.
+6. Investments in the capital of insurance entities where the bank owns more than 10% of
+the insurance entity’s common share capital will be subject to the “Threshold deductions”
+treatment. Amounts below the threshold that are not deducted are to be risk weighted at 250 %.
+(Investments in insurance entities wherein ownership is greater than 10% will also include
+insurance subsidiaries)
+3
+
+[Document: PI.pdf, Page 3]
+CBUAE Classification: Public
+2. Eligible capital
+Accumulated other comprehensive income and other disclosed reserve
+7. For unrealized fair value reserves relating to financial instruments to be included in CET1
+capital banks and their auditor must only recognize such gains or losses that are prudently valued
+and independently verifiable (e.g. by reference to market prices). Prior prudent valuations, and
+the independent verification thereof, are mandatory.
+8. The amount of cumulative unrealized losses arising from the changes in fair value of
+financial instruments, including loans/financing and receivables, classified as “available-for-sale”
+shall be fully deducted in the calculation of CET1 Capital.
+9. Revaluation reserves or cumulative unrealized gains shall be added to CET 1 with a
+haircut of 55%.
+10. The amount of cumulative unrealized gains arising from the changes in the fair value or
+revaluation of bank’s own premises and real estate investment are not allowed to be included as
+part of Asset Revaluation reserve for regulatory purposes.
+11. IFRS9 will be implemented during 2018. Banks that are impacted significantly from the
+implementation of IFRS9 may approach the Central Bank to apply for a transition period for the
+IFRS9 impact. Such applications will be analysed and considered on a case-by-case basis.
+Retained Earnings
+12. The amount reported under accumulated retained earnings (5.1.4.1) should be as per the
+audited financial statement at year end and should remain the same for the entire financial year.
+13. Current financial year’s/quarter’s profits can only be taken into account after they are
+properly audited/ reviewed by the external auditors of the bank. Current financial years /quarter’s
+loss if incurred have to be deductedfrom the capital.
+14. Dividend expected/ proposed for the financial year should be reported under 5.1.4.3 and
+will be deducted from Retained Earnings/ (Loss) (5.1.4). Expected dividend applies only for Q4
+until dividend is actually paid.
+15. The dividend deduction must be updated based on each of the following events, if the
+amount changes, after Annual General meeting, or the approval from the Central Ban, or the
+release of the Financial Statements by the auditors.
+16. Other adjustments to the Retained Earnings includes
+a. Prudential filter: Partial addback of ECL in accordance with the Regulation Regarding
+Accounting Provisions and Capital Requirements - Transitional Arrangements should be
+reported under 5.1.4.4 IFRS transitional arrangement.
+4
+
+[Document: PI.pdf, Page 4]
+CBUAE Classification: Public
+b. CBUAE Regulatory deductions:
+i. Amount exceeding Large Exposure threshold: Any amount that is in violation of
+Large Exposure regulation of notice 300/2013 shall be deducted from the capital.
+Any amount deducted from CET1 under 5.1.4.5 of the BRF 95 due to a Large
+Exposure violation of notice no.226/2018 may be excluded for the calculation of
+risk weighted assets. However, amounts that are not deducted must be included
+in risk weighted assets. Furthermore, any counterparty credit risk (under CR2a)
+associated with such exposure must remain included in the calculation of risk
+weighted asset.
+ii. Loans to directors: The circular 83/2019 on Corporate Governance regulations for
+Banks, under the article (6) “Transaction with Related parties” requires if the
+transaction with the related parties are not provided on arm’s length basis, then on
+general or case by case basis, deduct such exposure from capital. The deduction
+should be reported under 5.1.4.5 of the BRF 95.
+Capital Buffers - Countercyclical Buffer
+17. The buffer for internationally active banks will be a weighted average of the buffers
+deployed across all the jurisdictions to which it has credit exposures. The buffer that will apply to
+each bank will reflect the geographic composition of its portfolio of credit exposures. When
+considering the jurisdiction to which a private sector credit exposure relates, banks should use,
+where possible, an ultimate risk basis; i.e. it should use the country where the guarantor of the
+exposure resides, not where the exposure has been booked.
+18. Banks will have to look at the geographic location of their private sector credit exposures
+(including non-bank financial sector exposures) and calculate their countercyclical capital buffer
+requirement as a weighted average of the buffers that are being applied in jurisdictions to which
+they have an exposure. Credit exposures in this case include all private sector credit exposures
+that attract a credit risk capital charge or the risk weighted equivalent trading book capital charges
+for specific risk and securitisation.
+19. The weighting applied to the buffer in place in each jurisdiction will be the bank’s total
+credit risk charge that relates to private sector credit exposures in that jurisdiction, divided by the
+bank’s total credit risk charge that relates to private sector credit exposures across all jurisdictions.
+Banks must determine whether the ultimate counterparty is a private sector exposure, as well as
+the location of the “ultimate risk”, to the extent possible.
+20. The charge for the relevant portfolio should be allocated to the geographic regions of the
+constituents of the portfolio by calculating the proportion of the portfolio’s total credit exposure
+arising from credit exposure to counterparties in each geographic region.
+Please refer to Question 15 of the FAQs below for further guidance and examples of
+countercyclical buffers.
+5
+
+[Document: PI.pdf, Page 5]
+CBUAE Classification: Public
+3. Regulatory adjustments
+Goodwill and Other Intangibles
+21. Intangible assets typically do not generate any cash flows and hence their value, when a
+bank is in need of immediate additional capital to absorb losses, is uncertain. For this reason, all
+intangible assets are deducted from CET1 (5.1.8.1).
+22. From regulatory perspective, goodwill and intangible assets have the same meaning as
+under IFRS.
+23. Capitalized software costs that is not “integral to hardware” is to be treated as an intangible
+asset and software that is “integral to hardware” is to be treated as property, plant and equipment
+(i.e. as a fixed asset).
+24. The amount of intangible assets to be deducted should be net of any associated deferred
+tax liability (DTL) that would be extinguished if the asset became impaired or derecognised under
+the applicable accounting standards.
+25. Goodwill and intangible assets that are deducted from CET1, they are excluded from the
+calculation of RWA for credit risk exposure value.
+Deferred Tax Assets
+26. Deferredtaxassets(DTAs)typicallyarisewhen abank:
+ suffers a net loss in a financial year and is permitted to carry forward this loss to offset
+future profits when calculating its tax bill (net losses carried forward)
+ has to reduce the value of an asset on the balance sheet, but this 'loss in value' is not
+recognised by the tax authorities until a future period (temporary timing difference)
+27. DTAs arising from net losses carried forward have to be deducted in full from a bank's
+CET1 (5.1.8.2). This recognises that their value can only be derived through the existence of
+future taxable income. On the other hand, a DTA relying on future profitability and arising from
+temporary timing differences is subject to the 'threshold deduction rule' (5.1.9.2).
+4. Threshold Deduction
+28. The purpose of calculating the threshold is to limit the significant investments in the
+common shares of unconsolidated financial institutions (banks, insurance and other financial
+entities) and deferred tax assets (arising from temporary differences) to 15% of the CET1 after all
+deduction (Deduction includes regulatory deductions and the amount of significant investments
+in the common shares of unconsolidated financial institutions and deferred tax assets in full).
+29. Therefore, significant investments in the common shares of unconsolidated financial
+institutions and deferred tax assets may receive limited recognition of 10% CET1 individually (CET
+after regulatory adjustment outlined in section3 of the Tier Capital Supply Standard).
+30. The amount that is recognised will receive risk weight of 250% and the remaining amount
+will be deducted. See Appendix 5 for example.
+6
+
+[Document: PI.pdf, Page 6]
+CBUAE Classification: Public
+5. Significant investment in commercial entities
+31. For purposes of this section, 'significant investments' in a commercial entity is defined as
+any investment in the capital instruments of a commercial entity by a bank which is equivalent to
+or more than 10% of CET 1 of the bank (after application of regulatory and threshold deduction).
+See Appendix 3 for an example.
+6. Frequently Asked Questions
+Question 1: When will the Standards, Guidance and Template with regards to Solo reporting be
+issued by the Central Bank?
+The Central Bank will issue all related material regarding Solo reporting during 2020. Formal
+communication will be issued in advance.
+Question 2: What is meant by the book value of an investment?
+The book value of an investment shall be in accordance with the applicable accountingframework

@@ -1,0 +1,187 @@
+
+the key elements underlying the assessments must be publicly available, on a non-selective basis
+and free of charge. Consequently, ratings that are made available only to the parties to a
+transaction do not satisfy this requirement. Where the eligible credit assessment is not publicly
+available free of charge, the ECAI should provide an adequate justification, within its own publicly
+available code of conduct, in accordance with the “comply or explain” nature of the International
+Organization of Securities Commissions’ Code of Conduct Fundamentals for Credit Rating
+Agencies.
+Under the Standards, a bank may infer a rating for an unrated position from an externally
+rated “reference exposure” for purposes of the SEC-ERBA provided that the reference
+securitisation exposure ranks pari passu or is subordinate in all respects to the unrated
+securitisation exposure. Credit enhancements, if any, must be taken into account when assessing
+the relative subordination of the unrated exposure and the reference securitisation exposure. For
+example, if the reference securitisationexposure benefits from any third-party guarantees or other
+credit enhancements that are not available to the unrated exposure, then the latter may not be
+assigned an inferred rating based on the reference securitisation exposure.
+4. Standardised Approach (SEC-SA)
+The supervisory formula used for the calculations within the SEC-SA has been calibrated
+by the BCBS to generate required capital under an assumed minimum 8% risk-based capital ratio.
+As a result, the appropriate conversion to risk-weighted assets for the SEC-SA generally requires
+multiplication of the computed capital ratio by a factor of 12.5 (the reciprocal of 8%) to produce
+the risk weight used within broader calculations of risk-based capital adequacy. This multiplication
+by 12.5 is reflected in the requirements as articulated in the Central Bank’s Securitisation
+Standards.
+If the underlying pool of exposures receives a risk weight of 1250%, then paragraph 5 of
+the Introduction of the Standards for Capital Adequacy of banks in the UAE is applicable.
+When applying the supervisory formula for the SEC-SA to structures involving an SPE, all
+of the SPE’s exposures related to the securitisation are to be treated as exposures in the pool. In
+particular, in the case of swaps other than credit derivatives, the exposure should include the
+positive current market value times the risk weight of the swap provider. However, under the
+Standards, a bank can exclude the exposures of the SPE from the pool for capital calculation
+purposes if the bank can demonstrate that the risk does not affect its particular securitisation
+exposure or that the risk is immaterial, for example because it has been mitigated. Certain market
+practices may eliminate or at least significantly reduce the potential risk from a default of a swap
+provider. Examples of such features could be:
+ cash collateralization of the market value in combination with an agreement of prompt
+additional payments in case of an increase of the market value of the swap; or
+ minimum credit quality of the swap provider with the obligation to post collateral or present
+an alternative swap provider without any costs for the SPE in the event of a credit
+deterioration on the part of the original swap provider.
+94
+
+[Document: PI.pdf, Page 94]
+CBUAE Classification: Public
+If the bank is able to demonstrate that the risk is mitigated in this way, and that the exposures do
+not contribute materially to the risks faced by the bank as a holder of the securitisation exposure,
+the bank may exclude these exposures from the K
+SA
+calculation.
+6. Treatment of credit risk mitigation for securitisation exposures
+1. Tranched protection
+In the case of tranched credit protection, the original securitisation tranche should be
+decomposed into protected and unprotected sub-tranches. However, this decomposition is a
+theoretical construction, and should not be viewed as creating a new securitisation transaction.
+Similarly, the resulting sub- tranches should not be considered resecuritisations solely due to the
+presence of the creditprotection.
+For a bank using the SEC-ERBA for the original securitisation exposure, the bank should
+use the risk weight of the original securitisation for the sub-tranche of highest priority. Note that
+the term “sub-tranche of highest priority” only describes the relative priority of the decomposed
+tranche. The calculation of the risk weight of each sub-tranche is independent from the question
+of whether the sub-tranche is protected (i.e., risk is taken by the protection provider) or is
+unprotected (i.e., risk is taken by the protection buyer).
+2. Maturity mismatches
+For synthetic securitisations, maturity mismatches may arise when protection is bought on
+securitised assets (when, for example, a bank uses credit derivatives to transfer part or all of the
+credit risk of a specific pool of assets to third parties). When the credit derivatives unwind, the
+transaction will terminate. This implies that the effective maturity of all the tranches of the synthetic
+securitisation may differ from that of the underlying exposures.
+7. Simple, Transparent, and Comparable Criteria
+In general, to qualify for treatment as simple, transparent, and comparable (STC), a
+securitisation must meet all of the criteria specified in the Standards, including the Appendix to
+the Standards. The criteria include a requirement that the aggregated value of all exposures to a
+single obligor as of the acquisition date not exceed 2% of the aggregated outstanding exposure
+value of all exposures in the securitisation. However, the BCBS has permitted flexibility for
+jurisdictions with structurally concentrated corporate loan markets. In those cases, for corporate
+exposures only, the applicable maximum concentration threshold for STC treatment can be
+increased to 3%. This increase is subject to ex ante supervisory approval, and banks with such
+exposures should consult with the Central Bank regarding STC treatment. In addition, the seller
+or sponsor of such a pool must retain subordinated positions that provide loss-absorbing credit
+enhancement covering at least the first 10% of losses. These credit-enhancing positions retained
+by the sellers or sponsor are not eligible for STC capital treatment.
+95
+
+[Document: PI.pdf, Page 95]
+CBUAE Classification: Public
+III. Example Calculations
+A. Standardised Approach
+Consider a bank applying the SEC-SA to a securitisation exposure for which the
+underlying pool of assets has a required capital ratio of 9% under the standardised approach to
+credit risk. Suppose that the delinquency rate is unknown for 1% of the exposures in the
+underlying pool, but for the remaining 99% of the pool the delinquency rate is known to be 6%.
+The bank holds an investment of 100 million in a tranche that has an attachment point of 5% and
+a detachment point of 25%. Finally, assume that the pool does not itself contain any securitisation
+exposures, so the exposure is not a resecuritisation.
+In this example, K is given at 9%. To adjust for the known delinquency rate on the pooled
+SA
+assets, the bank computes an adjusted capital ratio:
+(1−𝑊)×𝐾 +(𝑊×0.5)=0.94×0.09+0.06×0.5=0.1146
+𝑆𝐴
+This calculated capital ratio must be further adjusted for the fact that the delinquency rate
+is unknown for a small portion (1%) of the underlying asset pool:
+𝐾 =0.99×0.1146+0.01=0.1235
+𝐴
+Next, the bank applies the supervisory formula to calculate the capital required per unit of
+securitisation exposure, using the values of the attachment point A, the detachment point D, the
+calculated value of K , and the appropriate value of the supervisory parameter ρ, and noting that
+A
+D>K :
+A
+𝑒𝑎×𝑈−𝑒𝑎×𝐿
+𝐾 =
+𝑎×(𝑈−𝐿)
+Where:
+−1 −1
+a= = =−8.100
+ρ×K 1×0.1234
+A
+U=D−K =0.25−0.1235=0.1265
+A
+L=max[(A−K ),0] =max[(0.05−0.1235),0]=0
+A
+Note that because this is not a resecuritisation exposure, the appropriate value of the supervisory
+calibration parameter rho is 1 (ρ=1).
+Substituting the values of a, U, and L into the supervisory formula gives:
+e−8.1×0.1265−e−8.1×0 0.3586−1
+𝐾 = = =0.6260
+−8.1×(0.1265−0) −8.1×0.1265
+This tranche represents a case in which the attachment point A is less than K but the
+A
+detachment point D is greater than K . Thus, according to the Standards, the risk weight for the
+A
+bank’s exposure is calculated as a weighted average of 12.5 and 12.5×K:
+96
+
+[Document: PI.pdf, Page 96 (Overlap)]
+CBUAE Classification: Public
+K −A D−K
+A A
+RW=( )×12.5+( )×12.5×K
+D−A D−A
+0.1235−0.05 0.25−0.1235
+=( )×12.5+( )×12.5×0.6260=9.54,or 954%
+0.2 0.2
+With a tranche risk weight of 954%, the bank’s risk-weighted asset amount for this
+securitisation would be 954% of the 100 million investment, or 954 million. If, for example, the
+bank chose to apply a capital ratio of 13% to this exposure, then the bank’s required capital would
+be 13% of 954 million, or approximately 85 million, on the investment of 100 million in this
+securitisation tranche.
+B. External Ratings-Based Approach
+Consider a non-senior securitisation tranche that has been assigned a rating by one of the
+eligible rating agencies corresponding to a rating of BB+. Suppose that the tranche has an
+attachment point A of 5%, a detachment point D of 30%, and effective tranche maturity of M = 2
+T
+years.
+ From the look-up table for SEC-ERBA, a non-senior securitisation exposure rated BB+
+with one-year maturity has a risk weight of 470%; the risk weight for a five-year maturity
+is 580%.
+ The tranche maturity of 2 years is one-quarter of the way between one year and five years,
+so the relevant maturity-adjusted risk weight based on linear interpolation is one quarter
+of the way between 470% and 580%, or 497.5%.
+ Because this is a non-senior tranche, it must also be adjusted for tranche thickness, which
+is the difference between D=30% and A=5%, a difference of 25%. The interpolated risk
+weight from the table should be multiplied by a factor of 1-(D-A)=0.75, which exceeds the
+floor of 50% and therefore should be used by the bank in the calculation (0.75 x 497.5%).
+ The resulting tranche risk weight is 373%.
+Banks using the SEC-ERBA for securitisation exposures may prefer to incorporate the
+main features of the ERBA look-up tables into formal calculations of risk weights, including the
+relevant adjustments for tranche maturity and tranche thickness. In that case, each pair of 1-year
+and 5-year risk weights can be viewed as coefficients for a formulaic calculation of the risk weight
+for a tranche of given maturity M T, and in the case of non-senior tranches, thickness D-A.
+For example, for a non-senior tranche rated BB+ with M between one year and five years,
+T
+the tranche risk weight RW
+T
+can be computed with a single formula as:
+𝑀 −1
+𝑇
+𝑅𝑊 =𝑚𝑎𝑥 [0.5 ,1−(𝐷−𝐴)]×(4.7+( )×(5.8−4.7))
+𝑇 4
+where the coefficients 4.7 and 5.8 correspond to the relevant values from the look-up table of
+470% for one-year maturity and 580% for five-year maturity. Substituting in the values for A, D,
+and M from the example above:
+T
+2−1
+𝑅𝑊 =𝑚𝑎𝑥[0.5 ,1−(30%−5%)]×(4.7+( )×(1.1))=0.75×4.975=3.73,or 373%
+𝑇 4
+97
