@@ -60,6 +60,28 @@ class ControlDesignTool(BaseTool):
         
         return default_type
     
+    def _identify_keywords(self, description: str) -> List[str]:
+        """Identify key domain keywords from the risk description for more specific controls"""
+        domains = {
+            "access": ["access", "authentication", "authorization", "login", "credential", "password", "identity"],
+            "data": ["data", "information", "confidential", "encrypt", "protect", "sensitive", "store", "backup"],
+            "security": ["security", "cybersecurity", "protection", "vulnerability", "threat", "malware", "attack"],
+            "compliance": ["compliance", "regulatory", "regulation", "law", "requirement", "standard", "guideline"],
+            "audit": ["audit", "review", "verify", "inspect", "examination", "assessment", "evaluate"],
+            "monitoring": ["monitor", "surveillance", "detect", "alert", "observe", "track", "log"],
+            "physical": ["physical", "facility", "premise", "building", "location", "site", "area"],
+            "training": ["training", "awareness", "education", "instruct", "teach", "learn", "knowledge"],
+            "reporting": ["report", "document", "record", "communication", "notify", "inform"],
+            "incident": ["incident", "event", "breach", "violation", "issue", "problem", "response"]
+        }
+        
+        found_domains = []
+        for domain, keywords in domains.items():
+            if any(keyword in description.lower() for keyword in keywords):
+                found_domains.append(domain)
+        
+        return found_domains
+    
     def _design_controls(self, risks: List[Dict[str, Any]], framework: Optional[str]) -> List[Dict[str, Any]]:
         """Design controls for each risk - ENHANCED VERSION"""
         controls = []
@@ -76,13 +98,25 @@ class ControlDesignTool(BaseTool):
         selected_framework = framework if framework in control_types else "Default"
         available_types = control_types[selected_framework]
         
+        # Track condition_id to risk_id mapping to maintain traceability
+        condition_risk_mapping = {}
+        for risk in risks:
+            risk_id = risk.get('id', '')
+            condition_ids = risk.get('condition_ids', [risk.get('condition_id', 'Unknown')])
+            
+            for condition_id in condition_ids:
+                if condition_id not in condition_risk_mapping:
+                    condition_risk_mapping[condition_id] = []
+                condition_risk_mapping[condition_id].append(risk_id)
+        
         for risk in risks:
             # Generate control ID based on risk ID
             risk_id = risk.get('id', '')
             
             # Handle cases where ID might not be in expected format
             if risk_id.startswith('R-'):
-                control_id = f"C-{risk_id.replace('R-', '')}"
+                base_id = risk_id.replace('R-', '')
+                control_id = f"C-{base_id}"
             else:
                 # Try to extract numeric part or use a counter
                 num_match = re.search(r'\d+', risk_id)
@@ -91,9 +125,12 @@ class ControlDesignTool(BaseTool):
                 else:
                     control_id = f"C-{len(controls)+1}"
             
-            # Get the risk description and condition ID
+            # Get the risk description and condition IDs
             risk_desc = risk.get('description', '')
-            condition_id = risk.get('condition_id', 'Unknown')
+            condition_ids = risk.get('condition_ids', [risk.get('condition_id', 'Unknown')])
+            
+            # Identify domain keywords for more targeted controls
+            domains = self._identify_keywords(risk_desc)
             
             # Determine the primary control type based on risk content
             primary_control_type = self._determine_control_type(risk_desc, available_types)
@@ -123,26 +160,94 @@ class ControlDesignTool(BaseTool):
                 else:
                     specific_control_id = f"{control_id}-{idx+1}"
                 
-                # Design specific control based on the risk and control type
-                control_desc = self._generate_enhanced_control_description(risk_desc, control_type, condition_id)
+                # Design specific control based on the risk, control type, and domains
+                control_desc = self._generate_specific_control_description(
+                    risk_desc, control_type, domains, condition_ids
+                )
                 
-                # Add implementation considerations based on control type
-                implementation = self._generate_detailed_implementation_guidance(control_type, risk_desc)
+                # Add implementation considerations based on control type and domains
+                implementation = self._generate_specific_implementation_guidance(
+                    control_type, domains, risk_desc
+                )
                 
-                # Add to controls list
+                # Add to controls list with all related risks
                 controls.append({
                     "id": specific_control_id,
-                    "risk_id": risk["id"],
+                    "risk_id": risk_id,
+                    "risk_ids": [risk_id],  # Start with current risk
                     "description": control_desc,
                     "type": control_type,
+                    "domains": domains,
                     "implementation": implementation,
                     "reference": risk.get("reference", "")
                 })
         
+        # Process many-to-many relationships for controls
+        self._process_control_relationships(controls, risks)
+        
         return controls
 
-    def _generate_enhanced_control_description(self, risk_description: str, control_type: str, condition_id: str) -> str:
-        """Generate a more detailed control description based on risk and control type"""
+    def _process_control_relationships(self, controls: List[Dict[str, Any]], risks: List[Dict[str, Any]]) -> None:
+        """Process and establish many-to-many relationships between controls and risks"""
+        # Build risk ID to control ID mappings
+        risk_to_controls = {}
+        
+        # First pass: build initial mappings
+        for control in controls:
+            risk_id = control.get('risk_id', '')
+            if risk_id:
+                if risk_id not in risk_to_controls:
+                    risk_to_controls[risk_id] = []
+                risk_to_controls[risk_id].append(control.get('id', ''))
+        
+        # Second pass: establish related risks for each control
+        for control in controls:
+            # Find all risks with similar domains or shared conditions
+            control_domains = control.get('domains', [])
+            control_risk_id = control.get('risk_id', '')
+            
+            # Skip if no primary risk
+            if not control_risk_id:
+                continue
+            
+            # Find the primary risk object
+            primary_risk = next((r for r in risks if r.get('id', '') == control_risk_id), None)
+            if not primary_risk:
+                continue
+            
+            # Get condition IDs from primary risk
+            primary_conditions = primary_risk.get('condition_ids', [primary_risk.get('condition_id', '')])
+            
+            # Find other risks that share conditions or domains
+            related_risks = []
+            for risk in risks:
+                risk_id = risk.get('risk_id', risk.get('id', ''))
+                
+                # Skip if it's the same as the primary risk
+                if risk_id == control_risk_id or not risk_id:
+                    continue
+                
+                # Check condition overlap
+                risk_conditions = risk.get('condition_ids', [risk.get('condition_id', '')])
+                conditions_overlap = any(c in primary_conditions for c in risk_conditions)
+                
+                # Check domain similarity
+                risk_desc = risk.get('description', '')
+                risk_domains = self._identify_keywords(risk_desc)
+                domains_overlap = any(d in control_domains for d in risk_domains)
+                
+                # Add to related risks if there's overlap
+                if conditions_overlap or domains_overlap:
+                    related_risks.append(risk_id)
+            
+            # Update the control with all related risks
+            if related_risks:
+                all_risks = [control_risk_id] + related_risks
+                control['risk_ids'] = all_risks
+
+    def _generate_specific_control_description(self, risk_description: str, control_type: str, 
+                                             domains: List[str], condition_ids: List[str]) -> str:
+        """Generate a specific control description based on risk, control type, and domains"""
         # Extract key elements from risk description
         import re
         
@@ -150,127 +255,157 @@ class ControlDesignTool(BaseTool):
         requirement_match = re.search(r'compliance with (.+?)(?:$|\.)', risk_description)
         requirement = requirement_match.group(1) if requirement_match else "requirements"
         
-        # Extract specific non-compliance concerns if possible
+        # Extract specific non-compliance concerns
         concern_match = re.search(r'Risk of (non-compliance|failure|breach|violation|not adhering) with.*?:(.+?)(?:$|\.)', risk_description, re.IGNORECASE)
         specific_concern = concern_match.group(2).strip() if concern_match else requirement
         
+        # Generate domain-specific parts of the control description
+        domain_specifics = ""
+        if domains:
+            if "access" in domains:
+                domain_specifics += " This includes implementing proper access controls, authentication mechanisms, and authorization procedures."
+            if "data" in domains:
+                domain_specifics += " This includes data classification, protection measures, and handling procedures for sensitive information."
+            if "security" in domains:
+                domain_specifics += " This includes security safeguards, threat mitigation, and protection against vulnerabilities."
+            if "compliance" in domains:
+                domain_specifics += " This includes regulatory tracking, policy documentation, and compliance verification procedures."
+            if "monitoring" in domains:
+                domain_specifics += " This includes continuous monitoring, logging, and alerting mechanisms."
+        
+        # Add reference to all related conditions
+        condition_reference = f" Addresses compliance conditions: {', '.join(condition_ids)}." if condition_ids else ""
+        
         # Generate appropriate description based on control type
         if control_type == "Preventive":
-            return f"Implement preventive measures to ensure compliance with {specific_concern} through proactive verification, validation, and restriction mechanisms. This control prevents non-compliance before it occurs by enforcing requirements at the entry point."
+            return f"Implement specific preventive measures to ensure compliance with {specific_concern} through targeted verification, validation, and restriction mechanisms.{domain_specifics} This control prevents non-compliance before it occurs by enforcing specific requirements at the entry point.{condition_reference}"
         elif control_type == "Detective":
-            return f"Establish comprehensive monitoring and detection systems to identify potential non-compliance with {specific_concern}. This control employs regular audits, automated scanning, and exception reporting to detect violations promptly."
+            return f"Establish targeted monitoring and detection systems to identify potential non-compliance with {specific_concern}.{domain_specifics} This control employs specific audits, automated scanning, and exception reporting to detect violations promptly.{condition_reference}"
         elif control_type == "Corrective":
-            return f"Develop remediation procedures and corrective action plans to address identified instances of non-compliance with {specific_concern}. This control ensures timely resolution of compliance issues through structured response mechanisms."
+            return f"Develop specific remediation procedures and corrective action plans to address identified instances of non-compliance with {specific_concern}.{domain_specifics} This control ensures timely resolution of compliance issues through structured response mechanisms.{condition_reference}"
         elif control_type == "Compensating":
-            return f"Implement alternative controls to achieve equivalent protection when direct compliance with {specific_concern} is not feasible. This compensating control addresses the underlying risk through alternative means that provide comparable assurance."
+            return f"Implement alternative controls to achieve equivalent protection when direct compliance with {specific_concern} is not feasible.{domain_specifics} This compensating control addresses the underlying risk through alternative means that provide comparable assurance.{condition_reference}"
         elif control_type == "Technical":
-            return f"Deploy technical safeguards, system configurations, and automated tools to enforce and verify compliance with {specific_concern}. This control uses technology to embed compliance requirements into operational processes."
+            return f"Deploy specific technical safeguards, system configurations, and automated tools to enforce and verify compliance with {specific_concern}.{domain_specifics} This control uses technology to embed compliance requirements into operational processes.{condition_reference}"
         elif control_type == "Physical":
-            return f"Establish physical barriers, access controls, and environmental safeguards to ensure compliance with {specific_concern}. This control addresses physical aspects of compliance through tangible protections."
+            return f"Establish specific physical barriers, access controls, and environmental safeguards to ensure compliance with {specific_concern}.{domain_specifics} This control addresses physical aspects of compliance through tangible protections.{condition_reference}"
         elif control_type == "Administrative":
-            return f"Develop comprehensive policies, procedures, and governance structures to manage compliance with {specific_concern}. This control establishes administrative frameworks that define responsibilities and processes."
-        elif control_type == "Planning":
-            return f"Establish planning processes to address compliance requirements for {specific_concern} at the design and strategy phase. This control ensures compliance considerations are built into initial planning."
-        elif control_type == "Implementation":
-            return f"Develop implementation procedures and technical standards to ensure that systems and processes comply with {specific_concern}. This control defines how compliance requirements are operationalized."
-        elif control_type == "Delivery":
-            return f"Implement operational processes and service delivery standards to maintain ongoing compliance with {specific_concern}. This control focuses on the execution phase of operational activities."
-        elif control_type == "Monitoring":
-            return f"Establish continuous monitoring mechanisms and metrics to assess ongoing compliance with {specific_concern}. This control provides systematic oversight and compliance verification."
+            return f"Develop specific policies, procedures, and governance structures to manage compliance with {specific_concern}.{domain_specifics} This control establishes administrative frameworks that define responsibilities and processes.{condition_reference}"
         
         # Default generic description
-        return f"Implement controls to ensure compliance with {specific_concern} through a combination of preventive, detective, and corrective measures tailored to the specific requirements."
+        return f"Implement specific controls to ensure compliance with {specific_concern} through a combination of targeted preventive, detective, and corrective measures tailored to the specific requirements.{domain_specifics}{condition_reference}"
 
-    def _generate_detailed_implementation_guidance(self, control_type: str, risk_description: str) -> str:
-        """Generate detailed implementation guidance based on control type"""
+    def _generate_specific_implementation_guidance(self, control_type: str, domains: List[str], 
+                                                risk_description: str) -> str:
+        """Generate specific implementation guidance based on control type and domains"""
+        # Base implementation guidance by control type
+        base_guidance = self._get_base_implementation_guidance(control_type)
+        
+        # Add domain-specific implementation guidance
+        domain_guidance = []
+        
+        if "access" in domains:
+            domain_guidance.append("Implement role-based access control (RBAC) with principle of least privilege")
+            domain_guidance.append("Enforce strong password policies and multi-factor authentication")
+            domain_guidance.append("Conduct regular access reviews and promptly remove unnecessary access")
+        
+        if "data" in domains:
+            domain_guidance.append("Classify data according to sensitivity and implement appropriate protection")
+            domain_guidance.append("Implement encryption for data at rest and in transit")
+            domain_guidance.append("Establish data retention and secure disposal procedures")
+        
+        if "security" in domains:
+            domain_guidance.append("Conduct regular vulnerability assessments and penetration testing")
+            domain_guidance.append("Implement security patching and update processes")
+            domain_guidance.append("Deploy defense-in-depth security architecture")
+        
+        if "compliance" in domains:
+            domain_guidance.append("Maintain a compliance requirements register with regular updates")
+            domain_guidance.append("Conduct periodic compliance self-assessments")
+            domain_guidance.append("Establish a documented compliance exception process")
+            
+        if "audit" in domains:
+            domain_guidance.append("Maintain audit trails for all compliance-related activities")
+            domain_guidance.append("Establish independent review procedures for key controls")
+            domain_guidance.append("Document auditable evidence of control effectiveness")
+            
+        if "monitoring" in domains:
+            domain_guidance.append("Implement automated monitoring tools with defined thresholds")
+            domain_guidance.append("Configure real-time alerting for potential compliance violations")
+            domain_guidance.append("Establish a formal review process for monitoring results")
+            
+        if "physical" in domains:
+            domain_guidance.append("Implement physical access controls with logging capabilities")
+            domain_guidance.append("Establish environmental monitoring for sensitive areas")
+            domain_guidance.append("Conduct regular physical security inspections")
+            
+        if "training" in domains:
+            domain_guidance.append("Develop role-specific compliance training materials")
+            domain_guidance.append("Establish mandatory training schedule with completion tracking")
+            domain_guidance.append("Conduct knowledge assessments after training completion")
+        
+        if "reporting" in domains:
+            domain_guidance.append("Define report templates with all required compliance elements")
+            domain_guidance.append("Establish reporting schedules and distribution lists")
+            domain_guidance.append("Implement verification procedures for report accuracy")
+            
+        if "incident" in domains:
+            domain_guidance.append("Develop incident response procedures for compliance violations")
+            domain_guidance.append("Establish clear escalation paths and communication protocols")
+            domain_guidance.append("Implement root cause analysis and remediation tracking")
+        
+        # Combine base and domain-specific guidance
+        combined_guidance = base_guidance
+        if domain_guidance:
+            combined_guidance += "\n\nDomain-specific implementation measures:\n- " + "\n- ".join(domain_guidance)
+        
+        return combined_guidance
+    
+    def _get_base_implementation_guidance(self, control_type: str) -> str:
+        """Get base implementation guidance for the control type"""
         if control_type == "Preventive":
-            return ("Implement the following preventive measures: (1) Develop input validation requirements and automated checks; "
-                    "(2) Establish pre-approval workflows with designated approvers; "
-                    "(3) Configure system restrictions to enforce compliance boundaries; "
+            return ("Implement the following preventive measures: (1) Develop specific input validation requirements and automated checks; "
+                    "(2) Establish targeted pre-approval workflows with designated approvers; "
+                    "(3) Configure system restrictions to enforce specific compliance boundaries; "
                     "(4) Implement automated verification of compliance requirements before processing; "
-                    "(5) Conduct regular training on compliance requirements for all personnel.")
+                    "(5) Conduct focused training on specific compliance requirements for relevant personnel.")
         elif control_type == "Detective":
-            return ("Establish the following detection mechanisms: (1) Implement automated compliance scanning on a defined schedule; "
-                    "(2) Configure real-time alerts for potential compliance violations; "
-                    "(3) Conduct regular compliance audits with detailed documentation; "
-                    "(4) Establish exception reporting processes with escalation procedures; "
-                    "(5) Deploy monitoring tools to track compliance metrics and trends.")
+            return ("Establish the following detection mechanisms: (1) Implement targeted compliance scanning on a defined schedule; "
+                    "(2) Configure specific real-time alerts for potential compliance violations; "
+                    "(3) Conduct focused compliance audits with detailed documentation; "
+                    "(4) Establish specific exception reporting processes with clear escalation procedures; "
+                    "(5) Deploy monitoring tools to track specific compliance metrics and trends.")
         elif control_type == "Corrective":
-            return ("Develop the following corrective measures: (1) Create detailed incident response procedures for compliance violations; "
-                    "(2) Establish remediation plans with clear ownership and timelines; "
-                    "(3) Implement root cause analysis protocols for compliance failures; "
-                    "(4) Develop documentation requirements for corrective actions; "
+            return ("Develop the following corrective measures: (1) Create detailed incident response procedures for specific compliance violations; "
+                    "(2) Establish targeted remediation plans with clear ownership and timelines; "
+                    "(3) Implement root cause analysis protocols for specific compliance failures; "
+                    "(4) Develop documentation requirements for specific corrective actions; "
                     "(5) Establish verification procedures to confirm effective remediation.")
         elif control_type == "Technical":
-            return ("Deploy the following technical controls: (1) Implement automated enforcement through system configurations; "
-                    "(2) Establish technical safeguards to prevent compliance violations; "
-                    "(3) Configure logging and monitoring for compliance-related events; "
-                    "(4) Implement access controls aligned with compliance requirements; "
+            return ("Deploy the following technical controls: (1) Implement automated enforcement through specific system configurations; "
+                    "(2) Establish technical safeguards to prevent specific compliance violations; "
+                    "(3) Configure detailed logging and monitoring for compliance-related events; "
+                    "(4) Implement access controls aligned with specific compliance requirements; "
                     "(5) Develop automated testing procedures for technical compliance verification.")
         elif control_type == "Physical":
-            return ("Implement the following physical controls: (1) Establish physical access restrictions to sensitive areas; "
+            return ("Implement the following physical controls: (1) Establish specific physical access restrictions to sensitive areas; "
                     "(2) Deploy environmental monitoring for compliance-critical resources; "
-                    "(3) Implement physical security measures aligned with requirements; "
+                    "(3) Implement physical security measures aligned with specific requirements; "
                     "(4) Establish verification procedures for physical security controls; "
                     "(5) Develop physical inventory management aligned with compliance needs.")
         elif control_type == "Administrative":
-            return ("Establish the following administrative measures: (1) Develop comprehensive policies addressing compliance requirements; "
+            return ("Establish the following administrative measures: (1) Develop comprehensive policies addressing specific compliance requirements; "
                     "(2) Create procedural documents with step-by-step compliance instructions; "
                     "(3) Establish governance structures with clear compliance responsibilities; "
-                    "(4) Implement training programs for all compliance requirements; "
+                    "(4) Implement targeted training programs for specific compliance requirements; "
                     "(5) Develop documentation standards for demonstrating compliance.")
         
         # Default guidance for other control types
         return ("Implementation guidance: (1) Identify key stakeholders and establish clear ownership; "
-                "(2) Develop detailed procedures aligned with the control objectives; "
-                "(3) Establish metrics to measure control effectiveness; "
+                "(2) Develop detailed procedures aligned with the specific control objectives; "
+                "(3) Establish metrics to measure specific control effectiveness; "
                 "(4) Implement regular testing to verify control performance; "
                 "(5) Establish documentation requirements to demonstrate compliance.")
-    
-    def _generate_control_description(self, risk_description: str, control_type: str) -> str:
-        """Generate a control description based on risk and control type"""
-        # Extract key elements from risk description
-        import re
-        
-        # Try to identify key requirements from risk description
-        requirement_match = re.search(r'compliance with (.+?)(?:$|\.)', risk_description)
-        requirement = requirement_match.group(1) if requirement_match else "requirements"
-        
-        # Generate appropriate description based on control type
-        if control_type == "Preventive":
-            return f"Implement preventive measures to ensure {requirement} prior to processing or execution."
-        elif control_type == "Detective":
-            return f"Establish monitoring system to detect non-compliance with {requirement} during operation."
-        elif control_type == "Corrective":
-            return f"Develop remediation procedures to address instances of non-compliance with {requirement}."
-        elif control_type == "Compensating":
-            return f"Implement alternative controls to achieve equivalent protection when direct compliance with {requirement} is not feasible."
-        elif control_type == "Technical":
-            return f"Deploy technical safeguards to enforce compliance with {requirement}."
-        elif control_type == "Physical":
-            return f"Establish physical barriers and safeguards to ensure {requirement}."
-        elif control_type == "Administrative":
-            return f"Develop policies and procedures to govern compliance with {requirement}."
-        
-        # Default generic description
-        return f"Implement controls to ensure compliance with {requirement}."
-    
-    def _generate_implementation_guidance(self, control_type: str, risk_description: str) -> str:
-        """Generate implementation guidance based on control type"""
-        if control_type == "Preventive":
-            return "Implement upfront verification steps, automatic validations, and input constraints."
-        elif control_type == "Detective":
-            return "Establish monitoring, logging, reviews, and periodic compliance audits."
-        elif control_type == "Corrective":
-            return "Develop incident response procedures, remediation plans, and correction workflows."
-        elif control_type == "Technical":
-            return "Deploy automated systems, software controls, and technical safeguards."
-        elif control_type == "Physical":
-            return "Implement physical barriers, access controls, and environmental protections."
-        elif control_type == "Administrative":
-            return "Establish policies, procedures, training, and documentation."
-        
-        return "Regular monitoring and verification required."
     
     def _categorize_controls(self, controls_text: str) -> str:
         """Categorize controls by type"""
@@ -293,8 +428,15 @@ class ControlDesignTool(BaseTool):
             for category, controls in categories.items():
                 output += f"## {category} Controls\n"
                 
-                for control in controls:
-                    output += f"- {control.get('id', 'Unknown')}: {control.get('description', 'No description')}\n"
+                # Sort controls by ID within each category
+                sorted_controls = sorted(controls, key=lambda x: ParserUtils.natural_sort_key(x.get('id', '')))
+                
+                for control in sorted_controls:
+                    # List all risks this control addresses
+                    risk_ids = control.get('risk_ids', [control.get('risk_id', 'Unknown')])
+                    risk_text = ', '.join(risk_ids) if len(risk_ids) > 1 else risk_ids[0]
+                    
+                    output += f"- {control.get('id', 'Unknown')}: {risk_text} - {control.get('description', 'No description')[:100]}...\n"
                 
                 output += "\n"
                 
@@ -360,7 +502,10 @@ class ControlDesignTool(BaseTool):
             # Format the evaluation results
             output = "# Control Evaluation Results\n\n"
             
-            for result in evaluation_results:
+            # Sort by control ID
+            sorted_results = sorted(evaluation_results, key=lambda x: ParserUtils.natural_sort_key(x['control_id']))
+            
+            for result in sorted_results:
                 output += f"## {result['control_id']}\n"
                 output += f"**Description Score**: {result['description_score']:.1f}/5\n"
                 output += f"**Specificity Score**: {result['specificity_score']}/5\n"

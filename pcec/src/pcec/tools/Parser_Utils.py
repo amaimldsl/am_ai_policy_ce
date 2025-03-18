@@ -1,7 +1,8 @@
 # tools/Parser_Utils.py - Enhanced version
 import re
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Set
 import logging
+import functools
 
 logger = logging.getLogger(__name__)
 
@@ -10,6 +11,15 @@ class ParserUtils:
     Centralized parsing utilities to standardize data extraction and formatting
     across different tools and eliminate redundancy.
     """
+    
+    @staticmethod
+    def natural_sort_key(s):
+        """
+        Natural sorting key function that handles numeric parts correctly
+        This ensures that C-1, C-2, C-10 sort properly instead of C-1, C-10, C-2
+        """
+        return [int(text) if text.isdigit() else text.lower() 
+                for text in re.split(r'(\d+)', str(s))]
     
     @staticmethod
     def parse_conditions(conditions_text: str) -> List[Dict[str, Any]]:
@@ -113,6 +123,10 @@ class ParserUtils:
                                 "reference": reference
                             })
                             break
+            
+            # Sort the conditions by ID using natural sort
+            parsed.sort(key=lambda x: ParserUtils.natural_sort_key(x.get('id', '')))
+            
         except Exception as e:
             logger.error(f"Error parsing conditions: {str(e)}")
             # Return an empty array with at least one default entry
@@ -148,6 +162,9 @@ class ParserUtils:
                 re.compile(r'####\s*(R-\d+):\s*(C-\d+)\s*\n\*\*Description\*\*:\s*(.*?)\n\*\*Likelihood\*\*:\s*(.*?)\n\*\*Impact\*\*:\s*(.*?)\n\*\*Source\*\*:\s*(.*?)(?:\n\n|\Z)', re.DOTALL)
             ]
             
+            # Track condition mapping for many-to-many relationships
+            condition_mapping = {}
+            
             # Try each structured pattern
             matched = False
             for pattern in risk_patterns:
@@ -171,8 +188,19 @@ class ParserUtils:
                                 impact = match.group(4).strip()
                                 reference = match.group(5).strip()
                                 
-                                # Infer condition ID from risk ID
-                                condition_id = f"C-{risk_id.replace('R-', '')}"
+                                # Infer condition ID from risk ID or from description
+                                condition_ids = []
+                                cond_matches = re.findall(r'C-\d+', description)
+                                if cond_matches:
+                                    condition_ids = cond_matches
+                                else:
+                                    condition_ids = [f"C-{risk_id.replace('R-', '')}"]
+                                
+                                # Use the first one as primary but track all
+                                condition_id = condition_ids[0] if condition_ids else f"C-{risk_id.replace('R-', '')}"
+                                
+                                # Store mapping for many-to-many relationship
+                                condition_mapping[risk_id] = condition_ids
                         elif len(match.groups()) >= 3 and "Description" in match.group(0) and "Source" in match.group(0):  # Pattern 3
                             risk_id = match.group(1).strip()
                             description = match.group(2).strip()
@@ -182,8 +210,12 @@ class ParserUtils:
                             likelihood = "Medium"
                             impact = "Medium"
                             
-                            # Infer condition ID from risk ID
-                            condition_id = f"C-{risk_id.replace('R-', '')}"
+                            # Extract condition IDs from description
+                            condition_ids = re.findall(r'C-\d+', description)
+                            condition_id = condition_ids[0] if condition_ids else f"C-{risk_id.replace('R-', '')}"
+                            
+                            # Store mapping for many-to-many relationship
+                            condition_mapping[risk_id] = condition_ids if condition_ids else [condition_id]
                         else:  # Pattern 2 (## R-123: C-456)
                             risk_id = match.group(1).strip()
                             condition_id = match.group(2).strip()
@@ -198,6 +230,15 @@ class ParserUtils:
                             reference = source_match.group(1).strip() if source_match else "Unknown"
                             likelihood = likelihood_match.group(1).strip() if likelihood_match else "Medium"
                             impact = impact_match.group(1).strip() if impact_match else "Medium"
+                            
+                            # Check for additional condition IDs in description
+                            additional_conditions = re.findall(r'C-\d+', description)
+                            all_conditions = [condition_id]
+                            if additional_conditions:
+                                all_conditions.extend([c for c in additional_conditions if c != condition_id])
+                            
+                            # Store mapping for many-to-many relationship
+                            condition_mapping[risk_id] = all_conditions
                         
                         # Determine priority based on likelihood and impact
                         priority = "Medium"  # Default
@@ -209,6 +250,7 @@ class ParserUtils:
                         parsed.append({
                             "id": risk_id,
                             "condition_id": condition_id,
+                            "condition_ids": condition_mapping.get(risk_id, [condition_id]),
                             "description": description,
                             "likelihood": likelihood,
                             "impact": impact,
@@ -233,12 +275,17 @@ class ParserUtils:
                         impact = risk_match.group(4).strip()
                         reference = risk_match.group(5).strip()
                         
-                        # Infer condition ID from risk ID
-                        condition_id = f"C-{risk_id.replace('R-', '')}"
+                        # Extract condition IDs from description
+                        condition_ids = re.findall(r'C-\d+', description)
+                        if not condition_ids:
+                            condition_ids = [f"C-{risk_id.replace('R-', '')}"]
+                        
+                        condition_id = condition_ids[0]  # Primary condition
                         
                         parsed.append({
                             "id": risk_id,
                             "condition_id": condition_id,
+                            "condition_ids": condition_ids,
                             "description": description,
                             "likelihood": likelihood,
                             "impact": impact,
@@ -254,12 +301,15 @@ class ParserUtils:
                 
                 if matches:
                     for match in matches:
-                        condition_id = match.group(1)
+                        condition_id = f"C-{match.group(1)}"
                         description = match.group(2).strip()
                         
+                        risk_id = f"R-{match.group(1)}"
+                        
                         parsed.append({
-                            "id": f"R-{condition_id}",  # Create risk ID based on condition ID
-                            "condition_id": f"C-{condition_id}",
+                            "id": risk_id,
+                            "condition_id": condition_id,
+                            "condition_ids": [condition_id],
                             "description": f"Risk of non-compliance with condition {condition_id}: {description}",
                             "likelihood": "Medium",  # Default values
                             "impact": "Medium",
@@ -271,18 +321,24 @@ class ParserUtils:
                     parsed.append({
                         "id": "R-Unknown",
                         "condition_id": "C-Unknown",
+                        "condition_ids": ["C-Unknown"],
                         "description": risks_text.strip(),
                         "likelihood": "Medium",
                         "impact": "Medium",
                         "priority": "Medium",
                         "reference": "Unknown"
                     })
+            
+            # Sort the risks by ID using natural sort
+            parsed.sort(key=lambda x: ParserUtils.natural_sort_key(x.get('id', '')))
+            
         except Exception as e:
             logger.error(f"Error parsing risks: {str(e)}")
             # Return an empty array with at least one default entry
             parsed = [{
                 "id": "R-1",
                 "condition_id": "C-1",
+                "condition_ids": ["C-1"],
                 "description": "Failed to parse risks. Please check the input format.",
                 "likelihood": "Medium",
                 "impact": "Medium",
@@ -318,6 +374,9 @@ class ParserUtils:
                 re.compile(r'##\s*([A-Za-z]+)\s*Controls\s*\n\n(.*?)(?=##|\Z)', re.DOTALL)
             ]
             
+            # Track risk mapping for many-to-many relationships
+            risk_mapping = {}
+            
             # Try the specific control entry patterns first
             matched = False
             for pattern_idx, pattern in enumerate(control_patterns[:2]):  # The first two patterns
@@ -349,9 +408,19 @@ class ParserUtils:
                             else:
                                 control_type = "Preventive"  # Default
                         
+                        # Check for additional risk IDs in description
+                        additional_risks = re.findall(r'R-\d+', description)
+                        all_risks = [risk_id]
+                        if additional_risks:
+                            all_risks.extend([r for r in additional_risks if r != risk_id])
+                        
+                        # Store mapping for many-to-many relationship
+                        risk_mapping[control_id] = all_risks
+                        
                         parsed.append({
                             "id": control_id,
                             "risk_id": risk_id,
+                            "risk_ids": all_risks,
                             "description": description,
                             "type": control_type,
                             "implementation": implementation,
@@ -375,9 +444,19 @@ class ParserUtils:
                         reference = entry_match.group(4).strip()
                         implementation = entry_match.group(5).strip()
                         
+                        # Check for additional risk IDs in description
+                        additional_risks = re.findall(r'R-\d+', description)
+                        all_risks = [risk_id]
+                        if additional_risks:
+                            all_risks.extend([r for r in additional_risks if r != risk_id])
+                        
+                        # Store mapping for many-to-many relationship
+                        risk_mapping[control_id] = all_risks
+                        
                         parsed.append({
                             "id": control_id,
                             "risk_id": risk_id,
+                            "risk_ids": all_risks,
                             "description": description,
                             "type": control_type,
                             "implementation": implementation,
@@ -408,20 +487,35 @@ class ParserUtils:
                         implementation = impl_match.group(1).strip() if impl_match else "Regular monitoring and verification required."
                         reference = source_match.group(1).strip() if source_match else "Unknown"
                         
+                        # Check for additional risk IDs in description
+                        additional_risks = re.findall(r'R-\d+', description)
+                        all_risks = [risk_id]
+                        if additional_risks:
+                            all_risks.extend([r for r in additional_risks if r != risk_id])
+                        
+                        # Store mapping for many-to-many relationship
+                        risk_mapping[control_id] = all_risks
+                        
                         parsed.append({
                             "id": control_id,
                             "risk_id": risk_id,
+                            "risk_ids": all_risks,
                             "description": description,
                             "type": control_type,
                             "implementation": implementation,
                             "reference": reference
                         })
+            
+            # Sort the controls by ID using natural sort
+            parsed.sort(key=lambda x: ParserUtils.natural_sort_key(x.get('id', '')))
+            
         except Exception as e:
             logger.error(f"Error parsing controls: {str(e)}")
             # Return an empty array with at least one default entry
             parsed = [{
                 "id": "C-1",
                 "risk_id": "R-1",
+                "risk_ids": ["R-1"],
                 "description": "Failed to parse controls. Please check the input format.",
                 "type": "Preventive",
                 "implementation": "Regular monitoring and verification required.",
@@ -444,6 +538,9 @@ class ParserUtils:
             # Standard pattern for test entries
             test_pattern = re.compile(r'##\s*(T-\d+(?:-[A-Z])?)\s*:\s*(C-\d+(?:-\d+)?)\s*\n\*\*Objective\*\*:\s*(.*?)\n\*\*Test Steps\*\*:\s*(.*?)\n\*\*Required Evidence\*\*:\s*(.*?)\n\*\*Source\*\*:\s*(.*?)(?:\n\n|\Z)', re.DOTALL)
             
+            # Track control mapping for many-to-many relationships
+            control_mapping = {}
+            
             for match in test_pattern.finditer(test_procedures_text):
                 test_id = match.group(1).strip()
                 control_id = match.group(2).strip()
@@ -463,9 +560,19 @@ class ParserUtils:
                     elif line and (line[0].isdigit() or line[0].isalpha()):
                         steps.append(line)
                 
+                # Check for additional control IDs in objective
+                additional_controls = re.findall(r'C-\d+(?:-\d+)?', objective)
+                all_controls = [control_id]
+                if additional_controls:
+                    all_controls.extend([c for c in additional_controls if c != control_id])
+                
+                # Store mapping for many-to-many relationship
+                control_mapping[test_id] = all_controls
+                
                 parsed.append({
                     "test_id": test_id,
                     "control_id": control_id,
+                    "control_ids": all_controls,
                     "objective": objective,
                     "steps": steps,
                     "evidence": evidence,
@@ -500,21 +607,36 @@ class ParserUtils:
                             elif line and (line[0].isdigit() or line[0].isalpha()):
                                 steps.append(line)
                         
+                        # Check for additional control IDs in objective
+                        additional_controls = re.findall(r'C-\d+(?:-\d+)?', objective)
+                        all_controls = [control_id]
+                        if additional_controls:
+                            all_controls.extend([c for c in additional_controls if c != control_id])
+                        
+                        # Store mapping for many-to-many relationship
+                        control_mapping[test_id] = all_controls
+                        
                         parsed.append({
                             "test_id": test_id,
                             "control_id": control_id,
+                            "control_ids": all_controls,
                             "objective": objective,
                             "steps": steps,
                             "priority": priority,
                             "evidence": evidence,
                             "reference": reference
                         })
+            
+            # Sort the tests by ID using natural sort
+            parsed.sort(key=lambda x: ParserUtils.natural_sort_key(x.get('test_id', '')))
+            
         except Exception as e:
             logger.error(f"Error parsing test procedures: {str(e)}")
             # Return an empty array with at least one default entry
             parsed = [{
                 "test_id": "T-1",
                 "control_id": "C-1",
+                "control_ids": ["C-1"],
                 "objective": "Failed to parse test procedures. Please check the input format.",
                 "steps": ["Review control documentation", "Test control implementation"],
                 "evidence": "Documentation",
@@ -543,8 +665,15 @@ class ParserUtils:
         for control_type, type_controls in control_types.items():
             output += f"## {control_type} Controls\n\n"
             
-            for control in type_controls:
-                output += f"### {control.get('id', 'Unknown')}: {control.get('risk_id', 'Unknown')}\n"
+            # Sort controls by ID within each type
+            sorted_controls = sorted(type_controls, key=lambda x: ParserUtils.natural_sort_key(x.get('id', '')))
+            
+            for control in sorted_controls:
+                # List all risks this control addresses
+                risk_ids = control.get('risk_ids', [control.get('risk_id', 'Unknown')])
+                risk_text = ', '.join(risk_ids) if len(risk_ids) > 1 else risk_ids[0]
+                
+                output += f"### {control.get('id', 'Unknown')}: {risk_text}\n"
                 output += f"**Description**: {control.get('description', 'No description')}\n"
                 output += f"**Type**: {control_type}\n"
                 output += f"**Source**: {control.get('reference', 'Unknown')}\n"
@@ -573,10 +702,18 @@ class ParserUtils:
             priority_risks = priorities[priority]
             
             if priority_risks:
+                # Sort risks by ID within each priority level
+                sorted_risks = sorted(priority_risks, key=lambda x: ParserUtils.natural_sort_key(x.get('id', '')))
+                
                 output += f"## {priority} Priority Risks\n\n"
                 
-                for risk in priority_risks:
+                for risk in sorted_risks:
+                    # List all conditions this risk addresses
+                    condition_ids = risk.get('condition_ids', [risk.get('condition_id', 'Unknown')])
+                    condition_text = ', '.join(condition_ids) if len(condition_ids) > 1 else condition_ids[0]
+                    
                     output += f"### {risk.get('id', 'Unknown')}\n"
+                    output += f"**Related Conditions**: {condition_text}\n"
                     output += f"**Description**: {risk.get('description', 'No description')}\n"
                     output += f"**Likelihood**: {risk.get('likelihood', 'Medium')}\n"
                     output += f"**Impact**: {risk.get('impact', 'Medium')}\n"
@@ -606,10 +743,17 @@ class ParserUtils:
                 priority_tests = priorities[priority]
                 
                 if priority_tests:
+                    # Sort tests by ID within each priority level
+                    sorted_tests = sorted(priority_tests, key=lambda x: ParserUtils.natural_sort_key(x.get('test_id', '')))
+                    
                     output += f"## {priority} Priority Test Procedures\n\n"
                     
-                    for proc in priority_tests:
-                        output += f"### {proc.get('test_id', 'Unknown')}: {proc.get('control_id', 'Unknown')}\n"
+                    for proc in sorted_tests:
+                        # List all controls this test addresses
+                        control_ids = proc.get('control_ids', [proc.get('control_id', 'Unknown')])
+                        control_text = ', '.join(control_ids) if len(control_ids) > 1 else control_ids[0]
+                        
+                        output += f"### {proc.get('test_id', 'Unknown')}: {control_text}\n"
                         output += f"**Objective**: {proc.get('objective', 'Verify control effectiveness')}\n"
                         output += "**Test Steps**:\n"
                         for step in proc.get('steps', ['No steps defined']):
@@ -617,9 +761,15 @@ class ParserUtils:
                         output += f"**Required Evidence**: {proc.get('evidence', 'Documentation')}\n"
                         output += f"**Source**: {proc.get('reference', 'Unknown')}\n\n"
         else:
-            # Output all tests without priority grouping
-            for proc in procedures:
-                output += f"## {proc.get('test_id', 'Unknown')}: {proc.get('control_id', 'Unknown')}\n"
+            # Output all tests without priority grouping, sorted by ID
+            sorted_tests = sorted(procedures, key=lambda x: ParserUtils.natural_sort_key(x.get('test_id', '')))
+            
+            for proc in sorted_tests:
+                # List all controls this test addresses
+                control_ids = proc.get('control_ids', [proc.get('control_id', 'Unknown')])
+                control_text = ', '.join(control_ids) if len(control_ids) > 1 else control_ids[0]
+                
+                output += f"## {proc.get('test_id', 'Unknown')}: {control_text}\n"
                 output += f"**Objective**: {proc.get('objective', 'Verify control effectiveness')}\n"
                 output += "**Test Steps**:\n"
                 for step in proc.get('steps', ['No steps defined']):
@@ -628,3 +778,168 @@ class ParserUtils:
                 output += f"**Source**: {proc.get('reference', 'Unknown')}\n\n"
         
         return output
+    
+    @staticmethod
+    def create_relationship_matrix(conditions: List[Dict[str, Any]], 
+                                  risks: List[Dict[str, Any]],
+                                  controls: List[Dict[str, Any]],
+                                  tests: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+        """
+        Create a comprehensive relationship matrix showing the mapping between 
+        conditions, risks, controls and tests with full many-to-many relationships.
+        """
+        # Create mappings for faster lookups
+        condition_map = {c.get('id', ''): c for c in conditions}
+        risk_map = {r.get('id', ''): r for r in risks}
+        control_map = {c.get('id', ''): c for c in controls}
+        test_map = {t.get('test_id', ''): t for t in tests}
+        
+        # Track all relationships
+        relationships = {}
+        
+        # Process conditions first
+        for condition in conditions:
+            condition_id = condition.get('id', '')
+            if condition_id:
+                relationships[condition_id] = []
+        
+        # Process risks and link to conditions
+        for risk in risks:
+            risk_id = risk.get('id', '')
+            if not risk_id:
+                continue
+                
+            # Find all related conditions
+            condition_ids = risk.get('condition_ids', [risk.get('condition_id', '')])
+            
+            # For each condition this risk relates to
+            for condition_id in condition_ids:
+                if condition_id in relationships:
+                    # Add risk to the condition's relationships
+                    relationships[condition_id].append({
+                        'risk_id': risk_id,
+                        'description': risk.get('description', ''),
+                        'priority': risk.get('priority', 'Medium')
+                    })
+        
+        # Process controls and link to risks
+        for control in controls:
+            control_id = control.get('id', '')
+            if not control_id:
+                continue
+                
+            # Find all related risks
+            risk_ids = control.get('risk_ids', [control.get('risk_id', '')])
+            
+            # For each risk this control relates to
+            for risk_id in risk_ids:
+                # Find all conditions related to this risk
+                for condition_id, rels in relationships.items():
+                    for rel in rels:
+                        if rel.get('risk_id') == risk_id:
+                            # Add control to the relationship
+                            if 'control_id' not in rel:
+                                rel['control_id'] = control_id
+                                rel['control_type'] = control.get('type', 'Preventive')
+                            elif 'additional_controls' not in rel:
+                                rel['additional_controls'] = [control_id]
+                            else:
+                                rel['additional_controls'].append(control_id)
+        
+        # Process tests and link to controls
+        for test in tests:
+            test_id = test.get('test_id', '')
+            if not test_id:
+                continue
+                
+            # Find all related controls
+            control_ids = test.get('control_ids', [test.get('control_id', '')])
+            
+            # For each control this test relates to
+            for control_id in control_ids:
+                # Find all relationships containing this control
+                for condition_id, rels in relationships.items():
+                    for rel in rels:
+                        if rel.get('control_id') == control_id or (
+                            'additional_controls' in rel and control_id in rel['additional_controls']):
+                            # Add test to the relationship
+                            if 'test_id' not in rel:
+                                rel['test_id'] = test_id
+                            elif 'additional_tests' not in rel:
+                                rel['additional_tests'] = [test_id]
+                            else:
+                                rel['additional_tests'].append(test_id)
+        
+        return relationships
+    
+    @staticmethod
+    def generate_traceability_table(relationships: Dict[str, List[Dict[str, Any]]]) -> str:
+        """Generate a traceability table from relationship data"""
+        rows = []
+        
+        # Process all relationships into flattened rows for the table
+        for condition_id, rels in relationships.items():
+            for rel in rels:
+                risk_id = rel.get('risk_id', '')
+                control_id = rel.get('control_id', '')
+                test_id = rel.get('test_id', '')
+                priority = rel.get('priority', 'Medium')
+                
+                # Add main row
+                rows.append({
+                    'condition_id': condition_id,
+                    'risk_id': risk_id,
+                    'control_id': control_id,
+                    'test_id': test_id,
+                    'priority': priority
+                })
+                
+                # Add rows for additional controls if any
+                if 'additional_controls' in rel:
+                    for additional_control in rel['additional_controls']:
+                        rows.append({
+                            'condition_id': condition_id,
+                            'risk_id': risk_id,
+                            'control_id': additional_control,
+                            'test_id': test_id,
+                            'priority': priority
+                        })
+                
+                # Add rows for additional tests if any
+                if 'additional_tests' in rel:
+                    for additional_test in rel['additional_tests']:
+                        rows.append({
+                            'condition_id': condition_id,
+                            'risk_id': risk_id,
+                            'control_id': control_id,
+                            'test_id': additional_test,
+                            'priority': priority
+                        })
+        
+        # Sort rows by priority and then by condition ID for better readability
+        priority_values = {'High': 0, 'Medium': 1, 'Low': 2}
+        sorted_rows = sorted(rows, key=lambda x: (
+            priority_values.get(x['priority'], 1),
+            ParserUtils.natural_sort_key(x['condition_id']),
+            ParserUtils.natural_sort_key(x['risk_id']),
+            ParserUtils.natural_sort_key(x['control_id']),
+            ParserUtils.natural_sort_key(x['test_id'])
+        ))
+        
+        # Remove duplicates (can happen due to many-to-many relationships)
+        unique_rows = []
+        seen = set()
+        for row in sorted_rows:
+            row_key = f"{row['condition_id']}|{row['risk_id']}|{row['control_id']}|{row['test_id']}"
+            if row_key not in seen:
+                unique_rows.append(row)
+                seen.add(row_key)
+        
+        # Generate table
+        table = "| Condition ID | Risk ID | Control ID | Test ID | Priority |\n"
+        table += "|-------------|---------|------------|---------|----------|\n"
+        
+        for row in unique_rows:
+            table += f"| {row['condition_id']} | {row['risk_id']} | {row['control_id']} | {row['test_id']} | {row['priority']} |\n"
+        
+        return table

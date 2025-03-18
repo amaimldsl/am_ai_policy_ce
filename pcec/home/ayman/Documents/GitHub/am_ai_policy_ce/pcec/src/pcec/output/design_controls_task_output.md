@@ -1,237 +1,357 @@
-1. **Control ID: C1**
-   - **Related Risk ID: 1**
-   - **Control Description:** Implement automated collateral monitoring systems to ensure the required collateral percentage is maintained. Regular alerts should be triggered for deviations.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Integration with existing risk management systems, periodic testing of alerts.
-   - **Reference:** doc_0_PI_pages_63-65.txt, Illustration 4: Maintenance Margin Agreement
+### Comprehensive Control Framework
 
-2. **Control ID: C2**
-   - **Related Risk ID: 2**
-   - **Control Description:** Establish a daily reconciliation process for Independent Collateral Amount (ICA) to ensure compliance with regulatory requirements.
-   - **Control Type:** Detective
-   - **Implementation Considerations:** Daily reconciliation reports, escalation procedures for discrepancies.
-   - **Reference:** doc_0_PI_pages_63-65.txt, Illustration 4: Maintenance Margin Agreement
+#### Condition ID: 1  
+**Reference:** doc_0_PI_pages_63-65.txt, Illustration 4: Maintenance Margin Agreement  
 
-3. **Control ID: C3**
-   - **Related Risk ID: 3**
-   - **Control Description:** Conduct quarterly reviews of the Basel II market risk framework implementation to ensure adherence.
-   - **Control Type:** Detective
-   - **Implementation Considerations:** Independent review by internal audit, corrective action plans for non-compliance.
-   - **Reference:** doc_0_PI_pages_63-65.txt
+1. **Control ID: 1.1.1**  
+   - **Related Risk ID:** 1.1  
+   - **Control Description:** Implement automated collateral monitoring systems to track counterparty collateral levels in real-time.  
+   - **Control Type:** Preventive  
+   - **Implementation Considerations:** Ensure integration with trading systems and regular calibration of monitoring thresholds.  
 
-4. **Control ID: C4**
-   - **Related Risk ID: 4**
-   - **Control Description:** Implement automated tools for calculating risk-weighted assets (RWA) for CVA risk under Basel III requirements.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Regular updates to the tool to reflect regulatory changes, validation by risk management team.
-   - **Reference:** doc_0_PI_pages_63-65.txt
+2. **Control ID: 1.1.2**  
+   - **Related Risk ID:** 1.1  
+   - **Control Description:** Establish escalation procedures for counterparties failing to meet collateral requirements, including margin calls and penalties.  
+   - **Control Type:** Corrective  
+   - **Implementation Considerations:** Define clear escalation protocols and ensure legal review of penalty clauses.  
 
-5. **Control ID: C5**
-   - **Related Risk ID: 5**
-   - **Control Description:** Establish a governance framework to ensure the correct use of the standardised or advanced approach for calculating CVA risk.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Training for relevant staff, periodic audits.
-   - **Reference:** doc_0_PI_pages_63-65.txt
+3. **Control ID: 1.2.1**  
+   - **Related Risk ID:** 1.2  
+   - **Control Description:** Use dynamic collateral thresholds that adjust based on market volatility indices.  
+   - **Control Type:** Preventive  
+   - **Implementation Considerations:** Develop algorithms for threshold adjustments and back-test against historical market data.  
 
-6. **Control ID: C6**
-   - **Related Risk ID: 6**
-   - **Control Description:** Implement a review process for real estate acquired in settlement of debt to ensure correct classification under the higher risk asset class.
-   - **Control Type:** Detective
-   - **Implementation Considerations:** Regular audits, escalation procedures for misclassifications.
-   - **Reference:** doc_0_PI_pages_33-35.txt
+4. **Control ID: 1.2.2**  
+   - **Related Risk ID:** 1.2  
+   - **Control Description:** Conduct periodic stress testing of collateral requirements under extreme market conditions.  
+   - **Control Type:** Detective  
+   - **Implementation Considerations:** Ensure stress testing scenarios are comprehensive and updated regularly.  
 
-7. **Control ID: C7**
-   - **Related Risk ID: 7**
-   - **Control Description:** Establish a process for periodic review of equity investments in unlisted commercial entities to ensure accurate risk weighting.
-   - **Control Type:** Detective
-   - **Implementation Considerations:** Independent review by risk management team, corrective action plans for discrepancies.
-   - **Reference:** doc_0_PI_pages_33-35.txt
+#### Condition ID: 2  
+**Reference:** doc_0_PI_pages_63-65.txt, Illustration 4: Maintenance Margin Agreement  
 
-8. **Control ID: C8**
-   - **Related Risk ID: 8**
-   - **Control Description:** Implement automated tools for bond classification and risk weight assignment to ensure compliance with regulatory requirements.
-   - **Control Type:** Preventive
-   - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-   - **Reference:** doc_0_PI_pages_33-35.txt
+5. **Control ID: 2.1.1**  
+   - **Related Risk ID:** 2.1  
+   - **Control Description:** Implement automated alerts for ICA breaches, triggering immediate corrective actions.  
+   - **Control Type:** Preventive  
+   - **Implementation Considerations:** Ensure alerts are integrated with risk management systems and tested for accuracy.  
 
-9. **Control ID: C9**
-   - **Related Risk ID: 9**
-   - **Control Description:** Establish a process for regular review of guarantees used for credit risk mitigation to ensure compliance with regulatory requirements.
-   - **Control Type:** Detective
-   - **Implementation Considerations:** Regular audits, escalation procedures for non-compliance.
-   - **Reference:** doc_0_PI_pages_33-35.txt
+6. **Control ID: 2.1.2**  
+   - **Related Risk ID:** 2.1  
+   - **Control Description:** Establish a collateral dispute resolution framework to address ICA calculation disagreements.  
+   - **Control Type:** Corrective  
+   - **Implementation Considerations:** Define dispute resolution timelines and involve independent third parties if necessary.  
 
-10. **Control ID: C10**
-    - **Related Risk ID: 10**
-    - **Control Description:** Implement a review process for commitments to ensure they are adequately reviewed and documented.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for inadequate reviews.
-    - **Reference:** doc_0_PI_pages_33-35.txt
+7. **Control ID: 2.2.1**  
+   - **Related Risk ID:** 2.2  
+   - **Control Description:** Standardize ICA calculation methodologies across all counterparties.  
+   - **Control Type:** Preventive  
+   - **Implementation Considerations:** Ensure counterparties agree on standardized methodologies and document them in contracts.  
 
-11. **Control ID: C11**
-    - **Related Risk ID: 11**
-    - **Control Description:** Establish a governance framework to ensure authorized switching between the simple and comprehensive approach for Credit Risk Mitigation techniques.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Training for relevant staff, periodic audits.
-    - **Reference:** doc_0_PI_pages_33-35.txt
+8. **Control ID: 2.2.2**  
+   - **Related Risk ID:** 2.2  
+   - **Control Description:** Conduct periodic audits of ICA calculations to ensure accuracy and consistency.  
+   - **Control Type:** Detective  
+   - **Implementation Considerations:** Use independent auditors and ensure access to all relevant data.  
 
-12. **Control ID: C12**
-    - **Related Risk ID: 12**
-    - **Control Description:** Implement automated tools for assigning the supervisory delta to each trade to ensure accuracy and compliance.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-    - **Reference:** doc_0_PI_pages_56-57.txt
+#### Condition ID: 3  
+**Reference:** doc_0_PI_pages_63-65.txt  
 
-13. **Control ID: C13**
-    - **Related Risk ID: 13**
-    - **Control Description:** Establish a process for regular review of add-on calculations for each entity to ensure accuracy and compliance.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for discrepancies.
-    - **Reference:** doc_0_PI_pages_56-57.txt
+9. **Control ID: 3.1.1**  
+   - **Related Risk ID:** 3.1  
+   - **Control Description:** Implement a capital adequacy monitoring system to ensure compliance with Basel II market risk requirements.  
+   - **Control Type:** Preventive  
+   - **Implementation Considerations:** Integrate with risk management systems and ensure real-time updates.  
 
-14. **Control ID: C14**
-    - **Related Risk ID: 14**
-    - **Control Description:** Implement a review process for CN-01 forms to ensure completeness and proper signatures.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for incomplete forms.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+10. **Control ID: 3.1.2**  
+    - **Related Risk ID:** 3.1  
+    - **Control Description:** Conduct regular internal audits of capital allocation against market risk exposures.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
 
-15. **Control ID: C15**
-    - **Related Risk ID: 15**
-    - **Control Description:** Establish a process for regular review of contracts between the bank and SPVs to ensure compliance with regulatory requirements.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for non-compliance.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+11. **Control ID: 3.2.1**  
+    - **Related Risk ID:** 3.2  
+    - **Control Description:** Develop a classification framework for derivatives to ensure accurate allocation to the trading book.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Train staff on classification rules and conduct periodic reviews.  
 
-16. **Control ID: C16**
-    - **Related Risk ID: 16**
-    - **Control Description:** Implement a governance framework to ensure shareholder approval for Tier capital instruments.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Training for relevant staff, periodic audits.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+12. **Control ID: 3.2.2**  
+    - **Related Risk ID:** 3.2  
+    - **Control Description:** Perform periodic reconciliations of derivatives classifications with regulatory requirements.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reconciliations are documented and discrepancies are resolved promptly.  
 
-17. **Control ID: C17**
-    - **Related Risk ID: 17**
-    - **Control Description:** Establish a process for regular review of approvals for the issuance of specific Tier capital instruments to ensure compliance.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for non-compliance.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+#### Condition ID: 4  
+**Reference:** doc_0_PI_pages_63-65.txt  
 
-18. **Control ID: C18**
-    - **Related Risk ID: 18**
-    - **Control Description:** Implement a review process for the formulation of the Business as Usual (BAU) case to ensure accuracy and compliance.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for inaccuracies.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+13. **Control ID: 4.1.1**  
+    - **Related Risk ID:** 4.1  
+    - **Control Description:** Implement a CVA risk calculation tool that aligns with Basel III requirements.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the tool is validated and regularly updated.  
 
-19. **Control ID: C19**
-    - **Related Risk ID: 19**
-    - **Control Description:** Establish a process for regular review of Stress Testing submissions to ensure completeness and accuracy.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for incomplete submissions.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+14. **Control ID: 4.1.2**  
+    - **Related Risk ID:** 4.1  
+    - **Control Description:** Conduct periodic reviews of CVA risk calculations by an independent team.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviewers have access to all relevant data and systems.  
 
-20. **Control ID: C20**
-    - **Related Risk ID: 20**
-    - **Control Description:** Implement a review process for offer letters for private placements to ensure inclusion of risk factors and the bank's financial and risk situation.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for omissions.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+15. **Control ID: 4.2.1**  
+    - **Related Risk ID:** 4.2  
+    - **Control Description:** Establish a governance framework to ensure the correct approach for CVA risk calculation is adopted.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define roles and responsibilities for governance and ensure regular reviews.  
 
-21. **Control ID: C21**
-    - **Related Risk ID: 21**
-    - **Control Description:** Establish a process for regular review of loss absorption triggers for liability accounted instruments to ensure compliance.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for non-compliance.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+16. **Control ID: 4.2.2**  
+    - **Related Risk ID:** 4.2  
+    - **Control Description:** Conduct periodic training sessions on Basel III CVA risk requirements for relevant staff.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure training materials are up-to-date and relevant.  
 
-22. **Control ID: C22**
-    - **Related Risk ID: 22**
-    - **Control Description:** Implement automated tools for applying risk weights to on-balance-sheet and off-balance-sheet items using the risk-weighted assets approach.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+#### Condition ID: 5  
+**Reference:** doc_0_PI_pages_33-35.txt  
 
-23. **Control ID: C23**
-    - **Related Risk ID: 23**
-    - **Control Description:** Establish a process for regular review of ratings used from ECAIs to ensure they are not unsolicited.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for unsolicited ratings.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+17. **Control ID: 5.1.1**  
+    - **Related Risk ID:** 5.1  
+    - **Control Description:** Implement a reporting system to ensure real estate is classified under the correct risk asset class.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the system is integrated with asset management systems.  
 
-24. **Control ID: C24**
-    - **Related Risk ID: 24**
-    - **Control Description:** Implement automated tools for risk weighting exposures subject to the SA net of specific allowances and interest in suspense.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+18. **Control ID: 5.1.2**  
+    - **Related Risk ID:** 5.1  
+    - **Control Description:** Conduct periodic audits of real estate classifications to ensure compliance.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
 
-25. **Control ID: C25**
-    - **Related Risk ID: 25**
-    - **Control Description:** Establish a process for regular review of the GRE list to ensure compliance with the latest version.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for non-compliance.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+19. **Control ID: 5.2.1**  
+    - **Related Risk ID:** 5.2  
+    - **Control Description:** Establish a liquidation timeline for real estate assets to minimize credit risk exposure.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define clear timelines and monitor progress regularly.  
 
-26. **Control ID: C26**
-    - **Related Risk ID: 26**
-    - **Control Description:** Implement a governance framework to ensure timely submission of information for the addition or removal of entities to/from the GRE list.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Training for relevant staff, periodic audits.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+20. **Control ID: 5.2.2**  
+    - **Related Risk ID:** 5.2  
+    - **Control Description:** Conduct periodic reviews of real estate liquidation progress.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any delays are addressed promptly.  
 
-27. **Control ID: C27**
-    - **Related Risk ID: 27**
-    - **Control Description:** Establish a process for regular review by the Internal audit/compliance department to ensure PSE and GRE classification compliance.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for non-compliance.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+#### Condition ID: 6  
+**Reference:** doc_0_PI_pages_33-35.txt  
 
-28. **Control ID: C28**
-    - **Related Risk ID: 28**
-    - **Control Description:** Implement automated tools for the correct treatment of exposures to MDBs to ensure compliance.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-    - **Reference:** doc_0_PI_pages_21-25.txt
+21. **Control ID: 6.1.1**  
+    - **Related Risk ID:** 6.1  
+    - **Control Description:** Implement a risk weighting system for unlisted equity investments that aligns with regulatory requirements.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the system is validated and regularly updated.  
 
-29. **Control ID: C29**
-    - **Related Risk ID: 29**
-    - **Control Description:** Establish a process for regular review of the interest rate risk measurement system to ensure inclusion of all interest rate derivatives and off-balance sheet instruments.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for omissions.
-    - **Reference:** doc_0_PI_pages_101-105.txt
+22. **Control ID: 6.1.2**  
+    - **Related Risk ID:** 6.1  
+    - **Control Description:** Conduct periodic audits of risk weighting calculations for unlisted equity investments.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
 
-30. **Control ID: C30**
-    - **Related Risk ID: 30**
-    - **Control Description:** Implement automated tools for calculating the minimum capital charge for equity risk to ensure accuracy and compliance.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-    - **Reference:** doc_0_PI_pages_101-105.txt
+23. **Control ID: 6.2.1**  
+    - **Related Risk ID:** 6.2  
+    - **Control Description:** Develop a process to identify and classify unlisted entities accurately.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Train staff on classification rules and conduct periodic reviews.  
 
-31. **Control ID: C31**
-    - **Related Risk ID: 31**
-    - **Control Description:** Establish a process for regular review of calculations for general and specific risk for each market to ensure accuracy and compliance.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for inaccuracies.
-    - **Reference:** doc_0_PI_pages_101-105.txt
+24. **Control ID: 6.2.2**  
+    - **Related Risk ID:** 6.2  
+    - **Control Description:** Perform periodic reconciliations of entity classifications with regulatory requirements.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reconciliations are documented and discrepancies are resolved promptly.  
 
-32. **Control ID: C32**
-    - **Related Risk ID: 32**
-    - **Control Description:** Implement automated tools for converting positions in equity derivatives into notional positions to ensure accuracy and compliance.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-    - **Reference:** doc_0_PI_pages_101-105.txt
+#### Condition ID: 7  
+**Reference:** doc_0_PI_pages_33-35.txt  
 
-33. **Control ID: C33**
-    - **Related Risk ID: 33**
-    - **Control Description:** Establish a process for regular review of the two-step process to calculate the overall net open position to ensure accuracy and compliance.
-    - **Control Type:** Detective
-    - **Implementation Considerations:** Regular audits, escalation procedures for inaccuracies.
-    - **Reference:** doc_0_PI_pages_101-105.txt
+25. **Control ID: 7.1.1**  
+    - **Related Risk ID:** 7.1  
+    - **Control Description:** Implement a bond classification framework that aligns with regulatory requirements.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the framework is validated and regularly updated.  
 
-34. **Control ID: C34**
-    - **Related Risk ID: 34**
-    - **Control Description:** Implement automated tools for calculating the net forward position in an exposure to ensure accuracy and compliance.
-    - **Control Type:** Preventive
-    - **Implementation Considerations:** Regular updates to the tool, validation by risk management team.
-    - **Reference:** doc_0_PI_pages_101-105.txt
+26. **Control ID: 7.1.2**  
+    - **Related Risk ID:** 7.1  
+    - **Control Description:** Conduct periodic audits of bond classifications to ensure compliance.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
+
+27. **Control ID: 7.2.1**  
+    - **Related Risk ID:** 7.2  
+    - **Control Description:** Establish a process to regularly update credit ratings used for risk weighting.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define update frequencies and ensure access to reliable rating sources.  
+
+28. **Control ID: 7.2.2**  
+    - **Related Risk ID:** 7.2  
+    - **Control Description:** Conduct periodic reviews of credit rating updates to ensure accuracy.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any discrepancies are addressed promptly.  
+
+#### Condition ID: 8  
+**Reference:** doc_0_PI_pages_33-35.txt  
+
+29. **Control ID: 8.1.1**  
+    - **Related Risk ID:** 8.1  
+    - **Control Description:** Implement a schedule for regular reviews of commitments to ensure enforceability.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define review frequencies and ensure legal involvement.  
+
+30. **Control ID: 8.1.2**  
+    - **Related Risk ID:** 8.1  
+    - **Control Description:** Conduct periodic audits of commitment reviews to ensure compliance.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
+
+31. **Control ID: 8.2.1**  
+    - **Related Risk ID:** 8.2  
+    - **Control Description:** Establish a process to monitor legal changes that could impact commitment cancellability.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define monitoring frequencies and ensure legal involvement.  
+
+32. **Control ID: 8.2.2**  
+    - **Related Risk ID:** 8.2  
+    - **Control Description:** Conduct periodic reviews of legal changes and their impact on commitments.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any impacts are addressed promptly.  
+
+#### Condition ID: 9  
+**Reference:** doc_0_PI_pages_56-57.txt  
+
+33. **Control ID: 9.1.1**  
+    - **Related Risk ID:** 9.1  
+    - **Control Description:** Implement a supervisory delta calculation tool that aligns with regulatory requirements.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the tool is validated and regularly updated.  
+
+34. **Control ID: 9.1.2**  
+    - **Related Risk ID:** 9.1  
+    - **Control Description:** Conduct periodic audits of supervisory delta calculations to ensure accuracy.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
+
+35. **Control ID: 9.2.1**  
+    - **Related Risk ID:** 9.2  
+    - **Control Description:** Provide training on supervisory delta calculation methodologies to relevant staff.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure training materials are up-to-date and relevant.  
+
+36. **Control ID: 9.2.2**  
+    - **Related Risk ID:** 9.2  
+    - **Control Description:** Conduct periodic reviews of supervisory delta calculations to ensure understanding and accuracy.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any discrepancies are addressed promptly.  
+
+#### Condition ID: 10  
+**Reference:** doc_0_PI_pages_56-57.txt  
+
+37. **Control ID: 10.1.1**  
+    - **Related Risk ID:** 10.1  
+    - **Control Description:** Implement an add-on calculation tool that aligns with regulatory requirements.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the tool is validated and regularly updated.  
+
+38. **Control ID: 10.1.2**  
+    - **Related Risk ID:** 10.1  
+    - **Control Description:** Conduct periodic audits of add-on calculations to ensure accuracy.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
+
+39. **Control ID: 10.2.1**  
+    - **Related Risk ID:** 10.2  
+    - **Control Description:** Establish a process to regularly update add-on calculations based on market conditions.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define update frequencies and ensure access to reliable data sources.  
+
+40. **Control ID: 10.2.2**  
+    - **Related Risk ID:** 10.2  
+    - **Control Description:** Conduct periodic reviews of add-on calculation updates to ensure accuracy.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any discrepancies are addressed promptly.  
+
+#### Condition ID: 11  
+**Reference:** doc_0_PI_pages_21-25.txt  
+
+41. **Control ID: 11.1.1**  
+    - **Related Risk ID:** 11.1  
+    - **Control Description:** Implement a workflow system to ensure CN-01 forms are completed and signed by all required parties.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the system is integrated with document management systems.  
+
+42. **Control ID: 11.1.2**  
+    - **Related Risk ID:** 11.1  
+    - **Control Description:** Conduct periodic audits of CN-01 forms to ensure completeness and accuracy.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
+
+43. **Control ID: 11.2.1**  
+    - **Related Risk ID:** 11.2  
+    - **Control Description:** Establish a submission schedule for CN-01 forms to ensure timely submission.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define submission deadlines and monitor compliance.  
+
+44. **Control ID: 11.2.2**  
+    - **Related Risk ID:** 11.2  
+    - **Control Description:** Conduct periodic reviews of CN-01 form submissions to ensure timeliness.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any delays are addressed promptly.  
+
+#### Condition ID: 12  
+**Reference:** doc_0_PI_pages_21-25.txt  
+
+45. **Control ID: 12.1.1**  
+    - **Related Risk ID:** 12.1  
+    - **Control Description:** Implement a contract management system to ensure all contracts between the bank and SPVs are documented and stored.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the system is integrated with legal and compliance systems.  
+
+46. **Control ID: 12.1.2**  
+    - **Related Risk ID:** 12.1  
+    - **Control Description:** Conduct periodic audits of contracts to ensure completeness and accuracy.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
+
+47. **Control ID: 12.2.1**  
+    - **Related Risk ID:** 12.2  
+    - **Control Description:** Establish a process to ensure contracts are provided to regulators upon request.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define response timelines and ensure legal involvement.  
+
+48. **Control ID: 12.2.2**  
+    - **Related Risk ID:** 12.2  
+    - **Control Description:** Conduct periodic reviews of contract provision processes to ensure compliance.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any issues are addressed promptly.  
+
+#### Condition ID: 13  
+**Reference:** doc_0_PI_pages_21-25.txt  
+
+49. **Control ID: 13.1.1**  
+    - **Related Risk ID:** 13.1  
+    - **Control Description:** Implement a shareholder approval tracking system to ensure all Tier capital instruments are approved.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Ensure the system is integrated with governance systems.  
+
+50. **Control ID: 13.1.2**  
+    - **Related Risk ID:** 13.1  
+    - **Control Description:** Conduct periodic audits of shareholder approvals to ensure compliance.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure auditors have access to all relevant data and systems.  
+
+51. **Control ID: 13.2.1**  
+    - **Related Risk ID:** 13.2  
+    - **Control Description:** Establish a timeline for obtaining shareholder approvals to minimize delays.  
+    - **Control Type:** Preventive  
+    - **Implementation Considerations:** Define approval timelines and monitor progress regularly.  
+
+52. **Control ID: 13.2.2**  
+    - **Related Risk ID:** 13.2  
+    - **Control Description:** Conduct periodic reviews of shareholder approval timelines to ensure compliance.  
+    - **Control Type:** Detective  
+    - **Implementation Considerations:** Ensure reviews are documented and any delays are addressed promptly.  
+
+#### Condition ID: 14  
+**Reference:** doc_0_PI_pages_21-25.txt  
+
+53. **Control ID
