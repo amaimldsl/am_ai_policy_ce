@@ -1,0 +1,637 @@
+2025-03-19 22:13:10,233 - __main__ - INFO - Starting Policy Compliance Analysis Framework
+2025-03-19 22:13:10,233 - __main__ - INFO - Checking prerequisites...
+2025-03-19 22:13:10,235 - __main__ - INFO - Testing tools...
+2025-03-19 22:13:10,235 - __main__ - INFO - Testing PDF extraction tool...
+2025-03-19 22:13:14,103 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-19 22:13:15,224 - pdftest - INFO - 
+===== TESTING PDF TOOL =====
+2025-03-19 22:13:15,225 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=None, query=, process_all=False
+2025-03-19 22:13:15,226 - pdftest - INFO - Test result: Available chunks (122):
+0: doc_0_PI_pages_63-65.txt
+1: doc_0_PI_pages_33-35.txt
+2: doc_0_PI_pages_56-57.txt
+3: doc_0_PI_pages_21-25.txt
+4: doc_0_PI_pages_101-105.txt
+5: doc_0_PI_pages_66-70.txt
+6: doc...
+2025-03-19 22:13:15,226 - pdftest - INFO - 
+===== TESTING CHUNK LISTING =====
+2025-03-19 22:13:15,226 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=None, query=, process_all=False
+2025-03-19 22:13:15,227 - pdftest - INFO - Available chunks (122):
+0: doc_0_PI_pages_63-65.txt
+1: doc_0_PI_pages_33-35.txt
+2: doc_0_PI_pages_56-57.txt
+3: doc_0_PI_pages_21-25.txt
+4: doc_0_PI_pages_101-105.txt
+5: doc_0_PI_pages_66-70.txt
+6: doc_2_PIII_pages_1-5.txt
+7: doc_1_PII_pages_21-25.txt
+8: doc_0_PI_pages_146-147.txt
+9: doc_0_PI_pages_103-105.txt
+10: doc_1_PII_pages_26-27.txt
+11: doc_0_PI_pages_18-20.txt
+12: doc_0_PI_pages_28-30.txt
+13: doc_0_PI_pages_113-115.txt
+14: doc_0_PI_pages_96-97.txt
+15: doc_0_PI_pages_121-125.txt
+16: doc_0_PI_pages_86-90.txt
+17: doc_2_PIII_pages_1-2.txt
+18: doc_0_PI_pages_108-110.txt
+19: doc_0_PI_pages_88-90.txt
+20: doc_0_PI_pages_21-22.txt
+21: doc_0_PI_pages_133-135.txt
+22: doc_0_PI_pages_128-130.txt
+23: doc_0_PI_pages_53-55.txt
+24: doc_2_PIII_pages_6-10.txt
+25: doc_0_PI_pages_71-75.txt
+26: doc_0_PI_pages_81-82.txt
+27: doc_0_PI_pages_96-100.txt
+28: doc_1_PII_pages_1-5.txt
+29: doc_0_PI_pages_11-12.txt
+30: doc_1_PII_pages_3-5.txt
+31: doc_0_PI_pages_111-115.txt
+32: doc_0_PI_pages_141-143.txt
+33: doc_0_PI_pages_23-25.txt
+34: doc_0_PI_pages_111-112.txt
+35: doc_2_PIII_pages_21-22.txt
+36: doc_0_PI_pages_136-140.txt
+37: doc_0_PI_pages_68-70.txt
+38: doc_0_PI_pages_126-127.txt
+39: doc_2_PIII_pages_6-7.txt
+40: doc_0_PI_pages_136-137.txt
+41: doc_0_PI_pages_6-10.txt
+42: doc_0_PI_pages_81-85.txt
+43: doc_0_PI_pages_106-107.txt
+44: doc_0_PI_pages_71-72.txt
+45: doc_0_PI_pages_26-27.txt
+46: doc_1_PII_pages_21-22.txt
+47: doc_0_PI_pages_13-15.txt
+48: doc_1_PII_pages_6-7.txt
+49: doc_0_PI_pages_61-62.txt
+50: doc_2_PIII_pages_3-5.txt
+51: doc_2_PIII_pages_16-20.txt
+52: doc_1_PII_pages_13-15.txt
+53: doc_0_PI_pages_116-120.txt
+54: doc_0_PI_pages_36-40.txt
+55: doc_1_PII_pages_31-32.txt
+56: doc_0_PI_pages_31-32.txt
+57: doc_1_PII_pages_8-10.txt
+58: doc_1_PII_pages_11-15.txt
+59: doc_0_PI_pages_91-92.txt
+60: doc_0_PI_pages_93-95.txt
+61: doc_0_PI_pages_143-145.txt
+62: doc_1_PII_pages_18-20.txt
+63: doc_1_PII_pages_16-17.txt
+64: doc_0_PI_pages_121-122.txt
+65: doc_1_PII_pages_23-25.txt
+66: doc_0_PI_pages_131-135.txt
+67: doc_0_PI_pages_38-40.txt
+68: doc_0_PI_pages_16-20.txt
+69: doc_0_PI_pages_101-102.txt
+70: chunk_index.txt
+71: doc_0_PI_pages_91-95.txt
+72: doc_0_PI_pages_138-140.txt
+73: doc_0_PI_pages_76-80.txt
+74: doc_0_PI_pages_8-10.txt
+75: doc_0_PI_pages_56-60.txt
+76: doc_1_PII_pages_11-12.txt
+77: doc_2_PIII_pages_11-15.txt
+78: doc_0_PI_pages_141-142.txt
+79: doc_0_PI_pages_36-37.txt
+80: doc_0_PI_pages_86-87.txt
+81: doc_0_PI_pages_1-2.txt
+82: doc_0_PI_pages_106-110.txt
+83: doc_0_PI_pages_46-47.txt
+84: doc_2_PIII_pages_13-15.txt
+85: doc_0_PI_pages_126-130.txt
+86: doc_0_PI_pages_66-67.txt
+87: doc_2_PIII_pages_18-20.txt
+88: doc_0_PI_pages_78-80.txt
+89: doc_2_PIII_pages_8-10.txt
+90: doc_1_PII_pages_16-20.txt
+91: doc_0_PI_pages_16-17.txt
+92: doc_0_PI_pages_123-125.txt
+93: doc_0_PI_pages_76-77.txt
+94: doc_0_PI_pages_58-60.txt
+95: doc_0_PI_pages_1-5.txt
+96: doc_0_PI_pages_51-55.txt
+97: doc_1_PII_pages_6-10.txt
+98: doc_0_PI_pages_98-100.txt
+99: doc_2_PIII_pages_16-17.txt
+100: doc_0_PI_pages_83-85.txt
+101: doc_0_PI_pages_41-42.txt
+102: doc_0_PI_pages_61-65.txt
+103: doc_2_PIII_pages_11-12.txt
+104: doc_0_PI_pages_144-147.txt
+105: doc_1_PII_pages_28-30.txt
+106: doc_1_PII_pages_26-30.txt
+107: doc_0_PI_pages_3-5.txt
+108: doc_0_PI_pages_46-50.txt
+109: doc_0_PI_pages_41-45.txt
+110: doc_0_PI_pages_6-7.txt
+111: doc_0_PI_pages_31-35.txt
+112: doc_0_PI_pages_131-132.txt
+113: doc_0_PI_pages_26-30.txt
+114: doc_1_PII_pages_1-2.txt
+115: doc_0_PI_pages_73-75.txt
+116: doc_0_PI_pages_43-45.txt
+117: doc_0_PI_pages_116-117.txt
+118: doc_0_PI_pages_51-52.txt
+119: doc_0_PI_pages_118-120.txt
+120: doc_0_PI_pages_11-15.txt
+121: doc_0_PI_pages_48-50.txt
+2025-03-19 22:13:15,227 - pdftest - INFO - 
+===== TESTING SINGLE CHUNK EXTRACTION =====
+2025-03-19 22:13:15,228 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=0, query=, process_all=False
+2025-03-19 22:13:15,230 - pdftest - INFO - Total extracted text length: 33
+2025-03-19 22:13:15,230 - pdftest - INFO - Sample of extracted text:
+No chunk path or index specified....
+
+2025-03-19 22:13:15,230 - pdftest - INFO - Number of pages extracted: 0
+2025-03-19 22:13:15,230 - pdftest - INFO - Number of documents referenced: 0
+2025-03-19 22:13:15,230 - pdftest - INFO - 
+===== TESTING SEARCH FUNCTIONALITY =====
+2025-03-19 22:13:15,231 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=0, query=shall, process_all=False
+2025-03-19 22:13:15,231 - pdftest - INFO - No chunk path or index specified.
+2025-03-19 22:13:15,231 - pdftest - INFO - 
+===== TESTING FILE IO TOOL =====
+2025-03-19 22:13:15,233 - pdftest - INFO - Content written to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/test_file.txt
+2025-03-19 22:13:15,234 - pdftest - INFO - Read result: This is a test file.
+2025-03-19 22:13:15,234 - pdftest - INFO - Read matches write: True
+2025-03-19 22:13:15,234 - __main__ - INFO - PDF extraction test completed successfully
+2025-03-19 22:13:15,234 - __main__ - INFO - Preprocessing documents...
+2025-03-19 22:13:15,234 - __main__ - INFO - Starting document preprocessing...
+2025-03-19 22:13:15,365 - document_processor - INFO - Processing PI.pdf (147 pages)
+2025-03-19 22:13:15,941 - document_processor - INFO -   Split and saved chunk 1/30 into two parts
+2025-03-19 22:13:16,808 - document_processor - INFO -   Split and saved chunk 2/30 into two parts
+2025-03-19 22:13:17,569 - document_processor - INFO -   Split and saved chunk 3/30 into two parts
+2025-03-19 22:13:18,432 - document_processor - INFO -   Split and saved chunk 4/30 into two parts
+2025-03-19 22:13:19,306 - document_processor - INFO -   Split and saved chunk 5/30 into two parts
+2025-03-19 22:13:20,260 - document_processor - INFO -   Split and saved chunk 6/30 into two parts
+2025-03-19 22:13:21,124 - document_processor - INFO -   Split and saved chunk 7/30 into two parts
+2025-03-19 22:13:21,979 - document_processor - INFO -   Split and saved chunk 8/30 into two parts
+2025-03-19 22:13:22,765 - document_processor - INFO -   Split and saved chunk 9/30 into two parts
+2025-03-19 22:13:23,609 - document_processor - INFO -   Split and saved chunk 10/30 into two parts
+2025-03-19 22:13:24,343 - document_processor - INFO -   Split and saved chunk 11/30 into two parts
+2025-03-19 22:13:25,127 - document_processor - INFO -   Split and saved chunk 12/30 into two parts
+2025-03-19 22:13:25,854 - document_processor - INFO -   Split and saved chunk 13/30 into two parts
+2025-03-19 22:13:26,619 - document_processor - INFO -   Split and saved chunk 14/30 into two parts
+2025-03-19 22:13:27,411 - document_processor - INFO -   Split and saved chunk 15/30 into two parts
+2025-03-19 22:13:28,257 - document_processor - INFO -   Split and saved chunk 16/30 into two parts
+2025-03-19 22:13:29,106 - document_processor - INFO -   Split and saved chunk 17/30 into two parts
+2025-03-19 22:13:29,919 - document_processor - INFO -   Split and saved chunk 18/30 into two parts
+2025-03-19 22:13:30,827 - document_processor - INFO -   Split and saved chunk 19/30 into two parts
+2025-03-19 22:13:31,630 - document_processor - INFO -   Split and saved chunk 20/30 into two parts
+2025-03-19 22:13:32,448 - document_processor - INFO -   Split and saved chunk 21/30 into two parts
+2025-03-19 22:13:33,331 - document_processor - INFO -   Split and saved chunk 22/30 into two parts
+2025-03-19 22:13:34,338 - document_processor - INFO -   Split and saved chunk 23/30 into two parts
+2025-03-19 22:13:35,153 - document_processor - INFO -   Split and saved chunk 24/30 into two parts
+2025-03-19 22:13:35,953 - document_processor - INFO -   Split and saved chunk 25/30 into two parts
+2025-03-19 22:13:36,794 - document_processor - INFO -   Split and saved chunk 26/30 into two parts
+2025-03-19 22:13:37,580 - document_processor - INFO -   Split and saved chunk 27/30 into two parts
+2025-03-19 22:13:38,459 - document_processor - INFO -   Split and saved chunk 28/30 into two parts
+2025-03-19 22:13:39,281 - document_processor - INFO -   Split and saved chunk 29/30 into two parts
+2025-03-19 22:13:39,486 - document_processor - INFO -   Saved chunk 30/30: doc_0_PI_pages_146-147.txt
+2025-03-19 22:13:39,504 - document_processor - INFO - Processing PII.pdf (32 pages)
+2025-03-19 22:13:40,202 - document_processor - INFO -   Split and saved chunk 1/7 into two parts
+2025-03-19 22:13:41,145 - document_processor - INFO -   Split and saved chunk 2/7 into two parts
+2025-03-19 22:13:42,087 - document_processor - INFO -   Split and saved chunk 3/7 into two parts
+2025-03-19 22:13:42,959 - document_processor - INFO -   Split and saved chunk 4/7 into two parts
+2025-03-19 22:13:43,796 - document_processor - INFO -   Split and saved chunk 5/7 into two parts
+2025-03-19 22:13:44,656 - document_processor - INFO -   Split and saved chunk 6/7 into two parts
+2025-03-19 22:13:44,849 - document_processor - INFO -   Saved chunk 7/7: doc_1_PII_pages_31-32.txt
+2025-03-19 22:13:44,865 - document_processor - INFO - Processing PIII.pdf (22 pages)
+2025-03-19 22:13:45,634 - document_processor - INFO -   Split and saved chunk 1/5 into two parts
+2025-03-19 22:13:46,476 - document_processor - INFO -   Split and saved chunk 2/5 into two parts
+2025-03-19 22:13:47,252 - document_processor - INFO -   Split and saved chunk 3/5 into two parts
+2025-03-19 22:13:48,179 - document_processor - INFO -   Split and saved chunk 4/5 into two parts
+2025-03-19 22:13:48,464 - document_processor - INFO -   Saved chunk 5/5: doc_2_PIII_pages_21-22.txt
+2025-03-19 22:13:48,464 - document_processor - INFO - Created 81 document chunks for processing
+2025-03-19 22:13:48,464 - __main__ - INFO - Document preprocessing completed successfully with 81 chunks
+2025-03-19 22:13:48,465 - __main__ - INFO - Importing CrewAI framework...
+2025-03-19 22:13:48,482 - crew - INFO - Successfully loaded configuration from /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/config/agents.yaml
+2025-03-19 22:13:48,487 - crew - INFO - Successfully loaded configuration from /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/config/tasks.yaml
+2025-03-19 22:13:48,488 - crew - INFO - Created agent: policy_analyzer
+2025-03-19 22:13:48,489 - crew - INFO - Created agent: risk_assessor
+2025-03-19 22:13:48,490 - crew - INFO - Created agent: control_designer
+2025-03-19 22:13:48,491 - crew - INFO - Created agent: audit_planner
+2025-03-19 22:13:48,491 - crew - INFO - Created task: extract_conditions_task
+2025-03-19 22:13:48,492 - crew - INFO - Created task: identify_risks_task
+2025-03-19 22:13:48,492 - crew - INFO - Created task: design_controls_task
+2025-03-19 22:13:48,492 - crew - INFO - Created task: develop_tests_task
+2025-03-19 22:13:48,492 - crew - INFO - Created task: generate_report_task
+2025-03-19 22:13:48,495 - crew - INFO - Built crew with 4 agents and 5 tasks
+2025-03-19 22:13:48,495 - __main__ - INFO - Starting comprehensive compliance analysis...
+2025-03-19 22:13:48,515 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:13:49,387 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:13:57,583 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:13:57,594 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=None, query=, process_all=True
+2025-03-19 22:13:57,597 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:13:57,799 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:14:10,148 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:14:10,154 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:14:10,351 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:14:21,310 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:14:21,316 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_63-65.txt, chunk_index=None, query=shall|should|must|required|obligated, process_all=False
+2025-03-19 22:14:21,320 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:14:21,538 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:14:32,266 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:14:32,274 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_33-35.txt, chunk_index=None, query=shall|should|must|required|obligated, process_all=False
+2025-03-19 22:14:32,280 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:14:32,485 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:14:42,812 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:14:42,820 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_56-57.txt, chunk_index=None, query=shall|should|must|required|obligated, process_all=False
+2025-03-19 22:14:42,825 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:14:43,037 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:14:52,234 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:14:52,241 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_21-25.txt, chunk_index=None, query=shall|should|must|required|obligated, process_all=False
+2025-03-19 22:14:52,242 - tools.PDFTool - WARNING - Chunk text too large (15472 chars), truncating to 15000 chars
+2025-03-19 22:14:52,244 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:14:52,743 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:15:05,955 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:15:05,963 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_101-105.txt, chunk_index=None, query=shall|should|must|required|obligated, process_all=False
+2025-03-19 22:15:05,968 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:15:06,466 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:16:47,639 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:16:47,658 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:16:48,047 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:17:04,842 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:17:04,845 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_63-65.txt, chunk_index=None, query=Illustration 4: Maintenance Margin Agreement, process_all=False
+2025-03-19 22:17:04,848 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:17:05,336 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:17:14,262 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:17:14,271 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:17:14,637 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:17:25,427 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:17:25,431 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:17:25,883 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:17:35,282 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:17:35,291 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:17:35,764 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:17:48,157 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:17:48,164 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:17:48,667 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:17:58,704 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:17:58,713 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:17:59,097 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:18:13,654 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:18:13,658 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:18:14,152 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:18:24,919 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:18:24,923 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:18:25,392 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:18:34,648 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:18:34,655 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:18:35,123 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:18:45,549 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:18:45,554 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:18:45,977 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:18:56,150 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:18:56,159 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:18:56,547 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:19:06,493 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:19:06,500 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:19:06,969 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:19:17,348 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:19:17,353 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:19:17,856 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:19:29,021 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:19:29,026 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:19:29,490 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:19:47,145 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:19:47,149 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:19:47,656 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:19:59,675 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:19:59,680 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:20:00,148 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:20:13,367 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:20:13,376 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:20:13,870 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:20:28,823 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:20:28,832 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:20:29,300 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:20:44,490 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:20:44,497 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:20:44,966 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:20:53,911 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:20:53,920 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:20:54,420 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:22:59,787 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:22:59,805 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:23:00,210 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:23:11,537 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:23:11,541 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_63-65.txt, chunk_index=None, query=, process_all=True
+2025-03-19 22:23:11,548 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:23:11,986 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:25:35,206 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:25:35,225 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:25:35,413 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:25:44,628 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:25:44,633 - tools.PDFTool - INFO - PDFTool running with: chunk_path=control_framework.pdf, chunk_index=None, query=, process_all=True
+2025-03-19 22:25:44,638 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:25:44,832 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:26:30,403 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:26:30,419 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 22:26:31,015 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 22:29:07,860 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 22:29:07,877 - __main__ - WARNING - Task extract did not produce expected output file
+2025-03-19 22:29:07,878 - __main__ - INFO - Using fallback extract_conditions.py script...
+2025-03-19 22:29:07,883 - parse_conditions - INFO - Found 122 chunks
+2025-03-19 22:29:07,884 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_63-65.txt
+2025-03-19 22:29:07,888 - parse_conditions - INFO -   Found 13 conditions
+2025-03-19 22:29:07,888 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_33-35.txt
+2025-03-19 22:29:07,899 - parse_conditions - INFO -   Found 18 conditions
+2025-03-19 22:29:07,900 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_56-57.txt
+2025-03-19 22:29:07,902 - parse_conditions - INFO -   Found 2 conditions
+2025-03-19 22:29:07,902 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_21-25.txt
+2025-03-19 22:29:07,935 - parse_conditions - INFO -   Found 63 conditions
+2025-03-19 22:29:07,936 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_101-105.txt
+2025-03-19 22:29:07,942 - parse_conditions - INFO -   Found 19 conditions
+2025-03-19 22:29:07,942 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_66-70.txt
+2025-03-19 22:29:07,947 - parse_conditions - INFO -   Found 21 conditions
+2025-03-19 22:29:07,947 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_1-5.txt
+2025-03-19 22:29:08,055 - parse_conditions - INFO -   Found 106 conditions
+2025-03-19 22:29:08,056 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_21-25.txt
+2025-03-19 22:29:08,152 - parse_conditions - INFO -   Found 104 conditions
+2025-03-19 22:29:08,153 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_146-147.txt
+2025-03-19 22:29:08,156 - parse_conditions - INFO -   Found 13 conditions
+2025-03-19 22:29:08,157 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_103-105.txt
+2025-03-19 22:29:08,163 - parse_conditions - INFO -   Found 17 conditions
+2025-03-19 22:29:08,163 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_26-27.txt
+2025-03-19 22:29:08,201 - parse_conditions - INFO -   Found 68 conditions
+2025-03-19 22:29:08,202 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_18-20.txt
+2025-03-19 22:29:08,206 - parse_conditions - INFO -   Found 20 conditions
+2025-03-19 22:29:08,206 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_28-30.txt
+2025-03-19 22:29:08,214 - parse_conditions - INFO -   Found 30 conditions
+2025-03-19 22:29:08,215 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_113-115.txt
+2025-03-19 22:29:08,217 - parse_conditions - INFO -   Found 8 conditions
+2025-03-19 22:29:08,217 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_96-97.txt
+2025-03-19 22:29:08,220 - parse_conditions - INFO -   Found 11 conditions
+2025-03-19 22:29:08,221 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_121-125.txt
+2025-03-19 22:29:08,229 - parse_conditions - INFO -   Found 28 conditions
+2025-03-19 22:29:08,230 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_86-90.txt
+2025-03-19 22:29:08,237 - parse_conditions - INFO -   Found 25 conditions
+2025-03-19 22:29:08,238 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_1-2.txt
+2025-03-19 22:29:08,280 - parse_conditions - INFO -   Found 64 conditions
+2025-03-19 22:29:08,281 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_108-110.txt
+2025-03-19 22:29:08,290 - parse_conditions - INFO -   Found 33 conditions
+2025-03-19 22:29:08,291 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_88-90.txt
+2025-03-19 22:29:08,297 - parse_conditions - INFO -   Found 23 conditions
+2025-03-19 22:29:08,297 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_21-22.txt
+2025-03-19 22:29:08,307 - parse_conditions - INFO -   Found 37 conditions
+2025-03-19 22:29:08,308 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_133-135.txt
+2025-03-19 22:29:08,310 - parse_conditions - INFO -   Found 7 conditions
+2025-03-19 22:29:08,310 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_128-130.txt
+2025-03-19 22:29:08,322 - parse_conditions - INFO -   Found 34 conditions
+2025-03-19 22:29:08,323 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_53-55.txt
+2025-03-19 22:29:08,324 - parse_conditions - INFO -   Found 2 conditions
+2025-03-19 22:29:08,324 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_6-10.txt
+2025-03-19 22:29:08,383 - parse_conditions - INFO -   Found 82 conditions
+2025-03-19 22:29:08,383 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_71-75.txt
+2025-03-19 22:29:08,395 - parse_conditions - INFO -   Found 32 conditions
+2025-03-19 22:29:08,395 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_81-82.txt
+2025-03-19 22:29:08,402 - parse_conditions - INFO -   Found 22 conditions
+2025-03-19 22:29:08,403 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_96-100.txt
+2025-03-19 22:29:08,408 - parse_conditions - INFO -   Found 13 conditions
+2025-03-19 22:29:08,408 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_1-5.txt
+2025-03-19 22:29:08,521 - parse_conditions - INFO -   Found 115 conditions
+2025-03-19 22:29:08,522 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_11-12.txt
+2025-03-19 22:29:08,523 - parse_conditions - INFO -   Found 0 conditions
+2025-03-19 22:29:08,523 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_3-5.txt
+2025-03-19 22:29:08,572 - parse_conditions - INFO -   Found 81 conditions
+2025-03-19 22:29:08,573 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_111-115.txt
+2025-03-19 22:29:08,577 - parse_conditions - INFO -   Found 14 conditions
+2025-03-19 22:29:08,577 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_141-143.txt
+2025-03-19 22:29:08,595 - parse_conditions - INFO -   Found 42 conditions
+2025-03-19 22:29:08,595 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_23-25.txt
+2025-03-19 22:29:08,607 - parse_conditions - INFO -   Found 40 conditions
+2025-03-19 22:29:08,607 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_111-112.txt
+2025-03-19 22:29:08,613 - parse_conditions - INFO -   Found 25 conditions
+2025-03-19 22:29:08,613 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_21-22.txt
+2025-03-19 22:29:08,615 - parse_conditions - INFO -   Found 6 conditions
+2025-03-19 22:29:08,615 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_136-140.txt
+2025-03-19 22:29:08,662 - parse_conditions - INFO -   Found 69 conditions
+2025-03-19 22:29:08,663 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_68-70.txt
+2025-03-19 22:29:08,667 - parse_conditions - INFO -   Found 12 conditions
+2025-03-19 22:29:08,667 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_126-127.txt
+2025-03-19 22:29:08,672 - parse_conditions - INFO -   Found 8 conditions
+2025-03-19 22:29:08,672 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_6-7.txt
+2025-03-19 22:29:08,732 - parse_conditions - INFO -   Found 80 conditions
+2025-03-19 22:29:08,734 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_136-137.txt
+2025-03-19 22:29:08,743 - parse_conditions - INFO -   Found 23 conditions
+2025-03-19 22:29:08,744 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_6-10.txt
+2025-03-19 22:29:08,749 - parse_conditions - INFO -   Found 25 conditions
+2025-03-19 22:29:08,749 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_81-85.txt
+2025-03-19 22:29:08,774 - parse_conditions - INFO -   Found 46 conditions
+2025-03-19 22:29:08,774 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_106-107.txt
+2025-03-19 22:29:08,779 - parse_conditions - INFO -   Found 20 conditions
+2025-03-19 22:29:08,779 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_71-72.txt
+2025-03-19 22:29:08,782 - parse_conditions - INFO -   Found 7 conditions
+2025-03-19 22:29:08,782 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_26-27.txt
+2025-03-19 22:29:08,793 - parse_conditions - INFO -   Found 38 conditions
+2025-03-19 22:29:08,793 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_21-22.txt
+2025-03-19 22:29:08,850 - parse_conditions - INFO -   Found 78 conditions
+2025-03-19 22:29:08,851 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_13-15.txt
+2025-03-19 22:29:08,853 - parse_conditions - INFO -   Found 1 conditions
+2025-03-19 22:29:08,853 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_6-7.txt
+2025-03-19 22:29:08,949 - parse_conditions - INFO -   Found 115 conditions
+2025-03-19 22:29:08,950 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_61-62.txt
+2025-03-19 22:29:08,952 - parse_conditions - INFO -   Found 3 conditions
+2025-03-19 22:29:08,952 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_3-5.txt
+2025-03-19 22:29:09,027 - parse_conditions - INFO -   Found 95 conditions
+2025-03-19 22:29:09,028 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_16-20.txt
+2025-03-19 22:29:09,046 - parse_conditions - INFO -   Found 43 conditions
+2025-03-19 22:29:09,047 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_13-15.txt
+2025-03-19 22:29:09,083 - parse_conditions - INFO -   Found 65 conditions
+2025-03-19 22:29:09,083 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_116-120.txt
+2025-03-19 22:29:09,087 - parse_conditions - INFO -   Found 10 conditions
+2025-03-19 22:29:09,088 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_36-40.txt
+2025-03-19 22:29:09,094 - parse_conditions - INFO -   Found 22 conditions
+2025-03-19 22:29:09,094 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_31-32.txt
+2025-03-19 22:29:09,097 - parse_conditions - INFO -   Found 18 conditions
+2025-03-19 22:29:09,097 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_31-32.txt
+2025-03-19 22:29:09,110 - parse_conditions - INFO -   Found 38 conditions
+2025-03-19 22:29:09,111 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_8-10.txt
+2025-03-19 22:29:09,159 - parse_conditions - INFO -   Found 79 conditions
+2025-03-19 22:29:09,159 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_11-15.txt
+2025-03-19 22:29:09,248 - parse_conditions - INFO -   Found 109 conditions
+2025-03-19 22:29:09,249 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_91-92.txt
+2025-03-19 22:29:09,265 - parse_conditions - INFO -   Found 40 conditions
+2025-03-19 22:29:09,265 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_93-95.txt
+2025-03-19 22:29:09,279 - parse_conditions - INFO -   Found 35 conditions
+2025-03-19 22:29:09,280 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_143-145.txt
+2025-03-19 22:29:09,311 - parse_conditions - INFO -   Found 56 conditions
+2025-03-19 22:29:09,311 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_18-20.txt
+2025-03-19 22:29:09,351 - parse_conditions - INFO -   Found 76 conditions
+2025-03-19 22:29:09,352 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_16-17.txt
+2025-03-19 22:29:09,387 - parse_conditions - INFO -   Found 67 conditions
+2025-03-19 22:29:09,388 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_121-122.txt
+2025-03-19 22:29:09,392 - parse_conditions - INFO -   Found 15 conditions
+2025-03-19 22:29:09,392 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_23-25.txt
+2025-03-19 22:29:09,454 - parse_conditions - INFO -   Found 86 conditions
+2025-03-19 22:29:09,454 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_131-135.txt
+2025-03-19 22:29:09,463 - parse_conditions - INFO -   Found 29 conditions
+2025-03-19 22:29:09,463 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_38-40.txt
+2025-03-19 22:29:09,468 - parse_conditions - INFO -   Found 20 conditions
+2025-03-19 22:29:09,468 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_16-20.txt
+2025-03-19 22:29:09,474 - parse_conditions - INFO -   Found 23 conditions
+2025-03-19 22:29:09,474 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_101-102.txt
+2025-03-19 22:29:09,477 - parse_conditions - INFO -   Found 10 conditions
+2025-03-19 22:29:09,477 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/chunk_index.txt
+2025-03-19 22:29:09,478 - parse_conditions - INFO -   Found 0 conditions
+2025-03-19 22:29:09,478 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_91-95.txt
+2025-03-19 22:29:09,506 - parse_conditions - INFO -   Found 56 conditions
+2025-03-19 22:29:09,507 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_138-140.txt
+2025-03-19 22:29:09,540 - parse_conditions - INFO -   Found 61 conditions
+2025-03-19 22:29:09,541 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_76-80.txt
+2025-03-19 22:29:09,552 - parse_conditions - INFO -   Found 38 conditions
+2025-03-19 22:29:09,552 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_8-10.txt
+2025-03-19 22:29:09,555 - parse_conditions - INFO -   Found 9 conditions
+2025-03-19 22:29:09,555 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_56-60.txt
+2025-03-19 22:29:09,557 - parse_conditions - INFO -   Found 6 conditions
+2025-03-19 22:29:09,557 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_11-12.txt
+2025-03-19 22:29:09,599 - parse_conditions - INFO -   Found 76 conditions
+2025-03-19 22:29:09,599 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_11-15.txt
+2025-03-19 22:29:09,627 - parse_conditions - INFO -   Found 60 conditions
+2025-03-19 22:29:09,628 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_141-142.txt
+2025-03-19 22:29:09,655 - parse_conditions - INFO -   Found 53 conditions
+2025-03-19 22:29:09,655 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_36-37.txt
+2025-03-19 22:29:09,660 - parse_conditions - INFO -   Found 17 conditions
+2025-03-19 22:29:09,660 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_86-87.txt
+2025-03-19 22:29:09,665 - parse_conditions - INFO -   Found 19 conditions
+2025-03-19 22:29:09,665 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_1-2.txt
+2025-03-19 22:29:09,677 - parse_conditions - INFO -   Found 36 conditions
+2025-03-19 22:29:09,677 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_106-110.txt
+2025-03-19 22:29:09,691 - parse_conditions - INFO -   Found 41 conditions
+2025-03-19 22:29:09,692 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_46-47.txt
+2025-03-19 22:29:09,699 - parse_conditions - INFO -   Found 31 conditions
+2025-03-19 22:29:09,699 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_13-15.txt
+2025-03-19 22:29:09,705 - parse_conditions - INFO -   Found 18 conditions
+2025-03-19 22:29:09,705 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_126-130.txt
+2025-03-19 22:29:09,709 - parse_conditions - INFO -   Found 17 conditions
+2025-03-19 22:29:09,710 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_66-67.txt
+2025-03-19 22:29:09,715 - parse_conditions - INFO -   Found 24 conditions
+2025-03-19 22:29:09,715 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_18-20.txt
+2025-03-19 22:29:09,724 - parse_conditions - INFO -   Found 28 conditions
+2025-03-19 22:29:09,724 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_78-80.txt
+2025-03-19 22:29:09,731 - parse_conditions - INFO -   Found 24 conditions
+2025-03-19 22:29:09,732 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_8-10.txt
+2025-03-19 22:29:09,761 - parse_conditions - INFO -   Found 58 conditions
+2025-03-19 22:29:09,762 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_16-20.txt
+2025-03-19 22:29:09,843 - parse_conditions - INFO -   Found 111 conditions
+2025-03-19 22:29:09,844 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_16-17.txt
+2025-03-19 22:29:09,850 - parse_conditions - INFO -   Found 22 conditions
+2025-03-19 22:29:09,851 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_123-125.txt
+2025-03-19 22:29:09,854 - parse_conditions - INFO -   Found 13 conditions
+2025-03-19 22:29:09,854 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_76-77.txt
+2025-03-19 22:29:09,866 - parse_conditions - INFO -   Found 40 conditions
+2025-03-19 22:29:09,866 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_58-60.txt
+2025-03-19 22:29:09,868 - parse_conditions - INFO -   Found 4 conditions
+2025-03-19 22:29:09,868 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_1-5.txt
+2025-03-19 22:29:09,884 - parse_conditions - INFO -   Found 43 conditions
+2025-03-19 22:29:09,884 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_51-55.txt
+2025-03-19 22:29:09,886 - parse_conditions - INFO -   Found 1 conditions
+2025-03-19 22:29:09,886 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_6-10.txt
+2025-03-19 22:29:09,993 - parse_conditions - INFO -   Found 120 conditions
+2025-03-19 22:29:09,994 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_98-100.txt
+2025-03-19 22:29:09,996 - parse_conditions - INFO -   Found 0 conditions
+2025-03-19 22:29:09,996 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_16-17.txt
+2025-03-19 22:29:10,013 - parse_conditions - INFO -   Found 39 conditions
+2025-03-19 22:29:10,014 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_83-85.txt
+2025-03-19 22:29:10,025 - parse_conditions - INFO -   Found 32 conditions
+2025-03-19 22:29:10,026 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_41-42.txt
+2025-03-19 22:29:10,036 - parse_conditions - INFO -   Found 35 conditions
+2025-03-19 22:29:10,037 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_61-65.txt
+2025-03-19 22:29:10,041 - parse_conditions - INFO -   Found 14 conditions
+2025-03-19 22:29:10,041 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_2_PIII_pages_11-12.txt
+2025-03-19 22:29:10,074 - parse_conditions - INFO -   Found 63 conditions
+2025-03-19 22:29:10,074 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_144-147.txt
+2025-03-19 22:29:10,095 - parse_conditions - INFO -   Found 48 conditions
+2025-03-19 22:29:10,096 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_28-30.txt
+2025-03-19 22:29:10,116 - parse_conditions - INFO -   Found 43 conditions
+2025-03-19 22:29:10,117 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_26-30.txt
+2025-03-19 22:29:10,178 - parse_conditions - INFO -   Found 86 conditions
+2025-03-19 22:29:10,179 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_3-5.txt
+2025-03-19 22:29:10,182 - parse_conditions - INFO -   Found 13 conditions
+2025-03-19 22:29:10,182 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_46-50.txt
+2025-03-19 22:29:10,201 - parse_conditions - INFO -   Found 48 conditions
+2025-03-19 22:29:10,202 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_41-45.txt
+2025-03-19 22:29:10,223 - parse_conditions - INFO -   Found 46 conditions
+2025-03-19 22:29:10,223 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_6-7.txt
+2025-03-19 22:29:10,227 - parse_conditions - INFO -   Found 21 conditions
+2025-03-19 22:29:10,227 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_31-35.txt
+2025-03-19 22:29:10,248 - parse_conditions - INFO -   Found 49 conditions
+2025-03-19 22:29:10,248 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_131-132.txt
+2025-03-19 22:29:10,259 - parse_conditions - INFO -   Found 30 conditions
+2025-03-19 22:29:10,260 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_26-30.txt
+2025-03-19 22:29:10,276 - parse_conditions - INFO -   Found 44 conditions
+2025-03-19 22:29:10,276 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_1_PII_pages_1-2.txt
+2025-03-19 22:29:10,306 - parse_conditions - INFO -   Found 60 conditions
+2025-03-19 22:29:10,307 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_73-75.txt
+2025-03-19 22:29:10,321 - parse_conditions - INFO -   Found 41 conditions
+2025-03-19 22:29:10,322 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_43-45.txt
+2025-03-19 22:29:10,326 - parse_conditions - INFO -   Found 17 conditions
+2025-03-19 22:29:10,326 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_116-117.txt
+2025-03-19 22:29:10,328 - parse_conditions - INFO -   Found 8 conditions
+2025-03-19 22:29:10,329 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_51-52.txt
+2025-03-19 22:29:10,330 - parse_conditions - INFO -   Found 3 conditions
+2025-03-19 22:29:10,330 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_118-120.txt
+2025-03-19 22:29:10,331 - parse_conditions - INFO -   Found 3 conditions
+2025-03-19 22:29:10,331 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_11-15.txt
+2025-03-19 22:29:10,334 - parse_conditions - INFO -   Found 6 conditions
+2025-03-19 22:29:10,334 - parse_conditions - INFO - Processing /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/preprocessed/doc_0_PI_pages_48-50.txt
+2025-03-19 22:29:10,341 - parse_conditions - INFO -   Found 21 conditions
+2025-03-19 22:29:42,492 - parse_conditions - INFO - Found 4495 total conditions, 1910 unique conditions
+2025-03-19 22:29:42,501 - parse_conditions - INFO - Wrote 1910 conditions across 11 categories to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/1_extract_conditions_task_output.md
+2025-03-19 22:29:42,508 - parse_conditions - INFO - Wrote structured format to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/structured_conditions.md
+2025-03-19 22:29:42,510 - __main__ - INFO - Used parse_conditions.py for extraction
+2025-03-19 22:29:42,510 - __main__ - WARNING - Task risks did not produce expected output file
+2025-03-19 22:29:42,510 - __main__ - INFO - Using task-helper.py script for task: risks...
+2025-03-19 22:29:42,793 - __main__ - INFO - Task helper for risks completed successfully
+2025-03-19 22:29:42,793 - __main__ - WARNING - Task controls did not produce expected output file
+2025-03-19 22:29:42,793 - __main__ - INFO - Using task-helper.py script for task: controls...
+2025-03-19 22:29:43,327 - __main__ - INFO - Task helper for controls completed successfully
+2025-03-19 22:29:43,328 - __main__ - WARNING - Task tests did not produce expected output file
+2025-03-19 22:29:43,328 - __main__ - INFO - Using task-helper.py script for task: tests...
+2025-03-19 22:29:44,372 - __main__ - INFO - Task helper for tests completed successfully
+2025-03-19 22:29:44,372 - __main__ - WARNING - Task report did not produce expected output file
+2025-03-19 22:29:44,372 - __main__ - INFO - Using task-helper.py script for task: report...
+2025-03-19 22:29:50,748 - __main__ - INFO - Task helper for report completed successfully
+2025-03-19 22:29:50,749 - __main__ - INFO - ✅ Analysis completed successfully in 962.25 seconds!
+2025-03-19 22:29:50,749 - __main__ - INFO - Task outputs have been saved to the output directory.
+2025-03-19 22:29:50,749 - __main__ - INFO - Generated 0 output files
+2025-03-19 22:29:50,749 - __main__ - WARNING - Final compliance report not found

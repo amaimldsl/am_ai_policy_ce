@@ -555,3 +555,284 @@ LiteLLM completion() model= deepseek-chat; provider = deepseek
 2025-03-17 21:02:49,719 - __main__ - INFO - Task outputs have been saved to the output directory.
 2025-03-17 21:02:49,720 - __main__ - INFO - Generated 0 output files
 2025-03-17 21:02:49,720 - __main__ - WARNING - Final compliance report not found
+2025-03-19 21:38:43,387 - crew - INFO - Successfully loaded configuration from /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/config/agents.yaml
+2025-03-19 21:38:43,392 - crew - INFO - Successfully loaded configuration from /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/config/tasks.yaml
+2025-03-19 21:38:43,393 - crew - INFO - Created agent: policy_analyzer
+2025-03-19 21:38:43,394 - crew - INFO - Created agent: risk_assessor
+2025-03-19 21:38:43,394 - crew - INFO - Created agent: control_designer
+2025-03-19 21:38:43,395 - crew - INFO - Created agent: audit_planner
+2025-03-19 21:38:43,395 - crew - INFO - Created task: extract_conditions_task
+2025-03-19 21:38:43,396 - crew - INFO - Created task: identify_risks_task
+2025-03-19 21:38:43,396 - crew - INFO - Created task: design_controls_task
+2025-03-19 21:38:43,396 - crew - INFO - Created task: develop_tests_task
+2025-03-19 21:38:43,396 - crew - INFO - Created task: generate_report_task
+2025-03-19 21:38:43,403 - crew - INFO - Built crew with 4 agents and 5 tasks
+2025-03-19 21:38:43,404 - __main__ - INFO - Starting Policy Compliance Analysis Framework
+2025-03-19 21:38:43,404 - __main__ - INFO - Checking prerequisites...
+2025-03-19 21:38:43,405 - __main__ - INFO - Testing tools...
+2025-03-19 21:38:43,405 - __main__ - INFO - Testing PDF extraction tool...
+2025-03-19 21:38:43,406 - pdftest - INFO - 
+===== TESTING PDF TOOL =====
+2025-03-19 21:38:43,406 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=None, query=, process_all=False
+2025-03-19 21:38:43,407 - pdftest - INFO - Test result: Available chunks (122):
+0: doc_0_PI_pages_63-65.txt
+1: doc_0_PI_pages_33-35.txt
+2: doc_0_PI_pages_56-57.txt
+3: doc_0_PI_pages_21-25.txt
+4: doc_0_PI_pages_101-105.txt
+5: doc_0_PI_pages_66-70.txt
+6: doc...
+2025-03-19 21:38:43,407 - pdftest - INFO - 
+===== TESTING CHUNK LISTING =====
+2025-03-19 21:38:43,407 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=None, query=, process_all=False
+2025-03-19 21:38:43,408 - pdftest - INFO - Available chunks (122):
+0: doc_0_PI_pages_63-65.txt
+1: doc_0_PI_pages_33-35.txt
+2: doc_0_PI_pages_56-57.txt
+3: doc_0_PI_pages_21-25.txt
+4: doc_0_PI_pages_101-105.txt
+5: doc_0_PI_pages_66-70.txt
+6: doc_2_PIII_pages_1-5.txt
+7: doc_1_PII_pages_21-25.txt
+8: doc_0_PI_pages_146-147.txt
+9: doc_0_PI_pages_103-105.txt
+10: doc_1_PII_pages_26-27.txt
+11: doc_0_PI_pages_18-20.txt
+12: doc_0_PI_pages_28-30.txt
+13: doc_0_PI_pages_113-115.txt
+14: doc_0_PI_pages_96-97.txt
+15: doc_0_PI_pages_121-125.txt
+16: doc_0_PI_pages_86-90.txt
+17: doc_2_PIII_pages_1-2.txt
+18: doc_0_PI_pages_108-110.txt
+19: doc_0_PI_pages_88-90.txt
+20: doc_0_PI_pages_21-22.txt
+21: doc_0_PI_pages_133-135.txt
+22: doc_0_PI_pages_128-130.txt
+23: doc_0_PI_pages_53-55.txt
+24: doc_2_PIII_pages_6-10.txt
+25: doc_0_PI_pages_71-75.txt
+26: doc_0_PI_pages_81-82.txt
+27: doc_0_PI_pages_96-100.txt
+28: doc_1_PII_pages_1-5.txt
+29: doc_0_PI_pages_11-12.txt
+30: doc_1_PII_pages_3-5.txt
+31: doc_0_PI_pages_111-115.txt
+32: doc_0_PI_pages_141-143.txt
+33: doc_0_PI_pages_23-25.txt
+34: doc_0_PI_pages_111-112.txt
+35: doc_2_PIII_pages_21-22.txt
+36: doc_0_PI_pages_136-140.txt
+37: doc_0_PI_pages_68-70.txt
+38: doc_0_PI_pages_126-127.txt
+39: doc_2_PIII_pages_6-7.txt
+40: doc_0_PI_pages_136-137.txt
+41: doc_0_PI_pages_6-10.txt
+42: doc_0_PI_pages_81-85.txt
+43: doc_0_PI_pages_106-107.txt
+44: doc_0_PI_pages_71-72.txt
+45: doc_0_PI_pages_26-27.txt
+46: doc_1_PII_pages_21-22.txt
+47: doc_0_PI_pages_13-15.txt
+48: doc_1_PII_pages_6-7.txt
+49: doc_0_PI_pages_61-62.txt
+50: doc_2_PIII_pages_3-5.txt
+51: doc_2_PIII_pages_16-20.txt
+52: doc_1_PII_pages_13-15.txt
+53: doc_0_PI_pages_116-120.txt
+54: doc_0_PI_pages_36-40.txt
+55: doc_1_PII_pages_31-32.txt
+56: doc_0_PI_pages_31-32.txt
+57: doc_1_PII_pages_8-10.txt
+58: doc_1_PII_pages_11-15.txt
+59: doc_0_PI_pages_91-92.txt
+60: doc_0_PI_pages_93-95.txt
+61: doc_0_PI_pages_143-145.txt
+62: doc_1_PII_pages_18-20.txt
+63: doc_1_PII_pages_16-17.txt
+64: doc_0_PI_pages_121-122.txt
+65: doc_1_PII_pages_23-25.txt
+66: doc_0_PI_pages_131-135.txt
+67: doc_0_PI_pages_38-40.txt
+68: doc_0_PI_pages_16-20.txt
+69: doc_0_PI_pages_101-102.txt
+70: chunk_index.txt
+71: doc_0_PI_pages_91-95.txt
+72: doc_0_PI_pages_138-140.txt
+73: doc_0_PI_pages_76-80.txt
+74: doc_0_PI_pages_8-10.txt
+75: doc_0_PI_pages_56-60.txt
+76: doc_1_PII_pages_11-12.txt
+77: doc_2_PIII_pages_11-15.txt
+78: doc_0_PI_pages_141-142.txt
+79: doc_0_PI_pages_36-37.txt
+80: doc_0_PI_pages_86-87.txt
+81: doc_0_PI_pages_1-2.txt
+82: doc_0_PI_pages_106-110.txt
+83: doc_0_PI_pages_46-47.txt
+84: doc_2_PIII_pages_13-15.txt
+85: doc_0_PI_pages_126-130.txt
+86: doc_0_PI_pages_66-67.txt
+87: doc_2_PIII_pages_18-20.txt
+88: doc_0_PI_pages_78-80.txt
+89: doc_2_PIII_pages_8-10.txt
+90: doc_1_PII_pages_16-20.txt
+91: doc_0_PI_pages_16-17.txt
+92: doc_0_PI_pages_123-125.txt
+93: doc_0_PI_pages_76-77.txt
+94: doc_0_PI_pages_58-60.txt
+95: doc_0_PI_pages_1-5.txt
+96: doc_0_PI_pages_51-55.txt
+97: doc_1_PII_pages_6-10.txt
+98: doc_0_PI_pages_98-100.txt
+99: doc_2_PIII_pages_16-17.txt
+100: doc_0_PI_pages_83-85.txt
+101: doc_0_PI_pages_41-42.txt
+102: doc_0_PI_pages_61-65.txt
+103: doc_2_PIII_pages_11-12.txt
+104: doc_0_PI_pages_144-147.txt
+105: doc_1_PII_pages_28-30.txt
+106: doc_1_PII_pages_26-30.txt
+107: doc_0_PI_pages_3-5.txt
+108: doc_0_PI_pages_46-50.txt
+109: doc_0_PI_pages_41-45.txt
+110: doc_0_PI_pages_6-7.txt
+111: doc_0_PI_pages_31-35.txt
+112: doc_0_PI_pages_131-132.txt
+113: doc_0_PI_pages_26-30.txt
+114: doc_1_PII_pages_1-2.txt
+115: doc_0_PI_pages_73-75.txt
+116: doc_0_PI_pages_43-45.txt
+117: doc_0_PI_pages_116-117.txt
+118: doc_0_PI_pages_51-52.txt
+119: doc_0_PI_pages_118-120.txt
+120: doc_0_PI_pages_11-15.txt
+121: doc_0_PI_pages_48-50.txt
+2025-03-19 21:38:43,408 - pdftest - INFO - 
+===== TESTING SINGLE CHUNK EXTRACTION =====
+2025-03-19 21:38:43,408 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=0, query=, process_all=False
+2025-03-19 21:38:43,409 - pdftest - INFO - Total extracted text length: 33
+2025-03-19 21:38:43,409 - pdftest - INFO - Sample of extracted text:
+No chunk path or index specified....
+
+2025-03-19 21:38:43,409 - pdftest - INFO - Number of pages extracted: 0
+2025-03-19 21:38:43,409 - pdftest - INFO - Number of documents referenced: 0
+2025-03-19 21:38:43,409 - pdftest - INFO - 
+===== TESTING SEARCH FUNCTIONALITY =====
+2025-03-19 21:38:43,409 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=0, query=shall, process_all=False
+2025-03-19 21:38:43,410 - pdftest - INFO - No chunk path or index specified.
+2025-03-19 21:38:43,410 - pdftest - INFO - 
+===== TESTING FILE IO TOOL =====
+2025-03-19 21:38:43,411 - pdftest - INFO - Content written to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/test_file.txt
+2025-03-19 21:38:43,412 - pdftest - INFO - Read result: This is a test file.
+2025-03-19 21:38:43,412 - pdftest - INFO - Read matches write: True
+2025-03-19 21:38:43,412 - __main__ - INFO - PDF extraction test completed successfully
+2025-03-19 21:38:43,412 - __main__ - INFO - Preprocessing documents...
+2025-03-19 21:38:43,415 - __main__ - INFO - Starting document preprocessing...
+2025-03-19 21:38:43,581 - document_processor - INFO - Processing PI.pdf (147 pages)
+2025-03-19 21:38:44,211 - document_processor - INFO -   Split and saved chunk 1/30 into two parts
+2025-03-19 21:38:45,051 - document_processor - INFO -   Split and saved chunk 2/30 into two parts
+2025-03-19 21:38:45,789 - document_processor - INFO -   Split and saved chunk 3/30 into two parts
+2025-03-19 21:38:46,634 - document_processor - INFO -   Split and saved chunk 4/30 into two parts
+2025-03-19 21:38:47,486 - document_processor - INFO -   Split and saved chunk 5/30 into two parts
+2025-03-19 21:38:48,416 - document_processor - INFO -   Split and saved chunk 6/30 into two parts
+2025-03-19 21:38:49,245 - document_processor - INFO -   Split and saved chunk 7/30 into two parts
+2025-03-19 21:38:50,065 - document_processor - INFO -   Split and saved chunk 8/30 into two parts
+2025-03-19 21:38:50,826 - document_processor - INFO -   Split and saved chunk 9/30 into two parts
+2025-03-19 21:38:51,646 - document_processor - INFO -   Split and saved chunk 10/30 into two parts
+2025-03-19 21:38:52,353 - document_processor - INFO -   Split and saved chunk 11/30 into two parts
+2025-03-19 21:38:53,103 - document_processor - INFO -   Split and saved chunk 12/30 into two parts
+2025-03-19 21:38:53,768 - document_processor - INFO -   Split and saved chunk 13/30 into two parts
+2025-03-19 21:38:54,504 - document_processor - INFO -   Split and saved chunk 14/30 into two parts
+2025-03-19 21:38:55,299 - document_processor - INFO -   Split and saved chunk 15/30 into two parts
+2025-03-19 21:38:56,118 - document_processor - INFO -   Split and saved chunk 16/30 into two parts
+2025-03-19 21:38:56,950 - document_processor - INFO -   Split and saved chunk 17/30 into two parts
+2025-03-19 21:38:57,749 - document_processor - INFO -   Split and saved chunk 18/30 into two parts
+2025-03-19 21:38:58,684 - document_processor - INFO -   Split and saved chunk 19/30 into two parts
+2025-03-19 21:38:59,452 - document_processor - INFO -   Split and saved chunk 20/30 into two parts
+2025-03-19 21:39:00,237 - document_processor - INFO -   Split and saved chunk 21/30 into two parts
+2025-03-19 21:39:01,089 - document_processor - INFO -   Split and saved chunk 22/30 into two parts
+2025-03-19 21:39:02,050 - document_processor - INFO -   Split and saved chunk 23/30 into two parts
+2025-03-19 21:39:02,867 - document_processor - INFO -   Split and saved chunk 24/30 into two parts
+2025-03-19 21:39:03,637 - document_processor - INFO -   Split and saved chunk 25/30 into two parts
+2025-03-19 21:39:04,441 - document_processor - INFO -   Split and saved chunk 26/30 into two parts
+2025-03-19 21:39:05,200 - document_processor - INFO -   Split and saved chunk 27/30 into two parts
+2025-03-19 21:39:06,099 - document_processor - INFO -   Split and saved chunk 28/30 into two parts
+2025-03-19 21:39:06,902 - document_processor - INFO -   Split and saved chunk 29/30 into two parts
+2025-03-19 21:39:07,095 - document_processor - INFO -   Saved chunk 30/30: doc_0_PI_pages_146-147.txt
+2025-03-19 21:39:07,115 - document_processor - INFO - Processing PII.pdf (32 pages)
+2025-03-19 21:39:07,789 - document_processor - INFO -   Split and saved chunk 1/7 into two parts
+2025-03-19 21:39:08,717 - document_processor - INFO -   Split and saved chunk 2/7 into two parts
+2025-03-19 21:39:09,635 - document_processor - INFO -   Split and saved chunk 3/7 into two parts
+2025-03-19 21:39:10,486 - document_processor - INFO -   Split and saved chunk 4/7 into two parts
+2025-03-19 21:39:11,319 - document_processor - INFO -   Split and saved chunk 5/7 into two parts
+2025-03-19 21:39:12,155 - document_processor - INFO -   Split and saved chunk 6/7 into two parts
+2025-03-19 21:39:12,319 - document_processor - INFO -   Saved chunk 7/7: doc_1_PII_pages_31-32.txt
+2025-03-19 21:39:12,333 - document_processor - INFO - Processing PIII.pdf (22 pages)
+2025-03-19 21:39:13,008 - document_processor - INFO -   Split and saved chunk 1/5 into two parts
+2025-03-19 21:39:13,808 - document_processor - INFO -   Split and saved chunk 2/5 into two parts
+2025-03-19 21:39:14,562 - document_processor - INFO -   Split and saved chunk 3/5 into two parts
+2025-03-19 21:39:15,455 - document_processor - INFO -   Split and saved chunk 4/5 into two parts
+2025-03-19 21:39:15,730 - document_processor - INFO -   Saved chunk 5/5: doc_2_PIII_pages_21-22.txt
+2025-03-19 21:39:15,730 - document_processor - INFO - Created 81 document chunks for processing
+2025-03-19 21:39:15,731 - __main__ - INFO - Document preprocessing completed successfully with 81 chunks
+2025-03-19 21:39:15,731 - __main__ - INFO - Importing CrewAI framework...
+2025-03-19 21:39:15,731 - __main__ - INFO - Starting comprehensive compliance analysis...
+2025-03-19 21:39:15,759 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:39:16,501 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:39:32,463 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:39:32,484 - tools.PDFTool - INFO - PDFTool running with: chunk_path=, chunk_index=None, query=, process_all=True
+2025-03-19 21:39:32,488 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:39:32,680 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:40:08,703 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:40:08,718 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:40:08,909 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:40:19,660 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:40:19,666 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_63-65.txt, chunk_index=None, query=Section 4.1, process_all=False
+2025-03-19 21:40:19,670 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:40:19,868 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:40:41,778 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:40:41,781 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_63-65.txt, chunk_index=None, query=, process_all=True
+2025-03-19 21:40:41,784 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:40:41,992 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:41:28,237 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:41:28,257 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:41:28,472 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:41:48,339 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:41:48,342 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_63-65.txt, chunk_index=None, query=risk management framework, process_all=False
+2025-03-19 21:41:48,347 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:41:48,635 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:42:03,288 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:42:03,292 - tools.PDFTool - INFO - PDFTool running with: chunk_path=doc_0_PI_pages_63-65.txt, chunk_index=None, query=risk management framework, process_all=True
+2025-03-19 21:42:03,301 - tools.PDFTool - WARNING - Chunk text too large (15472 chars), truncating to 15000 chars
+2025-03-19 21:42:03,305 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:42:03,516 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:42:56,435 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:42:56,450 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:42:56,653 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:43:13,486 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:43:13,493 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:43:13,693 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:43:26,635 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:43:26,642 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:43:26,852 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:45:29,534 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:45:29,553 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-03-19 21:45:30,034 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 21:48:23,142 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-19 21:48:23,161 - __main__ - INFO - ✅ Analysis completed successfully in 547.43 seconds!
+2025-03-19 21:48:23,161 - __main__ - INFO - Task outputs have been saved to the output directory.
+2025-03-19 21:48:23,161 - __main__ - INFO - Generated 0 output files
+2025-03-19 21:48:23,161 - __main__ - WARNING - Final compliance report not found
