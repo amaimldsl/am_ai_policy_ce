@@ -524,13 +524,44 @@ def main():
             output_files = list(output_dir.glob("*.md"))
             logger.info(f"Generated {len(output_files)} output files")
             
-            # Log final report location
-            final_report = output_dir / "5_final_compliance_report.md"
-            if final_report.exists():
+      
+            #############################
+            final_report_candidates = [
+                output_dir / "5_final_compliance_report.md",
+                output_dir / "final_compliance_report.md", 
+                output_dir / "6_final_compliance_report.md",
+                output_dir / "generate_report_task_output.md"
+            ]
+
+            final_report = None
+            for candidate in final_report_candidates:
+                if candidate.exists():
+                    final_report = candidate
+                    break
+
+            if final_report:
                 logger.info(f"Final compliance report saved to: {final_report}")
                 logger.info(f"Report size: {final_report.stat().st_size / 1024:.1f} KB")
             else:
-                logger.warning("Final compliance report not found")
+                logger.warning("Final compliance report not found, checking for any report-like files...")
+                # As a fallback, look for any MD file with "report" in the name
+                report_files = list(output_dir.glob("*report*.md"))
+                if report_files:
+                    final_report = report_files[0]  # Use the first one found
+                    logger.info(f"Found report-like file: {final_report}")
+                    logger.info(f"Report size: {final_report.stat().st_size / 1024:.1f} KB")
+                else:
+                    logger.warning("No report files found in the output directory")
+                    # If no report exists, trigger creation of a basic one as fallback
+                    run_task_helper("report")
+
+
+
+            ############################
+
+
+
+
             
             return 0
         except Exception as crew_error:

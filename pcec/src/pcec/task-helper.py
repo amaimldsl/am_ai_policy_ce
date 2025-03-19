@@ -1296,12 +1296,17 @@ def run_generate_report():
             cond_summary += "|-------------|-------------|--------|\n"
             
             for condition in sorted_conditions[:10]:  # Increased to show more conditions
-                # Truncate description for table readability
+                # Truncate description for table readability, but avoid adding unnecessary ellipses
                 desc = condition.get('description', 'No description')
-                #########################
-                #if len(desc) > 70:
-                #    desc = desc[:67] + "..."
-                #########################
+                if len(desc) > 100:
+                    # If it already ends with ellipsis, don't add another one
+                    if desc.endswith(('...', '..', '.,')):
+                        # Just truncate
+                        desc = desc[:97]
+                    else:
+                        # Add ellipsis only if we're actually truncating
+                        desc = desc[:97] + "..."
+                
                 cond_summary += f"| {condition.get('id', 'Unknown')} | {desc} | {condition.get('reference', 'Unknown')} |\n"
             
             if len(sorted_conditions) > 10:
@@ -1348,10 +1353,16 @@ def run_generate_report():
                 condition_ids = risk.get('condition_ids', [risk.get('condition_id', 'Unknown')])
                 conditions_text = ', '.join(condition_ids)
                 
-                # Truncate description for table readability
+                # Truncate description for table readability, but avoid adding unnecessary ellipses
                 desc = risk.get('description', 'No description')
-                if len(desc) > 70:
-                    desc = desc[:67] + "..."
+                if len(desc) > 100:
+                    # If it already ends with ellipsis, don't add another one
+                    if desc.endswith(('...', '..', '.,')):
+                        # Just truncate
+                        desc = desc[:97]
+                    else:
+                        # Add ellipsis only if we're actually truncating
+                        desc = desc[:97] + "..."
                 
                 risk_summary += f"| {risk.get('id', 'Unknown')} | {conditions_text} | {desc} | {risk.get('priority', 'Medium')} |\n"
             
@@ -1397,10 +1408,16 @@ def run_generate_report():
             control_summary += "|------------|--------------|-------------|------|\n"
             
             for control in sorted_controls[:10]:  # Increased to show more controls
-                # Truncate description for table readability
+                # Truncate description for table readability, but avoid adding unnecessary ellipses
                 desc = control.get('description', 'No description')
-                if len(desc) > 70:
-                    desc = desc[:67] + "..."
+                if len(desc) > 100:
+                    # If it already ends with ellipsis, don't add another one
+                    if desc.endswith(('...', '..', '.,')):
+                        # Just truncate
+                        desc = desc[:97]
+                    else:
+                        # Add ellipsis only if we're actually truncating
+                        desc = desc[:97] + "..."
                 
                 control_summary += f"| {control.get('id', 'Unknown')} | {control.get('risk_id', 'Unknown')} | {desc} | {control.get('type', 'Unknown')} |\n"
             
@@ -1433,10 +1450,16 @@ def run_generate_report():
             test_summary += "|---------|-----------------|----------------|\n"
             
             for test in sorted_tests[:10]:  # Increased to show more tests
-                # Truncate objective for table readability
+                # Truncate objective for table readability, but avoid adding unnecessary ellipses
                 objective = test.get('objective', 'No objective')
-                if len(objective) > 70:
-                    objective = objective[:67] + "..."
+                if len(objective) > 100:
+                    # If it already ends with ellipsis, don't add another one
+                    if objective.endswith(('...', '..', '.,')):
+                        # Just truncate
+                        objective = objective[:97]
+                    else:
+                        # Add ellipsis only if we're actually truncating
+                        objective = objective[:97] + "..."
                 
                 test_summary += f"| {test.get('test_id', 'Unknown')} | {test.get('control_id', 'Unknown')} | {objective} |\n"
             
@@ -1637,19 +1660,29 @@ def run_generate_report():
                 f.write(section)
                 f.flush()  # Flush after each section to ensure it's written
                 
-        logger.info(f"Successfully generated comprehensive final report to {report_file}")
-        
-        # Verify the report was written completely
-        report_size = report_file.stat().st_size
-        logger.info(f"Report size: {report_size} bytes")
-        
-        return True
+        # Make sure the file was created
+        if report_file.exists():
+            logger.info(f"Successfully generated comprehensive final report to {report_file}")
+            
+            # Also create a copy with the alternate naming pattern for compatibility
+            alternate_report = output_dir / "final_compliance_report.md"
+            import shutil
+            shutil.copy(report_file, alternate_report)
+            logger.info(f"Created compatibility copy at {alternate_report}")
+            
+            # Verify the report was written completely
+            report_size = report_file.stat().st_size
+            logger.info(f"Report size: {report_size} bytes")
+            
+            return True
+        else:
+            logger.error(f"Report generation failed - file {report_file} not found")
+            return False
         
     except Exception as e:
         logger.error(f"Error running generate report task: {str(e)}")
         logger.error(f"Exception details: {traceback.format_exc()}")
         return False
-
 
 
 def main():
