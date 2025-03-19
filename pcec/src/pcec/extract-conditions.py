@@ -103,6 +103,15 @@ def is_meaningful_condition(text):
     if len(text) < 10:
         return False
     
+    # Must end with proper sentence terminator unless it's a bullet point or heading
+    is_bullet_item = re.match(r'^[•\-*]|\d+\.', text.strip())
+    is_section_title = re.match(r'^\d+(\.\d+)*\s+[A-Z]|^[A-Z][a-z]+\s+\d+(\.\d+)*\s+', text) and len(text) < 50
+    
+    if not (is_bullet_item or is_section_title):
+        if not any(text.endswith(c) for c in ['.', '!', '?', ':', ';']):
+            # Reject truncated sentences
+            return False
+    
     # Must contain action verbs or modal verbs (expanded list)
     modal_verbs = [
         'shall', 'must', 'should', 'will', 'may', 'can', 'could', 'would', 
@@ -177,6 +186,55 @@ def is_meaningful_condition(text):
     # Default case - reject
     return False
 
+###################################
+
+def extract_complete_sentence(text, partial_sentence):
+    """
+    Extract a complete sentence containing the partial sentence fragment.
+    Ensures extraction up to a proper sentence terminator (., !, ?)
+    """
+    # Clean the partial sentence for matching
+    clean_partial = partial_sentence.rstrip('.').rstrip('…').strip()
+    
+    # If clean_partial is too short, don't try to match
+    if len(clean_partial) < 10:
+        return partial_sentence
+        
+    # Find where this partial sentence begins in the full text
+    start_pos = text.find(clean_partial)
+    if start_pos == -1:
+        return partial_sentence  # Couldn't find the partial in the text
+    
+    # Find the sentence beginning (working backwards)
+    sentence_start = start_pos
+    for i in range(start_pos, 0, -1):
+        if text[i-1] in ['.', '!', '?', '\n', '\r'] and text[i].isspace():
+            sentence_start = i
+            break
+    
+    # Find the sentence end (first proper terminator after the partial)
+    sentence_end = len(text)
+    terminators = ['.', '!', '?']
+    
+    # Start from the end of the partial sentence
+    search_start = start_pos + len(clean_partial)
+    for i in range(search_start, min(len(text), search_start + 500)):
+        if text[i] in terminators and (i+1 == len(text) or text[i+1].isspace()):
+            sentence_end = i + 1  # Include the terminator
+            break
+    
+    # Extract the complete sentence
+    complete_sentence = text[sentence_start:sentence_end].strip()
+    
+    # If we somehow got a very short sentence, use the original
+    if len(complete_sentence) < len(partial_sentence):
+        return partial_sentence
+    
+    return complete_sentence
+
+
+###################################
+
 def extract_requirements(text):
     """Extract policy requirements from text - SIGNIFICANTLY ENHANCED VERSION with better context handling"""
     requirements = []
@@ -214,9 +272,13 @@ def extract_requirements(text):
     # Track the current document reference
     current_doc_ref = "Unknown"
     
-    # Use a larger sliding window approach to capture more context
-    context_window_size = 10  # Increased window size for better context
+    # Keep the full text to help extract complete sentences
+    full_text = text
+    
+    # Use a sliding window approach to capture more context
+    context_window_size = 10
     context_buffer = []
+    
     
     for i, line in enumerate(lines):
         # Update document reference when found
@@ -254,9 +316,19 @@ def extract_requirements(text):
                 sentence_lower = sentence.lower()
                 # Check if sentence contains requirement keywords
                 if any(pattern in sentence_lower for pattern in all_patterns) and len(sentence.strip()) > 10:
+                    # Get clean sentence text
+                    clean_sentence = sentence.strip()
+                    
+                    # If sentence appears to be truncated, try to extract the complete sentence
+                    if clean_sentence.endswith(('...', '..', '.,')) or not any(clean_sentence.endswith(c) for c in ['.', '!', '?']):
+                        # Find and extract the complete sentence
+                        complete_sentence = extract_complete_sentence(full_text, clean_sentence)
+                        if complete_sentence:
+                            clean_sentence = complete_sentence
+                    
                     # Add to requirements list with the document reference
                     requirements.append({
-                        "text": sentence.strip(),
+                        "text": clean_sentence,
                         "reference": current_doc_ref
                     })
         
@@ -438,23 +510,11 @@ def extract_requirements(text):
         has_similar = False
         
         for req in requirements:
-            req_lower = req["text"].lower()
-            # Check word overlap
-            sample_words = set(sample_lower.split())
-            req_words = set(req_lower.split())
-            
-            if len(sample_words.intersection(req_words)) > len(sample_words) * 0.5:
-                has_similar = True
-                break
+            if req["text"].endswith(('...', '..', '.,')) or not any(req["text"].endswith(c) for c in ['.', '!', '?']):
+                complete_sentence = extract_complete_sentence(full_text, req["text"])
+                if complete_sentence:
+                    req["text"] = complete_sentence
         
-        # If no similar requirement found, add the sample
-        if not has_similar:
-            requirements.append({
-                "text": sample,
-                "reference": "Example requirement",
-                "context": "Added from standard requirements list"
-            })
-    
     # Deduplicate requirements by checking for similar text
     unique_requirements = []
     for req in requirements:
