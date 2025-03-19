@@ -1,0 +1,9 @@
+2025-03-20 00:01:55,416 - INFO - Running identify risks task
+2025-03-20 00:01:55,564 - INFO - Successfully generated risk assessment to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/2_identify_risks_task_output.md
+2025-03-20 00:01:55,565 - INFO - All requested tasks completed successfully
+2025-03-20 00:01:55,650 - INFO - Running design controls task
+2025-03-20 00:01:55,901 - INFO - Successfully generated control framework to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/3_design_controls_task_output.md
+2025-03-20 00:01:55,903 - INFO - All requested tasks completed successfully
+2025-03-20 00:01:55,989 - INFO - Running develop tests task
+2025-03-20 00:01:56,780 - INFO - Successfully generated audit program to /home/ayman/Documents/GitHub/am_ai_policy_ce/pcec/src/pcec/output/4_develop_tests_task_output.md
+2025-03-20 00:01:56,791 - INFO - All requested tasks completed successfully
