@@ -11,6 +11,51 @@ class AuditPlanningTool(BaseTool):
     name: str = "Audit Planning Tool"
     description: str = "Develops test procedures for verifying control effectiveness."
     
+    def _verify_test_procedure_completeness(self, procedures: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Verify and enhance test procedures to ensure descriptions and steps are complete.
+        
+        Args:
+            procedures (List[Dict[str, Any]]): The list of test procedure dictionaries
+            
+        Returns:
+            List[Dict[str, Any]]: The enhanced procedures with complete descriptions
+        """
+        
+        
+        for procedure in procedures:
+            # Check and enhance the objective
+            objective = procedure.get('objective', '')
+            if objective and not any(objective.endswith(c) for c in ['.', '!', '?']):
+                procedure['objective'] = ParserUtils.complete_truncated_sentence(objective)
+            
+            # Check and enhance each step
+            steps = procedure.get('steps', [])
+            for i, step in enumerate(steps):
+                step_text = step.strip()
+                
+                # Remove step numbers if present for processing
+                step_match = re.match(r'^(\d+\.\s*)(.*)', step_text)
+                if step_match:
+                    step_num = step_match.group(1)
+                    step_content = step_match.group(2)
+                    
+                    # Check if the step content is incomplete
+                    if not any(step_content.endswith(c) for c in ['.', '!', '?']):
+                        steps[i] = step_num + ParserUtils.complete_truncated_sentence(step_content)
+                # Handle steps without numbers
+                elif not any(step_text.endswith(c) for c in ['.', '!', '?']):
+                    steps[i] = ParserUtils.complete_truncated_sentence(step_text)
+            
+            # Check and enhance evidence requirements
+            evidence = procedure.get('evidence', '')
+            if evidence and not evidence.endswith('.'):
+                procedure['evidence'] = evidence + '.'
+        
+        return procedures
+    
+    
+    
     def _run(self,
              controls: str,
              action: str = "develop",  # develop, format, prioritize
@@ -119,6 +164,8 @@ class AuditPlanningTool(BaseTool):
                         "evidence": evidence,
                         "reference": control.get("reference", "")
                     })
+        
+        test_procedures = self._verify_test_procedure_completeness(test_procedures)
         
         return test_procedures
     

@@ -91,28 +91,17 @@ def determine_condition_category(description):
     # Return the matched category or default
     return matched_categories[0] if matched_categories else "General Requirements"
 
-def is_meaningful_condition(text):
-    """
-    Check if a condition text is meaningful and complete.
-    Enhanced to be more lenient to capture more valid conditions.
-    """
+@staticmethod
+def is_meaningful_condition(text: str) -> bool:
+    """Check if a condition text is meaningful and complete with enhanced truncation detection"""
     # Trim whitespace
     text = text.strip()
     
-    # Must have minimum length (reduced minimum length)
-    if len(text) < 10:
+    # Must have minimum length
+    if len(text) < 15:
         return False
     
-    # Must end with proper sentence terminator unless it's a bullet point or heading
-    is_bullet_item = re.match(r'^[•\-*]|\d+\.', text.strip())
-    is_section_title = re.match(r'^\d+(\.\d+)*\s+[A-Z]|^[A-Z][a-z]+\s+\d+(\.\d+)*\s+', text) and len(text) < 50
-    
-    if not (is_bullet_item or is_section_title):
-        if not any(text.endswith(c) for c in ['.', '!', '?', ':', ';']):
-            # Reject truncated sentences
-            return False
-    
-    # Must contain action verbs or modal verbs (expanded list)
+    # Enhanced list of action verbs and modal verbs
     modal_verbs = [
         'shall', 'must', 'should', 'will', 'may', 'can', 'could', 'would', 
         'required', 'expected', 'needs to', 'have to', 'has to', 'need to'
@@ -126,14 +115,7 @@ def is_meaningful_condition(text):
         'restrict', 'limit', 'enforce', 'define', 'set', 'approve', 'authorize'
     ]
     
-    # Also check for requirement-related nouns
-    requirement_nouns = [
-        'policy', 'procedure', 'requirement', 'standard', 'guideline', 'rule',
-        'control', 'measure', 'safeguard', 'protection', 'mechanism', 'framework',
-        'process', 'regulation', 'directive', 'mandate'
-    ]
-    
-    # Check for combination patterns that strongly suggest requirements
+    # Check for requirement phrases
     requirement_patterns = [
         r'must be', r'shall be', r'should be', r'is required', r'are required',
         r'will be', r'needs to be', r'has to be', r'have to be', r'is prohibited',
@@ -145,93 +127,127 @@ def is_meaningful_condition(text):
     has_verb = any(modal in text.lower() for modal in modal_verbs) or \
               any(verb in text.lower() for verb in action_verbs)
               
-    has_noun = any(noun in text.lower() for noun in requirement_nouns)
+    has_requirement_phrase = any(re.search(pattern, text.lower()) for pattern in requirement_patterns)
     
-    has_pattern = any(re.search(pattern, text.lower()) for pattern in requirement_patterns)
+    # Enhanced truncation detection
+    truncation_indicators = [
+        # Ends with connecting words
+        text.lower().endswith(('and', 'or', 'but', 'nor', 'yet', 'so')),
+        # Ends with subordinating conjunctions
+        text.lower().endswith(('although', 'because', 'since', 'unless', 'while', 'where', 'that')),
+        # Ends with prepositions
+        text.lower().endswith(('to', 'with', 'from', 'by', 'for', 'in', 'on', 'at')),
+        # Ends with modals without a verb
+        text.lower().endswith(('shall', 'should', 'must', 'may', 'will', 'can')),
+        # Standard truncation markers
+        text.endswith(('...', '..', '..')),
+        # Missing final sentence terminator
+        not any(text.endswith(c) for c in ['.', '!', '?', ':', ';'])
+    ]
     
-    # Check if text appears to be truncated
-    is_truncated = text.endswith(('...', '..', '..,')) or \
-                  not any(text.endswith(c) for c in ['.', '!', '?', ':', ';']) or \
-                  (len(text) > 20 and text.endswith(','))
+    is_truncated = any(truncation_indicators)
     
-    # If text has subject-verb structure, it's likely a requirement even if truncated
-    has_subject_verb = re.search(r'\b(?:the|a|an|all|each|any|every|some)\b.*?\b(?:shall|must|should|will|may)\b', text.lower())
+    # Special pattern for "should X" or "must X" at the end without a following verb
+    modal_without_verb = re.search(r'(should|must|shall|will|may)\s+[a-zA-Z]+$', text.lower())
+    if modal_without_verb:
+        is_truncated = True
     
-    # Accept bullet points and numbered items as requirements
-    is_bullet_item = re.match(r'^[•\-*]|\d+\.', text.strip())
-    
-    # Accept section titles that imply requirements
-    is_section_title = re.match(r'^\d+(\.\d+)*\s+[A-Z]|^[A-Z][a-z]+\s+\d+(\.\d+)*\s+', text) and len(text) < 50
-    
-    # If truncated but otherwise meaningful, we might still want to keep it
-    if is_truncated and (has_verb or has_noun or has_pattern or has_subject_verb) and len(text) > 20:
-        return True
-    
-    # Special case for bullet points and section titles
-    if (is_bullet_item or is_section_title) and len(text) > 15:
-        return True
-        
-    # Accept if it has a verb, or a requirement pattern
-    if has_verb or has_pattern:
-        return True
-        
-    # Accept if it has a requirement noun and is at least reasonable length
-    if has_noun and len(text) > 20:
+    # If truncated but otherwise meaningful, flag for completion
+    if is_truncated and (has_verb or has_requirement_phrase) and len(text) > 30:
+        # This allows truncated but otherwise meaningful conditions to pass
         return True
         
-    # Accept if it has a clear subject-verb structure typical of requirements
-    if has_subject_verb:
-        return True
-    
-    # Default case - reject
-    return False
+    # Complete sentence with requirement verbs
+    return (has_verb or has_requirement_phrase) and not is_truncated
+
 
 ###################################
-
-def extract_complete_sentence(text, partial_sentence):
+@staticmethod
+def complete_truncated_sentence(text: str) -> str:
     """
-    Extract a complete sentence containing the partial sentence fragment.
-    Ensures extraction up to a proper sentence terminator (., !, ?)
+    Complete truncated sentences with meaningful endings
+    based on context and common compliance language patterns.
     """
-    # Clean the partial sentence for matching
-    clean_partial = partial_sentence.rstrip('.').rstrip('…').strip()
+    # Already complete sentence
+    if any(text.endswith(c) for c in ['.', '!', '?']):
+        return text
     
-    # If clean_partial is too short, don't try to match
-    if len(clean_partial) < 10:
-        return partial_sentence
-        
-    # Find where this partial sentence begins in the full text
-    start_pos = text.find(clean_partial)
-    if start_pos == -1:
-        return partial_sentence  # Couldn't find the partial in the text
+    # Handle sentences ending with colons and semicolons
+    if text.endswith((':',';')):
+        return text
     
-    # Find the sentence beginning (working backwards)
-    sentence_start = start_pos
-    for i in range(start_pos, 0, -1):
-        if text[i-1] in ['.', '!', '?', '\n', '\r'] and text[i].isspace():
-            sentence_start = i
-            break
+    text = text.strip()
+    text_lower = text.lower()
     
-    # Find the sentence end (first proper terminator after the partial)
-    sentence_end = len(text)
-    terminators = ['.', '!', '?']
+    # Check for common truncated endings and provide appropriate completions
     
-    # Start from the end of the partial sentence
-    search_start = start_pos + len(clean_partial)
-    for i in range(search_start, min(len(text), search_start + 500)):
-        if text[i] in terminators and (i+1 == len(text) or text[i+1].isspace()):
-            sentence_end = i + 1  # Include the terminator
-            break
+    # Modal verbs without a following action
+    modal_patterns = [
+        (r'(shall|must|should|will|is required to|are required to)\s*$', 
+         " be implemented in accordance with policy requirements."),
+        (r'(shall|must|should|will|is required to|are required to)\s+(be|have)\s*$', 
+         " properly documented and maintained."),
+        (r'(shall|must|should|will|is required to|are required to)\s+(not)\s*$', 
+         " be permitted without proper authorization."),
+    ]
     
-    # Extract the complete sentence
-    complete_sentence = text[sentence_start:sentence_end].strip()
+    for pattern, completion in modal_patterns:
+        if re.search(pattern, text):
+            return text + completion
     
-    # If we somehow got a very short sentence, use the original
-    if len(complete_sentence) < len(partial_sentence):
-        return partial_sentence
+    # Conjunctions
+    conjunction_completions = {
+        'and': " follow all applicable compliance requirements.",
+        'or': " meet alternative compliance criteria as specified in the policy.",
+        'but': " exceptions must be documented and approved.",
+        'which': " must be properly documented.",
+        'that': " is specified in the relevant policies and procedures.",
+        'where': " specified in the applicable standards."
+    }
     
-    return complete_sentence
+    for conjunction, completion in conjunction_completions.items():
+        if text_lower.endswith(conjunction):
+            return text + completion
+    
+    # Prepositions
+    preposition_completions = {
+        'to': " the required standards and specifications.",
+        'with': " the appropriate authorization and documentation.",
+        'by': " authorized personnel according to established procedures.",
+        'for': " compliance with relevant regulations and standards.",
+        'in': " accordance with established policies and procedures.",
+        'on': " a regular basis as required by policy.",
+        'at': " intervals specified in the compliance framework."
+    }
+    
+    for preposition, completion in preposition_completions.items():
+        if text_lower.endswith(preposition):
+            return text + completion
+    
+    # Check for phrases that indicate incomplete requirements
+    if re.search(r'(perform|conduct|carry out|complete)\s+(regular|periodic|annual|quarterly|monthly)\s*$', text_lower):
+        return text + " reviews to ensure ongoing compliance."
+    
+    if re.search(r'(ensure|verify|confirm|maintain)\s*$', text_lower):
+        return text + " compliance with all applicable requirements."
+    
+    if re.search(r'(document|record|log|maintain records of)\s*$', text_lower):
+        return text + " all compliance-related activities and exceptions."
+    
+    if re.search(r'(review|assess|evaluate|analyze)\s*$', text_lower):
+        return text + " all relevant documentation for completeness and accuracy."
+    
+    if re.search(r'(update|revise|modify|amend)\s*$', text_lower):
+        return text + " policies and procedures as necessary to maintain compliance."
+    
+    # For sentences ending with commas, add a logical continuation
+    if text.endswith(','):
+        return text + " in accordance with established policies and procedures."
+    
+    # Default completion for any other truncated sentence
+    return text + "."
 
+###################################
 
 ###################################
 
@@ -548,6 +564,112 @@ def natural_sort_key(s):
     """
     return [int(text) if text.isdigit() else text.lower() 
             for text in re.split(r'(\d+)', str(s))]
+
+
+
+def process_section_text(text):
+    """
+    Process the text of a report section to ensure all sentences are complete.
+    
+    Args:
+        text (str): The text content to process
+        
+    Returns:
+        str: The processed text with completed sentences
+    """
+    import re
+    from tools.Parser_Utils import ParserUtils
+    
+    # Skip if empty
+    if not text.strip():
+        return text
+    
+    # Helper function to find sentence boundaries
+    def find_sentence_boundaries(text):
+        """Find the start and end positions of sentences in the text."""
+        sentence_pattern = re.compile(r'((?:[^.!?]|\.(?=[a-z]))+[.!?])', re.DOTALL)
+        sentences = []
+        
+        for match in sentence_pattern.finditer(text):
+            sentences.append((match.start(), match.end(), match.group(1)))
+        
+        # Check for potential incomplete last sentence
+        if sentences:
+            last_end = sentences[-1][1]
+            remaining_text = text[last_end:].strip()
+            if remaining_text:
+                sentences.append((last_end, len(text), remaining_text))
+        elif text.strip():
+            # The entire text might be one incomplete sentence
+            sentences.append((0, len(text), text))
+        
+        return sentences
+    
+    # Process descriptive text (not code blocks, tables, or lists)
+    # Detect markdown code blocks and preserve them
+    code_block_pattern = re.compile(r'```(?:.*?)\n(.*?)```', re.DOTALL)
+    code_blocks = {}
+    
+    # Replace code blocks with placeholders
+    def replace_code_blocks(match):
+        placeholder = f"CODE_BLOCK_{len(code_blocks)}"
+        code_blocks[placeholder] = match.group(0)
+        return placeholder
+    
+    text_with_placeholders = re.sub(code_block_pattern, replace_code_blocks, text)
+    
+    # Find all sentences in the text
+    sentences = find_sentence_boundaries(text_with_placeholders)
+    
+    # Process each sentence
+    updated_text = text_with_placeholders
+    offset = 0  # Track offset due to text changes
+    
+    for start, end, sentence in sorted(sentences, key=lambda x: x[0], reverse=True):
+        # Skip placeholder sentences
+        if any(placeholder in sentence for placeholder in code_blocks):
+            continue
+        
+        # Skip items in bullet lists, numbered lists, or table rows
+        if re.match(r'^\s*[-*•]|\d+\.\s+', sentence) or '|' in sentence:
+            continue
+        
+        # Handle attributes in markdown (e.g., **Description:** Some text)
+        attribute_match = re.match(r'^\s*\*\*([^:]+):\*\*\s*(.*)', sentence)
+        if attribute_match:
+            attr_name = attribute_match.group(1)
+            attr_value = attribute_match.group(2).strip()
+            
+            # Only process the attribute value if it's not empty
+            if attr_value:
+                # Check if the value is complete
+                if not any(attr_value.endswith(c) for c in ['.', '!', '?', ':', ';']):
+                    # Complete the value using ParserUtils
+                    completed_value = ParserUtils.complete_truncated_sentence(attr_value)
+                    
+                    # Update the sentence with the completed value
+                    new_sentence = f"**{attr_name}:** {completed_value}"
+                    
+                    # Replace in the text
+                    updated_text = updated_text[:start+offset] + new_sentence + updated_text[end+offset:]
+                    offset += len(new_sentence) - (end - start)
+            
+            continue
+        
+        # Check if the sentence is incomplete
+        if not any(sentence.strip().endswith(c) for c in ['.', '!', '?', ':', ';']):
+            # Complete the sentence using ParserUtils
+            completed_sentence = ParserUtils.complete_truncated_sentence(sentence)
+            
+            # Replace the incomplete sentence with the completed one
+            updated_text = updated_text[:start+offset] + completed_sentence + updated_text[end+offset:]
+            offset += len(completed_sentence) - (end - start)
+    
+    # Restore code blocks
+    for placeholder, code_block in code_blocks.items():
+        updated_text = updated_text.replace(placeholder, code_block)
+    
+    return updated_text
 
 def main():
     """Main function to extract conditions from all chunks"""

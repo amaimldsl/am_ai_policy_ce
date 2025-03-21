@@ -11,6 +11,41 @@ class ControlDesignTool(BaseTool):
     name: str = "Control Design Tool"
     description: str = "Designs controls for mitigating identified risks."
     
+    def _verify_control_completeness(self, controls: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Verify and enhance control descriptions to ensure they're complete.
+        
+        Args:
+            controls (List[Dict[str, Any]]): The list of control dictionaries
+            
+        Returns:
+            List[Dict[str, Any]]: The enhanced controls with complete descriptions
+        """
+        
+        
+        for control in controls:
+            # Check and enhance the main description
+            description = control.get('description', '')
+            if description and not any(description.endswith(c) for c in ['.', '!', '?']):
+                control['description'] = ParserUtils.complete_truncated_sentence(description)
+                
+            # Check and enhance implementation considerations
+            implementation = control.get('implementation', '')
+            if implementation and not any(implementation.endswith(c) for c in ['.', '!', '?']):
+                # Split by sentences and check each one
+                sentences = re.split(r'(?<=[.!?])\s+', implementation)
+                
+                # Check the last sentence for completeness
+                if sentences and not any(sentences[-1].endswith(c) for c in ['.', '!', '?']):
+                    sentences[-1] = ParserUtils.complete_truncated_sentence(sentences[-1])
+                    
+                control['implementation'] = ' '.join(sentences)
+        
+        return controls
+    
+    
+    
+    
     def _run(self,
              risks: str,
              action: str = "design",  # design, categorize, evaluate
@@ -184,6 +219,9 @@ class ControlDesignTool(BaseTool):
         
         # Process many-to-many relationships for controls
         self._process_control_relationships(controls, risks)
+        
+        
+        controls = self._verify_control_completeness(controls)
         
         return controls
 

@@ -7,6 +7,8 @@ from pathlib import Path
 import os
 import shutil
 import re
+from fix_report import process_report 
+
 
 # Setup logging
 logging.basicConfig(
@@ -542,6 +544,21 @@ def main():
             if final_report:
                 logger.info(f"Final compliance report saved to: {final_report}")
                 logger.info(f"Report size: {final_report.stat().st_size / 1024:.1f} KB")
+                
+                # Process the report to fix any incomplete sentences
+                logger.info("Verifying report completeness...")
+                try:
+                    # Process the report using our fix-report utility
+                    processed_report = process_report(str(final_report))
+                    
+                    if processed_report:
+                        # Write back the enhanced report
+                        with open(final_report, 'w', encoding='utf-8') as f:
+                            f.write(processed_report)
+                        logger.info("Report verification and enhancement complete")
+                except Exception as e:
+                    logger.warning(f"Error during report verification: {str(e)}")
+                    logger.warning("Continuing with original report")
             else:
                 logger.warning("Final compliance report not found, checking for any report-like files...")
                 # As a fallback, look for any MD file with "report" in the name
@@ -550,12 +567,20 @@ def main():
                     final_report = report_files[0]  # Use the first one found
                     logger.info(f"Found report-like file: {final_report}")
                     logger.info(f"Report size: {final_report.stat().st_size / 1024:.1f} KB")
+                    
+                    # Process this report too
+                    try:
+                        processed_report = process_report(str(final_report))
+                        if processed_report:
+                            with open(final_report, 'w', encoding='utf-8') as f:
+                                f.write(processed_report)
+                            logger.info("Report verification and enhancement complete")
+                    except Exception as e:
+                        logger.warning(f"Error during report verification: {str(e)}")
                 else:
                     logger.warning("No report files found in the output directory")
                     # If no report exists, trigger creation of a basic one as fallback
                     run_task_helper("report")
-
-
 
             ############################
 

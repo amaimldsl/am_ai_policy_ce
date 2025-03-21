@@ -1,14 +1,15 @@
 # Comprehensive Compliance Analysis Report
 
+
 ## 1. Executive Summary
 
 This report provides a comprehensive analysis of compliance conditions identified from policy documents, the associated risks of non-compliance, controls designed to mitigate these risks, and test procedures to verify control effectiveness. The analysis ensures full traceability from compliance conditions to risks, controls, and audit procedures.
 
 **Summary Statistics**:
-- **Compliance Conditions Identified**: 1910
-- **Risks Assessed**: 1910
-- **Controls Designed**: 11460
-- **Test Procedures Developed**: 11460
+- **Compliance Conditions Identified**: 1910.
+- **Risks Assessed**: 1910.
+- **Controls Designed**: 11460.
+- **Test Procedures Developed**: 11460.
 
 - **Condition Categories**: 11
 - **Risk Categories**: 3
@@ -18,17 +19,19 @@ This report provides a comprehensive analysis of compliance conditions identifie
 **Key High-Priority Risks**:
 1. Risk of non-compliance with C-25: Majority of the unconditionally cancellable commitments are subjec...
 2. Risk of non-compliance with C-27: Majority of the unconditionally cancellable commitments are subjec...
-3. Risk of non-compliance with C-2297: Certain market
+3. Risk of non-compliance with C-2297: Certain market.
 practices may eliminate or at least significantly...
 4. Risk of non-compliance with C-2502: As part of the ICAAP exercise, each bank should carry out integr...
-5. Risk of non-compliance with C-2993: Certain other jurisdictions have pursued monetary policies
+5. Risk of non-compliance with C-2993: Certain other jurisdictions have pursued monetary policies.
 that ...
+
 
 ## 2. Compliance Conditions by Category
 
+
 ### Access Management
 
-Total conditions in this category: 8
+Total conditions in this category: 8.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -49,9 +52,10 @@ provides access... | PI.pdf, Page 140 |
 | C-3971 | With regard to the bank’s risk management and control function, the ICAAP report is
 expected to d... | PII.pdf, Page 29 |
 
+
 ### Compliance
 
-Total conditions in this category: 277
+Total conditions in this category: 277.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -77,9 +81,10 @@ are specifically required to ensure compliance with other aspects of the banki..
 are specifically required to ensure compliance with other aspects of the banki... | PI.pdf, Page 24 |
 *Plus 267 more conditions in this category*
 
+
 ### Data Protection
 
-Total conditions in this category: 94
+Total conditions in this category: 94.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -104,9 +109,10 @@ Freque... | PIII.pdf, Page 3 |
 same lev... | PIII.pdf, Page 3 |
 *Plus 84 more conditions in this category*
 
+
 ### General Requirements
 
-Total conditions in this category: 961
+Total conditions in this category: 961.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -126,9 +132,10 @@ collateral balance ... | PI.pdf, Page 65 |
 | C-19 | The bank must classify the bond based on the entity classification (Claim on Corporate) and | PI.pdf, Page 34 |
 *Plus 951 more conditions in this category*
 
+
 ### Governance
 
-Total conditions in this category: 104
+Total conditions in this category: 104.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -159,9 +166,10 @@ tests should be embedded in banks’ business decision-making and risk managemen
 at... | PII.pdf, Page 21 |
 *Plus 94 more conditions in this category*
 
+
 ### Incident Management
 
-Total conditions in this category: 37
+Total conditions in this category: 37.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -184,9 +192,10 @@ Government Iss... | PI.pdf, Page 110 |
 as i... | PI.pdf, Page 90 |
 *Plus 27 more conditions in this category*
 
+
 ### Monitoring
 
-Total conditions in this category: 75
+Total conditions in this category: 75.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -210,9 +219,10 @@ perf... | PI.pdf, Page 146 |
 differ depending on the methodology; for example, if the rating met... | PI.pdf, Page 146 |
 *Plus 65 more conditions in this category*
 
+
 ### Physical Security
 
-Total conditions in this category: 18
+Total conditions in this category: 18.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -235,9 +245,10 @@ and capital consumption should be included in the banks’ ri... | PII.pdf, Page
 compute the econo... | PII.pdf, Page 15 |
 *Plus 8 more conditions in this category*
 
+
 ### Reporting
 
-Total conditions in this category: 312
+Total conditions in this category: 312.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -262,9 +273,10 @@ reported as the marked-to-market value of the notional... | PI.pdf, Page 103 |
 bank's reporting currency. | PI.pdf, Page 104 |
 *Plus 302 more conditions in this category*
 
+
 ### Security
 
-Total conditions in this category: 23
+Total conditions in this category: 23.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
@@ -288,25 +300,28 @@ security is not GCC sover... | PI.pdf, Page 110 |
 The bank from the previous example has the same portfolio... | PI.pdf, Page 81 |
 *Plus 13 more conditions in this category*
 
+
 ### Training
 
-Total conditions in this category: 1
+Total conditions in this category: 1.
 
 | Condition ID | Description | Source |
 |-------------|-------------|--------|
 | C-772 | Where the format of a template is described as fixed, banks should complete the fields in
 accorda... | PIII.pdf, Page 6 |
 
+
 ## 3. Risk Assessment by Category
+
 
 ### Access Control
 
-Total risks in this category: 7
+Total risks in this category: 7.
 
 **Priority Distribution**:
-- High: 0
-- Medium: 7
-- Low: 0
+- High: 0.
+- Medium: 7.
+- Low: 0.
 
 | Risk ID | Related Conditions | Description | Priority |
 |---------|-------------------|-------------|----------|
@@ -322,14 +337,15 @@ create a... | Medium |
 | R-3972 | C-3972 | Risk of non-compliance with C-3972: expected to describe
 (i) How the RMF has access to all busine... | Medium |
 
+
 ### Compliance
 
-Total risks in this category: 1777
+Total risks in this category: 1777.
 
 **Priority Distribution**:
-- High: 5
-- Medium: 1772
-- Low: 0
+- High: 5.
+- Medium: 1772.
+- Low: 0.
 
 | Risk ID | Related Conditions | Description | Priority |
 |---------|-------------------|-------------|----------|
@@ -350,14 +366,15 @@ on the... | Medium |
 | R-10 | C-10 | Risk of non-compliance with C-10: on the credit risk framework, and designed to provide protectio... | Medium |
 *Plus 1767 more risks in this category*
 
+
 ### Data Protection
 
-Total risks in this category: 126
+Total risks in this category: 126.
 
 **Priority Distribution**:
-- High: 0
-- Medium: 126
-- Low: 0
+- High: 0.
+- Medium: 126.
+- Low: 0.
 
 | Risk ID | Related Conditions | Description | Priority |
 |---------|-------------------|-------------|----------|
@@ -378,16 +395,18 @@ wake of the 2007–09 financial crisis, it becam... | Medium |
 | R-179 | C-179 | Risk of non-compliance with C-179: The information provided by banks under Pillar 3 should be sub... | Medium |
 *Plus 116 more risks in this category*
 
+
 ## 4. Control Framework by Category
+
 
 ### Access Control
 
-Total controls in this category: 60
+Total controls in this category: 60.
 
 **Control Type Distribution**:
-- Corrective: 10
-- Detective: 20
-- Preventive: 30
+- Corrective: 10.
+- Detective: 20.
+- Preventive: 30.
 
 | Control ID | Related Risk | Description | Type |
 |------------|--------------|-------------|------|
@@ -403,14 +422,15 @@ Total controls in this category: 60
 | C-525-2 | R-525 | Establish targeted monitoring system to detect non-compliance with C-525: Outsourcing offers the ... | Detective |
 *Plus 50 more controls in this category*
 
+
 ### Change Management
 
-Total controls in this category: 432
+Total controls in this category: 432.
 
 **Control Type Distribution**:
-- Corrective: 72
-- Detective: 144
-- Preventive: 216
+- Corrective: 72.
+- Detective: 144.
+- Preventive: 216.
 
 | Control ID | Related Risk | Description | Type |
 |------------|--------------|-------------|------|
@@ -426,14 +446,15 @@ Total controls in this category: 432
 | C-85-2 | R-85 | Establish targeted monitoring system to detect non-compliance with C-85: All banks must comply wi... | Detective |
 *Plus 422 more controls in this category*
 
+
 ### Configuration Management
 
-Total controls in this category: 36
+Total controls in this category: 36.
 
 **Control Type Distribution**:
-- Corrective: 6
-- Detective: 12
-- Preventive: 18
+- Corrective: 6.
+- Detective: 12.
+- Preventive: 18.
 
 | Control ID | Related Risk | Description | Type |
 |------------|--------------|-------------|------|
@@ -453,14 +474,15 @@ E... | Preventive |
 | C-1272-2 | R-1272 | Establish targeted monitoring system to detect non-compliance with C-1272: The independence of an... | Detective |
 *Plus 26 more controls in this category*
 
+
 ### Data Protection
 
-Total controls in this category: 852
+Total controls in this category: 852.
 
 **Control Type Distribution**:
-- Corrective: 142
-- Detective: 284
-- Preventive: 426
+- Corrective: 142.
+- Detective: 284.
+- Preventive: 426.
 
 | Control ID | Related Risk | Description | Type |
 |------------|--------------|-------------|------|
@@ -476,14 +498,15 @@ Total controls in this category: 852
 | C-8-2 | R-8 | Establish targeted monitoring system to detect non-compliance with C-8: Counterparty credit risk ... | Detective |
 *Plus 842 more controls in this category*
 
+
 ### Incident Management
 
-Total controls in this category: 6782
+Total controls in this category: 6782.
 
 **Control Type Distribution**:
-- Corrective: 1680
-- Detective: 62
-- Preventive: 5040
+- Corrective: 1680.
+- Detective: 62.
+- Preventive: 5040.
 
 | Control ID | Related Risk | Description | Type |
 |------------|--------------|-------------|------|
@@ -499,12 +522,13 @@ Total controls in this category: 6782
 | C-3 | R-3 | Develop specific remediation procedures to address identified instances of non-compliance with C-... | Corrective |
 *Plus 6772 more controls in this category*
 
+
 ### Security Monitoring
 
-Total controls in this category: 3298
+Total controls in this category: 3298.
 
 **Control Type Distribution**:
-- Detective: 3298
+- Detective: 3298.
 
 | Control ID | Related Risk | Description | Type |
 |------------|--------------|-------------|------|
@@ -521,11 +545,13 @@ of marginin... | Detective |
 | C-5-2 | R-5 | Establish targeted monitoring system to detect non-compliance with C-5: For example, suppose the ... | Detective |
 *Plus 3288 more controls in this category*
 
+
 ## 5. Audit Test Procedures by Category
+
 
 ### Access Control Testing
 
-Total test procedures in this category: 36
+Total test procedures in this category: 36.
 
 | Test ID | Related Control | Test Objective |
 |---------|-----------------|----------------|
@@ -541,9 +567,10 @@ Total test procedures in this category: 36
 | T-526 | C-526 | Verify implementation and effectiveness of control C-526 Domains: access, compliance, monitoring,... |
 *Plus 26 more test procedures in this category*
 
+
 ### Data Protection Testing
 
-Total test procedures in this category: 369
+Total test procedures in this category: 369.
 
 | Test ID | Related Control | Test Objective |
 |---------|-----------------|----------------|
@@ -559,9 +586,10 @@ Total test procedures in this category: 369
 | T-98 | C-98 | Verify implementation and effectiveness of control C-98 Domains: data, security, compliance, moni... |
 *Plus 359 more test procedures in this category*
 
+
 ### General Test Procedures
 
-Total test procedures in this category: 5578
+Total test procedures in this category: 5578.
 
 | Test ID | Related Control | Test Objective |
 |---------|-----------------|----------------|
@@ -577,9 +605,10 @@ Total test procedures in this category: 5578
 | T-4-B | C-4 | Verify specific aspect of C-4: specific control components |
 *Plus 5568 more test procedures in this category*
 
+
 ### Monitoring Testing
 
-Total test procedures in this category: 5477
+Total test procedures in this category: 5477.
 
 | Test ID | Related Control | Test Objective |
 |---------|-----------------|----------------|
@@ -595,7 +624,9 @@ Total test procedures in this category: 5477
 | T-4 | C-4 | Verify implementation and effectiveness of control C-4 Domains: compliance, monitoring. |
 *Plus 5467 more test procedures in this category*
 
+
 ## 6. Category Traceability Matrices
+
 
 ### Condition Categories to Risk Categories
 
@@ -621,6 +652,7 @@ This matrix shows how condition categories map to risk categories.
 | Security | Compliance | R-7, R-8, R-10, +20 more |
 | Training | Compliance | R-772 |
 
+
 ### Risk Categories to Control Categories
 
 This matrix shows how risk categories map to control categories.
@@ -636,6 +668,7 @@ This matrix shows how risk categories map to control categories.
 | Data Protection | Access Control | C-1142, C-1142, C-1142, +15 more |
 | | Change Management | C-98, C-98, C-98, +21 more |
 | | Data Protection | C-44, C-44, C-44, +711 more |
+
 
 ### Control Categories to Test Categories
 
@@ -657,9 +690,11 @@ This matrix shows how control categories map to test categories.
 | | Monitoring Testing | T-1, T-1, T-1, +5171 more |
 | Security Monitoring | General Test Procedures | T-1-B, T-1-B, T-1-B, +4820 more |
 | | Monitoring Testing | T-1, T-1, T-1, +5068 more |
+
 ## 7. Detailed Item Traceability
 
 This section provides detailed traceability between specific items.
+
 
 ### Item Traceability Matrix
 
@@ -2575,21 +2610,24 @@ This section provides detailed traceability between specific items.
 | C-4185 | R-4185 | C-4185, C-4185-2 | T-4185, T-4185-B |
 | C-4186 | R-4186 | C-4186, C-4186-2 | T-4186, T-4186-B |
 | C-4243 | R-4243 | C-4243, C-4243-2 | T-4243, T-4243-B |
+
 ## 8. Recommendations
 
 Based on the comprehensive analysis of compliance requirements, risks, controls, and test procedures, the following recommendations are provided:
 
+
 ### Category-Specific Recommendations
 
 **Compliance**:
-- Prioritize implementation of controls related to high-priority risks in this category
-- Establish dedicated oversight for all Compliance compliance areas
-- Develop enhanced monitoring mechanisms specific to Compliance risks
+- Prioritize implementation of controls related to high-priority risks in this category.
+- Establish dedicated oversight for all Compliance compliance areas specified in the requirements.
+- Develop enhanced monitoring mechanisms specific to Compliance risks.
+
 
 ### General Recommendations
 
-1. Establish a regular compliance monitoring program based on the test procedures outlined in this report
-2. Implement a phased approach to control implementation, starting with high-priority items
-3. Develop comprehensive training materials for staff on compliance requirements and controls
-4. Establish a mechanism for periodically reviewing and updating the compliance framework
-5. Create a compliance dashboard to track implementation status and effectiveness of controls
+1. Establish a regular compliance monitoring program based on the test procedures outlined in this report.
+2. Implement a phased approach to control implementation, starting with high-priority items.
+3. Develop comprehensive training materials for staff on compliance requirements and controls.
+4. Establish a mechanism for periodically reviewing and updating the compliance framework.
+5. Create a compliance dashboard to track implementation status and effectiveness of controls.

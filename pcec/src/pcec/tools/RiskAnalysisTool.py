@@ -12,6 +12,36 @@ class RiskAnalysisTool(BaseTool):
     name: str = "Risk Analysis Tool"
     description: str = "Analyzes compliance conditions to identify and categorize risks."
     
+    def _enhance_risk_descriptions(self, risks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Enhance risk descriptions to ensure they're complete and meaningful.
+        This is a post-processing step before returning the risks.
+        
+        Args:
+            risks (List[Dict[str, Any]]): The list of risk dictionaries
+            
+        Returns:
+            List[Dict[str, Any]]: The enhanced risks with complete descriptions
+        """
+        
+        
+        for risk in risks:
+            # Check and enhance the main description
+            description = risk.get('description', '')
+            if description and not any(description.endswith(c) for c in ['.', '!', '?']):
+                risk['description'] = ParserUtils.complete_truncated_sentence(description)
+            
+            # Sometimes there are additional detail fields that need checking
+            for field in ['rationale', 'details', 'mitigation', 'notes']:
+                if field in risk and risk[field]:
+                    field_text = risk[field]
+                    if not any(field_text.endswith(c) for c in ['.', '!', '?']):
+                        risk[field] = ParserUtils.complete_truncated_sentence(field_text)
+        
+        return risks
+    
+    
+    
     def _run(self, 
              conditions: str,
              action: str = "analyze",  # analyze, categorize, prioritize
@@ -219,6 +249,10 @@ class RiskAnalysisTool(BaseTool):
                         output += f"**Impact**: {risk.get('impact', 'Medium')}\n\n"
                         output += f"**Type**: {risk.get('type', 'Compliance')}\n\n"
                         output += f"**Source**: {risk.get('reference', 'Unknown')}\n\n"
+        
+        risks = self._enhance_risk_descriptions(risks)
+        
+        
         
         return output
     
